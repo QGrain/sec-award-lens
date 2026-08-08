@@ -1,0 +1,45 @@
+name: Refresh citation snapshots
+
+on:
+  schedule:
+    - cron: "17 8 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: astral-sh/setup-uv@c771a70e6277c0a99b617c7a806ffedaca235ff9 # v9.0.0
+      - run: uv python install 3.11
+      - run: uv sync --frozen
+      - name: Append snapshot from pinned IDs
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+        run: |
+          if test -z "$OPENALEX_API_KEY"; then
+            echo "::error::OPENALEX_API_KEY repository secret is required"
+            exit 1
+          fi
+          snapshot="data/snapshots/$(date -u +%F)-openalex.jsonl"
+          if test -e "$snapshot"; then
+            echo "Snapshot already exists: $snapshot"
+          else
+            uv run secawardlens citations refresh
+          fi
+      - run: uv run secawardlens data validate
+      - run: uv run secawardlens build
+      - uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
+        with:
+          branch: automation/citation-refresh
+          delete-branch: true
+          commit-message: "data: refresh OpenAlex citation snapshot"
+          title: "data: refresh OpenAlex citation snapshot"
+          body: |
+            Automated append-only citation refresh using existing verified OpenAlex IDs.
+
+            The workflow ran repository validation and regenerated the static site data.

@@ -1,0 +1,999 @@
+papers:
+- id: ieee-sp-2023-mega-malleable-encryption-goes-awry
+  canonical_title: 'MEGA: Malleable Encryption Goes Awry'
+  authors:
+  - name: Matilda Backendal
+  - name: Miro Haller
+  - name: Kenneth Paterson
+  publication_year: 2023
+  venue_name: 2023 IEEE Symposium on Security and Privacy
+  official_paper_url: null
+  identifiers:
+  - scheme: openalex
+    value: W4384948645
+    source_url: https://api.openalex.org/works/W4384948645
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.1109/sp46215.2023.10179290
+    source_url: https://api.crossref.org/works/10.1109/sp46215.2023.10179290
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.ieee-security.org/TC/SP2023/program-awards.html
+  - https://openalex.org/W4384948645
+- id: ieee-sp-2023-practically-exploitable-cryptographic-vulnerabil
+  canonical_title: Practically-exploitable Cryptographic Vulnerabilities in Matrix
+  authors:
+  - name: Martin R. Albrecht
+  - name: Sofía Celi
+  - name: Benjamin Dowling
+  - name: Daniel Jones
+  publication_year: 2023
+  venue_name: 2023 IEEE Symposium on Security and Privacy
+  official_paper_url: null
+  identifiers:
+  - scheme: openalex
+    value: W4389546188
+    source_url: https://api.openalex.org/works/W4389546188
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.1109/sp46215.2023.10351027
+    source_url: https://api.crossref.org/works/10.1109/sp46215.2023.10351027
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.ieee-security.org/TC/SP2023/program-awards.html
+  - https://openalex.org/W4389546188
+- id: ieee-sp-2023-weak-fiat-shamir-attacks-on-modern-proof-systems
+  canonical_title: Weak Fiat-Shamir Attacks on Modern Proof Systems
+  authors:
+  - name: Quang Dao
+  - name: Jim Miller
+  - name: Opal Wright
+  - name: Paul Grubbs
+  publication_year: 2023
+  venue_name: 2023 IEEE Symposium on Security and Privacy
+  official_paper_url: null
+  identifiers:
+  - scheme: openalex
+    value: W4385080282
+    source_url: https://api.openalex.org/works/W4385080282
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.1109/sp46215.2023.10179408
+    source_url: https://api.crossref.org/works/10.1109/sp46215.2023.10179408
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.ieee-security.org/TC/SP2023/program-awards.html
+  - https://openalex.org/W4385080282
+- id: ieee-sp-2023-typing-high-speed-cryptography-against-spectre-v
+  canonical_title: Typing High-Speed Cryptography against Spectre v1
+  authors:
+  - name: Basavesh Ammanaghatta Shivakumar
+  - name: Gilles Barthe
+  - name: Benjamin Grégoire
+  - name: Vincent Laporte
+  - name: Tiago Oliviera
+  - name: Swarn Priya
+  - name: Peter Schwabe
+  - name: Lucas Tabary-Maujean
+  publication_year: 2023
+  venue_name: 2023 IEEE Symposium on Security and Privacy
+  official_paper_url: null
+  identifiers:
+  - scheme: openalex
+    value: W4385080320
+    source_url: https://api.openalex.org/works/W4385080320
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.1109/sp46215.2023.10179418
+    source_url: https://api.crossref.org/works/10.1109/sp46215.2023.10179418
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.ieee-security.org/TC/SP2023/program-awards.html
+  - https://openalex.org/W4385080320
+- id: ieee-sp-2023-red-team-vs-blue-team-a-real-world-hardware-troj
+  canonical_title: 'Red Team vs. Blue Team: A Real-World Hardware Trojan Detection Case Study Across Four Modern CMOS Technology Generations'
+  authors:
+  - name: Endres Puschner
+  - name: Thorben Moos
+  - name: Christian Kison
+  - name: Steffen Becker
+  - name: Amir Moradi
+  - name: Christof Paar
+  publication_year: 2023
+  venue_name: 2023 IEEE Symposium on Security and Privacy
+  official_paper_url: null
+  identifiers:
+  - scheme: openalex
+    value: W4384948639
+    source_url: https://api.openalex.org/works/W4384948639
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.1109/sp46215.2023.10179341
+    source_url: https://api.crossref.org/works/10.1109/sp46215.2023.10179341
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.ieee-security.org/TC/SP2023/program-awards.html
+  - https://openalex.org/W4384948639
+- id: ieee-sp-2023-it-s-dom-clobbering-time-attack-techniques-preva
+  canonical_title: 'It''s (DOM) Clobbering Time: Attack Techniques, Prevalence, and Defenses'
+  authors:
+  - name: Soheil Khodayari
+  - name: Giancarlo Pellegrino
+  publication_year: 2023
+  venue_name: 2023 IEEE Symposium on Security and Privacy
+  official_paper_url: null
+  identifiers:
+  - scheme: openalex
+    value: W4385679748
+    source_url: https://api.openalex.org/works/W4385679748
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.1109/sp46215.2023.10179403
+    source_url: https://api.crossref.org/works/10.1109/sp46215.2023.10179403
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.ieee-security.org/TC/SP2023/program-awards.html
+  - https://openalex.org/W4385679748
+- id: ieee-sp-2023-the-leaky-web-automated-discovery-of-cross-site
+  canonical_title: 'The Leaky Web: Automated Discovery of Cross-Site Information Leaks in Browsers and the Web'
+  authors:
+  - name: Jannis Rautenstrauch
+  - name: Giancarlo Pellegrino
+  - name: Ben Stock
+  publication_year: 2023
+  venue_name: 2023 IEEE Symposium on Security and Privacy
+  official_paper_url: null
+  identifiers:
+  - scheme: openalex
+    value: W4384948721
+    source_url: https://api.openalex.org/works/W4384948721
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.1109/sp46215.2023.10179311
+    source_url: https://api.crossref.org/works/10.1109/sp46215.2023.10179311
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.ieee-security.org/TC/SP2023/program-awards.html
+  - https://openalex.org/W4384948721
+- id: ieee-sp-2023-wave-a-verifiably-secure-webassembly-sandboxing
+  canonical_title: 'WaVe: a verifiably secure WebAssembly sandboxing runtime'
+  authors:
+  - name: Evan Johnson
+  - name: Evan Laufer
+  - name: Zijie Zhao
+  - name: Shravan Narayan
+  - name: Stefan Savage
+  - name: Deian Stefan
+  - name: Fraser Brown
+  publication_year: 2023
+  venue_name: 2023 IEEE Symposium on Security and Privacy
+  official_paper_url: null
+  identifiers:
+  - scheme: openalex
+    value: W4385080305
+    source_url: https://api.openalex.org/works/W4385080305
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.1109/sp46215.2023.10179357
+    source_url: https://api.crossref.org/works/10.1109/sp46215.2023.10179357
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.ieee-security.org/TC/SP2023/program-awards.html
+  - https://openalex.org/W4385080305
+- id: ieee-sp-2023-characterizing-everyday-misuse-of-smart-home-dev
+  canonical_title: Characterizing Everyday Misuse of Smart Home Devices
+  authors:
+  - name: Phoebe Moh
+  - name: Pubali Datta
+  - name: Noel Warford
+  - name: Adam Bates
+  - name: Nathan Malkin
+  - name: Michelle L. Mazurek
+  publication_year: 2023
+  venue_name: 2023 IEEE Symposium on Security and Privacy
+  official_paper_url: null
+  identifiers:
+  - scheme: openalex
+    value: W4385080361
+    source_url: https://api.openalex.org/works/W4385080361
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.1109/sp46215.2023.10179476
+    source_url: https://api.crossref.org/works/10.1109/sp46215.2023.10179476
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.ieee-security.org/TC/SP2023/program-awards.html
+  - https://openalex.org/W4385080361
+- id: ieee-sp-2023-not-yet-another-digital-id-privacy-preserving-hu
+  canonical_title: 'Not Yet Another Digital ID: Privacy-preserving Humanitarian Aid Distribution'
+  authors:
+  - name: Boya Wang
+  - name: Wouter Lueks
+  - name: Justinas Sukaitis
+  - name: Vincent Graf Narbel
+  - name: Carmela Troncoso
+  publication_year: 2023
+  venue_name: 2023 IEEE Symposium on Security and Privacy
+  official_paper_url: null
+  identifiers:
+  - scheme: openalex
+    value: W4385679771
+    source_url: https://api.openalex.org/works/W4385679771
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.1109/sp46215.2023.10179306
+    source_url: https://api.crossref.org/works/10.1109/sp46215.2023.10179306
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.ieee-security.org/TC/SP2023/program-awards.html
+  - https://openalex.org/W4385679771
+- id: ieee-sp-2023-in-eighty-percent-of-the-cases-i-select-the-pass
+  canonical_title: '“In Eighty Percent of the Cases, I Select the Password for Them”: Security and Privacy Challenges, Advice, and Opportunities at Cybercafes in Kenya'
+  authors:
+  - name: Collins W. Munyendo
+  - name: Yasemin Acar
+  - name: Adam J. Aviv
+  publication_year: 2023
+  venue_name: 2023 IEEE Symposium on Security and Privacy
+  official_paper_url: null
+  identifiers:
+  - scheme: openalex
+    value: W4385679811
+    source_url: https://api.openalex.org/works/W4385679811
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.1109/sp46215.2023.10179410
+    source_url: https://api.crossref.org/works/10.1109/sp46215.2023.10179410
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.ieee-security.org/TC/SP2023/program-awards.html
+  - https://openalex.org/W4385679811
+- id: ieee-sp-2023-space-odyssey-an-experimental-software-security
+  canonical_title: 'Space Odyssey: An Experimental Software Security Analysis of Satellites'
+  authors:
+  - name: Johannes Willbold
+  - name: Moritz Schloegel
+  - name: Manuel Vögele
+  - name: Maximilian Gerhardt
+  - name: Thorsten Holz
+  - name: Ali Abbasi
+  publication_year: 2023
+  venue_name: 2023 IEEE Symposium on Security and Privacy
+  official_paper_url: null
+  identifiers:
+  - scheme: openalex
+    value: W4389546099
+    source_url: https://api.openalex.org/works/W4389546099
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.1109/sp46215.2023.10351029
+    source_url: https://api.crossref.org/works/10.1109/sp46215.2023.10351029
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.ieee-security.org/TC/SP2023/program-awards.html
+  - https://openalex.org/W4389546099
+- id: usenix-security-2023-botscreen-trust-everybody-but-cut-the-aimbots-yo
+  canonical_title: 'BotScreen: Trust Everybody, but Cut the Aimbots Yourself'
+  authors:
+  - name: Minyeop Choi
+  - name: Gihyuk Ko
+  - name: Sang Kil Cha
+  publication_year: 2023
+  venue_name: 32nd USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/choi
+  identifiers:
+  - scheme: openalex
+    value: W4393633303
+    source_url: https://api.openalex.org/works/W4393633303
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+  - https://openalex.org/W4393633303
+- id: usenix-security-2023-treesync-authenticated-group-management-for-mess
+  canonical_title: 'TreeSync: Authenticated Group Management for Messaging Layer Security'
+  authors:
+  - name: Théophile Wallez
+  - name: Jonathan Protzenko
+  - name: Benjamin Beurdouche
+  - name: Karthikeyan Bhargavan
+  publication_year: 2023
+  venue_name: 32nd USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/wallez
+  identifiers:
+  - scheme: openalex
+    value: W4392466677
+    source_url: https://api.openalex.org/works/W4392466677
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+  - https://openalex.org/W4392466677
+- id: usenix-security-2023-tight-auditing-of-differentially-private-machine
+  canonical_title: Tight Auditing of Differentially Private Machine Learning
+  authors:
+  - name: Milad Nasr
+  - name: Jamie Hayes
+  - name: Thomas Steinke
+  - name: Borja Balle
+  - name: Florian Tramèr
+  - name: Matthew Jagielski
+  - name: Nicholas Carlini
+  - name: Andreas Terzis
+  publication_year: 2023
+  venue_name: 32nd USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/nasr
+  identifiers:
+  - scheme: openalex
+    value: W4321276312
+    source_url: https://api.openalex.org/works/W4321276312
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+  - https://openalex.org/W4321276312
+- id: usenix-security-2023-fuzztruction-using-fault-injection-based-fuzzing
+  canonical_title: 'Fuzztruction: Using Fault Injection-based Fuzzing to Leverage Implicit Domain Knowledge'
+  authors:
+  - name: Nils Bars
+  - name: Moritz Schloegel
+  - name: Tobias Scharnowski
+  - name: Nico Schiller
+  - name: Thorsten Holz
+  publication_year: 2023
+  venue_name: 32nd USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/bars
+  identifiers:
+  - scheme: openalex
+    value: W6902390121
+    source_url: https://api.openalex.org/works/W6902390121
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+  - https://openalex.org/W6902390121
+- id: usenix-security-2023-glaze-protecting-artists-from-style-mimicry-by-t
+  canonical_title: 'Glaze: Protecting Artists from Style Mimicry by Text-to-Image Models'
+  authors:
+  - name: Shawn Shan
+  - name: Jenna Cryan
+  - name: Emily Wenger
+  - name: Haitao Zheng
+  - name: Rana Hanocka
+  - name: Ben Y. Zhao
+  publication_year: 2023
+  venue_name: 32nd USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/shan
+  identifiers:
+  - scheme: openalex
+    value: W4320342250
+    source_url: https://api.openalex.org/works/W4320342250
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+  - https://openalex.org/W4320342250
+- id: usenix-security-2023-bug-hunters-perspectives-on-the-challenges-and-b
+  canonical_title: Bug Hunters’ Perspectives on the Challenges and Benefits of the Bug Bounty Ecosystem
+  authors:
+  - name: Omer Akgul
+  - name: Taha Eghtesad
+  - name: Amit Elazari
+  - name: Omprakash Gnawali
+  - name: Jens Grossklags
+  - name: Michelle L. Mazurek
+  - name: Daniel Votipka
+  - name: Aron Laszka
+  publication_year: 2023
+  venue_name: 32nd USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/akgul
+  identifiers:
+  - scheme: openalex
+    value: W4316116706
+    source_url: https://api.openalex.org/works/W4316116706
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+  - https://openalex.org/W4316116706
+- id: usenix-security-2023-account-security-interfaces-important-unintuitiv
+  canonical_title: 'Account Security Interfaces: Important, Unintuitive, and Untrustworthy'
+  authors:
+  - name: Alaa Daffalla
+  - name: Marina Bohuk
+  - name: Nicola Dell
+  - name: Rosanna Bellini
+  - name: Thomas Ristenpart
+  publication_year: 2023
+  venue_name: 32nd USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/daffalla
+  identifiers: []
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+- id: usenix-security-2023-a-bug-s-life-analyzing-the-lifecycle-and-mitigat
+  canonical_title: 'A Bug''s Life: Analyzing the Lifecycle and Mitigation Process of Content Security Policy Bugs'
+  authors:
+  - name: Gertjan Franken
+  - name: Tom Van Goethem
+  - name: Lieven Desmet
+  - name: Wouter Joosen
+  publication_year: 2023
+  venue_name: 32nd USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/franken
+  identifiers:
+  - scheme: openalex
+    value: W7064508335
+    source_url: https://api.openalex.org/works/W7064508335
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+  - https://openalex.org/W7064508335
+- id: usenix-security-2023-dont-be-dense-efficient-keyword-pir-for-sparse-d
+  canonical_title: 'Don’t be Dense: Efficient Keyword PIR for Sparse Databases'
+  authors:
+  - name: Sarvar Patel
+  - name: Joon Young Seo
+  - name: Kevin Yeo
+  publication_year: 2023
+  venue_name: 32nd USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/patel
+  identifiers: []
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+- id: usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma
+  canonical_title: Examining Power Dynamics and User Privacy in Smart Technology Use Among Jordanian Households
+  authors:
+  - name: Wael Albayaydh
+  - name: Ivan Flechais
+  publication_year: 2023
+  venue_name: 32nd USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/albayaydh
+  identifiers:
+  - scheme: openalex
+    value: W6981697802
+    source_url: https://api.openalex.org/works/W6981697802
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+  - https://openalex.org/W6981697802
+- id: usenix-security-2023-a-two-decade-retrospective-analysis-of-a-univers
+  canonical_title: A Two-Decade Retrospective Analysis of a University's Vulnerability to Attacks Exploiting Reused Passwords
+  authors:
+  - name: Alexandra Nisenoff
+  - name: Maximilian Golla
+  - name: Miranda Wei
+  - name: Juliette Hainline
+  - name: Hayley Szymanek
+  - name: Annika Braun
+  - name: Annika Hildebrandt
+  - name: Blair Christensen
+  - name: David Langenberg
+  - name: Blase Ur
+  publication_year: 2023
+  venue_name: 32nd USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/nisenoff-retrospective
+  identifiers: []
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+- id: usenix-security-2023-ethical-frameworks-and-computer-security-trolley
+  canonical_title: 'Ethical Frameworks and Computer Security Trolley Problems: Foundations for Conversations'
+  authors:
+  - name: Tadayoshi Kohno
+  - name: Yasemin Acar
+  - name: Wulf Loh
+  publication_year: 2023
+  venue_name: 32nd USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/kohno
+  identifiers:
+  - scheme: openalex
+    value: W4322759797
+    source_url: https://api.openalex.org/works/W4322759797
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+  - https://openalex.org/W4322759797
+- id: usenix-security-2023-hash-gone-bad-automated-discovery-of-protocol-at
+  canonical_title: 'Hash Gone Bad: Automated discovery of protocol attacks that exploit hash function weaknesses'
+  authors:
+  - name: Vincent Cheval
+  - name: Cas Cremers
+  - name: Alexander Dax
+  - name: Lucca Hirschi
+  - name: Charlie Jacomme
+  - name: Steve Kremer
+  publication_year: 2023
+  venue_name: 32nd USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/cheval
+  identifiers:
+  - scheme: openalex
+    value: W4301178121
+    source_url: https://api.openalex.org/works/W4301178121
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+  - https://openalex.org/W4301178121
+- id: usenix-security-2023-automated-analysis-of-protocols-that-use-authent
+  canonical_title: 'Automated Analysis of Protocols that use Authenticated Encryption: How Subtle AEAD Differences can impact Protocol Security'
+  authors:
+  - name: Cas Cremers
+  - name: Alexander Dax
+  - name: Charlie Jacomme
+  - name: Mang Zhao
+  publication_year: 2023
+  venue_name: 32nd USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/cremers-protocols
+  identifiers:
+  - scheme: openalex
+    value: W4401104680
+    source_url: https://api.openalex.org/works/W4401104680
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+  - https://openalex.org/W4401104680
+- id: usenix-security-2023-remote-direct-memory-introspection
+  canonical_title: Remote Direct Memory Introspection
+  authors:
+  - name: Hongyi Liu
+  - name: Jiarong Xing
+  - name: Yibo Huang
+  - name: Danyang Zhuo
+  - name: Srinivas Devadas
+  - name: Ang Chen
+  publication_year: 2023
+  venue_name: 32nd USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/liu-hongyi
+  identifiers: []
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+- id: usenix-security-2023-an-efficient-design-of-intelligent-network-data
+  canonical_title: An Efficient Design of Intelligent Network Data Plane
+  authors:
+  - name: Guangmeng Zhou
+  - name: Zhuotao Liu
+  - name: Chuanpu Fu
+  - name: Qi Li
+  - name: Ke Xu
+  publication_year: 2023
+  venue_name: 32nd USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/zhou-guangmeng
+  identifiers: []
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+- id: acm-ccs-2023-alert-alchemy-soc-workflows-and-decisions-in-the
+  canonical_title: 'Alert Alchemy: SOC Workflows and Decisions in the Management of NIDS Rules'
+  authors:
+  - name: Mathew Vermeer
+  - name: Natalia Kadenko
+  - name: Michel Van Eeten
+  - name: Carlos Gañán
+  - name: Simon Parkin
+  publication_year: 2023
+  venue_name: 2023 ACM SIGSAC Conference on Computer and Communications Security
+  official_paper_url: null
+  identifiers:
+  - scheme: openalex
+    value: W4388867285
+    source_url: https://api.openalex.org/works/W4388867285
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.1145/3576915.3616581
+    source_url: https://api.crossref.org/works/10.1145/3576915.3616581
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+  - https://openalex.org/W4388867285
+- id: acm-ccs-2023-amplification-by-shuffling-without-shuffling
+  canonical_title: Amplification by Shuffling without Shuffling
+  authors:
+  - name: Borja Balle
+  - name: James Bell
+  - name: Adria Gascon
+  publication_year: 2023
+  venue_name: 2023 ACM SIGSAC Conference on Computer and Communications Security
+  official_paper_url: null
+  identifiers:
+  - scheme: openalex
+    value: W4388857216
+    source_url: https://api.openalex.org/works/W4388857216
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.1145/3576915.3623215
+    source_url: https://api.crossref.org/works/10.1145/3576915.3623215
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+  - https://openalex.org/W4388857216
+- id: acm-ccs-2023-batchman-and-robin-batched-and-non-batched-branc
+  canonical_title: 'Batchman and Robin: Batched and Non-batched Branching for Interactive ZK'
+  authors:
+  - name: Yibin Yang
+  - name: David Heath
+  - name: Carmit Hazay
+  - name: Vladimir Kolesnikov
+  - name: Muthuramakrishnan Venkitasubramaniam
+  publication_year: 2023
+  venue_name: 2023 ACM SIGSAC Conference on Computer and Communications Security
+  official_paper_url: null
+  identifiers:
+  - scheme: openalex
+    value: W4388867328
+    source_url: https://api.openalex.org/works/W4388867328
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.1145/3576915.3623169
+    source_url: https://api.crossref.org/works/10.1145/3576915.3623169
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+  - https://openalex.org/W4388867328
+- id: acm-ccs-2023-capacity-cryptographically-enforced-in-process-c
+  canonical_title: 'Capacity: Cryptographically-Enforced In-process Capabilities for Modern ARM Architectures'
+  authors:
+  - name: Kha Dinh Duy
+  - name: Kyuwon Cho
+  - name: Taehyun Noh
+  - name: Hojoon Lee
+  publication_year: 2023
+  venue_name: 2023 ACM SIGSAC Conference on Computer and Communications Security
+  official_paper_url: null
+  identifiers:
+  - scheme: openalex
+    value: W4386973789
+    source_url: https://api.openalex.org/works/W4386973789
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.1145/3576915.3623079
+    source_url: https://api.crossref.org/works/10.1145/3576915.3623079
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+  - https://openalex.org/W4386973789
+- id: acm-ccs-2023-coco-efficient-browser-extension-vulnerability-d
+  canonical_title: 'CoCo: Efficient Browser Extension Vulnerability Detection via Coverage-guided, Concurrent Abstract Interpretation'
+  authors:
+  - name: Jianjia Yu
+  - name: Song Li
+  - name: Junmin Zhu
+  - name: Yinzhi Cao
+  publication_year: 2023
+  venue_name: 2023 ACM SIGSAC Conference on Computer and Communications Security
+  official_paper_url: null
+  identifiers:
+  - scheme: openalex
+    value: W4388858938
+    source_url: https://api.openalex.org/works/W4388858938
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.1145/3576915.3616584
+    source_url: https://api.crossref.org/works/10.1145/3576915.3616584
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+  - https://openalex.org/W4388858938
+- id: acm-ccs-2023-concurrent-composition-for-interactive-different
+  canonical_title: Concurrent Composition for Interactive Differential Privacy with Adaptive Privacy-Loss Parameters
+  authors:
+  - name: Samuel Haney
+  - name: Michael Shoemate
+  - name: Grace Tian
+  - name: Salil Vadhan
+  - name: Andrew Vyrros
+  - name: Vicki Xu
+  - name: Wanrong Zhang
+  publication_year: 2023
+  venue_name: 2023 ACM SIGSAC Conference on Computer and Communications Security
+  official_paper_url: null
+  identifiers:
+  - scheme: openalex
+    value: W4388856861
+    source_url: https://api.openalex.org/works/W4388856861
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.1145/3576915.3623128
+    source_url: https://api.crossref.org/works/10.1145/3576915.3623128
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+  - https://openalex.org/W4388856861
+- id: acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl
+  canonical_title: 'FutORAMa: A Concretely Efficient Hierarchical Oblivious RAM'
+  authors:
+  - name: Gilad Asharov
+  - name: Ilan Komargodski
+  - name: Yehuda Michelson
+  publication_year: 2023
+  venue_name: 2023 ACM SIGSAC Conference on Computer and Communications Security
+  official_paper_url: null
+  identifiers:
+  - scheme: openalex
+    value: W4388856956
+    source_url: https://api.openalex.org/works/W4388856956
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.1145/3576915.3623125
+    source_url: https://api.crossref.org/works/10.1145/3576915.3623125
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+  - https://openalex.org/W4388856956
+- id: acm-ccs-2023-he3db-an-efficient-and-elastic-encrypted-databas
+  canonical_title: 'HE3DB: An Efficient and Elastic Encrypted Database Via Arithmetic-And-Logic Fully Homomorphic Encryption'
+  authors:
+  - name: Song Bian
+  - name: Zhou Zhang
+  - name: Haowen Pan
+  - name: Ran Mao
+  - name: Zian Zhao
+  - name: Yier Jin
+  - name: Zhenyu Guan
+  publication_year: 2023
+  venue_name: 2023 ACM SIGSAC Conference on Computer and Communications Security
+  official_paper_url: null
+  identifiers:
+  - scheme: openalex
+    value: W4388857792
+    source_url: https://api.openalex.org/works/W4388857792
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.1145/3576915.3616608
+    source_url: https://api.crossref.org/works/10.1145/3576915.3616608
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+  - https://openalex.org/W4388857792
+- id: acm-ccs-2023-how-hard-is-takeover-in-dpos-blockchains-underst
+  canonical_title: How Hard is Takeover in DPoS Blockchains? Understanding the Security of Coin-based Voting Governance
+  authors:
+  - name: Chao Li
+  - name: Balaji Palanisamy
+  - name: Runhua Xu
+  - name: Li Duan
+  - name: Jiqiang Liu
+  - name: Wei Wang
+  publication_year: 2023
+  venue_name: 2023 ACM SIGSAC Conference on Computer and Communications Security
+  official_paper_url: null
+  identifiers:
+  - scheme: openalex
+    value: W4388857879
+    source_url: https://api.openalex.org/works/W4388857879
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.1145/3576915.3623171
+    source_url: https://api.crossref.org/works/10.1145/3576915.3623171
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+  - https://openalex.org/W4388857879
+- id: acm-ccs-2023-large-language-models-for-code-security-hardenin
+  canonical_title: 'Large Language Models for Code: Security Hardening and Adversarial Testing'
+  authors:
+  - name: Jingxuan He
+  - name: Martin Vechev
+  publication_year: 2023
+  venue_name: 2023 ACM SIGSAC Conference on Computer and Communications Security
+  official_paper_url: null
+  identifiers:
+  - scheme: openalex
+    value: W4320560161
+    source_url: https://api.openalex.org/works/W4320560161
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.1145/3576915.3623175
+    source_url: https://api.crossref.org/works/10.1145/3576915.3623175
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+  - https://openalex.org/W4320560161
+- id: acm-ccs-2023-panic-pan-assisted-intra-process-memory-isolatio
+  canonical_title: 'PANIC: PAN-assisted Intra-process Memory Isolation on ARM'
+  authors:
+  - name: Jiali Xu
+  - name: Mengyao Xie
+  - name: Chenggang Wu
+  - name: Yinqian Zhang
+  - name: Qijing Li
+  - name: Xuan Huang
+  - name: Yuanming Lai
+  - name: Yan Kang
+  - name: Wei Wang
+  - name: Qiang Wei
+  - name: Zhe Wang
+  publication_year: 2023
+  venue_name: 2023 ACM SIGSAC Conference on Computer and Communications Security
+  official_paper_url: null
+  identifiers:
+  - scheme: openalex
+    value: W4388857293
+    source_url: https://api.openalex.org/works/W4388857293
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.1145/3576915.3623206
+    source_url: https://api.crossref.org/works/10.1145/3576915.3623206
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+  - https://openalex.org/W4388857293
+- id: acm-ccs-2023-security-verification-of-low-trust-architectures
+  canonical_title: Security Verification of Low-Trust Architectures
+  authors:
+  - name: Qinhan Tan
+  - name: Yonathan Fisseha
+  - name: Shibo Chen
+  - name: Lauren Biernacki
+  - name: Jean-Baptiste Jeannin
+  - name: Sharad Malik
+  - name: Todd Austin
+  publication_year: 2023
+  venue_name: 2023 ACM SIGSAC Conference on Computer and Communications Security
+  official_paper_url: null
+  identifiers:
+  - scheme: openalex
+    value: W4386437595
+    source_url: https://api.openalex.org/works/W4386437595
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.1145/3576915.3616643
+    source_url: https://api.crossref.org/works/10.1145/3576915.3616643
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+  - https://openalex.org/W4386437595
+- id: acm-ccs-2023-silence-is-not-golden-disrupting-the-load-balanc
+  canonical_title: 'Silence is not Golden: Disrupting the Load Balancing of Authoritative DNS Servers'
+  authors:
+  - name: Fenglu Zhang
+  - name: Baojun Liu
+  - name: Eihal Alowaisheq
+  - name: Jianjun Chen
+  - name: Chaoyi Lu
+  - name: Linjian Song
+  - name: Yong Ma
+  - name: Ying Liu
+  - name: Haixin Duan
+  - name: Min Yang
+  publication_year: 2023
+  venue_name: 2023 ACM SIGSAC Conference on Computer and Communications Security
+  official_paper_url: null
+  identifiers:
+  - scheme: openalex
+    value: W4388858780
+    source_url: https://api.openalex.org/works/W4388858780
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.1145/3576915.3616647
+    source_url: https://api.crossref.org/works/10.1145/3576915.3616647
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+  - https://openalex.org/W4388858780
+- id: acm-ccs-2023-specification-and-verification-of-side-channel-s
+  canonical_title: Specification and Verification of Side-channel Security for Open-source Processors via Leakage Contracts
+  authors:
+  - name: Zilong Wang
+  - name: Gideon Mohr
+  - name: Klaus Von Gleissenthall
+  - name: Jan Reineke
+  - name: Marco Guarnieri
+  publication_year: 2023
+  venue_name: 2023 ACM SIGSAC Conference on Computer and Communications Security
+  official_paper_url: null
+  identifiers:
+  - scheme: openalex
+    value: W4388858498
+    source_url: https://api.openalex.org/works/W4388858498
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.1145/3576915.3623192
+    source_url: https://api.crossref.org/works/10.1145/3576915.3623192
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+  - https://openalex.org/W4388858498
+- id: acm-ccs-2023-specverilog-adapting-information-flow-control-fo
+  canonical_title: 'SpecVerilog: Adapting Information Flow Control for Secure Speculation'
+  authors:
+  - name: Drew Zagieboylo
+  - name: Charles Sherk
+  - name: Gookwon Edward Suh
+  - name: Andrew Myers
+  publication_year: 2023
+  venue_name: 2023 ACM SIGSAC Conference on Computer and Communications Security
+  official_paper_url: null
+  identifiers:
+  - scheme: openalex
+    value: W4388858465
+    source_url: https://api.openalex.org/works/W4388858465
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.1145/3576915.3623074
+    source_url: https://api.crossref.org/works/10.1145/3576915.3623074
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+  - https://openalex.org/W4388858465
+- id: acm-ccs-2023-stealing-the-decoding-algorithms-of-language-mod
+  canonical_title: Stealing the Decoding Algorithms of Language Models
+  authors:
+  - name: Ali Naseh
+  - name: Kalpesh Krishna
+  - name: Mohit Iyyer
+  - name: Amir Houmansadr
+  publication_year: 2023
+  venue_name: 2023 ACM SIGSAC Conference on Computer and Communications Security
+  official_paper_url: null
+  identifiers:
+  - scheme: openalex
+    value: W4388858191
+    source_url: https://api.openalex.org/works/W4388858191
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.1145/3576915.3616652
+    source_url: https://api.crossref.org/works/10.1145/3576915.3616652
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+  - https://openalex.org/W4388858191
+- id: acm-ccs-2023-uncle-maker-time-stamping-out-the-competition-in
+  canonical_title: 'Uncle Maker: (Time)Stamping Out The Competition in Ethereum'
+  authors:
+  - name: Aviv Yaish
+  - name: Gilad Stern
+  - name: Aviv Zohar
+  publication_year: 2023
+  venue_name: 2023 ACM SIGSAC Conference on Computer and Communications Security
+  official_paper_url: null
+  identifiers:
+  - scheme: openalex
+    value: W4388858825
+    source_url: https://api.openalex.org/works/W4388858825
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.1145/3576915.3616674
+    source_url: https://api.crossref.org/works/10.1145/3576915.3616674
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+  - https://openalex.org/W4388858825
+- id: ndss-2023-your-router-is-my-prober-measuring-ipv6-networks
+  canonical_title: 'Your Router Is My Prober: Measuring IPv6 Networks via ICMP Rate Limiting Side Channels'
+  authors:
+  - name: Long Pan
+  - name: Jiahai Yang
+  - name: Lin He
+  - name: Zhiliang Wang
+  - name: Leyao Nie
+  - name: Guanglei Song
+  - name: Yaozhong Liu
+  publication_year: 2023
+  venue_name: Network and Distributed System Security Symposium 2023
+  official_paper_url: https://www.ndss-symposium.org/ndss-paper/your-router-is-my-prober-measuring-ipv6-networks-via-icmp-rate-limiting-side-channels/
+  identifiers:
+  - scheme: openalex
+    value: W4324007097
+    source_url: https://api.openalex.org/works/W4324007097
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.14722/ndss.2023.23049
+    source_url: https://api.crossref.org/works/10.14722/ndss.2023.23049
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.ndss-symposium.org/ndss2023/
+  - https://openalex.org/W4324007097
+- id: ndss-2023-darwin-survival-of-the-fittest-fuzzing-mutators
+  canonical_title: 'DARWIN: Survival of the Fittest Fuzzing Mutators'
+  authors:
+  - name: Patrick Jauernig
+  - name: Domagoj Jakobovic
+  - name: Stjepan Picek
+  - name: Emmanuel Stapf
+  - name: Ahmad-Reza Sadeghi
+  publication_year: 2023
+  venue_name: Network and Distributed System Security Symposium 2023
+  official_paper_url: https://www.ndss-symposium.org/ndss-paper/darwin-survival-of-the-fittest-fuzzing-mutators/
+  identifiers:
+  - scheme: openalex
+    value: W4307205415
+    source_url: https://api.openalex.org/works/W4307205415
+    verified_at: '2026-08-07T18:41:58Z'
+  - scheme: doi
+    value: 10.14722/ndss.2023.23159
+    source_url: https://api.crossref.org/works/10.14722/ndss.2023.23159
+    verified_at: '2026-08-07T18:41:58Z'
+  metadata_sources:
+  - https://www.ndss-symposium.org/ndss2023/
+  - https://openalex.org/W4307205415

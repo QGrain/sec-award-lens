@@ -1,0 +1,121 @@
+{
+  "awards": [
+    {
+      "edition_id": "usenix-security-2023",
+      "id": "usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d",
+        "parser_version": "2023.1",
+        "retrieved_at": "2026-08-07T18:34:37Z",
+        "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+      },
+      "paper_id": "usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma",
+      "raw_authors": "Wael Albayaydh and Ivan Flechais, University of Oxford",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "Examining Power Dynamics and User Privacy in Smart Technology Use Among Jordanian Households"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 0.98,
+      "external_id": "W6981697802",
+      "method": "manual_override",
+      "override_reason": "Exact title, author, and year agreement with the official USENIX record; OpenAlex exposes a repository or preprint entity rather than a venue-tagged proceedings record.",
+      "paper_id": "usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": null,
+      "selected_candidate": {
+        "author_overlap": 0.0,
+        "doi": null,
+        "external_id": "W6981697802",
+        "publication_year": 2023,
+        "title": "Examining power dynamics and user privacy in smart technology use among Jordanian households",
+        "title_similarity": 1.0,
+        "venue": "Oxford University Research Archive (ORA) (University of Oxford)",
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-07T18:41:58Z",
+      "verified_by": "machine-assisted-bootstrap"
+    }
+  ],
+  "citation_history": {
+    "openalex": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2025
+          }
+        ],
+        "external_id": "W6981697802",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-02-10T06:17:13.238206",
+        "request_fingerprint": "GET /works/W6981697802?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "35e32c82195a2ca6abfd5d08a67ae5c6c900e929ee58a9fe1331ed549f05010e",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 1
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [],
+        "author_name": "Wael Albayaydh",
+        "name_similarity": 0.8143,
+        "openalex_author_id": null
+      },
+      {
+        "affiliations": [],
+        "author_name": "Ivan Flechais",
+        "name_similarity": 0.8444,
+        "openalex_author_id": null
+      }
+    ],
+    "external_id": "W6981697802",
+    "paper_id": "usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma",
+    "primary_topic": {
+      "display_name": "Indian and Buddhist Studies",
+      "openalex_id": "T11563",
+      "score": 0.0941
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-08T05:07:19Z"
+  },
+  "generated_at": "2026-08-07T18:42:52+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Wael Albayaydh"
+      },
+      {
+        "name": "Ivan Flechais"
+      }
+    ],
+    "canonical_title": "Examining Power Dynamics and User Privacy in Smart Technology Use Among Jordanian Households",
+    "id": "usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma",
+    "identifiers": [
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W6981697802",
+        "value": "W6981697802",
+        "verified_at": "2026-08-07T18:41:58Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.usenix.org/conference/usenixsecurity23/technical-sessions",
+      "https://openalex.org/W6981697802"
+    ],
+    "official_paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/albayaydh",
+    "publication_year": 2023,
+    "venue_name": "32nd USENIX Security Symposium"
+  },
+  "schema_version": 1
+}

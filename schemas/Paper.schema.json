@@ -1,0 +1,118 @@
+{
+  "$defs": {
+    "Author": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "title": "Name",
+          "type": "string"
+        }
+      },
+      "required": [
+        "name"
+      ],
+      "title": "Author",
+      "type": "object"
+    },
+    "Identifier": {
+      "additionalProperties": false,
+      "properties": {
+        "scheme": {
+          "enum": [
+            "doi",
+            "openalex",
+            "semantic_scholar",
+            "corpus_id"
+          ],
+          "title": "Scheme",
+          "type": "string"
+        },
+        "value": {
+          "title": "Value",
+          "type": "string"
+        },
+        "source_url": {
+          "title": "Source Url",
+          "type": "string"
+        },
+        "verified_at": {
+          "format": "date-time",
+          "title": "Verified At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "scheme",
+        "value",
+        "source_url",
+        "verified_at"
+      ],
+      "title": "Identifier",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "pattern": "^[a-z0-9-]+$",
+      "title": "Id",
+      "type": "string"
+    },
+    "canonical_title": {
+      "title": "Canonical Title",
+      "type": "string"
+    },
+    "authors": {
+      "items": {
+        "$ref": "#/$defs/Author"
+      },
+      "title": "Authors",
+      "type": "array"
+    },
+    "publication_year": {
+      "maximum": 2100,
+      "minimum": 1980,
+      "title": "Publication Year",
+      "type": "integer"
+    },
+    "venue_name": {
+      "title": "Venue Name",
+      "type": "string"
+    },
+    "official_paper_url": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Official Paper Url"
+    },
+    "identifiers": {
+      "items": {
+        "$ref": "#/$defs/Identifier"
+      },
+      "title": "Identifiers",
+      "type": "array"
+    },
+    "metadata_sources": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Metadata Sources",
+      "type": "array"
+    }
+  },
+  "required": [
+    "id",
+    "canonical_title",
+    "authors",
+    "publication_year",
+    "venue_name"
+  ],
+  "title": "Paper",
+  "type": "object"
+}

@@ -1,0 +1,162 @@
+{
+  "awards": [
+    {
+      "edition_id": "usenix-security-2023",
+      "id": "usenix-security-2023-treesync-authenticated-group-management-for-mess-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d",
+        "parser_version": "2023.1",
+        "retrieved_at": "2026-08-07T18:34:37Z",
+        "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+      },
+      "paper_id": "usenix-security-2023-treesync-authenticated-group-management-for-mess",
+      "raw_authors": "Théophile Wallez, Inria Paris; Jonathan Protzenko, Microsoft Research; Benjamin Beurdouche, Mozilla; Karthikeyan Bhargavan, Inria Paris",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "TreeSync: Authenticated Group Management for Messaging Layer Security"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 0.98,
+      "external_id": "W4392466677",
+      "method": "manual_override",
+      "override_reason": "Exact title, author, and year agreement with the official USENIX record; OpenAlex exposes a repository or preprint entity rather than a venue-tagged proceedings record.",
+      "paper_id": "usenix-security-2023-treesync-authenticated-group-management-for-mess",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": null,
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "W4392466677",
+        "publication_year": 2023,
+        "title": "TreeSync: Authenticated Group Management for Messaging Layer Security",
+        "title_similarity": 1.0,
+        "venue": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-07T18:41:58Z",
+      "verified_by": "machine-assisted-bootstrap"
+    }
+  ],
+  "citation_history": {
+    "openalex": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2024
+          }
+        ],
+        "external_id": "W4392466677",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-treesync-authenticated-group-management-for-mess",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4392466677?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "0db6cb75fe6d50b6424e90506616c7af959629683c12ac4b96312dbf358ed5e6",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 1
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [
+          {
+            "display_name": "State Key Laboratory of Cryptology",
+            "openalex_id": "I4210132990",
+            "ror": "https://ror.org/02pn5rj08"
+          }
+        ],
+        "author_name": "Théophile Wallez",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5051462086"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Microsoft (United States)",
+            "openalex_id": "I1290206253",
+            "ror": "https://ror.org/00d0nc645"
+          },
+          {
+            "display_name": "Microsoft Research (United Kingdom)",
+            "openalex_id": "I4210164937",
+            "ror": "https://ror.org/05k87vq12"
+          }
+        ],
+        "author_name": "Jonathan Protzenko",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5055019834"
+      },
+      {
+        "affiliations": [],
+        "author_name": "Benjamin Beurdouche",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5042649150"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "State Key Laboratory of Cryptology",
+            "openalex_id": "I4210132990",
+            "ror": "https://ror.org/02pn5rj08"
+          }
+        ],
+        "author_name": "Karthikeyan Bhargavan",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5026297326"
+      }
+    ],
+    "external_id": "W4392466677",
+    "paper_id": "usenix-security-2023-treesync-authenticated-group-management-for-mess",
+    "primary_topic": {
+      "display_name": "Access Control and Trust",
+      "openalex_id": "T10927",
+      "score": 0.7991
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-08T05:07:19Z"
+  },
+  "generated_at": "2026-08-07T18:42:52+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Théophile Wallez"
+      },
+      {
+        "name": "Jonathan Protzenko"
+      },
+      {
+        "name": "Benjamin Beurdouche"
+      },
+      {
+        "name": "Karthikeyan Bhargavan"
+      }
+    ],
+    "canonical_title": "TreeSync: Authenticated Group Management for Messaging Layer Security",
+    "id": "usenix-security-2023-treesync-authenticated-group-management-for-mess",
+    "identifiers": [
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W4392466677",
+        "value": "W4392466677",
+        "verified_at": "2026-08-07T18:41:58Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.usenix.org/conference/usenixsecurity23/technical-sessions",
+      "https://openalex.org/W4392466677"
+    ],
+    "official_paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/wallez",
+    "publication_year": 2023,
+    "venue_name": "32nd USENIX Security Symposium"
+  },
+  "schema_version": 1
+}

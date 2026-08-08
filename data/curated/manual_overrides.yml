@@ -1,0 +1,89 @@
+overrides:
+- paper_id: usenix-security-2023-botscreen-trust-everybody-but-cut-the-aimbots-yo
+  provider: openalex
+  external_id: W4393633303
+  reason: Exact title, author, and publication-year agreement with the linked official USENIX paper page; selected OpenAlex entity is the corresponding repository or preprint record.
+  verified_by: machine-assisted-bootstrap
+  verified_at: '2026-08-07T18:41:58Z'
+  evidence_urls:
+  - https://www.usenix.org/conference/usenixsecurity23/presentation/choi
+- paper_id: usenix-security-2023-treesync-authenticated-group-management-for-mess
+  provider: openalex
+  external_id: W4392466677
+  reason: Exact title, author, and publication-year agreement with the linked official USENIX paper page; selected OpenAlex entity is the corresponding repository or preprint record.
+  verified_by: machine-assisted-bootstrap
+  verified_at: '2026-08-07T18:41:58Z'
+  evidence_urls:
+  - https://www.usenix.org/conference/usenixsecurity23/presentation/wallez
+- paper_id: usenix-security-2023-tight-auditing-of-differentially-private-machine
+  provider: openalex
+  external_id: W4321276312
+  reason: Exact title, author, and publication-year agreement with the linked official USENIX paper page; selected OpenAlex entity is the corresponding repository or preprint record.
+  verified_by: machine-assisted-bootstrap
+  verified_at: '2026-08-07T18:41:58Z'
+  evidence_urls:
+  - https://www.usenix.org/conference/usenixsecurity23/presentation/nasr
+- paper_id: usenix-security-2023-fuzztruction-using-fault-injection-based-fuzzing
+  provider: openalex
+  external_id: W6902390121
+  reason: Exact title, author, and publication-year agreement with the linked official USENIX paper page; selected OpenAlex entity is the corresponding repository or preprint record.
+  verified_by: machine-assisted-bootstrap
+  verified_at: '2026-08-07T18:41:58Z'
+  evidence_urls:
+  - https://www.usenix.org/conference/usenixsecurity23/presentation/bars
+- paper_id: usenix-security-2023-glaze-protecting-artists-from-style-mimicry-by-t
+  provider: openalex
+  external_id: W4320342250
+  reason: Exact title, author, and publication-year agreement with the linked official USENIX paper page; selected OpenAlex entity is the corresponding repository or preprint record.
+  verified_by: machine-assisted-bootstrap
+  verified_at: '2026-08-07T18:41:58Z'
+  evidence_urls:
+  - https://www.usenix.org/conference/usenixsecurity23/presentation/shan
+- paper_id: usenix-security-2023-bug-hunters-perspectives-on-the-challenges-and-b
+  provider: openalex
+  external_id: W4316116706
+  reason: Exact title, author, and publication-year agreement with the linked official USENIX paper page; selected OpenAlex entity is the corresponding repository or preprint record.
+  verified_by: machine-assisted-bootstrap
+  verified_at: '2026-08-07T18:41:58Z'
+  evidence_urls:
+  - https://www.usenix.org/conference/usenixsecurity23/presentation/akgul
+- paper_id: usenix-security-2023-a-bug-s-life-analyzing-the-lifecycle-and-mitigat
+  provider: openalex
+  external_id: W7064508335
+  reason: Exact title, author, and publication-year agreement with the linked official USENIX paper page; selected OpenAlex entity is the corresponding repository or preprint record.
+  verified_by: machine-assisted-bootstrap
+  verified_at: '2026-08-07T18:41:58Z'
+  evidence_urls:
+  - https://www.usenix.org/conference/usenixsecurity23/presentation/franken
+- paper_id: usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma
+  provider: openalex
+  external_id: W6981697802
+  reason: Exact title, author, and publication-year agreement with the linked official USENIX paper page; selected OpenAlex entity is the corresponding repository or preprint record.
+  verified_by: machine-assisted-bootstrap
+  verified_at: '2026-08-07T18:41:58Z'
+  evidence_urls:
+  - https://www.usenix.org/conference/usenixsecurity23/presentation/albayaydh
+- paper_id: usenix-security-2023-ethical-frameworks-and-computer-security-trolley
+  provider: openalex
+  external_id: W4322759797
+  reason: Exact title, author, and publication-year agreement with the linked official USENIX paper page; selected OpenAlex entity is the corresponding repository or preprint record.
+  verified_by: machine-assisted-bootstrap
+  verified_at: '2026-08-07T18:41:58Z'
+  evidence_urls:
+  - https://www.usenix.org/conference/usenixsecurity23/presentation/kohno
+- paper_id: usenix-security-2023-hash-gone-bad-automated-discovery-of-protocol-at
+  provider: openalex
+  external_id: W4301178121
+  reason: Exact title, author, and publication-year agreement with the linked official USENIX paper page; selected OpenAlex entity is the corresponding repository or preprint record.
+  verified_by: machine-assisted-bootstrap
+  verified_at: '2026-08-07T18:41:58Z'
+  evidence_urls:
+  - https://www.usenix.org/conference/usenixsecurity23/presentation/cheval
+- paper_id: usenix-security-2023-automated-analysis-of-protocols-that-use-authent
+  provider: openalex
+  external_id: W4401104680
+  reason: Exact title, author, and publication-year agreement with the linked official USENIX paper page; selected OpenAlex entity is the corresponding repository or preprint record.
+  verified_by: machine-assisted-bootstrap
+  verified_at: '2026-08-07T18:41:58Z'
+  evidence_urls:
+  - https://www.usenix.org/conference/usenixsecurity23/presentation/cremers-protocols

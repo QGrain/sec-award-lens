@@ -1,0 +1,82 @@
+name: Missing paper or entity resolution
+description: Submit official evidence for an omitted award paper or a missing provider entity.
+title: "paper: "
+labels: [data, entity-resolution]
+body:
+  - type: dropdown
+    id: case_type
+    attributes:
+      label: What is missing?
+      options:
+        - An award paper is missing from SecAwardLens
+        - The paper exists here but lacks an OpenAlex/Semantic Scholar entity
+        - Existing paper metadata or entity binding is incorrect
+    validations:
+      required: true
+  - type: input
+    id: paper_id
+    attributes:
+      label: SecAwardLens paper ID
+      description: Enter the existing ID, or “new paper” if the award paper is absent.
+    validations:
+      required: true
+  - type: input
+    id: conference_year
+    attributes:
+      label: Conference and year
+      placeholder: USENIX Security 2023
+    validations:
+      required: true
+  - type: input
+    id: award_source
+    attributes:
+      label: Official award source URL
+      description: This must be an organizer or sponsoring-organization source.
+    validations:
+      required: true
+  - type: input
+    id: paper_source
+    attributes:
+      label: Official proceedings or paper URL
+    validations:
+      required: true
+  - type: textarea
+    id: bibliographic_metadata
+    attributes:
+      label: Title, authors, affiliations, year, and DOI
+      description: Preserve the spelling from the official paper/proceedings page and state which fields are unavailable.
+    validations:
+      required: true
+  - type: input
+    id: openalex
+    attributes:
+      label: OpenAlex candidate URL
+      description: Leave blank if no plausible entity was found.
+  - type: input
+    id: semantic_scholar
+    attributes:
+      label: Semantic Scholar candidate URL
+      description: Leave blank if no plausible entity was found.
+  - type: textarea
+    id: identity_check
+    attributes:
+      label: Entity comparison
+      description: Compare DOI, title, authors, year, venue, and conference/preprint version. Explain ambiguity instead of selecting the first result.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Additional evidence URLs and notes
+      description: One URL per line. Google Scholar may be listed only as a manual cross-check.
+  - type: checkboxes
+    id: attestation
+    attributes:
+      label: Data-quality checks
+      options:
+        - label: I used an official award source, not a search-result snippet, to establish the award.
+          required: true
+        - label: I did not treat a missing provider record as zero citations.
+          required: true
+        - label: I did not submit a manually observed citation count as reproducible history.
+          required: true

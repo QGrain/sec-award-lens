@@ -1,0 +1,169 @@
+{
+  "awards": [
+    {
+      "edition_id": "usenix-security-2023",
+      "id": "usenix-security-2023-glaze-protecting-artists-from-style-mimicry-by-t-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d",
+        "parser_version": "2023.1",
+        "retrieved_at": "2026-08-07T18:34:37Z",
+        "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+      },
+      "paper_id": "usenix-security-2023-glaze-protecting-artists-from-style-mimicry-by-t",
+      "raw_authors": "Shawn Shan, Jenna Cryan, Emily Wenger, Haitao Zheng, Rana Hanocka, and Ben Y. Zhao, University of Chicago",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "Glaze: Protecting Artists from Style Mimicry by Text-to-Image Models"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 0.98,
+      "external_id": "W4320342250",
+      "method": "manual_override",
+      "override_reason": "Exact title, author, and year agreement with the official USENIX record; OpenAlex exposes a repository or preprint entity rather than a venue-tagged proceedings record.",
+      "paper_id": "usenix-security-2023-glaze-protecting-artists-from-style-mimicry-by-t",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": null,
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.48550/arxiv.2302.04222",
+        "external_id": "W4320342250",
+        "publication_year": 2023,
+        "title": "Glaze: Protecting Artists from Style Mimicry by Text-to-Image Models",
+        "title_similarity": 1.0,
+        "venue": "arXiv (Cornell University)",
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-07T18:41:58Z",
+      "verified_by": "machine-assisted-bootstrap"
+    }
+  ],
+  "citation_history": {
+    "openalex": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 9,
+            "year": 2023
+          },
+          {
+            "count": 23,
+            "year": 2024
+          },
+          {
+            "count": 8,
+            "year": 2025
+          },
+          {
+            "count": 3,
+            "year": 2026
+          }
+        ],
+        "external_id": "W4320342250",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-glaze-protecting-artists-from-style-mimicry-by-t",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-06T08:24:18.245995",
+        "request_fingerprint": "GET /works/W4320342250?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "44b52dae4515bef0d00ff3b72513f2226036ee31554c1331d5292abdcb7c5e8d",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 43
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [],
+        "author_name": "Shawn Shan",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5076606321"
+      },
+      {
+        "affiliations": [],
+        "author_name": "Jenna Cryan",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5068072432"
+      },
+      {
+        "affiliations": [],
+        "author_name": "Emily Wenger",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5042329783"
+      },
+      {
+        "affiliations": [],
+        "author_name": "Haitao Zheng",
+        "name_similarity": 0.96,
+        "openalex_author_id": "A5022672030"
+      },
+      {
+        "affiliations": [],
+        "author_name": "Rana Hanocka",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5009881746"
+      },
+      {
+        "affiliations": [],
+        "author_name": "Ben Y. Zhao",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5108248360"
+      }
+    ],
+    "external_id": "W4320342250",
+    "paper_id": "usenix-security-2023-glaze-protecting-artists-from-style-mimicry-by-t",
+    "primary_topic": {
+      "display_name": "Generative Adversarial Networks and Image Synthesis",
+      "openalex_id": "T10775",
+      "score": 0.991
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-08T05:07:19Z"
+  },
+  "generated_at": "2026-08-07T18:42:52+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Shawn Shan"
+      },
+      {
+        "name": "Jenna Cryan"
+      },
+      {
+        "name": "Emily Wenger"
+      },
+      {
+        "name": "Haitao Zheng"
+      },
+      {
+        "name": "Rana Hanocka"
+      },
+      {
+        "name": "Ben Y. Zhao"
+      }
+    ],
+    "canonical_title": "Glaze: Protecting Artists from Style Mimicry by Text-to-Image Models",
+    "id": "usenix-security-2023-glaze-protecting-artists-from-style-mimicry-by-t",
+    "identifiers": [
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W4320342250",
+        "value": "W4320342250",
+        "verified_at": "2026-08-07T18:41:58Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.usenix.org/conference/usenixsecurity23/technical-sessions",
+      "https://openalex.org/W4320342250"
+    ],
+    "official_paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/shan",
+    "publication_year": 2023,
+    "venue_name": "32nd USENIX Security Symposium"
+  },
+  "schema_version": 1
+}

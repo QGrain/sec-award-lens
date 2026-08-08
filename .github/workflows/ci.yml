@@ -1,0 +1,43 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: astral-sh/setup-uv@c771a70e6277c0a99b617c7a806ffedaca235ff9 # v9.0.0
+        with:
+          enable-cache: true
+      - run: uv python install 3.11
+      - run: uv sync --all-extras --frozen
+      - run: uv run ruff check .
+      - run: uv run mypy
+      - run: uv run pytest --cov=secawardlens --cov-report=term-missing
+      - run: uv run secawardlens data validate
+      - name: Verify generated schemas and site data
+        run: |
+          uv run secawardlens schema export
+          uv run secawardlens build
+          git diff --exit-code -- schemas web/public/data
+          test -z "$(git status --porcelain --untracked-files=all -- schemas web/public/data)"
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci
+        working-directory: web
+      - run: npm test
+        working-directory: web
+      - run: npm audit --audit-level=moderate
+        working-directory: web
+      - run: npm run build
+        working-directory: web

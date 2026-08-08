@@ -1,0 +1,209 @@
+{
+  "awards": [
+    {
+      "edition_id": "acm-ccs-2023",
+      "id": "acm-ccs-2023-how-hard-is-takeover-in-dpos-blockchains-underst-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "4486d199b2588ab0234106fe32a18c54d50b58b64098d2b2cb677ea07eed0240",
+        "parser_version": "2023.1",
+        "retrieved_at": "2026-08-07T18:34:37Z",
+        "url": "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html"
+      },
+      "paper_id": "acm-ccs-2023-how-hard-is-takeover-in-dpos-blockchains-underst",
+      "raw_authors": "Chao Li, Balaji Palanisamy, Runhua Xu, Li Duan, Jiqiang Liu, and Wei Wang",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "How Hard is Takeover in DPoS Blockchains? Understanding the Security of Coin-based Voting Governance"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 1.0,
+      "external_id": "W4388857879",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "acm-ccs-2023-how-hard-is-takeover-in-dpos-blockchains-underst",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [
+        "W4388092661"
+      ],
+      "review_notes": null,
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1145/3576915.3623171",
+        "external_id": "W4388857879",
+        "publication_year": 2023,
+        "title": "How Hard is Takeover in DPoS Blockchains? Understanding the Security of Coin-based Voting Governance",
+        "title_similarity": 1.0,
+        "venue": null,
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-07T18:41:58Z",
+      "verified_by": "SecAwardLens pipeline"
+    }
+  ],
+  "citation_history": {
+    "openalex": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 4,
+            "year": 2024
+          },
+          {
+            "count": 12,
+            "year": 2025
+          },
+          {
+            "count": 5,
+            "year": 2026
+          }
+        ],
+        "external_id": "W4388857879",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-how-hard-is-takeover-in-dpos-blockchains-underst",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-31T08:31:51.225901",
+        "request_fingerprint": "GET /works/W4388857879?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "89cf084f2be3466b96b6ce74600aaf201070e1df221e9bd4763c99eebd535010",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 21
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [
+          {
+            "display_name": "Beijing Jiaotong University",
+            "openalex_id": "I21193070",
+            "ror": "https://ror.org/01yj56c84"
+          }
+        ],
+        "author_name": "Chao Li",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5100749967"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "University of Pittsburgh",
+            "openalex_id": "I170201317",
+            "ror": "https://ror.org/01an3r305"
+          }
+        ],
+        "author_name": "Balaji Palanisamy",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5103337534"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Beihang University",
+            "openalex_id": "I82880672",
+            "ror": "https://ror.org/00wk2mp56"
+          }
+        ],
+        "author_name": "Runhua Xu",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5101785871"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Beijing Jiaotong University",
+            "openalex_id": "I21193070",
+            "ror": "https://ror.org/01yj56c84"
+          }
+        ],
+        "author_name": "Li Duan",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5019931070"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Beijing Jiaotong University",
+            "openalex_id": "I21193070",
+            "ror": "https://ror.org/01yj56c84"
+          }
+        ],
+        "author_name": "Jiqiang Liu",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5070828650"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Beijing Jiaotong University",
+            "openalex_id": "I21193070",
+            "ror": "https://ror.org/01yj56c84"
+          }
+        ],
+        "author_name": "Wei Wang",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5100777576"
+      }
+    ],
+    "external_id": "W4388857879",
+    "paper_id": "acm-ccs-2023-how-hard-is-takeover-in-dpos-blockchains-underst",
+    "primary_topic": {
+      "display_name": "Blockchain Technology Applications and Security",
+      "openalex_id": "T10270",
+      "score": 1.0
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-08T05:07:19Z"
+  },
+  "generated_at": "2026-08-07T18:42:52+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Chao Li"
+      },
+      {
+        "name": "Balaji Palanisamy"
+      },
+      {
+        "name": "Runhua Xu"
+      },
+      {
+        "name": "Li Duan"
+      },
+      {
+        "name": "Jiqiang Liu"
+      },
+      {
+        "name": "Wei Wang"
+      }
+    ],
+    "canonical_title": "How Hard is Takeover in DPoS Blockchains? Understanding the Security of Coin-based Voting Governance",
+    "id": "acm-ccs-2023-how-hard-is-takeover-in-dpos-blockchains-underst",
+    "identifiers": [
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W4388857879",
+        "value": "W4388857879",
+        "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "doi",
+        "source_url": "https://api.crossref.org/works/10.1145/3576915.3623171",
+        "value": "10.1145/3576915.3623171",
+        "verified_at": "2026-08-07T18:41:58Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html",
+      "https://openalex.org/W4388857879"
+    ],
+    "official_paper_url": null,
+    "publication_year": 2023,
+    "venue_name": "2023 ACM SIGSAC Conference on Computer and Communications Security"
+  },
+  "schema_version": 1
+}

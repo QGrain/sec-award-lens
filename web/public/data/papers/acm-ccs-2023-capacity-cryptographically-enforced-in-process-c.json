@@ -1,0 +1,177 @@
+{
+  "awards": [
+    {
+      "edition_id": "acm-ccs-2023",
+      "id": "acm-ccs-2023-capacity-cryptographically-enforced-in-process-c-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "4486d199b2588ab0234106fe32a18c54d50b58b64098d2b2cb677ea07eed0240",
+        "parser_version": "2023.1",
+        "retrieved_at": "2026-08-07T18:34:37Z",
+        "url": "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html"
+      },
+      "paper_id": "acm-ccs-2023-capacity-cryptographically-enforced-in-process-c",
+      "raw_authors": "Kha Dinh Duy, Kyuwon Cho, Taehyun Noh, and Hojoon Lee",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "Capacity: Cryptographically-Enforced In-process Capabilities for Modern ARM Architectures"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 1.0,
+      "external_id": "W4386973789",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "acm-ccs-2023-capacity-cryptographically-enforced-in-process-c",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": null,
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1145/3576915.3623079",
+        "external_id": "W4386973789",
+        "publication_year": 2023,
+        "title": "Capacity: Cryptographically-Enforced In-Process Capabilities for Modern ARM Architectures",
+        "title_similarity": 1.0,
+        "venue": null,
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-07T18:41:58Z",
+      "verified_by": "SecAwardLens pipeline"
+    }
+  ],
+  "citation_history": {
+    "openalex": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 2,
+            "year": 2024
+          },
+          {
+            "count": 3,
+            "year": 2025
+          },
+          {
+            "count": 2,
+            "year": 2026
+          }
+        ],
+        "external_id": "W4386973789",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-capacity-cryptographically-enforced-in-process-c",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-01T09:00:35.917206",
+        "request_fingerprint": "GET /works/W4386973789?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "c367c9d68eda0c1133f5e876aa25388c9a6579110f25f9d841a02cadf99a6230",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 7
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [
+          {
+            "display_name": "Sungkyunkwan University",
+            "openalex_id": "I848706",
+            "ror": "https://ror.org/04q78tk20"
+          }
+        ],
+        "author_name": "Kha Dinh Duy",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5091780669"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Sungkyunkwan University",
+            "openalex_id": "I848706",
+            "ror": "https://ror.org/04q78tk20"
+          }
+        ],
+        "author_name": "Kyuwon Cho",
+        "name_similarity": 0.5882,
+        "openalex_author_id": "A5070230321"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Sungkyunkwan University",
+            "openalex_id": "I848706",
+            "ror": "https://ror.org/04q78tk20"
+          }
+        ],
+        "author_name": "Taehyun Noh",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5071492125"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Sungkyunkwan University",
+            "openalex_id": "I848706",
+            "ror": "https://ror.org/04q78tk20"
+          }
+        ],
+        "author_name": "Hojoon Lee",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5101660662"
+      }
+    ],
+    "external_id": "W4386973789",
+    "paper_id": "acm-ccs-2023-capacity-cryptographically-enforced-in-process-c",
+    "primary_topic": {
+      "display_name": "Security and Verification in Computing",
+      "openalex_id": "T11424",
+      "score": 1.0
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-08T05:07:19Z"
+  },
+  "generated_at": "2026-08-07T18:42:52+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Kha Dinh Duy"
+      },
+      {
+        "name": "Kyuwon Cho"
+      },
+      {
+        "name": "Taehyun Noh"
+      },
+      {
+        "name": "Hojoon Lee"
+      }
+    ],
+    "canonical_title": "Capacity: Cryptographically-Enforced In-process Capabilities for Modern ARM Architectures",
+    "id": "acm-ccs-2023-capacity-cryptographically-enforced-in-process-c",
+    "identifiers": [
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W4386973789",
+        "value": "W4386973789",
+        "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "doi",
+        "source_url": "https://api.crossref.org/works/10.1145/3576915.3623079",
+        "value": "10.1145/3576915.3623079",
+        "verified_at": "2026-08-07T18:41:58Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html",
+      "https://openalex.org/W4386973789"
+    ],
+    "official_paper_url": null,
+    "publication_year": 2023,
+    "venue_name": "2023 ACM SIGSAC Conference on Computer and Communications Security"
+  },
+  "schema_version": 1
+}

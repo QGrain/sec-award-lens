@@ -1,0 +1,83 @@
+{
+  "awards": [
+    {
+      "edition_id": "usenix-security-2023",
+      "id": "usenix-security-2023-a-two-decade-retrospective-analysis-of-a-univers-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d",
+        "parser_version": "2023.1",
+        "retrieved_at": "2026-08-07T18:34:37Z",
+        "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+      },
+      "paper_id": "usenix-security-2023-a-two-decade-retrospective-analysis-of-a-univers",
+      "raw_authors": "Alexandra Nisenoff, University of Chicago / Carnegie Mellon University; Maximilian Golla, University of Chicago / Max Planck Institute for Security and Privacy; Miranda Wei, University of Chicago / University of Washington; Juliette Hainline, Hayley Szymanek, Annika Braun, Annika Hildebrandt, Blair Christensen, David Langenberg, and Blase Ur, University of Chicago",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "A Two-Decade Retrospective Analysis of a University's Vulnerability to Attacks Exploiting Reused Passwords"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": null,
+      "external_id": null,
+      "method": null,
+      "override_reason": null,
+      "paper_id": "usenix-security-2023-a-two-decade-retrospective-analysis-of-a-univers",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Keyed OpenAlex search and autocomplete found no title/author-compatible entity on 2026-08-08.",
+      "selected_candidate": null,
+      "status": "pending",
+      "verified_at": null,
+      "verified_by": null
+    }
+  ],
+  "citation_history": {},
+  "enrichment": null,
+  "generated_at": "2026-08-07T18:42:52+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Alexandra Nisenoff"
+      },
+      {
+        "name": "Maximilian Golla"
+      },
+      {
+        "name": "Miranda Wei"
+      },
+      {
+        "name": "Juliette Hainline"
+      },
+      {
+        "name": "Hayley Szymanek"
+      },
+      {
+        "name": "Annika Braun"
+      },
+      {
+        "name": "Annika Hildebrandt"
+      },
+      {
+        "name": "Blair Christensen"
+      },
+      {
+        "name": "David Langenberg"
+      },
+      {
+        "name": "Blase Ur"
+      }
+    ],
+    "canonical_title": "A Two-Decade Retrospective Analysis of a University's Vulnerability to Attacks Exploiting Reused Passwords",
+    "id": "usenix-security-2023-a-two-decade-retrospective-analysis-of-a-univers",
+    "identifiers": [],
+    "metadata_sources": [
+      "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+    ],
+    "official_paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/nisenoff-retrospective",
+    "publication_year": 2023,
+    "venue_name": "32nd USENIX Security Symposium"
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,12 @@
+export function Methodology() {
+  return <article className="methodology">
+    <p className="kicker">Methods before metrics</p>
+    <h1>Every number should be traceable.</h1>
+    <p className="intro">SecAwardLens separates three things that are easy to blur together: an official award decision, a canonical scholarly work, and a time-stamped observation from a citation provider.</p>
+    <section><span>01</span><div><h2>Awards come from organizers</h2><p>The award dataset is curated from conference or sponsoring-organization pages. We preserve the displayed title, authors, award label, source URL, retrieval time, parser version, and a digest of the extracted records. The current scope includes Best, Outstanding, and Distinguished Paper awards—not student, artifact, test-of-time, poster, or sponsor prizes.</p></div></section>
+    <section><span>02</span><div><h2>Entities are pinned, not rediscovered</h2><p>DOI exact matches are preferred. Otherwise title, authors, year, and venue evidence are scored conservatively. Ambiguity becomes a review item. Once verified, an OpenAlex ID is persisted; routine refreshes fetch that ID directly and never silently rematch it. Machine-assigned topics and work affiliations are stored separately as dated provider enrichment.</p></div></section>
+    <section><span>03</span><div><h2>Snapshots remain immutable</h2><p>Citation counts are observations, not paper metadata. Each JSONL snapshot records provider, external ID, retrieval timestamp, response digest, total count, and citations grouped by citing publication year. New refreshes append a file instead of rewriting history.</p></div></section>
+    <section><span>04</span><div><h2>Comparisons acknowledge denominators</h2><p>Total citations by conference mostly measure how many awards were given. SecAwardLens foregrounds paper-level rankings, median, mean, quartiles, complete distributions, and a fixed first-three-publication-years window. Sparse groups—such as NDSS with two 2023 winners—are shown, but should not be over-interpreted.</p></div></section>
+    <aside><strong>Current coverage</strong><p>The 2023 collection contains 47 official award records. OpenAlex currently resolves 42 of them; five USENIX Security papers remain visibly unmatched rather than being assigned a weak entity. Semantic Scholar support exists as an optional provider, but its public output remains disabled until its attribution and redistribution requirements are incorporated into the project.</p></aside>
+  </article>;
+}

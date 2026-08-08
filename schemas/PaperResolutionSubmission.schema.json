@@ -1,0 +1,290 @@
+{
+  "$defs": {
+    "CitationProvider": {
+      "enum": [
+        "openalex",
+        "semantic_scholar"
+      ],
+      "title": "CitationProvider",
+      "type": "string"
+    },
+    "ReviewMetadataPatch": {
+      "additionalProperties": false,
+      "properties": {
+        "canonical_title": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Canonical Title"
+        },
+        "authors": {
+          "anyOf": [
+            {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Authors"
+        },
+        "publication_year": {
+          "anyOf": [
+            {
+              "maximum": 2100,
+              "minimum": 1980,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Publication Year"
+        },
+        "official_paper_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Official Paper Url"
+        },
+        "doi": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Doi"
+        },
+        "doi_source_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Doi Source Url"
+        }
+      },
+      "title": "ReviewMetadataPatch",
+      "type": "object"
+    },
+    "ReviewProviderDecision": {
+      "additionalProperties": false,
+      "properties": {
+        "provider": {
+          "$ref": "#/$defs/CitationProvider"
+        },
+        "decision": {
+          "enum": [
+            "verified",
+            "ambiguous",
+            "rejected",
+            "not_found"
+          ],
+          "title": "Decision",
+          "type": "string"
+        },
+        "external_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "External Id"
+        },
+        "candidate_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Candidate Url"
+        },
+        "candidate_title": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Candidate Title"
+        },
+        "candidate_authors": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Candidate Authors",
+          "type": "array"
+        },
+        "candidate_publication_year": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Candidate Publication Year"
+        },
+        "candidate_venue": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Candidate Venue"
+        },
+        "candidate_doi": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Candidate Doi"
+        },
+        "related_version_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Related Version Ids",
+          "type": "array"
+        },
+        "confidence": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Confidence"
+        },
+        "reason": {
+          "title": "Reason",
+          "type": "string"
+        },
+        "evidence_urls": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Urls",
+          "type": "array"
+        }
+      },
+      "required": [
+        "provider",
+        "decision",
+        "reason"
+      ],
+      "title": "ReviewProviderDecision",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 1,
+      "default": 1,
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "paper_id": {
+      "title": "Paper Id",
+      "type": "string"
+    },
+    "reviewer": {
+      "title": "Reviewer",
+      "type": "string"
+    },
+    "reviewed_at": {
+      "format": "date-time",
+      "title": "Reviewed At",
+      "type": "string"
+    },
+    "metadata": {
+      "$ref": "#/$defs/ReviewMetadataPatch"
+    },
+    "provider_decisions": {
+      "items": {
+        "$ref": "#/$defs/ReviewProviderDecision"
+      },
+      "title": "Provider Decisions",
+      "type": "array"
+    },
+    "evidence_urls": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Evidence Urls",
+      "type": "array"
+    },
+    "notes": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Notes"
+    }
+  },
+  "required": [
+    "paper_id",
+    "reviewer",
+    "reviewed_at"
+  ],
+  "title": "PaperResolutionSubmission",
+  "type": "object"
+}

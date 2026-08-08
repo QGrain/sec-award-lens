@@ -1,0 +1,25 @@
+awards:
+- id: ndss-2023-your-router-is-my-prober-measuring-ipv6-networks-award
+  edition_id: ndss-2023
+  paper_id: ndss-2023-your-router-is-my-prober-measuring-ipv6-networks
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.ndss-symposium.org/ndss2023/
+    retrieved_at: '2026-08-07T18:34:37Z'
+    content_sha256: adb46aff5da70675303af80106c42cbaed006322235a3b108e835c5b2e21a9c1
+    parser_version: '2023.1'
+  raw_title: 'Your Router Is My Prober: Measuring IPv6Networks via ICMP Rate Limiting Side Channels'
+  raw_authors: Long Pan (Tsinghua University), Jiahai Yang (Tsinghua University), Lin He (Tsinghua University), Zhiliang Wang (Tsinghua University), Leyao Nie (Tsinghua University), Guanglei Song (Tsinghua University), Yaozhong Liu (Tsinghua University)
+- id: ndss-2023-darwin-survival-of-the-fittest-fuzzing-mutators-award
+  edition_id: ndss-2023
+  paper_id: ndss-2023-darwin-survival-of-the-fittest-fuzzing-mutators
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.ndss-symposium.org/ndss2023/
+    retrieved_at: '2026-08-07T18:34:37Z'
+    content_sha256: adb46aff5da70675303af80106c42cbaed006322235a3b108e835c5b2e21a9c1
+    parser_version: '2023.1'
+  raw_title: 'DARWIN: Survival of the Fittest Fuzzing Mutators'
+  raw_authors: Patrick Jauernig (Technical University of Darmstadt), Domagoj Jakobovic (University of Zagreb, Croatia), Stjepan Picek (Radboud University and TU Delft), Emmanuel Stapf (Technical University of Darmstadt), Ahmad-Reza Sadeghi (Technical University of Darmstadt)

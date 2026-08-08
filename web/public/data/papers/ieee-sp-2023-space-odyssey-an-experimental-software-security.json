@@ -1,0 +1,216 @@
+{
+  "awards": [
+    {
+      "edition_id": "ieee-sp-2023",
+      "id": "ieee-sp-2023-space-odyssey-an-experimental-software-security-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "0e631e221f695d3e5bd112ca67eab2763e063fdbc845dc8459cd4233d778d84c",
+        "parser_version": "2023.1",
+        "retrieved_at": "2026-08-07T18:34:37Z",
+        "url": "https://www.ieee-security.org/TC/SP2023/program-awards.html"
+      },
+      "paper_id": "ieee-sp-2023-space-odyssey-an-experimental-software-security",
+      "raw_authors": "Johannes Willbold (Ruhr-Universität Bochum), Moritz Schloegel (Ruhr-Universität Bochum) Manuel Vögele (Ruhr-Universität Bochum), Maximilian Gerhardt (Ruhr-Universität Bochum), Thorsten Holz (CISPA Helmholtz Center for Information Security), Ali Abbasi (CISPA Helmholtz Center for Information Security)",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "Space Odyssey: An Experimental Software Security Analysis of Satellites"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 1.0,
+      "external_id": "W4389546099",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "ieee-sp-2023-space-odyssey-an-experimental-software-security",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": null,
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1109/sp46215.2023.10351029",
+        "external_id": "W4389546099",
+        "publication_year": 2023,
+        "title": "Space Odyssey: An Experimental Software Security Analysis of Satellites",
+        "title_similarity": 1.0,
+        "venue": null,
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-07T18:41:58Z",
+      "verified_by": "SecAwardLens pipeline"
+    }
+  ],
+  "citation_history": {
+    "openalex": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 2,
+            "year": 2023
+          },
+          {
+            "count": 23,
+            "year": 2024
+          },
+          {
+            "count": 17,
+            "year": 2025
+          },
+          {
+            "count": 8,
+            "year": 2026
+          }
+        ],
+        "external_id": "W4389546099",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-space-odyssey-an-experimental-software-security",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4389546099?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "42ea5a62381c743ffb56be072bd6d70f0b754f9e73ce8312ca08bf6abc7bad0e",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 50
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [
+          {
+            "display_name": "Ruhr University Bochum",
+            "openalex_id": "I904495901",
+            "ror": "https://ror.org/04tsk2644"
+          }
+        ],
+        "author_name": "Johannes Willbold",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5021323550"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Helmholtz Center for Information Security",
+            "openalex_id": "I4210128801",
+            "ror": "https://ror.org/02njgxr09"
+          },
+          {
+            "display_name": "Ruhr University Bochum",
+            "openalex_id": "I904495901",
+            "ror": "https://ror.org/04tsk2644"
+          }
+        ],
+        "author_name": "Moritz Schloegel",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5069446947"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Ruhr University Bochum",
+            "openalex_id": "I904495901",
+            "ror": "https://ror.org/04tsk2644"
+          }
+        ],
+        "author_name": "Manuel Vögele",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5092582463"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Ruhr University Bochum",
+            "openalex_id": "I904495901",
+            "ror": "https://ror.org/04tsk2644"
+          }
+        ],
+        "author_name": "Maximilian Gerhardt",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5108637853"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Helmholtz Center for Information Security",
+            "openalex_id": "I4210128801",
+            "ror": "https://ror.org/02njgxr09"
+          }
+        ],
+        "author_name": "Thorsten Holz",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5056790702"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Helmholtz Center for Information Security",
+            "openalex_id": "I4210128801",
+            "ror": "https://ror.org/02njgxr09"
+          }
+        ],
+        "author_name": "Ali Abbasi",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5101476805"
+      }
+    ],
+    "external_id": "W4389546099",
+    "paper_id": "ieee-sp-2023-space-odyssey-an-experimental-software-security",
+    "primary_topic": {
+      "display_name": "Satellite Communication Systems",
+      "openalex_id": "T12042",
+      "score": 0.9924
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-08T05:07:19Z"
+  },
+  "generated_at": "2026-08-07T18:42:52+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Johannes Willbold"
+      },
+      {
+        "name": "Moritz Schloegel"
+      },
+      {
+        "name": "Manuel Vögele"
+      },
+      {
+        "name": "Maximilian Gerhardt"
+      },
+      {
+        "name": "Thorsten Holz"
+      },
+      {
+        "name": "Ali Abbasi"
+      }
+    ],
+    "canonical_title": "Space Odyssey: An Experimental Software Security Analysis of Satellites",
+    "id": "ieee-sp-2023-space-odyssey-an-experimental-software-security",
+    "identifiers": [
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W4389546099",
+        "value": "W4389546099",
+        "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "doi",
+        "source_url": "https://api.crossref.org/works/10.1109/sp46215.2023.10351029",
+        "value": "10.1109/sp46215.2023.10351029",
+        "verified_at": "2026-08-07T18:41:58Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.ieee-security.org/TC/SP2023/program-awards.html",
+      "https://openalex.org/W4389546099"
+    ],
+    "official_paper_url": null,
+    "publication_year": 2023,
+    "venue_name": "2023 IEEE Symposium on Security and Privacy"
+  },
+  "schema_version": 1
+}

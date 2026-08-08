@@ -1,0 +1,243 @@
+{
+  "awards": [
+    {
+      "edition_id": "ndss-2023",
+      "id": "ndss-2023-your-router-is-my-prober-measuring-ipv6-networks-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "adb46aff5da70675303af80106c42cbaed006322235a3b108e835c5b2e21a9c1",
+        "parser_version": "2023.1",
+        "retrieved_at": "2026-08-07T18:34:37Z",
+        "url": "https://www.ndss-symposium.org/ndss2023/"
+      },
+      "paper_id": "ndss-2023-your-router-is-my-prober-measuring-ipv6-networks",
+      "raw_authors": "Long Pan (Tsinghua University), Jiahai Yang (Tsinghua University), Lin He (Tsinghua University), Zhiliang Wang (Tsinghua University), Leyao Nie (Tsinghua University), Guanglei Song (Tsinghua University), Yaozhong Liu (Tsinghua University)",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "Your Router Is My Prober: Measuring IPv6Networks via ICMP Rate Limiting Side Channels"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 1.0,
+      "external_id": "W4324007097",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "ndss-2023-your-router-is-my-prober-measuring-ipv6-networks",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [
+        "W4307413811"
+      ],
+      "review_notes": null,
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.14722/ndss.2023.23049",
+        "external_id": "W4324007097",
+        "publication_year": 2023,
+        "title": "Your Router is My Prober: Measuring IPv6 Networks via ICMP Rate Limiting Side Channels",
+        "title_similarity": 1.0,
+        "venue": null,
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-07T18:41:58Z",
+      "verified_by": "SecAwardLens pipeline"
+    }
+  ],
+  "citation_history": {
+    "openalex": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2023
+          },
+          {
+            "count": 8,
+            "year": 2024
+          },
+          {
+            "count": 9,
+            "year": 2025
+          },
+          {
+            "count": 3,
+            "year": 2026
+          }
+        ],
+        "external_id": "W4324007097",
+        "influential_citations": null,
+        "paper_id": "ndss-2023-your-router-is-my-prober-measuring-ipv6-networks",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-04T08:18:43.703281",
+        "request_fingerprint": "GET /works/W4324007097?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "177ee2528f2be12c24cdc5a59792d3646ae152fff12db8e33cc6a8616a9a0b10",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 21
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [
+          {
+            "display_name": "Tsinghua University",
+            "openalex_id": "I99065089",
+            "ror": "https://ror.org/03cve4549"
+          }
+        ],
+        "author_name": "Long Pan",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5101808936"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Peng Cheng Laboratory",
+            "openalex_id": "I4210136793",
+            "ror": "https://ror.org/03qdqbt06"
+          },
+          {
+            "display_name": "Tsinghua University",
+            "openalex_id": "I99065089",
+            "ror": "https://ror.org/03cve4549"
+          }
+        ],
+        "author_name": "Jiahai Yang",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5023416195"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Peng Cheng Laboratory",
+            "openalex_id": "I4210136793",
+            "ror": "https://ror.org/03qdqbt06"
+          },
+          {
+            "display_name": "Tsinghua University",
+            "openalex_id": "I99065089",
+            "ror": "https://ror.org/03cve4549"
+          }
+        ],
+        "author_name": "Lin He",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5114357338"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Peng Cheng Laboratory",
+            "openalex_id": "I4210136793",
+            "ror": "https://ror.org/03qdqbt06"
+          },
+          {
+            "display_name": "Tsinghua University",
+            "openalex_id": "I99065089",
+            "ror": "https://ror.org/03cve4549"
+          }
+        ],
+        "author_name": "Zhiliang Wang",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5100343138"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Tsinghua University",
+            "openalex_id": "I99065089",
+            "ror": "https://ror.org/03cve4549"
+          }
+        ],
+        "author_name": "Leyao Nie",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5040157011"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Tsinghua University",
+            "openalex_id": "I99065089",
+            "ror": "https://ror.org/03cve4549"
+          }
+        ],
+        "author_name": "Guanglei Song",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5071667007"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Tsinghua University",
+            "openalex_id": "I99065089",
+            "ror": "https://ror.org/03cve4549"
+          }
+        ],
+        "author_name": "Yaozhong Liu",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5025460672"
+      }
+    ],
+    "external_id": "W4324007097",
+    "paper_id": "ndss-2023-your-router-is-my-prober-measuring-ipv6-networks",
+    "primary_topic": {
+      "display_name": "IPv6, Mobility, Handover, Networks, Security",
+      "openalex_id": "T10651",
+      "score": 0.9905
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-08T05:07:19Z"
+  },
+  "generated_at": "2026-08-07T18:42:52+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Long Pan"
+      },
+      {
+        "name": "Jiahai Yang"
+      },
+      {
+        "name": "Lin He"
+      },
+      {
+        "name": "Zhiliang Wang"
+      },
+      {
+        "name": "Leyao Nie"
+      },
+      {
+        "name": "Guanglei Song"
+      },
+      {
+        "name": "Yaozhong Liu"
+      }
+    ],
+    "canonical_title": "Your Router Is My Prober: Measuring IPv6 Networks via ICMP Rate Limiting Side Channels",
+    "id": "ndss-2023-your-router-is-my-prober-measuring-ipv6-networks",
+    "identifiers": [
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W4324007097",
+        "value": "W4324007097",
+        "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "doi",
+        "source_url": "https://api.crossref.org/works/10.14722/ndss.2023.23049",
+        "value": "10.14722/ndss.2023.23049",
+        "verified_at": "2026-08-07T18:41:58Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.ndss-symposium.org/ndss2023/",
+      "https://openalex.org/W4324007097"
+    ],
+    "official_paper_url": "https://www.ndss-symposium.org/ndss-paper/your-router-is-my-prober-measuring-ipv6-networks-via-icmp-rate-limiting-side-channels/",
+    "publication_year": 2023,
+    "venue_name": "Network and Distributed System Security Symposium 2023"
+  },
+  "schema_version": 1
+}

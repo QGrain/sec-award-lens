@@ -1,0 +1,256 @@
+{
+  "awards": [
+    {
+      "edition_id": "ieee-sp-2023",
+      "id": "ieee-sp-2023-typing-high-speed-cryptography-against-spectre-v-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "0e631e221f695d3e5bd112ca67eab2763e063fdbc845dc8459cd4233d778d84c",
+        "parser_version": "2023.1",
+        "retrieved_at": "2026-08-07T18:34:37Z",
+        "url": "https://www.ieee-security.org/TC/SP2023/program-awards.html"
+      },
+      "paper_id": "ieee-sp-2023-typing-high-speed-cryptography-against-spectre-v",
+      "raw_authors": "Basavesh Ammanaghatta Shivakumar (MPI-SP), Gilles Barthe (MPI-SP and IMDEA Software Institute), Benjamin Grégoire (Inria and Université Côte d'Azur), Vincent Laporte (Inria Nancy), Tiago Oliviera (MPI-SP), Swarn Priya (Inria and Université Côte d'Azur), Peter Schwabe (MPI-SP & Radboud University), Lucas Tabary-Maujean (ENS Paris-Saclay)",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "Typing High-Speed Cryptography against Spectre v1"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 1.0,
+      "external_id": "W4385080320",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "ieee-sp-2023-typing-high-speed-cryptography-against-spectre-v",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": null,
+      "selected_candidate": {
+        "author_overlap": 0.875,
+        "doi": "10.1109/sp46215.2023.10179418",
+        "external_id": "W4385080320",
+        "publication_year": 2023,
+        "title": "Typing High-Speed Cryptography against Spectre v1",
+        "title_similarity": 1.0,
+        "venue": null,
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-07T18:41:58Z",
+      "verified_by": "SecAwardLens pipeline"
+    }
+  ],
+  "citation_history": {
+    "openalex": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 8,
+            "year": 2023
+          },
+          {
+            "count": 2,
+            "year": 2024
+          },
+          {
+            "count": 9,
+            "year": 2025
+          },
+          {
+            "count": 3,
+            "year": 2026
+          }
+        ],
+        "external_id": "W4385080320",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-typing-high-speed-cryptography-against-spectre-v",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-01T09:00:35.917206",
+        "request_fingerprint": "GET /works/W4385080320?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "29442a06a2ddfa1027d784afcbb0f3027f316cfd48a91231ee07c91a1284e29c",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 22
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [
+          {
+            "display_name": "Max Planck Institute for Security and Privacy",
+            "openalex_id": "I4210096592",
+            "ror": "https://ror.org/00bj0r217"
+          }
+        ],
+        "author_name": "Basavesh Ammanaghatta Shivakumar",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5084848032"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Max Planck Institute for Security and Privacy",
+            "openalex_id": "I4210096592",
+            "ror": "https://ror.org/00bj0r217"
+          }
+        ],
+        "author_name": "Gilles Barthe",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5075577852"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Institut national de recherche en sciences et technologies du numérique",
+            "openalex_id": "I1326498283",
+            "ror": "https://ror.org/02kvxyf05"
+          }
+        ],
+        "author_name": "Benjamin Grégoire",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5103256238"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Centre National de la Recherche Scientifique",
+            "openalex_id": "I1294671590",
+            "ror": "https://ror.org/02feahw73"
+          },
+          {
+            "display_name": "Laboratoire Lorrain de Recherche en Informatique et ses Applications",
+            "openalex_id": "I4210121838",
+            "ror": "https://ror.org/02vnf0c38"
+          },
+          {
+            "display_name": "Université de Lorraine",
+            "openalex_id": "I90183372",
+            "ror": "https://ror.org/04vfs2w97"
+          }
+        ],
+        "author_name": "Vincent Laporte",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5088318447"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Max Planck Institute for Security and Privacy",
+            "openalex_id": "I4210096592",
+            "ror": "https://ror.org/00bj0r217"
+          }
+        ],
+        "author_name": "Tiago Oliviera",
+        "name_similarity": 0.9286,
+        "openalex_author_id": "A5085787959"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Institut national de recherche en sciences et technologies du numérique",
+            "openalex_id": "I1326498283",
+            "ror": "https://ror.org/02kvxyf05"
+          }
+        ],
+        "author_name": "Swarn Priya",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5104010220"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Radboud University Nijmegen",
+            "openalex_id": "I145872427",
+            "ror": "https://ror.org/016xsfp80"
+          },
+          {
+            "display_name": "Max Planck Institute for Security and Privacy",
+            "openalex_id": "I4210096592",
+            "ror": "https://ror.org/00bj0r217"
+          }
+        ],
+        "author_name": "Peter Schwabe",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5074344027"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "CEA Paris-Saclay",
+            "openalex_id": "I4210128565",
+            "ror": "https://ror.org/03n15ch10"
+          }
+        ],
+        "author_name": "Lucas Tabary-Maujean",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5092519527"
+      }
+    ],
+    "external_id": "W4385080320",
+    "paper_id": "ieee-sp-2023-typing-high-speed-cryptography-against-spectre-v",
+    "primary_topic": {
+      "display_name": "Security and Verification in Computing",
+      "openalex_id": "T11424",
+      "score": 1.0
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-08T05:07:19Z"
+  },
+  "generated_at": "2026-08-07T18:42:52+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Basavesh Ammanaghatta Shivakumar"
+      },
+      {
+        "name": "Gilles Barthe"
+      },
+      {
+        "name": "Benjamin Grégoire"
+      },
+      {
+        "name": "Vincent Laporte"
+      },
+      {
+        "name": "Tiago Oliviera"
+      },
+      {
+        "name": "Swarn Priya"
+      },
+      {
+        "name": "Peter Schwabe"
+      },
+      {
+        "name": "Lucas Tabary-Maujean"
+      }
+    ],
+    "canonical_title": "Typing High-Speed Cryptography against Spectre v1",
+    "id": "ieee-sp-2023-typing-high-speed-cryptography-against-spectre-v",
+    "identifiers": [
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W4385080320",
+        "value": "W4385080320",
+        "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "doi",
+        "source_url": "https://api.crossref.org/works/10.1109/sp46215.2023.10179418",
+        "value": "10.1109/sp46215.2023.10179418",
+        "verified_at": "2026-08-07T18:41:58Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.ieee-security.org/TC/SP2023/program-awards.html",
+      "https://openalex.org/W4385080320"
+    ],
+    "official_paper_url": null,
+    "publication_year": 2023,
+    "venue_name": "2023 IEEE Symposium on Security and Privacy"
+  },
+  "schema_version": 1
+}

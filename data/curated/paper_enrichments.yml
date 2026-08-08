@@ -1,0 +1,1798 @@
+enrichments:
+- paper_id: ieee-sp-2023-mega-malleable-encryption-goes-awry
+  provider: openalex
+  external_id: W4384948645
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Cryptography and Data Security
+    openalex_id: T10237
+    score: 0.9998
+  authors:
+  - author_name: Matilda Backendal
+    name_similarity: 1.0
+    affiliations:
+    - display_name: ETH Zurich
+      openalex_id: I35440088
+      ror: https://ror.org/05a28rw58
+    openalex_author_id: A5052939319
+  - author_name: Miro Haller
+    name_similarity: 1.0
+    affiliations:
+    - display_name: ETH Zurich
+      openalex_id: I35440088
+      ror: https://ror.org/05a28rw58
+    openalex_author_id: A5039065303
+  - author_name: Kenneth Paterson
+    name_similarity: 0.95
+    affiliations:
+    - display_name: ETH Zurich
+      openalex_id: I35440088
+      ror: https://ror.org/05a28rw58
+    openalex_author_id: A5072987600
+- paper_id: ieee-sp-2023-practically-exploitable-cryptographic-vulnerabil
+  provider: openalex
+  external_id: W4389546188
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Cryptography and Data Security
+    openalex_id: T10237
+    score: 0.9991
+  authors:
+  - author_name: Martin R. Albrecht
+    name_similarity: 0.855
+    affiliations:
+    - display_name: King's College London
+      openalex_id: I183935753
+      ror: https://ror.org/0220mzb33
+    openalex_author_id: A5066696423
+  - author_name: Sofía Celi
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5063864752
+  - author_name: Benjamin Dowling
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Sheffield
+      openalex_id: I91136226
+      ror: https://ror.org/05krs5044
+    openalex_author_id: A5015282175
+  - author_name: Daniel Jones
+    name_similarity: 0.95
+    affiliations:
+    - display_name: Royal Holloway University of London
+      openalex_id: I184558857
+      ror: https://ror.org/04g2vpn86
+    openalex_author_id: A5103223044
+- paper_id: ieee-sp-2023-weak-fiat-shamir-attacks-on-modern-proof-systems
+  provider: openalex
+  external_id: W4385080282
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Cryptography and Data Security
+    openalex_id: T10237
+    score: 0.9997
+  authors:
+  - author_name: Quang Dao
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Carnegie Mellon University
+      openalex_id: I74973139
+      ror: https://ror.org/05x2bcf33
+    openalex_author_id: A5016001763
+  - author_name: Jim Miller
+    name_similarity: 1.0
+    affiliations: []
+  - author_name: Opal Wright
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5075357845
+  - author_name: Paul Grubbs
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Michigan
+      openalex_id: I27837315
+      ror: https://ror.org/00jmfr291
+    openalex_author_id: A5042881560
+- paper_id: ieee-sp-2023-typing-high-speed-cryptography-against-spectre-v
+  provider: openalex
+  external_id: W4385080320
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Security and Verification in Computing
+    openalex_id: T11424
+    score: 1.0
+  authors:
+  - author_name: Basavesh Ammanaghatta Shivakumar
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Max Planck Institute for Security and Privacy
+      openalex_id: I4210096592
+      ror: https://ror.org/00bj0r217
+    openalex_author_id: A5084848032
+  - author_name: Gilles Barthe
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Max Planck Institute for Security and Privacy
+      openalex_id: I4210096592
+      ror: https://ror.org/00bj0r217
+    openalex_author_id: A5075577852
+  - author_name: Benjamin Grégoire
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Institut national de recherche en sciences et technologies du numérique
+      openalex_id: I1326498283
+      ror: https://ror.org/02kvxyf05
+    openalex_author_id: A5103256238
+  - author_name: Vincent Laporte
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Centre National de la Recherche Scientifique
+      openalex_id: I1294671590
+      ror: https://ror.org/02feahw73
+    - display_name: Laboratoire Lorrain de Recherche en Informatique et ses Applications
+      openalex_id: I4210121838
+      ror: https://ror.org/02vnf0c38
+    - display_name: Université de Lorraine
+      openalex_id: I90183372
+      ror: https://ror.org/04vfs2w97
+    openalex_author_id: A5088318447
+  - author_name: Tiago Oliviera
+    name_similarity: 0.9286
+    affiliations:
+    - display_name: Max Planck Institute for Security and Privacy
+      openalex_id: I4210096592
+      ror: https://ror.org/00bj0r217
+    openalex_author_id: A5085787959
+  - author_name: Swarn Priya
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Institut national de recherche en sciences et technologies du numérique
+      openalex_id: I1326498283
+      ror: https://ror.org/02kvxyf05
+    openalex_author_id: A5104010220
+  - author_name: Peter Schwabe
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Radboud University Nijmegen
+      openalex_id: I145872427
+      ror: https://ror.org/016xsfp80
+    - display_name: Max Planck Institute for Security and Privacy
+      openalex_id: I4210096592
+      ror: https://ror.org/00bj0r217
+    openalex_author_id: A5074344027
+  - author_name: Lucas Tabary-Maujean
+    name_similarity: 1.0
+    affiliations:
+    - display_name: CEA Paris-Saclay
+      openalex_id: I4210128565
+      ror: https://ror.org/03n15ch10
+    openalex_author_id: A5092519527
+- paper_id: ieee-sp-2023-red-team-vs-blue-team-a-real-world-hardware-troj
+  provider: openalex
+  external_id: W4384948639
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Physical Unclonable Functions (PUFs) and Hardware Security
+    openalex_id: T12122
+    score: 0.9998
+  authors:
+  - author_name: Endres Puschner
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Max Planck Institute for Security and Privacy
+      openalex_id: I4210096592
+      ror: https://ror.org/00bj0r217
+    openalex_author_id: A5076572791
+  - author_name: Thorben Moos
+    name_similarity: 1.0
+    affiliations:
+    - display_name: UCLouvain
+      openalex_id: I95674353
+      ror: https://ror.org/02495e989
+    openalex_author_id: A5014843693
+  - author_name: Christian Kison
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Bundeskriminalamt
+      openalex_id: I1333198813
+      ror: https://ror.org/037bsar61
+    openalex_author_id: A5086672265
+  - author_name: Steffen Becker
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Max Planck Institute for Security and Privacy
+      openalex_id: I4210096592
+      ror: https://ror.org/00bj0r217
+    openalex_author_id: A5008222051
+  - author_name: Amir Moradi
+    name_similarity: 1.0
+    affiliations:
+    - display_name: UCLouvain
+      openalex_id: I95674353
+      ror: https://ror.org/02495e989
+    openalex_author_id: A5012815811
+  - author_name: Christof Paar
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Max Planck Institute for Security and Privacy
+      openalex_id: I4210096592
+      ror: https://ror.org/00bj0r217
+    openalex_author_id: A5041748332
+- paper_id: ieee-sp-2023-it-s-dom-clobbering-time-attack-techniques-preva
+  provider: openalex
+  external_id: W4385679748
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Web Application Security Vulnerabilities
+    openalex_id: T12479
+    score: 0.9999
+  authors:
+  - author_name: Soheil Khodayari
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Helmholtz Center for Information Security
+      openalex_id: I4210128801
+      ror: https://ror.org/02njgxr09
+    openalex_author_id: A5089070556
+  - author_name: Giancarlo Pellegrino
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Helmholtz Center for Information Security
+      openalex_id: I4210128801
+      ror: https://ror.org/02njgxr09
+    openalex_author_id: A5087556256
+- paper_id: ieee-sp-2023-the-leaky-web-automated-discovery-of-cross-site
+  provider: openalex
+  external_id: W4384948721
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Network Security and Intrusion Detection
+    openalex_id: T10400
+    score: 0.9996
+  authors:
+  - author_name: Jannis Rautenstrauch
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Helmholtz Center for Information Security
+      openalex_id: I4210128801
+      ror: https://ror.org/02njgxr09
+    openalex_author_id: A5047142070
+  - author_name: Giancarlo Pellegrino
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Helmholtz Center for Information Security
+      openalex_id: I4210128801
+      ror: https://ror.org/02njgxr09
+    openalex_author_id: A5087556256
+  - author_name: Ben Stock
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Helmholtz Center for Information Security
+      openalex_id: I4210128801
+      ror: https://ror.org/02njgxr09
+    openalex_author_id: A5087823285
+- paper_id: ieee-sp-2023-wave-a-verifiably-secure-webassembly-sandboxing
+  provider: openalex
+  external_id: W4385080305
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Security and Verification in Computing
+    openalex_id: T11424
+    score: 1.0
+  authors:
+  - author_name: Evan Johnson
+    name_similarity: 1.0
+    affiliations:
+    - display_name: UC San Diego Health System
+      openalex_id: I2800935791
+      ror: https://ror.org/01kbfgm16
+    openalex_author_id: A5047711104
+  - author_name: Evan Laufer
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Stanford Medicine
+      openalex_id: I4210137306
+      ror: https://ror.org/03mtd9a03
+    openalex_author_id: A5012517754
+  - author_name: Zijie Zhao
+    name_similarity: 1.0
+    affiliations:
+    - display_name: International University of the Caribbean
+      openalex_id: I308392441
+      ror: https://ror.org/02rv57d03
+    openalex_author_id: A5100636510
+  - author_name: Shravan Narayan
+    name_similarity: 1.0
+    affiliations:
+    - display_name: UC San Diego Health System
+      openalex_id: I2800935791
+      ror: https://ror.org/01kbfgm16
+    openalex_author_id: A5048194792
+  - author_name: Stefan Savage
+    name_similarity: 1.0
+    affiliations:
+    - display_name: UC San Diego Health System
+      openalex_id: I2800935791
+      ror: https://ror.org/01kbfgm16
+    openalex_author_id: A5048394730
+  - author_name: Deian Stefan
+    name_similarity: 1.0
+    affiliations:
+    - display_name: UC San Diego Health System
+      openalex_id: I2800935791
+      ror: https://ror.org/01kbfgm16
+    openalex_author_id: A5082723061
+  - author_name: Fraser Brown
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Carnegie Mellon University
+      openalex_id: I74973139
+      ror: https://ror.org/05x2bcf33
+    openalex_author_id: A5003256269
+- paper_id: ieee-sp-2023-characterizing-everyday-misuse-of-smart-home-dev
+  provider: openalex
+  external_id: W4385080361
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Privacy, Security, and Data Protection
+    openalex_id: T11045
+    score: 0.9995
+  authors:
+  - author_name: Phoebe Moh
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Maryland, College Park
+      openalex_id: I66946132
+      ror: https://ror.org/047s2c258
+    openalex_author_id: A5049839905
+  - author_name: Pubali Datta
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Illinois Urbana-Champaign
+      openalex_id: I157725225
+      ror: https://ror.org/047426m28
+    openalex_author_id: A5101917630
+  - author_name: Noel Warford
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Maryland, College Park
+      openalex_id: I66946132
+      ror: https://ror.org/047s2c258
+    openalex_author_id: A5062033325
+  - author_name: Adam Bates
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Illinois Urbana-Champaign
+      openalex_id: I157725225
+      ror: https://ror.org/047426m28
+    openalex_author_id: A5021649580
+  - author_name: Nathan Malkin
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Maryland, College Park
+      openalex_id: I66946132
+      ror: https://ror.org/047s2c258
+    openalex_author_id: A5081583467
+  - author_name: Michelle L. Mazurek
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Maryland, College Park
+      openalex_id: I66946132
+      ror: https://ror.org/047s2c258
+    openalex_author_id: A5105206771
+- paper_id: ieee-sp-2023-not-yet-another-digital-id-privacy-preserving-hu
+  provider: openalex
+  external_id: W4385679771
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Internet Traffic Analysis and Secure E-voting
+    openalex_id: T11598
+    score: 0.9962
+  authors:
+  - author_name: Boya Wang
+    name_similarity: 1.0
+    affiliations:
+    - display_name: École Polytechnique Fédérale de Lausanne
+      openalex_id: I5124864
+      ror: https://ror.org/02s376052
+    openalex_author_id: A5102015856
+  - author_name: Wouter Lueks
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Helmholtz Center for Information Security
+      openalex_id: I4210128801
+      ror: https://ror.org/02njgxr09
+    openalex_author_id: A5075822288
+  - author_name: Justinas Sukaitis
+    name_similarity: 1.0
+    affiliations:
+    - display_name: International Committee of the Red Cross
+      openalex_id: I93593358
+      ror: https://ror.org/04h4t0r16
+    openalex_author_id: A5089156030
+  - author_name: Vincent Graf Narbel
+    name_similarity: 1.0
+    affiliations:
+    - display_name: International Committee of the Red Cross
+      openalex_id: I93593358
+      ror: https://ror.org/04h4t0r16
+    openalex_author_id: A5032332081
+  - author_name: Carmela Troncoso
+    name_similarity: 1.0
+    affiliations:
+    - display_name: École Polytechnique Fédérale de Lausanne
+      openalex_id: I5124864
+      ror: https://ror.org/02s376052
+    openalex_author_id: A5072857797
+- paper_id: ieee-sp-2023-in-eighty-percent-of-the-cases-i-select-the-pass
+  provider: openalex
+  external_id: W4385679811
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Privacy, Security, and Data Protection
+    openalex_id: T11045
+    score: 0.9978
+  authors:
+  - author_name: Collins W. Munyendo
+    name_similarity: 1.0
+    affiliations:
+    - display_name: George Washington University
+      openalex_id: I193531525
+      ror: https://ror.org/00y4zzh67
+    openalex_author_id: A5052232889
+  - author_name: Yasemin Acar
+    name_similarity: 1.0
+    affiliations:
+    - display_name: George Washington University
+      openalex_id: I193531525
+      ror: https://ror.org/00y4zzh67
+    - display_name: Paderborn University
+      openalex_id: I206945453
+      ror: https://ror.org/058kzsd48
+    openalex_author_id: A5074668699
+  - author_name: Adam J. Aviv
+    name_similarity: 1.0
+    affiliations:
+    - display_name: George Washington University
+      openalex_id: I193531525
+      ror: https://ror.org/00y4zzh67
+    openalex_author_id: A5009788320
+- paper_id: ieee-sp-2023-space-odyssey-an-experimental-software-security
+  provider: openalex
+  external_id: W4389546099
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Satellite Communication Systems
+    openalex_id: T12042
+    score: 0.9924
+  authors:
+  - author_name: Johannes Willbold
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Ruhr University Bochum
+      openalex_id: I904495901
+      ror: https://ror.org/04tsk2644
+    openalex_author_id: A5021323550
+  - author_name: Moritz Schloegel
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Helmholtz Center for Information Security
+      openalex_id: I4210128801
+      ror: https://ror.org/02njgxr09
+    - display_name: Ruhr University Bochum
+      openalex_id: I904495901
+      ror: https://ror.org/04tsk2644
+    openalex_author_id: A5069446947
+  - author_name: Manuel Vögele
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Ruhr University Bochum
+      openalex_id: I904495901
+      ror: https://ror.org/04tsk2644
+    openalex_author_id: A5092582463
+  - author_name: Maximilian Gerhardt
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Ruhr University Bochum
+      openalex_id: I904495901
+      ror: https://ror.org/04tsk2644
+    openalex_author_id: A5108637853
+  - author_name: Thorsten Holz
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Helmholtz Center for Information Security
+      openalex_id: I4210128801
+      ror: https://ror.org/02njgxr09
+    openalex_author_id: A5056790702
+  - author_name: Ali Abbasi
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Helmholtz Center for Information Security
+      openalex_id: I4210128801
+      ror: https://ror.org/02njgxr09
+    openalex_author_id: A5101476805
+- paper_id: usenix-security-2023-botscreen-trust-everybody-but-cut-the-aimbots-yo
+  provider: openalex
+  external_id: W4393633303
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Network Security and Intrusion Detection
+    openalex_id: T10400
+    score: 0.9565
+  authors:
+  - author_name: Minyeop Choi
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Korea Advanced Institute of Science and Technology
+      openalex_id: I157485424
+      ror: https://ror.org/05apxxy63
+    - display_name: Kootenay Association for Science & Technology
+      openalex_id: I4210099236
+      ror: https://ror.org/011pv9p44
+    openalex_author_id: A5067541406
+  - author_name: Gihyuk Ko
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Carnegie Mellon University
+      openalex_id: I74973139
+      ror: https://ror.org/05x2bcf33
+    openalex_author_id: A5033593176
+  - author_name: Sang Kil Cha
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Korea Advanced Institute of Science and Technology
+      openalex_id: I157485424
+      ror: https://ror.org/05apxxy63
+    - display_name: Kootenay Association for Science & Technology
+      openalex_id: I4210099236
+      ror: https://ror.org/011pv9p44
+    openalex_author_id: A5135398776
+- paper_id: usenix-security-2023-treesync-authenticated-group-management-for-mess
+  provider: openalex
+  external_id: W4392466677
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Access Control and Trust
+    openalex_id: T10927
+    score: 0.7991
+  authors:
+  - author_name: Théophile Wallez
+    name_similarity: 1.0
+    affiliations:
+    - display_name: State Key Laboratory of Cryptology
+      openalex_id: I4210132990
+      ror: https://ror.org/02pn5rj08
+    openalex_author_id: A5051462086
+  - author_name: Jonathan Protzenko
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Microsoft (United States)
+      openalex_id: I1290206253
+      ror: https://ror.org/00d0nc645
+    - display_name: Microsoft Research (United Kingdom)
+      openalex_id: I4210164937
+      ror: https://ror.org/05k87vq12
+    openalex_author_id: A5055019834
+  - author_name: Benjamin Beurdouche
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5042649150
+  - author_name: Karthikeyan Bhargavan
+    name_similarity: 1.0
+    affiliations:
+    - display_name: State Key Laboratory of Cryptology
+      openalex_id: I4210132990
+      ror: https://ror.org/02pn5rj08
+    openalex_author_id: A5026297326
+- paper_id: usenix-security-2023-tight-auditing-of-differentially-private-machine
+  provider: openalex
+  external_id: W4321276312
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Privacy-Preserving Technologies in Data
+    openalex_id: T10764
+    score: 0.9998
+  authors:
+  - author_name: Milad Nasr
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5059480732
+  - author_name: Jamie Hayes
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5104083546
+  - author_name: Thomas Steinke
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5090438638
+  - author_name: Borja Balle
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5085679401
+  - author_name: Florian Tramèr
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5006851333
+  - author_name: Matthew Jagielski
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5054655342
+  - author_name: Nicholas Carlini
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5034257647
+  - author_name: Andreas Terzis
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5103331911
+- paper_id: usenix-security-2023-fuzztruction-using-fault-injection-based-fuzzing
+  provider: openalex
+  external_id: W6902390121
+  retrieved_at: '2026-08-08T05:07:19Z'
+  authors:
+  - author_name: Nils Bars
+    name_similarity: 0.95
+    affiliations:
+    - display_name: Helmholtz Center for Information Security
+      openalex_id: I4210128801
+      ror: https://ror.org/02njgxr09
+  - author_name: Moritz Schloegel
+    name_similarity: 0.95
+    affiliations:
+    - display_name: Helmholtz Center for Information Security
+      openalex_id: I4210128801
+      ror: https://ror.org/02njgxr09
+  - author_name: Tobias Scharnowski
+    name_similarity: 0.95
+    affiliations:
+    - display_name: Helmholtz Center for Information Security
+      openalex_id: I4210128801
+      ror: https://ror.org/02njgxr09
+  - author_name: Nico Schiller
+    name_similarity: 0.95
+    affiliations:
+    - display_name: Helmholtz Center for Information Security
+      openalex_id: I4210128801
+      ror: https://ror.org/02njgxr09
+  - author_name: Thorsten Holz
+    name_similarity: 0.95
+    affiliations:
+    - display_name: Helmholtz Center for Information Security
+      openalex_id: I4210128801
+      ror: https://ror.org/02njgxr09
+- paper_id: usenix-security-2023-glaze-protecting-artists-from-style-mimicry-by-t
+  provider: openalex
+  external_id: W4320342250
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Generative Adversarial Networks and Image Synthesis
+    openalex_id: T10775
+    score: 0.991
+  authors:
+  - author_name: Shawn Shan
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5076606321
+  - author_name: Jenna Cryan
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5068072432
+  - author_name: Emily Wenger
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5042329783
+  - author_name: Haitao Zheng
+    name_similarity: 0.96
+    affiliations: []
+    openalex_author_id: A5022672030
+  - author_name: Rana Hanocka
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5009881746
+  - author_name: Ben Y. Zhao
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5108248360
+- paper_id: usenix-security-2023-bug-hunters-perspectives-on-the-challenges-and-b
+  provider: openalex
+  external_id: W4316116706
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Open Source Software Innovations
+    openalex_id: T11675
+    score: 0.9976
+  authors:
+  - author_name: Omer Akgul
+    name_similarity: 0.8
+    affiliations: []
+    openalex_author_id: A5071360648
+  - author_name: Taha Eghtesad
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5076718386
+  - author_name: Amit Elazari
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5077155459
+  - author_name: Omprakash Gnawali
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5056178417
+  - author_name: Jens Grossklags
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5063714878
+  - author_name: Michelle L. Mazurek
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5105206771
+  - author_name: Daniel Votipka
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5068333184
+  - author_name: Aron Laszka
+    name_similarity: 0.8182
+    affiliations: []
+    openalex_author_id: A5049435924
+- paper_id: usenix-security-2023-a-bug-s-life-analyzing-the-lifecycle-and-mitigat
+  provider: openalex
+  external_id: W7064508335
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Electromagnetic Compatibility and Measurements
+    openalex_id: T11851
+    score: 0.0812
+  authors:
+  - author_name: Gertjan Franken
+    name_similarity: 0.95
+    affiliations:
+    - display_name: Imec the Netherlands
+      openalex_id: I196972281
+      ror: https://ror.org/01ezq2j76
+    - display_name: IMEC
+      openalex_id: I4210114974
+      ror: https://ror.org/02kcbn207
+  - author_name: Tom Van Goethem
+    name_similarity: 0.95
+    affiliations: []
+  - author_name: Lieven Desmet
+    name_similarity: 0.95
+    affiliations:
+    - display_name: Imec the Netherlands
+      openalex_id: I196972281
+      ror: https://ror.org/01ezq2j76
+    - display_name: IMEC
+      openalex_id: I4210114974
+      ror: https://ror.org/02kcbn207
+  - author_name: Wouter Joosen
+    name_similarity: 0.95
+    affiliations:
+    - display_name: Imec the Netherlands
+      openalex_id: I196972281
+      ror: https://ror.org/01ezq2j76
+    - display_name: IMEC
+      openalex_id: I4210114974
+      ror: https://ror.org/02kcbn207
+- paper_id: usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma
+  provider: openalex
+  external_id: W6981697802
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Indian and Buddhist Studies
+    openalex_id: T11563
+    score: 0.0941
+  authors:
+  - author_name: Wael Albayaydh
+    name_similarity: 0.8143
+    affiliations: []
+  - author_name: Ivan Flechais
+    name_similarity: 0.8444
+    affiliations: []
+- paper_id: usenix-security-2023-ethical-frameworks-and-computer-security-trolley
+  provider: openalex
+  external_id: W4322759797
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Information and Cyber Security
+    openalex_id: T10734
+    score: 0.9964
+  authors:
+  - author_name: Tadayoshi Kohno
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5026130910
+  - author_name: Yasemin Acar
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5074668699
+  - author_name: Wulf Loh
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5020552487
+- paper_id: usenix-security-2023-hash-gone-bad-automated-discovery-of-protocol-at
+  provider: openalex
+  external_id: W4301178121
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Network Security and Intrusion Detection
+    openalex_id: T10400
+    score: 0.9988
+  authors:
+  - author_name: Vincent Cheval
+    name_similarity: 1.0
+    affiliations:
+    - display_name: State Key Laboratory of Cryptology
+      openalex_id: I4210132990
+      ror: https://ror.org/02pn5rj08
+    openalex_author_id: A5065695523
+  - author_name: Cas Cremers
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Helmholtz Center for Information Security
+      openalex_id: I4210128801
+      ror: https://ror.org/02njgxr09
+    openalex_author_id: A5054383139
+  - author_name: Alexander Dax
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Helmholtz Center for Information Security
+      openalex_id: I4210128801
+      ror: https://ror.org/02njgxr09
+    openalex_author_id: A5025695652
+  - author_name: Lucca Hirschi
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5052556643
+  - author_name: Charlie Jacomme
+    name_similarity: 0.95
+    affiliations: []
+  - author_name: Steve Kremer
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5085316790
+- paper_id: usenix-security-2023-automated-analysis-of-protocols-that-use-authent
+  provider: openalex
+  external_id: W4401104680
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Advanced Authentication Protocols Security
+    openalex_id: T11504
+    score: 0.9303
+  authors:
+  - author_name: Cas Cremers
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Helmholtz Center for Information Security
+      openalex_id: I4210128801
+      ror: https://ror.org/02njgxr09
+    openalex_author_id: A5054383139
+  - author_name: Alexander Dax
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Helmholtz Center for Information Security
+      openalex_id: I4210128801
+      ror: https://ror.org/02njgxr09
+    openalex_author_id: A5025695652
+  - author_name: Charlie Jacomme
+    name_similarity: 1.0
+    affiliations:
+    - display_name: CryptoExperts (France)
+      openalex_id: I4210086502
+      ror: https://ror.org/0030xrh72
+    openalex_author_id: A5057561034
+  - author_name: Mang Zhao
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Helmholtz Center for Information Security
+      openalex_id: I4210128801
+      ror: https://ror.org/02njgxr09
+    openalex_author_id: A5074061012
+- paper_id: acm-ccs-2023-alert-alchemy-soc-workflows-and-decisions-in-the
+  provider: openalex
+  external_id: W4388867285
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Network Security and Intrusion Detection
+    openalex_id: T10400
+    score: 1.0
+  authors:
+  - author_name: Mathew Vermeer
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Delft University of Technology
+      openalex_id: I98358874
+      ror: https://ror.org/02e2c7k09
+    openalex_author_id: A5065041795
+  - author_name: Natalia Kadenko
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Delft University of Technology
+      openalex_id: I98358874
+      ror: https://ror.org/02e2c7k09
+    openalex_author_id: A5037666673
+  - author_name: Michel Van Eeten
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Delft University of Technology
+      openalex_id: I98358874
+      ror: https://ror.org/02e2c7k09
+    openalex_author_id: A5012946294
+  - author_name: Carlos Gañán
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Delft University of Technology
+      openalex_id: I98358874
+      ror: https://ror.org/02e2c7k09
+    openalex_author_id: A5048211807
+  - author_name: Simon Parkin
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Delft University of Technology
+      openalex_id: I98358874
+      ror: https://ror.org/02e2c7k09
+    openalex_author_id: A5016771481
+- paper_id: acm-ccs-2023-amplification-by-shuffling-without-shuffling
+  provider: openalex
+  external_id: W4388857216
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Privacy-Preserving Technologies in Data
+    openalex_id: T10764
+    score: 0.9999
+  authors:
+  - author_name: Borja Balle
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Google (United Kingdom)
+      openalex_id: I4210113297
+      ror: https://ror.org/024bc3e07
+    openalex_author_id: A5085679401
+  - author_name: James Bell
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Google (United Kingdom)
+      openalex_id: I4210113297
+      ror: https://ror.org/024bc3e07
+    openalex_author_id: A5082848377
+  - author_name: Adria Gascon
+    name_similarity: 0.8333
+    affiliations:
+    - display_name: Google (United States)
+      openalex_id: I1291425158
+      ror: https://ror.org/00njsd438
+    openalex_author_id: A5015542293
+- paper_id: acm-ccs-2023-batchman-and-robin-batched-and-non-batched-branc
+  provider: openalex
+  external_id: W4388867328
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Cryptography and Data Security
+    openalex_id: T10237
+    score: 1.0
+  authors:
+  - author_name: Yibin Yang
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Georgia Institute of Technology
+      openalex_id: I130701444
+      ror: https://ror.org/01zkghx44
+    openalex_author_id: A5072583940
+  - author_name: David Heath
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Illinois Urbana-Champaign
+      openalex_id: I157725225
+      ror: https://ror.org/047426m28
+    openalex_author_id: A5000985250
+  - author_name: Carmit Hazay
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Bar-Ilan University
+      openalex_id: I13955877
+      ror: https://ror.org/03kgsv495
+    openalex_author_id: A5003565582
+  - author_name: Vladimir Kolesnikov
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Georgia Institute of Technology
+      openalex_id: I130701444
+      ror: https://ror.org/01zkghx44
+    openalex_author_id: A5016189854
+  - author_name: Muthuramakrishnan Venkitasubramaniam
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5087774653
+- paper_id: acm-ccs-2023-capacity-cryptographically-enforced-in-process-c
+  provider: openalex
+  external_id: W4386973789
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Security and Verification in Computing
+    openalex_id: T11424
+    score: 1.0
+  authors:
+  - author_name: Kha Dinh Duy
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Sungkyunkwan University
+      openalex_id: I848706
+      ror: https://ror.org/04q78tk20
+    openalex_author_id: A5091780669
+  - author_name: Kyuwon Cho
+    name_similarity: 0.5882
+    affiliations:
+    - display_name: Sungkyunkwan University
+      openalex_id: I848706
+      ror: https://ror.org/04q78tk20
+    openalex_author_id: A5070230321
+  - author_name: Taehyun Noh
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Sungkyunkwan University
+      openalex_id: I848706
+      ror: https://ror.org/04q78tk20
+    openalex_author_id: A5071492125
+  - author_name: Hojoon Lee
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Sungkyunkwan University
+      openalex_id: I848706
+      ror: https://ror.org/04q78tk20
+    openalex_author_id: A5101660662
+- paper_id: acm-ccs-2023-coco-efficient-browser-extension-vulnerability-d
+  provider: openalex
+  external_id: W4388858938
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Web Application Security Vulnerabilities
+    openalex_id: T12479
+    score: 0.9998
+  authors:
+  - author_name: Jianjia Yu
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Johns Hopkins University
+      openalex_id: I145311948
+      ror: https://ror.org/00za53h95
+    openalex_author_id: A5078293044
+  - author_name: Song Li
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Zhejiang University
+      openalex_id: I76130692
+      ror: https://ror.org/00a2xv884
+    openalex_author_id: A5100448208
+  - author_name: Junmin Zhu
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Shanghai Jiao Tong University
+      openalex_id: I183067930
+      ror: https://ror.org/0220qvk04
+    openalex_author_id: A5084366355
+  - author_name: Yinzhi Cao
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Johns Hopkins University
+      openalex_id: I145311948
+      ror: https://ror.org/00za53h95
+    openalex_author_id: A5070605476
+- paper_id: acm-ccs-2023-concurrent-composition-for-interactive-different
+  provider: openalex
+  external_id: W4388856861
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Privacy-Preserving Technologies in Data
+    openalex_id: T10764
+    score: 1.0
+  authors:
+  - author_name: Samuel Haney
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5031552587
+  - author_name: Michael Shoemate
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Harvard University Press
+      openalex_id: I2801851002
+      ror: https://ror.org/006v7bf86
+    openalex_author_id: A5020536935
+  - author_name: Grace Tian
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Harvard University Press
+      openalex_id: I2801851002
+      ror: https://ror.org/006v7bf86
+    openalex_author_id: A5054206863
+  - author_name: Salil Vadhan
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Harvard University Press
+      openalex_id: I2801851002
+      ror: https://ror.org/006v7bf86
+    openalex_author_id: A5016656677
+  - author_name: Andrew Vyrros
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Harvard University Press
+      openalex_id: I2801851002
+      ror: https://ror.org/006v7bf86
+    openalex_author_id: A5092865503
+  - author_name: Vicki Xu
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Harvard University Press
+      openalex_id: I2801851002
+      ror: https://ror.org/006v7bf86
+    openalex_author_id: A5092865504
+  - author_name: Wanrong Zhang
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Harvard University Press
+      openalex_id: I2801851002
+      ror: https://ror.org/006v7bf86
+    openalex_author_id: A5014759932
+- paper_id: acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl
+  provider: openalex
+  external_id: W4388856956
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Cryptography and Data Security
+    openalex_id: T10237
+    score: 1.0
+  authors:
+  - author_name: Gilad Asharov
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Bar-Ilan University
+      openalex_id: I13955877
+      ror: https://ror.org/03kgsv495
+    openalex_author_id: A5042677137
+  - author_name: Ilan Komargodski
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5032483797
+  - author_name: Yehuda Michelson
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Bar-Ilan University
+      openalex_id: I13955877
+      ror: https://ror.org/03kgsv495
+    openalex_author_id: A5093307563
+- paper_id: acm-ccs-2023-he3db-an-efficient-and-elastic-encrypted-databas
+  provider: openalex
+  external_id: W4388857792
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Cryptography and Data Security
+    openalex_id: T10237
+    score: 1.0
+  authors:
+  - author_name: Song Bian
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Beihang University
+      openalex_id: I82880672
+      ror: https://ror.org/00wk2mp56
+    openalex_author_id: A5065421587
+  - author_name: Zhou Zhang
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Beihang University
+      openalex_id: I82880672
+      ror: https://ror.org/00wk2mp56
+    openalex_author_id: A5094019303
+  - author_name: Haowen Pan
+    name_similarity: 0.855
+    affiliations:
+    - display_name: Beihang University
+      openalex_id: I82880672
+      ror: https://ror.org/00wk2mp56
+    openalex_author_id: A5014844953
+  - author_name: Ran Mao
+    name_similarity: 0.7143
+    affiliations:
+    - display_name: Beihang University
+      openalex_id: I82880672
+      ror: https://ror.org/00wk2mp56
+    openalex_author_id: A5085362338
+  - author_name: Zian Zhao
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Beihang University
+      openalex_id: I82880672
+      ror: https://ror.org/00wk2mp56
+    openalex_author_id: A5032444529
+  - author_name: Yier Jin
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Science and Technology of China
+      openalex_id: I126520041
+      ror: https://ror.org/04c4dkn09
+    openalex_author_id: A5017464942
+  - author_name: Zhenyu Guan
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Beihang University
+      openalex_id: I82880672
+      ror: https://ror.org/00wk2mp56
+    openalex_author_id: A5083017828
+- paper_id: acm-ccs-2023-how-hard-is-takeover-in-dpos-blockchains-underst
+  provider: openalex
+  external_id: W4388857879
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Blockchain Technology Applications and Security
+    openalex_id: T10270
+    score: 1.0
+  authors:
+  - author_name: Chao Li
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Beijing Jiaotong University
+      openalex_id: I21193070
+      ror: https://ror.org/01yj56c84
+    openalex_author_id: A5100749967
+  - author_name: Balaji Palanisamy
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Pittsburgh
+      openalex_id: I170201317
+      ror: https://ror.org/01an3r305
+    openalex_author_id: A5103337534
+  - author_name: Runhua Xu
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Beihang University
+      openalex_id: I82880672
+      ror: https://ror.org/00wk2mp56
+    openalex_author_id: A5101785871
+  - author_name: Li Duan
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Beijing Jiaotong University
+      openalex_id: I21193070
+      ror: https://ror.org/01yj56c84
+    openalex_author_id: A5019931070
+  - author_name: Jiqiang Liu
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Beijing Jiaotong University
+      openalex_id: I21193070
+      ror: https://ror.org/01yj56c84
+    openalex_author_id: A5070828650
+  - author_name: Wei Wang
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Beijing Jiaotong University
+      openalex_id: I21193070
+      ror: https://ror.org/01yj56c84
+    openalex_author_id: A5100777576
+- paper_id: acm-ccs-2023-large-language-models-for-code-security-hardenin
+  provider: openalex
+  external_id: W4320560161
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Software Engineering Research
+    openalex_id: T10260
+    score: 0.9981
+  authors:
+  - author_name: Jingxuan He
+    name_similarity: 1.0
+    affiliations:
+    - display_name: ETH Zurich
+      openalex_id: I35440088
+      ror: https://ror.org/05a28rw58
+    openalex_author_id: A5101532408
+  - author_name: Martin Vechev
+    name_similarity: 1.0
+    affiliations:
+    - display_name: ETH Zurich
+      openalex_id: I35440088
+      ror: https://ror.org/05a28rw58
+    openalex_author_id: A5069901599
+- paper_id: acm-ccs-2023-panic-pan-assisted-intra-process-memory-isolatio
+  provider: openalex
+  external_id: W4388857293
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Security and Verification in Computing
+    openalex_id: T11424
+    score: 0.9999
+  authors:
+  - author_name: Jiali Xu
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Institute of Computing Technology
+      openalex_id: I4210090176
+      ror: https://ror.org/0090r4d87
+    - display_name: University of Chinese Academy of Sciences
+      openalex_id: I4210165038
+      ror: https://ror.org/05qbk4x57
+    openalex_author_id: A5072498528
+  - author_name: Mengyao Xie
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Institute of Computing Technology
+      openalex_id: I4210090176
+      ror: https://ror.org/0090r4d87
+    - display_name: University of Chinese Academy of Sciences
+      openalex_id: I4210165038
+      ror: https://ror.org/05qbk4x57
+    openalex_author_id: A5087377040
+  - author_name: Chenggang Wu
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Institute of Computing Technology
+      openalex_id: I4210090176
+      ror: https://ror.org/0090r4d87
+    - display_name: University of Chinese Academy of Sciences
+      openalex_id: I4210165038
+      ror: https://ror.org/05qbk4x57
+    openalex_author_id: A5046439614
+  - author_name: Yinqian Zhang
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Southern University of Science and Technology
+      openalex_id: I3045169105
+      ror: https://ror.org/049tv2d57
+    - display_name: Shanghai Key Laboratory of Trustworthy Computing
+      openalex_id: I4210139618
+      ror: https://ror.org/030qbr085
+    openalex_author_id: A5070946957
+  - author_name: Qijing Li
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Chinese Academy of Sciences
+      openalex_id: I4210165038
+      ror: https://ror.org/05qbk4x57
+    openalex_author_id: A5042038762
+  - author_name: Xuan Huang
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Peking University
+      openalex_id: I20231570
+      ror: https://ror.org/02v51f717
+    openalex_author_id: A5103187079
+  - author_name: Yuanming Lai
+    name_similarity: 0.855
+    affiliations:
+    - display_name: Institute of Computing Technology
+      openalex_id: I4210090176
+      ror: https://ror.org/0090r4d87
+    - display_name: University of Chinese Academy of Sciences
+      openalex_id: I4210165038
+      ror: https://ror.org/05qbk4x57
+    openalex_author_id: A5069706570
+  - author_name: Yan Kang
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Institute of Computing Technology
+      openalex_id: I4210090176
+      ror: https://ror.org/0090r4d87
+    - display_name: University of Chinese Academy of Sciences
+      openalex_id: I4210165038
+      ror: https://ror.org/05qbk4x57
+    openalex_author_id: A5100615074
+  - author_name: Wei Wang
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Institute of Computing Technology
+      openalex_id: I4210090176
+      ror: https://ror.org/0090r4d87
+    openalex_author_id: A5100392198
+  - author_name: Qiang Wei
+    name_similarity: 1.0
+    affiliations: []
+    openalex_author_id: A5033981286
+  - author_name: Zhe Wang
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Institute of Computing Technology
+      openalex_id: I4210090176
+      ror: https://ror.org/0090r4d87
+    - display_name: University of Chinese Academy of Sciences
+      openalex_id: I4210165038
+      ror: https://ror.org/05qbk4x57
+    openalex_author_id: A5100407686
+- paper_id: acm-ccs-2023-security-verification-of-low-trust-architectures
+  provider: openalex
+  external_id: W4386437595
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Security and Verification in Computing
+    openalex_id: T11424
+    score: 1.0
+  authors:
+  - author_name: Qinhan Tan
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Princeton University
+      openalex_id: I20089843
+      ror: https://ror.org/00hx57361
+    openalex_author_id: A5071748112
+  - author_name: Yonathan Fisseha
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Michigan
+      openalex_id: I27837315
+      ror: https://ror.org/00jmfr291
+    openalex_author_id: A5064194409
+  - author_name: Shibo Chen
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Michigan
+      openalex_id: I27837315
+      ror: https://ror.org/00jmfr291
+    openalex_author_id: A5101708652
+  - author_name: Lauren Biernacki
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Lafayette College
+      openalex_id: I184759092
+      ror: https://ror.org/036n0x007
+    openalex_author_id: A5042598156
+  - author_name: Jean-Baptiste Jeannin
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Michigan
+      openalex_id: I27837315
+      ror: https://ror.org/00jmfr291
+    openalex_author_id: A5002069299
+  - author_name: Sharad Malik
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Princeton University
+      openalex_id: I20089843
+      ror: https://ror.org/00hx57361
+    openalex_author_id: A5085975362
+  - author_name: Todd Austin
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Michigan
+      openalex_id: I27837315
+      ror: https://ror.org/00jmfr291
+    openalex_author_id: A5113456715
+- paper_id: acm-ccs-2023-silence-is-not-golden-disrupting-the-load-balanc
+  provider: openalex
+  external_id: W4388858780
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Network Security and Intrusion Detection
+    openalex_id: T10400
+    score: 1.0
+  authors:
+  - author_name: Fenglu Zhang
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Tsinghua University
+      openalex_id: I99065089
+      ror: https://ror.org/03cve4549
+    openalex_author_id: A5077342874
+  - author_name: Baojun Liu
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Tsinghua University
+      openalex_id: I99065089
+      ror: https://ror.org/03cve4549
+    openalex_author_id: A5101694986
+  - author_name: Eihal Alowaisheq
+    name_similarity: 1.0
+    affiliations:
+    - display_name: King Saud University
+      openalex_id: I28022161
+      ror: https://ror.org/02f81g417
+    openalex_author_id: A5061700215
+  - author_name: Jianjun Chen
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Tsinghua University
+      openalex_id: I99065089
+      ror: https://ror.org/03cve4549
+    openalex_author_id: A5041795098
+  - author_name: Chaoyi Lu
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Tsinghua University
+      openalex_id: I99065089
+      ror: https://ror.org/03cve4549
+    openalex_author_id: A5040912987
+  - author_name: Linjian Song
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Alibaba Group (China)
+      openalex_id: I45928872
+      ror: https://ror.org/00k642b80
+    openalex_author_id: A5101872026
+  - author_name: Yong Ma
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Alibaba Group (China)
+      openalex_id: I45928872
+      ror: https://ror.org/00k642b80
+    openalex_author_id: A5101553307
+  - author_name: Ying Liu
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Tsinghua University
+      openalex_id: I99065089
+      ror: https://ror.org/03cve4549
+    openalex_author_id: A5100414241
+  - author_name: Haixin Duan
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Tsinghua University
+      openalex_id: I99065089
+      ror: https://ror.org/03cve4549
+    openalex_author_id: A5067799841
+  - author_name: Min Yang
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Fudan University
+      openalex_id: I24943067
+      ror: https://ror.org/013q1eq08
+    openalex_author_id: A5052437722
+- paper_id: acm-ccs-2023-specification-and-verification-of-side-channel-s
+  provider: openalex
+  external_id: W4388858498
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Security and Verification in Computing
+    openalex_id: T11424
+    score: 1.0
+  authors:
+  - author_name: Zilong Wang
+    name_similarity: 1.0
+    affiliations:
+    - display_name: IMDEA Software Institute
+      openalex_id: I4210162154
+      ror: https://ror.org/04xvfkh51
+    - display_name: Universidad Politécnica de Madrid
+      openalex_id: I88060688
+      ror: https://ror.org/03n6nwv02
+    openalex_author_id: A5102758436
+  - author_name: Gideon Mohr
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Saarland University
+      openalex_id: I91712215
+      ror: https://ror.org/01jdpyv68
+    openalex_author_id: A5054462994
+  - author_name: Klaus Von Gleissenthall
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Vrije Universiteit Amsterdam
+      openalex_id: I865915315
+      ror: https://ror.org/008xxew50
+    openalex_author_id: A5055000720
+  - author_name: Jan Reineke
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Saarland University
+      openalex_id: I91712215
+      ror: https://ror.org/01jdpyv68
+    openalex_author_id: A5056396265
+  - author_name: Marco Guarnieri
+    name_similarity: 1.0
+    affiliations:
+    - display_name: IMDEA Software Institute
+      openalex_id: I4210162154
+      ror: https://ror.org/04xvfkh51
+    openalex_author_id: A5069694679
+- paper_id: acm-ccs-2023-specverilog-adapting-information-flow-control-fo
+  provider: openalex
+  external_id: W4388858465
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Security and Verification in Computing
+    openalex_id: T11424
+    score: 0.9999
+  authors:
+  - author_name: Drew Zagieboylo
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Cornell University
+      openalex_id: I205783295
+      ror: https://ror.org/05bnh6r87
+    openalex_author_id: A5013955474
+  - author_name: Charles Sherk
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Cornell University
+      openalex_id: I205783295
+      ror: https://ror.org/05bnh6r87
+    openalex_author_id: A5030758941
+  - author_name: Gookwon Edward Suh
+    name_similarity: 0.8609
+    affiliations:
+    - display_name: Cornell University
+      openalex_id: I205783295
+      ror: https://ror.org/05bnh6r87
+    openalex_author_id: A5024329178
+  - author_name: Andrew Myers
+    name_similarity: 0.95
+    affiliations:
+    - display_name: Cornell University
+      openalex_id: I205783295
+      ror: https://ror.org/05bnh6r87
+    openalex_author_id: A5101697549
+- paper_id: acm-ccs-2023-stealing-the-decoding-algorithms-of-language-mod
+  provider: openalex
+  external_id: W4388858191
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Adversarial Robustness in Machine Learning
+    openalex_id: T11689
+    score: 0.9981
+  authors:
+  - author_name: Ali Naseh
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Massachusetts Amherst
+      openalex_id: I24603500
+      ror: https://ror.org/0072zz521
+    openalex_author_id: A5056428623
+  - author_name: Kalpesh Krishna
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Massachusetts Amherst
+      openalex_id: I24603500
+      ror: https://ror.org/0072zz521
+    openalex_author_id: A5078893115
+  - author_name: Mohit Iyyer
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Massachusetts Amherst
+      openalex_id: I24603500
+      ror: https://ror.org/0072zz521
+    openalex_author_id: A5082767919
+  - author_name: Amir Houmansadr
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Massachusetts Amherst
+      openalex_id: I24603500
+      ror: https://ror.org/0072zz521
+    openalex_author_id: A5018588864
+- paper_id: acm-ccs-2023-uncle-maker-time-stamping-out-the-competition-in
+  provider: openalex
+  external_id: W4388858825
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Blockchain Technology Applications and Security
+    openalex_id: T10270
+    score: 0.9996
+  authors:
+  - author_name: Aviv Yaish
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Hebrew University of Jerusalem
+      openalex_id: I197251160
+      ror: https://ror.org/03qxff017
+    openalex_author_id: A5047798226
+  - author_name: Gilad Stern
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Hebrew University of Jerusalem
+      openalex_id: I197251160
+      ror: https://ror.org/03qxff017
+    openalex_author_id: A5061448811
+  - author_name: Aviv Zohar
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Hebrew University of Jerusalem
+      openalex_id: I197251160
+      ror: https://ror.org/03qxff017
+    openalex_author_id: A5015458414
+- paper_id: ndss-2023-your-router-is-my-prober-measuring-ipv6-networks
+  provider: openalex
+  external_id: W4324007097
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: IPv6, Mobility, Handover, Networks, Security
+    openalex_id: T10651
+    score: 0.9905
+  authors:
+  - author_name: Long Pan
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Tsinghua University
+      openalex_id: I99065089
+      ror: https://ror.org/03cve4549
+    openalex_author_id: A5101808936
+  - author_name: Jiahai Yang
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Peng Cheng Laboratory
+      openalex_id: I4210136793
+      ror: https://ror.org/03qdqbt06
+    - display_name: Tsinghua University
+      openalex_id: I99065089
+      ror: https://ror.org/03cve4549
+    openalex_author_id: A5023416195
+  - author_name: Lin He
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Peng Cheng Laboratory
+      openalex_id: I4210136793
+      ror: https://ror.org/03qdqbt06
+    - display_name: Tsinghua University
+      openalex_id: I99065089
+      ror: https://ror.org/03cve4549
+    openalex_author_id: A5114357338
+  - author_name: Zhiliang Wang
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Peng Cheng Laboratory
+      openalex_id: I4210136793
+      ror: https://ror.org/03qdqbt06
+    - display_name: Tsinghua University
+      openalex_id: I99065089
+      ror: https://ror.org/03cve4549
+    openalex_author_id: A5100343138
+  - author_name: Leyao Nie
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Tsinghua University
+      openalex_id: I99065089
+      ror: https://ror.org/03cve4549
+    openalex_author_id: A5040157011
+  - author_name: Guanglei Song
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Tsinghua University
+      openalex_id: I99065089
+      ror: https://ror.org/03cve4549
+    openalex_author_id: A5071667007
+  - author_name: Yaozhong Liu
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Tsinghua University
+      openalex_id: I99065089
+      ror: https://ror.org/03cve4549
+    openalex_author_id: A5025460672
+- paper_id: ndss-2023-darwin-survival-of-the-fittest-fuzzing-mutators
+  provider: openalex
+  external_id: W4307205415
+  retrieved_at: '2026-08-08T05:07:19Z'
+  primary_topic:
+    display_name: Software Testing and Debugging Techniques
+    openalex_id: T10743
+    score: 0.9999
+  authors:
+  - author_name: Patrick Jauernig
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Technische Universität Darmstadt
+      openalex_id: I31512782
+      ror: https://ror.org/05n911h24
+    openalex_author_id: A5064735520
+  - author_name: Domagoj Jakobovic
+    name_similarity: 0.9412
+    affiliations:
+    - display_name: University of Zagreb
+      openalex_id: I181343428
+      ror: https://ror.org/00mv6sv71
+    openalex_author_id: A5029689278
+  - author_name: Stjepan Picek
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Radboud University Nijmegen
+      openalex_id: I145872427
+      ror: https://ror.org/016xsfp80
+    - display_name: Delft University of Technology
+      openalex_id: I98358874
+      ror: https://ror.org/02e2c7k09
+    openalex_author_id: A5024072796
+  - author_name: Emmanuel Stapf
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Technische Universität Darmstadt
+      openalex_id: I31512782
+      ror: https://ror.org/05n911h24
+    openalex_author_id: A5020886026
+  - author_name: Ahmad-Reza Sadeghi
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Technische Universität Darmstadt
+      openalex_id: I31512782
+      ror: https://ror.org/05n911h24
+    openalex_author_id: A5079497016

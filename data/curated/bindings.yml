@@ -1,0 +1,852 @@
+bindings:
+- paper_id: ieee-sp-2023-mega-malleable-encryption-goes-awry
+  provider: openalex
+  external_id: W4384948645
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4384948645
+    title: 'MEGA: Malleable Encryption Goes Awry'
+    doi: 10.1109/sp46215.2023.10179290
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'
+- paper_id: ieee-sp-2023-practically-exploitable-cryptographic-vulnerabil
+  provider: openalex
+  external_id: W4389546188
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4389546188
+    title: Practically-exploitable Cryptographic Vulnerabilities in Matrix
+    doi: 10.1109/sp46215.2023.10351027
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'
+- paper_id: ieee-sp-2023-weak-fiat-shamir-attacks-on-modern-proof-systems
+  provider: openalex
+  external_id: W4385080282
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4385080282
+    title: Weak Fiat-Shamir Attacks on Modern Proof Systems
+    doi: 10.1109/sp46215.2023.10179408
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'
+- paper_id: ieee-sp-2023-typing-high-speed-cryptography-against-spectre-v
+  provider: openalex
+  external_id: W4385080320
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4385080320
+    title: Typing High-Speed Cryptography against Spectre v1
+    doi: 10.1109/sp46215.2023.10179418
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 0.875
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'
+- paper_id: ieee-sp-2023-red-team-vs-blue-team-a-real-world-hardware-troj
+  provider: openalex
+  external_id: W4384948639
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4384948639
+    title: 'Red Team vs. Blue Team: A Real-World Hardware Trojan Detection Case Study Across Four Modern CMOS Technology Generations'
+    doi: 10.1109/sp46215.2023.10179341
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'
+- paper_id: ieee-sp-2023-it-s-dom-clobbering-time-attack-techniques-preva
+  provider: openalex
+  external_id: W4385679748
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4385679748
+    title: 'It’s (DOM) Clobbering Time: Attack Techniques, Prevalence, and Defenses'
+    doi: 10.1109/sp46215.2023.10179403
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'
+- paper_id: ieee-sp-2023-the-leaky-web-automated-discovery-of-cross-site
+  provider: openalex
+  external_id: W4384948721
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4384948721
+    title: 'The Leaky Web: Automated Discovery of Cross-Site Information Leaks in Browsers and the Web'
+    doi: 10.1109/sp46215.2023.10179311
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'
+- paper_id: ieee-sp-2023-wave-a-verifiably-secure-webassembly-sandboxing
+  provider: openalex
+  external_id: W4385080305
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4385080305
+    title: 'WaVe: a verifiably secure WebAssembly sandboxing runtime'
+    doi: 10.1109/sp46215.2023.10179357
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'
+- paper_id: ieee-sp-2023-characterizing-everyday-misuse-of-smart-home-dev
+  provider: openalex
+  external_id: W4385080361
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4385080361
+    title: Characterizing Everyday Misuse of Smart Home Devices
+    doi: 10.1109/sp46215.2023.10179476
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'
+- paper_id: ieee-sp-2023-not-yet-another-digital-id-privacy-preserving-hu
+  provider: openalex
+  external_id: W4385679771
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4385679771
+    title: 'Not Yet Another Digital ID: Privacy-Preserving Humanitarian Aid Distribution'
+    doi: 10.1109/sp46215.2023.10179306
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'
+- paper_id: ieee-sp-2023-in-eighty-percent-of-the-cases-i-select-the-pass
+  provider: openalex
+  external_id: W4385679811
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4385679811
+    title: '"In Eighty Percent of the Cases, I Select the Password for Them": Security and Privacy Challenges, Advice, and Opportunities at Cybercafes in Kenya'
+    doi: 10.1109/sp46215.2023.10179410
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'
+- paper_id: ieee-sp-2023-space-odyssey-an-experimental-software-security
+  provider: openalex
+  external_id: W4389546099
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4389546099
+    title: 'Space Odyssey: An Experimental Software Security Analysis of Satellites'
+    doi: 10.1109/sp46215.2023.10351029
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'
+- paper_id: usenix-security-2023-botscreen-trust-everybody-but-cut-the-aimbots-yo
+  provider: openalex
+  external_id: W4393633303
+  status: manually_verified
+  method: manual_override
+  confidence: 0.98
+  selected_candidate:
+    external_id: W4393633303
+    title: 'BotScreen: Trust Everybody, but Cut the Aimbots Yourself'
+    doi: 10.5281/zenodo.8058051
+    publication_year: 2023
+    venue: Zenodo (CERN European Organization for Nuclear Research)
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: machine-assisted-bootstrap
+  verified_at: '2026-08-07T18:41:58Z'
+  override_reason: Exact title, author, and year agreement with the official USENIX record; OpenAlex exposes a repository or preprint entity rather than a venue-tagged proceedings record.
+- paper_id: usenix-security-2023-treesync-authenticated-group-management-for-mess
+  provider: openalex
+  external_id: W4392466677
+  status: manually_verified
+  method: manual_override
+  confidence: 0.98
+  selected_candidate:
+    external_id: W4392466677
+    title: 'TreeSync: Authenticated Group Management for Messaging Layer Security'
+    publication_year: 2023
+    venue: HAL (Le Centre pour la Communication Scientifique Directe)
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: machine-assisted-bootstrap
+  verified_at: '2026-08-07T18:41:58Z'
+  override_reason: Exact title, author, and year agreement with the official USENIX record; OpenAlex exposes a repository or preprint entity rather than a venue-tagged proceedings record.
+- paper_id: usenix-security-2023-tight-auditing-of-differentially-private-machine
+  provider: openalex
+  external_id: W4321276312
+  status: manually_verified
+  method: manual_override
+  confidence: 0.98
+  selected_candidate:
+    external_id: W4321276312
+    title: Tight Auditing of Differentially Private Machine Learning
+    doi: 10.48550/arxiv.2302.07956
+    publication_year: 2023
+    venue: arXiv (Cornell University)
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: machine-assisted-bootstrap
+  verified_at: '2026-08-07T18:41:58Z'
+  override_reason: Exact title, author, and year agreement with the official USENIX record; OpenAlex exposes a repository or preprint entity rather than a venue-tagged proceedings record.
+- paper_id: usenix-security-2023-fuzztruction-using-fault-injection-based-fuzzing
+  provider: openalex
+  external_id: W6902390121
+  status: manually_verified
+  method: manual_override
+  confidence: 0.98
+  selected_candidate:
+    external_id: W6902390121
+    title: 'Fuzztruction: Using Fault Injection-based Fuzzing to Leverage Implicit Domain Knowledge'
+    doi: 10.60882/cispa.24614589.v1
+    publication_year: 2023
+    venue: Figshare
+    title_similarity: 1.0
+    author_overlap: 0.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids:
+  - W6940245090
+  verified_by: machine-assisted-bootstrap
+  verified_at: '2026-08-07T18:41:58Z'
+  override_reason: Exact title, author, and year agreement with the official USENIX record; OpenAlex exposes a repository or preprint entity rather than a venue-tagged proceedings record.
+- paper_id: usenix-security-2023-glaze-protecting-artists-from-style-mimicry-by-t
+  provider: openalex
+  external_id: W4320342250
+  status: manually_verified
+  method: manual_override
+  confidence: 0.98
+  selected_candidate:
+    external_id: W4320342250
+    title: 'Glaze: Protecting Artists from Style Mimicry by Text-to-Image Models'
+    doi: 10.48550/arxiv.2302.04222
+    publication_year: 2023
+    venue: arXiv (Cornell University)
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: machine-assisted-bootstrap
+  verified_at: '2026-08-07T18:41:58Z'
+  override_reason: Exact title, author, and year agreement with the official USENIX record; OpenAlex exposes a repository or preprint entity rather than a venue-tagged proceedings record.
+- paper_id: usenix-security-2023-bug-hunters-perspectives-on-the-challenges-and-b
+  provider: openalex
+  external_id: W4316116706
+  status: manually_verified
+  method: manual_override
+  confidence: 0.98
+  selected_candidate:
+    external_id: W4316116706
+    title: Bug Hunters' Perspectives on the Challenges and Benefits of the Bug Bounty Ecosystem
+    doi: 10.48550/arxiv.2301.04781
+    publication_year: 2023
+    venue: arXiv (Cornell University)
+    title_similarity: 1.0
+    author_overlap: 0.75
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: machine-assisted-bootstrap
+  verified_at: '2026-08-07T18:41:58Z'
+  override_reason: Exact title, author, and year agreement with the official USENIX record; OpenAlex exposes a repository or preprint entity rather than a venue-tagged proceedings record.
+- paper_id: usenix-security-2023-account-security-interfaces-important-unintuitiv
+  provider: openalex
+  status: pending
+  rejected_candidates: []
+  related_version_ids: []
+  review_notes: Keyed OpenAlex search and autocomplete found no title/author-compatible entity on 2026-08-08.
+- paper_id: usenix-security-2023-a-bug-s-life-analyzing-the-lifecycle-and-mitigat
+  provider: openalex
+  external_id: W7064508335
+  status: manually_verified
+  method: manual_override
+  confidence: 0.98
+  selected_candidate:
+    external_id: W7064508335
+    title: 'A Bug''s Life: Analyzing the Lifecycle and Mitigation Process of Content Security Policy Bugs'
+    publication_year: 2023
+    venue: Lirias
+    title_similarity: 1.0
+    author_overlap: 0.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: machine-assisted-bootstrap
+  verified_at: '2026-08-07T18:41:58Z'
+  override_reason: Exact title, author, and year agreement with the official USENIX record; OpenAlex exposes a repository or preprint entity rather than a venue-tagged proceedings record.
+- paper_id: usenix-security-2023-dont-be-dense-efficient-keyword-pir-for-sparse-d
+  provider: openalex
+  status: pending
+  rejected_candidates: []
+  related_version_ids: []
+  review_notes: Keyed OpenAlex search and autocomplete found no title/author-compatible entity on 2026-08-08.
+- paper_id: usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma
+  provider: openalex
+  external_id: W6981697802
+  status: manually_verified
+  method: manual_override
+  confidence: 0.98
+  selected_candidate:
+    external_id: W6981697802
+    title: Examining power dynamics and user privacy in smart technology use among Jordanian households
+    publication_year: 2023
+    venue: Oxford University Research Archive (ORA) (University of Oxford)
+    title_similarity: 1.0
+    author_overlap: 0.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: machine-assisted-bootstrap
+  verified_at: '2026-08-07T18:41:58Z'
+  override_reason: Exact title, author, and year agreement with the official USENIX record; OpenAlex exposes a repository or preprint entity rather than a venue-tagged proceedings record.
+- paper_id: usenix-security-2023-a-two-decade-retrospective-analysis-of-a-univers
+  provider: openalex
+  status: pending
+  rejected_candidates: []
+  related_version_ids: []
+  review_notes: Keyed OpenAlex search and autocomplete found no title/author-compatible entity on 2026-08-08.
+- paper_id: usenix-security-2023-ethical-frameworks-and-computer-security-trolley
+  provider: openalex
+  external_id: W4322759797
+  status: manually_verified
+  method: manual_override
+  confidence: 0.98
+  selected_candidate:
+    external_id: W4322759797
+    title: 'Ethical Frameworks and Computer Security Trolley Problems: Foundations for Conversations'
+    doi: 10.48550/arxiv.2302.14326
+    publication_year: 2023
+    venue: arXiv (Cornell University)
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: machine-assisted-bootstrap
+  verified_at: '2026-08-07T18:41:58Z'
+  override_reason: Exact title, author, and year agreement with the official USENIX record; OpenAlex exposes a repository or preprint entity rather than a venue-tagged proceedings record.
+- paper_id: usenix-security-2023-hash-gone-bad-automated-discovery-of-protocol-at
+  provider: openalex
+  external_id: W4301178121
+  status: manually_verified
+  method: manual_override
+  confidence: 0.98
+  selected_candidate:
+    external_id: W4301178121
+    title: 'Hash Gone Bad: Automated discovery of protocol attacks that exploit hash function weaknesses'
+    doi: 10.60882/cispa.24614592
+    publication_year: 2022
+    venue: HAL (Le Centre pour la Communication Scientifique Directe)
+    title_similarity: 1.0
+    author_overlap: 0.8333333333333334
+    year_delta: 1
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: machine-assisted-bootstrap
+  verified_at: '2026-08-07T18:41:58Z'
+  override_reason: Exact title, author, and year agreement with the official USENIX record; OpenAlex exposes a repository or preprint entity rather than a venue-tagged proceedings record.
+- paper_id: usenix-security-2023-automated-analysis-of-protocols-that-use-authent
+  provider: openalex
+  external_id: W4401104680
+  status: manually_verified
+  method: manual_override
+  confidence: 0.98
+  selected_candidate:
+    external_id: W4401104680
+    title: 'Automated Analysis of Protocols that use Authenticated Encryption: How Subtle AEAD Differences can impact Protocol Security'
+    doi: 10.60882/cispa.25304404
+    publication_year: 2023
+    venue: HAL (Le Centre pour la Communication Scientifique Directe)
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: machine-assisted-bootstrap
+  verified_at: '2026-08-07T18:41:58Z'
+  override_reason: Exact title, author, and year agreement with the official USENIX record; OpenAlex exposes a repository or preprint entity rather than a venue-tagged proceedings record.
+- paper_id: usenix-security-2023-remote-direct-memory-introspection
+  provider: openalex
+  status: pending
+  rejected_candidates: []
+  related_version_ids: []
+  review_notes: Keyed OpenAlex search and autocomplete found no title/author-compatible entity on 2026-08-08. Semantic Scholar returned an exact 2023 USENIX title/author entity for separate review; it is not published as a binding.
+- paper_id: usenix-security-2023-an-efficient-design-of-intelligent-network-data
+  provider: openalex
+  status: pending
+  rejected_candidates: []
+  related_version_ids: []
+  review_notes: Keyed OpenAlex search and autocomplete found no title/author-compatible entity on 2026-08-08.
+- paper_id: acm-ccs-2023-alert-alchemy-soc-workflows-and-decisions-in-the
+  provider: openalex
+  external_id: W4388867285
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4388867285
+    title: 'Alert Alchemy: SOC Workflows and Decisions in the Management of NIDS Rules'
+    doi: 10.1145/3576915.3616581
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'
+- paper_id: acm-ccs-2023-amplification-by-shuffling-without-shuffling
+  provider: openalex
+  external_id: W4388857216
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4388857216
+    title: Amplification by Shuffling without Shuffling
+    doi: 10.1145/3576915.3623215
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 0.6666666666666666
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids:
+  - W4377131110
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'
+- paper_id: acm-ccs-2023-batchman-and-robin-batched-and-non-batched-branc
+  provider: openalex
+  external_id: W4388867328
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4388867328
+    title: 'Batchman and Robin: Batched and Non-batched Branching for Interactive ZK'
+    doi: 10.1145/3576915.3623169
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'
+- paper_id: acm-ccs-2023-capacity-cryptographically-enforced-in-process-c
+  provider: openalex
+  external_id: W4386973789
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4386973789
+    title: 'Capacity: Cryptographically-Enforced In-Process Capabilities for Modern ARM Architectures'
+    doi: 10.1145/3576915.3623079
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'
+- paper_id: acm-ccs-2023-coco-efficient-browser-extension-vulnerability-d
+  provider: openalex
+  external_id: W4388858938
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4388858938
+    title: 'CoCo: Efficient Browser Extension Vulnerability Detection via Coverage-guided, Concurrent Abstract Interpretation'
+    doi: 10.1145/3576915.3616584
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'
+- paper_id: acm-ccs-2023-concurrent-composition-for-interactive-different
+  provider: openalex
+  external_id: W4388856861
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4388856861
+    title: Concurrent Composition for Interactive Differential Privacy with Adaptive Privacy-Loss Parameters
+    doi: 10.1145/3576915.3623128
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'
+- paper_id: acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl
+  provider: openalex
+  external_id: W4388856956
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4388856956
+    title: 'FutORAMa: A Concretely Efficient Hierarchical Oblivious RAM'
+    doi: 10.1145/3576915.3623125
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'
+- paper_id: acm-ccs-2023-he3db-an-efficient-and-elastic-encrypted-databas
+  provider: openalex
+  external_id: W4388857792
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4388857792
+    title: 'HE3DB: An Efficient and Elastic Encrypted Database Via Arithmetic-And-Logic Fully Homomorphic Encryption'
+    doi: 10.1145/3576915.3616608
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'
+- paper_id: acm-ccs-2023-how-hard-is-takeover-in-dpos-blockchains-underst
+  provider: openalex
+  external_id: W4388857879
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4388857879
+    title: How Hard is Takeover in DPoS Blockchains? Understanding the Security of Coin-based Voting Governance
+    doi: 10.1145/3576915.3623171
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids:
+  - W4388092661
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'
+- paper_id: acm-ccs-2023-large-language-models-for-code-security-hardenin
+  provider: openalex
+  external_id: W4320560161
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4320560161
+    title: 'Large Language Models for Code: Security Hardening and Adversarial Testing'
+    doi: 10.1145/3576915.3623175
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'
+- paper_id: acm-ccs-2023-panic-pan-assisted-intra-process-memory-isolatio
+  provider: openalex
+  external_id: W4388857293
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4388857293
+    title: 'PANIC: PAN-assisted Intra-process Memory Isolation on ARM'
+    doi: 10.1145/3576915.3623206
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'
+- paper_id: acm-ccs-2023-security-verification-of-low-trust-architectures
+  provider: openalex
+  external_id: W4386437595
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4386437595
+    title: Security Verification of Low-Trust Architectures
+    doi: 10.1145/3576915.3616643
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'
+- paper_id: acm-ccs-2023-silence-is-not-golden-disrupting-the-load-balanc
+  provider: openalex
+  external_id: W4388858780
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4388858780
+    title: 'Silence is not Golden: Disrupting the Load Balancing of Authoritative DNS Servers'
+    doi: 10.1145/3576915.3616647
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'
+- paper_id: acm-ccs-2023-specification-and-verification-of-side-channel-s
+  provider: openalex
+  external_id: W4388858498
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4388858498
+    title: Specification and Verification of Side-channel Security for Open-source Processors via Leakage Contracts
+    doi: 10.1145/3576915.3623192
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'
+- paper_id: acm-ccs-2023-specverilog-adapting-information-flow-control-fo
+  provider: openalex
+  external_id: W4388858465
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4388858465
+    title: 'SpecVerilog: Adapting Information Flow Control for Secure Speculation'
+    doi: 10.1145/3576915.3623074
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'
+- paper_id: acm-ccs-2023-stealing-the-decoding-algorithms-of-language-mod
+  provider: openalex
+  external_id: W4388858191
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4388858191
+    title: Stealing the Decoding Algorithms of Language Models
+    doi: 10.1145/3576915.3616652
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'
+- paper_id: acm-ccs-2023-uncle-maker-time-stamping-out-the-competition-in
+  provider: openalex
+  external_id: W4388858825
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4388858825
+    title: 'Uncle Maker: (Time)Stamping Out The Competition in Ethereum'
+    doi: 10.1145/3576915.3616674
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'
+- paper_id: ndss-2023-your-router-is-my-prober-measuring-ipv6-networks
+  provider: openalex
+  external_id: W4324007097
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4324007097
+    title: 'Your Router is My Prober: Measuring IPv6 Networks via ICMP Rate Limiting Side Channels'
+    doi: 10.14722/ndss.2023.23049
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids:
+  - W4307413811
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'
+- paper_id: ndss-2023-darwin-survival-of-the-fittest-fuzzing-mutators
+  provider: openalex
+  external_id: W4307205415
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4307205415
+    title: 'DARWIN: Survival of the Fittest Fuzzing Mutators'
+    doi: 10.14722/ndss.2023.23159
+    publication_year: 2023
+    title_similarity: 1.0
+    author_overlap: 0.8
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens pipeline
+  verified_at: '2026-08-07T18:41:58Z'

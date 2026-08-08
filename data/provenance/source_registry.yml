@@ -1,0 +1,48 @@
+award_sources:
+- conference_id: ieee-sp
+  year: 2023
+  url: https://www.ieee-security.org/TC/SP2023/program-awards.html
+  adapter: parse_ieee_2023
+  expected_records: 12
+  extracted_sha256: 0e631e221f695d3e5bd112ca67eab2763e063fdbc845dc8459cd4233d778d84c
+- conference_id: usenix-security
+  year: 2023
+  url: https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+  adapter: parse_usenix_2023
+  expected_records: 16
+  extracted_sha256: bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d
+- conference_id: acm-ccs
+  year: 2023
+  url: https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+  adapter: parse_ccs_2023
+  expected_records: 17
+  extracted_sha256: 4486d199b2588ab0234106fe32a18c54d50b58b64098d2b2cb677ea07eed0240
+- conference_id: ndss
+  year: 2023
+  url: https://www.ndss-symposium.org/ndss2023/
+  adapter: parse_ndss_2023
+  expected_records: 2
+  extracted_sha256: adb46aff5da70675303af80106c42cbaed006322235a3b108e835c5b2e21a9c1
+citation_sources:
+- id: openalex
+  role: primary
+  api_url: https://api.openalex.org
+  public_output_enabled: true
+  stored_fields:
+  - cited_by_count
+  - counts_by_year
+  - updated_date
+  notes: A free API key is required. Persistent work IDs are pinned after review; routine refresh does not search.
+- id: semantic_scholar
+  role: optional_comparison
+  api_url: https://api.semanticscholar.org/graph/v1
+  public_output_enabled: false
+  stored_fields:
+  - citationCount
+  - influentialCitationCount
+  notes: Adapter implemented; public redistribution disabled pending terms review.
+- id: crossref
+  role: metadata_helper
+  api_url: https://api.crossref.org
+  public_output_enabled: false
+  notes: Used to confirm DOI and proceedings metadata, not as a citation series.

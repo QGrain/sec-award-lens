@@ -1,0 +1,145 @@
+awards:
+- id: ieee-sp-2023-mega-malleable-encryption-goes-awry-award
+  edition_id: ieee-sp-2023
+  paper_id: ieee-sp-2023-mega-malleable-encryption-goes-awry
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.ieee-security.org/TC/SP2023/program-awards.html
+    retrieved_at: '2026-08-07T18:34:37Z'
+    content_sha256: 0e631e221f695d3e5bd112ca67eab2763e063fdbc845dc8459cd4233d778d84c
+    parser_version: '2023.1'
+  raw_title: 'MEGA: Malleable Encryption Goes Awry'
+  raw_authors: Matilda Backendal (ETH Zurich), Miro Haller (ETH Zurich), Kenneth Paterson (ETH Zurich)
+- id: ieee-sp-2023-practically-exploitable-cryptographic-vulnerabil-award
+  edition_id: ieee-sp-2023
+  paper_id: ieee-sp-2023-practically-exploitable-cryptographic-vulnerabil
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.ieee-security.org/TC/SP2023/program-awards.html
+    retrieved_at: '2026-08-07T18:34:37Z'
+    content_sha256: 0e631e221f695d3e5bd112ca67eab2763e063fdbc845dc8459cd4233d778d84c
+    parser_version: '2023.1'
+  raw_title: Practically-exploitable Cryptographic Vulnerabilities in Matrix
+  raw_authors: Martin R. Albrecht (Royal Holloway, University of London), Sofía Celi (Brave Software), Benjamin Dowling (University of Sheffield), Daniel Jones (Royal Holloway, University of London)
+- id: ieee-sp-2023-weak-fiat-shamir-attacks-on-modern-proof-systems-award
+  edition_id: ieee-sp-2023
+  paper_id: ieee-sp-2023-weak-fiat-shamir-attacks-on-modern-proof-systems
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.ieee-security.org/TC/SP2023/program-awards.html
+    retrieved_at: '2026-08-07T18:34:37Z'
+    content_sha256: 0e631e221f695d3e5bd112ca67eab2763e063fdbc845dc8459cd4233d778d84c
+    parser_version: '2023.1'
+  raw_title: Weak Fiat-Shamir Attacks on Modern Proof Systems
+  raw_authors: Quang Dao (Carnegie Mellon University), Jim Miller (Trail of Bits), Opal Wright (Trail of Bits), Paul Grubbs (University of Michigan)
+- id: ieee-sp-2023-typing-high-speed-cryptography-against-spectre-v-award
+  edition_id: ieee-sp-2023
+  paper_id: ieee-sp-2023-typing-high-speed-cryptography-against-spectre-v
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.ieee-security.org/TC/SP2023/program-awards.html
+    retrieved_at: '2026-08-07T18:34:37Z'
+    content_sha256: 0e631e221f695d3e5bd112ca67eab2763e063fdbc845dc8459cd4233d778d84c
+    parser_version: '2023.1'
+  raw_title: Typing High-Speed Cryptography against Spectre v1
+  raw_authors: Basavesh Ammanaghatta Shivakumar (MPI-SP), Gilles Barthe (MPI-SP and IMDEA Software Institute), Benjamin Grégoire (Inria and Université Côte d'Azur), Vincent Laporte (Inria Nancy), Tiago Oliviera (MPI-SP), Swarn Priya (Inria and Université Côte d'Azur), Peter Schwabe (MPI-SP & Radboud University), Lucas Tabary-Maujean (ENS Paris-Saclay)
+- id: ieee-sp-2023-red-team-vs-blue-team-a-real-world-hardware-troj-award
+  edition_id: ieee-sp-2023
+  paper_id: ieee-sp-2023-red-team-vs-blue-team-a-real-world-hardware-troj
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.ieee-security.org/TC/SP2023/program-awards.html
+    retrieved_at: '2026-08-07T18:34:37Z'
+    content_sha256: 0e631e221f695d3e5bd112ca67eab2763e063fdbc845dc8459cd4233d778d84c
+    parser_version: '2023.1'
+  raw_title: 'Red Team vs. Blue Team: A Real-World Hardware Trojan Detection Case Study Across Four Modern CMOS Technology Generations'
+  raw_authors: Endres Puschner (Max Planck Institute for Security and Privacy), Thorben Moos (UCLouvain), Christian Kison (Bundeskriminalamt), Steffen Becker (Ruhr University Bochum & Max Planck Institute for Security and Privacy), Amir Moradi (Ruhr University Bochum), Christof Paar (Max Planck Institute for Security and Privacy)
+- id: ieee-sp-2023-it-s-dom-clobbering-time-attack-techniques-preva-award
+  edition_id: ieee-sp-2023
+  paper_id: ieee-sp-2023-it-s-dom-clobbering-time-attack-techniques-preva
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.ieee-security.org/TC/SP2023/program-awards.html
+    retrieved_at: '2026-08-07T18:34:37Z'
+    content_sha256: 0e631e221f695d3e5bd112ca67eab2763e063fdbc845dc8459cd4233d778d84c
+    parser_version: '2023.1'
+  raw_title: 'It''s (DOM) Clobbering Time: Attack Techniques, Prevalence, and Defenses'
+  raw_authors: Soheil Khodayari (CISPA Helmholtz Center for Information Security), Giancarlo Pellegrino (CISPA Helmholtz Center for Information Security)
+- id: ieee-sp-2023-the-leaky-web-automated-discovery-of-cross-site-award
+  edition_id: ieee-sp-2023
+  paper_id: ieee-sp-2023-the-leaky-web-automated-discovery-of-cross-site
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.ieee-security.org/TC/SP2023/program-awards.html
+    retrieved_at: '2026-08-07T18:34:37Z'
+    content_sha256: 0e631e221f695d3e5bd112ca67eab2763e063fdbc845dc8459cd4233d778d84c
+    parser_version: '2023.1'
+  raw_title: 'The Leaky Web: Automated Discovery of Cross-Site Information Leaks in Browsers and the Web'
+  raw_authors: Jannis Rautenstrauch (CISPA Helmholtz Center for Information Security), Giancarlo Pellegrino (CISPA Helmholtz Center for Information Security), Ben Stock (CISPA Helmholtz Center for Information Security)
+- id: ieee-sp-2023-wave-a-verifiably-secure-webassembly-sandboxing-award
+  edition_id: ieee-sp-2023
+  paper_id: ieee-sp-2023-wave-a-verifiably-secure-webassembly-sandboxing
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.ieee-security.org/TC/SP2023/program-awards.html
+    retrieved_at: '2026-08-07T18:34:37Z'
+    content_sha256: 0e631e221f695d3e5bd112ca67eab2763e063fdbc845dc8459cd4233d778d84c
+    parser_version: '2023.1'
+  raw_title: 'WaVe: a verifiably secure WebAssembly sandboxing runtime'
+  raw_authors: Evan Johnson (University of California San Diego), Evan Laufer (Stanford University) , Zijie Zhao (University of Illinois Urbana-Champaign), Shravan Narayan (University of California San Diego) , Stefan Savage (University of California San Diego) , Deian Stefan (University of California San Diego), Fraser Brown (Carnegie Mellon University)
+- id: ieee-sp-2023-characterizing-everyday-misuse-of-smart-home-dev-award
+  edition_id: ieee-sp-2023
+  paper_id: ieee-sp-2023-characterizing-everyday-misuse-of-smart-home-dev
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.ieee-security.org/TC/SP2023/program-awards.html
+    retrieved_at: '2026-08-07T18:34:37Z'
+    content_sha256: 0e631e221f695d3e5bd112ca67eab2763e063fdbc845dc8459cd4233d778d84c
+    parser_version: '2023.1'
+  raw_title: Characterizing Everyday Misuse of Smart Home Devices
+  raw_authors: Phoebe Moh (University of Maryland), Pubali Datta (University of Illinois Urbana-Champaign) Noel Warford (University of Maryland), Adam Bates (University of Illinois Urbana-Champaign), Nathan Malkin (University of Maryland), Michelle L. Mazurek (University of Maryland)
+- id: ieee-sp-2023-not-yet-another-digital-id-privacy-preserving-hu-award
+  edition_id: ieee-sp-2023
+  paper_id: ieee-sp-2023-not-yet-another-digital-id-privacy-preserving-hu
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.ieee-security.org/TC/SP2023/program-awards.html
+    retrieved_at: '2026-08-07T18:34:37Z'
+    content_sha256: 0e631e221f695d3e5bd112ca67eab2763e063fdbc845dc8459cd4233d778d84c
+    parser_version: '2023.1'
+  raw_title: 'Not Yet Another Digital ID: Privacy-preserving Humanitarian Aid Distribution'
+  raw_authors: Boya Wang (EPFL), Wouter Lueks (CISPA Helmholtz Center for Information Security), Justinas Sukaitis (ICRC), Vincent Graf Narbel (ICRC), Carmela Troncoso (EPFL)
+- id: ieee-sp-2023-in-eighty-percent-of-the-cases-i-select-the-pass-award
+  edition_id: ieee-sp-2023
+  paper_id: ieee-sp-2023-in-eighty-percent-of-the-cases-i-select-the-pass
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.ieee-security.org/TC/SP2023/program-awards.html
+    retrieved_at: '2026-08-07T18:34:37Z'
+    content_sha256: 0e631e221f695d3e5bd112ca67eab2763e063fdbc845dc8459cd4233d778d84c
+    parser_version: '2023.1'
+  raw_title: '“In Eighty Percent of the Cases, I Select the Password for Them”: Security and Privacy Challenges, Advice, and Opportunities at Cybercafes in Kenya'
+  raw_authors: Collins W. Munyendo (The George Washington University), Yasemin Acar (The George Washington University), Adam J. Aviv (The George Washington University)
+- id: ieee-sp-2023-space-odyssey-an-experimental-software-security-award
+  edition_id: ieee-sp-2023
+  paper_id: ieee-sp-2023-space-odyssey-an-experimental-software-security
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.ieee-security.org/TC/SP2023/program-awards.html
+    retrieved_at: '2026-08-07T18:34:37Z'
+    content_sha256: 0e631e221f695d3e5bd112ca67eab2763e063fdbc845dc8459cd4233d778d84c
+    parser_version: '2023.1'
+  raw_title: 'Space Odyssey: An Experimental Software Security Analysis of Satellites'
+  raw_authors: Johannes Willbold (Ruhr-Universität Bochum), Moritz Schloegel (Ruhr-Universität Bochum) Manuel Vögele (Ruhr-Universität Bochum), Maximilian Gerhardt (Ruhr-Universität Bochum), Thorsten Holz (CISPA Helmholtz Center for Information Security), Ali Abbasi (CISPA Helmholtz Center for Information Security)

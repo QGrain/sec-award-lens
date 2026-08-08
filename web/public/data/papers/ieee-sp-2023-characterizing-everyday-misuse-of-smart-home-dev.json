@@ -1,0 +1,211 @@
+{
+  "awards": [
+    {
+      "edition_id": "ieee-sp-2023",
+      "id": "ieee-sp-2023-characterizing-everyday-misuse-of-smart-home-dev-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "0e631e221f695d3e5bd112ca67eab2763e063fdbc845dc8459cd4233d778d84c",
+        "parser_version": "2023.1",
+        "retrieved_at": "2026-08-07T18:34:37Z",
+        "url": "https://www.ieee-security.org/TC/SP2023/program-awards.html"
+      },
+      "paper_id": "ieee-sp-2023-characterizing-everyday-misuse-of-smart-home-dev",
+      "raw_authors": "Phoebe Moh (University of Maryland), Pubali Datta (University of Illinois Urbana-Champaign) Noel Warford (University of Maryland), Adam Bates (University of Illinois Urbana-Champaign), Nathan Malkin (University of Maryland), Michelle L. Mazurek (University of Maryland)",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "Characterizing Everyday Misuse of Smart Home Devices"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 1.0,
+      "external_id": "W4385080361",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "ieee-sp-2023-characterizing-everyday-misuse-of-smart-home-dev",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": null,
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1109/sp46215.2023.10179476",
+        "external_id": "W4385080361",
+        "publication_year": 2023,
+        "title": "Characterizing Everyday Misuse of Smart Home Devices",
+        "title_similarity": 1.0,
+        "venue": null,
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-07T18:41:58Z",
+      "verified_by": "SecAwardLens pipeline"
+    }
+  ],
+  "citation_history": {
+    "openalex": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 2,
+            "year": 2023
+          },
+          {
+            "count": 3,
+            "year": 2024
+          },
+          {
+            "count": 2,
+            "year": 2025
+          },
+          {
+            "count": 2,
+            "year": 2026
+          }
+        ],
+        "external_id": "W4385080361",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-characterizing-everyday-misuse-of-smart-home-dev",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4385080361?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "71a107591a1e4786355326be4fbb88b66a02275b3881666ec50afbfd70f8ac1b",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 9
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [
+          {
+            "display_name": "University of Maryland, College Park",
+            "openalex_id": "I66946132",
+            "ror": "https://ror.org/047s2c258"
+          }
+        ],
+        "author_name": "Phoebe Moh",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5049839905"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "University of Illinois Urbana-Champaign",
+            "openalex_id": "I157725225",
+            "ror": "https://ror.org/047426m28"
+          }
+        ],
+        "author_name": "Pubali Datta",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5101917630"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "University of Maryland, College Park",
+            "openalex_id": "I66946132",
+            "ror": "https://ror.org/047s2c258"
+          }
+        ],
+        "author_name": "Noel Warford",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5062033325"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "University of Illinois Urbana-Champaign",
+            "openalex_id": "I157725225",
+            "ror": "https://ror.org/047426m28"
+          }
+        ],
+        "author_name": "Adam Bates",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5021649580"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "University of Maryland, College Park",
+            "openalex_id": "I66946132",
+            "ror": "https://ror.org/047s2c258"
+          }
+        ],
+        "author_name": "Nathan Malkin",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5081583467"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "University of Maryland, College Park",
+            "openalex_id": "I66946132",
+            "ror": "https://ror.org/047s2c258"
+          }
+        ],
+        "author_name": "Michelle L. Mazurek",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5105206771"
+      }
+    ],
+    "external_id": "W4385080361",
+    "paper_id": "ieee-sp-2023-characterizing-everyday-misuse-of-smart-home-dev",
+    "primary_topic": {
+      "display_name": "Privacy, Security, and Data Protection",
+      "openalex_id": "T11045",
+      "score": 0.9995
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-08T05:07:19Z"
+  },
+  "generated_at": "2026-08-07T18:42:52+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Phoebe Moh"
+      },
+      {
+        "name": "Pubali Datta"
+      },
+      {
+        "name": "Noel Warford"
+      },
+      {
+        "name": "Adam Bates"
+      },
+      {
+        "name": "Nathan Malkin"
+      },
+      {
+        "name": "Michelle L. Mazurek"
+      }
+    ],
+    "canonical_title": "Characterizing Everyday Misuse of Smart Home Devices",
+    "id": "ieee-sp-2023-characterizing-everyday-misuse-of-smart-home-dev",
+    "identifiers": [
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W4385080361",
+        "value": "W4385080361",
+        "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "doi",
+        "source_url": "https://api.crossref.org/works/10.1109/sp46215.2023.10179476",
+        "value": "10.1109/sp46215.2023.10179476",
+        "verified_at": "2026-08-07T18:41:58Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.ieee-security.org/TC/SP2023/program-awards.html",
+      "https://openalex.org/W4385080361"
+    ],
+    "official_paper_url": null,
+    "publication_year": 2023,
+    "venue_name": "2023 IEEE Symposium on Security and Privacy"
+  },
+  "schema_version": 1
+}

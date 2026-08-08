@@ -1,0 +1,166 @@
+{
+  "awards": [
+    {
+      "edition_id": "acm-ccs-2023",
+      "id": "acm-ccs-2023-uncle-maker-time-stamping-out-the-competition-in-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "4486d199b2588ab0234106fe32a18c54d50b58b64098d2b2cb677ea07eed0240",
+        "parser_version": "2023.1",
+        "retrieved_at": "2026-08-07T18:34:37Z",
+        "url": "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html"
+      },
+      "paper_id": "acm-ccs-2023-uncle-maker-time-stamping-out-the-competition-in",
+      "raw_authors": "Aviv Yaish, Gilad Stern, and Aviv Zohar",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "Uncle Maker: (Time)Stamping Out The Competition in Ethereum"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 1.0,
+      "external_id": "W4388858825",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "acm-ccs-2023-uncle-maker-time-stamping-out-the-competition-in",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": null,
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1145/3576915.3616674",
+        "external_id": "W4388858825",
+        "publication_year": 2023,
+        "title": "Uncle Maker: (Time)Stamping Out The Competition in Ethereum",
+        "title_similarity": 1.0,
+        "venue": null,
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-07T18:41:58Z",
+      "verified_by": "SecAwardLens pipeline"
+    }
+  ],
+  "citation_history": {
+    "openalex": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 2,
+            "year": 2023
+          },
+          {
+            "count": 6,
+            "year": 2024
+          },
+          {
+            "count": 10,
+            "year": 2025
+          },
+          {
+            "count": 3,
+            "year": 2026
+          }
+        ],
+        "external_id": "W4388858825",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-uncle-maker-time-stamping-out-the-competition-in",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4388858825?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "123f6377b78514118cbbc349e6b36016a3c782155843fd831f133a2ed814dfa0",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 21
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [
+          {
+            "display_name": "Hebrew University of Jerusalem",
+            "openalex_id": "I197251160",
+            "ror": "https://ror.org/03qxff017"
+          }
+        ],
+        "author_name": "Aviv Yaish",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5047798226"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Hebrew University of Jerusalem",
+            "openalex_id": "I197251160",
+            "ror": "https://ror.org/03qxff017"
+          }
+        ],
+        "author_name": "Gilad Stern",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5061448811"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Hebrew University of Jerusalem",
+            "openalex_id": "I197251160",
+            "ror": "https://ror.org/03qxff017"
+          }
+        ],
+        "author_name": "Aviv Zohar",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5015458414"
+      }
+    ],
+    "external_id": "W4388858825",
+    "paper_id": "acm-ccs-2023-uncle-maker-time-stamping-out-the-competition-in",
+    "primary_topic": {
+      "display_name": "Blockchain Technology Applications and Security",
+      "openalex_id": "T10270",
+      "score": 0.9996
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-08T05:07:19Z"
+  },
+  "generated_at": "2026-08-07T18:42:52+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Aviv Yaish"
+      },
+      {
+        "name": "Gilad Stern"
+      },
+      {
+        "name": "Aviv Zohar"
+      }
+    ],
+    "canonical_title": "Uncle Maker: (Time)Stamping Out The Competition in Ethereum",
+    "id": "acm-ccs-2023-uncle-maker-time-stamping-out-the-competition-in",
+    "identifiers": [
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W4388858825",
+        "value": "W4388858825",
+        "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "doi",
+        "source_url": "https://api.crossref.org/works/10.1145/3576915.3616674",
+        "value": "10.1145/3576915.3616674",
+        "verified_at": "2026-08-07T18:41:58Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html",
+      "https://openalex.org/W4388858825"
+    ],
+    "official_paper_url": null,
+    "publication_year": 2023,
+    "venue_name": "2023 ACM SIGSAC Conference on Computer and Communications Security"
+  },
+  "schema_version": 1
+}

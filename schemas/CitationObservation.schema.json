@@ -1,0 +1,111 @@
+{
+  "$defs": {
+    "CitationProvider": {
+      "enum": [
+        "openalex",
+        "semantic_scholar"
+      ],
+      "title": "CitationProvider",
+      "type": "string"
+    },
+    "CitationYearCount": {
+      "additionalProperties": false,
+      "properties": {
+        "year": {
+          "maximum": 2100,
+          "minimum": 1800,
+          "title": "Year",
+          "type": "integer"
+        },
+        "count": {
+          "minimum": 0,
+          "title": "Count",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "year",
+        "count"
+      ],
+      "title": "CitationYearCount",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "paper_id": {
+      "title": "Paper Id",
+      "type": "string"
+    },
+    "provider": {
+      "$ref": "#/$defs/CitationProvider"
+    },
+    "external_id": {
+      "title": "External Id",
+      "type": "string"
+    },
+    "retrieved_at": {
+      "format": "date-time",
+      "title": "Retrieved At",
+      "type": "string"
+    },
+    "total_citations": {
+      "minimum": 0,
+      "title": "Total Citations",
+      "type": "integer"
+    },
+    "influential_citations": {
+      "anyOf": [
+        {
+          "minimum": 0,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Influential Citations"
+    },
+    "citations_by_citing_year": {
+      "items": {
+        "$ref": "#/$defs/CitationYearCount"
+      },
+      "title": "Citations By Citing Year",
+      "type": "array"
+    },
+    "provider_record_updated_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Provider Record Updated At"
+    },
+    "response_sha256": {
+      "pattern": "^[a-f0-9]{64}$",
+      "title": "Response Sha256",
+      "type": "string"
+    },
+    "request_fingerprint": {
+      "title": "Request Fingerprint",
+      "type": "string"
+    }
+  },
+  "required": [
+    "paper_id",
+    "provider",
+    "external_id",
+    "retrieved_at",
+    "total_citations",
+    "response_sha256",
+    "request_fingerprint"
+  ],
+  "title": "CitationObservation",
+  "type": "object"
+}

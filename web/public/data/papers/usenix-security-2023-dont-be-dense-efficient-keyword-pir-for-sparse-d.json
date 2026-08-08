@@ -1,0 +1,62 @@
+{
+  "awards": [
+    {
+      "edition_id": "usenix-security-2023",
+      "id": "usenix-security-2023-dont-be-dense-efficient-keyword-pir-for-sparse-d-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d",
+        "parser_version": "2023.1",
+        "retrieved_at": "2026-08-07T18:34:37Z",
+        "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+      },
+      "paper_id": "usenix-security-2023-dont-be-dense-efficient-keyword-pir-for-sparse-d",
+      "raw_authors": "Sarvar Patel and Joon Young Seo, Google; Kevin Yeo, Google and Columbia University",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "Don’t be Dense: Efficient Keyword PIR for Sparse Databases"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": null,
+      "external_id": null,
+      "method": null,
+      "override_reason": null,
+      "paper_id": "usenix-security-2023-dont-be-dense-efficient-keyword-pir-for-sparse-d",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Keyed OpenAlex search and autocomplete found no title/author-compatible entity on 2026-08-08.",
+      "selected_candidate": null,
+      "status": "pending",
+      "verified_at": null,
+      "verified_by": null
+    }
+  ],
+  "citation_history": {},
+  "enrichment": null,
+  "generated_at": "2026-08-07T18:42:52+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Sarvar Patel"
+      },
+      {
+        "name": "Joon Young Seo"
+      },
+      {
+        "name": "Kevin Yeo"
+      }
+    ],
+    "canonical_title": "Don’t be Dense: Efficient Keyword PIR for Sparse Databases",
+    "id": "usenix-security-2023-dont-be-dense-efficient-keyword-pir-for-sparse-d",
+    "identifiers": [],
+    "metadata_sources": [
+      "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+    ],
+    "official_paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/patel",
+    "publication_year": 2023,
+    "venue_name": "32nd USENIX Security Symposium"
+  },
+  "schema_version": 1
+}

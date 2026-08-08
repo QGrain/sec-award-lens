@@ -1,0 +1,89 @@
+{
+  "$defs": {
+    "AwardCategory": {
+      "enum": [
+        "best_paper",
+        "distinguished_paper"
+      ],
+      "title": "AwardCategory",
+      "type": "string"
+    },
+    "SourceEvidence": {
+      "additionalProperties": false,
+      "properties": {
+        "url": {
+          "title": "Url",
+          "type": "string"
+        },
+        "retrieved_at": {
+          "format": "date-time",
+          "title": "Retrieved At",
+          "type": "string"
+        },
+        "content_sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "title": "Content Sha256",
+          "type": "string"
+        },
+        "parser_version": {
+          "title": "Parser Version",
+          "type": "string"
+        }
+      },
+      "required": [
+        "url",
+        "retrieved_at",
+        "content_sha256",
+        "parser_version"
+      ],
+      "title": "SourceEvidence",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "pattern": "^[a-z0-9-]+$",
+      "title": "Id",
+      "type": "string"
+    },
+    "edition_id": {
+      "title": "Edition Id",
+      "type": "string"
+    },
+    "paper_id": {
+      "title": "Paper Id",
+      "type": "string"
+    },
+    "raw_award_name": {
+      "title": "Raw Award Name",
+      "type": "string"
+    },
+    "normalized_category": {
+      "$ref": "#/$defs/AwardCategory"
+    },
+    "official_source": {
+      "$ref": "#/$defs/SourceEvidence"
+    },
+    "raw_title": {
+      "title": "Raw Title",
+      "type": "string"
+    },
+    "raw_authors": {
+      "title": "Raw Authors",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "edition_id",
+    "paper_id",
+    "raw_award_name",
+    "normalized_category",
+    "official_source",
+    "raw_title",
+    "raw_authors"
+  ],
+  "title": "AwardGrant",
+  "type": "object"
+}

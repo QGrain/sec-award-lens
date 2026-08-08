@@ -1,0 +1,113 @@
+# SecAwardLens
+
+[![CI](https://github.com/QGrain/sec-award-lens/actions/workflows/ci.yml/badge.svg)](https://github.com/QGrain/sec-award-lens/actions/workflows/ci.yml)
+[![Original curation: CC0-1.0](https://img.shields.io/badge/original_curation-CC0--1.0-green.svg)](DATA_LICENSE.md)
+[![Code: Apache-2.0](https://img.shields.io/badge/code-Apache--2.0-blue.svg)](LICENSE)
+
+SecAwardLens is a reproducible dataset and static web application for exploring the
+citation impact of award-winning papers from IEEE S&P, USENIX Security, ACM CCS,
+and NDSS.
+
+It treats an award, a scholarly entity, and a citation count as three separate,
+auditable records. Official conference pages are the award ground truth. External
+paper IDs are conservatively matched and then pinned. Citation counts are stored as
+immutable, time-stamped observations.
+
+## Current data release
+
+The first release covers all **47 core 2023 paper awards**:
+
+| Conference | Official awards | Verified OpenAlex entities |
+| --- | ---: | ---: |
+| IEEE S&P | 12 | 12 |
+| USENIX Security | 16 | 11 |
+| ACM CCS | 17 | 17 |
+| NDSS | 2 | 2 |
+
+Five USENIX papers remain visibly unresolved in OpenAlex. They are not assigned to
+weak lookalikes. Semantic Scholar support is implemented, but publishing its data is
+disabled until its redistribution terms are reviewed for this project; see the
+[publication decision](docs/semantic-scholar-publication.md).
+
+## Quick start
+
+Requirements: Python 3.11+, [uv](https://docs.astral.sh/uv/), Node.js 24+, and npm.
+
+```bash
+uv sync --all-extras
+uv run secawardlens data validate
+uv run secawardlens build
+
+cd web
+npm ci
+npm run dev
+```
+
+Open <http://localhost:5173>. For a production-equivalent local preview, run
+`npm run build && npm run preview` in `web/` and open <http://localhost:4173>.
+
+Useful pipeline commands:
+
+```bash
+# Detect changed official award records; does not rewrite curated data.
+uv run secawardlens awards check
+
+# Print review candidates; does not change pinned bindings.
+uv run secawardlens match openalex --paper-id PAPER_ID
+
+# Append a UTC-dated snapshot using existing verified IDs only.
+uv run secawardlens citations refresh
+
+# Regenerate JSON Schema and frontend data.
+uv run secawardlens schema export
+uv run secawardlens build
+
+# Validate and dry-run one maintainer review form; --write applies it atomically.
+uv run secawardlens review validate data/review/submissions/FORM.yml
+uv run secawardlens review apply data/review/submissions/FORM.yml
+```
+
+`OPENALEX_API_KEY` is required for OpenAlex API commands. Create a free key at
+<https://openalex.org/settings/api> and export it locally with
+`export OPENALEX_API_KEY=...`. Building or previewing already committed data does not
+need the key. Routine citation refreshes never search or rematch a paper.
+
+## Repository map
+
+```text
+data/curated/       reviewed conferences, editions, awards, papers, bindings, overrides
+data/provenance/    source registry and historical coverage matrix
+data/snapshots/     append-only citation observations (JSONL)
+schemas/            generated JSON Schemas
+src/secawardlens/   Python collectors, providers, resolver, validation, build CLI
+tests/              parser, entity-resolution, metric, and repository contract tests
+web/                React + TypeScript + Vite static application
+.github/workflows/  CI, source monitoring, citation refresh PRs, Pages deployment
+docs/               methods, architecture, data-source and contributor guides
+```
+
+Start with [the methodology](docs/methodology.md). The official-source inventory,
+current release audit, and provider limitations are in
+[the source inventory](docs/sources.md); contributor workflows are in
+[CONTRIBUTING.md](CONTRIBUTING.md).
+Deployment and secret configuration are documented in
+[the deployment guide](docs/deployment.md). Missing or ambiguous entities follow the
+[human curation workflow](docs/manual-curation-workflow.md).
+
+## Design principles
+
+- Official organizers decide what won; scholarly APIs do not.
+- A DOI match is accepted only with basic title/year sanity checks.
+- Ambiguity is a review state, never an invitation to pick the first result.
+- Confirmed external IDs persist across refreshes.
+- Snapshot history is append-only and includes response digests.
+- Conference totals are not used as an impact league table; distributions and
+  paper-level age windows are shown instead.
+- Generated site JSON is committed so every deployment is reproducible from a Git
+  revision.
+
+## License
+
+Source code is Apache-2.0. Maintainer-owned selection, normalization, and curation are
+dedicated to the public domain under CC0-1.0; upstream provider and conference content
+remains subject to its original terms. See [DATA_LICENSE.md](DATA_LICENSE.md).

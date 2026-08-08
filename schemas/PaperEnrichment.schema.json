@@ -1,0 +1,153 @@
+{
+  "$defs": {
+    "AuthorEnrichment": {
+      "additionalProperties": false,
+      "properties": {
+        "author_name": {
+          "title": "Author Name",
+          "type": "string"
+        },
+        "openalex_author_id": {
+          "anyOf": [
+            {
+              "pattern": "^A\\d+$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Openalex Author Id"
+        },
+        "name_similarity": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Name Similarity",
+          "type": "number"
+        },
+        "affiliations": {
+          "items": {
+            "$ref": "#/$defs/InstitutionRef"
+          },
+          "title": "Affiliations",
+          "type": "array"
+        }
+      },
+      "required": [
+        "author_name",
+        "name_similarity"
+      ],
+      "title": "AuthorEnrichment",
+      "type": "object"
+    },
+    "InstitutionRef": {
+      "additionalProperties": false,
+      "properties": {
+        "display_name": {
+          "title": "Display Name",
+          "type": "string"
+        },
+        "openalex_id": {
+          "pattern": "^I\\d+$",
+          "title": "Openalex Id",
+          "type": "string"
+        },
+        "ror": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Ror"
+        }
+      },
+      "required": [
+        "display_name",
+        "openalex_id"
+      ],
+      "title": "InstitutionRef",
+      "type": "object"
+    },
+    "TopicAssignment": {
+      "additionalProperties": false,
+      "properties": {
+        "display_name": {
+          "title": "Display Name",
+          "type": "string"
+        },
+        "openalex_id": {
+          "pattern": "^T\\d+$",
+          "title": "Openalex Id",
+          "type": "string"
+        },
+        "score": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Score",
+          "type": "number"
+        }
+      },
+      "required": [
+        "display_name",
+        "openalex_id",
+        "score"
+      ],
+      "title": "TopicAssignment",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "description": "Reviewable provider metadata kept separate from canonical paper identity.",
+  "properties": {
+    "paper_id": {
+      "title": "Paper Id",
+      "type": "string"
+    },
+    "provider": {
+      "const": "openalex",
+      "title": "Provider",
+      "type": "string"
+    },
+    "external_id": {
+      "pattern": "^W\\d+$",
+      "title": "External Id",
+      "type": "string"
+    },
+    "retrieved_at": {
+      "format": "date-time",
+      "title": "Retrieved At",
+      "type": "string"
+    },
+    "primary_topic": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/TopicAssignment"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "authors": {
+      "items": {
+        "$ref": "#/$defs/AuthorEnrichment"
+      },
+      "title": "Authors",
+      "type": "array"
+    }
+  },
+  "required": [
+    "paper_id",
+    "provider",
+    "external_id",
+    "retrieved_at"
+  ],
+  "title": "PaperEnrichment",
+  "type": "object"
+}

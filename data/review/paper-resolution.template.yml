@@ -1,0 +1,30 @@
+# Copy to data/review/submissions/<paper-id>-<date>.yml and replace placeholders.
+# The form intentionally has no citation-count field. Counts come from provider snapshots.
+schema_version: 1
+paper_id: replace-with-existing-secawardlens-paper-id
+reviewer: github-handle-or-name
+reviewed_at: 'YYYY-MM-DDTHH:MM:SSZ'
+metadata:
+  canonical_title: null
+  authors: null
+  publication_year: null
+  official_paper_url: null
+  doi: null
+  doi_source_url: null
+provider_decisions:
+- provider: openalex
+  decision: not_found # verified | ambiguous | rejected | not_found
+  external_id: null
+  candidate_url: null
+  candidate_title: null
+  candidate_authors: []
+  candidate_publication_year: null
+  candidate_venue: null
+  candidate_doi: null
+  related_version_ids: []
+  confidence: null # required for verified; otherwise leave null
+  reason: Describe what was checked and why this decision is justified.
+  evidence_urls: []
+evidence_urls:
+- https://conference.example/official-paper-page
+notes: null

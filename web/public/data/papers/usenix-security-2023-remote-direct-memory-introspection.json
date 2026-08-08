@@ -1,0 +1,71 @@
+{
+  "awards": [
+    {
+      "edition_id": "usenix-security-2023",
+      "id": "usenix-security-2023-remote-direct-memory-introspection-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d",
+        "parser_version": "2023.1",
+        "retrieved_at": "2026-08-07T18:34:37Z",
+        "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+      },
+      "paper_id": "usenix-security-2023-remote-direct-memory-introspection",
+      "raw_authors": "Hongyi Liu, Jiarong Xing, and Yibo Huang, Rice University; Danyang Zhuo, Duke University; Srinivas Devadas, Massachusetts Institute of Technology; Ang Chen, Rice University",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "Remote Direct Memory Introspection"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": null,
+      "external_id": null,
+      "method": null,
+      "override_reason": null,
+      "paper_id": "usenix-security-2023-remote-direct-memory-introspection",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Keyed OpenAlex search and autocomplete found no title/author-compatible entity on 2026-08-08. Semantic Scholar returned an exact 2023 USENIX title/author entity for separate review; it is not published as a binding.",
+      "selected_candidate": null,
+      "status": "pending",
+      "verified_at": null,
+      "verified_by": null
+    }
+  ],
+  "citation_history": {},
+  "enrichment": null,
+  "generated_at": "2026-08-07T18:42:52+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Hongyi Liu"
+      },
+      {
+        "name": "Jiarong Xing"
+      },
+      {
+        "name": "Yibo Huang"
+      },
+      {
+        "name": "Danyang Zhuo"
+      },
+      {
+        "name": "Srinivas Devadas"
+      },
+      {
+        "name": "Ang Chen"
+      }
+    ],
+    "canonical_title": "Remote Direct Memory Introspection",
+    "id": "usenix-security-2023-remote-direct-memory-introspection",
+    "identifiers": [],
+    "metadata_sources": [
+      "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+    ],
+    "official_paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/liu-hongyi",
+    "publication_year": 2023,
+    "venue_name": "32nd USENIX Security Symposium"
+  },
+  "schema_version": 1
+}

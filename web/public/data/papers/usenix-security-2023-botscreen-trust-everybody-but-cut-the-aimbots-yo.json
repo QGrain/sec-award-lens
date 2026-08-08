@@ -1,0 +1,153 @@
+{
+  "awards": [
+    {
+      "edition_id": "usenix-security-2023",
+      "id": "usenix-security-2023-botscreen-trust-everybody-but-cut-the-aimbots-yo-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d",
+        "parser_version": "2023.1",
+        "retrieved_at": "2026-08-07T18:34:37Z",
+        "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+      },
+      "paper_id": "usenix-security-2023-botscreen-trust-everybody-but-cut-the-aimbots-yo",
+      "raw_authors": "Minyeop Choi, KAIST; Gihyuk Ko, Cyber Security Research Center at KAIST and Carnegie Mellon University; Sang Kil Cha, KAIST and Cyber Security Research Center at KAIST",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "BotScreen: Trust Everybody, but Cut the Aimbots Yourself"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 0.98,
+      "external_id": "W4393633303",
+      "method": "manual_override",
+      "override_reason": "Exact title, author, and year agreement with the official USENIX record; OpenAlex exposes a repository or preprint entity rather than a venue-tagged proceedings record.",
+      "paper_id": "usenix-security-2023-botscreen-trust-everybody-but-cut-the-aimbots-yo",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": null,
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.5281/zenodo.8058051",
+        "external_id": "W4393633303",
+        "publication_year": 2023,
+        "title": "BotScreen: Trust Everybody, but Cut the Aimbots Yourself",
+        "title_similarity": 1.0,
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-07T18:41:58Z",
+      "verified_by": "machine-assisted-bootstrap"
+    }
+  ],
+  "citation_history": {
+    "openalex": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "W4393633303",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-botscreen-trust-everybody-but-cut-the-aimbots-yo",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-23T08:03:31.855105",
+        "request_fingerprint": "GET /works/W4393633303?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "53157c249fc183f13f6e21bcdd9b8e86a6d60c759d47a914586bcbc3dae4ec42",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 0
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [
+          {
+            "display_name": "Korea Advanced Institute of Science and Technology",
+            "openalex_id": "I157485424",
+            "ror": "https://ror.org/05apxxy63"
+          },
+          {
+            "display_name": "Kootenay Association for Science & Technology",
+            "openalex_id": "I4210099236",
+            "ror": "https://ror.org/011pv9p44"
+          }
+        ],
+        "author_name": "Minyeop Choi",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5067541406"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Carnegie Mellon University",
+            "openalex_id": "I74973139",
+            "ror": "https://ror.org/05x2bcf33"
+          }
+        ],
+        "author_name": "Gihyuk Ko",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5033593176"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Korea Advanced Institute of Science and Technology",
+            "openalex_id": "I157485424",
+            "ror": "https://ror.org/05apxxy63"
+          },
+          {
+            "display_name": "Kootenay Association for Science & Technology",
+            "openalex_id": "I4210099236",
+            "ror": "https://ror.org/011pv9p44"
+          }
+        ],
+        "author_name": "Sang Kil Cha",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5135398776"
+      }
+    ],
+    "external_id": "W4393633303",
+    "paper_id": "usenix-security-2023-botscreen-trust-everybody-but-cut-the-aimbots-yo",
+    "primary_topic": {
+      "display_name": "Network Security and Intrusion Detection",
+      "openalex_id": "T10400",
+      "score": 0.9565
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-08T05:07:19Z"
+  },
+  "generated_at": "2026-08-07T18:42:52+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Minyeop Choi"
+      },
+      {
+        "name": "Gihyuk Ko"
+      },
+      {
+        "name": "Sang Kil Cha"
+      }
+    ],
+    "canonical_title": "BotScreen: Trust Everybody, but Cut the Aimbots Yourself",
+    "id": "usenix-security-2023-botscreen-trust-everybody-but-cut-the-aimbots-yo",
+    "identifiers": [
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W4393633303",
+        "value": "W4393633303",
+        "verified_at": "2026-08-07T18:41:58Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.usenix.org/conference/usenixsecurity23/technical-sessions",
+      "https://openalex.org/W4393633303"
+    ],
+    "official_paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/choi",
+    "publication_year": 2023,
+    "venue_name": "32nd USENIX Security Symposium"
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,44 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "pattern": "^[a-z0-9-]+-\\d{4}$",
+      "title": "Id",
+      "type": "string"
+    },
+    "conference_id": {
+      "title": "Conference Id",
+      "type": "string"
+    },
+    "year": {
+      "maximum": 2100,
+      "minimum": 1980,
+      "title": "Year",
+      "type": "integer"
+    },
+    "official_event_url": {
+      "title": "Official Event Url",
+      "type": "string"
+    },
+    "proceedings_url": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Proceedings Url"
+    }
+  },
+  "required": [
+    "id",
+    "conference_id",
+    "year",
+    "official_event_url"
+  ],
+  "title": "ConferenceEdition",
+  "type": "object"
+}

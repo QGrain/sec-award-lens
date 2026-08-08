@@ -1,0 +1,151 @@
+{
+  "awards": [
+    {
+      "edition_id": "acm-ccs-2023",
+      "id": "acm-ccs-2023-large-language-models-for-code-security-hardenin-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "4486d199b2588ab0234106fe32a18c54d50b58b64098d2b2cb677ea07eed0240",
+        "parser_version": "2023.1",
+        "retrieved_at": "2026-08-07T18:34:37Z",
+        "url": "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html"
+      },
+      "paper_id": "acm-ccs-2023-large-language-models-for-code-security-hardenin",
+      "raw_authors": "Jingxuan He and Martin Vechev",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "Large Language Models for Code: Security Hardening and Adversarial Testing"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 1.0,
+      "external_id": "W4320560161",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "acm-ccs-2023-large-language-models-for-code-security-hardenin",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": null,
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1145/3576915.3623175",
+        "external_id": "W4320560161",
+        "publication_year": 2023,
+        "title": "Large Language Models for Code: Security Hardening and Adversarial Testing",
+        "title_similarity": 1.0,
+        "venue": null,
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-07T18:41:58Z",
+      "verified_by": "SecAwardLens pipeline"
+    }
+  ],
+  "citation_history": {
+    "openalex": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 4,
+            "year": 2023
+          },
+          {
+            "count": 28,
+            "year": 2024
+          },
+          {
+            "count": 58,
+            "year": 2025
+          },
+          {
+            "count": 29,
+            "year": 2026
+          }
+        ],
+        "external_id": "W4320560161",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-large-language-models-for-code-security-hardenin",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-02T14:50:37.381335",
+        "request_fingerprint": "GET /works/W4320560161?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "b77a1e3ca3745f044cdea35a791b3c72b2e8c430cc2dd9497d0a721b4ff13e9e",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 119
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [
+          {
+            "display_name": "ETH Zurich",
+            "openalex_id": "I35440088",
+            "ror": "https://ror.org/05a28rw58"
+          }
+        ],
+        "author_name": "Jingxuan He",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5101532408"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "ETH Zurich",
+            "openalex_id": "I35440088",
+            "ror": "https://ror.org/05a28rw58"
+          }
+        ],
+        "author_name": "Martin Vechev",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5069901599"
+      }
+    ],
+    "external_id": "W4320560161",
+    "paper_id": "acm-ccs-2023-large-language-models-for-code-security-hardenin",
+    "primary_topic": {
+      "display_name": "Software Engineering Research",
+      "openalex_id": "T10260",
+      "score": 0.9981
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-08T05:07:19Z"
+  },
+  "generated_at": "2026-08-07T18:42:52+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Jingxuan He"
+      },
+      {
+        "name": "Martin Vechev"
+      }
+    ],
+    "canonical_title": "Large Language Models for Code: Security Hardening and Adversarial Testing",
+    "id": "acm-ccs-2023-large-language-models-for-code-security-hardenin",
+    "identifiers": [
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W4320560161",
+        "value": "W4320560161",
+        "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "doi",
+        "source_url": "https://api.crossref.org/works/10.1145/3576915.3623175",
+        "value": "10.1145/3576915.3623175",
+        "verified_at": "2026-08-07T18:41:58Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html",
+      "https://openalex.org/W4320560161"
+    ],
+    "official_paper_url": null,
+    "publication_year": 2023,
+    "venue_name": "2023 ACM SIGSAC Conference on Computer and Communications Security"
+  },
+  "schema_version": 1
+}

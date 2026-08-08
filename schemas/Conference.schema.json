@@ -1,0 +1,37 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "pattern": "^[a-z0-9-]+$",
+      "title": "Id",
+      "type": "string"
+    },
+    "name": {
+      "title": "Name",
+      "type": "string"
+    },
+    "short_name": {
+      "title": "Short Name",
+      "type": "string"
+    },
+    "organizer": {
+      "title": "Organizer",
+      "type": "string"
+    },
+    "aliases": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Aliases",
+      "type": "array"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "short_name",
+    "organizer"
+  ],
+  "title": "Conference",
+  "type": "object"
+}

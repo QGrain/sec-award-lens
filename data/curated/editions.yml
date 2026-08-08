@@ -1,0 +1,21 @@
+editions:
+- id: ieee-sp-2023
+  conference_id: ieee-sp
+  year: 2023
+  official_event_url: https://www.ieee-security.org/TC/SP2023/program-awards.html
+  proceedings_url: https://www.computer.org/csdl/proceedings/sp/2023/9336/1Js0D7rT55C
+- id: usenix-security-2023
+  conference_id: usenix-security
+  year: 2023
+  official_event_url: https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+  proceedings_url: https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+- id: acm-ccs-2023
+  conference_id: acm-ccs
+  year: 2023
+  official_event_url: https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+  proceedings_url: https://dl.acm.org/doi/proceedings/10.1145/3576915
+- id: ndss-2023
+  conference_id: ndss
+  year: 2023
+  official_event_url: https://www.ndss-symposium.org/ndss2023/
+  proceedings_url: https://www.ndss-symposium.org/ndss2023/accepted-papers/

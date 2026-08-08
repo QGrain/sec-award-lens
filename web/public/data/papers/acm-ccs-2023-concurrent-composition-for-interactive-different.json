@@ -1,0 +1,216 @@
+{
+  "awards": [
+    {
+      "edition_id": "acm-ccs-2023",
+      "id": "acm-ccs-2023-concurrent-composition-for-interactive-different-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "4486d199b2588ab0234106fe32a18c54d50b58b64098d2b2cb677ea07eed0240",
+        "parser_version": "2023.1",
+        "retrieved_at": "2026-08-07T18:34:37Z",
+        "url": "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html"
+      },
+      "paper_id": "acm-ccs-2023-concurrent-composition-for-interactive-different",
+      "raw_authors": "Samuel Haney, Michael Shoemate, Grace Tian, Salil Vadhan, Andrew Vyrros, Vicki Xu, and Wanrong Zhang",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "Concurrent Composition for Interactive Differential Privacy with Adaptive Privacy-Loss Parameters"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 1.0,
+      "external_id": "W4388856861",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "acm-ccs-2023-concurrent-composition-for-interactive-different",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": null,
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1145/3576915.3623128",
+        "external_id": "W4388856861",
+        "publication_year": 2023,
+        "title": "Concurrent Composition for Interactive Differential Privacy with Adaptive Privacy-Loss Parameters",
+        "title_similarity": 1.0,
+        "venue": null,
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-07T18:41:58Z",
+      "verified_by": "SecAwardLens pipeline"
+    }
+  ],
+  "citation_history": {
+    "openalex": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2024
+          },
+          {
+            "count": 3,
+            "year": 2025
+          },
+          {
+            "count": 1,
+            "year": 2026
+          }
+        ],
+        "external_id": "W4388856861",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-concurrent-composition-for-interactive-different",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-06T08:24:18.245995",
+        "request_fingerprint": "GET /works/W4388856861?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "ca6d10cfe51056dd96788dc1842d2fb3cb104e12bdf3c725ed1855535cb3fb79",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 5
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [],
+        "author_name": "Samuel Haney",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5031552587"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Harvard University Press",
+            "openalex_id": "I2801851002",
+            "ror": "https://ror.org/006v7bf86"
+          }
+        ],
+        "author_name": "Michael Shoemate",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5020536935"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Harvard University Press",
+            "openalex_id": "I2801851002",
+            "ror": "https://ror.org/006v7bf86"
+          }
+        ],
+        "author_name": "Grace Tian",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5054206863"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Harvard University Press",
+            "openalex_id": "I2801851002",
+            "ror": "https://ror.org/006v7bf86"
+          }
+        ],
+        "author_name": "Salil Vadhan",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5016656677"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Harvard University Press",
+            "openalex_id": "I2801851002",
+            "ror": "https://ror.org/006v7bf86"
+          }
+        ],
+        "author_name": "Andrew Vyrros",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5092865503"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Harvard University Press",
+            "openalex_id": "I2801851002",
+            "ror": "https://ror.org/006v7bf86"
+          }
+        ],
+        "author_name": "Vicki Xu",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5092865504"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Harvard University Press",
+            "openalex_id": "I2801851002",
+            "ror": "https://ror.org/006v7bf86"
+          }
+        ],
+        "author_name": "Wanrong Zhang",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5014759932"
+      }
+    ],
+    "external_id": "W4388856861",
+    "paper_id": "acm-ccs-2023-concurrent-composition-for-interactive-different",
+    "primary_topic": {
+      "display_name": "Privacy-Preserving Technologies in Data",
+      "openalex_id": "T10764",
+      "score": 1.0
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-08T05:07:19Z"
+  },
+  "generated_at": "2026-08-07T18:42:52+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Samuel Haney"
+      },
+      {
+        "name": "Michael Shoemate"
+      },
+      {
+        "name": "Grace Tian"
+      },
+      {
+        "name": "Salil Vadhan"
+      },
+      {
+        "name": "Andrew Vyrros"
+      },
+      {
+        "name": "Vicki Xu"
+      },
+      {
+        "name": "Wanrong Zhang"
+      }
+    ],
+    "canonical_title": "Concurrent Composition for Interactive Differential Privacy with Adaptive Privacy-Loss Parameters",
+    "id": "acm-ccs-2023-concurrent-composition-for-interactive-different",
+    "identifiers": [
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W4388856861",
+        "value": "W4388856861",
+        "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "doi",
+        "source_url": "https://api.crossref.org/works/10.1145/3576915.3623128",
+        "value": "10.1145/3576915.3623128",
+        "verified_at": "2026-08-07T18:41:58Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html",
+      "https://openalex.org/W4388856861"
+    ],
+    "official_paper_url": null,
+    "publication_year": 2023,
+    "venue_name": "2023 ACM SIGSAC Conference on Computer and Communications Security"
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,156 @@
+{
+  "awards": [
+    {
+      "edition_id": "acm-ccs-2023",
+      "id": "acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "4486d199b2588ab0234106fe32a18c54d50b58b64098d2b2cb677ea07eed0240",
+        "parser_version": "2023.1",
+        "retrieved_at": "2026-08-07T18:34:37Z",
+        "url": "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html"
+      },
+      "paper_id": "acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl",
+      "raw_authors": "Gilad Asharov, Ilan Komargodski, and Yehuda Michelson",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "FutORAMa: A Concretely Efficient Hierarchical Oblivious RAM"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 1.0,
+      "external_id": "W4388856956",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": null,
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1145/3576915.3623125",
+        "external_id": "W4388856956",
+        "publication_year": 2023,
+        "title": "FutORAMa: A Concretely Efficient Hierarchical Oblivious RAM",
+        "title_similarity": 1.0,
+        "venue": null,
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-07T18:41:58Z",
+      "verified_by": "SecAwardLens pipeline"
+    }
+  ],
+  "citation_history": {
+    "openalex": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2024
+          },
+          {
+            "count": 5,
+            "year": 2025
+          },
+          {
+            "count": 4,
+            "year": 2026
+          }
+        ],
+        "external_id": "W4388856956",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-04T08:18:43.703281",
+        "request_fingerprint": "GET /works/W4388856956?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "a6803e9f726fa6cf2ba2a3bc39f0093cd8dda1cbe51fb8f1a31db0d88d297ea0",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 10
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [
+          {
+            "display_name": "Bar-Ilan University",
+            "openalex_id": "I13955877",
+            "ror": "https://ror.org/03kgsv495"
+          }
+        ],
+        "author_name": "Gilad Asharov",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5042677137"
+      },
+      {
+        "affiliations": [],
+        "author_name": "Ilan Komargodski",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5032483797"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Bar-Ilan University",
+            "openalex_id": "I13955877",
+            "ror": "https://ror.org/03kgsv495"
+          }
+        ],
+        "author_name": "Yehuda Michelson",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5093307563"
+      }
+    ],
+    "external_id": "W4388856956",
+    "paper_id": "acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl",
+    "primary_topic": {
+      "display_name": "Cryptography and Data Security",
+      "openalex_id": "T10237",
+      "score": 1.0
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-08T05:07:19Z"
+  },
+  "generated_at": "2026-08-07T18:42:52+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Gilad Asharov"
+      },
+      {
+        "name": "Ilan Komargodski"
+      },
+      {
+        "name": "Yehuda Michelson"
+      }
+    ],
+    "canonical_title": "FutORAMa: A Concretely Efficient Hierarchical Oblivious RAM",
+    "id": "acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl",
+    "identifiers": [
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W4388856956",
+        "value": "W4388856956",
+        "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "doi",
+        "source_url": "https://api.crossref.org/works/10.1145/3576915.3623125",
+        "value": "10.1145/3576915.3623125",
+        "verified_at": "2026-08-07T18:41:58Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html",
+      "https://openalex.org/W4388856956"
+    ],
+    "official_paper_url": null,
+    "publication_year": 2023,
+    "venue_name": "2023 ACM SIGSAC Conference on Computer and Communications Security"
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,4534 @@
+{
+  "conference_summaries": [
+    {
+      "award_count": 12,
+      "citations": {
+        "max": 50.0,
+        "mean": 19.25,
+        "median": 18.0,
+        "min": 8.0,
+        "n": 12,
+        "q1": 13.0,
+        "q3": 21.5
+      },
+      "cited_paper_count": 12,
+      "conference": {
+        "aliases": [
+          "Oakland",
+          "IEEE Security & Privacy"
+        ],
+        "id": "ieee-sp",
+        "name": "IEEE Symposium on Security and Privacy",
+        "organizer": "IEEE Computer Society",
+        "short_name": "IEEE S&P"
+      },
+      "edition": {
+        "conference_id": "ieee-sp",
+        "id": "ieee-sp-2023",
+        "official_event_url": "https://www.ieee-security.org/TC/SP2023/program-awards.html",
+        "proceedings_url": "https://www.computer.org/csdl/proceedings/sp/2023/9336/1Js0D7rT55C",
+        "year": 2023
+      }
+    },
+    {
+      "award_count": 16,
+      "citations": {
+        "max": 43.0,
+        "mean": 7.909090909090909,
+        "median": 4.0,
+        "min": 0.0,
+        "n": 11,
+        "q1": 1.0,
+        "q3": 11.0
+      },
+      "cited_paper_count": 11,
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "edition": {
+        "conference_id": "usenix-security",
+        "id": "usenix-security-2023",
+        "official_event_url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions",
+        "proceedings_url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions",
+        "year": 2023
+      }
+    },
+    {
+      "award_count": 17,
+      "citations": {
+        "max": 119.0,
+        "mean": 20.352941176470587,
+        "median": 11.0,
+        "min": 0.0,
+        "n": 17,
+        "q1": 6.0,
+        "q3": 21.0
+      },
+      "cited_paper_count": 17,
+      "conference": {
+        "aliases": [
+          "CCS"
+        ],
+        "id": "acm-ccs",
+        "name": "ACM Conference on Computer and Communications Security",
+        "organizer": "ACM SIGSAC",
+        "short_name": "ACM CCS"
+      },
+      "edition": {
+        "conference_id": "acm-ccs",
+        "id": "acm-ccs-2023",
+        "official_event_url": "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html",
+        "proceedings_url": "https://dl.acm.org/doi/proceedings/10.1145/3576915",
+        "year": 2023
+      }
+    },
+    {
+      "award_count": 2,
+      "citations": {
+        "max": 29.0,
+        "mean": 25.0,
+        "median": 25.0,
+        "min": 21.0,
+        "n": 2,
+        "q1": 21.0,
+        "q3": 29.0
+      },
+      "cited_paper_count": 2,
+      "conference": {
+        "aliases": [
+          "NDSS Symposium"
+        ],
+        "id": "ndss",
+        "name": "Network and Distributed System Security Symposium",
+        "organizer": "Internet Society",
+        "short_name": "NDSS"
+      },
+      "edition": {
+        "conference_id": "ndss",
+        "id": "ndss-2023",
+        "official_event_url": "https://www.ndss-symposium.org/ndss2023/",
+        "proceedings_url": "https://www.ndss-symposium.org/ndss2023/accepted-papers/",
+        "year": 2023
+      }
+    }
+  ],
+  "generated_at": "2026-08-07T18:42:52+00:00",
+  "rows": [
+    {
+      "award": {
+        "edition_id": "acm-ccs-2023",
+        "id": "acm-ccs-2023-large-language-models-for-code-security-hardenin-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "4486d199b2588ab0234106fe32a18c54d50b58b64098d2b2cb677ea07eed0240",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html"
+        },
+        "paper_id": "acm-ccs-2023-large-language-models-for-code-security-hardenin",
+        "raw_authors": "Jingxuan He and Martin Vechev",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Large Language Models for Code: Security Hardening and Adversarial Testing"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 4,
+            "year": 2023
+          },
+          {
+            "count": 28,
+            "year": 2024
+          },
+          {
+            "count": 58,
+            "year": 2025
+          },
+          {
+            "count": 29,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 90,
+        "external_id": "W4320560161",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-large-language-models-for-code-security-hardenin",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-02T14:50:37.381335",
+        "request_fingerprint": "GET /works/W4320560161?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "b77a1e3ca3745f044cdea35a791b3c72b2e8c430cc2dd9497d0a721b4ff13e9e",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 119
+      },
+      "conference": {
+        "aliases": [
+          "CCS"
+        ],
+        "id": "acm-ccs",
+        "name": "ACM Conference on Computer and Communications Security",
+        "organizer": "ACM SIGSAC",
+        "short_name": "ACM CCS"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Jingxuan He"
+          },
+          {
+            "name": "Martin Vechev"
+          }
+        ],
+        "canonical_title": "Large Language Models for Code: Security Hardening and Adversarial Testing",
+        "id": "acm-ccs-2023-large-language-models-for-code-security-hardenin",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4320560161",
+            "value": "W4320560161",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1145/3576915.3623175",
+            "value": "10.1145/3576915.3623175",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html",
+          "https://openalex.org/W4320560161"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2023,
+        "venue_name": "2023 ACM SIGSAC Conference on Computer and Communications Security"
+      },
+      "primary_topic": {
+        "display_name": "Software Engineering Research",
+        "openalex_id": "T10260",
+        "score": 0.9981
+      }
+    },
+    {
+      "award": {
+        "edition_id": "acm-ccs-2023",
+        "id": "acm-ccs-2023-he3db-an-efficient-and-elastic-encrypted-databas-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "4486d199b2588ab0234106fe32a18c54d50b58b64098d2b2cb677ea07eed0240",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html"
+        },
+        "paper_id": "acm-ccs-2023-he3db-an-efficient-and-elastic-encrypted-databas",
+        "raw_authors": "Song Bian, Zhou Zhang, Haowen Pan, Ran Mao, Zian Zhao, Yier Jin, and Zhenyu Guan",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "HE3DB: An Efficient and Elastic Encrypted Database Via Arithmetic-And-Logic Fully Homomorphic Encryption"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2023
+          },
+          {
+            "count": 12,
+            "year": 2024
+          },
+          {
+            "count": 24,
+            "year": 2025
+          },
+          {
+            "count": 13,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 37,
+        "external_id": "W4388857792",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-he3db-an-efficient-and-elastic-encrypted-databas",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4388857792?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "e7eb0aa11300513a41a9d5115765003a9a63c63195741f8d13e322d8f222a49d",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 50
+      },
+      "conference": {
+        "aliases": [
+          "CCS"
+        ],
+        "id": "acm-ccs",
+        "name": "ACM Conference on Computer and Communications Security",
+        "organizer": "ACM SIGSAC",
+        "short_name": "ACM CCS"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Song Bian"
+          },
+          {
+            "name": "Zhou Zhang"
+          },
+          {
+            "name": "Haowen Pan"
+          },
+          {
+            "name": "Ran Mao"
+          },
+          {
+            "name": "Zian Zhao"
+          },
+          {
+            "name": "Yier Jin"
+          },
+          {
+            "name": "Zhenyu Guan"
+          }
+        ],
+        "canonical_title": "HE3DB: An Efficient and Elastic Encrypted Database Via Arithmetic-And-Logic Fully Homomorphic Encryption",
+        "id": "acm-ccs-2023-he3db-an-efficient-and-elastic-encrypted-databas",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4388857792",
+            "value": "W4388857792",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1145/3576915.3616608",
+            "value": "10.1145/3576915.3616608",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html",
+          "https://openalex.org/W4388857792"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2023,
+        "venue_name": "2023 ACM SIGSAC Conference on Computer and Communications Security"
+      },
+      "primary_topic": {
+        "display_name": "Cryptography and Data Security",
+        "openalex_id": "T10237",
+        "score": 1.0
+      }
+    },
+    {
+      "award": {
+        "edition_id": "ieee-sp-2023",
+        "id": "ieee-sp-2023-space-odyssey-an-experimental-software-security-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "0e631e221f695d3e5bd112ca67eab2763e063fdbc845dc8459cd4233d778d84c",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.ieee-security.org/TC/SP2023/program-awards.html"
+        },
+        "paper_id": "ieee-sp-2023-space-odyssey-an-experimental-software-security",
+        "raw_authors": "Johannes Willbold (Ruhr-Universität Bochum), Moritz Schloegel (Ruhr-Universität Bochum) Manuel Vögele (Ruhr-Universität Bochum), Maximilian Gerhardt (Ruhr-Universität Bochum), Thorsten Holz (CISPA Helmholtz Center for Information Security), Ali Abbasi (CISPA Helmholtz Center for Information Security)",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Space Odyssey: An Experimental Software Security Analysis of Satellites"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 2,
+            "year": 2023
+          },
+          {
+            "count": 23,
+            "year": 2024
+          },
+          {
+            "count": 17,
+            "year": 2025
+          },
+          {
+            "count": 8,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 42,
+        "external_id": "W4389546099",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-space-odyssey-an-experimental-software-security",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4389546099?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "42ea5a62381c743ffb56be072bd6d70f0b754f9e73ce8312ca08bf6abc7bad0e",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 50
+      },
+      "conference": {
+        "aliases": [
+          "Oakland",
+          "IEEE Security & Privacy"
+        ],
+        "id": "ieee-sp",
+        "name": "IEEE Symposium on Security and Privacy",
+        "organizer": "IEEE Computer Society",
+        "short_name": "IEEE S&P"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Johannes Willbold"
+          },
+          {
+            "name": "Moritz Schloegel"
+          },
+          {
+            "name": "Manuel Vögele"
+          },
+          {
+            "name": "Maximilian Gerhardt"
+          },
+          {
+            "name": "Thorsten Holz"
+          },
+          {
+            "name": "Ali Abbasi"
+          }
+        ],
+        "canonical_title": "Space Odyssey: An Experimental Software Security Analysis of Satellites",
+        "id": "ieee-sp-2023-space-odyssey-an-experimental-software-security",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4389546099",
+            "value": "W4389546099",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1109/sp46215.2023.10351029",
+            "value": "10.1109/sp46215.2023.10351029",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.ieee-security.org/TC/SP2023/program-awards.html",
+          "https://openalex.org/W4389546099"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2023,
+        "venue_name": "2023 IEEE Symposium on Security and Privacy"
+      },
+      "primary_topic": {
+        "display_name": "Satellite Communication Systems",
+        "openalex_id": "T12042",
+        "score": 0.9924
+      }
+    },
+    {
+      "award": {
+        "edition_id": "usenix-security-2023",
+        "id": "usenix-security-2023-glaze-protecting-artists-from-style-mimicry-by-t-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+        },
+        "paper_id": "usenix-security-2023-glaze-protecting-artists-from-style-mimicry-by-t",
+        "raw_authors": "Shawn Shan, Jenna Cryan, Emily Wenger, Haitao Zheng, Rana Hanocka, and Ben Y. Zhao, University of Chicago",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Glaze: Protecting Artists from Style Mimicry by Text-to-Image Models"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 9,
+            "year": 2023
+          },
+          {
+            "count": 23,
+            "year": 2024
+          },
+          {
+            "count": 8,
+            "year": 2025
+          },
+          {
+            "count": 3,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 40,
+        "external_id": "W4320342250",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-glaze-protecting-artists-from-style-mimicry-by-t",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-06T08:24:18.245995",
+        "request_fingerprint": "GET /works/W4320342250?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "44b52dae4515bef0d00ff3b72513f2226036ee31554c1331d5292abdcb7c5e8d",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 43
+      },
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Shawn Shan"
+          },
+          {
+            "name": "Jenna Cryan"
+          },
+          {
+            "name": "Emily Wenger"
+          },
+          {
+            "name": "Haitao Zheng"
+          },
+          {
+            "name": "Rana Hanocka"
+          },
+          {
+            "name": "Ben Y. Zhao"
+          }
+        ],
+        "canonical_title": "Glaze: Protecting Artists from Style Mimicry by Text-to-Image Models",
+        "id": "usenix-security-2023-glaze-protecting-artists-from-style-mimicry-by-t",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4320342250",
+            "value": "W4320342250",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.usenix.org/conference/usenixsecurity23/technical-sessions",
+          "https://openalex.org/W4320342250"
+        ],
+        "official_paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/shan",
+        "publication_year": 2023,
+        "venue_name": "32nd USENIX Security Symposium"
+      },
+      "primary_topic": {
+        "display_name": "Generative Adversarial Networks and Image Synthesis",
+        "openalex_id": "T10775",
+        "score": 0.991
+      }
+    },
+    {
+      "award": {
+        "edition_id": "ndss-2023",
+        "id": "ndss-2023-darwin-survival-of-the-fittest-fuzzing-mutators-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "adb46aff5da70675303af80106c42cbaed006322235a3b108e835c5b2e21a9c1",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.ndss-symposium.org/ndss2023/"
+        },
+        "paper_id": "ndss-2023-darwin-survival-of-the-fittest-fuzzing-mutators",
+        "raw_authors": "Patrick Jauernig (Technical University of Darmstadt), Domagoj Jakobovic (University of Zagreb, Croatia), Stjepan Picek (Radboud University and TU Delft), Emmanuel Stapf (Technical University of Darmstadt), Ahmad-Reza Sadeghi (Technical University of Darmstadt)",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "DARWIN: Survival of the Fittest Fuzzing Mutators"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 2,
+            "year": 2023
+          },
+          {
+            "count": 7,
+            "year": 2024
+          },
+          {
+            "count": 14,
+            "year": 2025
+          },
+          {
+            "count": 6,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 23,
+        "external_id": "W4307205415",
+        "influential_citations": null,
+        "paper_id": "ndss-2023-darwin-survival-of-the-fittest-fuzzing-mutators",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-05T07:39:15.569665",
+        "request_fingerprint": "GET /works/W4307205415?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "9624932109a600065ae3d864cfd4e944ccb3dc858ad292ad490a1741099f20d5",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 29
+      },
+      "conference": {
+        "aliases": [
+          "NDSS Symposium"
+        ],
+        "id": "ndss",
+        "name": "Network and Distributed System Security Symposium",
+        "organizer": "Internet Society",
+        "short_name": "NDSS"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Patrick Jauernig"
+          },
+          {
+            "name": "Domagoj Jakobovic"
+          },
+          {
+            "name": "Stjepan Picek"
+          },
+          {
+            "name": "Emmanuel Stapf"
+          },
+          {
+            "name": "Ahmad-Reza Sadeghi"
+          }
+        ],
+        "canonical_title": "DARWIN: Survival of the Fittest Fuzzing Mutators",
+        "id": "ndss-2023-darwin-survival-of-the-fittest-fuzzing-mutators",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4307205415",
+            "value": "W4307205415",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.14722/ndss.2023.23159",
+            "value": "10.14722/ndss.2023.23159",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.ndss-symposium.org/ndss2023/",
+          "https://openalex.org/W4307205415"
+        ],
+        "official_paper_url": "https://www.ndss-symposium.org/ndss-paper/darwin-survival-of-the-fittest-fuzzing-mutators/",
+        "publication_year": 2023,
+        "venue_name": "Network and Distributed System Security Symposium 2023"
+      },
+      "primary_topic": {
+        "display_name": "Software Testing and Debugging Techniques",
+        "openalex_id": "T10743",
+        "score": 0.9999
+      }
+    },
+    {
+      "award": {
+        "edition_id": "acm-ccs-2023",
+        "id": "acm-ccs-2023-specification-and-verification-of-side-channel-s-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "4486d199b2588ab0234106fe32a18c54d50b58b64098d2b2cb677ea07eed0240",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html"
+        },
+        "paper_id": "acm-ccs-2023-specification-and-verification-of-side-channel-s",
+        "raw_authors": "Zilong Wang, Gideon Mohr, Klaus Von Gleissenthall, Jan Reineke, and Marco Guarnieri",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Specification and Verification of Side-channel Security for Open-source Processors via Leakage Contracts"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 2,
+            "year": 2023
+          },
+          {
+            "count": 11,
+            "year": 2024
+          },
+          {
+            "count": 7,
+            "year": 2025
+          },
+          {
+            "count": 8,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 20,
+        "external_id": "W4388858498",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-specification-and-verification-of-side-channel-s",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-04T08:18:43.703281",
+        "request_fingerprint": "GET /works/W4388858498?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "d28bb54a79f438f3376b27cef21f81008207515cbbb7427a8edac8695759e2af",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 28
+      },
+      "conference": {
+        "aliases": [
+          "CCS"
+        ],
+        "id": "acm-ccs",
+        "name": "ACM Conference on Computer and Communications Security",
+        "organizer": "ACM SIGSAC",
+        "short_name": "ACM CCS"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Zilong Wang"
+          },
+          {
+            "name": "Gideon Mohr"
+          },
+          {
+            "name": "Klaus Von Gleissenthall"
+          },
+          {
+            "name": "Jan Reineke"
+          },
+          {
+            "name": "Marco Guarnieri"
+          }
+        ],
+        "canonical_title": "Specification and Verification of Side-channel Security for Open-source Processors via Leakage Contracts",
+        "id": "acm-ccs-2023-specification-and-verification-of-side-channel-s",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4388858498",
+            "value": "W4388858498",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1145/3576915.3623192",
+            "value": "10.1145/3576915.3623192",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html",
+          "https://openalex.org/W4388858498"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2023,
+        "venue_name": "2023 ACM SIGSAC Conference on Computer and Communications Security"
+      },
+      "primary_topic": {
+        "display_name": "Security and Verification in Computing",
+        "openalex_id": "T11424",
+        "score": 1.0
+      }
+    },
+    {
+      "award": {
+        "edition_id": "ieee-sp-2023",
+        "id": "ieee-sp-2023-practically-exploitable-cryptographic-vulnerabil-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "0e631e221f695d3e5bd112ca67eab2763e063fdbc845dc8459cd4233d778d84c",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.ieee-security.org/TC/SP2023/program-awards.html"
+        },
+        "paper_id": "ieee-sp-2023-practically-exploitable-cryptographic-vulnerabil",
+        "raw_authors": "Martin R. Albrecht (Royal Holloway, University of London), Sofía Celi (Brave Software), Benjamin Dowling (University of Sheffield), Daniel Jones (Royal Holloway, University of London)",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Practically-exploitable Cryptographic Vulnerabilities in Matrix"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 6,
+            "year": 2023
+          },
+          {
+            "count": 6,
+            "year": 2024
+          },
+          {
+            "count": 8,
+            "year": 2025
+          },
+          {
+            "count": 5,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 20,
+        "external_id": "W4389546188",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-practically-exploitable-cryptographic-vulnerabil",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4389546188?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "652bc9aa93e5adfb90e12d4a4609a0278834682055b68864ae5b6de1da06378b",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 25
+      },
+      "conference": {
+        "aliases": [
+          "Oakland",
+          "IEEE Security & Privacy"
+        ],
+        "id": "ieee-sp",
+        "name": "IEEE Symposium on Security and Privacy",
+        "organizer": "IEEE Computer Society",
+        "short_name": "IEEE S&P"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Martin R. Albrecht"
+          },
+          {
+            "name": "Sofía Celi"
+          },
+          {
+            "name": "Benjamin Dowling"
+          },
+          {
+            "name": "Daniel Jones"
+          }
+        ],
+        "canonical_title": "Practically-exploitable Cryptographic Vulnerabilities in Matrix",
+        "id": "ieee-sp-2023-practically-exploitable-cryptographic-vulnerabil",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4389546188",
+            "value": "W4389546188",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1109/sp46215.2023.10351027",
+            "value": "10.1109/sp46215.2023.10351027",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.ieee-security.org/TC/SP2023/program-awards.html",
+          "https://openalex.org/W4389546188"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2023,
+        "venue_name": "2023 IEEE Symposium on Security and Privacy"
+      },
+      "primary_topic": {
+        "display_name": "Cryptography and Data Security",
+        "openalex_id": "T10237",
+        "score": 0.9991
+      }
+    },
+    {
+      "award": {
+        "edition_id": "ieee-sp-2023",
+        "id": "ieee-sp-2023-typing-high-speed-cryptography-against-spectre-v-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "0e631e221f695d3e5bd112ca67eab2763e063fdbc845dc8459cd4233d778d84c",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.ieee-security.org/TC/SP2023/program-awards.html"
+        },
+        "paper_id": "ieee-sp-2023-typing-high-speed-cryptography-against-spectre-v",
+        "raw_authors": "Basavesh Ammanaghatta Shivakumar (MPI-SP), Gilles Barthe (MPI-SP and IMDEA Software Institute), Benjamin Grégoire (Inria and Université Côte d'Azur), Vincent Laporte (Inria Nancy), Tiago Oliviera (MPI-SP), Swarn Priya (Inria and Université Côte d'Azur), Peter Schwabe (MPI-SP & Radboud University), Lucas Tabary-Maujean (ENS Paris-Saclay)",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Typing High-Speed Cryptography against Spectre v1"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 8,
+            "year": 2023
+          },
+          {
+            "count": 2,
+            "year": 2024
+          },
+          {
+            "count": 9,
+            "year": 2025
+          },
+          {
+            "count": 3,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 19,
+        "external_id": "W4385080320",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-typing-high-speed-cryptography-against-spectre-v",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-01T09:00:35.917206",
+        "request_fingerprint": "GET /works/W4385080320?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "29442a06a2ddfa1027d784afcbb0f3027f316cfd48a91231ee07c91a1284e29c",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 22
+      },
+      "conference": {
+        "aliases": [
+          "Oakland",
+          "IEEE Security & Privacy"
+        ],
+        "id": "ieee-sp",
+        "name": "IEEE Symposium on Security and Privacy",
+        "organizer": "IEEE Computer Society",
+        "short_name": "IEEE S&P"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Basavesh Ammanaghatta Shivakumar"
+          },
+          {
+            "name": "Gilles Barthe"
+          },
+          {
+            "name": "Benjamin Grégoire"
+          },
+          {
+            "name": "Vincent Laporte"
+          },
+          {
+            "name": "Tiago Oliviera"
+          },
+          {
+            "name": "Swarn Priya"
+          },
+          {
+            "name": "Peter Schwabe"
+          },
+          {
+            "name": "Lucas Tabary-Maujean"
+          }
+        ],
+        "canonical_title": "Typing High-Speed Cryptography against Spectre v1",
+        "id": "ieee-sp-2023-typing-high-speed-cryptography-against-spectre-v",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4385080320",
+            "value": "W4385080320",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1109/sp46215.2023.10179418",
+            "value": "10.1109/sp46215.2023.10179418",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.ieee-security.org/TC/SP2023/program-awards.html",
+          "https://openalex.org/W4385080320"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2023,
+        "venue_name": "2023 IEEE Symposium on Security and Privacy"
+      },
+      "primary_topic": {
+        "display_name": "Security and Verification in Computing",
+        "openalex_id": "T11424",
+        "score": 1.0
+      }
+    },
+    {
+      "award": {
+        "edition_id": "acm-ccs-2023",
+        "id": "acm-ccs-2023-how-hard-is-takeover-in-dpos-blockchains-underst-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "4486d199b2588ab0234106fe32a18c54d50b58b64098d2b2cb677ea07eed0240",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html"
+        },
+        "paper_id": "acm-ccs-2023-how-hard-is-takeover-in-dpos-blockchains-underst",
+        "raw_authors": "Chao Li, Balaji Palanisamy, Runhua Xu, Li Duan, Jiqiang Liu, and Wei Wang",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "How Hard is Takeover in DPoS Blockchains? Understanding the Security of Coin-based Voting Governance"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 4,
+            "year": 2024
+          },
+          {
+            "count": 12,
+            "year": 2025
+          },
+          {
+            "count": 5,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 16,
+        "external_id": "W4388857879",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-how-hard-is-takeover-in-dpos-blockchains-underst",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-31T08:31:51.225901",
+        "request_fingerprint": "GET /works/W4388857879?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "89cf084f2be3466b96b6ce74600aaf201070e1df221e9bd4763c99eebd535010",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 21
+      },
+      "conference": {
+        "aliases": [
+          "CCS"
+        ],
+        "id": "acm-ccs",
+        "name": "ACM Conference on Computer and Communications Security",
+        "organizer": "ACM SIGSAC",
+        "short_name": "ACM CCS"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Chao Li"
+          },
+          {
+            "name": "Balaji Palanisamy"
+          },
+          {
+            "name": "Runhua Xu"
+          },
+          {
+            "name": "Li Duan"
+          },
+          {
+            "name": "Jiqiang Liu"
+          },
+          {
+            "name": "Wei Wang"
+          }
+        ],
+        "canonical_title": "How Hard is Takeover in DPoS Blockchains? Understanding the Security of Coin-based Voting Governance",
+        "id": "acm-ccs-2023-how-hard-is-takeover-in-dpos-blockchains-underst",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4388857879",
+            "value": "W4388857879",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1145/3576915.3623171",
+            "value": "10.1145/3576915.3623171",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html",
+          "https://openalex.org/W4388857879"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2023,
+        "venue_name": "2023 ACM SIGSAC Conference on Computer and Communications Security"
+      },
+      "primary_topic": {
+        "display_name": "Blockchain Technology Applications and Security",
+        "openalex_id": "T10270",
+        "score": 1.0
+      }
+    },
+    {
+      "award": {
+        "edition_id": "acm-ccs-2023",
+        "id": "acm-ccs-2023-uncle-maker-time-stamping-out-the-competition-in-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "4486d199b2588ab0234106fe32a18c54d50b58b64098d2b2cb677ea07eed0240",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html"
+        },
+        "paper_id": "acm-ccs-2023-uncle-maker-time-stamping-out-the-competition-in",
+        "raw_authors": "Aviv Yaish, Gilad Stern, and Aviv Zohar",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Uncle Maker: (Time)Stamping Out The Competition in Ethereum"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 2,
+            "year": 2023
+          },
+          {
+            "count": 6,
+            "year": 2024
+          },
+          {
+            "count": 10,
+            "year": 2025
+          },
+          {
+            "count": 3,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 18,
+        "external_id": "W4388858825",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-uncle-maker-time-stamping-out-the-competition-in",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4388858825?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "123f6377b78514118cbbc349e6b36016a3c782155843fd831f133a2ed814dfa0",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 21
+      },
+      "conference": {
+        "aliases": [
+          "CCS"
+        ],
+        "id": "acm-ccs",
+        "name": "ACM Conference on Computer and Communications Security",
+        "organizer": "ACM SIGSAC",
+        "short_name": "ACM CCS"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Aviv Yaish"
+          },
+          {
+            "name": "Gilad Stern"
+          },
+          {
+            "name": "Aviv Zohar"
+          }
+        ],
+        "canonical_title": "Uncle Maker: (Time)Stamping Out The Competition in Ethereum",
+        "id": "acm-ccs-2023-uncle-maker-time-stamping-out-the-competition-in",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4388858825",
+            "value": "W4388858825",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1145/3576915.3616674",
+            "value": "10.1145/3576915.3616674",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html",
+          "https://openalex.org/W4388858825"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2023,
+        "venue_name": "2023 ACM SIGSAC Conference on Computer and Communications Security"
+      },
+      "primary_topic": {
+        "display_name": "Blockchain Technology Applications and Security",
+        "openalex_id": "T10270",
+        "score": 0.9996
+      }
+    },
+    {
+      "award": {
+        "edition_id": "ieee-sp-2023",
+        "id": "ieee-sp-2023-wave-a-verifiably-secure-webassembly-sandboxing-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "0e631e221f695d3e5bd112ca67eab2763e063fdbc845dc8459cd4233d778d84c",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.ieee-security.org/TC/SP2023/program-awards.html"
+        },
+        "paper_id": "ieee-sp-2023-wave-a-verifiably-secure-webassembly-sandboxing",
+        "raw_authors": "Evan Johnson (University of California San Diego), Evan Laufer (Stanford University) , Zijie Zhao (University of Illinois Urbana-Champaign), Shravan Narayan (University of California San Diego) , Stefan Savage (University of California San Diego) , Deian Stefan (University of California San Diego), Fraser Brown (Carnegie Mellon University)",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "WaVe: a verifiably secure WebAssembly sandboxing runtime"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 4,
+            "year": 2023
+          },
+          {
+            "count": 4,
+            "year": 2024
+          },
+          {
+            "count": 11,
+            "year": 2025
+          },
+          {
+            "count": 2,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 19,
+        "external_id": "W4385080305",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-wave-a-verifiably-secure-webassembly-sandboxing",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4385080305?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "3da76ffb3d6d6734fc05eb8f75ad0f4c3ca4029b43227303e344584d2a6d6c06",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 21
+      },
+      "conference": {
+        "aliases": [
+          "Oakland",
+          "IEEE Security & Privacy"
+        ],
+        "id": "ieee-sp",
+        "name": "IEEE Symposium on Security and Privacy",
+        "organizer": "IEEE Computer Society",
+        "short_name": "IEEE S&P"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Evan Johnson"
+          },
+          {
+            "name": "Evan Laufer"
+          },
+          {
+            "name": "Zijie Zhao"
+          },
+          {
+            "name": "Shravan Narayan"
+          },
+          {
+            "name": "Stefan Savage"
+          },
+          {
+            "name": "Deian Stefan"
+          },
+          {
+            "name": "Fraser Brown"
+          }
+        ],
+        "canonical_title": "WaVe: a verifiably secure WebAssembly sandboxing runtime",
+        "id": "ieee-sp-2023-wave-a-verifiably-secure-webassembly-sandboxing",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4385080305",
+            "value": "W4385080305",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1109/sp46215.2023.10179357",
+            "value": "10.1109/sp46215.2023.10179357",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.ieee-security.org/TC/SP2023/program-awards.html",
+          "https://openalex.org/W4385080305"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2023,
+        "venue_name": "2023 IEEE Symposium on Security and Privacy"
+      },
+      "primary_topic": {
+        "display_name": "Security and Verification in Computing",
+        "openalex_id": "T11424",
+        "score": 1.0
+      }
+    },
+    {
+      "award": {
+        "edition_id": "ndss-2023",
+        "id": "ndss-2023-your-router-is-my-prober-measuring-ipv6-networks-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "adb46aff5da70675303af80106c42cbaed006322235a3b108e835c5b2e21a9c1",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.ndss-symposium.org/ndss2023/"
+        },
+        "paper_id": "ndss-2023-your-router-is-my-prober-measuring-ipv6-networks",
+        "raw_authors": "Long Pan (Tsinghua University), Jiahai Yang (Tsinghua University), Lin He (Tsinghua University), Zhiliang Wang (Tsinghua University), Leyao Nie (Tsinghua University), Guanglei Song (Tsinghua University), Yaozhong Liu (Tsinghua University)",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Your Router Is My Prober: Measuring IPv6Networks via ICMP Rate Limiting Side Channels"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2023
+          },
+          {
+            "count": 8,
+            "year": 2024
+          },
+          {
+            "count": 9,
+            "year": 2025
+          },
+          {
+            "count": 3,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 18,
+        "external_id": "W4324007097",
+        "influential_citations": null,
+        "paper_id": "ndss-2023-your-router-is-my-prober-measuring-ipv6-networks",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-04T08:18:43.703281",
+        "request_fingerprint": "GET /works/W4324007097?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "177ee2528f2be12c24cdc5a59792d3646ae152fff12db8e33cc6a8616a9a0b10",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 21
+      },
+      "conference": {
+        "aliases": [
+          "NDSS Symposium"
+        ],
+        "id": "ndss",
+        "name": "Network and Distributed System Security Symposium",
+        "organizer": "Internet Society",
+        "short_name": "NDSS"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Long Pan"
+          },
+          {
+            "name": "Jiahai Yang"
+          },
+          {
+            "name": "Lin He"
+          },
+          {
+            "name": "Zhiliang Wang"
+          },
+          {
+            "name": "Leyao Nie"
+          },
+          {
+            "name": "Guanglei Song"
+          },
+          {
+            "name": "Yaozhong Liu"
+          }
+        ],
+        "canonical_title": "Your Router Is My Prober: Measuring IPv6 Networks via ICMP Rate Limiting Side Channels",
+        "id": "ndss-2023-your-router-is-my-prober-measuring-ipv6-networks",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4324007097",
+            "value": "W4324007097",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.14722/ndss.2023.23049",
+            "value": "10.14722/ndss.2023.23049",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.ndss-symposium.org/ndss2023/",
+          "https://openalex.org/W4324007097"
+        ],
+        "official_paper_url": "https://www.ndss-symposium.org/ndss-paper/your-router-is-my-prober-measuring-ipv6-networks-via-icmp-rate-limiting-side-channels/",
+        "publication_year": 2023,
+        "venue_name": "Network and Distributed System Security Symposium 2023"
+      },
+      "primary_topic": {
+        "display_name": "IPv6, Mobility, Handover, Networks, Security",
+        "openalex_id": "T10651",
+        "score": 0.9905
+      }
+    },
+    {
+      "award": {
+        "edition_id": "ieee-sp-2023",
+        "id": "ieee-sp-2023-red-team-vs-blue-team-a-real-world-hardware-troj-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "0e631e221f695d3e5bd112ca67eab2763e063fdbc845dc8459cd4233d778d84c",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.ieee-security.org/TC/SP2023/program-awards.html"
+        },
+        "paper_id": "ieee-sp-2023-red-team-vs-blue-team-a-real-world-hardware-troj",
+        "raw_authors": "Endres Puschner (Max Planck Institute for Security and Privacy), Thorben Moos (UCLouvain), Christian Kison (Bundeskriminalamt), Steffen Becker (Ruhr University Bochum & Max Planck Institute for Security and Privacy), Amir Moradi (Ruhr University Bochum), Christof Paar (Max Planck Institute for Security and Privacy)",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Red Team vs. Blue Team: A Real-World Hardware Trojan Detection Case Study Across Four Modern CMOS Technology Generations"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2023
+          },
+          {
+            "count": 8,
+            "year": 2024
+          },
+          {
+            "count": 9,
+            "year": 2025
+          },
+          {
+            "count": 2,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 18,
+        "external_id": "W4384948639",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-red-team-vs-blue-team-a-real-world-hardware-troj",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4384948639?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "74c6c7404adc0546c2425ecd2536970d5f6b6c39305834a7f90c7883e2397314",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 20
+      },
+      "conference": {
+        "aliases": [
+          "Oakland",
+          "IEEE Security & Privacy"
+        ],
+        "id": "ieee-sp",
+        "name": "IEEE Symposium on Security and Privacy",
+        "organizer": "IEEE Computer Society",
+        "short_name": "IEEE S&P"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Endres Puschner"
+          },
+          {
+            "name": "Thorben Moos"
+          },
+          {
+            "name": "Christian Kison"
+          },
+          {
+            "name": "Steffen Becker"
+          },
+          {
+            "name": "Amir Moradi"
+          },
+          {
+            "name": "Christof Paar"
+          }
+        ],
+        "canonical_title": "Red Team vs. Blue Team: A Real-World Hardware Trojan Detection Case Study Across Four Modern CMOS Technology Generations",
+        "id": "ieee-sp-2023-red-team-vs-blue-team-a-real-world-hardware-troj",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4384948639",
+            "value": "W4384948639",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1109/sp46215.2023.10179341",
+            "value": "10.1109/sp46215.2023.10179341",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.ieee-security.org/TC/SP2023/program-awards.html",
+          "https://openalex.org/W4384948639"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2023,
+        "venue_name": "2023 IEEE Symposium on Security and Privacy"
+      },
+      "primary_topic": {
+        "display_name": "Physical Unclonable Functions (PUFs) and Hardware Security",
+        "openalex_id": "T12122",
+        "score": 0.9998
+      }
+    },
+    {
+      "award": {
+        "edition_id": "acm-ccs-2023",
+        "id": "acm-ccs-2023-alert-alchemy-soc-workflows-and-decisions-in-the-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "4486d199b2588ab0234106fe32a18c54d50b58b64098d2b2cb677ea07eed0240",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html"
+        },
+        "paper_id": "acm-ccs-2023-alert-alchemy-soc-workflows-and-decisions-in-the",
+        "raw_authors": "Mathew Vermeer, Natalia Kadenko, Michel Van Eeten, Carlos Gañán, and Simon Parkin",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Alert Alchemy: SOC Workflows and Decisions in the Management of NIDS Rules"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 2,
+            "year": 2024
+          },
+          {
+            "count": 13,
+            "year": 2025
+          },
+          {
+            "count": 4,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 15,
+        "external_id": "W4388867285",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-alert-alchemy-soc-workflows-and-decisions-in-the",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4388867285?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "10fa2aad1ae1e2bdc9f32eaafab0490e4dd1a49e2275544de4fad97084378c57",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 19
+      },
+      "conference": {
+        "aliases": [
+          "CCS"
+        ],
+        "id": "acm-ccs",
+        "name": "ACM Conference on Computer and Communications Security",
+        "organizer": "ACM SIGSAC",
+        "short_name": "ACM CCS"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Mathew Vermeer"
+          },
+          {
+            "name": "Natalia Kadenko"
+          },
+          {
+            "name": "Michel Van Eeten"
+          },
+          {
+            "name": "Carlos Gañán"
+          },
+          {
+            "name": "Simon Parkin"
+          }
+        ],
+        "canonical_title": "Alert Alchemy: SOC Workflows and Decisions in the Management of NIDS Rules",
+        "id": "acm-ccs-2023-alert-alchemy-soc-workflows-and-decisions-in-the",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4388867285",
+            "value": "W4388867285",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1145/3576915.3616581",
+            "value": "10.1145/3576915.3616581",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html",
+          "https://openalex.org/W4388867285"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2023,
+        "venue_name": "2023 ACM SIGSAC Conference on Computer and Communications Security"
+      },
+      "primary_topic": {
+        "display_name": "Network Security and Intrusion Detection",
+        "openalex_id": "T10400",
+        "score": 1.0
+      }
+    },
+    {
+      "award": {
+        "edition_id": "ieee-sp-2023",
+        "id": "ieee-sp-2023-mega-malleable-encryption-goes-awry-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "0e631e221f695d3e5bd112ca67eab2763e063fdbc845dc8459cd4233d778d84c",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.ieee-security.org/TC/SP2023/program-awards.html"
+        },
+        "paper_id": "ieee-sp-2023-mega-malleable-encryption-goes-awry",
+        "raw_authors": "Matilda Backendal (ETH Zurich), Miro Haller (ETH Zurich), Kenneth Paterson (ETH Zurich)",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "MEGA: Malleable Encryption Goes Awry"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 3,
+            "year": 2023
+          },
+          {
+            "count": 8,
+            "year": 2024
+          },
+          {
+            "count": 5,
+            "year": 2025
+          },
+          {
+            "count": 3,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 16,
+        "external_id": "W4384948645",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-mega-malleable-encryption-goes-awry",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4384948645?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "f431d73bfbf089774d1cc57cba330eba3c03189cff0601b5ac879d6f2eb89943",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 19
+      },
+      "conference": {
+        "aliases": [
+          "Oakland",
+          "IEEE Security & Privacy"
+        ],
+        "id": "ieee-sp",
+        "name": "IEEE Symposium on Security and Privacy",
+        "organizer": "IEEE Computer Society",
+        "short_name": "IEEE S&P"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Matilda Backendal"
+          },
+          {
+            "name": "Miro Haller"
+          },
+          {
+            "name": "Kenneth Paterson"
+          }
+        ],
+        "canonical_title": "MEGA: Malleable Encryption Goes Awry",
+        "id": "ieee-sp-2023-mega-malleable-encryption-goes-awry",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4384948645",
+            "value": "W4384948645",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1109/sp46215.2023.10179290",
+            "value": "10.1109/sp46215.2023.10179290",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.ieee-security.org/TC/SP2023/program-awards.html",
+          "https://openalex.org/W4384948645"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2023,
+        "venue_name": "2023 IEEE Symposium on Security and Privacy"
+      },
+      "primary_topic": {
+        "display_name": "Cryptography and Data Security",
+        "openalex_id": "T10237",
+        "score": 0.9998
+      }
+    },
+    {
+      "award": {
+        "edition_id": "ieee-sp-2023",
+        "id": "ieee-sp-2023-in-eighty-percent-of-the-cases-i-select-the-pass-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "0e631e221f695d3e5bd112ca67eab2763e063fdbc845dc8459cd4233d778d84c",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.ieee-security.org/TC/SP2023/program-awards.html"
+        },
+        "paper_id": "ieee-sp-2023-in-eighty-percent-of-the-cases-i-select-the-pass",
+        "raw_authors": "Collins W. Munyendo (The George Washington University), Yasemin Acar (The George Washington University), Adam J. Aviv (The George Washington University)",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "“In Eighty Percent of the Cases, I Select the Password for Them”: Security and Privacy Challenges, Advice, and Opportunities at Cybercafes in Kenya"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2023
+          },
+          {
+            "count": 4,
+            "year": 2024
+          },
+          {
+            "count": 8,
+            "year": 2025
+          },
+          {
+            "count": 4,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 13,
+        "external_id": "W4385679811",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-in-eighty-percent-of-the-cases-i-select-the-pass",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4385679811?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "22fcdda2cf4f552d2ac540c3109992f6f1867df6b53c77a51c3ed20317040032",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 17
+      },
+      "conference": {
+        "aliases": [
+          "Oakland",
+          "IEEE Security & Privacy"
+        ],
+        "id": "ieee-sp",
+        "name": "IEEE Symposium on Security and Privacy",
+        "organizer": "IEEE Computer Society",
+        "short_name": "IEEE S&P"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Collins W. Munyendo"
+          },
+          {
+            "name": "Yasemin Acar"
+          },
+          {
+            "name": "Adam J. Aviv"
+          }
+        ],
+        "canonical_title": "“In Eighty Percent of the Cases, I Select the Password for Them”: Security and Privacy Challenges, Advice, and Opportunities at Cybercafes in Kenya",
+        "id": "ieee-sp-2023-in-eighty-percent-of-the-cases-i-select-the-pass",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4385679811",
+            "value": "W4385679811",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1109/sp46215.2023.10179410",
+            "value": "10.1109/sp46215.2023.10179410",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.ieee-security.org/TC/SP2023/program-awards.html",
+          "https://openalex.org/W4385679811"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2023,
+        "venue_name": "2023 IEEE Symposium on Security and Privacy"
+      },
+      "primary_topic": {
+        "display_name": "Privacy, Security, and Data Protection",
+        "openalex_id": "T11045",
+        "score": 0.9978
+      }
+    },
+    {
+      "award": {
+        "edition_id": "acm-ccs-2023",
+        "id": "acm-ccs-2023-batchman-and-robin-batched-and-non-batched-branc-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "4486d199b2588ab0234106fe32a18c54d50b58b64098d2b2cb677ea07eed0240",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html"
+        },
+        "paper_id": "acm-ccs-2023-batchman-and-robin-batched-and-non-batched-branc",
+        "raw_authors": "Yibin Yang, David Heath, Carmit Hazay, Vladimir Kolesnikov, and Muthuramakrishnan Venkitasubramaniam",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Batchman and Robin: Batched and Non-batched Branching for Interactive ZK"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2023
+          },
+          {
+            "count": 5,
+            "year": 2024
+          },
+          {
+            "count": 9,
+            "year": 2025
+          }
+        ],
+        "citations_first_3_years": 15,
+        "external_id": "W4388867328",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-batchman-and-robin-batched-and-non-batched-branc",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-06T08:24:18.245995",
+        "request_fingerprint": "GET /works/W4388867328?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "8fd7388dce94b3c1c3f063e6b88902c79cf634251abdc4d343f4d3c1b106a4d8",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 15
+      },
+      "conference": {
+        "aliases": [
+          "CCS"
+        ],
+        "id": "acm-ccs",
+        "name": "ACM Conference on Computer and Communications Security",
+        "organizer": "ACM SIGSAC",
+        "short_name": "ACM CCS"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Yibin Yang"
+          },
+          {
+            "name": "David Heath"
+          },
+          {
+            "name": "Carmit Hazay"
+          },
+          {
+            "name": "Vladimir Kolesnikov"
+          },
+          {
+            "name": "Muthuramakrishnan Venkitasubramaniam"
+          }
+        ],
+        "canonical_title": "Batchman and Robin: Batched and Non-batched Branching for Interactive ZK",
+        "id": "acm-ccs-2023-batchman-and-robin-batched-and-non-batched-branc",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4388867328",
+            "value": "W4388867328",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1145/3576915.3623169",
+            "value": "10.1145/3576915.3623169",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html",
+          "https://openalex.org/W4388867328"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2023,
+        "venue_name": "2023 ACM SIGSAC Conference on Computer and Communications Security"
+      },
+      "primary_topic": {
+        "display_name": "Cryptography and Data Security",
+        "openalex_id": "T10237",
+        "score": 1.0
+      }
+    },
+    {
+      "award": {
+        "edition_id": "acm-ccs-2023",
+        "id": "acm-ccs-2023-stealing-the-decoding-algorithms-of-language-mod-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "4486d199b2588ab0234106fe32a18c54d50b58b64098d2b2cb677ea07eed0240",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html"
+        },
+        "paper_id": "acm-ccs-2023-stealing-the-decoding-algorithms-of-language-mod",
+        "raw_authors": "Ali Naseh, Kalpesh Krishna, Mohit Iyyer, and Amir Houmansadr",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Stealing the Decoding Algorithms of Language Models"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2023
+          },
+          {
+            "count": 6,
+            "year": 2024
+          },
+          {
+            "count": 4,
+            "year": 2025
+          },
+          {
+            "count": 4,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 11,
+        "external_id": "W4388858191",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-stealing-the-decoding-algorithms-of-language-mod",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-31T08:31:51.225901",
+        "request_fingerprint": "GET /works/W4388858191?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "e75b249ae3f377015920deae74edea5e2f0d695e27ea2b55a2eb7ca300ecf0b7",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 15
+      },
+      "conference": {
+        "aliases": [
+          "CCS"
+        ],
+        "id": "acm-ccs",
+        "name": "ACM Conference on Computer and Communications Security",
+        "organizer": "ACM SIGSAC",
+        "short_name": "ACM CCS"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Ali Naseh"
+          },
+          {
+            "name": "Kalpesh Krishna"
+          },
+          {
+            "name": "Mohit Iyyer"
+          },
+          {
+            "name": "Amir Houmansadr"
+          }
+        ],
+        "canonical_title": "Stealing the Decoding Algorithms of Language Models",
+        "id": "acm-ccs-2023-stealing-the-decoding-algorithms-of-language-mod",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4388858191",
+            "value": "W4388858191",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1145/3576915.3616652",
+            "value": "10.1145/3576915.3616652",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html",
+          "https://openalex.org/W4388858191"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2023,
+        "venue_name": "2023 ACM SIGSAC Conference on Computer and Communications Security"
+      },
+      "primary_topic": {
+        "display_name": "Adversarial Robustness in Machine Learning",
+        "openalex_id": "T11689",
+        "score": 0.9981
+      }
+    },
+    {
+      "award": {
+        "edition_id": "ieee-sp-2023",
+        "id": "ieee-sp-2023-it-s-dom-clobbering-time-attack-techniques-preva-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "0e631e221f695d3e5bd112ca67eab2763e063fdbc845dc8459cd4233d778d84c",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.ieee-security.org/TC/SP2023/program-awards.html"
+        },
+        "paper_id": "ieee-sp-2023-it-s-dom-clobbering-time-attack-techniques-preva",
+        "raw_authors": "Soheil Khodayari (CISPA Helmholtz Center for Information Security), Giancarlo Pellegrino (CISPA Helmholtz Center for Information Security)",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "It's (DOM) Clobbering Time: Attack Techniques, Prevalence, and Defenses"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 2,
+            "year": 2023
+          },
+          {
+            "count": 4,
+            "year": 2024
+          },
+          {
+            "count": 7,
+            "year": 2025
+          },
+          {
+            "count": 1,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 13,
+        "external_id": "W4385679748",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-it-s-dom-clobbering-time-attack-techniques-preva",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4385679748?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "b5dea8ab6c69d192dc44291a97b640f4c8d2d50943fc77a4e25bcd044e3e2285",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 14
+      },
+      "conference": {
+        "aliases": [
+          "Oakland",
+          "IEEE Security & Privacy"
+        ],
+        "id": "ieee-sp",
+        "name": "IEEE Symposium on Security and Privacy",
+        "organizer": "IEEE Computer Society",
+        "short_name": "IEEE S&P"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Soheil Khodayari"
+          },
+          {
+            "name": "Giancarlo Pellegrino"
+          }
+        ],
+        "canonical_title": "It's (DOM) Clobbering Time: Attack Techniques, Prevalence, and Defenses",
+        "id": "ieee-sp-2023-it-s-dom-clobbering-time-attack-techniques-preva",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4385679748",
+            "value": "W4385679748",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1109/sp46215.2023.10179403",
+            "value": "10.1109/sp46215.2023.10179403",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.ieee-security.org/TC/SP2023/program-awards.html",
+          "https://openalex.org/W4385679748"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2023,
+        "venue_name": "2023 IEEE Symposium on Security and Privacy"
+      },
+      "primary_topic": {
+        "display_name": "Web Application Security Vulnerabilities",
+        "openalex_id": "T12479",
+        "score": 0.9999
+      }
+    },
+    {
+      "award": {
+        "edition_id": "ieee-sp-2023",
+        "id": "ieee-sp-2023-the-leaky-web-automated-discovery-of-cross-site-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "0e631e221f695d3e5bd112ca67eab2763e063fdbc845dc8459cd4233d778d84c",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.ieee-security.org/TC/SP2023/program-awards.html"
+        },
+        "paper_id": "ieee-sp-2023-the-leaky-web-automated-discovery-of-cross-site",
+        "raw_authors": "Jannis Rautenstrauch (CISPA Helmholtz Center for Information Security), Giancarlo Pellegrino (CISPA Helmholtz Center for Information Security), Ben Stock (CISPA Helmholtz Center for Information Security)",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "The Leaky Web: Automated Discovery of Cross-Site Information Leaks in Browsers and the Web"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2023
+          },
+          {
+            "count": 8,
+            "year": 2024
+          },
+          {
+            "count": 3,
+            "year": 2025
+          },
+          {
+            "count": 2,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 12,
+        "external_id": "W4384948721",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-the-leaky-web-automated-discovery-of-cross-site",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4384948721?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "8b997877e1d0f5b87ecd2d912d823c302bb764fb3add67594e41bd50affad318",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 14
+      },
+      "conference": {
+        "aliases": [
+          "Oakland",
+          "IEEE Security & Privacy"
+        ],
+        "id": "ieee-sp",
+        "name": "IEEE Symposium on Security and Privacy",
+        "organizer": "IEEE Computer Society",
+        "short_name": "IEEE S&P"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Jannis Rautenstrauch"
+          },
+          {
+            "name": "Giancarlo Pellegrino"
+          },
+          {
+            "name": "Ben Stock"
+          }
+        ],
+        "canonical_title": "The Leaky Web: Automated Discovery of Cross-Site Information Leaks in Browsers and the Web",
+        "id": "ieee-sp-2023-the-leaky-web-automated-discovery-of-cross-site",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4384948721",
+            "value": "W4384948721",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1109/sp46215.2023.10179311",
+            "value": "10.1109/sp46215.2023.10179311",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.ieee-security.org/TC/SP2023/program-awards.html",
+          "https://openalex.org/W4384948721"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2023,
+        "venue_name": "2023 IEEE Symposium on Security and Privacy"
+      },
+      "primary_topic": {
+        "display_name": "Network Security and Intrusion Detection",
+        "openalex_id": "T10400",
+        "score": 0.9996
+      }
+    },
+    {
+      "award": {
+        "edition_id": "usenix-security-2023",
+        "id": "usenix-security-2023-tight-auditing-of-differentially-private-machine-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+        },
+        "paper_id": "usenix-security-2023-tight-auditing-of-differentially-private-machine",
+        "raw_authors": "Milad Nasr, Jamie Hayes, Thomas Steinke, and Borja Balle, Google DeepMind; Florian Tramèr, ETH Zurich; Matthew Jagielski, Nicholas Carlini, and Andreas Terzis, Google DeepMind",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Tight Auditing of Differentially Private Machine Learning"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 4,
+            "year": 2023
+          },
+          {
+            "count": 6,
+            "year": 2024
+          },
+          {
+            "count": 4,
+            "year": 2025
+          }
+        ],
+        "citations_first_3_years": 14,
+        "external_id": "W4321276312",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-tight-auditing-of-differentially-private-machine",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-28T07:46:37.118299",
+        "request_fingerprint": "GET /works/W4321276312?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "b3db714844935f0c4c52bb063cb80091e8917647ce7b751dccacb3d5432eb428",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 14
+      },
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Milad Nasr"
+          },
+          {
+            "name": "Jamie Hayes"
+          },
+          {
+            "name": "Thomas Steinke"
+          },
+          {
+            "name": "Borja Balle"
+          },
+          {
+            "name": "Florian Tramèr"
+          },
+          {
+            "name": "Matthew Jagielski"
+          },
+          {
+            "name": "Nicholas Carlini"
+          },
+          {
+            "name": "Andreas Terzis"
+          }
+        ],
+        "canonical_title": "Tight Auditing of Differentially Private Machine Learning",
+        "id": "usenix-security-2023-tight-auditing-of-differentially-private-machine",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4321276312",
+            "value": "W4321276312",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.usenix.org/conference/usenixsecurity23/technical-sessions",
+          "https://openalex.org/W4321276312"
+        ],
+        "official_paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/nasr",
+        "publication_year": 2023,
+        "venue_name": "32nd USENIX Security Symposium"
+      },
+      "primary_topic": {
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "openalex_id": "T10764",
+        "score": 0.9998
+      }
+    },
+    {
+      "award": {
+        "edition_id": "ieee-sp-2023",
+        "id": "ieee-sp-2023-weak-fiat-shamir-attacks-on-modern-proof-systems-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "0e631e221f695d3e5bd112ca67eab2763e063fdbc845dc8459cd4233d778d84c",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.ieee-security.org/TC/SP2023/program-awards.html"
+        },
+        "paper_id": "ieee-sp-2023-weak-fiat-shamir-attacks-on-modern-proof-systems",
+        "raw_authors": "Quang Dao (Carnegie Mellon University), Jim Miller (Trail of Bits), Opal Wright (Trail of Bits), Paul Grubbs (University of Michigan)",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Weak Fiat-Shamir Attacks on Modern Proof Systems"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 2,
+            "year": 2023
+          },
+          {
+            "count": 3,
+            "year": 2024
+          },
+          {
+            "count": 6,
+            "year": 2025
+          },
+          {
+            "count": 1,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 11,
+        "external_id": "W4385080282",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-weak-fiat-shamir-attacks-on-modern-proof-systems",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4385080282?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "09cb5296b04068b76eeae83fcce691c86838b975a29926457ebfeb91460016d2",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 12
+      },
+      "conference": {
+        "aliases": [
+          "Oakland",
+          "IEEE Security & Privacy"
+        ],
+        "id": "ieee-sp",
+        "name": "IEEE Symposium on Security and Privacy",
+        "organizer": "IEEE Computer Society",
+        "short_name": "IEEE S&P"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Quang Dao"
+          },
+          {
+            "name": "Jim Miller"
+          },
+          {
+            "name": "Opal Wright"
+          },
+          {
+            "name": "Paul Grubbs"
+          }
+        ],
+        "canonical_title": "Weak Fiat-Shamir Attacks on Modern Proof Systems",
+        "id": "ieee-sp-2023-weak-fiat-shamir-attacks-on-modern-proof-systems",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4385080282",
+            "value": "W4385080282",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1109/sp46215.2023.10179408",
+            "value": "10.1109/sp46215.2023.10179408",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.ieee-security.org/TC/SP2023/program-awards.html",
+          "https://openalex.org/W4385080282"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2023,
+        "venue_name": "2023 IEEE Symposium on Security and Privacy"
+      },
+      "primary_topic": {
+        "display_name": "Cryptography and Data Security",
+        "openalex_id": "T10237",
+        "score": 0.9997
+      }
+    },
+    {
+      "award": {
+        "edition_id": "usenix-security-2023",
+        "id": "usenix-security-2023-bug-hunters-perspectives-on-the-challenges-and-b-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+        },
+        "paper_id": "usenix-security-2023-bug-hunters-perspectives-on-the-challenges-and-b",
+        "raw_authors": "Omer Akgul, University of Maryland; Taha Eghtesad, Pennsylvania State University; Amit Elazari, University of California, Berkeley; Omprakash Gnawali, University of Houston; Jens Grossklags, Technical University of Munich; Michelle L. Mazurek, University of Maryland; Daniel Votipka, Tufts University; Aron Laszka, Pennsylvania State University",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Bug Hunters’ Perspectives on the Challenges and Benefits of the Bug Bounty Ecosystem"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 4,
+            "year": 2023
+          },
+          {
+            "count": 4,
+            "year": 2024
+          },
+          {
+            "count": 3,
+            "year": 2025
+          }
+        ],
+        "citations_first_3_years": 11,
+        "external_id": "W4316116706",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-bug-hunters-perspectives-on-the-challenges-and-b",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-06T08:24:18.245995",
+        "request_fingerprint": "GET /works/W4316116706?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "1c8fbb66ce7cad589439612f8dc60d5c610eeb6e084b2f95b687ac2ee8021342",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 11
+      },
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Omer Akgul"
+          },
+          {
+            "name": "Taha Eghtesad"
+          },
+          {
+            "name": "Amit Elazari"
+          },
+          {
+            "name": "Omprakash Gnawali"
+          },
+          {
+            "name": "Jens Grossklags"
+          },
+          {
+            "name": "Michelle L. Mazurek"
+          },
+          {
+            "name": "Daniel Votipka"
+          },
+          {
+            "name": "Aron Laszka"
+          }
+        ],
+        "canonical_title": "Bug Hunters’ Perspectives on the Challenges and Benefits of the Bug Bounty Ecosystem",
+        "id": "usenix-security-2023-bug-hunters-perspectives-on-the-challenges-and-b",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4316116706",
+            "value": "W4316116706",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.usenix.org/conference/usenixsecurity23/technical-sessions",
+          "https://openalex.org/W4316116706"
+        ],
+        "official_paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/akgul",
+        "publication_year": 2023,
+        "venue_name": "32nd USENIX Security Symposium"
+      },
+      "primary_topic": {
+        "display_name": "Open Source Software Innovations",
+        "openalex_id": "T11675",
+        "score": 0.9976
+      }
+    },
+    {
+      "award": {
+        "edition_id": "acm-ccs-2023",
+        "id": "acm-ccs-2023-panic-pan-assisted-intra-process-memory-isolatio-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "4486d199b2588ab0234106fe32a18c54d50b58b64098d2b2cb677ea07eed0240",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html"
+        },
+        "paper_id": "acm-ccs-2023-panic-pan-assisted-intra-process-memory-isolatio",
+        "raw_authors": "Jiali Xu, Mengyao Xie, Chenggang Wu, Yinqian Zhang, Qijing Li, Xuan Huang, Yuanming Lai, Yan Kang, Wei Wang, Qiang Wei, and Zhe Wang",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "PANIC: PAN-assisted Intra-process Memory Isolation on ARM"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 3,
+            "year": 2024
+          },
+          {
+            "count": 7,
+            "year": 2025
+          },
+          {
+            "count": 1,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 10,
+        "external_id": "W4388857293",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-panic-pan-assisted-intra-process-memory-isolatio",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4388857293?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "548a3485c730f1912953841e1b815e88a0834e67e9fb619ff5fcb8cdb1e826e4",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 11
+      },
+      "conference": {
+        "aliases": [
+          "CCS"
+        ],
+        "id": "acm-ccs",
+        "name": "ACM Conference on Computer and Communications Security",
+        "organizer": "ACM SIGSAC",
+        "short_name": "ACM CCS"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Jiali Xu"
+          },
+          {
+            "name": "Mengyao Xie"
+          },
+          {
+            "name": "Chenggang Wu"
+          },
+          {
+            "name": "Yinqian Zhang"
+          },
+          {
+            "name": "Qijing Li"
+          },
+          {
+            "name": "Xuan Huang"
+          },
+          {
+            "name": "Yuanming Lai"
+          },
+          {
+            "name": "Yan Kang"
+          },
+          {
+            "name": "Wei Wang"
+          },
+          {
+            "name": "Qiang Wei"
+          },
+          {
+            "name": "Zhe Wang"
+          }
+        ],
+        "canonical_title": "PANIC: PAN-assisted Intra-process Memory Isolation on ARM",
+        "id": "acm-ccs-2023-panic-pan-assisted-intra-process-memory-isolatio",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4388857293",
+            "value": "W4388857293",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1145/3576915.3623206",
+            "value": "10.1145/3576915.3623206",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html",
+          "https://openalex.org/W4388857293"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2023,
+        "venue_name": "2023 ACM SIGSAC Conference on Computer and Communications Security"
+      },
+      "primary_topic": {
+        "display_name": "Security and Verification in Computing",
+        "openalex_id": "T11424",
+        "score": 0.9999
+      }
+    },
+    {
+      "award": {
+        "edition_id": "acm-ccs-2023",
+        "id": "acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "4486d199b2588ab0234106fe32a18c54d50b58b64098d2b2cb677ea07eed0240",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html"
+        },
+        "paper_id": "acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl",
+        "raw_authors": "Gilad Asharov, Ilan Komargodski, and Yehuda Michelson",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "FutORAMa: A Concretely Efficient Hierarchical Oblivious RAM"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2024
+          },
+          {
+            "count": 5,
+            "year": 2025
+          },
+          {
+            "count": 4,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 6,
+        "external_id": "W4388856956",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-04T08:18:43.703281",
+        "request_fingerprint": "GET /works/W4388856956?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "a6803e9f726fa6cf2ba2a3bc39f0093cd8dda1cbe51fb8f1a31db0d88d297ea0",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 10
+      },
+      "conference": {
+        "aliases": [
+          "CCS"
+        ],
+        "id": "acm-ccs",
+        "name": "ACM Conference on Computer and Communications Security",
+        "organizer": "ACM SIGSAC",
+        "short_name": "ACM CCS"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Gilad Asharov"
+          },
+          {
+            "name": "Ilan Komargodski"
+          },
+          {
+            "name": "Yehuda Michelson"
+          }
+        ],
+        "canonical_title": "FutORAMa: A Concretely Efficient Hierarchical Oblivious RAM",
+        "id": "acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4388856956",
+            "value": "W4388856956",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1145/3576915.3623125",
+            "value": "10.1145/3576915.3623125",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html",
+          "https://openalex.org/W4388856956"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2023,
+        "venue_name": "2023 ACM SIGSAC Conference on Computer and Communications Security"
+      },
+      "primary_topic": {
+        "display_name": "Cryptography and Data Security",
+        "openalex_id": "T10237",
+        "score": 1.0
+      }
+    },
+    {
+      "award": {
+        "edition_id": "ieee-sp-2023",
+        "id": "ieee-sp-2023-characterizing-everyday-misuse-of-smart-home-dev-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "0e631e221f695d3e5bd112ca67eab2763e063fdbc845dc8459cd4233d778d84c",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.ieee-security.org/TC/SP2023/program-awards.html"
+        },
+        "paper_id": "ieee-sp-2023-characterizing-everyday-misuse-of-smart-home-dev",
+        "raw_authors": "Phoebe Moh (University of Maryland), Pubali Datta (University of Illinois Urbana-Champaign) Noel Warford (University of Maryland), Adam Bates (University of Illinois Urbana-Champaign), Nathan Malkin (University of Maryland), Michelle L. Mazurek (University of Maryland)",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Characterizing Everyday Misuse of Smart Home Devices"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 2,
+            "year": 2023
+          },
+          {
+            "count": 3,
+            "year": 2024
+          },
+          {
+            "count": 2,
+            "year": 2025
+          },
+          {
+            "count": 2,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 7,
+        "external_id": "W4385080361",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-characterizing-everyday-misuse-of-smart-home-dev",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4385080361?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "71a107591a1e4786355326be4fbb88b66a02275b3881666ec50afbfd70f8ac1b",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 9
+      },
+      "conference": {
+        "aliases": [
+          "Oakland",
+          "IEEE Security & Privacy"
+        ],
+        "id": "ieee-sp",
+        "name": "IEEE Symposium on Security and Privacy",
+        "organizer": "IEEE Computer Society",
+        "short_name": "IEEE S&P"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Phoebe Moh"
+          },
+          {
+            "name": "Pubali Datta"
+          },
+          {
+            "name": "Noel Warford"
+          },
+          {
+            "name": "Adam Bates"
+          },
+          {
+            "name": "Nathan Malkin"
+          },
+          {
+            "name": "Michelle L. Mazurek"
+          }
+        ],
+        "canonical_title": "Characterizing Everyday Misuse of Smart Home Devices",
+        "id": "ieee-sp-2023-characterizing-everyday-misuse-of-smart-home-dev",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4385080361",
+            "value": "W4385080361",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1109/sp46215.2023.10179476",
+            "value": "10.1109/sp46215.2023.10179476",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.ieee-security.org/TC/SP2023/program-awards.html",
+          "https://openalex.org/W4385080361"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2023,
+        "venue_name": "2023 IEEE Symposium on Security and Privacy"
+      },
+      "primary_topic": {
+        "display_name": "Privacy, Security, and Data Protection",
+        "openalex_id": "T11045",
+        "score": 0.9995
+      }
+    },
+    {
+      "award": {
+        "edition_id": "acm-ccs-2023",
+        "id": "acm-ccs-2023-coco-efficient-browser-extension-vulnerability-d-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "4486d199b2588ab0234106fe32a18c54d50b58b64098d2b2cb677ea07eed0240",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html"
+        },
+        "paper_id": "acm-ccs-2023-coco-efficient-browser-extension-vulnerability-d",
+        "raw_authors": "Jianjia Yu, Song Li, Junmin Zhu, and Yinzhi Cao",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "CoCo: Efficient Browser Extension Vulnerability Detection via Coverage-guided, Concurrent Abstract Interpretation"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 4,
+            "year": 2024
+          },
+          {
+            "count": 2,
+            "year": 2025
+          },
+          {
+            "count": 3,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 6,
+        "external_id": "W4388858938",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-coco-efficient-browser-extension-vulnerability-d",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-30T17:31:21.811387",
+        "request_fingerprint": "GET /works/W4388858938?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "c37ff79b8b1e579938f4e8c82fb7a46a5c4a356e327b5d39d80c56c286afaaae",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 9
+      },
+      "conference": {
+        "aliases": [
+          "CCS"
+        ],
+        "id": "acm-ccs",
+        "name": "ACM Conference on Computer and Communications Security",
+        "organizer": "ACM SIGSAC",
+        "short_name": "ACM CCS"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Jianjia Yu"
+          },
+          {
+            "name": "Song Li"
+          },
+          {
+            "name": "Junmin Zhu"
+          },
+          {
+            "name": "Yinzhi Cao"
+          }
+        ],
+        "canonical_title": "CoCo: Efficient Browser Extension Vulnerability Detection via Coverage-guided, Concurrent Abstract Interpretation",
+        "id": "acm-ccs-2023-coco-efficient-browser-extension-vulnerability-d",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4388858938",
+            "value": "W4388858938",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1145/3576915.3616584",
+            "value": "10.1145/3576915.3616584",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html",
+          "https://openalex.org/W4388858938"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2023,
+        "venue_name": "2023 ACM SIGSAC Conference on Computer and Communications Security"
+      },
+      "primary_topic": {
+        "display_name": "Web Application Security Vulnerabilities",
+        "openalex_id": "T12479",
+        "score": 0.9998
+      }
+    },
+    {
+      "award": {
+        "edition_id": "ieee-sp-2023",
+        "id": "ieee-sp-2023-not-yet-another-digital-id-privacy-preserving-hu-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "0e631e221f695d3e5bd112ca67eab2763e063fdbc845dc8459cd4233d778d84c",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.ieee-security.org/TC/SP2023/program-awards.html"
+        },
+        "paper_id": "ieee-sp-2023-not-yet-another-digital-id-privacy-preserving-hu",
+        "raw_authors": "Boya Wang (EPFL), Wouter Lueks (CISPA Helmholtz Center for Information Security), Justinas Sukaitis (ICRC), Vincent Graf Narbel (ICRC), Carmela Troncoso (EPFL)",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Not Yet Another Digital ID: Privacy-preserving Humanitarian Aid Distribution"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2023
+          },
+          {
+            "count": 2,
+            "year": 2024
+          },
+          {
+            "count": 2,
+            "year": 2025
+          },
+          {
+            "count": 3,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 5,
+        "external_id": "W4385679771",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-not-yet-another-digital-id-privacy-preserving-hu",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4385679771?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "7e598e2ac73041e939cd0ceef424fa9a8e31e5d56d4da70c83d719e1a856643e",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 8
+      },
+      "conference": {
+        "aliases": [
+          "Oakland",
+          "IEEE Security & Privacy"
+        ],
+        "id": "ieee-sp",
+        "name": "IEEE Symposium on Security and Privacy",
+        "organizer": "IEEE Computer Society",
+        "short_name": "IEEE S&P"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Boya Wang"
+          },
+          {
+            "name": "Wouter Lueks"
+          },
+          {
+            "name": "Justinas Sukaitis"
+          },
+          {
+            "name": "Vincent Graf Narbel"
+          },
+          {
+            "name": "Carmela Troncoso"
+          }
+        ],
+        "canonical_title": "Not Yet Another Digital ID: Privacy-preserving Humanitarian Aid Distribution",
+        "id": "ieee-sp-2023-not-yet-another-digital-id-privacy-preserving-hu",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4385679771",
+            "value": "W4385679771",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1109/sp46215.2023.10179306",
+            "value": "10.1109/sp46215.2023.10179306",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.ieee-security.org/TC/SP2023/program-awards.html",
+          "https://openalex.org/W4385679771"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2023,
+        "venue_name": "2023 IEEE Symposium on Security and Privacy"
+      },
+      "primary_topic": {
+        "display_name": "Internet Traffic Analysis and Secure E-voting",
+        "openalex_id": "T11598",
+        "score": 0.9962
+      }
+    },
+    {
+      "award": {
+        "edition_id": "acm-ccs-2023",
+        "id": "acm-ccs-2023-capacity-cryptographically-enforced-in-process-c-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "4486d199b2588ab0234106fe32a18c54d50b58b64098d2b2cb677ea07eed0240",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html"
+        },
+        "paper_id": "acm-ccs-2023-capacity-cryptographically-enforced-in-process-c",
+        "raw_authors": "Kha Dinh Duy, Kyuwon Cho, Taehyun Noh, and Hojoon Lee",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Capacity: Cryptographically-Enforced In-process Capabilities for Modern ARM Architectures"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 2,
+            "year": 2024
+          },
+          {
+            "count": 3,
+            "year": 2025
+          },
+          {
+            "count": 2,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 5,
+        "external_id": "W4386973789",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-capacity-cryptographically-enforced-in-process-c",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-01T09:00:35.917206",
+        "request_fingerprint": "GET /works/W4386973789?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "c367c9d68eda0c1133f5e876aa25388c9a6579110f25f9d841a02cadf99a6230",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 7
+      },
+      "conference": {
+        "aliases": [
+          "CCS"
+        ],
+        "id": "acm-ccs",
+        "name": "ACM Conference on Computer and Communications Security",
+        "organizer": "ACM SIGSAC",
+        "short_name": "ACM CCS"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Kha Dinh Duy"
+          },
+          {
+            "name": "Kyuwon Cho"
+          },
+          {
+            "name": "Taehyun Noh"
+          },
+          {
+            "name": "Hojoon Lee"
+          }
+        ],
+        "canonical_title": "Capacity: Cryptographically-Enforced In-process Capabilities for Modern ARM Architectures",
+        "id": "acm-ccs-2023-capacity-cryptographically-enforced-in-process-c",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4386973789",
+            "value": "W4386973789",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1145/3576915.3623079",
+            "value": "10.1145/3576915.3623079",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html",
+          "https://openalex.org/W4386973789"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2023,
+        "venue_name": "2023 ACM SIGSAC Conference on Computer and Communications Security"
+      },
+      "primary_topic": {
+        "display_name": "Security and Verification in Computing",
+        "openalex_id": "T11424",
+        "score": 1.0
+      }
+    },
+    {
+      "award": {
+        "edition_id": "acm-ccs-2023",
+        "id": "acm-ccs-2023-security-verification-of-low-trust-architectures-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "4486d199b2588ab0234106fe32a18c54d50b58b64098d2b2cb677ea07eed0240",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html"
+        },
+        "paper_id": "acm-ccs-2023-security-verification-of-low-trust-architectures",
+        "raw_authors": "Qinhan Tan, Yonathan Fisseha, Shibo Chen, Lauren Biernacki, Jean-Baptiste Jeannin, Sharad Malik, and Todd Austin",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Security Verification of Low-Trust Architectures"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2024
+          },
+          {
+            "count": 3,
+            "year": 2025
+          },
+          {
+            "count": 3,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 4,
+        "external_id": "W4386437595",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-security-verification-of-low-trust-architectures",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4386437595?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "dca443e38dd551c5c10cf04036933cc31921c5c4701bc5f6a5f7b0fb5b781ba9",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 7
+      },
+      "conference": {
+        "aliases": [
+          "CCS"
+        ],
+        "id": "acm-ccs",
+        "name": "ACM Conference on Computer and Communications Security",
+        "organizer": "ACM SIGSAC",
+        "short_name": "ACM CCS"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Qinhan Tan"
+          },
+          {
+            "name": "Yonathan Fisseha"
+          },
+          {
+            "name": "Shibo Chen"
+          },
+          {
+            "name": "Lauren Biernacki"
+          },
+          {
+            "name": "Jean-Baptiste Jeannin"
+          },
+          {
+            "name": "Sharad Malik"
+          },
+          {
+            "name": "Todd Austin"
+          }
+        ],
+        "canonical_title": "Security Verification of Low-Trust Architectures",
+        "id": "acm-ccs-2023-security-verification-of-low-trust-architectures",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4386437595",
+            "value": "W4386437595",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1145/3576915.3616643",
+            "value": "10.1145/3576915.3616643",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html",
+          "https://openalex.org/W4386437595"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2023,
+        "venue_name": "2023 ACM SIGSAC Conference on Computer and Communications Security"
+      },
+      "primary_topic": {
+        "display_name": "Security and Verification in Computing",
+        "openalex_id": "T11424",
+        "score": 1.0
+      }
+    },
+    {
+      "award": {
+        "edition_id": "usenix-security-2023",
+        "id": "usenix-security-2023-fuzztruction-using-fault-injection-based-fuzzing-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+        },
+        "paper_id": "usenix-security-2023-fuzztruction-using-fault-injection-based-fuzzing",
+        "raw_authors": "Nils Bars, Moritz Schloegel, Tobias Scharnowski, and Nico Schiller, Ruhr-Universität Bochum; Thorsten Holz, CISPA Helmholtz Center for Information Security",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Fuzztruction: Using Fault Injection-based Fuzzing to Leverage Implicit Domain Knowledge"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 5,
+            "year": 2024
+          },
+          {
+            "count": 1,
+            "year": 2025
+          }
+        ],
+        "citations_first_3_years": 6,
+        "external_id": "W6902390121",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-fuzztruction-using-fault-injection-based-fuzzing",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-15T18:14:33.161393",
+        "request_fingerprint": "GET /works/W6902390121?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "c1070bf007614748d1ac2c193389d20813b736e7cfbdb53033bcf23421904443",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 6
+      },
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Nils Bars"
+          },
+          {
+            "name": "Moritz Schloegel"
+          },
+          {
+            "name": "Tobias Scharnowski"
+          },
+          {
+            "name": "Nico Schiller"
+          },
+          {
+            "name": "Thorsten Holz"
+          }
+        ],
+        "canonical_title": "Fuzztruction: Using Fault Injection-based Fuzzing to Leverage Implicit Domain Knowledge",
+        "id": "usenix-security-2023-fuzztruction-using-fault-injection-based-fuzzing",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W6902390121",
+            "value": "W6902390121",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.usenix.org/conference/usenixsecurity23/technical-sessions",
+          "https://openalex.org/W6902390121"
+        ],
+        "official_paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/bars",
+        "publication_year": 2023,
+        "venue_name": "32nd USENIX Security Symposium"
+      },
+      "primary_topic": null
+    },
+    {
+      "award": {
+        "edition_id": "acm-ccs-2023",
+        "id": "acm-ccs-2023-concurrent-composition-for-interactive-different-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "4486d199b2588ab0234106fe32a18c54d50b58b64098d2b2cb677ea07eed0240",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html"
+        },
+        "paper_id": "acm-ccs-2023-concurrent-composition-for-interactive-different",
+        "raw_authors": "Samuel Haney, Michael Shoemate, Grace Tian, Salil Vadhan, Andrew Vyrros, Vicki Xu, and Wanrong Zhang",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Concurrent Composition for Interactive Differential Privacy with Adaptive Privacy-Loss Parameters"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2024
+          },
+          {
+            "count": 3,
+            "year": 2025
+          },
+          {
+            "count": 1,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 4,
+        "external_id": "W4388856861",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-concurrent-composition-for-interactive-different",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-06T08:24:18.245995",
+        "request_fingerprint": "GET /works/W4388856861?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "ca6d10cfe51056dd96788dc1842d2fb3cb104e12bdf3c725ed1855535cb3fb79",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 5
+      },
+      "conference": {
+        "aliases": [
+          "CCS"
+        ],
+        "id": "acm-ccs",
+        "name": "ACM Conference on Computer and Communications Security",
+        "organizer": "ACM SIGSAC",
+        "short_name": "ACM CCS"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Samuel Haney"
+          },
+          {
+            "name": "Michael Shoemate"
+          },
+          {
+            "name": "Grace Tian"
+          },
+          {
+            "name": "Salil Vadhan"
+          },
+          {
+            "name": "Andrew Vyrros"
+          },
+          {
+            "name": "Vicki Xu"
+          },
+          {
+            "name": "Wanrong Zhang"
+          }
+        ],
+        "canonical_title": "Concurrent Composition for Interactive Differential Privacy with Adaptive Privacy-Loss Parameters",
+        "id": "acm-ccs-2023-concurrent-composition-for-interactive-different",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4388856861",
+            "value": "W4388856861",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1145/3576915.3623128",
+            "value": "10.1145/3576915.3623128",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html",
+          "https://openalex.org/W4388856861"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2023,
+        "venue_name": "2023 ACM SIGSAC Conference on Computer and Communications Security"
+      },
+      "primary_topic": {
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "openalex_id": "T10764",
+        "score": 1.0
+      }
+    },
+    {
+      "award": {
+        "edition_id": "usenix-security-2023",
+        "id": "usenix-security-2023-ethical-frameworks-and-computer-security-trolley-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+        },
+        "paper_id": "usenix-security-2023-ethical-frameworks-and-computer-security-trolley",
+        "raw_authors": "Tadayoshi Kohno, University of Washington; Yasemin Acar, Paderborn University & George Washington University; Wulf Loh, Universität Tübingen",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Ethical Frameworks and Computer Security Trolley Problems: Foundations for Conversations"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 4,
+            "year": 2024
+          },
+          {
+            "count": 1,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 4,
+        "external_id": "W4322759797",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-ethical-frameworks-and-computer-security-trolley",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-06T08:24:18.245995",
+        "request_fingerprint": "GET /works/W4322759797?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "26a5244b34ac8667f9b0bffde4989ec38c104bee26d4c326f6d8c1fc89f5c775",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 5
+      },
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Tadayoshi Kohno"
+          },
+          {
+            "name": "Yasemin Acar"
+          },
+          {
+            "name": "Wulf Loh"
+          }
+        ],
+        "canonical_title": "Ethical Frameworks and Computer Security Trolley Problems: Foundations for Conversations",
+        "id": "usenix-security-2023-ethical-frameworks-and-computer-security-trolley",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4322759797",
+            "value": "W4322759797",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.usenix.org/conference/usenixsecurity23/technical-sessions",
+          "https://openalex.org/W4322759797"
+        ],
+        "official_paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/kohno",
+        "publication_year": 2023,
+        "venue_name": "32nd USENIX Security Symposium"
+      },
+      "primary_topic": {
+        "display_name": "Information and Cyber Security",
+        "openalex_id": "T10734",
+        "score": 0.9964
+      }
+    },
+    {
+      "award": {
+        "edition_id": "acm-ccs-2023",
+        "id": "acm-ccs-2023-specverilog-adapting-information-flow-control-fo-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "4486d199b2588ab0234106fe32a18c54d50b58b64098d2b2cb677ea07eed0240",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html"
+        },
+        "paper_id": "acm-ccs-2023-specverilog-adapting-information-flow-control-fo",
+        "raw_authors": "Drew Zagieboylo, Charles Sherk, Gookwon Edward Suh, and Andrew Myers",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "SpecVerilog: Adapting Information Flow Control for Secure Speculation"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2025
+          },
+          {
+            "count": 4,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 1,
+        "external_id": "W4388858465",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-specverilog-adapting-information-flow-control-fo",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-31T08:31:51.225901",
+        "request_fingerprint": "GET /works/W4388858465?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "053228353a1ac12d275a938ae15a60836d42eb595f234546a1f0d6d90fa14798",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 5
+      },
+      "conference": {
+        "aliases": [
+          "CCS"
+        ],
+        "id": "acm-ccs",
+        "name": "ACM Conference on Computer and Communications Security",
+        "organizer": "ACM SIGSAC",
+        "short_name": "ACM CCS"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Drew Zagieboylo"
+          },
+          {
+            "name": "Charles Sherk"
+          },
+          {
+            "name": "Gookwon Edward Suh"
+          },
+          {
+            "name": "Andrew Myers"
+          }
+        ],
+        "canonical_title": "SpecVerilog: Adapting Information Flow Control for Secure Speculation",
+        "id": "acm-ccs-2023-specverilog-adapting-information-flow-control-fo",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4388858465",
+            "value": "W4388858465",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1145/3576915.3623074",
+            "value": "10.1145/3576915.3623074",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html",
+          "https://openalex.org/W4388858465"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2023,
+        "venue_name": "2023 ACM SIGSAC Conference on Computer and Communications Security"
+      },
+      "primary_topic": {
+        "display_name": "Security and Verification in Computing",
+        "openalex_id": "T11424",
+        "score": 0.9999
+      }
+    },
+    {
+      "award": {
+        "edition_id": "usenix-security-2023",
+        "id": "usenix-security-2023-hash-gone-bad-automated-discovery-of-protocol-at-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+        },
+        "paper_id": "usenix-security-2023-hash-gone-bad-automated-discovery-of-protocol-at",
+        "raw_authors": "Vincent Cheval, Inria Paris; Cas Cremers and Alexander Dax, CISPA Helmholtz Center for Information Security; Lucca Hirschi, Inria & LORIA; Charlie Jacomme, Inria Paris; Steve Kremer, Université de Lorraine, LORIA, Inria Nancy Grand-Est",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Hash Gone Bad: Automated discovery of protocol attacks that exploit hash function weaknesses"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2023
+          },
+          {
+            "count": 2,
+            "year": 2024
+          },
+          {
+            "count": 1,
+            "year": 2025
+          }
+        ],
+        "citations_first_3_years": 4,
+        "external_id": "W4301178121",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-hash-gone-bad-automated-discovery-of-protocol-at",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-01T09:00:35.917206",
+        "request_fingerprint": "GET /works/W4301178121?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "cb0f96fe094e380876d5f2afe035d77be755dbb4c24497f5e1c9ef2ddae4138f",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 4
+      },
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Vincent Cheval"
+          },
+          {
+            "name": "Cas Cremers"
+          },
+          {
+            "name": "Alexander Dax"
+          },
+          {
+            "name": "Lucca Hirschi"
+          },
+          {
+            "name": "Charlie Jacomme"
+          },
+          {
+            "name": "Steve Kremer"
+          }
+        ],
+        "canonical_title": "Hash Gone Bad: Automated discovery of protocol attacks that exploit hash function weaknesses",
+        "id": "usenix-security-2023-hash-gone-bad-automated-discovery-of-protocol-at",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4301178121",
+            "value": "W4301178121",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.usenix.org/conference/usenixsecurity23/technical-sessions",
+          "https://openalex.org/W4301178121"
+        ],
+        "official_paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/cheval",
+        "publication_year": 2023,
+        "venue_name": "32nd USENIX Security Symposium"
+      },
+      "primary_topic": {
+        "display_name": "Network Security and Intrusion Detection",
+        "openalex_id": "T10400",
+        "score": 0.9988
+      }
+    },
+    {
+      "award": {
+        "edition_id": "acm-ccs-2023",
+        "id": "acm-ccs-2023-silence-is-not-golden-disrupting-the-load-balanc-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "4486d199b2588ab0234106fe32a18c54d50b58b64098d2b2cb677ea07eed0240",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html"
+        },
+        "paper_id": "acm-ccs-2023-silence-is-not-golden-disrupting-the-load-balanc",
+        "raw_authors": "Fenglu Zhang, Baojun Liu, Eihal Alowaisheq, Jianjun Chen, Chaoyi Lu, Linjian Song, Yong Ma, Ying Liu, Haixin Duan, and Min Yang",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Silence is not Golden: Disrupting the Load Balancing of Authoritative DNS Servers"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 2,
+            "year": 2024
+          },
+          {
+            "count": 1,
+            "year": 2025
+          },
+          {
+            "count": 1,
+            "year": 2026
+          }
+        ],
+        "citations_first_3_years": 3,
+        "external_id": "W4388858780",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-silence-is-not-golden-disrupting-the-load-balanc",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4388858780?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "aaf496f18e623227587c9c3dce81a22ff4bdc293f457e9923a5736b28bdf1ff5",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 4
+      },
+      "conference": {
+        "aliases": [
+          "CCS"
+        ],
+        "id": "acm-ccs",
+        "name": "ACM Conference on Computer and Communications Security",
+        "organizer": "ACM SIGSAC",
+        "short_name": "ACM CCS"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Fenglu Zhang"
+          },
+          {
+            "name": "Baojun Liu"
+          },
+          {
+            "name": "Eihal Alowaisheq"
+          },
+          {
+            "name": "Jianjun Chen"
+          },
+          {
+            "name": "Chaoyi Lu"
+          },
+          {
+            "name": "Linjian Song"
+          },
+          {
+            "name": "Yong Ma"
+          },
+          {
+            "name": "Ying Liu"
+          },
+          {
+            "name": "Haixin Duan"
+          },
+          {
+            "name": "Min Yang"
+          }
+        ],
+        "canonical_title": "Silence is not Golden: Disrupting the Load Balancing of Authoritative DNS Servers",
+        "id": "acm-ccs-2023-silence-is-not-golden-disrupting-the-load-balanc",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4388858780",
+            "value": "W4388858780",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1145/3576915.3616647",
+            "value": "10.1145/3576915.3616647",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html",
+          "https://openalex.org/W4388858780"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2023,
+        "venue_name": "2023 ACM SIGSAC Conference on Computer and Communications Security"
+      },
+      "primary_topic": {
+        "display_name": "Network Security and Intrusion Detection",
+        "openalex_id": "T10400",
+        "score": 1.0
+      }
+    },
+    {
+      "award": {
+        "edition_id": "usenix-security-2023",
+        "id": "usenix-security-2023-a-bug-s-life-analyzing-the-lifecycle-and-mitigat-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+        },
+        "paper_id": "usenix-security-2023-a-bug-s-life-analyzing-the-lifecycle-and-mitigat",
+        "raw_authors": "Gertjan Franken, Tom Van Goethem, Lieven Desmet, and Wouter Joosen, imec-DistriNet, KU Leuven",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "A Bug's Life: Analyzing the Lifecycle and Mitigation Process of Content Security Policy Bugs"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2024
+          }
+        ],
+        "citations_first_3_years": 1,
+        "external_id": "W7064508335",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-a-bug-s-life-analyzing-the-lifecycle-and-mitigat",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W7064508335?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "317acfad3a21e43d612ea003f731f6c434a3579fd9594a17e4c68a0ad288bec6",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 1
+      },
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Gertjan Franken"
+          },
+          {
+            "name": "Tom Van Goethem"
+          },
+          {
+            "name": "Lieven Desmet"
+          },
+          {
+            "name": "Wouter Joosen"
+          }
+        ],
+        "canonical_title": "A Bug's Life: Analyzing the Lifecycle and Mitigation Process of Content Security Policy Bugs",
+        "id": "usenix-security-2023-a-bug-s-life-analyzing-the-lifecycle-and-mitigat",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W7064508335",
+            "value": "W7064508335",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.usenix.org/conference/usenixsecurity23/technical-sessions",
+          "https://openalex.org/W7064508335"
+        ],
+        "official_paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/franken",
+        "publication_year": 2023,
+        "venue_name": "32nd USENIX Security Symposium"
+      },
+      "primary_topic": {
+        "display_name": "Electromagnetic Compatibility and Measurements",
+        "openalex_id": "T11851",
+        "score": 0.0812
+      }
+    },
+    {
+      "award": {
+        "edition_id": "usenix-security-2023",
+        "id": "usenix-security-2023-automated-analysis-of-protocols-that-use-authent-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+        },
+        "paper_id": "usenix-security-2023-automated-analysis-of-protocols-that-use-authent",
+        "raw_authors": "Cas Cremers, CISPA Helmholtz Center for Information Security; Alexander Dax, CISPA Helmholtz Center for Information Security and Saarland University; Charlie Jacomme, Inria Paris; Mang Zhao, CISPA Helmholtz Center for Information Security and Saarland University",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Automated Analysis of Protocols that use Authenticated Encryption: How Subtle AEAD Differences can impact Protocol Security"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2025
+          }
+        ],
+        "citations_first_3_years": 1,
+        "external_id": "W4401104680",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-automated-analysis-of-protocols-that-use-authent",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-01T09:00:35.917206",
+        "request_fingerprint": "GET /works/W4401104680?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "daf916ab0d978be67118bb3b0ecb2989d5e921bb1701bc3a080fcaf233d1308a",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 1
+      },
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Cas Cremers"
+          },
+          {
+            "name": "Alexander Dax"
+          },
+          {
+            "name": "Charlie Jacomme"
+          },
+          {
+            "name": "Mang Zhao"
+          }
+        ],
+        "canonical_title": "Automated Analysis of Protocols that use Authenticated Encryption: How Subtle AEAD Differences can impact Protocol Security",
+        "id": "usenix-security-2023-automated-analysis-of-protocols-that-use-authent",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4401104680",
+            "value": "W4401104680",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.usenix.org/conference/usenixsecurity23/technical-sessions",
+          "https://openalex.org/W4401104680"
+        ],
+        "official_paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/cremers-protocols",
+        "publication_year": 2023,
+        "venue_name": "32nd USENIX Security Symposium"
+      },
+      "primary_topic": {
+        "display_name": "Advanced Authentication Protocols Security",
+        "openalex_id": "T11504",
+        "score": 0.9303
+      }
+    },
+    {
+      "award": {
+        "edition_id": "usenix-security-2023",
+        "id": "usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+        },
+        "paper_id": "usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma",
+        "raw_authors": "Wael Albayaydh and Ivan Flechais, University of Oxford",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Examining Power Dynamics and User Privacy in Smart Technology Use Among Jordanian Households"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2025
+          }
+        ],
+        "citations_first_3_years": 1,
+        "external_id": "W6981697802",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-02-10T06:17:13.238206",
+        "request_fingerprint": "GET /works/W6981697802?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "35e32c82195a2ca6abfd5d08a67ae5c6c900e929ee58a9fe1331ed549f05010e",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 1
+      },
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Wael Albayaydh"
+          },
+          {
+            "name": "Ivan Flechais"
+          }
+        ],
+        "canonical_title": "Examining Power Dynamics and User Privacy in Smart Technology Use Among Jordanian Households",
+        "id": "usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W6981697802",
+            "value": "W6981697802",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.usenix.org/conference/usenixsecurity23/technical-sessions",
+          "https://openalex.org/W6981697802"
+        ],
+        "official_paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/albayaydh",
+        "publication_year": 2023,
+        "venue_name": "32nd USENIX Security Symposium"
+      },
+      "primary_topic": {
+        "display_name": "Indian and Buddhist Studies",
+        "openalex_id": "T11563",
+        "score": 0.0941
+      }
+    },
+    {
+      "award": {
+        "edition_id": "usenix-security-2023",
+        "id": "usenix-security-2023-treesync-authenticated-group-management-for-mess-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+        },
+        "paper_id": "usenix-security-2023-treesync-authenticated-group-management-for-mess",
+        "raw_authors": "Théophile Wallez, Inria Paris; Jonathan Protzenko, Microsoft Research; Benjamin Beurdouche, Mozilla; Karthikeyan Bhargavan, Inria Paris",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "TreeSync: Authenticated Group Management for Messaging Layer Security"
+      },
+      "citation": {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2024
+          }
+        ],
+        "citations_first_3_years": 1,
+        "external_id": "W4392466677",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-treesync-authenticated-group-management-for-mess",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4392466677?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "0db6cb75fe6d50b6424e90506616c7af959629683c12ac4b96312dbf358ed5e6",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 1
+      },
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Théophile Wallez"
+          },
+          {
+            "name": "Jonathan Protzenko"
+          },
+          {
+            "name": "Benjamin Beurdouche"
+          },
+          {
+            "name": "Karthikeyan Bhargavan"
+          }
+        ],
+        "canonical_title": "TreeSync: Authenticated Group Management for Messaging Layer Security",
+        "id": "usenix-security-2023-treesync-authenticated-group-management-for-mess",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4392466677",
+            "value": "W4392466677",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.usenix.org/conference/usenixsecurity23/technical-sessions",
+          "https://openalex.org/W4392466677"
+        ],
+        "official_paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/wallez",
+        "publication_year": 2023,
+        "venue_name": "32nd USENIX Security Symposium"
+      },
+      "primary_topic": {
+        "display_name": "Access Control and Trust",
+        "openalex_id": "T10927",
+        "score": 0.7991
+      }
+    },
+    {
+      "award": {
+        "edition_id": "acm-ccs-2023",
+        "id": "acm-ccs-2023-amplification-by-shuffling-without-shuffling-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "4486d199b2588ab0234106fe32a18c54d50b58b64098d2b2cb677ea07eed0240",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html"
+        },
+        "paper_id": "acm-ccs-2023-amplification-by-shuffling-without-shuffling",
+        "raw_authors": "Borja Balle, James Bell, and Adria Gascon",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Amplification by Shuffling without Shuffling"
+      },
+      "citation": {
+        "citations_by_citing_year": [],
+        "citations_first_3_years": 0,
+        "external_id": "W4388857216",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-amplification-by-shuffling-without-shuffling",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4388857216?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "2f507ff3c30dd356a64a3d2b4d15ac5a54e4bf904039d4dff1542c7a15ba20e0",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 0
+      },
+      "conference": {
+        "aliases": [
+          "CCS"
+        ],
+        "id": "acm-ccs",
+        "name": "ACM Conference on Computer and Communications Security",
+        "organizer": "ACM SIGSAC",
+        "short_name": "ACM CCS"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Borja Balle"
+          },
+          {
+            "name": "James Bell"
+          },
+          {
+            "name": "Adria Gascon"
+          }
+        ],
+        "canonical_title": "Amplification by Shuffling without Shuffling",
+        "id": "acm-ccs-2023-amplification-by-shuffling-without-shuffling",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4388857216",
+            "value": "W4388857216",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1145/3576915.3623215",
+            "value": "10.1145/3576915.3623215",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html",
+          "https://openalex.org/W4388857216"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2023,
+        "venue_name": "2023 ACM SIGSAC Conference on Computer and Communications Security"
+      },
+      "primary_topic": {
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "openalex_id": "T10764",
+        "score": 0.9999
+      }
+    },
+    {
+      "award": {
+        "edition_id": "usenix-security-2023",
+        "id": "usenix-security-2023-botscreen-trust-everybody-but-cut-the-aimbots-yo-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+        },
+        "paper_id": "usenix-security-2023-botscreen-trust-everybody-but-cut-the-aimbots-yo",
+        "raw_authors": "Minyeop Choi, KAIST; Gihyuk Ko, Cyber Security Research Center at KAIST and Carnegie Mellon University; Sang Kil Cha, KAIST and Cyber Security Research Center at KAIST",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "BotScreen: Trust Everybody, but Cut the Aimbots Yourself"
+      },
+      "citation": {
+        "citations_by_citing_year": [],
+        "citations_first_3_years": 0,
+        "external_id": "W4393633303",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-botscreen-trust-everybody-but-cut-the-aimbots-yo",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-23T08:03:31.855105",
+        "request_fingerprint": "GET /works/W4393633303?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "53157c249fc183f13f6e21bcdd9b8e86a6d60c759d47a914586bcbc3dae4ec42",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 0
+      },
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Minyeop Choi"
+          },
+          {
+            "name": "Gihyuk Ko"
+          },
+          {
+            "name": "Sang Kil Cha"
+          }
+        ],
+        "canonical_title": "BotScreen: Trust Everybody, but Cut the Aimbots Yourself",
+        "id": "usenix-security-2023-botscreen-trust-everybody-but-cut-the-aimbots-yo",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4393633303",
+            "value": "W4393633303",
+            "verified_at": "2026-08-07T18:41:58Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.usenix.org/conference/usenixsecurity23/technical-sessions",
+          "https://openalex.org/W4393633303"
+        ],
+        "official_paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/choi",
+        "publication_year": 2023,
+        "venue_name": "32nd USENIX Security Symposium"
+      },
+      "primary_topic": {
+        "display_name": "Network Security and Intrusion Detection",
+        "openalex_id": "T10400",
+        "score": 0.9565
+      }
+    },
+    {
+      "award": {
+        "edition_id": "usenix-security-2023",
+        "id": "usenix-security-2023-a-two-decade-retrospective-analysis-of-a-univers-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+        },
+        "paper_id": "usenix-security-2023-a-two-decade-retrospective-analysis-of-a-univers",
+        "raw_authors": "Alexandra Nisenoff, University of Chicago / Carnegie Mellon University; Maximilian Golla, University of Chicago / Max Planck Institute for Security and Privacy; Miranda Wei, University of Chicago / University of Washington; Juliette Hainline, Hayley Szymanek, Annika Braun, Annika Hildebrandt, Blair Christensen, David Langenberg, and Blase Ur, University of Chicago",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "A Two-Decade Retrospective Analysis of a University's Vulnerability to Attacks Exploiting Reused Passwords"
+      },
+      "citation": null,
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Alexandra Nisenoff"
+          },
+          {
+            "name": "Maximilian Golla"
+          },
+          {
+            "name": "Miranda Wei"
+          },
+          {
+            "name": "Juliette Hainline"
+          },
+          {
+            "name": "Hayley Szymanek"
+          },
+          {
+            "name": "Annika Braun"
+          },
+          {
+            "name": "Annika Hildebrandt"
+          },
+          {
+            "name": "Blair Christensen"
+          },
+          {
+            "name": "David Langenberg"
+          },
+          {
+            "name": "Blase Ur"
+          }
+        ],
+        "canonical_title": "A Two-Decade Retrospective Analysis of a University's Vulnerability to Attacks Exploiting Reused Passwords",
+        "id": "usenix-security-2023-a-two-decade-retrospective-analysis-of-a-univers",
+        "identifiers": [],
+        "metadata_sources": [
+          "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+        ],
+        "official_paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/nisenoff-retrospective",
+        "publication_year": 2023,
+        "venue_name": "32nd USENIX Security Symposium"
+      },
+      "primary_topic": null
+    },
+    {
+      "award": {
+        "edition_id": "usenix-security-2023",
+        "id": "usenix-security-2023-account-security-interfaces-important-unintuitiv-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+        },
+        "paper_id": "usenix-security-2023-account-security-interfaces-important-unintuitiv",
+        "raw_authors": "Alaa Daffalla and Marina Bohuk, Cornell University; Nicola Dell, Jacobs Institute Cornell Tech; Rosanna Bellini, Cornell University; Thomas Ristenpart, Cornell Tech",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Account Security Interfaces: Important, Unintuitive, and Untrustworthy"
+      },
+      "citation": null,
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Alaa Daffalla"
+          },
+          {
+            "name": "Marina Bohuk"
+          },
+          {
+            "name": "Nicola Dell"
+          },
+          {
+            "name": "Rosanna Bellini"
+          },
+          {
+            "name": "Thomas Ristenpart"
+          }
+        ],
+        "canonical_title": "Account Security Interfaces: Important, Unintuitive, and Untrustworthy",
+        "id": "usenix-security-2023-account-security-interfaces-important-unintuitiv",
+        "identifiers": [],
+        "metadata_sources": [
+          "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+        ],
+        "official_paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/daffalla",
+        "publication_year": 2023,
+        "venue_name": "32nd USENIX Security Symposium"
+      },
+      "primary_topic": null
+    },
+    {
+      "award": {
+        "edition_id": "usenix-security-2023",
+        "id": "usenix-security-2023-an-efficient-design-of-intelligent-network-data-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+        },
+        "paper_id": "usenix-security-2023-an-efficient-design-of-intelligent-network-data",
+        "raw_authors": "Guangmeng Zhou, Tsinghua University; Zhuotao Liu, Tsinghua University and Zhongguancun Laboratory; Chuanpu Fu, Tsinghua University; Qi Li and Ke Xu, Tsinghua University and Zhongguancun Laboratory",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "An Efficient Design of Intelligent Network Data Plane"
+      },
+      "citation": null,
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Guangmeng Zhou"
+          },
+          {
+            "name": "Zhuotao Liu"
+          },
+          {
+            "name": "Chuanpu Fu"
+          },
+          {
+            "name": "Qi Li"
+          },
+          {
+            "name": "Ke Xu"
+          }
+        ],
+        "canonical_title": "An Efficient Design of Intelligent Network Data Plane",
+        "id": "usenix-security-2023-an-efficient-design-of-intelligent-network-data",
+        "identifiers": [],
+        "metadata_sources": [
+          "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+        ],
+        "official_paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/zhou-guangmeng",
+        "publication_year": 2023,
+        "venue_name": "32nd USENIX Security Symposium"
+      },
+      "primary_topic": null
+    },
+    {
+      "award": {
+        "edition_id": "usenix-security-2023",
+        "id": "usenix-security-2023-dont-be-dense-efficient-keyword-pir-for-sparse-d-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+        },
+        "paper_id": "usenix-security-2023-dont-be-dense-efficient-keyword-pir-for-sparse-d",
+        "raw_authors": "Sarvar Patel and Joon Young Seo, Google; Kevin Yeo, Google and Columbia University",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Don’t be Dense: Efficient Keyword PIR for Sparse Databases"
+      },
+      "citation": null,
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Sarvar Patel"
+          },
+          {
+            "name": "Joon Young Seo"
+          },
+          {
+            "name": "Kevin Yeo"
+          }
+        ],
+        "canonical_title": "Don’t be Dense: Efficient Keyword PIR for Sparse Databases",
+        "id": "usenix-security-2023-dont-be-dense-efficient-keyword-pir-for-sparse-d",
+        "identifiers": [],
+        "metadata_sources": [
+          "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+        ],
+        "official_paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/patel",
+        "publication_year": 2023,
+        "venue_name": "32nd USENIX Security Symposium"
+      },
+      "primary_topic": null
+    },
+    {
+      "award": {
+        "edition_id": "usenix-security-2023",
+        "id": "usenix-security-2023-remote-direct-memory-introspection-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+        },
+        "paper_id": "usenix-security-2023-remote-direct-memory-introspection",
+        "raw_authors": "Hongyi Liu, Jiarong Xing, and Yibo Huang, Rice University; Danyang Zhuo, Duke University; Srinivas Devadas, Massachusetts Institute of Technology; Ang Chen, Rice University",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Remote Direct Memory Introspection"
+      },
+      "citation": null,
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Hongyi Liu"
+          },
+          {
+            "name": "Jiarong Xing"
+          },
+          {
+            "name": "Yibo Huang"
+          },
+          {
+            "name": "Danyang Zhuo"
+          },
+          {
+            "name": "Srinivas Devadas"
+          },
+          {
+            "name": "Ang Chen"
+          }
+        ],
+        "canonical_title": "Remote Direct Memory Introspection",
+        "id": "usenix-security-2023-remote-direct-memory-introspection",
+        "identifiers": [],
+        "metadata_sources": [
+          "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+        ],
+        "official_paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/liu-hongyi",
+        "publication_year": 2023,
+        "venue_name": "32nd USENIX Security Symposium"
+      },
+      "primary_topic": null
+    }
+  ],
+  "schema_version": 1,
+  "year": 2023
+}

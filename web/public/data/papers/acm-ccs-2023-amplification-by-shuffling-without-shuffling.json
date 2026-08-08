@@ -1,0 +1,151 @@
+{
+  "awards": [
+    {
+      "edition_id": "acm-ccs-2023",
+      "id": "acm-ccs-2023-amplification-by-shuffling-without-shuffling-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "4486d199b2588ab0234106fe32a18c54d50b58b64098d2b2cb677ea07eed0240",
+        "parser_version": "2023.1",
+        "retrieved_at": "2026-08-07T18:34:37Z",
+        "url": "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html"
+      },
+      "paper_id": "acm-ccs-2023-amplification-by-shuffling-without-shuffling",
+      "raw_authors": "Borja Balle, James Bell, and Adria Gascon",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "Amplification by Shuffling without Shuffling"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 1.0,
+      "external_id": "W4388857216",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "acm-ccs-2023-amplification-by-shuffling-without-shuffling",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [
+        "W4377131110"
+      ],
+      "review_notes": null,
+      "selected_candidate": {
+        "author_overlap": 0.6666666666666666,
+        "doi": "10.1145/3576915.3623215",
+        "external_id": "W4388857216",
+        "publication_year": 2023,
+        "title": "Amplification by Shuffling without Shuffling",
+        "title_similarity": 1.0,
+        "venue": null,
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-07T18:41:58Z",
+      "verified_by": "SecAwardLens pipeline"
+    }
+  ],
+  "citation_history": {
+    "openalex": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "W4388857216",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-amplification-by-shuffling-without-shuffling",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4388857216?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "2f507ff3c30dd356a64a3d2b4d15ac5a54e4bf904039d4dff1542c7a15ba20e0",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 0
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [
+          {
+            "display_name": "Google (United Kingdom)",
+            "openalex_id": "I4210113297",
+            "ror": "https://ror.org/024bc3e07"
+          }
+        ],
+        "author_name": "Borja Balle",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5085679401"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Google (United Kingdom)",
+            "openalex_id": "I4210113297",
+            "ror": "https://ror.org/024bc3e07"
+          }
+        ],
+        "author_name": "James Bell",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5082848377"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Google (United States)",
+            "openalex_id": "I1291425158",
+            "ror": "https://ror.org/00njsd438"
+          }
+        ],
+        "author_name": "Adria Gascon",
+        "name_similarity": 0.8333,
+        "openalex_author_id": "A5015542293"
+      }
+    ],
+    "external_id": "W4388857216",
+    "paper_id": "acm-ccs-2023-amplification-by-shuffling-without-shuffling",
+    "primary_topic": {
+      "display_name": "Privacy-Preserving Technologies in Data",
+      "openalex_id": "T10764",
+      "score": 0.9999
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-08T05:07:19Z"
+  },
+  "generated_at": "2026-08-07T18:42:52+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Borja Balle"
+      },
+      {
+        "name": "James Bell"
+      },
+      {
+        "name": "Adria Gascon"
+      }
+    ],
+    "canonical_title": "Amplification by Shuffling without Shuffling",
+    "id": "acm-ccs-2023-amplification-by-shuffling-without-shuffling",
+    "identifiers": [
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W4388857216",
+        "value": "W4388857216",
+        "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "doi",
+        "source_url": "https://api.crossref.org/works/10.1145/3576915.3623215",
+        "value": "10.1145/3576915.3623215",
+        "verified_at": "2026-08-07T18:41:58Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html",
+      "https://openalex.org/W4388857216"
+    ],
+    "official_paper_url": null,
+    "publication_year": 2023,
+    "venue_name": "2023 ACM SIGSAC Conference on Computer and Communications Security"
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,251 @@
+{
+  "$defs": {
+    "BindingStatus": {
+      "enum": [
+        "pending",
+        "candidate",
+        "auto_verified",
+        "manually_verified",
+        "rejected",
+        "stale"
+      ],
+      "title": "BindingStatus",
+      "type": "string"
+    },
+    "CandidateEvidence": {
+      "additionalProperties": false,
+      "properties": {
+        "external_id": {
+          "title": "External Id",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "doi": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Doi"
+        },
+        "publication_year": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Publication Year"
+        },
+        "venue": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Venue"
+        },
+        "title_similarity": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Title Similarity",
+          "type": "number"
+        },
+        "author_overlap": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Author Overlap",
+          "type": "number"
+        },
+        "year_delta": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Year Delta"
+        },
+        "venue_match": {
+          "default": false,
+          "title": "Venue Match",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "external_id",
+        "title",
+        "title_similarity",
+        "author_overlap"
+      ],
+      "title": "CandidateEvidence",
+      "type": "object"
+    },
+    "CitationProvider": {
+      "enum": [
+        "openalex",
+        "semantic_scholar"
+      ],
+      "title": "CitationProvider",
+      "type": "string"
+    },
+    "MatchMethod": {
+      "enum": [
+        "doi_exact",
+        "title_exact",
+        "fuzzy_review",
+        "manual_override"
+      ],
+      "title": "MatchMethod",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "paper_id": {
+      "title": "Paper Id",
+      "type": "string"
+    },
+    "provider": {
+      "$ref": "#/$defs/CitationProvider"
+    },
+    "external_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "External Id"
+    },
+    "status": {
+      "$ref": "#/$defs/BindingStatus"
+    },
+    "method": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/MatchMethod"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "confidence": {
+      "anyOf": [
+        {
+          "maximum": 1,
+          "minimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Confidence"
+    },
+    "selected_candidate": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/CandidateEvidence"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "rejected_candidates": {
+      "items": {
+        "$ref": "#/$defs/CandidateEvidence"
+      },
+      "title": "Rejected Candidates",
+      "type": "array"
+    },
+    "related_version_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Related Version Ids",
+      "type": "array"
+    },
+    "verified_by": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Verified By"
+    },
+    "verified_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Verified At"
+    },
+    "override_reason": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Override Reason"
+    },
+    "review_notes": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Review Notes"
+    }
+  },
+  "required": [
+    "paper_id",
+    "provider",
+    "status"
+  ],
+  "title": "ProviderBinding",
+  "type": "object"
+}

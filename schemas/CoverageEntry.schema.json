@@ -1,0 +1,50 @@
+{
+  "$defs": {
+    "CoverageStatus": {
+      "enum": [
+        "verified",
+        "partial",
+        "no_core_award_confirmed",
+        "unresolved"
+      ],
+      "title": "CoverageStatus",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "edition_id": {
+      "title": "Edition Id",
+      "type": "string"
+    },
+    "status": {
+      "$ref": "#/$defs/CoverageStatus"
+    },
+    "source_urls": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Source Urls",
+      "type": "array"
+    },
+    "notes": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Notes"
+    }
+  },
+  "required": [
+    "edition_id",
+    "status",
+    "source_urls"
+  ],
+  "title": "CoverageEntry",
+  "type": "object"
+}

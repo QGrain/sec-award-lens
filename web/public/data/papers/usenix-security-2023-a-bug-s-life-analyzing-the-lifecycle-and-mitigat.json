@@ -1,0 +1,172 @@
+{
+  "awards": [
+    {
+      "edition_id": "usenix-security-2023",
+      "id": "usenix-security-2023-a-bug-s-life-analyzing-the-lifecycle-and-mitigat-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d",
+        "parser_version": "2023.1",
+        "retrieved_at": "2026-08-07T18:34:37Z",
+        "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+      },
+      "paper_id": "usenix-security-2023-a-bug-s-life-analyzing-the-lifecycle-and-mitigat",
+      "raw_authors": "Gertjan Franken, Tom Van Goethem, Lieven Desmet, and Wouter Joosen, imec-DistriNet, KU Leuven",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "A Bug's Life: Analyzing the Lifecycle and Mitigation Process of Content Security Policy Bugs"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 0.98,
+      "external_id": "W7064508335",
+      "method": "manual_override",
+      "override_reason": "Exact title, author, and year agreement with the official USENIX record; OpenAlex exposes a repository or preprint entity rather than a venue-tagged proceedings record.",
+      "paper_id": "usenix-security-2023-a-bug-s-life-analyzing-the-lifecycle-and-mitigat",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": null,
+      "selected_candidate": {
+        "author_overlap": 0.0,
+        "doi": null,
+        "external_id": "W7064508335",
+        "publication_year": 2023,
+        "title": "A Bug's Life: Analyzing the Lifecycle and Mitigation Process of Content Security Policy Bugs",
+        "title_similarity": 1.0,
+        "venue": "Lirias",
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-07T18:41:58Z",
+      "verified_by": "machine-assisted-bootstrap"
+    }
+  ],
+  "citation_history": {
+    "openalex": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2024
+          }
+        ],
+        "external_id": "W7064508335",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-a-bug-s-life-analyzing-the-lifecycle-and-mitigat",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W7064508335?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "317acfad3a21e43d612ea003f731f6c434a3579fd9594a17e4c68a0ad288bec6",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 1
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [
+          {
+            "display_name": "Imec the Netherlands",
+            "openalex_id": "I196972281",
+            "ror": "https://ror.org/01ezq2j76"
+          },
+          {
+            "display_name": "IMEC",
+            "openalex_id": "I4210114974",
+            "ror": "https://ror.org/02kcbn207"
+          }
+        ],
+        "author_name": "Gertjan Franken",
+        "name_similarity": 0.95,
+        "openalex_author_id": null
+      },
+      {
+        "affiliations": [],
+        "author_name": "Tom Van Goethem",
+        "name_similarity": 0.95,
+        "openalex_author_id": null
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Imec the Netherlands",
+            "openalex_id": "I196972281",
+            "ror": "https://ror.org/01ezq2j76"
+          },
+          {
+            "display_name": "IMEC",
+            "openalex_id": "I4210114974",
+            "ror": "https://ror.org/02kcbn207"
+          }
+        ],
+        "author_name": "Lieven Desmet",
+        "name_similarity": 0.95,
+        "openalex_author_id": null
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Imec the Netherlands",
+            "openalex_id": "I196972281",
+            "ror": "https://ror.org/01ezq2j76"
+          },
+          {
+            "display_name": "IMEC",
+            "openalex_id": "I4210114974",
+            "ror": "https://ror.org/02kcbn207"
+          }
+        ],
+        "author_name": "Wouter Joosen",
+        "name_similarity": 0.95,
+        "openalex_author_id": null
+      }
+    ],
+    "external_id": "W7064508335",
+    "paper_id": "usenix-security-2023-a-bug-s-life-analyzing-the-lifecycle-and-mitigat",
+    "primary_topic": {
+      "display_name": "Electromagnetic Compatibility and Measurements",
+      "openalex_id": "T11851",
+      "score": 0.0812
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-08T05:07:19Z"
+  },
+  "generated_at": "2026-08-07T18:42:52+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Gertjan Franken"
+      },
+      {
+        "name": "Tom Van Goethem"
+      },
+      {
+        "name": "Lieven Desmet"
+      },
+      {
+        "name": "Wouter Joosen"
+      }
+    ],
+    "canonical_title": "A Bug's Life: Analyzing the Lifecycle and Mitigation Process of Content Security Policy Bugs",
+    "id": "usenix-security-2023-a-bug-s-life-analyzing-the-lifecycle-and-mitigat",
+    "identifiers": [
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W7064508335",
+        "value": "W7064508335",
+        "verified_at": "2026-08-07T18:41:58Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.usenix.org/conference/usenixsecurity23/technical-sessions",
+      "https://openalex.org/W7064508335"
+    ],
+    "official_paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/franken",
+    "publication_year": 2023,
+    "venue_name": "32nd USENIX Security Symposium"
+  },
+  "schema_version": 1
+}

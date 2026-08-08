@@ -1,0 +1,26 @@
+conferences:
+- id: ieee-sp
+  name: IEEE Symposium on Security and Privacy
+  short_name: IEEE S&P
+  organizer: IEEE Computer Society
+  aliases:
+  - Oakland
+  - IEEE Security & Privacy
+- id: usenix-security
+  name: USENIX Security Symposium
+  short_name: USENIX Security
+  organizer: USENIX Association
+  aliases:
+  - USENIX Security
+- id: acm-ccs
+  name: ACM Conference on Computer and Communications Security
+  short_name: ACM CCS
+  organizer: ACM SIGSAC
+  aliases:
+  - CCS
+- id: ndss
+  name: Network and Distributed System Security Symposium
+  short_name: NDSS
+  organizer: Internet Society
+  aliases:
+  - NDSS Symposium

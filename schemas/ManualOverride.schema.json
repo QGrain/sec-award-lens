@@ -1,0 +1,56 @@
+{
+  "$defs": {
+    "CitationProvider": {
+      "enum": [
+        "openalex",
+        "semantic_scholar"
+      ],
+      "title": "CitationProvider",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "paper_id": {
+      "title": "Paper Id",
+      "type": "string"
+    },
+    "provider": {
+      "$ref": "#/$defs/CitationProvider"
+    },
+    "external_id": {
+      "title": "External Id",
+      "type": "string"
+    },
+    "reason": {
+      "title": "Reason",
+      "type": "string"
+    },
+    "verified_by": {
+      "title": "Verified By",
+      "type": "string"
+    },
+    "verified_at": {
+      "format": "date-time",
+      "title": "Verified At",
+      "type": "string"
+    },
+    "evidence_urls": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Evidence Urls",
+      "type": "array"
+    }
+  },
+  "required": [
+    "paper_id",
+    "provider",
+    "external_id",
+    "reason",
+    "verified_by",
+    "verified_at"
+  ],
+  "title": "ManualOverride",
+  "type": "object"
+}

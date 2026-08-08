@@ -1,0 +1,134 @@
+{
+  "awards": [
+    {
+      "edition_id": "usenix-security-2023",
+      "id": "usenix-security-2023-ethical-frameworks-and-computer-security-trolley-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d",
+        "parser_version": "2023.1",
+        "retrieved_at": "2026-08-07T18:34:37Z",
+        "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+      },
+      "paper_id": "usenix-security-2023-ethical-frameworks-and-computer-security-trolley",
+      "raw_authors": "Tadayoshi Kohno, University of Washington; Yasemin Acar, Paderborn University & George Washington University; Wulf Loh, Universität Tübingen",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "Ethical Frameworks and Computer Security Trolley Problems: Foundations for Conversations"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 0.98,
+      "external_id": "W4322759797",
+      "method": "manual_override",
+      "override_reason": "Exact title, author, and year agreement with the official USENIX record; OpenAlex exposes a repository or preprint entity rather than a venue-tagged proceedings record.",
+      "paper_id": "usenix-security-2023-ethical-frameworks-and-computer-security-trolley",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": null,
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.48550/arxiv.2302.14326",
+        "external_id": "W4322759797",
+        "publication_year": 2023,
+        "title": "Ethical Frameworks and Computer Security Trolley Problems: Foundations for Conversations",
+        "title_similarity": 1.0,
+        "venue": "arXiv (Cornell University)",
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-07T18:41:58Z",
+      "verified_by": "machine-assisted-bootstrap"
+    }
+  ],
+  "citation_history": {
+    "openalex": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 4,
+            "year": 2024
+          },
+          {
+            "count": 1,
+            "year": 2026
+          }
+        ],
+        "external_id": "W4322759797",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-ethical-frameworks-and-computer-security-trolley",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-06T08:24:18.245995",
+        "request_fingerprint": "GET /works/W4322759797?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "26a5244b34ac8667f9b0bffde4989ec38c104bee26d4c326f6d8c1fc89f5c775",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 5
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [],
+        "author_name": "Tadayoshi Kohno",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5026130910"
+      },
+      {
+        "affiliations": [],
+        "author_name": "Yasemin Acar",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5074668699"
+      },
+      {
+        "affiliations": [],
+        "author_name": "Wulf Loh",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5020552487"
+      }
+    ],
+    "external_id": "W4322759797",
+    "paper_id": "usenix-security-2023-ethical-frameworks-and-computer-security-trolley",
+    "primary_topic": {
+      "display_name": "Information and Cyber Security",
+      "openalex_id": "T10734",
+      "score": 0.9964
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-08T05:07:19Z"
+  },
+  "generated_at": "2026-08-07T18:42:52+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Tadayoshi Kohno"
+      },
+      {
+        "name": "Yasemin Acar"
+      },
+      {
+        "name": "Wulf Loh"
+      }
+    ],
+    "canonical_title": "Ethical Frameworks and Computer Security Trolley Problems: Foundations for Conversations",
+    "id": "usenix-security-2023-ethical-frameworks-and-computer-security-trolley",
+    "identifiers": [
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W4322759797",
+        "value": "W4322759797",
+        "verified_at": "2026-08-07T18:41:58Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.usenix.org/conference/usenixsecurity23/technical-sessions",
+      "https://openalex.org/W4322759797"
+    ],
+    "official_paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/kohno",
+    "publication_year": 2023,
+    "venue_name": "32nd USENIX Security Symposium"
+  },
+  "schema_version": 1
+}

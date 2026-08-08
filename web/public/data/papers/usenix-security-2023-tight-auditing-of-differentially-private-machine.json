@@ -1,0 +1,183 @@
+{
+  "awards": [
+    {
+      "edition_id": "usenix-security-2023",
+      "id": "usenix-security-2023-tight-auditing-of-differentially-private-machine-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d",
+        "parser_version": "2023.1",
+        "retrieved_at": "2026-08-07T18:34:37Z",
+        "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+      },
+      "paper_id": "usenix-security-2023-tight-auditing-of-differentially-private-machine",
+      "raw_authors": "Milad Nasr, Jamie Hayes, Thomas Steinke, and Borja Balle, Google DeepMind; Florian Tramèr, ETH Zurich; Matthew Jagielski, Nicholas Carlini, and Andreas Terzis, Google DeepMind",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "Tight Auditing of Differentially Private Machine Learning"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 0.98,
+      "external_id": "W4321276312",
+      "method": "manual_override",
+      "override_reason": "Exact title, author, and year agreement with the official USENIX record; OpenAlex exposes a repository or preprint entity rather than a venue-tagged proceedings record.",
+      "paper_id": "usenix-security-2023-tight-auditing-of-differentially-private-machine",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": null,
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.48550/arxiv.2302.07956",
+        "external_id": "W4321276312",
+        "publication_year": 2023,
+        "title": "Tight Auditing of Differentially Private Machine Learning",
+        "title_similarity": 1.0,
+        "venue": "arXiv (Cornell University)",
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-07T18:41:58Z",
+      "verified_by": "machine-assisted-bootstrap"
+    }
+  ],
+  "citation_history": {
+    "openalex": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 4,
+            "year": 2023
+          },
+          {
+            "count": 6,
+            "year": 2024
+          },
+          {
+            "count": 4,
+            "year": 2025
+          }
+        ],
+        "external_id": "W4321276312",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-tight-auditing-of-differentially-private-machine",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-28T07:46:37.118299",
+        "request_fingerprint": "GET /works/W4321276312?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "b3db714844935f0c4c52bb063cb80091e8917647ce7b751dccacb3d5432eb428",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 14
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [],
+        "author_name": "Milad Nasr",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5059480732"
+      },
+      {
+        "affiliations": [],
+        "author_name": "Jamie Hayes",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5104083546"
+      },
+      {
+        "affiliations": [],
+        "author_name": "Thomas Steinke",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5090438638"
+      },
+      {
+        "affiliations": [],
+        "author_name": "Borja Balle",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5085679401"
+      },
+      {
+        "affiliations": [],
+        "author_name": "Florian Tramèr",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5006851333"
+      },
+      {
+        "affiliations": [],
+        "author_name": "Matthew Jagielski",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5054655342"
+      },
+      {
+        "affiliations": [],
+        "author_name": "Nicholas Carlini",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5034257647"
+      },
+      {
+        "affiliations": [],
+        "author_name": "Andreas Terzis",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5103331911"
+      }
+    ],
+    "external_id": "W4321276312",
+    "paper_id": "usenix-security-2023-tight-auditing-of-differentially-private-machine",
+    "primary_topic": {
+      "display_name": "Privacy-Preserving Technologies in Data",
+      "openalex_id": "T10764",
+      "score": 0.9998
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-08T05:07:19Z"
+  },
+  "generated_at": "2026-08-07T18:42:52+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Milad Nasr"
+      },
+      {
+        "name": "Jamie Hayes"
+      },
+      {
+        "name": "Thomas Steinke"
+      },
+      {
+        "name": "Borja Balle"
+      },
+      {
+        "name": "Florian Tramèr"
+      },
+      {
+        "name": "Matthew Jagielski"
+      },
+      {
+        "name": "Nicholas Carlini"
+      },
+      {
+        "name": "Andreas Terzis"
+      }
+    ],
+    "canonical_title": "Tight Auditing of Differentially Private Machine Learning",
+    "id": "usenix-security-2023-tight-auditing-of-differentially-private-machine",
+    "identifiers": [
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W4321276312",
+        "value": "W4321276312",
+        "verified_at": "2026-08-07T18:41:58Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.usenix.org/conference/usenixsecurity23/technical-sessions",
+      "https://openalex.org/W4321276312"
+    ],
+    "official_paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/nasr",
+    "publication_year": 2023,
+    "venue_name": "32nd USENIX Security Symposium"
+  },
+  "schema_version": 1
+}

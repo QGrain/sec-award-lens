@@ -1,0 +1,85 @@
+{
+  "citation_sources": [
+    "openalex"
+  ],
+  "conferences": [
+    {
+      "aliases": [
+        "Oakland",
+        "IEEE Security & Privacy"
+      ],
+      "id": "ieee-sp",
+      "name": "IEEE Symposium on Security and Privacy",
+      "organizer": "IEEE Computer Society",
+      "short_name": "IEEE S&P"
+    },
+    {
+      "aliases": [
+        "USENIX Security"
+      ],
+      "id": "usenix-security",
+      "name": "USENIX Security Symposium",
+      "organizer": "USENIX Association",
+      "short_name": "USENIX Security"
+    },
+    {
+      "aliases": [
+        "CCS"
+      ],
+      "id": "acm-ccs",
+      "name": "ACM Conference on Computer and Communications Security",
+      "organizer": "ACM SIGSAC",
+      "short_name": "ACM CCS"
+    },
+    {
+      "aliases": [
+        "NDSS Symposium"
+      ],
+      "id": "ndss",
+      "name": "Network and Distributed System Security Symposium",
+      "organizer": "Internet Society",
+      "short_name": "NDSS"
+    }
+  ],
+  "coverage": [
+    {
+      "edition_id": "ieee-sp-2023",
+      "notes": "Official page contains 12 core Distinguished Paper Award records; independent maintainer row-by-row sign-off is pending.",
+      "source_urls": [
+        "https://www.ieee-security.org/TC/SP2023/program-awards.html"
+      ],
+      "status": "verified"
+    },
+    {
+      "edition_id": "usenix-security-2023",
+      "notes": "Official page contains 16 core Distinguished Paper Award records; entity review is the highest-priority manual follow-up.",
+      "source_urls": [
+        "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+      ],
+      "status": "verified"
+    },
+    {
+      "edition_id": "acm-ccs-2023",
+      "notes": "Official page contains 17 core Distinguished Paper Award records; malformed source HTML requires a visual sign-off.",
+      "source_urls": [
+        "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html"
+      ],
+      "status": "verified"
+    },
+    {
+      "edition_id": "ndss-2023",
+      "notes": "Official main-symposium page explicitly contains 2 Distinguished Paper Award records; poster and co-located workshop awards are excluded.",
+      "source_urls": [
+        "https://www.ndss-symposium.org/ndss2023/"
+      ],
+      "status": "verified"
+    }
+  ],
+  "default_year": 2023,
+  "generated_at": "2026-08-07T18:42:52+00:00",
+  "methodology_url": "#/methodology",
+  "schema_version": 1,
+  "years": [
+    2023
+  ]
+}

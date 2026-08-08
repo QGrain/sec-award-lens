@@ -1,0 +1,183 @@
+{
+  "awards": [
+    {
+      "edition_id": "usenix-security-2023",
+      "id": "usenix-security-2023-bug-hunters-perspectives-on-the-challenges-and-b-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d",
+        "parser_version": "2023.1",
+        "retrieved_at": "2026-08-07T18:34:37Z",
+        "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+      },
+      "paper_id": "usenix-security-2023-bug-hunters-perspectives-on-the-challenges-and-b",
+      "raw_authors": "Omer Akgul, University of Maryland; Taha Eghtesad, Pennsylvania State University; Amit Elazari, University of California, Berkeley; Omprakash Gnawali, University of Houston; Jens Grossklags, Technical University of Munich; Michelle L. Mazurek, University of Maryland; Daniel Votipka, Tufts University; Aron Laszka, Pennsylvania State University",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "Bug Hunters’ Perspectives on the Challenges and Benefits of the Bug Bounty Ecosystem"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 0.98,
+      "external_id": "W4316116706",
+      "method": "manual_override",
+      "override_reason": "Exact title, author, and year agreement with the official USENIX record; OpenAlex exposes a repository or preprint entity rather than a venue-tagged proceedings record.",
+      "paper_id": "usenix-security-2023-bug-hunters-perspectives-on-the-challenges-and-b",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": null,
+      "selected_candidate": {
+        "author_overlap": 0.75,
+        "doi": "10.48550/arxiv.2301.04781",
+        "external_id": "W4316116706",
+        "publication_year": 2023,
+        "title": "Bug Hunters' Perspectives on the Challenges and Benefits of the Bug Bounty Ecosystem",
+        "title_similarity": 1.0,
+        "venue": "arXiv (Cornell University)",
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-07T18:41:58Z",
+      "verified_by": "machine-assisted-bootstrap"
+    }
+  ],
+  "citation_history": {
+    "openalex": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 4,
+            "year": 2023
+          },
+          {
+            "count": 4,
+            "year": 2024
+          },
+          {
+            "count": 3,
+            "year": 2025
+          }
+        ],
+        "external_id": "W4316116706",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-bug-hunters-perspectives-on-the-challenges-and-b",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-06T08:24:18.245995",
+        "request_fingerprint": "GET /works/W4316116706?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "1c8fbb66ce7cad589439612f8dc60d5c610eeb6e084b2f95b687ac2ee8021342",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 11
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [],
+        "author_name": "Omer Akgul",
+        "name_similarity": 0.8,
+        "openalex_author_id": "A5071360648"
+      },
+      {
+        "affiliations": [],
+        "author_name": "Taha Eghtesad",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5076718386"
+      },
+      {
+        "affiliations": [],
+        "author_name": "Amit Elazari",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5077155459"
+      },
+      {
+        "affiliations": [],
+        "author_name": "Omprakash Gnawali",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5056178417"
+      },
+      {
+        "affiliations": [],
+        "author_name": "Jens Grossklags",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5063714878"
+      },
+      {
+        "affiliations": [],
+        "author_name": "Michelle L. Mazurek",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5105206771"
+      },
+      {
+        "affiliations": [],
+        "author_name": "Daniel Votipka",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5068333184"
+      },
+      {
+        "affiliations": [],
+        "author_name": "Aron Laszka",
+        "name_similarity": 0.8182,
+        "openalex_author_id": "A5049435924"
+      }
+    ],
+    "external_id": "W4316116706",
+    "paper_id": "usenix-security-2023-bug-hunters-perspectives-on-the-challenges-and-b",
+    "primary_topic": {
+      "display_name": "Open Source Software Innovations",
+      "openalex_id": "T11675",
+      "score": 0.9976
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-08T05:07:19Z"
+  },
+  "generated_at": "2026-08-07T18:42:52+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Omer Akgul"
+      },
+      {
+        "name": "Taha Eghtesad"
+      },
+      {
+        "name": "Amit Elazari"
+      },
+      {
+        "name": "Omprakash Gnawali"
+      },
+      {
+        "name": "Jens Grossklags"
+      },
+      {
+        "name": "Michelle L. Mazurek"
+      },
+      {
+        "name": "Daniel Votipka"
+      },
+      {
+        "name": "Aron Laszka"
+      }
+    ],
+    "canonical_title": "Bug Hunters’ Perspectives on the Challenges and Benefits of the Bug Bounty Ecosystem",
+    "id": "usenix-security-2023-bug-hunters-perspectives-on-the-challenges-and-b",
+    "identifiers": [
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W4316116706",
+        "value": "W4316116706",
+        "verified_at": "2026-08-07T18:41:58Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.usenix.org/conference/usenixsecurity23/technical-sessions",
+      "https://openalex.org/W4316116706"
+    ],
+    "official_paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/akgul",
+    "publication_year": 2023,
+    "venue_name": "32nd USENIX Security Symposium"
+  },
+  "schema_version": 1
+}

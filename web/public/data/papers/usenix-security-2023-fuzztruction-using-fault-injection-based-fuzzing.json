@@ -1,0 +1,180 @@
+{
+  "awards": [
+    {
+      "edition_id": "usenix-security-2023",
+      "id": "usenix-security-2023-fuzztruction-using-fault-injection-based-fuzzing-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d",
+        "parser_version": "2023.1",
+        "retrieved_at": "2026-08-07T18:34:37Z",
+        "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+      },
+      "paper_id": "usenix-security-2023-fuzztruction-using-fault-injection-based-fuzzing",
+      "raw_authors": "Nils Bars, Moritz Schloegel, Tobias Scharnowski, and Nico Schiller, Ruhr-Universität Bochum; Thorsten Holz, CISPA Helmholtz Center for Information Security",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "Fuzztruction: Using Fault Injection-based Fuzzing to Leverage Implicit Domain Knowledge"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 0.98,
+      "external_id": "W6902390121",
+      "method": "manual_override",
+      "override_reason": "Exact title, author, and year agreement with the official USENIX record; OpenAlex exposes a repository or preprint entity rather than a venue-tagged proceedings record.",
+      "paper_id": "usenix-security-2023-fuzztruction-using-fault-injection-based-fuzzing",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [
+        "W6940245090"
+      ],
+      "review_notes": null,
+      "selected_candidate": {
+        "author_overlap": 0.0,
+        "doi": "10.60882/cispa.24614589.v1",
+        "external_id": "W6902390121",
+        "publication_year": 2023,
+        "title": "Fuzztruction: Using Fault Injection-based Fuzzing to Leverage Implicit Domain Knowledge",
+        "title_similarity": 1.0,
+        "venue": "Figshare",
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-07T18:41:58Z",
+      "verified_by": "machine-assisted-bootstrap"
+    }
+  ],
+  "citation_history": {
+    "openalex": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 5,
+            "year": 2024
+          },
+          {
+            "count": 1,
+            "year": 2025
+          }
+        ],
+        "external_id": "W6902390121",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-fuzztruction-using-fault-injection-based-fuzzing",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-15T18:14:33.161393",
+        "request_fingerprint": "GET /works/W6902390121?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "c1070bf007614748d1ac2c193389d20813b736e7cfbdb53033bcf23421904443",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 6
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [
+          {
+            "display_name": "Helmholtz Center for Information Security",
+            "openalex_id": "I4210128801",
+            "ror": "https://ror.org/02njgxr09"
+          }
+        ],
+        "author_name": "Nils Bars",
+        "name_similarity": 0.95,
+        "openalex_author_id": null
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Helmholtz Center for Information Security",
+            "openalex_id": "I4210128801",
+            "ror": "https://ror.org/02njgxr09"
+          }
+        ],
+        "author_name": "Moritz Schloegel",
+        "name_similarity": 0.95,
+        "openalex_author_id": null
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Helmholtz Center for Information Security",
+            "openalex_id": "I4210128801",
+            "ror": "https://ror.org/02njgxr09"
+          }
+        ],
+        "author_name": "Tobias Scharnowski",
+        "name_similarity": 0.95,
+        "openalex_author_id": null
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Helmholtz Center for Information Security",
+            "openalex_id": "I4210128801",
+            "ror": "https://ror.org/02njgxr09"
+          }
+        ],
+        "author_name": "Nico Schiller",
+        "name_similarity": 0.95,
+        "openalex_author_id": null
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Helmholtz Center for Information Security",
+            "openalex_id": "I4210128801",
+            "ror": "https://ror.org/02njgxr09"
+          }
+        ],
+        "author_name": "Thorsten Holz",
+        "name_similarity": 0.95,
+        "openalex_author_id": null
+      }
+    ],
+    "external_id": "W6902390121",
+    "paper_id": "usenix-security-2023-fuzztruction-using-fault-injection-based-fuzzing",
+    "primary_topic": null,
+    "provider": "openalex",
+    "retrieved_at": "2026-08-08T05:07:19Z"
+  },
+  "generated_at": "2026-08-07T18:42:52+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Nils Bars"
+      },
+      {
+        "name": "Moritz Schloegel"
+      },
+      {
+        "name": "Tobias Scharnowski"
+      },
+      {
+        "name": "Nico Schiller"
+      },
+      {
+        "name": "Thorsten Holz"
+      }
+    ],
+    "canonical_title": "Fuzztruction: Using Fault Injection-based Fuzzing to Leverage Implicit Domain Knowledge",
+    "id": "usenix-security-2023-fuzztruction-using-fault-injection-based-fuzzing",
+    "identifiers": [
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W6902390121",
+        "value": "W6902390121",
+        "verified_at": "2026-08-07T18:41:58Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.usenix.org/conference/usenixsecurity23/technical-sessions",
+      "https://openalex.org/W6902390121"
+    ],
+    "official_paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/bars",
+    "publication_year": 2023,
+    "venue_name": "32nd USENIX Security Symposium"
+  },
+  "schema_version": 1
+}

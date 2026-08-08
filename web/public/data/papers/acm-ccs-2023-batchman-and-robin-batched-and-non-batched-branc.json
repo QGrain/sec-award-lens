@@ -1,0 +1,186 @@
+{
+  "awards": [
+    {
+      "edition_id": "acm-ccs-2023",
+      "id": "acm-ccs-2023-batchman-and-robin-batched-and-non-batched-branc-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "4486d199b2588ab0234106fe32a18c54d50b58b64098d2b2cb677ea07eed0240",
+        "parser_version": "2023.1",
+        "retrieved_at": "2026-08-07T18:34:37Z",
+        "url": "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html"
+      },
+      "paper_id": "acm-ccs-2023-batchman-and-robin-batched-and-non-batched-branc",
+      "raw_authors": "Yibin Yang, David Heath, Carmit Hazay, Vladimir Kolesnikov, and Muthuramakrishnan Venkitasubramaniam",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "Batchman and Robin: Batched and Non-batched Branching for Interactive ZK"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 1.0,
+      "external_id": "W4388867328",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "acm-ccs-2023-batchman-and-robin-batched-and-non-batched-branc",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": null,
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1145/3576915.3623169",
+        "external_id": "W4388867328",
+        "publication_year": 2023,
+        "title": "Batchman and Robin: Batched and Non-batched Branching for Interactive ZK",
+        "title_similarity": 1.0,
+        "venue": null,
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-07T18:41:58Z",
+      "verified_by": "SecAwardLens pipeline"
+    }
+  ],
+  "citation_history": {
+    "openalex": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2023
+          },
+          {
+            "count": 5,
+            "year": 2024
+          },
+          {
+            "count": 9,
+            "year": 2025
+          }
+        ],
+        "external_id": "W4388867328",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-batchman-and-robin-batched-and-non-batched-branc",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-06T08:24:18.245995",
+        "request_fingerprint": "GET /works/W4388867328?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "8fd7388dce94b3c1c3f063e6b88902c79cf634251abdc4d343f4d3c1b106a4d8",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 15
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [
+          {
+            "display_name": "Georgia Institute of Technology",
+            "openalex_id": "I130701444",
+            "ror": "https://ror.org/01zkghx44"
+          }
+        ],
+        "author_name": "Yibin Yang",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5072583940"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "University of Illinois Urbana-Champaign",
+            "openalex_id": "I157725225",
+            "ror": "https://ror.org/047426m28"
+          }
+        ],
+        "author_name": "David Heath",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5000985250"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Bar-Ilan University",
+            "openalex_id": "I13955877",
+            "ror": "https://ror.org/03kgsv495"
+          }
+        ],
+        "author_name": "Carmit Hazay",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5003565582"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Georgia Institute of Technology",
+            "openalex_id": "I130701444",
+            "ror": "https://ror.org/01zkghx44"
+          }
+        ],
+        "author_name": "Vladimir Kolesnikov",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5016189854"
+      },
+      {
+        "affiliations": [],
+        "author_name": "Muthuramakrishnan Venkitasubramaniam",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5087774653"
+      }
+    ],
+    "external_id": "W4388867328",
+    "paper_id": "acm-ccs-2023-batchman-and-robin-batched-and-non-batched-branc",
+    "primary_topic": {
+      "display_name": "Cryptography and Data Security",
+      "openalex_id": "T10237",
+      "score": 1.0
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-08T05:07:19Z"
+  },
+  "generated_at": "2026-08-07T18:42:52+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Yibin Yang"
+      },
+      {
+        "name": "David Heath"
+      },
+      {
+        "name": "Carmit Hazay"
+      },
+      {
+        "name": "Vladimir Kolesnikov"
+      },
+      {
+        "name": "Muthuramakrishnan Venkitasubramaniam"
+      }
+    ],
+    "canonical_title": "Batchman and Robin: Batched and Non-batched Branching for Interactive ZK",
+    "id": "acm-ccs-2023-batchman-and-robin-batched-and-non-batched-branc",
+    "identifiers": [
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W4388867328",
+        "value": "W4388867328",
+        "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "doi",
+        "source_url": "https://api.crossref.org/works/10.1145/3576915.3623169",
+        "value": "10.1145/3576915.3623169",
+        "verified_at": "2026-08-07T18:41:58Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html",
+      "https://openalex.org/W4388867328"
+    ],
+    "official_paper_url": null,
+    "publication_year": 2023,
+    "venue_name": "2023 ACM SIGSAC Conference on Computer and Communications Security"
+  },
+  "schema_version": 1
+}

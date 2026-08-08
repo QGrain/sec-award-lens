@@ -1,0 +1,181 @@
+{
+  "awards": [
+    {
+      "edition_id": "acm-ccs-2023",
+      "id": "acm-ccs-2023-stealing-the-decoding-algorithms-of-language-mod-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "4486d199b2588ab0234106fe32a18c54d50b58b64098d2b2cb677ea07eed0240",
+        "parser_version": "2023.1",
+        "retrieved_at": "2026-08-07T18:34:37Z",
+        "url": "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html"
+      },
+      "paper_id": "acm-ccs-2023-stealing-the-decoding-algorithms-of-language-mod",
+      "raw_authors": "Ali Naseh, Kalpesh Krishna, Mohit Iyyer, and Amir Houmansadr",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "Stealing the Decoding Algorithms of Language Models"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 1.0,
+      "external_id": "W4388858191",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "acm-ccs-2023-stealing-the-decoding-algorithms-of-language-mod",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": null,
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1145/3576915.3616652",
+        "external_id": "W4388858191",
+        "publication_year": 2023,
+        "title": "Stealing the Decoding Algorithms of Language Models",
+        "title_similarity": 1.0,
+        "venue": null,
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-07T18:41:58Z",
+      "verified_by": "SecAwardLens pipeline"
+    }
+  ],
+  "citation_history": {
+    "openalex": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2023
+          },
+          {
+            "count": 6,
+            "year": 2024
+          },
+          {
+            "count": 4,
+            "year": 2025
+          },
+          {
+            "count": 4,
+            "year": 2026
+          }
+        ],
+        "external_id": "W4388858191",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-stealing-the-decoding-algorithms-of-language-mod",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-31T08:31:51.225901",
+        "request_fingerprint": "GET /works/W4388858191?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "e75b249ae3f377015920deae74edea5e2f0d695e27ea2b55a2eb7ca300ecf0b7",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 15
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [
+          {
+            "display_name": "University of Massachusetts Amherst",
+            "openalex_id": "I24603500",
+            "ror": "https://ror.org/0072zz521"
+          }
+        ],
+        "author_name": "Ali Naseh",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5056428623"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "University of Massachusetts Amherst",
+            "openalex_id": "I24603500",
+            "ror": "https://ror.org/0072zz521"
+          }
+        ],
+        "author_name": "Kalpesh Krishna",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5078893115"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "University of Massachusetts Amherst",
+            "openalex_id": "I24603500",
+            "ror": "https://ror.org/0072zz521"
+          }
+        ],
+        "author_name": "Mohit Iyyer",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5082767919"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "University of Massachusetts Amherst",
+            "openalex_id": "I24603500",
+            "ror": "https://ror.org/0072zz521"
+          }
+        ],
+        "author_name": "Amir Houmansadr",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5018588864"
+      }
+    ],
+    "external_id": "W4388858191",
+    "paper_id": "acm-ccs-2023-stealing-the-decoding-algorithms-of-language-mod",
+    "primary_topic": {
+      "display_name": "Adversarial Robustness in Machine Learning",
+      "openalex_id": "T11689",
+      "score": 0.9981
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-08T05:07:19Z"
+  },
+  "generated_at": "2026-08-07T18:42:52+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Ali Naseh"
+      },
+      {
+        "name": "Kalpesh Krishna"
+      },
+      {
+        "name": "Mohit Iyyer"
+      },
+      {
+        "name": "Amir Houmansadr"
+      }
+    ],
+    "canonical_title": "Stealing the Decoding Algorithms of Language Models",
+    "id": "acm-ccs-2023-stealing-the-decoding-algorithms-of-language-mod",
+    "identifiers": [
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W4388858191",
+        "value": "W4388858191",
+        "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "doi",
+        "source_url": "https://api.crossref.org/works/10.1145/3576915.3616652",
+        "value": "10.1145/3576915.3616652",
+        "verified_at": "2026-08-07T18:41:58Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html",
+      "https://openalex.org/W4388858191"
+    ],
+    "official_paper_url": null,
+    "publication_year": 2023,
+    "venue_name": "2023 ACM SIGSAC Conference on Computer and Communications Security"
+  },
+  "schema_version": 1
+}

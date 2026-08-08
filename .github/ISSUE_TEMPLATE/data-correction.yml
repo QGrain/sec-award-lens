@@ -1,0 +1,38 @@
+name: Data correction
+description: Report an award, paper identity, provenance, or citation issue.
+title: "data: "
+labels: [data]
+body:
+  - type: input
+    id: paper
+    attributes:
+      label: Paper or edition
+      description: Give the SecAwardLens paper ID, title, or conference-year.
+    validations:
+      required: true
+  - type: dropdown
+    id: issue
+    attributes:
+      label: Issue type
+      options:
+        - Official award record
+        - Paper metadata
+        - DOI or provider binding
+        - Citation observation
+        - Other data issue
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Supporting source URL
+      description: Prefer a conference, publisher, DOI, or provider record.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Explain the current value, proposed correction, and why the source supports it.
+    validations:
+      required: true

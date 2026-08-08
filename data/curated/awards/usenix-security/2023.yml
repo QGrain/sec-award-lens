@@ -1,0 +1,193 @@
+awards:
+- id: usenix-security-2023-botscreen-trust-everybody-but-cut-the-aimbots-yo-award
+  edition_id: usenix-security-2023
+  paper_id: usenix-security-2023-botscreen-trust-everybody-but-cut-the-aimbots-yo
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+    retrieved_at: '2026-08-07T18:34:37Z'
+    content_sha256: bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d
+    parser_version: '2023.1'
+  raw_title: 'BotScreen: Trust Everybody, but Cut the Aimbots Yourself'
+  raw_authors: Minyeop Choi, KAIST; Gihyuk Ko, Cyber Security Research Center at KAIST and Carnegie Mellon University; Sang Kil Cha, KAIST and Cyber Security Research Center at KAIST
+- id: usenix-security-2023-treesync-authenticated-group-management-for-mess-award
+  edition_id: usenix-security-2023
+  paper_id: usenix-security-2023-treesync-authenticated-group-management-for-mess
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+    retrieved_at: '2026-08-07T18:34:37Z'
+    content_sha256: bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d
+    parser_version: '2023.1'
+  raw_title: 'TreeSync: Authenticated Group Management for Messaging Layer Security'
+  raw_authors: Théophile Wallez, Inria Paris; Jonathan Protzenko, Microsoft Research; Benjamin Beurdouche, Mozilla; Karthikeyan Bhargavan, Inria Paris
+- id: usenix-security-2023-tight-auditing-of-differentially-private-machine-award
+  edition_id: usenix-security-2023
+  paper_id: usenix-security-2023-tight-auditing-of-differentially-private-machine
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+    retrieved_at: '2026-08-07T18:34:37Z'
+    content_sha256: bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d
+    parser_version: '2023.1'
+  raw_title: Tight Auditing of Differentially Private Machine Learning
+  raw_authors: Milad Nasr, Jamie Hayes, Thomas Steinke, and Borja Balle, Google DeepMind; Florian Tramèr, ETH Zurich; Matthew Jagielski, Nicholas Carlini, and Andreas Terzis, Google DeepMind
+- id: usenix-security-2023-fuzztruction-using-fault-injection-based-fuzzing-award
+  edition_id: usenix-security-2023
+  paper_id: usenix-security-2023-fuzztruction-using-fault-injection-based-fuzzing
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+    retrieved_at: '2026-08-07T18:34:37Z'
+    content_sha256: bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d
+    parser_version: '2023.1'
+  raw_title: 'Fuzztruction: Using Fault Injection-based Fuzzing to Leverage Implicit Domain Knowledge'
+  raw_authors: Nils Bars, Moritz Schloegel, Tobias Scharnowski, and Nico Schiller, Ruhr-Universität Bochum; Thorsten Holz, CISPA Helmholtz Center for Information Security
+- id: usenix-security-2023-glaze-protecting-artists-from-style-mimicry-by-t-award
+  edition_id: usenix-security-2023
+  paper_id: usenix-security-2023-glaze-protecting-artists-from-style-mimicry-by-t
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+    retrieved_at: '2026-08-07T18:34:37Z'
+    content_sha256: bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d
+    parser_version: '2023.1'
+  raw_title: 'Glaze: Protecting Artists from Style Mimicry by Text-to-Image Models'
+  raw_authors: Shawn Shan, Jenna Cryan, Emily Wenger, Haitao Zheng, Rana Hanocka, and Ben Y. Zhao, University of Chicago
+- id: usenix-security-2023-bug-hunters-perspectives-on-the-challenges-and-b-award
+  edition_id: usenix-security-2023
+  paper_id: usenix-security-2023-bug-hunters-perspectives-on-the-challenges-and-b
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+    retrieved_at: '2026-08-07T18:34:37Z'
+    content_sha256: bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d
+    parser_version: '2023.1'
+  raw_title: Bug Hunters’ Perspectives on the Challenges and Benefits of the Bug Bounty Ecosystem
+  raw_authors: Omer Akgul, University of Maryland; Taha Eghtesad, Pennsylvania State University; Amit Elazari, University of California, Berkeley; Omprakash Gnawali, University of Houston; Jens Grossklags, Technical University of Munich; Michelle L. Mazurek, University of Maryland; Daniel Votipka, Tufts University; Aron Laszka, Pennsylvania State University
+- id: usenix-security-2023-account-security-interfaces-important-unintuitiv-award
+  edition_id: usenix-security-2023
+  paper_id: usenix-security-2023-account-security-interfaces-important-unintuitiv
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+    retrieved_at: '2026-08-07T18:34:37Z'
+    content_sha256: bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d
+    parser_version: '2023.1'
+  raw_title: 'Account Security Interfaces: Important, Unintuitive, and Untrustworthy'
+  raw_authors: Alaa Daffalla and Marina Bohuk, Cornell University; Nicola Dell, Jacobs Institute Cornell Tech; Rosanna Bellini, Cornell University; Thomas Ristenpart, Cornell Tech
+- id: usenix-security-2023-a-bug-s-life-analyzing-the-lifecycle-and-mitigat-award
+  edition_id: usenix-security-2023
+  paper_id: usenix-security-2023-a-bug-s-life-analyzing-the-lifecycle-and-mitigat
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+    retrieved_at: '2026-08-07T18:34:37Z'
+    content_sha256: bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d
+    parser_version: '2023.1'
+  raw_title: 'A Bug''s Life: Analyzing the Lifecycle and Mitigation Process of Content Security Policy Bugs'
+  raw_authors: Gertjan Franken, Tom Van Goethem, Lieven Desmet, and Wouter Joosen, imec-DistriNet, KU Leuven
+- id: usenix-security-2023-dont-be-dense-efficient-keyword-pir-for-sparse-d-award
+  edition_id: usenix-security-2023
+  paper_id: usenix-security-2023-dont-be-dense-efficient-keyword-pir-for-sparse-d
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+    retrieved_at: '2026-08-07T18:34:37Z'
+    content_sha256: bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d
+    parser_version: '2023.1'
+  raw_title: 'Don’t be Dense: Efficient Keyword PIR for Sparse Databases'
+  raw_authors: Sarvar Patel and Joon Young Seo, Google; Kevin Yeo, Google and Columbia University
+- id: usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma-award
+  edition_id: usenix-security-2023
+  paper_id: usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+    retrieved_at: '2026-08-07T18:34:37Z'
+    content_sha256: bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d
+    parser_version: '2023.1'
+  raw_title: Examining Power Dynamics and User Privacy in Smart Technology Use Among Jordanian Households
+  raw_authors: Wael Albayaydh and Ivan Flechais, University of Oxford
+- id: usenix-security-2023-a-two-decade-retrospective-analysis-of-a-univers-award
+  edition_id: usenix-security-2023
+  paper_id: usenix-security-2023-a-two-decade-retrospective-analysis-of-a-univers
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+    retrieved_at: '2026-08-07T18:34:37Z'
+    content_sha256: bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d
+    parser_version: '2023.1'
+  raw_title: A Two-Decade Retrospective Analysis of a University's Vulnerability to Attacks Exploiting Reused Passwords
+  raw_authors: Alexandra Nisenoff, University of Chicago / Carnegie Mellon University; Maximilian Golla, University of Chicago / Max Planck Institute for Security and Privacy; Miranda Wei, University of Chicago / University of Washington; Juliette Hainline, Hayley Szymanek, Annika Braun, Annika Hildebrandt, Blair Christensen, David Langenberg, and Blase Ur, University of Chicago
+- id: usenix-security-2023-ethical-frameworks-and-computer-security-trolley-award
+  edition_id: usenix-security-2023
+  paper_id: usenix-security-2023-ethical-frameworks-and-computer-security-trolley
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+    retrieved_at: '2026-08-07T18:34:37Z'
+    content_sha256: bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d
+    parser_version: '2023.1'
+  raw_title: 'Ethical Frameworks and Computer Security Trolley Problems: Foundations for Conversations'
+  raw_authors: Tadayoshi Kohno, University of Washington; Yasemin Acar, Paderborn University & George Washington University; Wulf Loh, Universität Tübingen
+- id: usenix-security-2023-hash-gone-bad-automated-discovery-of-protocol-at-award
+  edition_id: usenix-security-2023
+  paper_id: usenix-security-2023-hash-gone-bad-automated-discovery-of-protocol-at
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+    retrieved_at: '2026-08-07T18:34:37Z'
+    content_sha256: bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d
+    parser_version: '2023.1'
+  raw_title: 'Hash Gone Bad: Automated discovery of protocol attacks that exploit hash function weaknesses'
+  raw_authors: Vincent Cheval, Inria Paris; Cas Cremers and Alexander Dax, CISPA Helmholtz Center for Information Security; Lucca Hirschi, Inria & LORIA; Charlie Jacomme, Inria Paris; Steve Kremer, Université de Lorraine, LORIA, Inria Nancy Grand-Est
+- id: usenix-security-2023-automated-analysis-of-protocols-that-use-authent-award
+  edition_id: usenix-security-2023
+  paper_id: usenix-security-2023-automated-analysis-of-protocols-that-use-authent
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+    retrieved_at: '2026-08-07T18:34:37Z'
+    content_sha256: bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d
+    parser_version: '2023.1'
+  raw_title: 'Automated Analysis of Protocols that use Authenticated Encryption: How Subtle AEAD Differences can impact Protocol Security'
+  raw_authors: Cas Cremers, CISPA Helmholtz Center for Information Security; Alexander Dax, CISPA Helmholtz Center for Information Security and Saarland University; Charlie Jacomme, Inria Paris; Mang Zhao, CISPA Helmholtz Center for Information Security and Saarland University
+- id: usenix-security-2023-remote-direct-memory-introspection-award
+  edition_id: usenix-security-2023
+  paper_id: usenix-security-2023-remote-direct-memory-introspection
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+    retrieved_at: '2026-08-07T18:34:37Z'
+    content_sha256: bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d
+    parser_version: '2023.1'
+  raw_title: Remote Direct Memory Introspection
+  raw_authors: Hongyi Liu, Jiarong Xing, and Yibo Huang, Rice University; Danyang Zhuo, Duke University; Srinivas Devadas, Massachusetts Institute of Technology; Ang Chen, Rice University
+- id: usenix-security-2023-an-efficient-design-of-intelligent-network-data-award
+  edition_id: usenix-security-2023
+  paper_id: usenix-security-2023-an-efficient-design-of-intelligent-network-data
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+    retrieved_at: '2026-08-07T18:34:37Z'
+    content_sha256: bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d
+    parser_version: '2023.1'
+  raw_title: An Efficient Design of Intelligent Network Data Plane
+  raw_authors: Guangmeng Zhou, Tsinghua University; Zhuotao Liu, Tsinghua University and Zhongguancun Laboratory; Chuanpu Fu, Tsinghua University; Qi Li and Ke Xu, Tsinghua University and Zhongguancun Laboratory

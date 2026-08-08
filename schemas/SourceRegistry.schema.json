@@ -1,0 +1,109 @@
+{
+  "$defs": {
+    "AwardSourceRegistration": {
+      "additionalProperties": false,
+      "properties": {
+        "conference_id": {
+          "title": "Conference Id",
+          "type": "string"
+        },
+        "year": {
+          "title": "Year",
+          "type": "integer"
+        },
+        "url": {
+          "title": "Url",
+          "type": "string"
+        },
+        "adapter": {
+          "title": "Adapter",
+          "type": "string"
+        },
+        "expected_records": {
+          "minimum": 0,
+          "title": "Expected Records",
+          "type": "integer"
+        },
+        "extracted_sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "title": "Extracted Sha256",
+          "type": "string"
+        }
+      },
+      "required": [
+        "conference_id",
+        "year",
+        "url",
+        "adapter",
+        "expected_records",
+        "extracted_sha256"
+      ],
+      "title": "AwardSourceRegistration",
+      "type": "object"
+    },
+    "CitationSourceRegistration": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "role": {
+          "title": "Role",
+          "type": "string"
+        },
+        "api_url": {
+          "title": "Api Url",
+          "type": "string"
+        },
+        "public_output_enabled": {
+          "title": "Public Output Enabled",
+          "type": "boolean"
+        },
+        "stored_fields": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Stored Fields",
+          "type": "array"
+        },
+        "notes": {
+          "title": "Notes",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "role",
+        "api_url",
+        "public_output_enabled",
+        "notes"
+      ],
+      "title": "CitationSourceRegistration",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "award_sources": {
+      "items": {
+        "$ref": "#/$defs/AwardSourceRegistration"
+      },
+      "title": "Award Sources",
+      "type": "array"
+    },
+    "citation_sources": {
+      "items": {
+        "$ref": "#/$defs/CitationSourceRegistration"
+      },
+      "title": "Citation Sources",
+      "type": "array"
+    }
+  },
+  "required": [
+    "award_sources",
+    "citation_sources"
+  ],
+  "title": "SourceRegistry",
+  "type": "object"
+}

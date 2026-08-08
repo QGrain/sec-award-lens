@@ -1,0 +1,171 @@
+{
+  "awards": [
+    {
+      "edition_id": "ieee-sp-2023",
+      "id": "ieee-sp-2023-in-eighty-percent-of-the-cases-i-select-the-pass-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "0e631e221f695d3e5bd112ca67eab2763e063fdbc845dc8459cd4233d778d84c",
+        "parser_version": "2023.1",
+        "retrieved_at": "2026-08-07T18:34:37Z",
+        "url": "https://www.ieee-security.org/TC/SP2023/program-awards.html"
+      },
+      "paper_id": "ieee-sp-2023-in-eighty-percent-of-the-cases-i-select-the-pass",
+      "raw_authors": "Collins W. Munyendo (The George Washington University), Yasemin Acar (The George Washington University), Adam J. Aviv (The George Washington University)",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "“In Eighty Percent of the Cases, I Select the Password for Them”: Security and Privacy Challenges, Advice, and Opportunities at Cybercafes in Kenya"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 1.0,
+      "external_id": "W4385679811",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "ieee-sp-2023-in-eighty-percent-of-the-cases-i-select-the-pass",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": null,
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1109/sp46215.2023.10179410",
+        "external_id": "W4385679811",
+        "publication_year": 2023,
+        "title": "\"In Eighty Percent of the Cases, I Select the Password for Them\": Security and Privacy Challenges, Advice, and Opportunities at Cybercafes in Kenya",
+        "title_similarity": 1.0,
+        "venue": null,
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-07T18:41:58Z",
+      "verified_by": "SecAwardLens pipeline"
+    }
+  ],
+  "citation_history": {
+    "openalex": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2023
+          },
+          {
+            "count": 4,
+            "year": 2024
+          },
+          {
+            "count": 8,
+            "year": 2025
+          },
+          {
+            "count": 4,
+            "year": 2026
+          }
+        ],
+        "external_id": "W4385679811",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-in-eighty-percent-of-the-cases-i-select-the-pass",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4385679811?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
+        "response_sha256": "22fcdda2cf4f552d2ac540c3109992f6f1867df6b53c77a51c3ed20317040032",
+        "retrieved_at": "2026-08-07T18:42:52Z",
+        "total_citations": 17
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [
+          {
+            "display_name": "George Washington University",
+            "openalex_id": "I193531525",
+            "ror": "https://ror.org/00y4zzh67"
+          }
+        ],
+        "author_name": "Collins W. Munyendo",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5052232889"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "George Washington University",
+            "openalex_id": "I193531525",
+            "ror": "https://ror.org/00y4zzh67"
+          },
+          {
+            "display_name": "Paderborn University",
+            "openalex_id": "I206945453",
+            "ror": "https://ror.org/058kzsd48"
+          }
+        ],
+        "author_name": "Yasemin Acar",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5074668699"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "George Washington University",
+            "openalex_id": "I193531525",
+            "ror": "https://ror.org/00y4zzh67"
+          }
+        ],
+        "author_name": "Adam J. Aviv",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5009788320"
+      }
+    ],
+    "external_id": "W4385679811",
+    "paper_id": "ieee-sp-2023-in-eighty-percent-of-the-cases-i-select-the-pass",
+    "primary_topic": {
+      "display_name": "Privacy, Security, and Data Protection",
+      "openalex_id": "T11045",
+      "score": 0.9978
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-08T05:07:19Z"
+  },
+  "generated_at": "2026-08-07T18:42:52+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Collins W. Munyendo"
+      },
+      {
+        "name": "Yasemin Acar"
+      },
+      {
+        "name": "Adam J. Aviv"
+      }
+    ],
+    "canonical_title": "“In Eighty Percent of the Cases, I Select the Password for Them”: Security and Privacy Challenges, Advice, and Opportunities at Cybercafes in Kenya",
+    "id": "ieee-sp-2023-in-eighty-percent-of-the-cases-i-select-the-pass",
+    "identifiers": [
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W4385679811",
+        "value": "W4385679811",
+        "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "doi",
+        "source_url": "https://api.crossref.org/works/10.1109/sp46215.2023.10179410",
+        "value": "10.1109/sp46215.2023.10179410",
+        "verified_at": "2026-08-07T18:41:58Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.ieee-security.org/TC/SP2023/program-awards.html",
+      "https://openalex.org/W4385679811"
+    ],
+    "official_paper_url": null,
+    "publication_year": 2023,
+    "venue_name": "2023 IEEE Symposium on Security and Privacy"
+  },
+  "schema_version": 1
+}
