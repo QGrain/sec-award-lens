@@ -73,6 +73,35 @@
         "response_sha256": "9624932109a600065ae3d864cfd4e944ccb3dc858ad292ad490a1741099f20d5",
         "retrieved_at": "2026-08-07T18:42:52Z",
         "total_citations": 29
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 2,
+            "year": 2023
+          },
+          {
+            "count": 7,
+            "year": 2024
+          },
+          {
+            "count": 14,
+            "year": 2025
+          },
+          {
+            "count": 6,
+            "year": 2026
+          }
+        ],
+        "external_id": "W4307205415",
+        "influential_citations": null,
+        "paper_id": "ndss-2023-darwin-survival-of-the-fittest-fuzzing-mutators",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-05T07:39:15.569665",
+        "request_fingerprint": "GET /works/W4307205415?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "480fcdaec2ff75390a04baf63ec8212cdc6a6e1635f6d4beec97bb56225d2cf4",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
+        "total_citations": 29
       }
     ]
   },
@@ -154,7 +183,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-07T18:42:52+00:00",
+  "generated_at": "2026-08-08T10:25:46.712845+00:00",
   "paper": {
     "authors": [
       {

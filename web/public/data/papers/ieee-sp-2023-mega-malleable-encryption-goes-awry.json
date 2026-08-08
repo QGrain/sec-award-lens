@@ -73,6 +73,35 @@
         "response_sha256": "f431d73bfbf089774d1cc57cba330eba3c03189cff0601b5ac879d6f2eb89943",
         "retrieved_at": "2026-08-07T18:42:52Z",
         "total_citations": 19
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 3,
+            "year": 2023
+          },
+          {
+            "count": 8,
+            "year": 2024
+          },
+          {
+            "count": 5,
+            "year": 2025
+          },
+          {
+            "count": 3,
+            "year": 2026
+          }
+        ],
+        "external_id": "W4384948645",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-mega-malleable-encryption-goes-awry",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4384948645?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "feee616d49e056f042e70cda9699d8678206e2e7d44267462658c2b6286f9c62",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
+        "total_citations": 19
       }
     ]
   },
@@ -125,7 +154,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-07T18:42:52+00:00",
+  "generated_at": "2026-08-08T10:25:46.712845+00:00",
   "paper": {
     "authors": [
       {

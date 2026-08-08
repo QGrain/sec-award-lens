@@ -73,6 +73,35 @@
         "response_sha256": "42ea5a62381c743ffb56be072bd6d70f0b754f9e73ce8312ca08bf6abc7bad0e",
         "retrieved_at": "2026-08-07T18:42:52Z",
         "total_citations": 50
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 2,
+            "year": 2023
+          },
+          {
+            "count": 23,
+            "year": 2024
+          },
+          {
+            "count": 17,
+            "year": 2025
+          },
+          {
+            "count": 8,
+            "year": 2026
+          }
+        ],
+        "external_id": "W4389546099",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-space-odyssey-an-experimental-software-security",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4389546099?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "2cc69d9d3089da3736531fee00d6a74ef90b2d165a3a2de8bc057aa88014d33d",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
+        "total_citations": 50
       }
     ]
   },
@@ -166,7 +195,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-07T18:42:52+00:00",
+  "generated_at": "2026-08-08T10:25:46.712845+00:00",
   "paper": {
     "authors": [
       {

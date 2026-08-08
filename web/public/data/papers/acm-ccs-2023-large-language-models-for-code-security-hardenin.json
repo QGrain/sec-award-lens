@@ -73,6 +73,35 @@
         "response_sha256": "b77a1e3ca3745f044cdea35a791b3c72b2e8c430cc2dd9497d0a721b4ff13e9e",
         "retrieved_at": "2026-08-07T18:42:52Z",
         "total_citations": 119
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 4,
+            "year": 2023
+          },
+          {
+            "count": 28,
+            "year": 2024
+          },
+          {
+            "count": 58,
+            "year": 2025
+          },
+          {
+            "count": 29,
+            "year": 2026
+          }
+        ],
+        "external_id": "W4320560161",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-large-language-models-for-code-security-hardenin",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-02T14:50:37.381335",
+        "request_fingerprint": "GET /works/W4320560161?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "8085fe283da52bbb127fe5893c95edb425d5dd52cb42ac8c797d6f2050798d1d",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
+        "total_citations": 119
       }
     ]
   },
@@ -113,7 +142,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-07T18:42:52+00:00",
+  "generated_at": "2026-08-08T10:25:46.712845+00:00",
   "paper": {
     "authors": [
       {

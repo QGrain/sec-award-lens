@@ -61,6 +61,23 @@
         "response_sha256": "35e32c82195a2ca6abfd5d08a67ae5c6c900e929ee58a9fe1331ed549f05010e",
         "retrieved_at": "2026-08-07T18:42:52Z",
         "total_citations": 1
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2025
+          }
+        ],
+        "external_id": "W6981697802",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-02-10T06:17:13.238206",
+        "request_fingerprint": "GET /works/W6981697802?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "8a2e038d4286f2ac61bdd8adaaf59536e1b88076d1e0fa2e38bfaa2579f7734e",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
+        "total_citations": 1
       }
     ]
   },
@@ -89,7 +106,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-07T18:42:52+00:00",
+  "generated_at": "2026-08-08T10:25:46.712845+00:00",
   "paper": {
     "authors": [
       {

@@ -69,6 +69,31 @@
         "response_sha256": "aaf496f18e623227587c9c3dce81a22ff4bdc293f457e9923a5736b28bdf1ff5",
         "retrieved_at": "2026-08-07T18:42:52Z",
         "total_citations": 4
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 2,
+            "year": 2024
+          },
+          {
+            "count": 1,
+            "year": 2025
+          },
+          {
+            "count": 1,
+            "year": 2026
+          }
+        ],
+        "external_id": "W4388858780",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-silence-is-not-golden-disrupting-the-load-balanc",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4388858780?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "d242a0e1f0c12aaf40a22131515b58cf3cb48fdcbe40b5072d19d2b8ea71d4cd",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
+        "total_citations": 4
       }
     ]
   },
@@ -205,7 +230,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-07T18:42:52+00:00",
+  "generated_at": "2026-08-08T10:25:46.712845+00:00",
   "paper": {
     "authors": [
       {

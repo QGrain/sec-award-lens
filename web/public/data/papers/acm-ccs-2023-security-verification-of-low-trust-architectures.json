@@ -69,6 +69,31 @@
         "response_sha256": "dca443e38dd551c5c10cf04036933cc31921c5c4701bc5f6a5f7b0fb5b781ba9",
         "retrieved_at": "2026-08-07T18:42:52Z",
         "total_citations": 7
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2024
+          },
+          {
+            "count": 3,
+            "year": 2025
+          },
+          {
+            "count": 3,
+            "year": 2026
+          }
+        ],
+        "external_id": "W4386437595",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-security-verification-of-low-trust-architectures",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4386437595?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "f43ccd305c9631d015ffac3a7e805d0264589e5e7899a71fdf61a28d3e08654d",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
+        "total_citations": 7
       }
     ]
   },
@@ -169,7 +194,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-07T18:42:52+00:00",
+  "generated_at": "2026-08-08T10:25:46.712845+00:00",
   "paper": {
     "authors": [
       {
