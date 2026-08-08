@@ -1,0 +1,44 @@
+name: Find Semantic Scholar candidates
+
+on:
+  workflow_dispatch:
+    inputs:
+      paper_id:
+        description: "Optional SecAwardLens paper ID; blank searches all unresolved OpenAlex papers"
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: astral-sh/setup-uv@c771a70e6277c0a99b617c7a806ffedaca235ff9 # v9.0.0
+        with:
+          enable-cache: true
+      - run: uv python install 3.11
+      - run: uv sync --frozen
+      - name: Query review candidates below the issued rate limit
+        env:
+          PAPER_ID: ${{ inputs.paper_id }}
+          S2_API_KEY: ${{ secrets.S2_API_KEY }}
+        run: |
+          if test -z "$S2_API_KEY"; then
+            echo "::error::S2_API_KEY repository secret is required"
+            exit 1
+          fi
+          args=(secawardlens match semantic-scholar)
+          if test -n "$PAPER_ID"; then
+            args+=(--paper-id "$PAPER_ID")
+          fi
+          uv run "${args[@]}" > semantic-scholar-candidates.json
+      - name: Upload candidates for human review
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: semantic-scholar-candidates
+          path: semantic-scholar-candidates.json
+          retention-days: 14
+          if-no-files-found: error

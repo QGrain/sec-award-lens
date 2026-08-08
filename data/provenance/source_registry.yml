@@ -40,7 +40,7 @@ citation_sources:
   stored_fields:
   - citationCount
   - influentialCitationCount
-  notes: Adapter implemented; public redistribution disabled pending terms review.
+  notes: API key approved; candidate discovery is enabled. Public snapshots remain disabled pending explicit confirmation for static GitHub redistribution.
 - id: crossref
   role: metadata_helper
   api_url: https://api.crossref.org

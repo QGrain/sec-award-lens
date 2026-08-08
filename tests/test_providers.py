@@ -97,3 +97,32 @@ def test_semantic_scholar_match_unwraps_data_list() -> None:
     assert result is not None
     assert result.external_id == "s2-match"
     assert result.citation_count == 7
+
+
+def test_semantic_scholar_ranked_search_returns_review_candidates() -> None:
+    def handler(request: httpx.Request) -> httpx.Response:
+        assert request.url.path == "/graph/v1/paper/search"
+        assert request.url.params["limit"] == "5"
+        return httpx.Response(
+            200,
+            json={
+                "data": [{
+                    "paperId": "s2-ranked",
+                    "title": "A Candidate Paper",
+                    "authors": [{"name": "Ada Lovelace"}],
+                    "year": 2023,
+                    "venue": "USENIX Security Symposium",
+                    "externalIds": {},
+                    "citationCount": 3,
+                    "influentialCitationCount": 0,
+                }],
+            },
+        )
+
+    http = httpx.Client(
+        base_url="https://api.semanticscholar.org/graph/v1",
+        transport=httpx.MockTransport(handler),
+    )
+    with SemanticScholarClient(client=http) as client:
+        results = client.search_title("A Candidate Paper")
+    assert [item.external_id for item in results] == ["s2-ranked"]

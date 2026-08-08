@@ -51,4 +51,5 @@ def test_repository_validates_and_builds(tmp_path) -> None:
     assert len(year["rows"]) == 47
     assert sum(item["primary_topic"] is not None for item in year["rows"]) == 41
     assert all("enrichment" not in item for item in year["rows"])
+    assert sum("openalex" in item["citations"] for item in year["rows"]) == 42
     assert len(written) == 49

@@ -136,35 +136,37 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "Large Language Models for Code: Security Hardening and Adversarial Testing"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 4,
-            "year": 2023
-          },
-          {
-            "count": 28,
-            "year": 2024
-          },
-          {
-            "count": 58,
-            "year": 2025
-          },
-          {
-            "count": 29,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 90,
-        "external_id": "W4320560161",
-        "influential_citations": null,
-        "paper_id": "acm-ccs-2023-large-language-models-for-code-security-hardenin",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-08-02T14:50:37.381335",
-        "request_fingerprint": "GET /works/W4320560161?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "8085fe283da52bbb127fe5893c95edb425d5dd52cb42ac8c797d6f2050798d1d",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 119
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 4,
+              "year": 2023
+            },
+            {
+              "count": 28,
+              "year": 2024
+            },
+            {
+              "count": 58,
+              "year": 2025
+            },
+            {
+              "count": 29,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 90,
+          "external_id": "W4320560161",
+          "influential_citations": null,
+          "paper_id": "acm-ccs-2023-large-language-models-for-code-security-hardenin",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-08-02T14:50:37.381335",
+          "request_fingerprint": "GET /works/W4320560161?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "8085fe283da52bbb127fe5893c95edb425d5dd52cb42ac8c797d6f2050798d1d",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 119
+        }
       },
       "conference": {
         "aliases": [
@@ -230,35 +232,37 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "HE3DB: An Efficient and Elastic Encrypted Database Via Arithmetic-And-Logic Fully Homomorphic Encryption"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 1,
-            "year": 2023
-          },
-          {
-            "count": 12,
-            "year": 2024
-          },
-          {
-            "count": 24,
-            "year": 2025
-          },
-          {
-            "count": 13,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 37,
-        "external_id": "W4388857792",
-        "influential_citations": null,
-        "paper_id": "acm-ccs-2023-he3db-an-efficient-and-elastic-encrypted-databas",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4388857792?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "f6f2a1ef777765dd419feceb39c7ab8f03f82972631fff86977057940b071b5a",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 50
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2023
+            },
+            {
+              "count": 12,
+              "year": 2024
+            },
+            {
+              "count": 24,
+              "year": 2025
+            },
+            {
+              "count": 13,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 37,
+          "external_id": "W4388857792",
+          "influential_citations": null,
+          "paper_id": "acm-ccs-2023-he3db-an-efficient-and-elastic-encrypted-databas",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+          "request_fingerprint": "GET /works/W4388857792?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "f6f2a1ef777765dd419feceb39c7ab8f03f82972631fff86977057940b071b5a",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 50
+        }
       },
       "conference": {
         "aliases": [
@@ -339,35 +343,37 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "Space Odyssey: An Experimental Software Security Analysis of Satellites"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 2,
-            "year": 2023
-          },
-          {
-            "count": 23,
-            "year": 2024
-          },
-          {
-            "count": 17,
-            "year": 2025
-          },
-          {
-            "count": 8,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 42,
-        "external_id": "W4389546099",
-        "influential_citations": null,
-        "paper_id": "ieee-sp-2023-space-odyssey-an-experimental-software-security",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4389546099?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "2cc69d9d3089da3736531fee00d6a74ef90b2d165a3a2de8bc057aa88014d33d",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 50
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 2,
+              "year": 2023
+            },
+            {
+              "count": 23,
+              "year": 2024
+            },
+            {
+              "count": 17,
+              "year": 2025
+            },
+            {
+              "count": 8,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 42,
+          "external_id": "W4389546099",
+          "influential_citations": null,
+          "paper_id": "ieee-sp-2023-space-odyssey-an-experimental-software-security",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+          "request_fingerprint": "GET /works/W4389546099?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "2cc69d9d3089da3736531fee00d6a74ef90b2d165a3a2de8bc057aa88014d33d",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 50
+        }
       },
       "conference": {
         "aliases": [
@@ -446,35 +452,37 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "Glaze: Protecting Artists from Style Mimicry by Text-to-Image Models"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 9,
-            "year": 2023
-          },
-          {
-            "count": 23,
-            "year": 2024
-          },
-          {
-            "count": 8,
-            "year": 2025
-          },
-          {
-            "count": 3,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 40,
-        "external_id": "W4320342250",
-        "influential_citations": null,
-        "paper_id": "usenix-security-2023-glaze-protecting-artists-from-style-mimicry-by-t",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-08-06T08:24:18.245995",
-        "request_fingerprint": "GET /works/W4320342250?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "84bbc41eeee6d2ea753450760651b8b7c41d65efbf5816274ab39e905e8b1103",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 43
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 9,
+              "year": 2023
+            },
+            {
+              "count": 23,
+              "year": 2024
+            },
+            {
+              "count": 8,
+              "year": 2025
+            },
+            {
+              "count": 3,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 40,
+          "external_id": "W4320342250",
+          "influential_citations": null,
+          "paper_id": "usenix-security-2023-glaze-protecting-artists-from-style-mimicry-by-t",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-08-06T08:24:18.245995",
+          "request_fingerprint": "GET /works/W4320342250?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "84bbc41eeee6d2ea753450760651b8b7c41d65efbf5816274ab39e905e8b1103",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 43
+        }
       },
       "conference": {
         "aliases": [
@@ -546,35 +554,37 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "DARWIN: Survival of the Fittest Fuzzing Mutators"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 2,
-            "year": 2023
-          },
-          {
-            "count": 7,
-            "year": 2024
-          },
-          {
-            "count": 14,
-            "year": 2025
-          },
-          {
-            "count": 6,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 23,
-        "external_id": "W4307205415",
-        "influential_citations": null,
-        "paper_id": "ndss-2023-darwin-survival-of-the-fittest-fuzzing-mutators",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-08-05T07:39:15.569665",
-        "request_fingerprint": "GET /works/W4307205415?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "480fcdaec2ff75390a04baf63ec8212cdc6a6e1635f6d4beec97bb56225d2cf4",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 29
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 2,
+              "year": 2023
+            },
+            {
+              "count": 7,
+              "year": 2024
+            },
+            {
+              "count": 14,
+              "year": 2025
+            },
+            {
+              "count": 6,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 23,
+          "external_id": "W4307205415",
+          "influential_citations": null,
+          "paper_id": "ndss-2023-darwin-survival-of-the-fittest-fuzzing-mutators",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-08-05T07:39:15.569665",
+          "request_fingerprint": "GET /works/W4307205415?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "480fcdaec2ff75390a04baf63ec8212cdc6a6e1635f6d4beec97bb56225d2cf4",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 29
+        }
       },
       "conference": {
         "aliases": [
@@ -649,35 +659,37 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "Specification and Verification of Side-channel Security for Open-source Processors via Leakage Contracts"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 2,
-            "year": 2023
-          },
-          {
-            "count": 11,
-            "year": 2024
-          },
-          {
-            "count": 7,
-            "year": 2025
-          },
-          {
-            "count": 8,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 20,
-        "external_id": "W4388858498",
-        "influential_citations": null,
-        "paper_id": "acm-ccs-2023-specification-and-verification-of-side-channel-s",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-08-04T08:18:43.703281",
-        "request_fingerprint": "GET /works/W4388858498?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "e937c3338c23f51ddb0fd5d14b78c11423288afe828dcb4bc1d96ab2324749e3",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 28
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 2,
+              "year": 2023
+            },
+            {
+              "count": 11,
+              "year": 2024
+            },
+            {
+              "count": 7,
+              "year": 2025
+            },
+            {
+              "count": 8,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 20,
+          "external_id": "W4388858498",
+          "influential_citations": null,
+          "paper_id": "acm-ccs-2023-specification-and-verification-of-side-channel-s",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-08-04T08:18:43.703281",
+          "request_fingerprint": "GET /works/W4388858498?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "e937c3338c23f51ddb0fd5d14b78c11423288afe828dcb4bc1d96ab2324749e3",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 28
+        }
       },
       "conference": {
         "aliases": [
@@ -752,35 +764,37 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "Practically-exploitable Cryptographic Vulnerabilities in Matrix"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 6,
-            "year": 2023
-          },
-          {
-            "count": 6,
-            "year": 2024
-          },
-          {
-            "count": 8,
-            "year": 2025
-          },
-          {
-            "count": 5,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 20,
-        "external_id": "W4389546188",
-        "influential_citations": null,
-        "paper_id": "ieee-sp-2023-practically-exploitable-cryptographic-vulnerabil",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4389546188?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "ecfd52ce9b1b695304a0384e24d7209706718751a83e4267d11ae30fb2cc9d51",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 25
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 6,
+              "year": 2023
+            },
+            {
+              "count": 6,
+              "year": 2024
+            },
+            {
+              "count": 8,
+              "year": 2025
+            },
+            {
+              "count": 5,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 20,
+          "external_id": "W4389546188",
+          "influential_citations": null,
+          "paper_id": "ieee-sp-2023-practically-exploitable-cryptographic-vulnerabil",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+          "request_fingerprint": "GET /works/W4389546188?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "ecfd52ce9b1b695304a0384e24d7209706718751a83e4267d11ae30fb2cc9d51",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 25
+        }
       },
       "conference": {
         "aliases": [
@@ -853,35 +867,37 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "Typing High-Speed Cryptography against Spectre v1"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 8,
-            "year": 2023
-          },
-          {
-            "count": 2,
-            "year": 2024
-          },
-          {
-            "count": 9,
-            "year": 2025
-          },
-          {
-            "count": 3,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 19,
-        "external_id": "W4385080320",
-        "influential_citations": null,
-        "paper_id": "ieee-sp-2023-typing-high-speed-cryptography-against-spectre-v",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-08-01T09:00:35.917206",
-        "request_fingerprint": "GET /works/W4385080320?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "fed4ff4a5e2d78b406d1d537dfe98511b22eff7ae443e6152709d20468db573f",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 22
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 8,
+              "year": 2023
+            },
+            {
+              "count": 2,
+              "year": 2024
+            },
+            {
+              "count": 9,
+              "year": 2025
+            },
+            {
+              "count": 3,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 19,
+          "external_id": "W4385080320",
+          "influential_citations": null,
+          "paper_id": "ieee-sp-2023-typing-high-speed-cryptography-against-spectre-v",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-08-01T09:00:35.917206",
+          "request_fingerprint": "GET /works/W4385080320?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "fed4ff4a5e2d78b406d1d537dfe98511b22eff7ae443e6152709d20468db573f",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 22
+        }
       },
       "conference": {
         "aliases": [
@@ -966,31 +982,33 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "How Hard is Takeover in DPoS Blockchains? Understanding the Security of Coin-based Voting Governance"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 4,
-            "year": 2024
-          },
-          {
-            "count": 12,
-            "year": 2025
-          },
-          {
-            "count": 5,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 16,
-        "external_id": "W4388857879",
-        "influential_citations": null,
-        "paper_id": "acm-ccs-2023-how-hard-is-takeover-in-dpos-blockchains-underst",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-07-31T08:31:51.225901",
-        "request_fingerprint": "GET /works/W4388857879?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "a46deb51680ebc20de6c2d1287244c4f8e54517878da47bd7b5930f48b5d7839",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 21
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 4,
+              "year": 2024
+            },
+            {
+              "count": 12,
+              "year": 2025
+            },
+            {
+              "count": 5,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 16,
+          "external_id": "W4388857879",
+          "influential_citations": null,
+          "paper_id": "acm-ccs-2023-how-hard-is-takeover-in-dpos-blockchains-underst",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-31T08:31:51.225901",
+          "request_fingerprint": "GET /works/W4388857879?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "a46deb51680ebc20de6c2d1287244c4f8e54517878da47bd7b5930f48b5d7839",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 21
+        }
       },
       "conference": {
         "aliases": [
@@ -1068,35 +1086,37 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "Uncle Maker: (Time)Stamping Out The Competition in Ethereum"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 2,
-            "year": 2023
-          },
-          {
-            "count": 6,
-            "year": 2024
-          },
-          {
-            "count": 10,
-            "year": 2025
-          },
-          {
-            "count": 3,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 18,
-        "external_id": "W4388858825",
-        "influential_citations": null,
-        "paper_id": "acm-ccs-2023-uncle-maker-time-stamping-out-the-competition-in",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4388858825?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "4595eebae227e84a8220cba0cb7e562dcc2a0c3701fa02cf1f55ed41f37c8836",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 21
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 2,
+              "year": 2023
+            },
+            {
+              "count": 6,
+              "year": 2024
+            },
+            {
+              "count": 10,
+              "year": 2025
+            },
+            {
+              "count": 3,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 18,
+          "external_id": "W4388858825",
+          "influential_citations": null,
+          "paper_id": "acm-ccs-2023-uncle-maker-time-stamping-out-the-competition-in",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+          "request_fingerprint": "GET /works/W4388858825?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "4595eebae227e84a8220cba0cb7e562dcc2a0c3701fa02cf1f55ed41f37c8836",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 21
+        }
       },
       "conference": {
         "aliases": [
@@ -1165,35 +1185,37 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "WaVe: a verifiably secure WebAssembly sandboxing runtime"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 4,
-            "year": 2023
-          },
-          {
-            "count": 4,
-            "year": 2024
-          },
-          {
-            "count": 11,
-            "year": 2025
-          },
-          {
-            "count": 2,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 19,
-        "external_id": "W4385080305",
-        "influential_citations": null,
-        "paper_id": "ieee-sp-2023-wave-a-verifiably-secure-webassembly-sandboxing",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-08-08T01:25:22.217667",
-        "request_fingerprint": "GET /works/W4385080305?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "afe1839da7ccf7fda1b718c8b02f7ad782a0bc39657a4be1c7ecd41e1c7d6ec0",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 21
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 4,
+              "year": 2023
+            },
+            {
+              "count": 4,
+              "year": 2024
+            },
+            {
+              "count": 11,
+              "year": 2025
+            },
+            {
+              "count": 2,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 19,
+          "external_id": "W4385080305",
+          "influential_citations": null,
+          "paper_id": "ieee-sp-2023-wave-a-verifiably-secure-webassembly-sandboxing",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-08-08T01:25:22.217667",
+          "request_fingerprint": "GET /works/W4385080305?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "afe1839da7ccf7fda1b718c8b02f7ad782a0bc39657a4be1c7ecd41e1c7d6ec0",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 21
+        }
       },
       "conference": {
         "aliases": [
@@ -1275,35 +1297,37 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "Your Router Is My Prober: Measuring IPv6Networks via ICMP Rate Limiting Side Channels"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 1,
-            "year": 2023
-          },
-          {
-            "count": 8,
-            "year": 2024
-          },
-          {
-            "count": 9,
-            "year": 2025
-          },
-          {
-            "count": 3,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 18,
-        "external_id": "W4324007097",
-        "influential_citations": null,
-        "paper_id": "ndss-2023-your-router-is-my-prober-measuring-ipv6-networks",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-08-04T08:18:43.703281",
-        "request_fingerprint": "GET /works/W4324007097?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "2385399d269dca773ba0a8d92565e26fca2bb48ba337ce7b17830d950b2e5a2e",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 21
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2023
+            },
+            {
+              "count": 8,
+              "year": 2024
+            },
+            {
+              "count": 9,
+              "year": 2025
+            },
+            {
+              "count": 3,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 18,
+          "external_id": "W4324007097",
+          "influential_citations": null,
+          "paper_id": "ndss-2023-your-router-is-my-prober-measuring-ipv6-networks",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-08-04T08:18:43.703281",
+          "request_fingerprint": "GET /works/W4324007097?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "2385399d269dca773ba0a8d92565e26fca2bb48ba337ce7b17830d950b2e5a2e",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 21
+        }
       },
       "conference": {
         "aliases": [
@@ -1384,35 +1408,37 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "Red Team vs. Blue Team: A Real-World Hardware Trojan Detection Case Study Across Four Modern CMOS Technology Generations"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 1,
-            "year": 2023
-          },
-          {
-            "count": 8,
-            "year": 2024
-          },
-          {
-            "count": 9,
-            "year": 2025
-          },
-          {
-            "count": 2,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 18,
-        "external_id": "W4384948639",
-        "influential_citations": null,
-        "paper_id": "ieee-sp-2023-red-team-vs-blue-team-a-real-world-hardware-troj",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4384948639?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "f10080f30885eb54d1f62f4d38a2c0e6fa151c1d024896ce0045589bed8e598e",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 20
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2023
+            },
+            {
+              "count": 8,
+              "year": 2024
+            },
+            {
+              "count": 9,
+              "year": 2025
+            },
+            {
+              "count": 2,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 18,
+          "external_id": "W4384948639",
+          "influential_citations": null,
+          "paper_id": "ieee-sp-2023-red-team-vs-blue-team-a-real-world-hardware-troj",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+          "request_fingerprint": "GET /works/W4384948639?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "f10080f30885eb54d1f62f4d38a2c0e6fa151c1d024896ce0045589bed8e598e",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 20
+        }
       },
       "conference": {
         "aliases": [
@@ -1491,31 +1517,33 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "Alert Alchemy: SOC Workflows and Decisions in the Management of NIDS Rules"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 2,
-            "year": 2024
-          },
-          {
-            "count": 13,
-            "year": 2025
-          },
-          {
-            "count": 4,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 15,
-        "external_id": "W4388867285",
-        "influential_citations": null,
-        "paper_id": "acm-ccs-2023-alert-alchemy-soc-workflows-and-decisions-in-the",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4388867285?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "faeed403c6d3cfb5251ff30f89a879e3c015ac014a71064c61a59f1af858bffd",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 19
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 2,
+              "year": 2024
+            },
+            {
+              "count": 13,
+              "year": 2025
+            },
+            {
+              "count": 4,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 15,
+          "external_id": "W4388867285",
+          "influential_citations": null,
+          "paper_id": "acm-ccs-2023-alert-alchemy-soc-workflows-and-decisions-in-the",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+          "request_fingerprint": "GET /works/W4388867285?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "faeed403c6d3cfb5251ff30f89a879e3c015ac014a71064c61a59f1af858bffd",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 19
+        }
       },
       "conference": {
         "aliases": [
@@ -1590,35 +1618,37 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "MEGA: Malleable Encryption Goes Awry"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 3,
-            "year": 2023
-          },
-          {
-            "count": 8,
-            "year": 2024
-          },
-          {
-            "count": 5,
-            "year": 2025
-          },
-          {
-            "count": 3,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 16,
-        "external_id": "W4384948645",
-        "influential_citations": null,
-        "paper_id": "ieee-sp-2023-mega-malleable-encryption-goes-awry",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4384948645?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "feee616d49e056f042e70cda9699d8678206e2e7d44267462658c2b6286f9c62",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 19
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 3,
+              "year": 2023
+            },
+            {
+              "count": 8,
+              "year": 2024
+            },
+            {
+              "count": 5,
+              "year": 2025
+            },
+            {
+              "count": 3,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 16,
+          "external_id": "W4384948645",
+          "influential_citations": null,
+          "paper_id": "ieee-sp-2023-mega-malleable-encryption-goes-awry",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+          "request_fingerprint": "GET /works/W4384948645?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "feee616d49e056f042e70cda9699d8678206e2e7d44267462658c2b6286f9c62",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 19
+        }
       },
       "conference": {
         "aliases": [
@@ -1688,35 +1718,37 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "“In Eighty Percent of the Cases, I Select the Password for Them”: Security and Privacy Challenges, Advice, and Opportunities at Cybercafes in Kenya"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 1,
-            "year": 2023
-          },
-          {
-            "count": 4,
-            "year": 2024
-          },
-          {
-            "count": 8,
-            "year": 2025
-          },
-          {
-            "count": 4,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 13,
-        "external_id": "W4385679811",
-        "influential_citations": null,
-        "paper_id": "ieee-sp-2023-in-eighty-percent-of-the-cases-i-select-the-pass",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4385679811?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "76cd2323653c01855b049e8063b241d187642c1b9607d1efbc6b8108cca4fe87",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 17
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2023
+            },
+            {
+              "count": 4,
+              "year": 2024
+            },
+            {
+              "count": 8,
+              "year": 2025
+            },
+            {
+              "count": 4,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 13,
+          "external_id": "W4385679811",
+          "influential_citations": null,
+          "paper_id": "ieee-sp-2023-in-eighty-percent-of-the-cases-i-select-the-pass",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+          "request_fingerprint": "GET /works/W4385679811?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "76cd2323653c01855b049e8063b241d187642c1b9607d1efbc6b8108cca4fe87",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 17
+        }
       },
       "conference": {
         "aliases": [
@@ -1786,31 +1818,33 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "Batchman and Robin: Batched and Non-batched Branching for Interactive ZK"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 1,
-            "year": 2023
-          },
-          {
-            "count": 5,
-            "year": 2024
-          },
-          {
-            "count": 9,
-            "year": 2025
-          }
-        ],
-        "citations_first_3_years": 15,
-        "external_id": "W4388867328",
-        "influential_citations": null,
-        "paper_id": "acm-ccs-2023-batchman-and-robin-batched-and-non-batched-branc",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-08-06T08:24:18.245995",
-        "request_fingerprint": "GET /works/W4388867328?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "5764d12a002746563c95da24e01ca255a81db580cf93b5fe8b4bde6b3008ac07",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 15
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2023
+            },
+            {
+              "count": 5,
+              "year": 2024
+            },
+            {
+              "count": 9,
+              "year": 2025
+            }
+          ],
+          "citations_first_3_years": 15,
+          "external_id": "W4388867328",
+          "influential_citations": null,
+          "paper_id": "acm-ccs-2023-batchman-and-robin-batched-and-non-batched-branc",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-08-06T08:24:18.245995",
+          "request_fingerprint": "GET /works/W4388867328?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "5764d12a002746563c95da24e01ca255a81db580cf93b5fe8b4bde6b3008ac07",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 15
+        }
       },
       "conference": {
         "aliases": [
@@ -1885,35 +1919,37 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "Stealing the Decoding Algorithms of Language Models"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 1,
-            "year": 2023
-          },
-          {
-            "count": 6,
-            "year": 2024
-          },
-          {
-            "count": 4,
-            "year": 2025
-          },
-          {
-            "count": 4,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 11,
-        "external_id": "W4388858191",
-        "influential_citations": null,
-        "paper_id": "acm-ccs-2023-stealing-the-decoding-algorithms-of-language-mod",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-07-31T08:31:51.225901",
-        "request_fingerprint": "GET /works/W4388858191?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "98aaea46af1a9e58c11e786accbb9a5e8ff15c93021369447bb535157787299d",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 15
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2023
+            },
+            {
+              "count": 6,
+              "year": 2024
+            },
+            {
+              "count": 4,
+              "year": 2025
+            },
+            {
+              "count": 4,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 11,
+          "external_id": "W4388858191",
+          "influential_citations": null,
+          "paper_id": "acm-ccs-2023-stealing-the-decoding-algorithms-of-language-mod",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-31T08:31:51.225901",
+          "request_fingerprint": "GET /works/W4388858191?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "98aaea46af1a9e58c11e786accbb9a5e8ff15c93021369447bb535157787299d",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 15
+        }
       },
       "conference": {
         "aliases": [
@@ -1985,35 +2021,37 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "It's (DOM) Clobbering Time: Attack Techniques, Prevalence, and Defenses"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 2,
-            "year": 2023
-          },
-          {
-            "count": 4,
-            "year": 2024
-          },
-          {
-            "count": 7,
-            "year": 2025
-          },
-          {
-            "count": 1,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 13,
-        "external_id": "W4385679748",
-        "influential_citations": null,
-        "paper_id": "ieee-sp-2023-it-s-dom-clobbering-time-attack-techniques-preva",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4385679748?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "caf10a124d59bdff6a7212e93bcf4cec6785db82d223ddb8681ceaf9990b9116",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 14
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 2,
+              "year": 2023
+            },
+            {
+              "count": 4,
+              "year": 2024
+            },
+            {
+              "count": 7,
+              "year": 2025
+            },
+            {
+              "count": 1,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 13,
+          "external_id": "W4385679748",
+          "influential_citations": null,
+          "paper_id": "ieee-sp-2023-it-s-dom-clobbering-time-attack-techniques-preva",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+          "request_fingerprint": "GET /works/W4385679748?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "caf10a124d59bdff6a7212e93bcf4cec6785db82d223ddb8681ceaf9990b9116",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 14
+        }
       },
       "conference": {
         "aliases": [
@@ -2080,35 +2118,37 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "The Leaky Web: Automated Discovery of Cross-Site Information Leaks in Browsers and the Web"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 1,
-            "year": 2023
-          },
-          {
-            "count": 8,
-            "year": 2024
-          },
-          {
-            "count": 3,
-            "year": 2025
-          },
-          {
-            "count": 2,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 12,
-        "external_id": "W4384948721",
-        "influential_citations": null,
-        "paper_id": "ieee-sp-2023-the-leaky-web-automated-discovery-of-cross-site",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4384948721?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "b8f4373bd664307b22a5c8b21b151465f6c712957f265078e03e17c4d4f8f378",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 14
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2023
+            },
+            {
+              "count": 8,
+              "year": 2024
+            },
+            {
+              "count": 3,
+              "year": 2025
+            },
+            {
+              "count": 2,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 12,
+          "external_id": "W4384948721",
+          "influential_citations": null,
+          "paper_id": "ieee-sp-2023-the-leaky-web-automated-discovery-of-cross-site",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+          "request_fingerprint": "GET /works/W4384948721?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "b8f4373bd664307b22a5c8b21b151465f6c712957f265078e03e17c4d4f8f378",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 14
+        }
       },
       "conference": {
         "aliases": [
@@ -2178,31 +2218,33 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "Tight Auditing of Differentially Private Machine Learning"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 4,
-            "year": 2023
-          },
-          {
-            "count": 6,
-            "year": 2024
-          },
-          {
-            "count": 4,
-            "year": 2025
-          }
-        ],
-        "citations_first_3_years": 14,
-        "external_id": "W4321276312",
-        "influential_citations": null,
-        "paper_id": "usenix-security-2023-tight-auditing-of-differentially-private-machine",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-07-28T07:46:37.118299",
-        "request_fingerprint": "GET /works/W4321276312?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "e31768d2c942fc1f085bd0fbb99fb9ef954cc294fd635fda1faa4c92d5499c6d",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 14
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 4,
+              "year": 2023
+            },
+            {
+              "count": 6,
+              "year": 2024
+            },
+            {
+              "count": 4,
+              "year": 2025
+            }
+          ],
+          "citations_first_3_years": 14,
+          "external_id": "W4321276312",
+          "influential_citations": null,
+          "paper_id": "usenix-security-2023-tight-auditing-of-differentially-private-machine",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-28T07:46:37.118299",
+          "request_fingerprint": "GET /works/W4321276312?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "e31768d2c942fc1f085bd0fbb99fb9ef954cc294fd635fda1faa4c92d5499c6d",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 14
+        }
       },
       "conference": {
         "aliases": [
@@ -2280,35 +2322,37 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "Weak Fiat-Shamir Attacks on Modern Proof Systems"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 2,
-            "year": 2023
-          },
-          {
-            "count": 3,
-            "year": 2024
-          },
-          {
-            "count": 6,
-            "year": 2025
-          },
-          {
-            "count": 1,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 11,
-        "external_id": "W4385080282",
-        "influential_citations": null,
-        "paper_id": "ieee-sp-2023-weak-fiat-shamir-attacks-on-modern-proof-systems",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4385080282?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "63fd88cd962c7a122dd18c4d0ee708dbfced391715ac6ad1248f8f9b4b7674a5",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 12
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 2,
+              "year": 2023
+            },
+            {
+              "count": 3,
+              "year": 2024
+            },
+            {
+              "count": 6,
+              "year": 2025
+            },
+            {
+              "count": 1,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 11,
+          "external_id": "W4385080282",
+          "influential_citations": null,
+          "paper_id": "ieee-sp-2023-weak-fiat-shamir-attacks-on-modern-proof-systems",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+          "request_fingerprint": "GET /works/W4385080282?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "63fd88cd962c7a122dd18c4d0ee708dbfced391715ac6ad1248f8f9b4b7674a5",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 12
+        }
       },
       "conference": {
         "aliases": [
@@ -2381,31 +2425,33 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "Bug Hunters’ Perspectives on the Challenges and Benefits of the Bug Bounty Ecosystem"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 4,
-            "year": 2023
-          },
-          {
-            "count": 4,
-            "year": 2024
-          },
-          {
-            "count": 3,
-            "year": 2025
-          }
-        ],
-        "citations_first_3_years": 11,
-        "external_id": "W4316116706",
-        "influential_citations": null,
-        "paper_id": "usenix-security-2023-bug-hunters-perspectives-on-the-challenges-and-b",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-08-06T08:24:18.245995",
-        "request_fingerprint": "GET /works/W4316116706?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "a7d86f524d533cc2cd24eceba3c360c5f4f45bf03d50592d3338b758da75f20d",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 11
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 4,
+              "year": 2023
+            },
+            {
+              "count": 4,
+              "year": 2024
+            },
+            {
+              "count": 3,
+              "year": 2025
+            }
+          ],
+          "citations_first_3_years": 11,
+          "external_id": "W4316116706",
+          "influential_citations": null,
+          "paper_id": "usenix-security-2023-bug-hunters-perspectives-on-the-challenges-and-b",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-08-06T08:24:18.245995",
+          "request_fingerprint": "GET /works/W4316116706?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "a7d86f524d533cc2cd24eceba3c360c5f4f45bf03d50592d3338b758da75f20d",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 11
+        }
       },
       "conference": {
         "aliases": [
@@ -2483,31 +2529,33 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "PANIC: PAN-assisted Intra-process Memory Isolation on ARM"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 3,
-            "year": 2024
-          },
-          {
-            "count": 7,
-            "year": 2025
-          },
-          {
-            "count": 1,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 10,
-        "external_id": "W4388857293",
-        "influential_citations": null,
-        "paper_id": "acm-ccs-2023-panic-pan-assisted-intra-process-memory-isolatio",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4388857293?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "e60d42a50dc50c7d6a327f70940f80169eed143821ee719b409a2f89432b1c09",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 11
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 3,
+              "year": 2024
+            },
+            {
+              "count": 7,
+              "year": 2025
+            },
+            {
+              "count": 1,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 10,
+          "external_id": "W4388857293",
+          "influential_citations": null,
+          "paper_id": "acm-ccs-2023-panic-pan-assisted-intra-process-memory-isolatio",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+          "request_fingerprint": "GET /works/W4388857293?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "e60d42a50dc50c7d6a327f70940f80169eed143821ee719b409a2f89432b1c09",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 11
+        }
       },
       "conference": {
         "aliases": [
@@ -2600,31 +2648,33 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "FutORAMa: A Concretely Efficient Hierarchical Oblivious RAM"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 1,
-            "year": 2024
-          },
-          {
-            "count": 5,
-            "year": 2025
-          },
-          {
-            "count": 4,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 6,
-        "external_id": "W4388856956",
-        "influential_citations": null,
-        "paper_id": "acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-08-04T08:18:43.703281",
-        "request_fingerprint": "GET /works/W4388856956?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "e1255cf9110f6e1fc7feaef1633e85e48e4ace9a61f43049243eed903e7e74f9",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 10
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2024
+            },
+            {
+              "count": 5,
+              "year": 2025
+            },
+            {
+              "count": 4,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 6,
+          "external_id": "W4388856956",
+          "influential_citations": null,
+          "paper_id": "acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-08-04T08:18:43.703281",
+          "request_fingerprint": "GET /works/W4388856956?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "e1255cf9110f6e1fc7feaef1633e85e48e4ace9a61f43049243eed903e7e74f9",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 10
+        }
       },
       "conference": {
         "aliases": [
@@ -2693,35 +2743,37 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "Characterizing Everyday Misuse of Smart Home Devices"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 2,
-            "year": 2023
-          },
-          {
-            "count": 3,
-            "year": 2024
-          },
-          {
-            "count": 2,
-            "year": 2025
-          },
-          {
-            "count": 2,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 7,
-        "external_id": "W4385080361",
-        "influential_citations": null,
-        "paper_id": "ieee-sp-2023-characterizing-everyday-misuse-of-smart-home-dev",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4385080361?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "ffb304b6c557d8e3c65103a79ef29d21cd09fdc4ffae44747c348f75a733b4a9",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 9
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 2,
+              "year": 2023
+            },
+            {
+              "count": 3,
+              "year": 2024
+            },
+            {
+              "count": 2,
+              "year": 2025
+            },
+            {
+              "count": 2,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 7,
+          "external_id": "W4385080361",
+          "influential_citations": null,
+          "paper_id": "ieee-sp-2023-characterizing-everyday-misuse-of-smart-home-dev",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+          "request_fingerprint": "GET /works/W4385080361?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "ffb304b6c557d8e3c65103a79ef29d21cd09fdc4ffae44747c348f75a733b4a9",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 9
+        }
       },
       "conference": {
         "aliases": [
@@ -2800,31 +2852,33 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "CoCo: Efficient Browser Extension Vulnerability Detection via Coverage-guided, Concurrent Abstract Interpretation"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 4,
-            "year": 2024
-          },
-          {
-            "count": 2,
-            "year": 2025
-          },
-          {
-            "count": 3,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 6,
-        "external_id": "W4388858938",
-        "influential_citations": null,
-        "paper_id": "acm-ccs-2023-coco-efficient-browser-extension-vulnerability-d",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-07-30T17:31:21.811387",
-        "request_fingerprint": "GET /works/W4388858938?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "d60192b108c233e432b5dbbc427b0eb69d83a68ba8d824b5ba81278889532d81",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 9
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 4,
+              "year": 2024
+            },
+            {
+              "count": 2,
+              "year": 2025
+            },
+            {
+              "count": 3,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 6,
+          "external_id": "W4388858938",
+          "influential_citations": null,
+          "paper_id": "acm-ccs-2023-coco-efficient-browser-extension-vulnerability-d",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-30T17:31:21.811387",
+          "request_fingerprint": "GET /works/W4388858938?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "d60192b108c233e432b5dbbc427b0eb69d83a68ba8d824b5ba81278889532d81",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 9
+        }
       },
       "conference": {
         "aliases": [
@@ -2896,35 +2950,37 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "Not Yet Another Digital ID: Privacy-preserving Humanitarian Aid Distribution"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 1,
-            "year": 2023
-          },
-          {
-            "count": 2,
-            "year": 2024
-          },
-          {
-            "count": 2,
-            "year": 2025
-          },
-          {
-            "count": 3,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 5,
-        "external_id": "W4385679771",
-        "influential_citations": null,
-        "paper_id": "ieee-sp-2023-not-yet-another-digital-id-privacy-preserving-hu",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4385679771?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "ba04ed8a0015efd6853337e839f353437e9cbd058201b5b06fd39b1fdbec423c",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 8
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2023
+            },
+            {
+              "count": 2,
+              "year": 2024
+            },
+            {
+              "count": 2,
+              "year": 2025
+            },
+            {
+              "count": 3,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 5,
+          "external_id": "W4385679771",
+          "influential_citations": null,
+          "paper_id": "ieee-sp-2023-not-yet-another-digital-id-privacy-preserving-hu",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+          "request_fingerprint": "GET /works/W4385679771?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "ba04ed8a0015efd6853337e839f353437e9cbd058201b5b06fd39b1fdbec423c",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 8
+        }
       },
       "conference": {
         "aliases": [
@@ -3000,31 +3056,33 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "Capacity: Cryptographically-Enforced In-process Capabilities for Modern ARM Architectures"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 2,
-            "year": 2024
-          },
-          {
-            "count": 3,
-            "year": 2025
-          },
-          {
-            "count": 2,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 5,
-        "external_id": "W4386973789",
-        "influential_citations": null,
-        "paper_id": "acm-ccs-2023-capacity-cryptographically-enforced-in-process-c",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-08-01T09:00:35.917206",
-        "request_fingerprint": "GET /works/W4386973789?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "f3196efff62958b85e994c65051cac56e32bf52abd8c9daf4539d6562e1caa71",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 7
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 2,
+              "year": 2024
+            },
+            {
+              "count": 3,
+              "year": 2025
+            },
+            {
+              "count": 2,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 5,
+          "external_id": "W4386973789",
+          "influential_citations": null,
+          "paper_id": "acm-ccs-2023-capacity-cryptographically-enforced-in-process-c",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-08-01T09:00:35.917206",
+          "request_fingerprint": "GET /works/W4386973789?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "f3196efff62958b85e994c65051cac56e32bf52abd8c9daf4539d6562e1caa71",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 7
+        }
       },
       "conference": {
         "aliases": [
@@ -3096,31 +3154,33 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "Security Verification of Low-Trust Architectures"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 1,
-            "year": 2024
-          },
-          {
-            "count": 3,
-            "year": 2025
-          },
-          {
-            "count": 3,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 4,
-        "external_id": "W4386437595",
-        "influential_citations": null,
-        "paper_id": "acm-ccs-2023-security-verification-of-low-trust-architectures",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4386437595?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "f43ccd305c9631d015ffac3a7e805d0264589e5e7899a71fdf61a28d3e08654d",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 7
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2024
+            },
+            {
+              "count": 3,
+              "year": 2025
+            },
+            {
+              "count": 3,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 4,
+          "external_id": "W4386437595",
+          "influential_citations": null,
+          "paper_id": "acm-ccs-2023-security-verification-of-low-trust-architectures",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+          "request_fingerprint": "GET /works/W4386437595?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "f43ccd305c9631d015ffac3a7e805d0264589e5e7899a71fdf61a28d3e08654d",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 7
+        }
       },
       "conference": {
         "aliases": [
@@ -3201,27 +3261,29 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "Fuzztruction: Using Fault Injection-based Fuzzing to Leverage Implicit Domain Knowledge"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 5,
-            "year": 2024
-          },
-          {
-            "count": 1,
-            "year": 2025
-          }
-        ],
-        "citations_first_3_years": 6,
-        "external_id": "W6902390121",
-        "influential_citations": null,
-        "paper_id": "usenix-security-2023-fuzztruction-using-fault-injection-based-fuzzing",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-07-15T18:14:33.161393",
-        "request_fingerprint": "GET /works/W6902390121?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "592a0506ef0045b7baf07858fb2f900f1f8bb918f98464defa5656051db6b913",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 6
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 5,
+              "year": 2024
+            },
+            {
+              "count": 1,
+              "year": 2025
+            }
+          ],
+          "citations_first_3_years": 6,
+          "external_id": "W6902390121",
+          "influential_citations": null,
+          "paper_id": "usenix-security-2023-fuzztruction-using-fault-injection-based-fuzzing",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-15T18:14:33.161393",
+          "request_fingerprint": "GET /works/W6902390121?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "592a0506ef0045b7baf07858fb2f900f1f8bb918f98464defa5656051db6b913",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 6
+        }
       },
       "conference": {
         "aliases": [
@@ -3286,31 +3348,33 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "Concurrent Composition for Interactive Differential Privacy with Adaptive Privacy-Loss Parameters"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 1,
-            "year": 2024
-          },
-          {
-            "count": 3,
-            "year": 2025
-          },
-          {
-            "count": 1,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 4,
-        "external_id": "W4388856861",
-        "influential_citations": null,
-        "paper_id": "acm-ccs-2023-concurrent-composition-for-interactive-different",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-08-06T08:24:18.245995",
-        "request_fingerprint": "GET /works/W4388856861?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "53e6cc7a288db5195c8ff68672fea345489b19460c7a9a361c42c53a5197169e",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 5
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2024
+            },
+            {
+              "count": 3,
+              "year": 2025
+            },
+            {
+              "count": 1,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 4,
+          "external_id": "W4388856861",
+          "influential_citations": null,
+          "paper_id": "acm-ccs-2023-concurrent-composition-for-interactive-different",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-08-06T08:24:18.245995",
+          "request_fingerprint": "GET /works/W4388856861?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "53e6cc7a288db5195c8ff68672fea345489b19460c7a9a361c42c53a5197169e",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 5
+        }
       },
       "conference": {
         "aliases": [
@@ -3391,27 +3455,29 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "Ethical Frameworks and Computer Security Trolley Problems: Foundations for Conversations"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 4,
-            "year": 2024
-          },
-          {
-            "count": 1,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 4,
-        "external_id": "W4322759797",
-        "influential_citations": null,
-        "paper_id": "usenix-security-2023-ethical-frameworks-and-computer-security-trolley",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-08-06T08:24:18.245995",
-        "request_fingerprint": "GET /works/W4322759797?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "e42cdbf05d1dd50eaad920a018863fbc47d2e72b3dc57c693442eb3da8f76655",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 5
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 4,
+              "year": 2024
+            },
+            {
+              "count": 1,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 4,
+          "external_id": "W4322759797",
+          "influential_citations": null,
+          "paper_id": "usenix-security-2023-ethical-frameworks-and-computer-security-trolley",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-08-06T08:24:18.245995",
+          "request_fingerprint": "GET /works/W4322759797?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "e42cdbf05d1dd50eaad920a018863fbc47d2e72b3dc57c693442eb3da8f76655",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 5
+        }
       },
       "conference": {
         "aliases": [
@@ -3474,27 +3540,29 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "SpecVerilog: Adapting Information Flow Control for Secure Speculation"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 1,
-            "year": 2025
-          },
-          {
-            "count": 4,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 1,
-        "external_id": "W4388858465",
-        "influential_citations": null,
-        "paper_id": "acm-ccs-2023-specverilog-adapting-information-flow-control-fo",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-07-31T08:31:51.225901",
-        "request_fingerprint": "GET /works/W4388858465?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "ce92732d00cd4624e69699c0cdd70743c930e60f889a32bb852ce9508aaf97af",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 5
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2025
+            },
+            {
+              "count": 4,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 1,
+          "external_id": "W4388858465",
+          "influential_citations": null,
+          "paper_id": "acm-ccs-2023-specverilog-adapting-information-flow-control-fo",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-31T08:31:51.225901",
+          "request_fingerprint": "GET /works/W4388858465?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "ce92732d00cd4624e69699c0cdd70743c930e60f889a32bb852ce9508aaf97af",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 5
+        }
       },
       "conference": {
         "aliases": [
@@ -3566,31 +3634,33 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "Hash Gone Bad: Automated discovery of protocol attacks that exploit hash function weaknesses"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 1,
-            "year": 2023
-          },
-          {
-            "count": 2,
-            "year": 2024
-          },
-          {
-            "count": 1,
-            "year": 2025
-          }
-        ],
-        "citations_first_3_years": 4,
-        "external_id": "W4301178121",
-        "influential_citations": null,
-        "paper_id": "usenix-security-2023-hash-gone-bad-automated-discovery-of-protocol-at",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-08-01T09:00:35.917206",
-        "request_fingerprint": "GET /works/W4301178121?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "9a7f486af35efc2449d70b4ea5add9e805b7a407d7dd95e7736f496363fa9f0e",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 4
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2023
+            },
+            {
+              "count": 2,
+              "year": 2024
+            },
+            {
+              "count": 1,
+              "year": 2025
+            }
+          ],
+          "citations_first_3_years": 4,
+          "external_id": "W4301178121",
+          "influential_citations": null,
+          "paper_id": "usenix-security-2023-hash-gone-bad-automated-discovery-of-protocol-at",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-08-01T09:00:35.917206",
+          "request_fingerprint": "GET /works/W4301178121?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "9a7f486af35efc2449d70b4ea5add9e805b7a407d7dd95e7736f496363fa9f0e",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 4
+        }
       },
       "conference": {
         "aliases": [
@@ -3662,31 +3732,33 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "Silence is not Golden: Disrupting the Load Balancing of Authoritative DNS Servers"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 2,
-            "year": 2024
-          },
-          {
-            "count": 1,
-            "year": 2025
-          },
-          {
-            "count": 1,
-            "year": 2026
-          }
-        ],
-        "citations_first_3_years": 3,
-        "external_id": "W4388858780",
-        "influential_citations": null,
-        "paper_id": "acm-ccs-2023-silence-is-not-golden-disrupting-the-load-balanc",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4388858780?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "d242a0e1f0c12aaf40a22131515b58cf3cb48fdcbe40b5072d19d2b8ea71d4cd",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 4
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 2,
+              "year": 2024
+            },
+            {
+              "count": 1,
+              "year": 2025
+            },
+            {
+              "count": 1,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 3,
+          "external_id": "W4388858780",
+          "influential_citations": null,
+          "paper_id": "acm-ccs-2023-silence-is-not-golden-disrupting-the-load-balanc",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+          "request_fingerprint": "GET /works/W4388858780?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "d242a0e1f0c12aaf40a22131515b58cf3cb48fdcbe40b5072d19d2b8ea71d4cd",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 4
+        }
       },
       "conference": {
         "aliases": [
@@ -3776,23 +3848,25 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "A Bug's Life: Analyzing the Lifecycle and Mitigation Process of Content Security Policy Bugs"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 1,
-            "year": 2024
-          }
-        ],
-        "citations_first_3_years": 1,
-        "external_id": "W7064508335",
-        "influential_citations": null,
-        "paper_id": "usenix-security-2023-a-bug-s-life-analyzing-the-lifecycle-and-mitigat",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W7064508335?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "c280504759e2fb510f287d2104e3f80e900832006a4fdf1f184379660529dc7c",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 1
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2024
+            }
+          ],
+          "citations_first_3_years": 1,
+          "external_id": "W7064508335",
+          "influential_citations": null,
+          "paper_id": "usenix-security-2023-a-bug-s-life-analyzing-the-lifecycle-and-mitigat",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+          "request_fingerprint": "GET /works/W7064508335?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "c280504759e2fb510f287d2104e3f80e900832006a4fdf1f184379660529dc7c",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 1
+        }
       },
       "conference": {
         "aliases": [
@@ -3858,23 +3932,25 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "Automated Analysis of Protocols that use Authenticated Encryption: How Subtle AEAD Differences can impact Protocol Security"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 1,
-            "year": 2025
-          }
-        ],
-        "citations_first_3_years": 1,
-        "external_id": "W4401104680",
-        "influential_citations": null,
-        "paper_id": "usenix-security-2023-automated-analysis-of-protocols-that-use-authent",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-08-01T09:00:35.917206",
-        "request_fingerprint": "GET /works/W4401104680?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "df60ee7e5d9160598236bc61f24436306011f86d8c1757ca7e93e915b3e2557b",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 1
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2025
+            }
+          ],
+          "citations_first_3_years": 1,
+          "external_id": "W4401104680",
+          "influential_citations": null,
+          "paper_id": "usenix-security-2023-automated-analysis-of-protocols-that-use-authent",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-08-01T09:00:35.917206",
+          "request_fingerprint": "GET /works/W4401104680?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "df60ee7e5d9160598236bc61f24436306011f86d8c1757ca7e93e915b3e2557b",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 1
+        }
       },
       "conference": {
         "aliases": [
@@ -3940,23 +4016,25 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "Examining Power Dynamics and User Privacy in Smart Technology Use Among Jordanian Households"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 1,
-            "year": 2025
-          }
-        ],
-        "citations_first_3_years": 1,
-        "external_id": "W6981697802",
-        "influential_citations": null,
-        "paper_id": "usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-02-10T06:17:13.238206",
-        "request_fingerprint": "GET /works/W6981697802?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "8a2e038d4286f2ac61bdd8adaaf59536e1b88076d1e0fa2e38bfaa2579f7734e",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 1
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2025
+            }
+          ],
+          "citations_first_3_years": 1,
+          "external_id": "W6981697802",
+          "influential_citations": null,
+          "paper_id": "usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-02-10T06:17:13.238206",
+          "request_fingerprint": "GET /works/W6981697802?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "8a2e038d4286f2ac61bdd8adaaf59536e1b88076d1e0fa2e38bfaa2579f7734e",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 1
+        }
       },
       "conference": {
         "aliases": [
@@ -4016,23 +4094,25 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "TreeSync: Authenticated Group Management for Messaging Layer Security"
       },
-      "citation": {
-        "citations_by_citing_year": [
-          {
-            "count": 1,
-            "year": 2024
-          }
-        ],
-        "citations_first_3_years": 1,
-        "external_id": "W4392466677",
-        "influential_citations": null,
-        "paper_id": "usenix-security-2023-treesync-authenticated-group-management-for-mess",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4392466677?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "d91525751de379501da4e8ffb313b010f66bba29131cce8e1e57ea0d319b0852",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 1
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2024
+            }
+          ],
+          "citations_first_3_years": 1,
+          "external_id": "W4392466677",
+          "influential_citations": null,
+          "paper_id": "usenix-security-2023-treesync-authenticated-group-management-for-mess",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+          "request_fingerprint": "GET /works/W4392466677?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "d91525751de379501da4e8ffb313b010f66bba29131cce8e1e57ea0d319b0852",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 1
+        }
       },
       "conference": {
         "aliases": [
@@ -4098,18 +4178,20 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "Amplification by Shuffling without Shuffling"
       },
-      "citation": {
-        "citations_by_citing_year": [],
-        "citations_first_3_years": 0,
-        "external_id": "W4388857216",
-        "influential_citations": null,
-        "paper_id": "acm-ccs-2023-amplification-by-shuffling-without-shuffling",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4388857216?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "c6243be2371d2565e67683f3d89d89e505826994f3f01feeb948f6243857820a",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 0
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [],
+          "citations_first_3_years": 0,
+          "external_id": "W4388857216",
+          "influential_citations": null,
+          "paper_id": "acm-ccs-2023-amplification-by-shuffling-without-shuffling",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+          "request_fingerprint": "GET /works/W4388857216?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "c6243be2371d2565e67683f3d89d89e505826994f3f01feeb948f6243857820a",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 0
+        }
       },
       "conference": {
         "aliases": [
@@ -4178,18 +4260,20 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "BotScreen: Trust Everybody, but Cut the Aimbots Yourself"
       },
-      "citation": {
-        "citations_by_citing_year": [],
-        "citations_first_3_years": 0,
-        "external_id": "W4393633303",
-        "influential_citations": null,
-        "paper_id": "usenix-security-2023-botscreen-trust-everybody-but-cut-the-aimbots-yo",
-        "provider": "openalex",
-        "provider_record_updated_at": "2026-07-23T08:03:31.855105",
-        "request_fingerprint": "GET /works/W4393633303?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-        "response_sha256": "5801fc8b372e0fabb058638e4715cef4958715f03ea3e07f04c53107cccdeb83",
-        "retrieved_at": "2026-08-08T10:25:46.712845Z",
-        "total_citations": 0
+      "citations": {
+        "openalex": {
+          "citations_by_citing_year": [],
+          "citations_first_3_years": 0,
+          "external_id": "W4393633303",
+          "influential_citations": null,
+          "paper_id": "usenix-security-2023-botscreen-trust-everybody-but-cut-the-aimbots-yo",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-23T08:03:31.855105",
+          "request_fingerprint": "GET /works/W4393633303?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "5801fc8b372e0fabb058638e4715cef4958715f03ea3e07f04c53107cccdeb83",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 0
+        }
       },
       "conference": {
         "aliases": [
@@ -4252,7 +4336,7 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "A Two-Decade Retrospective Analysis of a University's Vulnerability to Attacks Exploiting Reused Passwords"
       },
-      "citation": null,
+      "citations": {},
       "conference": {
         "aliases": [
           "USENIX Security"
@@ -4323,7 +4407,7 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "Account Security Interfaces: Important, Unintuitive, and Untrustworthy"
       },
-      "citation": null,
+      "citations": {},
       "conference": {
         "aliases": [
           "USENIX Security"
@@ -4379,7 +4463,7 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "An Efficient Design of Intelligent Network Data Plane"
       },
-      "citation": null,
+      "citations": {},
       "conference": {
         "aliases": [
           "USENIX Security"
@@ -4435,7 +4519,7 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "Don’t be Dense: Efficient Keyword PIR for Sparse Databases"
       },
-      "citation": null,
+      "citations": {},
       "conference": {
         "aliases": [
           "USENIX Security"
@@ -4485,7 +4569,7 @@
         "raw_award_name": "Distinguished Paper Award",
         "raw_title": "Remote Direct Memory Introspection"
       },
-      "citation": null,
+      "citations": {},
       "conference": {
         "aliases": [
           "USENIX Security"
@@ -4529,6 +4613,6 @@
       "primary_topic": null
     }
   ],
-  "schema_version": 1,
+  "schema_version": 2,
   "year": 2023
 }

@@ -50,6 +50,9 @@ def validate_repository(root: Path) -> ValidationReport:
     coverage = load_coverage(root)
     observations = load_observations(root)
     registry = load_source_registry(root)
+    public_sources = {
+        item.id: item.public_output_enabled for item in registry.citation_sources
+    }
 
     for label, values in (
         ("conference", [item.id for item in conferences]),
@@ -132,6 +135,11 @@ def validate_repository(root: Path) -> ValidationReport:
             report.require(
                 bool(binding.external_id),
                 f"verified binding lacks external id: {binding.paper_id}/{binding.provider}",
+            )
+            report.require(
+                public_sources.get(binding.provider.value, False),
+                f"verified binding uses a provider whose public output is disabled: "
+                f"{binding.paper_id}/{binding.provider}",
             )
     for duplicate in sorted(_duplicates(binding_keys)):
         report.errors.append(f"duplicate provider binding: {duplicate}")
@@ -233,6 +241,11 @@ def validate_repository(root: Path) -> ValidationReport:
             (observation.paper_id, observation.provider, observation.external_id) in verified,
             "observation lacks a matching verified binding: "
             f"{observation.paper_id}/{observation.provider}/{observation.external_id}",
+        )
+        report.require(
+            public_sources.get(observation.provider.value, False),
+            f"observation uses a provider whose public output is disabled: "
+            f"{observation.paper_id}/{observation.provider}",
         )
         grouped_observations[(observation.paper_id, observation.provider)].append(
             (observation.retrieved_at, observation.total_citations)

@@ -2,24 +2,101 @@ import { useEffect, useMemo, useState } from "react";
 import type { EChartsCoreOption } from "echarts/core";
 import { Chart } from "../components/Chart";
 import { compactNumber, formatDate, loadPaper } from "../data";
+import { usePreferences } from "../preferences";
 import type { PaperData } from "../types";
 
 export function PaperDetail({ id }: { id: string }) {
+  const { language, locale, resolvedTheme } = usePreferences();
+  const text = language === "zh" ? {
+    notFound: "未找到论文",
+    returnToRankings: "返回论文排名",
+    loading: "正在加载论文记录…",
+    allPapers: "返回全部论文",
+    affiliations: "作者与机构",
+    affiliationNote: "机构信息由 OpenAlex 提供，可能并不完整。",
+    topic: "OpenAlex 主题",
+    official: "论文官方页面",
+    current: "当前引用",
+    snapshot: "快照",
+    noEntity: "暂无已核验的引用数据实体",
+    firstThree: "发表后三年",
+    ageWindow: "固定发表年龄窗口",
+    unavailable: "该来源暂无逐年引用数据",
+    entityMatch: "实体匹配",
+    pending: "待核验",
+    requires: "需要人工核验",
+    profile: "引用概况",
+    byYear: "按引用论文发表年份统计",
+    noYear: "暂时没有可用的逐年引用量。",
+    chartNote: "这里的年份是引用论文的发表年份，并非引用计数器在当年的历史快照值。",
+    audit: "审计记录",
+    trustworthy: "为何这条记录值得信任",
+    awardSource: "奖项来源",
+    officialConference: "会议官方页面",
+    rawAward: "原始奖项名称",
+    matchDecision: "匹配决定",
+    confidence: "置信度",
+    citationSource: "引用来源",
+    notResolved: "尚未解析",
+    snapshotHistory: "快照历史",
+    observations: "条不可变观测",
+    reviewNote: "核验备注",
+    chartAria: "引用论文按发表年份分布",
+  } : {
+    notFound: "Paper not found",
+    returnToRankings: "Return to rankings",
+    loading: "Loading paper record…",
+    allPapers: "All papers",
+    affiliations: "Authors and affiliations",
+    affiliationNote: "Affiliations are supplied by OpenAlex and may be incomplete.",
+    topic: "OpenAlex topic",
+    official: "Official paper",
+    current: "Current citations",
+    snapshot: "snapshot",
+    noEntity: "No verified citation entity",
+    firstThree: "First 3 years",
+    ageWindow: "publication-age window",
+    unavailable: "Year-level counts unavailable from this source",
+    entityMatch: "Entity match",
+    pending: "pending",
+    requires: "requires review",
+    profile: "Citation profile",
+    byYear: "Citations by citing year",
+    noYear: "No year-level citation counts are available yet.",
+    chartNote: "This is the citing works’ publication year—not a historical snapshot of what the counter displayed then.",
+    audit: "Audit trail",
+    trustworthy: "Why this record is trustworthy",
+    awardSource: "Award source",
+    officialConference: "Official conference page",
+    rawAward: "Raw award label",
+    matchDecision: "Match decision",
+    confidence: "confidence",
+    citationSource: "Citation source",
+    notResolved: "not resolved",
+    snapshotHistory: "Snapshot history",
+    observations: "immutable observation(s)",
+    reviewNote: "Review note",
+    chartAria: "Citations received by publication year of citing works",
+  };
   const [data, setData] = useState<PaperData | null>(null);
   const [error, setError] = useState("");
   useEffect(() => { loadPaper(id).then(setData).catch((reason: Error) => setError(reason.message)); }, [id]);
-  const latest = data?.citation_history.openalex?.at(-1);
+  const provider = data?.citation_history.openalex?.length ? "openalex"
+    : data?.citation_history.semantic_scholar?.length ? "semantic_scholar" : null;
+  const latest = provider ? data?.citation_history[provider]?.at(-1) : undefined;
+  const dark = resolvedTheme === "dark";
   const yearlyOption = useMemo<EChartsCoreOption>(() => ({
     grid: { left: 45, right: 15, top: 18, bottom: 42 },
-    tooltip: { trigger: "axis" },
-    xAxis: { type: "category", data: latest?.citations_by_citing_year.map((item) => item.year) ?? [], axisTick: { show: false } },
-    yAxis: { type: "value", minInterval: 1, splitLine: { lineStyle: { color: "#dce5df" } } },
+    tooltip: { trigger: "axis", backgroundColor: dark ? "#172a24" : "#fff", borderColor: dark ? "#42574f" : "#d5dfd8", textStyle: { color: dark ? "#edf5f1" : "#152a24" } },
+    xAxis: { type: "category", data: latest?.citations_by_citing_year.map((item) => item.year) ?? [], axisTick: { show: false }, axisLabel: { color: dark ? "#a9bcb5" : "#53655f" } },
+    yAxis: { type: "value", minInterval: 1, axisLabel: { color: dark ? "#a9bcb5" : "#53655f" }, splitLine: { lineStyle: { color: dark ? "#344740" : "#dce5df" } } },
     series: [{ type: "bar", data: latest?.citations_by_citing_year.map((item) => item.count) ?? [], itemStyle: { color: "#45d6ad", borderRadius: [4, 4, 0, 0] }, barMaxWidth: 42 }],
-  }), [latest]);
-  if (error) return <section className="empty-state"><h1>Paper not found</h1><p>{error}</p><a href="#/">Return to rankings</a></section>;
-  if (!data) return <div className="loading">Loading paper record…</div>;
+  }), [dark, latest]);
+  if (error) return <section className="empty-state"><h1>{text.notFound}</h1><p>{error}</p><a href="#/">{text.returnToRankings}</a></section>;
+  if (!data) return <div className="loading">{text.loading}</div>;
   const doi = data.paper.identifiers.find((item) => item.scheme === "doi");
-  const binding = data.bindings.find((item) => item.provider === "openalex");
+  const binding = data.bindings.find((item) => item.provider === provider)
+    ?? data.bindings.find((item) => item.provider === "openalex");
   const affiliations = new Map(
     data.enrichment?.authors.map((author) => [
       author.author_name,
@@ -27,49 +104,78 @@ export function PaperDetail({ id }: { id: string }) {
     ]) ?? [],
   );
   const hasAffiliations = [...affiliations.values()].some((items) => items.length);
+  const hasYearCounts = Boolean(latest?.citations_by_citing_year.length);
+  const providerName = provider === "semantic_scholar" ? "Semantic Scholar" : "OpenAlex";
+  const matchStatus = binding
+    ? language === "zh"
+      ? ({
+          pending: "待核验",
+          candidate: "候选",
+          auto_verified: "自动核验",
+          manually_verified: "人工核验",
+          rejected: "已拒绝",
+          stale: "已过期",
+        } as Record<string, string>)[binding.status] ?? binding.status
+      : binding.status.replace("_", " ")
+    : text.pending;
+  const matchMethod = binding?.method
+    ? language === "zh"
+      ? ({
+          doi_exact: "DOI 精确匹配",
+          title_exact: "标题精确匹配",
+          fuzzy_review: "模糊匹配待复核",
+          manual_override: "人工确认",
+        } as Record<string, string>)[binding.method] ?? binding.method
+      : binding.method.replace("_", " ")
+    : text.requires;
+  const providerUrl = binding?.external_id
+    ? provider === "semantic_scholar"
+      ? `https://www.semanticscholar.org/paper/${binding.external_id}?utm_source=api`
+      : `https://openalex.org/${binding.external_id}`
+    : null;
   return (
     <>
       <section className="paper-hero">
-        <a href="#/" className="back-link">← All 2023 papers</a>
+        <a href="#/" className="back-link">← {language === "zh" ? `${data.paper.publication_year} 年${text.allPapers}` : `${text.allPapers} · ${data.paper.publication_year}`}</a>
         <div className="paper-venue-line">
           <strong>{data.paper.venue_name}</strong>
           <span>{data.awards[0]?.raw_award_name}</span>
         </div>
         <h1>{data.paper.canonical_title}</h1>
-        <p className="authors" aria-label="Authors and affiliations">
+        <p className="authors" aria-label={text.affiliations}>
           {data.paper.authors.map((author, index) => {
             const institutions = affiliations.get(author.name) ?? [];
             return <span key={author.name}><b>{author.name}</b>{institutions.length ? <small> ({institutions.join(", ")})</small> : null}{index < data.paper.authors.length - 1 ? ", " : ""}</span>;
           })}
         </p>
-        {hasAffiliations && <small className="affiliation-note">Affiliations are supplied by OpenAlex and may be incomplete.</small>}
-        {data.enrichment?.primary_topic && <p className="paper-topic"><span>OpenAlex topic</span>{data.enrichment.primary_topic.display_name}</p>}
+        {hasAffiliations && <small className="affiliation-note">{text.affiliationNote}</small>}
+        {data.enrichment?.primary_topic && <p className="paper-topic"><span>{text.topic}</span>{data.enrichment.primary_topic.display_name}</p>}
         <div className="paper-links">
-          {data.paper.official_paper_url && <a href={data.paper.official_paper_url} target="_blank" rel="noreferrer">Official paper ↗</a>}
+          {data.paper.official_paper_url && <a href={data.paper.official_paper_url} target="_blank" rel="noreferrer">{text.official} ↗</a>}
           {doi && <a href={`https://doi.org/${doi.value}`} target="_blank" rel="noreferrer">DOI ↗</a>}
-          {binding?.external_id && <a href={`https://openalex.org/${binding.external_id}`} target="_blank" rel="noreferrer">OpenAlex ↗</a>}
+          {providerUrl && <a href={providerUrl} target="_blank" rel="noreferrer">{providerName} ↗</a>}
         </div>
       </section>
       <section className="paper-metrics">
-        <article><span>Current citations</span><strong>{latest ? compactNumber(latest.total_citations) : "—"}</strong><small>{latest ? `snapshot ${formatDate(latest.retrieved_at)}` : "No verified OpenAlex entity"}</small></article>
-        <article><span>First 3 years</span><strong>{latest ? latest.citations_by_citing_year.filter((item) => item.year >= data.paper.publication_year && item.year < data.paper.publication_year + 3).reduce((sum, item) => sum + item.count, 0) : "—"}</strong><small>publication-age window</small></article>
-        <article><span>Entity match</span><strong className="match-status">{binding?.status.replace("_", " ") ?? "pending"}</strong><small>{binding?.method?.replace("_", " ") ?? "requires review"}</small></article>
+        <article><span>{text.current}</span><strong>{latest ? compactNumber(latest.total_citations, locale) : "—"}</strong><small>{latest ? `${providerName} · ${text.snapshot} ${formatDate(latest.retrieved_at, locale)}` : text.noEntity}</small></article>
+        <article><span>{text.firstThree}</span><strong>{hasYearCounts ? latest?.citations_by_citing_year.filter((item) => item.year >= data.paper.publication_year && item.year < data.paper.publication_year + 3).reduce((sum, item) => sum + item.count, 0) : "—"}</strong><small>{hasYearCounts ? text.ageWindow : text.unavailable}</small></article>
+        <article><span>{text.entityMatch}</span><strong className="match-status">{matchStatus}</strong><small>{matchMethod}</small></article>
       </section>
       <section className="paper-grid">
         <article className="panel">
-          <div className="panel-heading"><div><p className="kicker">Citation profile</p><h2>Citations by citing year</h2></div></div>
-          {latest && latest.citations_by_citing_year.length ? <Chart option={yearlyOption} height={320} label="Citations received by publication year of citing works" /> : <p className="empty-chart">No year-level citation counts are available yet.</p>}
-          <p className="chart-note">This is the citing works’ publication year—not a historical snapshot of what the counter displayed then.</p>
+          <div className="panel-heading"><div><p className="kicker">{text.profile}</p><h2>{text.byYear}</h2></div></div>
+          {hasYearCounts ? <Chart option={yearlyOption} height={320} label={text.chartAria} /> : <p className="empty-chart">{text.noYear}</p>}
+          <p className="chart-note">{text.chartNote}</p>
         </article>
         <aside className="provenance-card">
-          <p className="kicker">Audit trail</p><h2>Why this record is trustworthy</h2>
+          <p className="kicker">{text.audit}</p><h2>{text.trustworthy}</h2>
           <dl>
-            <div><dt>Award source</dt><dd><a href={data.awards[0]?.official_source.url} target="_blank" rel="noreferrer">Official conference page ↗</a></dd></div>
-            <div><dt>Raw award label</dt><dd>{data.awards[0]?.raw_award_name}</dd></div>
-            <div><dt>Match decision</dt><dd>{binding?.status.replace("_", " ") ?? "pending"}{binding?.confidence != null ? ` · ${Math.round(binding.confidence * 100)}% confidence` : " · requires review"}</dd></div>
-            <div><dt>Citation source</dt><dd>OpenAlex work {binding?.external_id ?? "not resolved"}</dd></div>
-            <div><dt>Snapshot history</dt><dd>{data.citation_history.openalex?.length ?? 0} immutable observation(s)</dd></div>
-            {binding?.review_notes && <div><dt>Review note</dt><dd>{binding.review_notes}</dd></div>}
+            <div><dt>{text.awardSource}</dt><dd><a href={data.awards[0]?.official_source.url} target="_blank" rel="noreferrer">{text.officialConference} ↗</a></dd></div>
+            <div><dt>{text.rawAward}</dt><dd>{data.awards[0]?.raw_award_name}</dd></div>
+            <div><dt>{text.matchDecision}</dt><dd>{matchStatus}{binding?.confidence != null ? ` · ${Math.round(binding.confidence * 100)}% ${text.confidence}` : ` · ${text.requires}`}</dd></div>
+            <div><dt>{text.citationSource}</dt><dd>{providerName} {binding?.external_id ?? text.notResolved}</dd></div>
+            <div><dt>{text.snapshotHistory}</dt><dd>{provider ? data.citation_history[provider]?.length ?? 0 : 0} {text.observations}</dd></div>
+            {binding?.review_notes && <div><dt>{text.reviewNote}</dt><dd>{binding.review_notes}</dd></div>}
           </dl>
         </aside>
       </section>

@@ -40,8 +40,9 @@ site and are not treated as zero-citation papers:
 A diagnostic Semantic Scholar lookup returned a title/author-consistent 2023 entity
 for **Remote Direct Memory Introspection**. It remains an unpublished candidate until
 the identity is manually reviewed and the project completes its S2 publication
-decision. The unauthenticated API rate-limited the other four diagnostic requests, so
-they remain unknown rather than confirmed absent. Use the
+decision. A keyed, rate-limited candidate-discovery workflow is now available for all
+five papers; until it is run and reviewed, the other four remain unknown rather than
+confirmed absent. Use the
 [human curation workflow](manual-curation-workflow.md) for each decision.
 
 ### Why NDSS has two included papers
@@ -70,14 +71,19 @@ allowance. API documentation: <https://developers.openalex.org/api-reference/aut
 
 ### Semantic Scholar
 
-The provider adapter supports DOI lookup, title-match search, persistent paper
-IDs, total citation count, and influential citation count. Its public export is
+The provider adapter supports DOI lookup, exact and ranked title search, persistent
+paper IDs, total citation count, and influential citation count. The approved key is
+used only in maintainer-controlled jobs at less than one request per second. Public export is
 disabled in `source_registry.yml`: API-derived counts and IDs are not committed or
 included in site JSON. The API license permits access/display subject to its agreement,
 while S2 data and underlying third-party content may carry separate licenses. Committing
 those observations to a public download without a distinct license boundary could imply
 redistribution rights the project has not established. See
 [the publication decision](semantic-scholar-publication.md).
+
+Public pages include Semantic Scholar name/logo attribution, a link-back carrying
+`utm_source=api`, and a citation to *The Semantic Scholar Open Data Platform*. This
+satisfies the display-attribution work independently of the still-closed snapshot gate.
 
 API documentation: <https://api.semanticscholar.org/api-docs/graph>
 

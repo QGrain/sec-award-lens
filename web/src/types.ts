@@ -66,7 +66,7 @@ export interface Citation {
   retrieved_at: string;
   total_citations: number;
   citations_by_citing_year: CitationYear[];
-  citations_first_3_years?: number;
+  citations_first_3_years?: number | null;
 }
 
 export interface RankingRow {
@@ -76,7 +76,7 @@ export interface RankingRow {
   /** Backward compatibility for locally cached JSON generated before schema v1.1. */
   enrichment?: PaperEnrichment | null;
   conference: Conference;
-  citation: Citation | null;
+  citations: Partial<Record<Provider, Citation>>;
 }
 
 export interface Distribution {

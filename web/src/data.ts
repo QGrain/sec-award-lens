@@ -12,10 +12,10 @@ export const loadIndex = () => getJson<IndexData>("index.json");
 export const loadYear = (year: number) => getJson<YearData>(`years/${year}.json`);
 export const loadPaper = (id: string) => getJson<PaperData>(`papers/${id}.json`);
 
-export const formatDate = (iso: string) =>
-  new Intl.DateTimeFormat("en", { year: "numeric", month: "short", day: "numeric" }).format(
+export const formatDate = (iso: string, locale = "en-US") =>
+  new Intl.DateTimeFormat(locale, { year: "numeric", month: "short", day: "numeric" }).format(
     new Date(iso),
   );
 
-export const compactNumber = (value: number) =>
-  new Intl.NumberFormat("en", { notation: value >= 1000 ? "compact" : "standard" }).format(value);
+export const compactNumber = (value: number, locale = "en-US") =>
+  new Intl.NumberFormat(locale, { notation: value >= 1000 ? "compact" : "standard" }).format(value);

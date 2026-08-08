@@ -42,7 +42,9 @@ class SemanticScholarClient(JsonApiClient):
         super().__init__(
             base_url="https://api.semanticscholar.org/graph/v1",
             headers=headers,
-            min_interval_seconds=1,
+            # The issued key allows one request per second. A small margin avoids
+            # crossing the boundary because of clock and network jitter.
+            min_interval_seconds=1.1,
             client=client,
         )
 
@@ -60,6 +62,15 @@ class SemanticScholarClient(JsonApiClient):
             return None
         matches = payload.get("data", [])
         return _paper(matches[0]) if matches else None
+
+    def search_title(self, title: str, *, limit: int = 5) -> list[ProviderPaper]:
+        if not 1 <= limit <= 100:
+            raise ValueError("Semantic Scholar search limit must be between 1 and 100")
+        payload = self.get_json(
+            "/paper/search",
+            params={"query": title, "limit": limit, "fields": self.FIELDS},
+        )
+        return [_paper(item) for item in payload.get("data", [])]
 
     def observation(
         self,

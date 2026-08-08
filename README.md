@@ -25,8 +25,9 @@ The first release covers all **47 core 2023 paper awards**:
 | NDSS | 2 | 2 |
 
 Five USENIX papers remain visibly unresolved in OpenAlex. They are not assigned to
-weak lookalikes. Semantic Scholar support is implemented, but publishing its data is
-disabled until its redistribution terms are reviewed for this project; see the
+weak lookalikes. Keyed Semantic Scholar candidate discovery is implemented, but
+publishing its response data remains disabled until static redistribution is explicitly
+confirmed for this project; see the
 [publication decision](docs/semantic-scholar-publication.md).
 
 ## Quick start
@@ -54,6 +55,7 @@ uv run secawardlens awards check
 
 # Print review candidates; does not change pinned bindings.
 uv run secawardlens match openalex --paper-id PAPER_ID
+uv run secawardlens match semantic-scholar --paper-id PAPER_ID
 
 # Append a UTC-dated snapshot using existing verified IDs only.
 uv run secawardlens citations refresh
@@ -67,10 +69,16 @@ uv run secawardlens review validate data/review/submissions/FORM.yml
 uv run secawardlens review apply data/review/submissions/FORM.yml
 ```
 
-`OPENALEX_API_KEY` is required for OpenAlex API commands. Create a free key at
+`OPENALEX_API_KEY` is required for OpenAlex API commands. `S2_API_KEY` is required for
+Semantic Scholar candidate discovery and any future enabled S2 refresh. Create an OpenAlex key at
 <https://openalex.org/settings/api> and export it locally with
-`export OPENALEX_API_KEY=...`. Building or previewing already committed data does not
-need the key. Routine citation refreshes never search or rematch a paper.
+`export OPENALEX_API_KEY=...`; export an approved S2 key with `export S2_API_KEY=...`.
+Building or previewing already committed data needs neither key. Routine citation
+refreshes never search or rematch a paper.
+
+The web interface defaults to English and a light theme. Visitors can switch between
+English/Chinese UI text and Light/Dark/System themes; paper titles, authors, venues,
+and other source metadata remain in their original language.
 
 ## Repository map
 

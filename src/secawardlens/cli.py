@@ -23,6 +23,7 @@ from .matching import resolve_candidates
 from .models import BindingStatus, CitationProvider, utc_now
 from .normalization import title_similarity
 from .providers.openalex import OpenAlexClient
+from .providers.semantic_scholar import SemanticScholarClient
 from .review import apply_resolution, load_submission
 from .validation import validate_repository
 
@@ -51,6 +52,16 @@ def _openalex_api_key() -> str:
         raise typer.BadParameter(
             "OPENALEX_API_KEY is required. Create a free key at "
             "https://openalex.org/settings/api and export it or add it as a GitHub secret."
+        )
+    return key
+
+
+def _semantic_scholar_api_key() -> str:
+    key = os.getenv("S2_API_KEY")
+    if not key:
+        raise typer.BadParameter(
+            "S2_API_KEY is required. Store the approved Semantic Scholar key in this "
+            "environment or as a GitHub Actions repository secret."
         )
     return key
 
@@ -178,6 +189,61 @@ def match_openalex(
     typer.echo(json.dumps(decisions, ensure_ascii=False, indent=2, sort_keys=True))
 
 
+@match_app.command("semantic-scholar")
+def match_semantic_scholar(
+    root: Annotated[Path | None, typer.Option()] = None,
+    paper_id: Annotated[
+        str | None, typer.Option(help="Limit candidate generation to one paper.")
+    ] = None,
+    all_papers: Annotated[
+        bool,
+        typer.Option("--all", help="Search every paper, not only unresolved OpenAlex papers."),
+    ] = False,
+) -> None:
+    """Generate reviewable S2 candidates; never writes IDs or provider data."""
+    project = _root(root)
+    papers = load_papers(project)
+    bindings = load_bindings(project)
+    if paper_id:
+        papers = [paper for paper in papers if paper.id == paper_id]
+        if not papers:
+            raise typer.BadParameter(f"unknown paper_id: {paper_id}")
+    elif not all_papers:
+        resolved_openalex = {
+            item.paper_id
+            for item in bindings
+            if item.provider == CitationProvider.OPENALEX
+            and item.status in {BindingStatus.AUTO_VERIFIED, BindingStatus.MANUALLY_VERIFIED}
+        }
+        papers = [paper for paper in papers if paper.id not in resolved_openalex]
+
+    awards = load_awards(project)
+    editions = {item.id: item for item in load_editions(project)}
+    conference_by_paper = {
+        award.paper_id: editions[award.edition_id].conference_id for award in awards
+    }
+    decisions = []
+    with SemanticScholarClient(api_key=_semantic_scholar_api_key()) as client:
+        for paper in papers:
+            exact = client.title_candidate(paper.canonical_title)
+            found = ([exact] if exact else []) + client.search_title(paper.canonical_title)
+            candidates = list({item.external_id: item for item in found}.values())
+            plausible = [
+                item
+                for item in candidates
+                if item is not None
+                and title_similarity(paper.canonical_title, item.title) >= 0.55
+            ]
+            decision = resolve_candidates(
+                paper=paper,
+                conference_id=conference_by_paper[paper.id],
+                provider=CitationProvider.SEMANTIC_SCHOLAR,
+                candidates=plausible,
+            )
+            decisions.append(decision.model_dump(mode="json", exclude_none=True))
+    typer.echo(json.dumps(decisions, ensure_ascii=False, indent=2, sort_keys=True))
+
+
 @citations_app.command("refresh")
 def refresh_citations(
     root: Annotated[Path | None, typer.Option()] = None,
@@ -187,33 +253,78 @@ def refresh_citations(
     at: Annotated[
         str | None, typer.Option(help="UTC timestamp for a reproducible snapshot.")
     ] = None,
+    provider: Annotated[
+        str,
+        typer.Option(help="Citation provider: openalex, semantic_scholar, or all."),
+    ] = "openalex",
+    skip_existing: Annotated[
+        bool,
+        typer.Option(help="Skip a provider when its UTC-dated snapshot already exists."),
+    ] = False,
 ) -> None:
-    """Refresh pinned, verified OpenAlex entities; never searches or rematches papers."""
+    """Refresh pinned verified IDs directly; never searches or rematches papers."""
     project = _root(root)
-    bindings = [
-        item
-        for item in load_bindings(project)
-        if item.provider == CitationProvider.OPENALEX
-        and item.status in {BindingStatus.AUTO_VERIFIED, BindingStatus.MANUALLY_VERIFIED}
-        and item.external_id
-    ]
+    choices = {
+        "openalex": [CitationProvider.OPENALEX],
+        "semantic_scholar": [CitationProvider.SEMANTIC_SCHOLAR],
+        "all": [CitationProvider.OPENALEX, CitationProvider.SEMANTIC_SCHOLAR],
+    }
+    if provider not in choices:
+        raise typer.BadParameter("provider must be openalex, semantic_scholar, or all")
+    public_sources = {
+        item.id: item.public_output_enabled
+        for item in load_source_registry(project).citation_sources
+    }
+    all_bindings = load_bindings(project)
     paper_ids = {paper.id for paper in load_papers(project)}
     retrieved_at = datetime.fromisoformat(at.replace("Z", "+00:00")) if at else utc_now()
-    with OpenAlexClient(api_key=_openalex_api_key()) as client:
-        observations = [
-            client.observation(
-                paper_id=binding.paper_id,
-                external_id=binding.external_id or "",
-                full_history=full_history,
-                retrieved_at=retrieved_at,
-            )
-            for binding in bindings
-            if binding.paper_id in paper_ids
-        ]
     date = retrieved_at.date().isoformat()
-    target = project / "data/snapshots" / f"{date}-openalex.jsonl"
-    if target.exists():
-        raise typer.BadParameter(f"snapshot already exists: {target}")
-    target.parent.mkdir(parents=True, exist_ok=True)
-    target.write_text(jsonl(observations), encoding="utf-8")
-    typer.echo(f"wrote {len(observations)} observations to {target}")
+
+    for selected in choices[provider]:
+        if selected == CitationProvider.SEMANTIC_SCHOLAR and not public_sources.get(
+            selected.value, False
+        ):
+            typer.echo("skipped semantic_scholar: public output is disabled")
+            continue
+        bindings = [
+            item
+            for item in all_bindings
+            if item.provider == selected
+            and item.status in {BindingStatus.AUTO_VERIFIED, BindingStatus.MANUALLY_VERIFIED}
+            and item.external_id
+            and item.paper_id in paper_ids
+        ]
+        if not bindings:
+            typer.echo(f"skipped {selected.value}: no verified bindings")
+            continue
+        target = project / "data/snapshots" / f"{date}-{selected.value.replace('_', '-')}.jsonl"
+        if target.exists():
+            if skip_existing:
+                typer.echo(f"skipped {selected.value}: snapshot already exists: {target}")
+                continue
+            raise typer.BadParameter(f"snapshot already exists: {target}")
+
+        if selected == CitationProvider.OPENALEX:
+            with OpenAlexClient(api_key=_openalex_api_key()) as client:
+                observations = [
+                    client.observation(
+                        paper_id=binding.paper_id,
+                        external_id=binding.external_id or "",
+                        full_history=full_history,
+                        retrieved_at=retrieved_at,
+                    )
+                    for binding in bindings
+                ]
+        else:
+            with SemanticScholarClient(api_key=_semantic_scholar_api_key()) as client:
+                observations = [
+                    client.observation(
+                        paper_id=binding.paper_id,
+                        external_id=binding.external_id or "",
+                        retrieved_at=retrieved_at,
+                    )
+                    for binding in bindings
+                ]
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(jsonl(observations), encoding="utf-8")
+        typer.echo(f"wrote {len(observations)} observations to {target}")

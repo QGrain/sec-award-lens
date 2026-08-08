@@ -13,6 +13,9 @@ OpenAlex target, generate fresh candidates without modifying data:
 ```bash
 export OPENALEX_API_KEY='...'
 uv run secawardlens match openalex --paper-id PAPER_ID
+
+export S2_API_KEY='...'
+uv run secawardlens match semantic-scholar --paper-id PAPER_ID
 ```
 
 Record the paper ID. Do not invent a second ID for a conference version, preprint, or
@@ -27,9 +30,10 @@ Collect these fields, leaving unknown values as `null` rather than guessing:
    publication year, and paper URL.
 3. Publisher/Crossref: DOI and version-of-record landing page.
 4. OpenAlex: work ID, title, authors, year, venue, DOI, and any related work IDs.
-5. Semantic Scholar: paper ID/Corpus ID and the same comparison fields. This is
-   evidence for identity review; its citation data is not published until the project
-   completes its separate terms decision.
+5. Semantic Scholar: paper ID/Corpus ID and the same comparison fields. Candidate
+   JSON can be generated locally or downloaded from the manual **Find Semantic Scholar
+   candidates** Action. It is evidence for identity review; its citation data is not
+   published until the project completes its separate terms decision.
 6. Google Scholar may be used as a manual discovery/cross-check only. Save the URL and
    date, but do not enter a Scholar count as an OpenAlex or Semantic Scholar count and
    do not add automated Scholar scraping.
@@ -120,6 +124,7 @@ npm run build
 ```
 
 After the PR is reviewed and merged, the Pages workflow rebuilds the static JSON and
-frontend automatically. If a newly accepted OpenAlex ID has no citation snapshot yet,
+frontend automatically. If a newly accepted provider ID has no citation snapshot yet,
 run the citation-refresh workflow; its PR adds the first immutable observation, and a
-subsequent merge makes the count visible.
+subsequent merge makes the count visible. Semantic Scholar decisions cannot be applied
+while its `public_output_enabled` gate is false.

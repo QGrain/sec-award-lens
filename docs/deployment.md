@@ -71,7 +71,7 @@ no code change is needed.
 
 ## Repository secrets
 
-Deployment of committed data needs no API key. Weekly OpenAlex refreshes and local
+Deployment of committed data needs no API key. Monthly OpenAlex refreshes and local
 entity searches do.
 
 1. Obtain the OpenAlex key from <https://openalex.org/settings/api>.
@@ -85,9 +85,11 @@ entity searches do.
    repository secret**.
 4. Name it exactly `OPENALEX_API_KEY`, paste the key as its value, and save it.
 
-Do not create `SEMANTIC_SCHOLAR_API_KEY` yet. Add it only after AI2 has answered the
-public-snapshot/licensing question and S2 public output is deliberately enabled. Never
-store either key in a repository variable: variables are not secrets.
+Repeat the secret steps for the approved Semantic Scholar key, naming it exactly
+`S2_API_KEY`. This enables the manual candidate-discovery Action immediately. It does
+not publish S2 data while `semantic_scholar.public_output_enabled` remains false.
+Never use `SEMANTIC_SCHOLAR_API_KEY` (the code does not read that name), and never store
+either key in a repository variable: variables are not secrets.
 
 ## What each workflow does
 
@@ -95,8 +97,9 @@ store either key in a repository variable: variables are not secrets.
 | --- | --- | --- |
 | `CI` | Push to `main`; pull request | Python lint/type/tests, data/schema reproducibility checks, frontend tests/audit/build |
 | `Deploy GitHub Pages` | Push to `main`; manual dispatch | Rebuild `web/public/data`, build `web/dist`, upload and deploy a Pages artifact |
-| `Refresh citation snapshots` | Monday 08:17 UTC; manual dispatch | Fetch pinned OpenAlex IDs, append a dated snapshot, validate/build, and open a PR |
+| `Refresh citation snapshots` | First day of each month at 08:17 UTC; manual dispatch | Fetch pinned IDs from enabled providers, append dated snapshots, validate/build, and open a PR |
 | `Monitor official award sources` | First day of each month at 09:43 UTC; manual dispatch | Compare normalized official award records with their reviewed count and digest |
+| `Find Semantic Scholar candidates` | Manual dispatch | Search OpenAlex-unresolved records below 1 req/s and upload review-only candidate JSON |
 
 The off-hour cron minutes reduce peak scheduling delays. Scheduled workflows run only
 from the default branch and may be delayed. GitHub disables schedules in a public
@@ -112,7 +115,7 @@ tab if the project has been dormant.
 3. Verify the overview, pagination, conference filters, comparison tabs, methodology,
    and at least one `#/paper/...` route. Confirm that data files load from the
    `/sec-award-lens/data/` subpath rather than the domain root.
-4. Confirm that the footer shows the current OpenAlex retrieval date and that the
+4. Confirm that the footer shows the current citation-data retrieval date and that the
    GitHub link targets the actual repository.
 5. Use a private browser window or disable cache once to ensure the result is the
    deployed artifact rather than a local Vite page.
@@ -120,7 +123,7 @@ tab if the project has been dormant.
 ## Verify automated updates
 
 After adding `OPENALEX_API_KEY`, manually run **Actions → Refresh citation snapshots →
-Run workflow** once instead of waiting for Monday. The expected result is a PR from
+Run workflow** once instead of waiting for the next month. The expected result is a PR from
 `automation/citation-refresh` containing:
 
 - one new `data/snapshots/YYYY-MM-DD-openalex.jsonl` file;
@@ -133,6 +136,23 @@ that run, wait for CI, inspect the diff, and merge manually. Merging to `main` t
 a new Pages deployment. A second refresh on the same UTC date should report that the
 snapshot already exists and should not create duplicate history.
 
+After adding `S2_API_KEY`, run **Actions → Find Semantic Scholar candidates → Run
+workflow** with the paper ID blank. Download the `semantic-scholar-candidates` artifact
+from the completed run; it contains candidates for the five OpenAlex-unresolved papers.
+This Action never edits the repository. Transfer only manually verified decisions into
+the review form described in `docs/manual-curation-workflow.md`.
+
+To publish an accepted S2 entity after the static-redistribution question is confirmed:
+
+1. Change `semantic_scholar.public_output_enabled` to `true` in
+   `data/provenance/source_registry.yml` and update the data notice in the same PR.
+2. Apply the reviewed resolution form so the S2 ID is pinned.
+3. Merge after CI; then manually run **Refresh citation snapshots**. Its next PR will
+   contain `YYYY-MM-DD-semantic-scholar.jsonl` and provider-labeled site JSON.
+4. Inspect the S2 count and attribution, merge the PR, and let the normal `main` push
+   deploy it. The current S2 adapter does not retrieve the same by-year series as
+   OpenAlex, so its three-year metric remains unavailable rather than zero.
+
 Also manually run **Monitor official award sources** once. Success means all four
 normalized 2023 official-source digests still match; failure requires human inspection
 and must not automatically rewrite curated awards.
@@ -140,9 +160,29 @@ and must not automatically rewrite curated awards.
 ## Recommended repository protection
 
 After the first successful deployment, add a `main` branch ruleset that requires pull
-requests and the `validate` CI job before merge. Do not grant the refresh workflow
-automatic merge rights. Keep the Pages `github-pages` environment managed by the
-deployment workflow, and review dependency/action updates before changing pinned SHAs.
+requests and the `validate` CI job before merge. Keep the Pages `github-pages`
+environment managed by the deployment workflow, and review dependency/action updates
+before changing pinned SHAs.
+
+### Optional automated merge and branch cleanup
+
+The current workflow intentionally opens a PR but does not merge it. This is recommended
+while provider behavior is still being validated. Enable **Settings → General → Pull
+Requests → Automatically delete head branches** for immediate cleanup after any merge.
+The action's `delete-branch: true` is also a fallback when it next observes a merged or
+no-diff automation branch.
+
+GitHub's repository auto-merge setting does not automatically opt every new bot PR in;
+a writer can click **Enable auto-merge** on each PR. Fully unattended opt-in requires a
+GitHub App installation token or a carefully scoped fine-grained PAT plus an explicit
+`gh pr merge --auto` step. A PR created or merged with the default `GITHUB_TOKEN` has
+workflow-recursion restrictions, so CI and Pages may not trigger as expected. Do not
+add a long-lived broad PAT merely for convenience.
+
+If full automation is later enabled, require the `validate` check, restrict it to the
+exact `automation/citation-refresh` branch and title, use squash merge, and retain a
+manual workflow kill switch. The principal risk is that syntactically valid but
+semantically wrong provider changes would be published without a human diff review.
 
 Common failures:
 
@@ -153,4 +193,4 @@ Common failures:
 | Refresh cannot open a PR | The workflow's write permissions and “Allow GitHub Actions to create and approve pull requests” are enabled |
 | Site HTML loads but data is 404 | Vite was built in Actions with the repository subpath; inspect the deployed asset/data URLs |
 | Automated PR has no running CI | Open the PR and approve its workflow run |
-| Weekly/monthly jobs stopped | Re-enable schedules after prolonged repository inactivity |
+| Monthly jobs stopped | Re-enable schedules after prolonged repository inactivity |
