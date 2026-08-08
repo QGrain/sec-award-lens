@@ -41,9 +41,85 @@
       "status": "manually_verified",
       "verified_at": "2026-08-07T18:41:58Z",
       "verified_by": "machine-assisted-bootstrap"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "11507894294460007087",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma",
+      "provider": "google_scholar",
+      "rejected_candidates": [
+        {
+          "author_overlap": 1.0,
+          "doi": null,
+          "external_id": "7525582868304805381",
+          "publication_year": 2023,
+          "title": "Examining Power Dynamics and User Privacy in Smart Technology Use Among Jordanian Households. 4643–4659",
+          "title_similarity": 0.9484536082474225,
+          "venue": "W Albayaydh, I Flechais - 2023",
+          "venue_match": false,
+          "year_delta": 0
+        }
+      ],
+      "related_version_ids": [],
+      "review_notes": "Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "11507894294460007087",
+        "publication_year": 2023,
+        "title": "Examining power dynamics and user privacy in smart technology use among Jordanian households",
+        "title_similarity": 1.0,
+        "venue": "W Albayaydh, I Flechais - 32nd USENIX Security Symposium (USENIX …, 2023 - usenix.org",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:07:48Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "d4c0c078cea37df5e65327adda933efd74876e22",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "d4c0c078cea37df5e65327adda933efd74876e22",
+        "publication_year": 2023,
+        "title": "Examining Power Dynamics and User Privacy in Smart Technology Use Among Jordanian Households",
+        "title_similarity": 1.0,
+        "venue": "USENIX Security Symposium",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
     }
   ],
   "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "11507894294460007087",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=714284e1b63e39d4b4ece2bddae651b013ef2fed66fce4ae46d302ab0b84e35a&num=10&hl=en",
+        "response_sha256": "7f632853d045ca07bc5806eac248e3559b4f2a9d1501e410d2c55fea18969077",
+        "retrieved_at": "2026-08-08T18:07:48Z",
+        "total_citations": 33
+      }
+    ],
     "openalex": [
       {
         "citations_by_citing_year": [
@@ -79,6 +155,20 @@
         "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 1
       }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "d4c0c078cea37df5e65327adda933efd74876e22",
+        "influential_citations": 6,
+        "paper_id": "usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/d4c0c078cea37df5e65327adda933efd74876e22?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "fd3ecede517a7a7720f73dbf09f0c2fd983a18226f2d7fda4ed176cf2e65351e",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 20
+      }
     ]
   },
   "enrichment": {
@@ -106,7 +196,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -124,6 +214,18 @@
         "source_url": "https://api.openalex.org/works/W6981697802",
         "value": "W6981697802",
         "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=11507894294460007087",
+        "value": "11507894294460007087",
+        "verified_at": "2026-08-08T18:07:48Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/d4c0c078cea37df5e65327adda933efd74876e22?utm_source=api",
+        "value": "d4c0c078cea37df5e65327adda933efd74876e22",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
       }
     ],
     "metadata_sources": [

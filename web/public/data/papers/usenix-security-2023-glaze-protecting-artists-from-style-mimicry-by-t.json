@@ -41,9 +41,73 @@
       "status": "manually_verified",
       "verified_at": "2026-08-07T18:41:58Z",
       "verified_by": "machine-assisted-bootstrap"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "12442642277246861451",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2023-glaze-protecting-artists-from-style-mimicry-by-t",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "12442642277246861451",
+        "publication_year": 2023,
+        "title": "Glaze: Protecting artists from style mimicry by {Text-to-Image} models",
+        "title_similarity": 1.0,
+        "venue": "S Shan, J Cryan, E Wenger, H Zheng, R Hanocka, BY Zhao32nd USENIX Security Symposium (USENIX Security 23), 2023•usenix.org",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:07:34Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "897c0aedead3105b7b6cd1afbb6aeb4f62a06e11",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2023-glaze-protecting-artists-from-style-mimicry-by-t",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.48550/arxiv.2302.04222",
+        "external_id": "897c0aedead3105b7b6cd1afbb6aeb4f62a06e11",
+        "publication_year": 2023,
+        "title": "GLAZE: Protecting Artists from Style Mimicry by Text-to-Image Models",
+        "title_similarity": 1.0,
+        "venue": "USENIX Security Symposium",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
     }
   ],
   "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "12442642277246861451",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-glaze-protecting-artists-from-style-mimicry-by-t",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=18f97dd6143ead1e2844ee813cc470a299414ff97189e756329384b2785787f3&num=10&hl=en",
+        "response_sha256": "47077ec61de9b2300c415e8612b54d31fa740345838d2e4752caedf3bea2cfac",
+        "retrieved_at": "2026-08-08T18:07:34Z",
+        "total_citations": 487
+      }
+    ],
     "openalex": [
       {
         "citations_by_citing_year": [
@@ -103,6 +167,20 @@
         "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 43
       }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "897c0aedead3105b7b6cd1afbb6aeb4f62a06e11",
+        "influential_citations": 45,
+        "paper_id": "usenix-security-2023-glaze-protecting-artists-from-style-mimicry-by-t",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/897c0aedead3105b7b6cd1afbb6aeb4f62a06e11?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "3c8eb5d8cf5437d10784084e01991236e093a3e665c9926e48485797c7535185",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 300
+      }
     ]
   },
   "enrichment": {
@@ -154,7 +232,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -184,6 +262,18 @@
         "source_url": "https://api.openalex.org/works/W4320342250",
         "value": "W4320342250",
         "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=12442642277246861451",
+        "value": "12442642277246861451",
+        "verified_at": "2026-08-08T18:07:34Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/897c0aedead3105b7b6cd1afbb6aeb4f62a06e11?utm_source=api",
+        "value": "897c0aedead3105b7b6cd1afbb6aeb4f62a06e11",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
       }
     ],
     "metadata_sources": [

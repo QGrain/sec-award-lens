@@ -20,7 +20,7 @@ describe("generated 2023 contract", () => {
   ) as YearData;
 
   it("contains all official 2023 award records", () => {
-    expect(data.schema_version).toBe(2);
+    expect(data.schema_version).toBe(3);
     expect(data.rows).toHaveLength(47);
     expect(data.rows.filter((row) => row.citations.openalex)).toHaveLength(42);
   });

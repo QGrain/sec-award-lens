@@ -41,9 +41,73 @@
       "status": "auto_verified",
       "verified_at": "2026-08-07T18:41:58Z",
       "verified_by": "SecAwardLens pipeline"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "11195187877516902599",
+      "method": "manual_override",
+      "override_reason": "Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.",
+      "paper_id": "acm-ccs-2023-panic-pan-assisted-intra-process-memory-isolatio",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "11195187877516902599",
+        "publication_year": 2023,
+        "title": "PANIC: PAN-assisted Intra-process Memory Isolation on ARM",
+        "title_similarity": 1.0,
+        "venue": "J Xu, M Xie, C Wu, Y Zhang, Q Li, X Huang, Y Lai, Y Kang, W Wang, Q Wei, Z WangProceedings of the 2023 ACM SIGSAC Conference on Computer and Communications …, 2023•dl.acm.org",
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-08T18:08:47Z",
+      "verified_by": "SecAwardLens maintainer review"
+    },
+    {
+      "confidence": 1.0,
+      "external_id": "6647dc71f98daa99b26b1969356f14c79a9ba3d9",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "acm-ccs-2023-panic-pan-assisted-intra-process-memory-isolatio",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1145/3576915.3623206",
+        "external_id": "6647dc71f98daa99b26b1969356f14c79a9ba3d9",
+        "publication_year": 2023,
+        "title": "PANIC: PAN-assisted Intra-process Memory Isolation on ARM",
+        "title_similarity": 1.0,
+        "venue": "Conference on Computer and Communications Security",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
     }
   ],
   "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "11195187877516902599",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-panic-pan-assisted-intra-process-memory-isolatio",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=732495571eef31ce49a5afa1451840363537a942374e970581b065bd1c51fb20&num=10&hl=en",
+        "response_sha256": "4224f09a9a1a7f38cdb6e8318720a88a8428f67012ed8ca84358b4db21029d34",
+        "retrieved_at": "2026-08-08T18:08:47Z",
+        "total_citations": 24
+      }
+    ],
     "openalex": [
       {
         "citations_by_citing_year": [
@@ -94,6 +158,20 @@
         "response_sha256": "e60d42a50dc50c7d6a327f70940f80169eed143821ee719b409a2f89432b1c09",
         "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 11
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "6647dc71f98daa99b26b1969356f14c79a9ba3d9",
+        "influential_citations": 1,
+        "paper_id": "acm-ccs-2023-panic-pan-assisted-intra-process-memory-isolatio",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/6647dc71f98daa99b26b1969356f14c79a9ba3d9?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "f91d27ba9c5f1f37e28515e3a2c3786f73025a8b544b6aaabc1f4526e0639077",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 19
       }
     ]
   },
@@ -271,7 +349,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -322,6 +400,18 @@
         "source_url": "https://api.crossref.org/works/10.1145/3576915.3623206",
         "value": "10.1145/3576915.3623206",
         "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=11195187877516902599",
+        "value": "11195187877516902599",
+        "verified_at": "2026-08-08T18:08:47Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/6647dc71f98daa99b26b1969356f14c79a9ba3d9?utm_source=api",
+        "value": "6647dc71f98daa99b26b1969356f14c79a9ba3d9",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
       }
     ],
     "metadata_sources": [

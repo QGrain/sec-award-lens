@@ -141,6 +141,12 @@ def validate_repository(root: Path) -> ValidationReport:
                 f"verified binding uses a provider whose public output is disabled: "
                 f"{binding.paper_id}/{binding.provider}",
             )
+            if binding.provider == CitationProvider.GOOGLE_SCHOLAR:
+                report.require(
+                    bool(binding.external_id and binding.external_id.isdigit()),
+                    "verified Google Scholar binding must use a numeric cites_id: "
+                    f"{binding.paper_id}",
+                )
     for duplicate in sorted(_duplicates(binding_keys)):
         report.errors.append(f"duplicate provider binding: {duplicate}")
     external_keys = [

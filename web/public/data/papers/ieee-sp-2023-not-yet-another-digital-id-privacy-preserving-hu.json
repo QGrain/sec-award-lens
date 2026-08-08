@@ -41,9 +41,73 @@
       "status": "auto_verified",
       "verified_at": "2026-08-07T18:41:58Z",
       "verified_by": "SecAwardLens pipeline"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "6601185334764687073",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "ieee-sp-2023-not-yet-another-digital-id-privacy-preserving-hu",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "6601185334764687073",
+        "publication_year": 2023,
+        "title": "Not yet another digital ID: privacy-preserving humanitarian aid distribution",
+        "title_similarity": 1.0,
+        "venue": "B Wang, W Lueks, J Sukaitis, VG Narbel, C Troncoso2023 IEEE Symposium on Security and Privacy (SP), 2023•ieeexplore.ieee.org",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:07:13Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    },
+    {
+      "confidence": 1.0,
+      "external_id": "a4ab064c74f06267168472c6006edf5247c25e63",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "ieee-sp-2023-not-yet-another-digital-id-privacy-preserving-hu",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1109/sp46215.2023.10179306",
+        "external_id": "a4ab064c74f06267168472c6006edf5247c25e63",
+        "publication_year": 2023,
+        "title": "Not Yet Another Digital ID: Privacy-Preserving Humanitarian Aid Distribution",
+        "title_similarity": 1.0,
+        "venue": "IEEE Symposium on Security and Privacy",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
     }
   ],
   "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "6601185334764687073",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-not-yet-another-digital-id-privacy-preserving-hu",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=50dd617bc0cf37763fd8463384aaf63442aff2931bac2a396e09dec7c5116510&num=10&hl=en",
+        "response_sha256": "69f53ec8375154f9fb688d417433658232aa0451cd4adaed1a414a67c41565fa",
+        "retrieved_at": "2026-08-08T18:07:13Z",
+        "total_citations": 14
+      }
+    ],
     "openalex": [
       {
         "citations_by_citing_year": [
@@ -102,6 +166,20 @@
         "response_sha256": "ba04ed8a0015efd6853337e839f353437e9cbd058201b5b06fd39b1fdbec423c",
         "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 8
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "a4ab064c74f06267168472c6006edf5247c25e63",
+        "influential_citations": 0,
+        "paper_id": "ieee-sp-2023-not-yet-another-digital-id-privacy-preserving-hu",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/a4ab064c74f06267168472c6006edf5247c25e63?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "799de34bf7682aafb28248c62df08e133b6a63f6145934fe6127eb876e8b469b",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 11
       }
     ]
   },
@@ -178,7 +256,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -211,6 +289,18 @@
         "source_url": "https://api.crossref.org/works/10.1109/sp46215.2023.10179306",
         "value": "10.1109/sp46215.2023.10179306",
         "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=6601185334764687073",
+        "value": "6601185334764687073",
+        "verified_at": "2026-08-08T18:07:13Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/a4ab064c74f06267168472c6006edf5247c25e63?utm_source=api",
+        "value": "a4ab064c74f06267168472c6006edf5247c25e63",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
       }
     ],
     "metadata_sources": [

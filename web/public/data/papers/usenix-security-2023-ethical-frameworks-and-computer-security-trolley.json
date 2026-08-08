@@ -41,9 +41,73 @@
       "status": "manually_verified",
       "verified_at": "2026-08-07T18:41:58Z",
       "verified_by": "machine-assisted-bootstrap"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "5926880305407693086",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2023-ethical-frameworks-and-computer-security-trolley",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "5926880305407693086",
+        "publication_year": 2023,
+        "title": "Ethical frameworks and computer security trolley problems: Foundations for conversations",
+        "title_similarity": 1.0,
+        "venue": "T Kohno, Y Acar, W Loh32nd USENIX Security Symposium (USENIX Security 23), 2023•usenix.org",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:07:50Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "15deb60e1002cb1b5364354257fdba6a5c3c3247",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2023-ethical-frameworks-and-computer-security-trolley",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.48550/arxiv.2302.14326",
+        "external_id": "15deb60e1002cb1b5364354257fdba6a5c3c3247",
+        "publication_year": 2023,
+        "title": "Ethical Frameworks and Computer Security Trolley Problems: Foundations for Conversations",
+        "title_similarity": 1.0,
+        "venue": "USENIX Security Symposium",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
     }
   ],
   "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "5926880305407693086",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-ethical-frameworks-and-computer-security-trolley",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=4554695693b3d4339e3929db9cc0dacd2348c9cc8e4ca47d9ffe17d9fdb8576f&num=10&hl=en",
+        "response_sha256": "ee4da3ae6ac7d6d2a9787ab322525805b4f0f928b2b6ccd2dfae81b4144292bf",
+        "retrieved_at": "2026-08-08T18:07:50Z",
+        "total_citations": 81
+      }
+    ],
     "openalex": [
       {
         "citations_by_citing_year": [
@@ -87,6 +151,20 @@
         "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 5
       }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "15deb60e1002cb1b5364354257fdba6a5c3c3247",
+        "influential_citations": 5,
+        "paper_id": "usenix-security-2023-ethical-frameworks-and-computer-security-trolley",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/15deb60e1002cb1b5364354257fdba6a5c3c3247?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "75d09de0e4c0bbda42407811a0c7122635b1f011a6991db5cb2e58414ae8c7fe",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 65
+      }
     ]
   },
   "enrichment": {
@@ -120,7 +198,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -141,6 +219,18 @@
         "source_url": "https://api.openalex.org/works/W4322759797",
         "value": "W4322759797",
         "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=5926880305407693086",
+        "value": "5926880305407693086",
+        "verified_at": "2026-08-08T18:07:50Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/15deb60e1002cb1b5364354257fdba6a5c3c3247?utm_source=api",
+        "value": "15deb60e1002cb1b5364354257fdba6a5c3c3247",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
       }
     ],
     "metadata_sources": [

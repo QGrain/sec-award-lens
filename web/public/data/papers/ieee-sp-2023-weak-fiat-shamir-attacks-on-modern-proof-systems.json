@@ -41,9 +41,73 @@
       "status": "auto_verified",
       "verified_at": "2026-08-07T18:41:58Z",
       "verified_by": "SecAwardLens pipeline"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "11751510727785006116",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "ieee-sp-2023-weak-fiat-shamir-attacks-on-modern-proof-systems",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "11751510727785006116",
+        "publication_year": 2023,
+        "title": "Weak fiat-shamir attacks on modern proof systems",
+        "title_similarity": 1.0,
+        "venue": "Q Dao, J Miller, O Wright, P Grubbs2023 IEEE Symposium on Security and Privacy (SP), 2023•ieeexplore.ieee.org",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:06:35Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    },
+    {
+      "confidence": 1.0,
+      "external_id": "7b840245a8e9eb43cca61e68658986a2e661e7af",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "ieee-sp-2023-weak-fiat-shamir-attacks-on-modern-proof-systems",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1109/sp46215.2023.10179408",
+        "external_id": "7b840245a8e9eb43cca61e68658986a2e661e7af",
+        "publication_year": 2023,
+        "title": "Weak Fiat-Shamir Attacks on Modern Proof Systems",
+        "title_similarity": 1.0,
+        "venue": "IEEE Symposium on Security and Privacy",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
     }
   ],
   "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "11751510727785006116",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-weak-fiat-shamir-attacks-on-modern-proof-systems",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=658a0e781329a4020ed5bb7f7cb1c258d3d69972d00a9a258164f1defcbfd1bd&num=10&hl=en",
+        "response_sha256": "2a2650ee62fdbbf50471502083258e250720dbf43fd4ead29eadc2331af6954f",
+        "retrieved_at": "2026-08-08T18:06:35Z",
+        "total_citations": 49
+      }
+    ],
     "openalex": [
       {
         "citations_by_citing_year": [
@@ -103,6 +167,20 @@
         "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 12
       }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "7b840245a8e9eb43cca61e68658986a2e661e7af",
+        "influential_citations": 2,
+        "paper_id": "ieee-sp-2023-weak-fiat-shamir-attacks-on-modern-proof-systems",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/7b840245a8e9eb43cca61e68658986a2e661e7af?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "21439dfbbec5e1b0f416aa8c63254b01e8ddeec47e37c7832219c3f9e16026a2",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 33
+      }
     ]
   },
   "enrichment": {
@@ -154,7 +232,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -184,6 +262,18 @@
         "source_url": "https://api.crossref.org/works/10.1109/sp46215.2023.10179408",
         "value": "10.1109/sp46215.2023.10179408",
         "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=11751510727785006116",
+        "value": "11751510727785006116",
+        "verified_at": "2026-08-08T18:06:35Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/7b840245a8e9eb43cca61e68658986a2e661e7af?utm_source=api",
+        "value": "7b840245a8e9eb43cca61e68658986a2e661e7af",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
       }
     ],
     "metadata_sources": [

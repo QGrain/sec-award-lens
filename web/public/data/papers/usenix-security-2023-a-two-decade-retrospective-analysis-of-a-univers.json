@@ -31,11 +31,102 @@
       "status": "pending",
       "verified_at": null,
       "verified_by": null
+    },
+    {
+      "confidence": 0.8700000000000001,
+      "external_id": "10194117707257387734",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2023-a-two-decade-retrospective-analysis-of-a-univers",
+      "provider": "google_scholar",
+      "rejected_candidates": [
+        {
+          "author_overlap": 0.5,
+          "doi": null,
+          "external_id": "9611344027778067160",
+          "publication_year": 2023,
+          "title": "A Two-Decade Retrospective Analysis of a University's Vulnerability to Attacks Exploiting Reused Passwords (Extended Version)",
+          "title_similarity": 0.9257641921397379,
+          "venue": "A Nisenoff, M Golla, M Wei, J Hainline, H Szymanek… - 2023 - mirandawei.com",
+          "venue_match": false,
+          "year_delta": 0
+        }
+      ],
+      "related_version_ids": [],
+      "review_notes": "Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 0.4,
+        "doi": null,
+        "external_id": "10194117707257387734",
+        "publication_year": 2023,
+        "title": "A {Two-Decade} Retrospective Analysis of a University's Vulnerability to Attacks Exploiting Reused Passwords",
+        "title_similarity": 1.0,
+        "venue": "A Nisenoff, M Golla, M Wei, J Hainline… - 32nd USENIX Security …, 2023 - usenix.org",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:07:49Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "ed4ddd65b95873c96b06d7aee978f8e9c885b227",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2023-a-two-decade-retrospective-analysis-of-a-univers",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "ed4ddd65b95873c96b06d7aee978f8e9c885b227",
+        "publication_year": 2023,
+        "title": "A Two-Decade Retrospective Analysis of a University's Vulnerability to Attacks Exploiting Reused Passwords",
+        "title_similarity": 1.0,
+        "venue": "USENIX Security Symposium",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
     }
   ],
-  "citation_history": {},
+  "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "10194117707257387734",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-a-two-decade-retrospective-analysis-of-a-univers",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=07c0ac4907e831caf0e4bcb5a45609669bd1ea81ccc5df8786516923ced4b852&num=10&hl=en",
+        "response_sha256": "d26ef48ab3c24d0e3ee815aba4dba3835588ec84a750d3dc810dab057be27a9d",
+        "retrieved_at": "2026-08-08T18:07:49Z",
+        "total_citations": 30
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "ed4ddd65b95873c96b06d7aee978f8e9c885b227",
+        "influential_citations": 0,
+        "paper_id": "usenix-security-2023-a-two-decade-retrospective-analysis-of-a-univers",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/ed4ddd65b95873c96b06d7aee978f8e9c885b227?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "54dd5ece425eff1f17ccbe4ceccd8926b0e2179d997b6786c167b9eee364fe81",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 19
+      }
+    ]
+  },
   "enrichment": null,
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -71,7 +162,20 @@
     ],
     "canonical_title": "A Two-Decade Retrospective Analysis of a University's Vulnerability to Attacks Exploiting Reused Passwords",
     "id": "usenix-security-2023-a-two-decade-retrospective-analysis-of-a-univers",
-    "identifiers": [],
+    "identifiers": [
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=10194117707257387734",
+        "value": "10194117707257387734",
+        "verified_at": "2026-08-08T18:07:49Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/ed4ddd65b95873c96b06d7aee978f8e9c885b227?utm_source=api",
+        "value": "ed4ddd65b95873c96b06d7aee978f8e9c885b227",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
+      }
+    ],
     "metadata_sources": [
       "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
     ],

@@ -41,9 +41,73 @@
       "status": "auto_verified",
       "verified_at": "2026-08-07T18:41:58Z",
       "verified_by": "SecAwardLens pipeline"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "15607192397336165188",
+      "method": "manual_override",
+      "override_reason": "Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.",
+      "paper_id": "acm-ccs-2023-concurrent-composition-for-interactive-different",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "15607192397336165188",
+        "publication_year": 2023,
+        "title": "Concurrent composition for interactive differential privacy with adaptive privacy-loss parameters",
+        "title_similarity": 1.0,
+        "venue": "S Haney, M Shoemate, G Tian, S Vadhan, A Vyrros, V Xu, W ZhangProceedings of the 2023 ACM SIGSAC Conference on Computer and Communications …, 2023•dl.acm.org",
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-08T18:08:21Z",
+      "verified_by": "SecAwardLens maintainer review"
+    },
+    {
+      "confidence": 1.0,
+      "external_id": "34c09a2af1fc5a98f793fd2267ea43c951356ecb",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "acm-ccs-2023-concurrent-composition-for-interactive-different",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1145/3576915.3623128",
+        "external_id": "34c09a2af1fc5a98f793fd2267ea43c951356ecb",
+        "publication_year": 2023,
+        "title": "Concurrent Composition for Interactive Differential Privacy with Adaptive Privacy-Loss Parameters",
+        "title_similarity": 1.0,
+        "venue": "Conference on Computer and Communications Security",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
     }
   ],
   "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "15607192397336165188",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-concurrent-composition-for-interactive-different",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=fe401274867a34343718b9092b0ba0525607bf203fb30046d0d5b9d3817ee09d&num=10&hl=en",
+        "response_sha256": "1a46f1f4f4849cd94e2199cfdf787025f4ebd993bf82fb799b01cf7ab6a181ad",
+        "retrieved_at": "2026-08-08T18:08:21Z",
+        "total_citations": 20
+      }
+    ],
     "openalex": [
       {
         "citations_by_citing_year": [
@@ -94,6 +158,20 @@
         "response_sha256": "53e6cc7a288db5195c8ff68672fea345489b19460c7a9a361c42c53a5197169e",
         "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 5
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "34c09a2af1fc5a98f793fd2267ea43c951356ecb",
+        "influential_citations": 0,
+        "paper_id": "acm-ccs-2023-concurrent-composition-for-interactive-different",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/34c09a2af1fc5a98f793fd2267ea43c951356ecb?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "34e88186484f6196a940a7dc2377bd9a95152c5e36922f136ad1a7cda923dd3e",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 15
       }
     ]
   },
@@ -188,7 +266,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -227,6 +305,18 @@
         "source_url": "https://api.crossref.org/works/10.1145/3576915.3623128",
         "value": "10.1145/3576915.3623128",
         "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=15607192397336165188",
+        "value": "15607192397336165188",
+        "verified_at": "2026-08-08T18:08:21Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/34c09a2af1fc5a98f793fd2267ea43c951356ecb?utm_source=api",
+        "value": "34c09a2af1fc5a98f793fd2267ea43c951356ecb",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
       }
     ],
     "metadata_sources": [

@@ -21,6 +21,8 @@ from .metrics import citation_window, distribution_summary
 from .models import CitationObservation
 from .validation import validate_repository
 
+SUPPORTED_CITATION_SOURCES = ("google_scholar", "openalex", "semantic_scholar")
+
 
 def _write_json(path: Path, payload: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -58,6 +60,18 @@ def build_site_data(root: Path, output: Path | None = None) -> list[Path]:
     edition_by_id = {item.id: item for item in editions}
     enrichment_by_paper = {item.paper_id: item for item in enrichments}
     latest = _latest_by_source(observations)
+    observed_sources = {item.provider.value for item in observations}
+    citation_sources = [
+        item.id
+        for item in source_registry.citation_sources
+        if item.public_output_enabled
+        and item.id in SUPPORTED_CITATION_SOURCES
+        and item.id in observed_sources
+    ]
+    preferred_source = next(
+        (item for item in SUPPORTED_CITATION_SOURCES if item in citation_sources),
+        "openalex",
+    )
     history: dict[tuple[str, str], list[CitationObservation]] = defaultdict(list)
     for item in observations:
         history[(item.paper_id, item.provider.value)].append(item)
@@ -79,7 +93,7 @@ def build_site_data(root: Path, output: Path | None = None) -> list[Path]:
             edition = edition_by_id[award.edition_id]
             enrichment = enrichment_by_paper.get(paper.id)
             citations: dict[str, dict[str, Any]] = {}
-            for provider in ("openalex", "semantic_scholar"):
+            for provider in SUPPORTED_CITATION_SOURCES:
                 observation = latest.get((paper.id, provider))
                 if observation is None:
                     continue
@@ -87,7 +101,11 @@ def build_site_data(root: Path, output: Path | None = None) -> list[Path]:
                     **observation.model_dump(mode="json"),
                     "citations_first_3_years": (
                         citation_window(observation, paper.publication_year, 3)
-                        if provider == "openalex"
+                        if provider in {"openalex", "google_scholar"}
+                        and (
+                            observation.citations_by_citing_year
+                            or observation.total_citations == 0
+                        )
                         else None
                     ),
                 }
@@ -110,9 +128,9 @@ def build_site_data(root: Path, output: Path | None = None) -> list[Path]:
                 row for row in rows if row["award"]["edition_id"] == edition.id
             ]
             counts = [
-                row["citations"]["openalex"]["total_citations"]
+                row["citations"][preferred_source]["total_citations"]
                 for row in conference_rows
-                if "openalex" in row["citations"]
+                if preferred_source in row["citations"]
             ]
             summaries.append(
                 {
@@ -120,6 +138,7 @@ def build_site_data(root: Path, output: Path | None = None) -> list[Path]:
                     "conference": conference_by_id[edition.conference_id].model_dump(mode="json"),
                     "award_count": len(conference_rows),
                     "cited_paper_count": len(counts),
+                    "citation_source": preferred_source,
                     "citations": distribution_summary(counts),
                 }
             )
@@ -127,13 +146,15 @@ def build_site_data(root: Path, output: Path | None = None) -> list[Path]:
         _write_json(
             target,
             {
-                "schema_version": 2,
+                "schema_version": 3,
                 "generated_at": generated_at.isoformat(),
                 "year": year,
                 "rows": sorted(
                     rows,
                     key=lambda row: (
-                        -row["citations"].get("openalex", {}).get("total_citations", -1),
+                        -row["citations"].get(preferred_source, {}).get(
+                            "total_citations", -1
+                        ),
                         row["paper"]["canonical_title"],
                     ),
                 ),
@@ -182,12 +203,8 @@ def build_site_data(root: Path, output: Path | None = None) -> list[Path]:
             "default_year": max(years),
             "conferences": [item.model_dump(mode="json") for item in conferences],
             "coverage": [item.model_dump(mode="json") for item in coverage],
-            "citation_sources": [
-                item.id
-                for item in source_registry.citation_sources
-                if item.public_output_enabled
-                and item.id in {"openalex", "semantic_scholar"}
-            ],
+            "citation_sources": citation_sources,
+            "preferred_citation_source": preferred_source,
             "methodology_url": "#/methodology",
         },
     )

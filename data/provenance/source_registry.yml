@@ -24,8 +24,17 @@ award_sources:
   expected_records: 2
   extracted_sha256: adb46aff5da70675303af80106c42cbaed006322235a3b108e835c5b2e21a9c1
 citation_sources:
+- id: google_scholar
+  role: preferred_comparison
+  api_url: https://serpapi.com/search?engine=google_scholar
+  public_output_enabled: true
+  stored_fields:
+  - search_information.total_results
+  - citations_per_year
+  - search_metadata.processed_at
+  notes: Google Scholar has no official API. Counts are retrieved through SerpApi from manually verified numeric cites_id clusters, labeled as third-party observations, and excluded from the project's CC0 dedication.
 - id: openalex
-  role: primary
+  role: open_graph_comparison
   api_url: https://api.openalex.org
   public_output_enabled: true
   stored_fields:
@@ -36,11 +45,11 @@ citation_sources:
 - id: semantic_scholar
   role: optional_comparison
   api_url: https://api.semanticscholar.org/graph/v1
-  public_output_enabled: false
+  public_output_enabled: true
   stored_fields:
   - citationCount
   - influentialCitationCount
-  notes: API key approved; candidate discovery is enabled. Public snapshots remain disabled pending explicit confirmation for static GitHub redistribution.
+  notes: The approved Public (Free/Nonprofit) API use covers the disclosed static research site. Only reviewed paper IDs and minimal timestamped citation observations are published; raw responses are not committed, S2-derived fields are excluded from the project's CC0 dedication, and public displays retain the required attribution and link-back.
 - id: crossref
   role: metadata_helper
   api_url: https://api.crossref.org

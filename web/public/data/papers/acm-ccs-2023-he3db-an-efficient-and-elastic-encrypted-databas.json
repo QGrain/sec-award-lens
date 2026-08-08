@@ -41,9 +41,73 @@
       "status": "auto_verified",
       "verified_at": "2026-08-07T18:41:58Z",
       "verified_by": "SecAwardLens pipeline"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "11867684590348611982",
+      "method": "manual_override",
+      "override_reason": "Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.",
+      "paper_id": "acm-ccs-2023-he3db-an-efficient-and-elastic-encrypted-databas",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "11867684590348611982",
+        "publication_year": 2023,
+        "title": "HE3DB: An efficient and elastic encrypted database via arithmetic-and-logic fully homomorphic encryption",
+        "title_similarity": 1.0,
+        "venue": "S Bian, Z Zhang, H Pan, R Mao, Z Zhao, Y Jin, Z GuanProceedings of the 2023 ACM SIGSAC conference on computer and communications …, 2023•dl.acm.org",
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-08T18:08:35Z",
+      "verified_by": "SecAwardLens maintainer review"
+    },
+    {
+      "confidence": 1.0,
+      "external_id": "fbbcb2989a47ba7f12b9eab1158d8321789b2093",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "acm-ccs-2023-he3db-an-efficient-and-elastic-encrypted-databas",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 0.14285714285714285,
+        "doi": "10.1145/3576915.3616608",
+        "external_id": "fbbcb2989a47ba7f12b9eab1158d8321789b2093",
+        "publication_year": 2023,
+        "title": "HE3DB: An Efficient and Elastic Encrypted Database Via Arithmetic-And-Logic Fully Homomorphic Encryption",
+        "title_similarity": 1.0,
+        "venue": "IACR Cryptology ePrint Archive",
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
     }
   ],
   "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "11867684590348611982",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-he3db-an-efficient-and-elastic-encrypted-databas",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=73354bcfa26a64b31f8b1ce773bdea4d99a7537ffaf1056b1bd3e487e7f0cd08&num=10&hl=en",
+        "response_sha256": "12dc49afe5474a677c04b012d0d708fdee545a8d630fd217729b87a6aca9c47c",
+        "retrieved_at": "2026-08-08T18:08:35Z",
+        "total_citations": 93
+      }
+    ],
     "openalex": [
       {
         "citations_by_citing_year": [
@@ -102,6 +166,20 @@
         "response_sha256": "f6f2a1ef777765dd419feceb39c7ab8f03f82972631fff86977057940b071b5a",
         "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 50
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "fbbcb2989a47ba7f12b9eab1158d8321789b2093",
+        "influential_citations": 3,
+        "paper_id": "acm-ccs-2023-he3db-an-efficient-and-elastic-encrypted-databas",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/fbbcb2989a47ba7f12b9eab1158d8321789b2093?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "292de88cab32cb3df650bf0ae41185f6affb8a9f70e2457fdc5185126d717177",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 46
       }
     ]
   },
@@ -202,7 +280,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -241,6 +319,18 @@
         "source_url": "https://api.crossref.org/works/10.1145/3576915.3616608",
         "value": "10.1145/3576915.3616608",
         "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=11867684590348611982",
+        "value": "11867684590348611982",
+        "verified_at": "2026-08-08T18:08:35Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/fbbcb2989a47ba7f12b9eab1158d8321789b2093?utm_source=api",
+        "value": "fbbcb2989a47ba7f12b9eab1158d8321789b2093",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
       }
     ],
     "metadata_sources": [

@@ -19,6 +19,7 @@ class AwardCategory(StrEnum):
 class CitationProvider(StrEnum):
     OPENALEX = "openalex"
     SEMANTIC_SCHOLAR = "semantic_scholar"
+    GOOGLE_SCHOLAR = "google_scholar"
 
 
 class BindingStatus(StrEnum):
@@ -98,7 +99,9 @@ class TopicAssignment(StrictModel):
 
 
 class Identifier(StrictModel):
-    scheme: Literal["doi", "openalex", "semantic_scholar", "corpus_id"]
+    scheme: Literal[
+        "doi", "openalex", "semantic_scholar", "google_scholar", "corpus_id"
+    ]
     value: str
     source_url: str
     verified_at: datetime

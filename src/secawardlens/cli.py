@@ -22,6 +22,7 @@ from .io import (
 from .matching import resolve_candidates
 from .models import BindingStatus, CitationProvider, utc_now
 from .normalization import title_similarity
+from .providers.google_scholar import GoogleScholarClient
 from .providers.openalex import OpenAlexClient
 from .providers.semantic_scholar import SemanticScholarClient
 from .review import apply_resolution, load_submission
@@ -62,6 +63,16 @@ def _semantic_scholar_api_key() -> str:
         raise typer.BadParameter(
             "S2_API_KEY is required. Store the approved Semantic Scholar key in this "
             "environment or as a GitHub Actions repository secret."
+        )
+    return key
+
+
+def _serpapi_key() -> str:
+    key = os.getenv("SERPAPI_KEY")
+    if not key:
+        raise typer.BadParameter(
+            "SERPAPI_KEY is required for Google Scholar via SerpApi. Create a key at "
+            "https://serpapi.com/manage-api-key and export it or add it as a GitHub secret."
         )
     return key
 
@@ -244,6 +255,89 @@ def match_semantic_scholar(
     typer.echo(json.dumps(decisions, ensure_ascii=False, indent=2, sort_keys=True))
 
 
+@match_app.command("google-scholar")
+def match_google_scholar(
+    root: Annotated[Path | None, typer.Option()] = None,
+    paper_id: Annotated[
+        str | None, typer.Option(help="Limit candidate generation to one paper.")
+    ] = None,
+) -> None:
+    """Generate reviewable Scholar candidates through SerpApi; never pins IDs."""
+    project = _root(root)
+    papers = load_papers(project)
+    if paper_id:
+        papers = [paper for paper in papers if paper.id == paper_id]
+        if not papers:
+            raise typer.BadParameter(f"unknown paper_id: {paper_id}")
+    awards = load_awards(project)
+    editions = {item.id: item for item in load_editions(project)}
+    conference_by_paper = {
+        award.paper_id: editions[award.edition_id].conference_id for award in awards
+    }
+    decisions = []
+    with GoogleScholarClient(api_key=_serpapi_key()) as client:
+        for paper in papers:
+            found, payload = client.search_title_with_payload(paper.canonical_title)
+            plausible = [
+                item
+                for item in found
+                if title_similarity(paper.canonical_title, item.title) >= 0.65
+            ]
+            decision = resolve_candidates(
+                paper=paper,
+                conference_id=conference_by_paper[paper.id],
+                provider=CitationProvider.GOOGLE_SCHOLAR,
+                candidates=plausible,
+            )
+            selected = next(
+                (
+                    item
+                    for item in plausible
+                    if item.external_id == decision.external_id
+                ),
+                None,
+            )
+            decisions.append(
+                {
+                    "paper_id": paper.id,
+                    "expected": {
+                        "title": paper.canonical_title,
+                        "authors": [author.name for author in paper.authors],
+                        "publication_year": paper.publication_year,
+                        "venue": paper.venue_name,
+                    },
+                    "resolution": decision.model_dump(mode="json", exclude_none=True),
+                    "initial_observation": (
+                        client.discovery_observation(
+                            paper_id=paper.id,
+                            candidate=selected,
+                            search_payload=payload,
+                            query_title=paper.canonical_title,
+                        ).model_dump(mode="json", exclude_none=True)
+                        if selected is not None
+                        else None
+                    ),
+                    "candidates": [
+                        {
+                            "cites_id": item.external_id,
+                            "scholar_cluster_url": (
+                                "https://scholar.google.com/scholar?cluster="
+                                f"{item.external_id}"
+                            ),
+                            "title": item.title,
+                            "authors": item.authors,
+                            "publication_year": item.publication_year,
+                            "publication_summary": item.venue,
+                            "observed_citations_at_search": item.citation_count,
+                            "result_url": item.raw.get("link"),
+                        }
+                        for item in plausible
+                    ],
+                }
+            )
+    typer.echo(json.dumps(decisions, ensure_ascii=False, indent=2, sort_keys=True))
+
+
 @citations_app.command("refresh")
 def refresh_citations(
     root: Annotated[Path | None, typer.Option()] = None,
@@ -255,7 +349,9 @@ def refresh_citations(
     ] = None,
     provider: Annotated[
         str,
-        typer.Option(help="Citation provider: openalex, semantic_scholar, or all."),
+        typer.Option(
+            help="Citation provider: openalex, semantic_scholar, google_scholar, or all."
+        ),
     ] = "openalex",
     skip_existing: Annotated[
         bool,
@@ -267,10 +363,17 @@ def refresh_citations(
     choices = {
         "openalex": [CitationProvider.OPENALEX],
         "semantic_scholar": [CitationProvider.SEMANTIC_SCHOLAR],
-        "all": [CitationProvider.OPENALEX, CitationProvider.SEMANTIC_SCHOLAR],
+        "google_scholar": [CitationProvider.GOOGLE_SCHOLAR],
+        "all": [
+            CitationProvider.OPENALEX,
+            CitationProvider.SEMANTIC_SCHOLAR,
+            CitationProvider.GOOGLE_SCHOLAR,
+        ],
     }
     if provider not in choices:
-        raise typer.BadParameter("provider must be openalex, semantic_scholar, or all")
+        raise typer.BadParameter(
+            "provider must be openalex, semantic_scholar, google_scholar, or all"
+        )
     public_sources = {
         item.id: item.public_output_enabled
         for item in load_source_registry(project).citation_sources
@@ -281,10 +384,8 @@ def refresh_citations(
     date = retrieved_at.date().isoformat()
 
     for selected in choices[provider]:
-        if selected == CitationProvider.SEMANTIC_SCHOLAR and not public_sources.get(
-            selected.value, False
-        ):
-            typer.echo("skipped semantic_scholar: public output is disabled")
+        if not public_sources.get(selected.value, False):
+            typer.echo(f"skipped {selected.value}: public output is disabled")
             continue
         bindings = [
             item
@@ -315,8 +416,18 @@ def refresh_citations(
                     )
                     for binding in bindings
                 ]
-        else:
+        elif selected == CitationProvider.SEMANTIC_SCHOLAR:
             with SemanticScholarClient(api_key=_semantic_scholar_api_key()) as client:
+                observations = [
+                    client.observation(
+                        paper_id=binding.paper_id,
+                        external_id=binding.external_id or "",
+                        retrieved_at=retrieved_at,
+                    )
+                    for binding in bindings
+                ]
+        else:
+            with GoogleScholarClient(api_key=_serpapi_key()) as client:
                 observations = [
                     client.observation(
                         paper_id=binding.paper_id,

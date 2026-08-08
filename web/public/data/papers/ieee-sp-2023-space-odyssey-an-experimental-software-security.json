@@ -41,9 +41,73 @@
       "status": "auto_verified",
       "verified_at": "2026-08-07T18:41:58Z",
       "verified_by": "SecAwardLens pipeline"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "16038534564960384530",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "ieee-sp-2023-space-odyssey-an-experimental-software-security",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "16038534564960384530",
+        "publication_year": 2023,
+        "title": "Space odyssey: An experimental software security analysis of satellites",
+        "title_similarity": 1.0,
+        "venue": "J Willbold, M Schloegel, M Vögele, M Gerhardt, T Holz, A Abbasi2023 IEEE Symposium on Security and Privacy (SP), 2023•ieeexplore.ieee.org",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:07:17Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    },
+    {
+      "confidence": 1.0,
+      "external_id": "f286a1056c11247990c689778c5b85795846e3ba",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "ieee-sp-2023-space-odyssey-an-experimental-software-security",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1109/sp46215.2023.10351029",
+        "external_id": "f286a1056c11247990c689778c5b85795846e3ba",
+        "publication_year": 2023,
+        "title": "Space Odyssey: An Experimental Software Security Analysis of Satellites",
+        "title_similarity": 1.0,
+        "venue": "IEEE Symposium on Security and Privacy",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
     }
   ],
   "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "16038534564960384530",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-space-odyssey-an-experimental-software-security",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=7dd94b81ca504622b1b75a0ed8c6a403323478e34d98299aa9d0118e0a7fb0cd&num=10&hl=en",
+        "response_sha256": "405f46895d4118f0ddaa4299b4f1d2af8ad180cdf4b58ac082bd382eb8718731",
+        "retrieved_at": "2026-08-08T18:07:17Z",
+        "total_citations": 128
+      }
+    ],
     "openalex": [
       {
         "citations_by_citing_year": [
@@ -102,6 +166,20 @@
         "response_sha256": "2cc69d9d3089da3736531fee00d6a74ef90b2d165a3a2de8bc057aa88014d33d",
         "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 50
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "f286a1056c11247990c689778c5b85795846e3ba",
+        "influential_citations": 12,
+        "paper_id": "ieee-sp-2023-space-odyssey-an-experimental-software-security",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/f286a1056c11247990c689778c5b85795846e3ba?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "aac16a0a68fe4c861b8d0f44f9d0ff3e3d5ebbc65d3e0a8785a559f279d491fa",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 75
       }
     ]
   },
@@ -195,7 +273,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -231,6 +309,18 @@
         "source_url": "https://api.crossref.org/works/10.1109/sp46215.2023.10351029",
         "value": "10.1109/sp46215.2023.10351029",
         "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=16038534564960384530",
+        "value": "16038534564960384530",
+        "verified_at": "2026-08-08T18:07:17Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/f286a1056c11247990c689778c5b85795846e3ba?utm_source=api",
+        "value": "f286a1056c11247990c689778c5b85795846e3ba",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
       }
     ],
     "metadata_sources": [

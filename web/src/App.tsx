@@ -2,7 +2,7 @@ import { lazy, Suspense, useEffect, useState } from "react";
 import { Shell } from "./components/Shell";
 import { loadIndex, loadYear } from "./data";
 import { usePreferences } from "./preferences";
-import type { IndexData, YearData } from "./types";
+import type { IndexData, Provider, YearData } from "./types";
 
 const Methodology = lazy(() => import("./pages/Methodology").then((module) => ({ default: module.Methodology })));
 const Acknowledgements = lazy(() => import("./pages/Acknowledgements").then((module) => ({ default: module.Acknowledgements })));
@@ -18,9 +18,13 @@ function useRoute() {
   }, []);
   const [path, query = ""] = hash.slice(1).split("?");
   const requestedYear = Number(new URLSearchParams(query).get("year"));
+  const source = new URLSearchParams(query).get("source");
+  const requestedSource = (["google_scholar", "openalex", "semantic_scholar"] as const)
+    .includes(source as Provider) ? source as Provider : null;
   return {
     path: path || "/",
     requestedYear: Number.isInteger(requestedYear) && requestedYear > 0 ? requestedYear : null,
+    requestedSource,
   };
 }
 
@@ -39,7 +43,7 @@ export default function App() {
     loadingRecords: "Loading verified records…",
     loadingView: "Loading view…",
   };
-  const { path: route, requestedYear } = useRoute();
+  const { path: route, requestedYear, requestedSource } = useRoute();
   const [index, setIndex] = useState<IndexData | null>(null);
   const [year, setYear] = useState<YearData | null>(null);
   const [error, setError] = useState("");
@@ -64,7 +68,7 @@ export default function App() {
   let content;
   if (route === "/methodology") content = <Methodology years={index?.years} />;
   else if (route === "/acknowledgements") content = <Acknowledgements />;
-  else if (route.startsWith("/paper/")) content = <PaperDetail id={decodeURIComponent(route.slice(7))} />;
+  else if (route.startsWith("/paper/")) content = <PaperDetail id={decodeURIComponent(route.slice(7))} initialSource={requestedSource ?? index?.preferred_citation_source} />;
   else if (route !== "/") content = <section className="empty-state"><h1>{text.notFound}</h1><a href="#/">{text.returnToRankings}</a></section>;
   else if (error) content = <section className="empty-state"><h1>{text.unable}</h1><p>{error}</p></section>;
   else if (!index || !year || year.year !== selectedYear) content = <div className="loading">{text.loadingRecords}</div>;
@@ -72,6 +76,8 @@ export default function App() {
     data={year}
     conferences={index.conferences}
     citationSources={index.citation_sources}
+    preferredCitationSource={index.preferred_citation_source}
+    initialCitationSource={requestedSource}
     availableYears={index.years}
     onYearChange={(nextYear) => { window.location.hash = `/?year=${nextYear}`; }}
   />;

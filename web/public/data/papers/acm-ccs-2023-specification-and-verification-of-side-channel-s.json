@@ -41,9 +41,73 @@
       "status": "auto_verified",
       "verified_at": "2026-08-07T18:41:58Z",
       "verified_by": "SecAwardLens pipeline"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "3699596313176597286",
+      "method": "manual_override",
+      "override_reason": "Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.",
+      "paper_id": "acm-ccs-2023-specification-and-verification-of-side-channel-s",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "3699596313176597286",
+        "publication_year": 2023,
+        "title": "Specification and verification of side-channel security for open-source processors via leakage contracts",
+        "title_similarity": 1.0,
+        "venue": "Z Wang, G Mohr, K von Gleissenthall, J Reineke, M GuarnieriProceedings of the 2023 ACM SIGSAC Conference on Computer and Communications …, 2023•dl.acm.org",
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-08T18:08:53Z",
+      "verified_by": "SecAwardLens maintainer review"
+    },
+    {
+      "confidence": 1.0,
+      "external_id": "7149bce4286bfa10ffee922ce7f5621401df4d07",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "acm-ccs-2023-specification-and-verification-of-side-channel-s",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1145/3576915.3623192",
+        "external_id": "7149bce4286bfa10ffee922ce7f5621401df4d07",
+        "publication_year": 2023,
+        "title": "Specification and Verification of Side-channel Security for Open-source Processors via Leakage Contracts",
+        "title_similarity": 1.0,
+        "venue": "Conference on Computer and Communications Security",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
     }
   ],
   "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "3699596313176597286",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-specification-and-verification-of-side-channel-s",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=bba44ca21e3fc243f5056ba2e2a1b0ec066b08f144de9c3c30a377aa8f5b8651&num=10&hl=en",
+        "response_sha256": "7687110feed5e653484c184ca91b5252d3b428363e5bba7041c41f7cbb40fdac",
+        "retrieved_at": "2026-08-08T18:08:53Z",
+        "total_citations": 59
+      }
+    ],
     "openalex": [
       {
         "citations_by_citing_year": [
@@ -102,6 +166,20 @@
         "response_sha256": "e937c3338c23f51ddb0fd5d14b78c11423288afe828dcb4bc1d96ab2324749e3",
         "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 28
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "7149bce4286bfa10ffee922ce7f5621401df4d07",
+        "influential_citations": 5,
+        "paper_id": "acm-ccs-2023-specification-and-verification-of-side-channel-s",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/7149bce4286bfa10ffee922ce7f5621401df4d07?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "5f083f836362069d817b97e5b259d1b2ac1903bad0a6cf76b5bc48f6e830a028",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 44
       }
     ]
   },
@@ -183,7 +261,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -216,6 +294,18 @@
         "source_url": "https://api.crossref.org/works/10.1145/3576915.3623192",
         "value": "10.1145/3576915.3623192",
         "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=3699596313176597286",
+        "value": "3699596313176597286",
+        "verified_at": "2026-08-08T18:08:53Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/7149bce4286bfa10ffee922ce7f5621401df4d07?utm_source=api",
+        "value": "7149bce4286bfa10ffee922ce7f5621401df4d07",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
       }
     ],
     "metadata_sources": [

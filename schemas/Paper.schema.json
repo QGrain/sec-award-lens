@@ -22,6 +22,7 @@
             "doi",
             "openalex",
             "semantic_scholar",
+            "google_scholar",
             "corpus_id"
           ],
           "title": "Scheme",

@@ -17,6 +17,14 @@ papers:
     value: 10.1109/sp46215.2023.10179290
     source_url: https://api.crossref.org/works/10.1109/sp46215.2023.10179290
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '10545225549490358799'
+    source_url: https://scholar.google.com/scholar?cluster=10545225549490358799
+    verified_at: '2026-08-08T18:06:33Z'
+  - scheme: semantic_scholar
+    value: f8add0e6f04b98b7df6db12d3135c97c9f089a9d
+    source_url: https://www.semanticscholar.org/paper/f8add0e6f04b98b7df6db12d3135c97c9f089a9d?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.ieee-security.org/TC/SP2023/program-awards.html
   - https://openalex.org/W4384948645
@@ -39,6 +47,14 @@ papers:
     value: 10.1109/sp46215.2023.10351027
     source_url: https://api.crossref.org/works/10.1109/sp46215.2023.10351027
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '3147041888280473839'
+    source_url: https://scholar.google.com/scholar?cluster=3147041888280473839
+    verified_at: '2026-08-08T18:06:34Z'
+  - scheme: semantic_scholar
+    value: ed4058bbbfe855f8f0ef2a8b96b016052f2ea94a
+    source_url: https://www.semanticscholar.org/paper/ed4058bbbfe855f8f0ef2a8b96b016052f2ea94a?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.ieee-security.org/TC/SP2023/program-awards.html
   - https://openalex.org/W4389546188
@@ -61,6 +77,14 @@ papers:
     value: 10.1109/sp46215.2023.10179408
     source_url: https://api.crossref.org/works/10.1109/sp46215.2023.10179408
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '11751510727785006116'
+    source_url: https://scholar.google.com/scholar?cluster=11751510727785006116
+    verified_at: '2026-08-08T18:06:35Z'
+  - scheme: semantic_scholar
+    value: 7b840245a8e9eb43cca61e68658986a2e661e7af
+    source_url: https://www.semanticscholar.org/paper/7b840245a8e9eb43cca61e68658986a2e661e7af?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.ieee-security.org/TC/SP2023/program-awards.html
   - https://openalex.org/W4385080282
@@ -87,6 +111,14 @@ papers:
     value: 10.1109/sp46215.2023.10179418
     source_url: https://api.crossref.org/works/10.1109/sp46215.2023.10179418
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '9037373832888256359'
+    source_url: https://scholar.google.com/scholar?cluster=9037373832888256359
+    verified_at: '2026-08-08T18:06:37Z'
+  - scheme: semantic_scholar
+    value: 3dab60fb7870f066d276b322be1f5c34e5eb40e8
+    source_url: https://www.semanticscholar.org/paper/3dab60fb7870f066d276b322be1f5c34e5eb40e8?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.ieee-security.org/TC/SP2023/program-awards.html
   - https://openalex.org/W4385080320
@@ -111,6 +143,14 @@ papers:
     value: 10.1109/sp46215.2023.10179341
     source_url: https://api.crossref.org/works/10.1109/sp46215.2023.10179341
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '6360895518395081755'
+    source_url: https://scholar.google.com/scholar?cluster=6360895518395081755
+    verified_at: '2026-08-08T18:06:55Z'
+  - scheme: semantic_scholar
+    value: 59dee435b77ae460627a88f391b16fc93ea171fb
+    source_url: https://www.semanticscholar.org/paper/59dee435b77ae460627a88f391b16fc93ea171fb?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.ieee-security.org/TC/SP2023/program-awards.html
   - https://openalex.org/W4384948639
@@ -131,6 +171,14 @@ papers:
     value: 10.1109/sp46215.2023.10179403
     source_url: https://api.crossref.org/works/10.1109/sp46215.2023.10179403
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '10747469084765974311'
+    source_url: https://scholar.google.com/scholar?cluster=10747469084765974311
+    verified_at: '2026-08-08T18:06:56Z'
+  - scheme: semantic_scholar
+    value: 63e9d1bb950a20be61fdd3f321f01874008295a1
+    source_url: https://www.semanticscholar.org/paper/63e9d1bb950a20be61fdd3f321f01874008295a1?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.ieee-security.org/TC/SP2023/program-awards.html
   - https://openalex.org/W4385679748
@@ -152,6 +200,14 @@ papers:
     value: 10.1109/sp46215.2023.10179311
     source_url: https://api.crossref.org/works/10.1109/sp46215.2023.10179311
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '16083415626941056089'
+    source_url: https://scholar.google.com/scholar?cluster=16083415626941056089
+    verified_at: '2026-08-08T18:07:00Z'
+  - scheme: semantic_scholar
+    value: 39a33bd0c3f19310e4cc6f18737886b1f8fd8784
+    source_url: https://www.semanticscholar.org/paper/39a33bd0c3f19310e4cc6f18737886b1f8fd8784?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.ieee-security.org/TC/SP2023/program-awards.html
   - https://openalex.org/W4384948721
@@ -177,6 +233,14 @@ papers:
     value: 10.1109/sp46215.2023.10179357
     source_url: https://api.crossref.org/works/10.1109/sp46215.2023.10179357
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '16103235860680242924'
+    source_url: https://scholar.google.com/scholar?cluster=16103235860680242924
+    verified_at: '2026-08-08T18:07:03Z'
+  - scheme: semantic_scholar
+    value: fc3165950d7d32ef4c9424b623199a9d66421db0
+    source_url: https://www.semanticscholar.org/paper/fc3165950d7d32ef4c9424b623199a9d66421db0?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.ieee-security.org/TC/SP2023/program-awards.html
   - https://openalex.org/W4385080305
@@ -201,6 +265,14 @@ papers:
     value: 10.1109/sp46215.2023.10179476
     source_url: https://api.crossref.org/works/10.1109/sp46215.2023.10179476
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '1694345513935846134'
+    source_url: https://scholar.google.com/scholar?cluster=1694345513935846134
+    verified_at: '2026-08-08T18:07:07Z'
+  - scheme: semantic_scholar
+    value: 72edbfa1b709f403c171922aca1a4d7d138f963f
+    source_url: https://www.semanticscholar.org/paper/72edbfa1b709f403c171922aca1a4d7d138f963f?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.ieee-security.org/TC/SP2023/program-awards.html
   - https://openalex.org/W4385080361
@@ -224,6 +296,14 @@ papers:
     value: 10.1109/sp46215.2023.10179306
     source_url: https://api.crossref.org/works/10.1109/sp46215.2023.10179306
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '6601185334764687073'
+    source_url: https://scholar.google.com/scholar?cluster=6601185334764687073
+    verified_at: '2026-08-08T18:07:13Z'
+  - scheme: semantic_scholar
+    value: a4ab064c74f06267168472c6006edf5247c25e63
+    source_url: https://www.semanticscholar.org/paper/a4ab064c74f06267168472c6006edf5247c25e63?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.ieee-security.org/TC/SP2023/program-awards.html
   - https://openalex.org/W4385679771
@@ -245,6 +325,14 @@ papers:
     value: 10.1109/sp46215.2023.10179410
     source_url: https://api.crossref.org/works/10.1109/sp46215.2023.10179410
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '691412144635927069'
+    source_url: https://scholar.google.com/scholar?cluster=691412144635927069
+    verified_at: '2026-08-08T18:07:14Z'
+  - scheme: semantic_scholar
+    value: c9618efa7418b1210b2c1558cda354e3dfc0a703
+    source_url: https://www.semanticscholar.org/paper/c9618efa7418b1210b2c1558cda354e3dfc0a703?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.ieee-security.org/TC/SP2023/program-awards.html
   - https://openalex.org/W4385679811
@@ -269,6 +357,14 @@ papers:
     value: 10.1109/sp46215.2023.10351029
     source_url: https://api.crossref.org/works/10.1109/sp46215.2023.10351029
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '16038534564960384530'
+    source_url: https://scholar.google.com/scholar?cluster=16038534564960384530
+    verified_at: '2026-08-08T18:07:17Z'
+  - scheme: semantic_scholar
+    value: f286a1056c11247990c689778c5b85795846e3ba
+    source_url: https://www.semanticscholar.org/paper/f286a1056c11247990c689778c5b85795846e3ba?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.ieee-security.org/TC/SP2023/program-awards.html
   - https://openalex.org/W4389546099
@@ -286,6 +382,14 @@ papers:
     value: W4393633303
     source_url: https://api.openalex.org/works/W4393633303
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '17965825181559142203'
+    source_url: https://scholar.google.com/scholar?cluster=17965825181559142203
+    verified_at: '2026-08-08T18:07:18Z'
+  - scheme: semantic_scholar
+    value: 9356553497a1f0792300660ad435decabdb29739
+    source_url: https://www.semanticscholar.org/paper/9356553497a1f0792300660ad435decabdb29739?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
   - https://openalex.org/W4393633303
@@ -304,6 +408,14 @@ papers:
     value: W4392466677
     source_url: https://api.openalex.org/works/W4392466677
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '15494803768992211890'
+    source_url: https://scholar.google.com/scholar?cluster=15494803768992211890
+    verified_at: '2026-08-08T18:07:23Z'
+  - scheme: semantic_scholar
+    value: e0aea1ee8fb8bb0107946e49d6827efc99c98948
+    source_url: https://www.semanticscholar.org/paper/e0aea1ee8fb8bb0107946e49d6827efc99c98948?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
   - https://openalex.org/W4392466677
@@ -326,6 +438,10 @@ papers:
     value: W4321276312
     source_url: https://api.openalex.org/works/W4321276312
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '282081925352010567'
+    source_url: https://scholar.google.com/scholar?cluster=282081925352010567
+    verified_at: '2026-08-08T18:07:32Z'
   metadata_sources:
   - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
   - https://openalex.org/W4321276312
@@ -345,6 +461,14 @@ papers:
     value: W6902390121
     source_url: https://api.openalex.org/works/W6902390121
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '3584369297611952630'
+    source_url: https://scholar.google.com/scholar?cluster=3584369297611952630
+    verified_at: '2026-08-08T18:07:33Z'
+  - scheme: semantic_scholar
+    value: 7eb5cc478291f52c126efcaabd5c256cb7303a0f
+    source_url: https://www.semanticscholar.org/paper/7eb5cc478291f52c126efcaabd5c256cb7303a0f?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
   - https://openalex.org/W6902390121
@@ -365,6 +489,14 @@ papers:
     value: W4320342250
     source_url: https://api.openalex.org/works/W4320342250
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '12442642277246861451'
+    source_url: https://scholar.google.com/scholar?cluster=12442642277246861451
+    verified_at: '2026-08-08T18:07:34Z'
+  - scheme: semantic_scholar
+    value: 897c0aedead3105b7b6cd1afbb6aeb4f62a06e11
+    source_url: https://www.semanticscholar.org/paper/897c0aedead3105b7b6cd1afbb6aeb4f62a06e11?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
   - https://openalex.org/W4320342250
@@ -387,6 +519,14 @@ papers:
     value: W4316116706
     source_url: https://api.openalex.org/works/W4316116706
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '8057878834878821642'
+    source_url: https://scholar.google.com/scholar?cluster=8057878834878821642
+    verified_at: '2026-08-08T18:07:42Z'
+  - scheme: semantic_scholar
+    value: a4a57f807906130671dd6b0a159c9cf816a681df
+    source_url: https://www.semanticscholar.org/paper/a4a57f807906130671dd6b0a159c9cf816a681df?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
   - https://openalex.org/W4316116706
@@ -401,7 +541,15 @@ papers:
   publication_year: 2023
   venue_name: 32nd USENIX Security Symposium
   official_paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/daffalla
-  identifiers: []
+  identifiers:
+  - scheme: google_scholar
+    value: '507752266252204781'
+    source_url: https://scholar.google.com/scholar?cluster=507752266252204781
+    verified_at: '2026-08-08T18:07:44Z'
+  - scheme: semantic_scholar
+    value: be946514fd7b40f54abd86feffeb6cda7060923e
+    source_url: https://www.semanticscholar.org/paper/be946514fd7b40f54abd86feffeb6cda7060923e?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
 - id: usenix-security-2023-a-bug-s-life-analyzing-the-lifecycle-and-mitigat
@@ -419,6 +567,14 @@ papers:
     value: W7064508335
     source_url: https://api.openalex.org/works/W7064508335
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '2322138418351201436'
+    source_url: https://scholar.google.com/scholar?cluster=2322138418351201436
+    verified_at: '2026-08-08T18:07:45Z'
+  - scheme: semantic_scholar
+    value: f8fb22ca7c6bd26c94803854d9e4afab4591e2cd
+    source_url: https://www.semanticscholar.org/paper/f8fb22ca7c6bd26c94803854d9e4afab4591e2cd?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
   - https://openalex.org/W7064508335
@@ -431,7 +587,15 @@ papers:
   publication_year: 2023
   venue_name: 32nd USENIX Security Symposium
   official_paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/patel
-  identifiers: []
+  identifiers:
+  - scheme: google_scholar
+    value: '1091576476877039757'
+    source_url: https://scholar.google.com/scholar?cluster=1091576476877039757
+    verified_at: '2026-08-08T18:07:46Z'
+  - scheme: semantic_scholar
+    value: 3d1fff6e566ffe50399c38017fb19747ab3c3253
+    source_url: https://www.semanticscholar.org/paper/3d1fff6e566ffe50399c38017fb19747ab3c3253?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
 - id: usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma
@@ -447,6 +611,14 @@ papers:
     value: W6981697802
     source_url: https://api.openalex.org/works/W6981697802
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '11507894294460007087'
+    source_url: https://scholar.google.com/scholar?cluster=11507894294460007087
+    verified_at: '2026-08-08T18:07:48Z'
+  - scheme: semantic_scholar
+    value: d4c0c078cea37df5e65327adda933efd74876e22
+    source_url: https://www.semanticscholar.org/paper/d4c0c078cea37df5e65327adda933efd74876e22?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
   - https://openalex.org/W6981697802
@@ -466,7 +638,15 @@ papers:
   publication_year: 2023
   venue_name: 32nd USENIX Security Symposium
   official_paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/nisenoff-retrospective
-  identifiers: []
+  identifiers:
+  - scheme: google_scholar
+    value: '10194117707257387734'
+    source_url: https://scholar.google.com/scholar?cluster=10194117707257387734
+    verified_at: '2026-08-08T18:07:49Z'
+  - scheme: semantic_scholar
+    value: ed4ddd65b95873c96b06d7aee978f8e9c885b227
+    source_url: https://www.semanticscholar.org/paper/ed4ddd65b95873c96b06d7aee978f8e9c885b227?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
 - id: usenix-security-2023-ethical-frameworks-and-computer-security-trolley
@@ -483,6 +663,14 @@ papers:
     value: W4322759797
     source_url: https://api.openalex.org/works/W4322759797
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '5926880305407693086'
+    source_url: https://scholar.google.com/scholar?cluster=5926880305407693086
+    verified_at: '2026-08-08T18:07:50Z'
+  - scheme: semantic_scholar
+    value: 15deb60e1002cb1b5364354257fdba6a5c3c3247
+    source_url: https://www.semanticscholar.org/paper/15deb60e1002cb1b5364354257fdba6a5c3c3247?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
   - https://openalex.org/W4322759797
@@ -503,6 +691,14 @@ papers:
     value: W4301178121
     source_url: https://api.openalex.org/works/W4301178121
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '9468483505427352578'
+    source_url: https://scholar.google.com/scholar?cluster=9468483505427352578
+    verified_at: '2026-08-08T18:07:57Z'
+  - scheme: semantic_scholar
+    value: cfa801618d46702b0c3376e3a29326315fe44020
+    source_url: https://www.semanticscholar.org/paper/cfa801618d46702b0c3376e3a29326315fe44020?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
   - https://openalex.org/W4301178121
@@ -521,6 +717,14 @@ papers:
     value: W4401104680
     source_url: https://api.openalex.org/works/W4401104680
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '14810536492047199644'
+    source_url: https://scholar.google.com/scholar?cluster=14810536492047199644
+    verified_at: '2026-08-08T18:07:59Z'
+  - scheme: semantic_scholar
+    value: e59a1cb09b0fe3aa79a8cfd1eb1cbb1072a7a7c4
+    source_url: https://www.semanticscholar.org/paper/e59a1cb09b0fe3aa79a8cfd1eb1cbb1072a7a7c4?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
   - https://openalex.org/W4401104680
@@ -536,7 +740,15 @@ papers:
   publication_year: 2023
   venue_name: 32nd USENIX Security Symposium
   official_paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/liu-hongyi
-  identifiers: []
+  identifiers:
+  - scheme: google_scholar
+    value: '15692874715604309705'
+    source_url: https://scholar.google.com/scholar?cluster=15692874715604309705
+    verified_at: '2026-08-08T18:08:08Z'
+  - scheme: semantic_scholar
+    value: 7901b79741d948195ae00c67afd3cda1f9b86dc2
+    source_url: https://www.semanticscholar.org/paper/7901b79741d948195ae00c67afd3cda1f9b86dc2?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
 - id: usenix-security-2023-an-efficient-design-of-intelligent-network-data
@@ -550,7 +762,15 @@ papers:
   publication_year: 2023
   venue_name: 32nd USENIX Security Symposium
   official_paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/zhou-guangmeng
-  identifiers: []
+  identifiers:
+  - scheme: google_scholar
+    value: '2604507694742357978'
+    source_url: https://scholar.google.com/scholar?cluster=2604507694742357978
+    verified_at: '2026-08-08T18:08:09Z'
+  - scheme: semantic_scholar
+    value: a3c847991f0a022b9c7c4df27be7981a35c30b1c
+    source_url: https://www.semanticscholar.org/paper/a3c847991f0a022b9c7c4df27be7981a35c30b1c?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
 - id: acm-ccs-2023-alert-alchemy-soc-workflows-and-decisions-in-the
@@ -573,6 +793,14 @@ papers:
     value: 10.1145/3576915.3616581
     source_url: https://api.crossref.org/works/10.1145/3576915.3616581
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '17869119547199371351'
+    source_url: https://scholar.google.com/scholar?cluster=17869119547199371351
+    verified_at: '2026-08-08T18:08:10Z'
+  - scheme: semantic_scholar
+    value: 2166a4788d88282bae6c578d0223a9a96fb09962
+    source_url: https://www.semanticscholar.org/paper/2166a4788d88282bae6c578d0223a9a96fb09962?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
   - https://openalex.org/W4388867285
@@ -594,6 +822,14 @@ papers:
     value: 10.1145/3576915.3623215
     source_url: https://api.crossref.org/works/10.1145/3576915.3623215
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '11970110104579043092'
+    source_url: https://scholar.google.com/scholar?cluster=11970110104579043092
+    verified_at: '2026-08-08T18:08:13Z'
+  - scheme: semantic_scholar
+    value: 5375ea4866ac4f4588aad28acf508a844e2a68cb
+    source_url: https://www.semanticscholar.org/paper/5375ea4866ac4f4588aad28acf508a844e2a68cb?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
   - https://openalex.org/W4388857216
@@ -617,6 +853,14 @@ papers:
     value: 10.1145/3576915.3623169
     source_url: https://api.crossref.org/works/10.1145/3576915.3623169
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '8098279680911298685'
+    source_url: https://scholar.google.com/scholar?cluster=8098279680911298685
+    verified_at: '2026-08-08T18:08:14Z'
+  - scheme: semantic_scholar
+    value: 146e23e2c088cc3e73d491ff66e359bb903b097f
+    source_url: https://www.semanticscholar.org/paper/146e23e2c088cc3e73d491ff66e359bb903b097f?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
   - https://openalex.org/W4388867328
@@ -639,6 +883,14 @@ papers:
     value: 10.1145/3576915.3623079
     source_url: https://api.crossref.org/works/10.1145/3576915.3623079
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '648479337401816425'
+    source_url: https://scholar.google.com/scholar?cluster=648479337401816425
+    verified_at: '2026-08-08T18:08:18Z'
+  - scheme: semantic_scholar
+    value: b1a2a35c87c9e48d1c7aa9ca04883dfe272ac852
+    source_url: https://www.semanticscholar.org/paper/b1a2a35c87c9e48d1c7aa9ca04883dfe272ac852?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
   - https://openalex.org/W4386973789
@@ -661,6 +913,14 @@ papers:
     value: 10.1145/3576915.3616584
     source_url: https://api.crossref.org/works/10.1145/3576915.3616584
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '7043677968527898524'
+    source_url: https://scholar.google.com/scholar?cluster=7043677968527898524
+    verified_at: '2026-08-08T18:08:19Z'
+  - scheme: semantic_scholar
+    value: 131f9dbee0a4c55391e7dbc6c55a7815824c36a7
+    source_url: https://www.semanticscholar.org/paper/131f9dbee0a4c55391e7dbc6c55a7815824c36a7?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
   - https://openalex.org/W4388858938
@@ -686,6 +946,14 @@ papers:
     value: 10.1145/3576915.3623128
     source_url: https://api.crossref.org/works/10.1145/3576915.3623128
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '15607192397336165188'
+    source_url: https://scholar.google.com/scholar?cluster=15607192397336165188
+    verified_at: '2026-08-08T18:08:21Z'
+  - scheme: semantic_scholar
+    value: 34c09a2af1fc5a98f793fd2267ea43c951356ecb
+    source_url: https://www.semanticscholar.org/paper/34c09a2af1fc5a98f793fd2267ea43c951356ecb?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
   - https://openalex.org/W4388856861
@@ -707,6 +975,14 @@ papers:
     value: 10.1145/3576915.3623125
     source_url: https://api.crossref.org/works/10.1145/3576915.3623125
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '10776774111625253151'
+    source_url: https://scholar.google.com/scholar?cluster=10776774111625253151
+    verified_at: '2026-08-08T18:08:34Z'
+  - scheme: semantic_scholar
+    value: dd2b2c4f017f150dd0c359054f79e1134f147231
+    source_url: https://www.semanticscholar.org/paper/dd2b2c4f017f150dd0c359054f79e1134f147231?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
   - https://openalex.org/W4388856956
@@ -732,6 +1008,14 @@ papers:
     value: 10.1145/3576915.3616608
     source_url: https://api.crossref.org/works/10.1145/3576915.3616608
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '11867684590348611982'
+    source_url: https://scholar.google.com/scholar?cluster=11867684590348611982
+    verified_at: '2026-08-08T18:08:35Z'
+  - scheme: semantic_scholar
+    value: fbbcb2989a47ba7f12b9eab1158d8321789b2093
+    source_url: https://www.semanticscholar.org/paper/fbbcb2989a47ba7f12b9eab1158d8321789b2093?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
   - https://openalex.org/W4388857792
@@ -756,6 +1040,14 @@ papers:
     value: 10.1145/3576915.3623171
     source_url: https://api.crossref.org/works/10.1145/3576915.3623171
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '5522011673165191428'
+    source_url: https://scholar.google.com/scholar?cluster=5522011673165191428
+    verified_at: '2026-08-08T18:08:36Z'
+  - scheme: semantic_scholar
+    value: 5a2990c0422cb74781bb12b95421709eb5897ca9
+    source_url: https://www.semanticscholar.org/paper/5a2990c0422cb74781bb12b95421709eb5897ca9?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
   - https://openalex.org/W4388857879
@@ -776,6 +1068,14 @@ papers:
     value: 10.1145/3576915.3623175
     source_url: https://api.crossref.org/works/10.1145/3576915.3623175
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '15944535702908866192'
+    source_url: https://scholar.google.com/scholar?cluster=15944535702908866192
+    verified_at: '2026-08-08T18:08:38Z'
+  - scheme: semantic_scholar
+    value: 63e2740dc581b4186b4e277a9955e8048c414521
+    source_url: https://www.semanticscholar.org/paper/63e2740dc581b4186b4e277a9955e8048c414521?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
   - https://openalex.org/W4320560161
@@ -805,6 +1105,14 @@ papers:
     value: 10.1145/3576915.3623206
     source_url: https://api.crossref.org/works/10.1145/3576915.3623206
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '11195187877516902599'
+    source_url: https://scholar.google.com/scholar?cluster=11195187877516902599
+    verified_at: '2026-08-08T18:08:47Z'
+  - scheme: semantic_scholar
+    value: 6647dc71f98daa99b26b1969356f14c79a9ba3d9
+    source_url: https://www.semanticscholar.org/paper/6647dc71f98daa99b26b1969356f14c79a9ba3d9?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
   - https://openalex.org/W4388857293
@@ -830,6 +1138,14 @@ papers:
     value: 10.1145/3576915.3616643
     source_url: https://api.crossref.org/works/10.1145/3576915.3616643
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '183481109382956674'
+    source_url: https://scholar.google.com/scholar?cluster=183481109382956674
+    verified_at: '2026-08-08T18:08:49Z'
+  - scheme: semantic_scholar
+    value: 46956882fbf7a9108a5a9b52793689835ad948a7
+    source_url: https://www.semanticscholar.org/paper/46956882fbf7a9108a5a9b52793689835ad948a7?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
   - https://openalex.org/W4386437595
@@ -858,6 +1174,14 @@ papers:
     value: 10.1145/3576915.3616647
     source_url: https://api.crossref.org/works/10.1145/3576915.3616647
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '4326299532282864888'
+    source_url: https://scholar.google.com/scholar?cluster=4326299532282864888
+    verified_at: '2026-08-08T18:08:49Z'
+  - scheme: semantic_scholar
+    value: de3f6a3527581979562436f5148d21a4169a891b
+    source_url: https://www.semanticscholar.org/paper/de3f6a3527581979562436f5148d21a4169a891b?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
   - https://openalex.org/W4388858780
@@ -881,6 +1205,14 @@ papers:
     value: 10.1145/3576915.3623192
     source_url: https://api.crossref.org/works/10.1145/3576915.3623192
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '3699596313176597286'
+    source_url: https://scholar.google.com/scholar?cluster=3699596313176597286
+    verified_at: '2026-08-08T18:08:53Z'
+  - scheme: semantic_scholar
+    value: 7149bce4286bfa10ffee922ce7f5621401df4d07
+    source_url: https://www.semanticscholar.org/paper/7149bce4286bfa10ffee922ce7f5621401df4d07?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
   - https://openalex.org/W4388858498
@@ -903,6 +1235,14 @@ papers:
     value: 10.1145/3576915.3623074
     source_url: https://api.crossref.org/works/10.1145/3576915.3623074
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '8519696803946749968'
+    source_url: https://scholar.google.com/scholar?cluster=8519696803946749968
+    verified_at: '2026-08-08T18:08:54Z'
+  - scheme: semantic_scholar
+    value: 98f5be384d3279545af9b94284995b430c848aaf
+    source_url: https://www.semanticscholar.org/paper/98f5be384d3279545af9b94284995b430c848aaf?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
   - https://openalex.org/W4388858465
@@ -925,6 +1265,14 @@ papers:
     value: 10.1145/3576915.3616652
     source_url: https://api.crossref.org/works/10.1145/3576915.3616652
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '8285920940505710581'
+    source_url: https://scholar.google.com/scholar?cluster=8285920940505710581
+    verified_at: '2026-08-08T18:08:55Z'
+  - scheme: semantic_scholar
+    value: fdaeb41ebb60dbe60a3193f02320e3f00f8233fd
+    source_url: https://www.semanticscholar.org/paper/fdaeb41ebb60dbe60a3193f02320e3f00f8233fd?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
   - https://openalex.org/W4388858191
@@ -946,6 +1294,14 @@ papers:
     value: 10.1145/3576915.3616674
     source_url: https://api.crossref.org/works/10.1145/3576915.3616674
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '3041857097656571321'
+    source_url: https://scholar.google.com/scholar?cluster=3041857097656571321
+    verified_at: '2026-08-08T18:08:57Z'
+  - scheme: semantic_scholar
+    value: 82320fd747c76152a0562cd0da8c75591f9f887d
+    source_url: https://www.semanticscholar.org/paper/82320fd747c76152a0562cd0da8c75591f9f887d?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
   - https://openalex.org/W4388858825
@@ -971,6 +1327,14 @@ papers:
     value: 10.14722/ndss.2023.23049
     source_url: https://api.crossref.org/works/10.14722/ndss.2023.23049
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '17314998190284780735'
+    source_url: https://scholar.google.com/scholar?cluster=17314998190284780735
+    verified_at: '2026-08-08T18:09:10Z'
+  - scheme: semantic_scholar
+    value: 8d25ee9aa097c8ab7c3f6a07a6f5d1b870158387
+    source_url: https://www.semanticscholar.org/paper/8d25ee9aa097c8ab7c3f6a07a6f5d1b870158387?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.ndss-symposium.org/ndss2023/
   - https://openalex.org/W4324007097
@@ -994,6 +1358,14 @@ papers:
     value: 10.14722/ndss.2023.23159
     source_url: https://api.crossref.org/works/10.14722/ndss.2023.23159
     verified_at: '2026-08-07T18:41:58Z'
+  - scheme: google_scholar
+    value: '6303666240795112920'
+    source_url: https://scholar.google.com/scholar?cluster=6303666240795112920
+    verified_at: '2026-08-08T18:09:21Z'
+  - scheme: semantic_scholar
+    value: d57b31045610cbf9eb8a385c74d7fe4f7252467a
+    source_url: https://www.semanticscholar.org/paper/d57b31045610cbf9eb8a385c74d7fe4f7252467a?utm_source=api
+    verified_at: '2026-08-08T18:16:13.005547Z'
   metadata_sources:
   - https://www.ndss-symposium.org/ndss2023/
   - https://openalex.org/W4307205415

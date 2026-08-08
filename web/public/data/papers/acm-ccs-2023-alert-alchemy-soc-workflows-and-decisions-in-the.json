@@ -41,9 +41,73 @@
       "status": "auto_verified",
       "verified_at": "2026-08-07T18:41:58Z",
       "verified_by": "SecAwardLens pipeline"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "17869119547199371351",
+      "method": "manual_override",
+      "override_reason": "Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.",
+      "paper_id": "acm-ccs-2023-alert-alchemy-soc-workflows-and-decisions-in-the",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "17869119547199371351",
+        "publication_year": 2023,
+        "title": "Alert alchemy: SOC workflows and decisions in the management of NIDS rules",
+        "title_similarity": 1.0,
+        "venue": "M Vermeer, N Kadenko, M van Eeten, C Gañán, S ParkinProceedings of the 2023 ACM SIGSAC Conference on Computer and Communications …, 2023•dl.acm.org",
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-08T18:08:10Z",
+      "verified_by": "SecAwardLens maintainer review"
+    },
+    {
+      "confidence": 1.0,
+      "external_id": "2166a4788d88282bae6c578d0223a9a96fb09962",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "acm-ccs-2023-alert-alchemy-soc-workflows-and-decisions-in-the",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1145/3576915.3616581",
+        "external_id": "2166a4788d88282bae6c578d0223a9a96fb09962",
+        "publication_year": 2023,
+        "title": "Alert Alchemy: SOC Workflows and Decisions in the Management of NIDS Rules",
+        "title_similarity": 1.0,
+        "venue": "Conference on Computer and Communications Security",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
     }
   ],
   "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "17869119547199371351",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-alert-alchemy-soc-workflows-and-decisions-in-the",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=421a556c245400029005ed0527d1a7faf0daa395612d37dc731f52532291bf7e&num=10&hl=en",
+        "response_sha256": "ec3e28cfff10a7434cd1e3e3ea67d5dad5bea64fd5f2d61bc329326277ea4497",
+        "retrieved_at": "2026-08-08T18:08:10Z",
+        "total_citations": 43
+      }
+    ],
     "openalex": [
       {
         "citations_by_citing_year": [
@@ -94,6 +158,20 @@
         "response_sha256": "faeed403c6d3cfb5251ff30f89a879e3c015ac014a71064c61a59f1af858bffd",
         "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 19
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "2166a4788d88282bae6c578d0223a9a96fb09962",
+        "influential_citations": 3,
+        "paper_id": "acm-ccs-2023-alert-alchemy-soc-workflows-and-decisions-in-the",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/2166a4788d88282bae6c578d0223a9a96fb09962?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "2fe07bd4b15dff10990a4f079c58636db57727a0322c7bafe825cc571d29e5c0",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 27
       }
     ]
   },
@@ -170,7 +248,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -203,6 +281,18 @@
         "source_url": "https://api.crossref.org/works/10.1145/3576915.3616581",
         "value": "10.1145/3576915.3616581",
         "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=17869119547199371351",
+        "value": "17869119547199371351",
+        "verified_at": "2026-08-08T18:08:10Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/2166a4788d88282bae6c578d0223a9a96fb09962?utm_source=api",
+        "value": "2166a4788d88282bae6c578d0223a9a96fb09962",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
       }
     ],
     "metadata_sources": [

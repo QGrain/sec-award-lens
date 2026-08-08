@@ -87,3 +87,233 @@ overrides:
   verified_at: '2026-08-07T18:41:58Z'
   evidence_urls:
   - https://www.usenix.org/conference/usenixsecurity23/presentation/cremers-protocols
+- paper_id: ieee-sp-2023-practically-exploitable-cryptographic-vulnerabil
+  provider: google_scholar
+  external_id: '3147041888280473839'
+  reason: Exact title, author evidence, 2023 publication year, and the IEEE Xplore landing page identify the conference paper; a separate earlier-version cluster was rejected.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:06:34Z'
+  evidence_urls:
+  - https://scholar.google.com/scholar?cluster=3147041888280473839
+  - https://ieeexplore.ieee.org/abstract/document/10351027/
+  - https://www.ieee-security.org/TC/SP2023/program-awards.html
+- paper_id: acm-ccs-2023-alert-alchemy-soc-workflows-and-decisions-in-the
+  provider: google_scholar
+  external_id: '17869119547199371351'
+  reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:10Z'
+  evidence_urls:
+  - https://scholar.google.com/scholar?cluster=17869119547199371351
+  - https://dl.acm.org/doi/abs/10.1145/3576915.3616581
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+- paper_id: acm-ccs-2023-amplification-by-shuffling-without-shuffling
+  provider: google_scholar
+  external_id: '11970110104579043092'
+  reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:13Z'
+  evidence_urls:
+  - https://scholar.google.com/scholar?cluster=11970110104579043092
+  - https://dl.acm.org/doi/abs/10.1145/3576915.3623215
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+- paper_id: acm-ccs-2023-batchman-and-robin-batched-and-non-batched-branc
+  provider: google_scholar
+  external_id: '8098279680911298685'
+  reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:14Z'
+  evidence_urls:
+  - https://scholar.google.com/scholar?cluster=8098279680911298685
+  - https://dl.acm.org/doi/abs/10.1145/3576915.3623169
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+- paper_id: acm-ccs-2023-capacity-cryptographically-enforced-in-process-c
+  provider: google_scholar
+  external_id: '648479337401816425'
+  reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:18Z'
+  evidence_urls:
+  - https://scholar.google.com/scholar?cluster=648479337401816425
+  - https://dl.acm.org/doi/abs/10.1145/3576915.3623079
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+- paper_id: acm-ccs-2023-coco-efficient-browser-extension-vulnerability-d
+  provider: google_scholar
+  external_id: '7043677968527898524'
+  reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:19Z'
+  evidence_urls:
+  - https://scholar.google.com/scholar?cluster=7043677968527898524
+  - https://dl.acm.org/doi/abs/10.1145/3576915.3616584
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+- paper_id: acm-ccs-2023-concurrent-composition-for-interactive-different
+  provider: google_scholar
+  external_id: '15607192397336165188'
+  reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:21Z'
+  evidence_urls:
+  - https://scholar.google.com/scholar?cluster=15607192397336165188
+  - https://dl.acm.org/doi/abs/10.1145/3576915.3623128
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+- paper_id: acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl
+  provider: google_scholar
+  external_id: '10776774111625253151'
+  reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:34Z'
+  evidence_urls:
+  - https://scholar.google.com/scholar?cluster=10776774111625253151
+  - https://dl.acm.org/doi/abs/10.1145/3576915.3623125
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+- paper_id: acm-ccs-2023-he3db-an-efficient-and-elastic-encrypted-databas
+  provider: google_scholar
+  external_id: '11867684590348611982'
+  reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:35Z'
+  evidence_urls:
+  - https://scholar.google.com/scholar?cluster=11867684590348611982
+  - https://dl.acm.org/doi/abs/10.1145/3576915.3616608
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+- paper_id: acm-ccs-2023-how-hard-is-takeover-in-dpos-blockchains-underst
+  provider: google_scholar
+  external_id: '5522011673165191428'
+  reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:36Z'
+  evidence_urls:
+  - https://scholar.google.com/scholar?cluster=5522011673165191428
+  - https://dl.acm.org/doi/abs/10.1145/3576915.3623171
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+- paper_id: acm-ccs-2023-large-language-models-for-code-security-hardenin
+  provider: google_scholar
+  external_id: '15944535702908866192'
+  reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:38Z'
+  evidence_urls:
+  - https://scholar.google.com/scholar?cluster=15944535702908866192
+  - https://dl.acm.org/doi/abs/10.1145/3576915.3623175
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+- paper_id: acm-ccs-2023-panic-pan-assisted-intra-process-memory-isolatio
+  provider: google_scholar
+  external_id: '11195187877516902599'
+  reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:47Z'
+  evidence_urls:
+  - https://scholar.google.com/scholar?cluster=11195187877516902599
+  - https://dl.acm.org/doi/abs/10.1145/3576915.3623206
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+- paper_id: acm-ccs-2023-security-verification-of-low-trust-architectures
+  provider: google_scholar
+  external_id: '183481109382956674'
+  reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:49Z'
+  evidence_urls:
+  - https://scholar.google.com/scholar?cluster=183481109382956674
+  - https://dl.acm.org/doi/abs/10.1145/3576915.3616643
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+- paper_id: acm-ccs-2023-silence-is-not-golden-disrupting-the-load-balanc
+  provider: google_scholar
+  external_id: '4326299532282864888'
+  reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:49Z'
+  evidence_urls:
+  - https://scholar.google.com/scholar?cluster=4326299532282864888
+  - https://dl.acm.org/doi/abs/10.1145/3576915.3616647
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+- paper_id: acm-ccs-2023-specification-and-verification-of-side-channel-s
+  provider: google_scholar
+  external_id: '3699596313176597286'
+  reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:53Z'
+  evidence_urls:
+  - https://scholar.google.com/scholar?cluster=3699596313176597286
+  - https://dl.acm.org/doi/abs/10.1145/3576915.3623192
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+- paper_id: acm-ccs-2023-specverilog-adapting-information-flow-control-fo
+  provider: google_scholar
+  external_id: '8519696803946749968'
+  reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:54Z'
+  evidence_urls:
+  - https://scholar.google.com/scholar?cluster=8519696803946749968
+  - https://dl.acm.org/doi/abs/10.1145/3576915.3623074
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+- paper_id: acm-ccs-2023-stealing-the-decoding-algorithms-of-language-mod
+  provider: google_scholar
+  external_id: '8285920940505710581'
+  reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:55Z'
+  evidence_urls:
+  - https://scholar.google.com/scholar?cluster=8285920940505710581
+  - https://dl.acm.org/doi/abs/10.1145/3576915.3616652
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+- paper_id: acm-ccs-2023-uncle-maker-time-stamping-out-the-competition-in
+  provider: google_scholar
+  external_id: '3041857097656571321'
+  reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:57Z'
+  evidence_urls:
+  - https://scholar.google.com/scholar?cluster=3041857097656571321
+  - https://dl.acm.org/doi/abs/10.1145/3576915.3616674
+  - https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html
+- paper_id: ndss-2023-your-router-is-my-prober-measuring-ipv6-networks
+  provider: google_scholar
+  external_id: '17314998190284780735'
+  reason: Exact title and authors identify the 2022 arXiv preprint of the 2023 NDSS award paper; the reviewed numeric Scholar cluster is used to aggregate its versions.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:09:10Z'
+  evidence_urls:
+  - https://scholar.google.com/scholar?cluster=17314998190284780735
+  - https://arxiv.org/abs/2210.13088
+  - https://www.ndss-symposium.org/ndss2023/
+- paper_id: ndss-2023-darwin-survival-of-the-fittest-fuzzing-mutators
+  provider: google_scholar
+  external_id: '6303666240795112920'
+  reason: Exact title and authors identify the 2022 arXiv preprint of the 2023 NDSS award paper; the reviewed numeric Scholar cluster is used to aggregate its versions.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:09:21Z'
+  evidence_urls:
+  - https://scholar.google.com/scholar?cluster=6303666240795112920
+  - https://arxiv.org/abs/2210.11783
+  - https://www.ndss-symposium.org/ndss2023/
+- paper_id: usenix-security-2023-treesync-authenticated-group-management-for-mess
+  provider: semantic_scholar
+  external_id: e0aea1ee8fb8bb0107946e49d6827efc99c98948
+  reason: Exact title and authors identify the preprint/ePrint version of the 2023 USENIX Security award paper; the reviewed S2 paper entity is retained without summing separate versions.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  evidence_urls:
+  - https://www.semanticscholar.org/paper/e0aea1ee8fb8bb0107946e49d6827efc99c98948?utm_source=api
+  - https://www.usenix.org/conference/usenixsecurity23/presentation/wallez
+  - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+- paper_id: usenix-security-2023-dont-be-dense-efficient-keyword-pir-for-sparse-d
+  provider: semantic_scholar
+  external_id: 3d1fff6e566ffe50399c38017fb19747ab3c3253
+  reason: Exact title and authors identify the preprint/ePrint version of the 2023 USENIX Security award paper; the reviewed S2 paper entity is retained without summing separate versions.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  evidence_urls:
+  - https://www.semanticscholar.org/paper/3d1fff6e566ffe50399c38017fb19747ab3c3253?utm_source=api
+  - https://www.usenix.org/conference/usenixsecurity23/presentation/patel
+  - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+- paper_id: usenix-security-2023-hash-gone-bad-automated-discovery-of-protocol-at
+  provider: semantic_scholar
+  external_id: cfa801618d46702b0c3376e3a29326315fe44020
+  reason: Exact title and authors identify the preprint/ePrint version of the 2023 USENIX Security award paper; the reviewed S2 paper entity is retained without summing separate versions.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  evidence_urls:
+  - https://www.semanticscholar.org/paper/cfa801618d46702b0c3376e3a29326315fe44020?utm_source=api
+  - https://www.usenix.org/conference/usenixsecurity23/presentation/cheval
+  - https://www.usenix.org/conference/usenixsecurity23/technical-sessions

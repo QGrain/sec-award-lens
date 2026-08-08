@@ -41,9 +41,73 @@
       "status": "auto_verified",
       "verified_at": "2026-08-07T18:41:58Z",
       "verified_by": "SecAwardLens pipeline"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "691412144635927069",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "ieee-sp-2023-in-eighty-percent-of-the-cases-i-select-the-pass",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "691412144635927069",
+        "publication_year": 2023,
+        "title": "\" In Eighty Percent of the Cases, I Select the Password for Them\": Security and Privacy Challenges, Advice, and Opportunities at Cybercafes in Kenya",
+        "title_similarity": 1.0,
+        "venue": "CW Munyendo, Y Acar, AJ Aviv2023 IEEE Symposium on Security and Privacy (SP), 2023•ieeexplore.ieee.org",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:07:14Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    },
+    {
+      "confidence": 1.0,
+      "external_id": "c9618efa7418b1210b2c1558cda354e3dfc0a703",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "ieee-sp-2023-in-eighty-percent-of-the-cases-i-select-the-pass",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1109/sp46215.2023.10179410",
+        "external_id": "c9618efa7418b1210b2c1558cda354e3dfc0a703",
+        "publication_year": 2023,
+        "title": "\"In Eighty Percent of the Cases, I Select the Password for Them\": Security and Privacy Challenges, Advice, and Opportunities at Cybercafes in Kenya",
+        "title_similarity": 1.0,
+        "venue": "IEEE Symposium on Security and Privacy",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
     }
   ],
   "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "691412144635927069",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-in-eighty-percent-of-the-cases-i-select-the-pass",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=7370b3f195c325d234b65b1c01a82a54f4144e4ccf8ca5563b3d52b585f36de2&num=10&hl=en",
+        "response_sha256": "1cf8855aa7fe3b66e9790b0147c8969bee07ed4c4d31176bfcc157b604163e67",
+        "retrieved_at": "2026-08-08T18:07:14Z",
+        "total_citations": 38
+      }
+    ],
     "openalex": [
       {
         "citations_by_citing_year": [
@@ -103,6 +167,20 @@
         "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 17
       }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "c9618efa7418b1210b2c1558cda354e3dfc0a703",
+        "influential_citations": 1,
+        "paper_id": "ieee-sp-2023-in-eighty-percent-of-the-cases-i-select-the-pass",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/c9618efa7418b1210b2c1558cda354e3dfc0a703?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "9104c201ac0c483deb82b4856c98540c4a0884b3fa0c5538f8f0f187ce73ee7a",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 18
+      }
     ]
   },
   "enrichment": {
@@ -159,7 +237,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -186,6 +264,18 @@
         "source_url": "https://api.crossref.org/works/10.1109/sp46215.2023.10179410",
         "value": "10.1109/sp46215.2023.10179410",
         "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=691412144635927069",
+        "value": "691412144635927069",
+        "verified_at": "2026-08-08T18:07:14Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/c9618efa7418b1210b2c1558cda354e3dfc0a703?utm_source=api",
+        "value": "c9618efa7418b1210b2c1558cda354e3dfc0a703",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
       }
     ],
     "metadata_sources": [

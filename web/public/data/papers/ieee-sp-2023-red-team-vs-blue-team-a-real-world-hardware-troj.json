@@ -41,9 +41,73 @@
       "status": "auto_verified",
       "verified_at": "2026-08-07T18:41:58Z",
       "verified_by": "SecAwardLens pipeline"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "6360895518395081755",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "ieee-sp-2023-red-team-vs-blue-team-a-real-world-hardware-troj",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "6360895518395081755",
+        "publication_year": 2023,
+        "title": "Red team vs. blue team: A real-world hardware Trojan detection case study across four modern CMOS technology generations",
+        "title_similarity": 1.0,
+        "venue": "E Puschner, T Moos, S Becker, C Kison, A Moradi, C Paar2023 IEEE Symposium on Security and Privacy (SP), 2023•ieeexplore.ieee.org",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:06:55Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    },
+    {
+      "confidence": 1.0,
+      "external_id": "59dee435b77ae460627a88f391b16fc93ea171fb",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "ieee-sp-2023-red-team-vs-blue-team-a-real-world-hardware-troj",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1109/sp46215.2023.10179341",
+        "external_id": "59dee435b77ae460627a88f391b16fc93ea171fb",
+        "publication_year": 2023,
+        "title": "Red Team vs. Blue Team: A Real-World Hardware Trojan Detection Case Study Across Four Modern CMOS Technology Generations",
+        "title_similarity": 1.0,
+        "venue": "IEEE Symposium on Security and Privacy",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
     }
   ],
   "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "6360895518395081755",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-red-team-vs-blue-team-a-real-world-hardware-troj",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=d099b53c17951e06b19c210b9ec56f5fb1542c9b93bed6d0f78d7f1057f5d8e7&num=10&hl=en",
+        "response_sha256": "47efe2fcc0dc6b7c8e67280a65adb2c801a589106f0e3d9098ab435144f8e75e",
+        "retrieved_at": "2026-08-08T18:06:55Z",
+        "total_citations": 46
+      }
+    ],
     "openalex": [
       {
         "citations_by_citing_year": [
@@ -102,6 +166,20 @@
         "response_sha256": "f10080f30885eb54d1f62f4d38a2c0e6fa151c1d024896ce0045589bed8e598e",
         "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 20
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "59dee435b77ae460627a88f391b16fc93ea171fb",
+        "influential_citations": 3,
+        "paper_id": "ieee-sp-2023-red-team-vs-blue-team-a-real-world-hardware-troj",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/59dee435b77ae460627a88f391b16fc93ea171fb?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "dcb8bb49ddf506b08c525e7d05fd6675c6a4b8eac1d536c960142eb4eb263d1d",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 33
       }
     ]
   },
@@ -190,7 +268,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -226,6 +304,18 @@
         "source_url": "https://api.crossref.org/works/10.1109/sp46215.2023.10179341",
         "value": "10.1109/sp46215.2023.10179341",
         "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=6360895518395081755",
+        "value": "6360895518395081755",
+        "verified_at": "2026-08-08T18:06:55Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/59dee435b77ae460627a88f391b16fc93ea171fb?utm_source=api",
+        "value": "59dee435b77ae460627a88f391b16fc93ea171fb",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
       }
     ],
     "metadata_sources": [

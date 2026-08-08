@@ -850,3 +850,2039 @@ bindings:
   related_version_ids: []
   verified_by: SecAwardLens pipeline
   verified_at: '2026-08-07T18:41:58Z'
+- paper_id: ieee-sp-2023-mega-malleable-encryption-goes-awry
+  provider: google_scholar
+  external_id: '10545225549490358799'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '10545225549490358799'
+    title: 'MEGA: malleable encryption goes awry'
+    publication_year: 2023
+    venue: M Backendal, M Haller, KG Paterson2023 IEEE Symposium on Security and Privacy (SP), 2023•ieeexplore.ieee.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-08T18:06:33Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: ieee-sp-2023-practically-exploitable-cryptographic-vulnerabil
+  provider: google_scholar
+  external_id: '3147041888280473839'
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: '3147041888280473839'
+    title: Practically-exploitable cryptographic vulnerabilities in matrix
+    publication_year: 2023
+    venue: MR Albrecht, S Celi, B Dowling… - 2023 IEEE Symposium …, 2023 - ieeexplore.ieee.org
+    title_similarity: 1.0
+    author_overlap: 0.75
+    year_delta: 0
+    venue_match: false
+  rejected_candidates:
+  - external_id: '3352400495444001041'
+    title: Practically-exploitable Cryptographic Vulnerabilities in Matrix (2022)
+    venue: MR Albrecht, S Celi, B Dowling, D Jones
+    title_similarity: 0.9618320610687023
+    author_overlap: 1.0
+    venue_match: false
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:06:34Z'
+  override_reason: Exact title, author evidence, 2023 publication year, and the IEEE Xplore landing page identify the conference paper; a separate earlier-version cluster was rejected.
+  review_notes: Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.
+- paper_id: ieee-sp-2023-weak-fiat-shamir-attacks-on-modern-proof-systems
+  provider: google_scholar
+  external_id: '11751510727785006116'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '11751510727785006116'
+    title: Weak fiat-shamir attacks on modern proof systems
+    publication_year: 2023
+    venue: Q Dao, J Miller, O Wright, P Grubbs2023 IEEE Symposium on Security and Privacy (SP), 2023•ieeexplore.ieee.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-08T18:06:35Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: ieee-sp-2023-typing-high-speed-cryptography-against-spectre-v
+  provider: google_scholar
+  external_id: '9037373832888256359'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.9400000000000001
+  selected_candidate:
+    external_id: '9037373832888256359'
+    title: Typing high-speed cryptography against spectre v1
+    publication_year: 2023
+    venue: BA Shivakumar, G Barthe, B Grégoire, V Laporte, T Oliveira, S Priya, P Schwabe…2023 IEEE Symposium on Security and Privacy (SP), 2023•ieeexplore.ieee.org
+    title_similarity: 1.0
+    author_overlap: 0.75
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-08T18:06:37Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: ieee-sp-2023-red-team-vs-blue-team-a-real-world-hardware-troj
+  provider: google_scholar
+  external_id: '6360895518395081755'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '6360895518395081755'
+    title: 'Red team vs. blue team: A real-world hardware Trojan detection case study across four modern CMOS technology generations'
+    publication_year: 2023
+    venue: E Puschner, T Moos, S Becker, C Kison, A Moradi, C Paar2023 IEEE Symposium on Security and Privacy (SP), 2023•ieeexplore.ieee.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-08T18:06:55Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: ieee-sp-2023-it-s-dom-clobbering-time-attack-techniques-preva
+  provider: google_scholar
+  external_id: '10747469084765974311'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '10747469084765974311'
+    title: 'It''s (dom) clobbering time: Attack techniques, prevalence, and defenses'
+    publication_year: 2023
+    venue: S Khodayari, G Pellegrino2023 IEEE Symposium on Security and Privacy (SP), 2023•ieeexplore.ieee.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-08T18:06:56Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: ieee-sp-2023-the-leaky-web-automated-discovery-of-cross-site
+  provider: google_scholar
+  external_id: '16083415626941056089'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '16083415626941056089'
+    title: 'The leaky web: Automated discovery of cross-site information leaks in browsers and the web'
+    publication_year: 2023
+    venue: J Rautenstrauch, G Pellegrino, B Stock2023 IEEE Symposium on Security and Privacy (SP), 2023•ieeexplore.ieee.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-08T18:07:00Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: ieee-sp-2023-wave-a-verifiably-secure-webassembly-sandboxing
+  provider: google_scholar
+  external_id: '16103235860680242924'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '16103235860680242924'
+    title: 'WaVe: a verifiably secure WebAssembly sandboxing runtime'
+    publication_year: 2023
+    venue: E Johnson, E Laufer, Z Zhao, D Gohman, S Narayan, S Savage, D Stefan, F Brown2023 IEEE Symposium on Security and Privacy (SP), 2023•ieeexplore.ieee.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-08T18:07:03Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: ieee-sp-2023-characterizing-everyday-misuse-of-smart-home-dev
+  provider: google_scholar
+  external_id: '1694345513935846134'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '1694345513935846134'
+    title: Characterizing everyday misuse of smart home devices
+    publication_year: 2023
+    venue: P Moh, P Datta, N Warford, A Bates, N Malkin, ML Mazurek2023 IEEE Symposium on Security and Privacy (SP), 2023•ieeexplore.ieee.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-08T18:07:07Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: ieee-sp-2023-not-yet-another-digital-id-privacy-preserving-hu
+  provider: google_scholar
+  external_id: '6601185334764687073'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '6601185334764687073'
+    title: 'Not yet another digital ID: privacy-preserving humanitarian aid distribution'
+    publication_year: 2023
+    venue: B Wang, W Lueks, J Sukaitis, VG Narbel, C Troncoso2023 IEEE Symposium on Security and Privacy (SP), 2023•ieeexplore.ieee.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-08T18:07:13Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: ieee-sp-2023-in-eighty-percent-of-the-cases-i-select-the-pass
+  provider: google_scholar
+  external_id: '691412144635927069'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '691412144635927069'
+    title: '" In Eighty Percent of the Cases, I Select the Password for Them": Security and Privacy Challenges, Advice, and Opportunities at Cybercafes in Kenya'
+    publication_year: 2023
+    venue: CW Munyendo, Y Acar, AJ Aviv2023 IEEE Symposium on Security and Privacy (SP), 2023•ieeexplore.ieee.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-08T18:07:14Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: ieee-sp-2023-space-odyssey-an-experimental-software-security
+  provider: google_scholar
+  external_id: '16038534564960384530'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '16038534564960384530'
+    title: 'Space odyssey: An experimental software security analysis of satellites'
+    publication_year: 2023
+    venue: J Willbold, M Schloegel, M Vögele, M Gerhardt, T Holz, A Abbasi2023 IEEE Symposium on Security and Privacy (SP), 2023•ieeexplore.ieee.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-08T18:07:17Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: usenix-security-2023-botscreen-trust-everybody-but-cut-the-aimbots-yo
+  provider: google_scholar
+  external_id: '17965825181559142203'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '17965825181559142203'
+    title: '{BotScreen}: Trust Everybody, but Cut the Aimbots Yourself'
+    publication_year: 2023
+    venue: M Choi, G Ko, SK Cha - 32nd USENIX Security Symposium (USENIX …, 2023 - usenix.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates:
+  - external_id: '13094020156684318015'
+    title: 'BotScreen: Trust Everybody but Cut the Aimbots Yourself BotScreen: Trust Everybody but Cut the Aimbots Yourself'
+    publication_year: 2023
+    venue: M Choi, G Ko, S Cha - 2023
+    title_similarity: 0.6625766871165644
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-08T18:07:18Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: usenix-security-2023-treesync-authenticated-group-management-for-mess
+  provider: google_scholar
+  external_id: '15494803768992211890'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '15494803768992211890'
+    title: '{TreeSync}: authenticated group management for messaging layer security'
+    publication_year: 2023
+    venue: T Wallez, J Protzenko, B Beurdouche, K Bhargavan32nd USENIX Security Symposium (USENIX Security 23), 2023•usenix.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-08T18:07:23Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: usenix-security-2023-tight-auditing-of-differentially-private-machine
+  provider: google_scholar
+  external_id: '282081925352010567'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '282081925352010567'
+    title: Tight auditing of differentially private machine learning
+    publication_year: 2023
+    venue: M Nasr, J Hayes, T Steinke, B Balle, F Tramèr, M Jagielski, N Carlini, A Terzis32nd USENIX Security Symposium (USENIX Security 23), 2023•usenix.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-08T18:07:32Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: usenix-security-2023-fuzztruction-using-fault-injection-based-fuzzing
+  provider: google_scholar
+  external_id: '3584369297611952630'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '3584369297611952630'
+    title: 'Fuzztruction: Using fault injection-based fuzzing to leverage implicit domain knowledge'
+    publication_year: 2023
+    venue: N Bars, M Schloegel, T Scharnowski, N Schiller, T Holz32nd USENIX Security Symposium (USENIX Security 23), 2023•usenix.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-08T18:07:33Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: usenix-security-2023-glaze-protecting-artists-from-style-mimicry-by-t
+  provider: google_scholar
+  external_id: '12442642277246861451'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '12442642277246861451'
+    title: 'Glaze: Protecting artists from style mimicry by {Text-to-Image} models'
+    publication_year: 2023
+    venue: S Shan, J Cryan, E Wenger, H Zheng, R Hanocka, BY Zhao32nd USENIX Security Symposium (USENIX Security 23), 2023•usenix.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-08T18:07:34Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: usenix-security-2023-bug-hunters-perspectives-on-the-challenges-and-b
+  provider: google_scholar
+  external_id: '8057878834878821642'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '8057878834878821642'
+    title: Bug {Hunters'} perspectives on the challenges and benefits of the bug bounty ecosystem
+    publication_year: 2023
+    venue: O Akgul, T Eghtesad, A Elazari, O Gnawali, J Grossklags, ML Mazurek, D Votipka, A Laszka32nd USENIX Security Symposium (USENIX Security 23), 2023•usenix.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-08T18:07:42Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: usenix-security-2023-account-security-interfaces-important-unintuitiv
+  provider: google_scholar
+  external_id: '507752266252204781'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '507752266252204781'
+    title: 'Account security interfaces: important, unintuitive, and untrustworthy'
+    publication_year: 2023
+    venue: A Daffalla, M Bohuk, N Dell, R Bellini, T Ristenpart32nd USENIX Security Symposium (USENIX Security 23), 2023•usenix.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-08T18:07:44Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: usenix-security-2023-a-bug-s-life-analyzing-the-lifecycle-and-mitigat
+  provider: google_scholar
+  external_id: '2322138418351201436'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '2322138418351201436'
+    title: 'A bug''s life: Analyzing the lifecycle and mitigation process of content security policy bugs'
+    publication_year: 2023
+    venue: G Franken, T Van Goethem, L Desmet, W Joosen32nd USENIX Security Symposium (USENIX Security 23), 2023•usenix.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-08T18:07:45Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: usenix-security-2023-dont-be-dense-efficient-keyword-pir-for-sparse-d
+  provider: google_scholar
+  external_id: '1091576476877039757'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '1091576476877039757'
+    title: '{Don''t} be dense: efficient keyword {PIR} for sparse databases'
+    publication_year: 2023
+    venue: S Patel, JY Seo, K Yeo32nd USENIX security symposium (USENIX Security 23), 2023•usenix.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-08T18:07:46Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma
+  provider: google_scholar
+  external_id: '11507894294460007087'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '11507894294460007087'
+    title: Examining power dynamics and user privacy in smart technology use among Jordanian households
+    publication_year: 2023
+    venue: W Albayaydh, I Flechais - 32nd USENIX Security Symposium (USENIX …, 2023 - usenix.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates:
+  - external_id: '7525582868304805381'
+    title: Examining Power Dynamics and User Privacy in Smart Technology Use Among Jordanian Households. 4643–4659
+    publication_year: 2023
+    venue: W Albayaydh, I Flechais - 2023
+    title_similarity: 0.9484536082474225
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-08T18:07:48Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: usenix-security-2023-a-two-decade-retrospective-analysis-of-a-univers
+  provider: google_scholar
+  external_id: '10194117707257387734'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.8700000000000001
+  selected_candidate:
+    external_id: '10194117707257387734'
+    title: A {Two-Decade} Retrospective Analysis of a University's Vulnerability to Attacks Exploiting Reused Passwords
+    publication_year: 2023
+    venue: A Nisenoff, M Golla, M Wei, J Hainline… - 32nd USENIX Security …, 2023 - usenix.org
+    title_similarity: 1.0
+    author_overlap: 0.4
+    year_delta: 0
+    venue_match: true
+  rejected_candidates:
+  - external_id: '9611344027778067160'
+    title: A Two-Decade Retrospective Analysis of a University's Vulnerability to Attacks Exploiting Reused Passwords (Extended Version)
+    publication_year: 2023
+    venue: A Nisenoff, M Golla, M Wei, J Hainline, H Szymanek… - 2023 - mirandawei.com
+    title_similarity: 0.9257641921397379
+    author_overlap: 0.5
+    year_delta: 0
+    venue_match: false
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-08T18:07:49Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: usenix-security-2023-ethical-frameworks-and-computer-security-trolley
+  provider: google_scholar
+  external_id: '5926880305407693086'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '5926880305407693086'
+    title: 'Ethical frameworks and computer security trolley problems: Foundations for conversations'
+    publication_year: 2023
+    venue: T Kohno, Y Acar, W Loh32nd USENIX Security Symposium (USENIX Security 23), 2023•usenix.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-08T18:07:50Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: usenix-security-2023-hash-gone-bad-automated-discovery-of-protocol-at
+  provider: google_scholar
+  external_id: '9468483505427352578'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '9468483505427352578'
+    title: 'Hash Gone Bad: Automated discovery of protocol attacks that exploit hash function weaknesses'
+    publication_year: 2023
+    venue: V Cheval, C Cremers, A Dax, L Hirschi, C Jacomme, S Kremer32nd USENIX Security Symposium (USENIX Security 23), 2023•usenix.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-08T18:07:57Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: usenix-security-2023-automated-analysis-of-protocols-that-use-authent
+  provider: google_scholar
+  external_id: '14810536492047199644'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '14810536492047199644'
+    title: 'Automated Analysis of Protocols that use Authenticated Encryption: How Subtle {AEAD} Differences can impact Protocol Security'
+    publication_year: 2023
+    venue: C Cremers, A Dax, C Jacomme, M Zhao32nd USENIX Security Symposium (USENIX Security 23), 2023•usenix.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-08T18:07:59Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: usenix-security-2023-remote-direct-memory-introspection
+  provider: google_scholar
+  external_id: '15692874715604309705'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.9566666666666668
+  selected_candidate:
+    external_id: '15692874715604309705'
+    title: Remote direct memory introspection
+    publication_year: 2023
+    venue: H Liu, J Xing, Y Huang, D Zhuo, S Devadas… - 32nd USENIX Security …, 2023 - usenix.org
+    title_similarity: 1.0
+    author_overlap: 0.8333333333333334
+    year_delta: 0
+    venue_match: true
+  rejected_candidates:
+  - external_id: '4164811555238991755'
+    title: Remote Direct Memory Introspection
+    venue: HLJXYH DanyangZhuo, S Devadas, A Chen - people.csail.mit.edu
+    title_similarity: 1.0
+    author_overlap: 0.3333333333333333
+    venue_match: false
+  - external_id: '1455355189748988951'
+    title: Remote direct memory introspection
+    publication_year: 2023
+    venue: L Hongyi, X Jiarong, H Yibo, Z Danyang, D Srinivas… - Proceedings of the USENIX …, 2023
+    title_similarity: 1.0
+    author_overlap: 0.0
+    year_delta: 0
+    venue_match: false
+  - external_id: '1220735360656662134'
+    title: Remote Direct Code Execution
+    publication_year: 2025
+    venue: Y Huang, Y Qiu, D Ding, PTJ Kon, Y Zhang… - Proceedings of the 24th …, 2025 - dl.acm.org
+    title_similarity: 0.7096774193548387
+    author_overlap: 0.16666666666666666
+    year_delta: 2
+    venue_match: false
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-08T18:08:08Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: usenix-security-2023-an-efficient-design-of-intelligent-network-data
+  provider: google_scholar
+  external_id: '2604507694742357978'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '2604507694742357978'
+    title: An efficient design of intelligent network data plane
+    publication_year: 2023
+    venue: G Zhou, Z Liu, C Fu, Q Li, K Xu32nd USENIX Security Symposium (USENIX Security 23), 2023•usenix.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-08T18:08:09Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: acm-ccs-2023-alert-alchemy-soc-workflows-and-decisions-in-the
+  provider: google_scholar
+  external_id: '17869119547199371351'
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: '17869119547199371351'
+    title: 'Alert alchemy: SOC workflows and decisions in the management of NIDS rules'
+    publication_year: 2023
+    venue: M Vermeer, N Kadenko, M van Eeten, C Gañán, S ParkinProceedings of the 2023 ACM SIGSAC Conference on Computer and Communications …, 2023•dl.acm.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:10Z'
+  override_reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  review_notes: Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.
+- paper_id: acm-ccs-2023-amplification-by-shuffling-without-shuffling
+  provider: google_scholar
+  external_id: '11970110104579043092'
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: '11970110104579043092'
+    title: Amplification by shuffling without shuffling
+    publication_year: 2023
+    venue: B Balle, J Bell, A Gascón - Proceedings of the 2023 ACM SIGSAC …, 2023 - dl.acm.org
+    title_similarity: 1.0
+    author_overlap: 0.6666666666666666
+    year_delta: 0
+    venue_match: false
+  rejected_candidates:
+  - external_id: '13970122234054223426'
+    title: Amplification by shuffling without shuffling, 2023
+    venue: B Balle, J Bell, A Gascón
+    title_similarity: 0.946236559139785
+    author_overlap: 0.6666666666666666
+    venue_match: false
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:13Z'
+  override_reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  review_notes: Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.
+- paper_id: acm-ccs-2023-batchman-and-robin-batched-and-non-batched-branc
+  provider: google_scholar
+  external_id: '8098279680911298685'
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: '8098279680911298685'
+    title: 'Batchman and robin: Batched and non-batched branching for interactive zk'
+    publication_year: 2023
+    venue: Y Yang, D Heath, C Hazay, V Kolesnikov, M VenkitasubramaniamProceedings of the 2023 ACM SIGSAC Conference on Computer and Communications …, 2023•dl.acm.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:14Z'
+  override_reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  review_notes: Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.
+- paper_id: acm-ccs-2023-capacity-cryptographically-enforced-in-process-c
+  provider: google_scholar
+  external_id: '648479337401816425'
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: '648479337401816425'
+    title: 'Capacity: Cryptographically-enforced in-process capabilities for modern ARM architectures'
+    publication_year: 2023
+    venue: K Dinh Duy, K Cho, T Noh, H Lee - Proceedings of the 2023 ACM …, 2023 - dl.acm.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates:
+  - external_id: '13268215811463221044'
+    title: 'Capacity: Cryptographically-Enforced In-Process Capabilities for Modern ARM Architectures (Extended Version)'
+    publication_year: 2023
+    venue: KD Duy, K Cho, T Noh, H Lee - arXiv preprint arXiv:2309.11151, 2023 - arxiv.org
+    title_similarity: 0.9119170984455959
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:18Z'
+  override_reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  review_notes: Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.
+- paper_id: acm-ccs-2023-coco-efficient-browser-extension-vulnerability-d
+  provider: google_scholar
+  external_id: '7043677968527898524'
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: '7043677968527898524'
+    title: 'Coco: Efficient browser extension vulnerability detection via coverage-guided, concurrent abstract interpretation'
+    publication_year: 2023
+    venue: J Yu, S Li, J Zhu, Y CaoProceedings of the 2023 ACM SIGSAC Conference on Computer and Communications …, 2023•dl.acm.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:19Z'
+  override_reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  review_notes: Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.
+- paper_id: acm-ccs-2023-concurrent-composition-for-interactive-different
+  provider: google_scholar
+  external_id: '15607192397336165188'
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: '15607192397336165188'
+    title: Concurrent composition for interactive differential privacy with adaptive privacy-loss parameters
+    publication_year: 2023
+    venue: S Haney, M Shoemate, G Tian, S Vadhan, A Vyrros, V Xu, W ZhangProceedings of the 2023 ACM SIGSAC Conference on Computer and Communications …, 2023•dl.acm.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:21Z'
+  override_reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  review_notes: Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.
+- paper_id: acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl
+  provider: google_scholar
+  external_id: '10776774111625253151'
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: '10776774111625253151'
+    title: 'FutORAMa: A concretely efficient hierarchical oblivious RAM'
+    publication_year: 2023
+    venue: G Asharov, I Komargodski, Y MichelsonProceedings of the 2023 ACM SIGSAC Conference on Computer and Communications …, 2023•dl.acm.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:34Z'
+  override_reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  review_notes: Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.
+- paper_id: acm-ccs-2023-he3db-an-efficient-and-elastic-encrypted-databas
+  provider: google_scholar
+  external_id: '11867684590348611982'
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: '11867684590348611982'
+    title: 'HE3DB: An efficient and elastic encrypted database via arithmetic-and-logic fully homomorphic encryption'
+    publication_year: 2023
+    venue: S Bian, Z Zhang, H Pan, R Mao, Z Zhao, Y Jin, Z GuanProceedings of the 2023 ACM SIGSAC conference on computer and communications …, 2023•dl.acm.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:35Z'
+  override_reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  review_notes: Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.
+- paper_id: acm-ccs-2023-how-hard-is-takeover-in-dpos-blockchains-underst
+  provider: google_scholar
+  external_id: '5522011673165191428'
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: '5522011673165191428'
+    title: How hard is takeover in dpos blockchains? understanding the security of coin-based voting governance
+    publication_year: 2023
+    venue: C Li, B Palanisamy, R Xu, L Duan, J Liu, W WangProceedings of the 2023 ACM SIGSAC Conference on Computer and Communications …, 2023•dl.acm.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:36Z'
+  override_reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  review_notes: Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.
+- paper_id: acm-ccs-2023-large-language-models-for-code-security-hardenin
+  provider: google_scholar
+  external_id: '15944535702908866192'
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: '15944535702908866192'
+    title: 'Large language models for code: Security hardening and adversarial testing'
+    publication_year: 2023
+    venue: J He, M VechevProceedings of the 2023 ACM SIGSAC Conference on Computer and Communications …, 2023•dl.acm.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:38Z'
+  override_reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  review_notes: Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.
+- paper_id: acm-ccs-2023-panic-pan-assisted-intra-process-memory-isolatio
+  provider: google_scholar
+  external_id: '11195187877516902599'
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: '11195187877516902599'
+    title: 'PANIC: PAN-assisted Intra-process Memory Isolation on ARM'
+    publication_year: 2023
+    venue: J Xu, M Xie, C Wu, Y Zhang, Q Li, X Huang, Y Lai, Y Kang, W Wang, Q Wei, Z WangProceedings of the 2023 ACM SIGSAC Conference on Computer and Communications …, 2023•dl.acm.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:47Z'
+  override_reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  review_notes: Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.
+- paper_id: acm-ccs-2023-security-verification-of-low-trust-architectures
+  provider: google_scholar
+  external_id: '183481109382956674'
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: '183481109382956674'
+    title: Security verification of low-trust architectures
+    publication_year: 2023
+    venue: Q Tan, Y Fisseha, S Chen, L Biernacki… - Proceedings of the …, 2023 - dl.acm.org
+    title_similarity: 1.0
+    author_overlap: 0.5714285714285714
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:49Z'
+  override_reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  review_notes: Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.
+- paper_id: acm-ccs-2023-silence-is-not-golden-disrupting-the-load-balanc
+  provider: google_scholar
+  external_id: '4326299532282864888'
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: '4326299532282864888'
+    title: 'Silence is not golden: Disrupting the load balancing of authoritative dns servers'
+    publication_year: 2023
+    venue: F Zhang, B Liu, E Alowaisheq, J Chen, C Lu, L Song, Y Ma, Y Liu, H Duan, M YangProceedings of the 2023 ACM SIGSAC Conference on Computer and Communications …, 2023•dl.acm.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:49Z'
+  override_reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  review_notes: Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.
+- paper_id: acm-ccs-2023-specification-and-verification-of-side-channel-s
+  provider: google_scholar
+  external_id: '3699596313176597286'
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: '3699596313176597286'
+    title: Specification and verification of side-channel security for open-source processors via leakage contracts
+    publication_year: 2023
+    venue: Z Wang, G Mohr, K von Gleissenthall, J Reineke, M GuarnieriProceedings of the 2023 ACM SIGSAC Conference on Computer and Communications …, 2023•dl.acm.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:53Z'
+  override_reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  review_notes: Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.
+- paper_id: acm-ccs-2023-specverilog-adapting-information-flow-control-fo
+  provider: google_scholar
+  external_id: '8519696803946749968'
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: '8519696803946749968'
+    title: 'Specverilog: Adapting information flow control for secure speculation'
+    publication_year: 2023
+    venue: D Zagieboylo, C Sherk, AC Myers, GE SuhProceedings of the 2023 ACM SIGSAC Conference on Computer and Communications …, 2023•dl.acm.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:54Z'
+  override_reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  review_notes: Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.
+- paper_id: acm-ccs-2023-stealing-the-decoding-algorithms-of-language-mod
+  provider: google_scholar
+  external_id: '8285920940505710581'
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: '8285920940505710581'
+    title: Stealing the decoding algorithms of language models
+    publication_year: 2023
+    venue: A Naseh, K Krishna, M Iyyer, A HoumansadrProceedings of the 2023 ACM SIGSAC Conference on Computer and Communications …, 2023•dl.acm.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:55Z'
+  override_reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  review_notes: Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.
+- paper_id: acm-ccs-2023-uncle-maker-time-stamping-out-the-competition-in
+  provider: google_scholar
+  external_id: '3041857097656571321'
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: '3041857097656571321'
+    title: Uncle maker:(time) stamping out the competition in ethereum
+    publication_year: 2023
+    venue: A Yaish, G Stern, A ZoharProceedings of the 2023 ACM SIGSAC Conference on Computer and Communications …, 2023•dl.acm.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:08:57Z'
+  override_reason: Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.
+  review_notes: Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.
+- paper_id: ndss-2023-your-router-is-my-prober-measuring-ipv6-networks
+  provider: google_scholar
+  external_id: '17314998190284780735'
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: '17314998190284780735'
+    title: 'Your router is my prober: Measuring IPv6 networks via ICMP rate limiting side channels'
+    publication_year: 2022
+    venue: L Pan, J Yang, L He, Z Wang, L Nie, G Song, Y LiuarXiv preprint arXiv:2210.13088, 2022•arxiv.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 1
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:09:10Z'
+  override_reason: Exact title and authors identify the 2022 arXiv preprint of the 2023 NDSS award paper; the reviewed numeric Scholar cluster is used to aggregate its versions.
+  review_notes: Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.
+- paper_id: ndss-2023-darwin-survival-of-the-fittest-fuzzing-mutators
+  provider: google_scholar
+  external_id: '6303666240795112920'
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: '6303666240795112920'
+    title: 'DARWIN: Survival of the fittest fuzzing mutators'
+    publication_year: 2022
+    venue: P Jauernig, D Jakobovic, S Picek, E Stapf, AR SadeghiarXiv preprint arXiv:2210.11783, 2022•arxiv.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 1
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:09:21Z'
+  override_reason: Exact title and authors identify the 2022 arXiv preprint of the 2023 NDSS award paper; the reviewed numeric Scholar cluster is used to aggregate its versions.
+  review_notes: Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.
+- paper_id: ieee-sp-2023-mega-malleable-encryption-goes-awry
+  provider: semantic_scholar
+  external_id: f8add0e6f04b98b7df6db12d3135c97c9f089a9d
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: f8add0e6f04b98b7df6db12d3135c97c9f089a9d
+    title: 'MEGA: Malleable Encryption Goes Awry'
+    doi: 10.1109/sp46215.2023.10179290
+    publication_year: 2023
+    venue: IEEE Symposium on Security and Privacy
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: ieee-sp-2023-practically-exploitable-cryptographic-vulnerabil
+  provider: semantic_scholar
+  external_id: ed4058bbbfe855f8f0ef2a8b96b016052f2ea94a
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: ed4058bbbfe855f8f0ef2a8b96b016052f2ea94a
+    title: Practically-exploitable Cryptographic Vulnerabilities in Matrix
+    doi: 10.1109/sp46215.2023.10351027
+    publication_year: 2023
+    venue: IEEE Symposium on Security and Privacy
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: ieee-sp-2023-weak-fiat-shamir-attacks-on-modern-proof-systems
+  provider: semantic_scholar
+  external_id: 7b840245a8e9eb43cca61e68658986a2e661e7af
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: 7b840245a8e9eb43cca61e68658986a2e661e7af
+    title: Weak Fiat-Shamir Attacks on Modern Proof Systems
+    doi: 10.1109/sp46215.2023.10179408
+    publication_year: 2023
+    venue: IEEE Symposium on Security and Privacy
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: ieee-sp-2023-typing-high-speed-cryptography-against-spectre-v
+  provider: semantic_scholar
+  external_id: 3dab60fb7870f066d276b322be1f5c34e5eb40e8
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: 3dab60fb7870f066d276b322be1f5c34e5eb40e8
+    title: Typing High-Speed Cryptography against Spectre v1
+    doi: 10.1109/sp46215.2023.10179418
+    publication_year: 2023
+    venue: IEEE Symposium on Security and Privacy
+    title_similarity: 1.0
+    author_overlap: 0.875
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: ieee-sp-2023-red-team-vs-blue-team-a-real-world-hardware-troj
+  provider: semantic_scholar
+  external_id: 59dee435b77ae460627a88f391b16fc93ea171fb
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: 59dee435b77ae460627a88f391b16fc93ea171fb
+    title: 'Red Team vs. Blue Team: A Real-World Hardware Trojan Detection Case Study Across Four Modern CMOS Technology Generations'
+    doi: 10.1109/sp46215.2023.10179341
+    publication_year: 2023
+    venue: IEEE Symposium on Security and Privacy
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: ieee-sp-2023-it-s-dom-clobbering-time-attack-techniques-preva
+  provider: semantic_scholar
+  external_id: 63e9d1bb950a20be61fdd3f321f01874008295a1
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: 63e9d1bb950a20be61fdd3f321f01874008295a1
+    title: 'It’s (DOM) Clobbering Time: Attack Techniques, Prevalence, and Defenses'
+    doi: 10.1109/sp46215.2023.10179403
+    publication_year: 2023
+    venue: IEEE Symposium on Security and Privacy
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: ieee-sp-2023-the-leaky-web-automated-discovery-of-cross-site
+  provider: semantic_scholar
+  external_id: 39a33bd0c3f19310e4cc6f18737886b1f8fd8784
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: 39a33bd0c3f19310e4cc6f18737886b1f8fd8784
+    title: 'The Leaky Web: Automated Discovery of Cross-Site Information Leaks in Browsers and the Web'
+    doi: 10.1109/sp46215.2023.10179311
+    publication_year: 2023
+    venue: IEEE Symposium on Security and Privacy
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: ieee-sp-2023-wave-a-verifiably-secure-webassembly-sandboxing
+  provider: semantic_scholar
+  external_id: fc3165950d7d32ef4c9424b623199a9d66421db0
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: fc3165950d7d32ef4c9424b623199a9d66421db0
+    title: 'WaVe: a verifiably secure WebAssembly sandboxing runtime'
+    doi: 10.1109/sp46215.2023.10179357
+    publication_year: 2023
+    venue: IEEE Symposium on Security and Privacy
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: ieee-sp-2023-characterizing-everyday-misuse-of-smart-home-dev
+  provider: semantic_scholar
+  external_id: 72edbfa1b709f403c171922aca1a4d7d138f963f
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: 72edbfa1b709f403c171922aca1a4d7d138f963f
+    title: Characterizing Everyday Misuse of Smart Home Devices
+    doi: 10.1109/sp46215.2023.10179476
+    publication_year: 2023
+    venue: IEEE Symposium on Security and Privacy
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: ieee-sp-2023-not-yet-another-digital-id-privacy-preserving-hu
+  provider: semantic_scholar
+  external_id: a4ab064c74f06267168472c6006edf5247c25e63
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: a4ab064c74f06267168472c6006edf5247c25e63
+    title: 'Not Yet Another Digital ID: Privacy-Preserving Humanitarian Aid Distribution'
+    doi: 10.1109/sp46215.2023.10179306
+    publication_year: 2023
+    venue: IEEE Symposium on Security and Privacy
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: ieee-sp-2023-in-eighty-percent-of-the-cases-i-select-the-pass
+  provider: semantic_scholar
+  external_id: c9618efa7418b1210b2c1558cda354e3dfc0a703
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: c9618efa7418b1210b2c1558cda354e3dfc0a703
+    title: '"In Eighty Percent of the Cases, I Select the Password for Them": Security and Privacy Challenges, Advice, and Opportunities at Cybercafes in Kenya'
+    doi: 10.1109/sp46215.2023.10179410
+    publication_year: 2023
+    venue: IEEE Symposium on Security and Privacy
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: ieee-sp-2023-space-odyssey-an-experimental-software-security
+  provider: semantic_scholar
+  external_id: f286a1056c11247990c689778c5b85795846e3ba
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: f286a1056c11247990c689778c5b85795846e3ba
+    title: 'Space Odyssey: An Experimental Software Security Analysis of Satellites'
+    doi: 10.1109/sp46215.2023.10351029
+    publication_year: 2023
+    venue: IEEE Symposium on Security and Privacy
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: usenix-security-2023-botscreen-trust-everybody-but-cut-the-aimbots-yo
+  provider: semantic_scholar
+  external_id: 9356553497a1f0792300660ad435decabdb29739
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: 9356553497a1f0792300660ad435decabdb29739
+    title: 'BotScreen: Trust Everybody, but Cut the Aimbots Yourself'
+    publication_year: 2023
+    venue: USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: usenix-security-2023-treesync-authenticated-group-management-for-mess
+  provider: semantic_scholar
+  external_id: e0aea1ee8fb8bb0107946e49d6827efc99c98948
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: e0aea1ee8fb8bb0107946e49d6827efc99c98948
+    title: 'TreeSync: Authenticated Group Management for Messaging Layer Security'
+    publication_year: 2022
+    venue: IACR Cryptology ePrint Archive
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 1
+    venue_match: false
+  rejected_candidates:
+  - external_id: 18d9e78383fb52acece845ae4d12fecf977e3f97
+    title: 'TreeKEM: A Modular Machine-Checked Symbolic Security Analysis of Group Key Agreement in Messaging Layer Security'
+    doi: 10.1109/sp61157.2025.00228
+    publication_year: 2025
+    venue: IEEE Symposium on Security and Privacy
+    title_similarity: 0.5810055865921788
+    author_overlap: 0.75
+    year_delta: 2
+    venue_match: false
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  override_reason: Exact title and authors identify the preprint/ePrint version of the 2023 USENIX Security award paper; the reviewed S2 paper entity is retained without summing separate versions.
+  review_notes: Reviewed as a conference/preprint entity-resolution case.
+- paper_id: usenix-security-2023-tight-auditing-of-differentially-private-machine
+  provider: semantic_scholar
+  status: pending
+  rejected_candidates:
+  - external_id: 3a766e0bdc981032b54d1f02c5174379a8b1530b
+    title: Nearly Tight Black-Box Auditing of Differentially Private Machine Learning
+    doi: 10.48550/arxiv.2405.14106
+    publication_year: 2024
+    venue: Neural Information Processing Systems
+    title_similarity: 0.8702290076335878
+    author_overlap: 0.0
+    year_delta: 1
+    venue_match: false
+  - external_id: 63a9242f09e9856067b43693670d0c44e9d42e42
+    title: Optimal Guarantees for Auditing Rényi Differentially Private Machine Learning
+    doi: 10.48550/arxiv.2605.21938
+    publication_year: 2026
+    venue: arXiv.org
+    title_similarity: 0.8059701492537313
+    author_overlap: 0.0
+    year_delta: 3
+    venue_match: false
+  - external_id: bcd160f7f33472700e24c981509e4d3a2a7e9308
+    title: A General Framework for Auditing Differentially Private Machine Learning
+    doi: 10.48550/arxiv.2210.08643
+    publication_year: 2022
+    venue: Neural Information Processing Systems
+    title_similarity: 0.7751937984496124
+    author_overlap: 0.0
+    year_delta: 1
+    venue_match: false
+  - external_id: 50f186ad217f7255e8f632317a43c2fa9e31c55f
+    title: 'Privacy Auditing in Differential Private Machine Learning: The Current Trends'
+    doi: 10.3390/app15020647
+    publication_year: 2025
+    venue: Applied Sciences
+    title_similarity: 0.736842105263158
+    author_overlap: 0.0
+    year_delta: 2
+    venue_match: false
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: No title-and-author-consistent S2 entity was found. The closest ranked results have different authors and were rejected.
+- paper_id: usenix-security-2023-fuzztruction-using-fault-injection-based-fuzzing
+  provider: semantic_scholar
+  external_id: 7eb5cc478291f52c126efcaabd5c256cb7303a0f
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: 7eb5cc478291f52c126efcaabd5c256cb7303a0f
+    title: 'Fuzztruction: Using Fault Injection-based Fuzzing to Leverage Implicit Domain Knowledge'
+    publication_year: 2023
+    venue: USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: usenix-security-2023-glaze-protecting-artists-from-style-mimicry-by-t
+  provider: semantic_scholar
+  external_id: 897c0aedead3105b7b6cd1afbb6aeb4f62a06e11
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: 897c0aedead3105b7b6cd1afbb6aeb4f62a06e11
+    title: 'GLAZE: Protecting Artists from Style Mimicry by Text-to-Image Models'
+    doi: 10.48550/arxiv.2302.04222
+    publication_year: 2023
+    venue: USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: usenix-security-2023-bug-hunters-perspectives-on-the-challenges-and-b
+  provider: semantic_scholar
+  external_id: a4a57f807906130671dd6b0a159c9cf816a681df
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: a4a57f807906130671dd6b0a159c9cf816a681df
+    title: Bug Hunters' Perspectives on the Challenges and Benefits of the Bug Bounty Ecosystem
+    doi: 10.48550/arxiv.2301.04781
+    publication_year: 2023
+    venue: USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: usenix-security-2023-account-security-interfaces-important-unintuitiv
+  provider: semantic_scholar
+  external_id: be946514fd7b40f54abd86feffeb6cda7060923e
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: be946514fd7b40f54abd86feffeb6cda7060923e
+    title: 'Account Security Interfaces: Important, Unintuitive, and Untrustworthy'
+    publication_year: 2023
+    venue: USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: usenix-security-2023-a-bug-s-life-analyzing-the-lifecycle-and-mitigat
+  provider: semantic_scholar
+  external_id: f8fb22ca7c6bd26c94803854d9e4afab4591e2cd
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: f8fb22ca7c6bd26c94803854d9e4afab4591e2cd
+    title: 'A Bug''s Life: Analyzing the Lifecycle and Mitigation Process of Content Security Policy Bugs'
+    publication_year: 2023
+    venue: USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: usenix-security-2023-dont-be-dense-efficient-keyword-pir-for-sparse-d
+  provider: semantic_scholar
+  external_id: 3d1fff6e566ffe50399c38017fb19747ab3c3253
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: 3d1fff6e566ffe50399c38017fb19747ab3c3253
+    title: 'Don''t be Dense: Efficient Keyword PIR for Sparse Databases'
+    publication_year: 2023
+    venue: IACR Cryptology ePrint Archive
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  override_reason: Exact title and authors identify the preprint/ePrint version of the 2023 USENIX Security award paper; the reviewed S2 paper entity is retained without summing separate versions.
+  review_notes: Reviewed as a conference/preprint entity-resolution case.
+- paper_id: usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma
+  provider: semantic_scholar
+  external_id: d4c0c078cea37df5e65327adda933efd74876e22
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: d4c0c078cea37df5e65327adda933efd74876e22
+    title: Examining Power Dynamics and User Privacy in Smart Technology Use Among Jordanian Households
+    publication_year: 2023
+    venue: USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: usenix-security-2023-a-two-decade-retrospective-analysis-of-a-univers
+  provider: semantic_scholar
+  external_id: ed4ddd65b95873c96b06d7aee978f8e9c885b227
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: ed4ddd65b95873c96b06d7aee978f8e9c885b227
+    title: A Two-Decade Retrospective Analysis of a University's Vulnerability to Attacks Exploiting Reused Passwords
+    publication_year: 2023
+    venue: USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: usenix-security-2023-ethical-frameworks-and-computer-security-trolley
+  provider: semantic_scholar
+  external_id: 15deb60e1002cb1b5364354257fdba6a5c3c3247
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: 15deb60e1002cb1b5364354257fdba6a5c3c3247
+    title: 'Ethical Frameworks and Computer Security Trolley Problems: Foundations for Conversations'
+    doi: 10.48550/arxiv.2302.14326
+    publication_year: 2023
+    venue: USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: usenix-security-2023-hash-gone-bad-automated-discovery-of-protocol-at
+  provider: semantic_scholar
+  external_id: cfa801618d46702b0c3376e3a29326315fe44020
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: cfa801618d46702b0c3376e3a29326315fe44020
+    title: 'Hash Gone Bad: Automated discovery of protocol attacks that exploit hash function weaknesses'
+    publication_year: 2022
+    venue: IACR Cryptology ePrint Archive
+    title_similarity: 1.0
+    author_overlap: 0.8333333333333334
+    year_delta: 1
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  override_reason: Exact title and authors identify the preprint/ePrint version of the 2023 USENIX Security award paper; the reviewed S2 paper entity is retained without summing separate versions.
+  review_notes: Reviewed as a conference/preprint entity-resolution case.
+- paper_id: usenix-security-2023-automated-analysis-of-protocols-that-use-authent
+  provider: semantic_scholar
+  external_id: e59a1cb09b0fe3aa79a8cfd1eb1cbb1072a7a7c4
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: e59a1cb09b0fe3aa79a8cfd1eb1cbb1072a7a7c4
+    title: 'Automated Analysis of Protocols that use Authenticated Encryption: How Subtle AEAD Differences can impact Protocol Security'
+    publication_year: 2023
+    venue: USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: usenix-security-2023-remote-direct-memory-introspection
+  provider: semantic_scholar
+  external_id: 7901b79741d948195ae00c67afd3cda1f9b86dc2
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: 7901b79741d948195ae00c67afd3cda1f9b86dc2
+    title: Remote Direct Memory Introspection
+    publication_year: 2023
+    venue: USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: usenix-security-2023-an-efficient-design-of-intelligent-network-data
+  provider: semantic_scholar
+  external_id: a3c847991f0a022b9c7c4df27be7981a35c30b1c
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: a3c847991f0a022b9c7c4df27be7981a35c30b1c
+    title: An Efficient Design of Intelligent Network Data Plane
+    publication_year: 2023
+    venue: USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: acm-ccs-2023-alert-alchemy-soc-workflows-and-decisions-in-the
+  provider: semantic_scholar
+  external_id: 2166a4788d88282bae6c578d0223a9a96fb09962
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: 2166a4788d88282bae6c578d0223a9a96fb09962
+    title: 'Alert Alchemy: SOC Workflows and Decisions in the Management of NIDS Rules'
+    doi: 10.1145/3576915.3616581
+    publication_year: 2023
+    venue: Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: acm-ccs-2023-amplification-by-shuffling-without-shuffling
+  provider: semantic_scholar
+  external_id: 5375ea4866ac4f4588aad28acf508a844e2a68cb
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: 5375ea4866ac4f4588aad28acf508a844e2a68cb
+    title: Amplification by Shuffling without Shuffling
+    doi: 10.1145/3576915.3623215
+    publication_year: 2023
+    venue: Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 0.6666666666666666
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: acm-ccs-2023-batchman-and-robin-batched-and-non-batched-branc
+  provider: semantic_scholar
+  external_id: 146e23e2c088cc3e73d491ff66e359bb903b097f
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: 146e23e2c088cc3e73d491ff66e359bb903b097f
+    title: 'Batchman and Robin: Batched and Non-batched Branching for Interactive ZK'
+    doi: 10.1145/3576915.3623169
+    publication_year: 2023
+    venue: IACR Cryptology ePrint Archive
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: acm-ccs-2023-capacity-cryptographically-enforced-in-process-c
+  provider: semantic_scholar
+  external_id: b1a2a35c87c9e48d1c7aa9ca04883dfe272ac852
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: b1a2a35c87c9e48d1c7aa9ca04883dfe272ac852
+    title: 'Capacity: Cryptographically-Enforced In-Process Capabilities for Modern ARM Architectures'
+    doi: 10.1145/3576915.3623079
+    publication_year: 2023
+    venue: Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: acm-ccs-2023-coco-efficient-browser-extension-vulnerability-d
+  provider: semantic_scholar
+  external_id: 131f9dbee0a4c55391e7dbc6c55a7815824c36a7
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: 131f9dbee0a4c55391e7dbc6c55a7815824c36a7
+    title: 'CoCo: Efficient Browser Extension Vulnerability Detection via Coverage-guided, Concurrent Abstract Interpretation'
+    doi: 10.1145/3576915.3616584
+    publication_year: 2023
+    venue: Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: acm-ccs-2023-concurrent-composition-for-interactive-different
+  provider: semantic_scholar
+  external_id: 34c09a2af1fc5a98f793fd2267ea43c951356ecb
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: 34c09a2af1fc5a98f793fd2267ea43c951356ecb
+    title: Concurrent Composition for Interactive Differential Privacy with Adaptive Privacy-Loss Parameters
+    doi: 10.1145/3576915.3623128
+    publication_year: 2023
+    venue: Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl
+  provider: semantic_scholar
+  external_id: dd2b2c4f017f150dd0c359054f79e1134f147231
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: dd2b2c4f017f150dd0c359054f79e1134f147231
+    title: 'FutORAMa: A Concretely Efficient Hierarchical Oblivious RAM'
+    doi: 10.1145/3576915.3623125
+    publication_year: 2023
+    venue: IACR Cryptology ePrint Archive
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: acm-ccs-2023-he3db-an-efficient-and-elastic-encrypted-databas
+  provider: semantic_scholar
+  external_id: fbbcb2989a47ba7f12b9eab1158d8321789b2093
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: fbbcb2989a47ba7f12b9eab1158d8321789b2093
+    title: 'HE3DB: An Efficient and Elastic Encrypted Database Via Arithmetic-And-Logic Fully Homomorphic Encryption'
+    doi: 10.1145/3576915.3616608
+    publication_year: 2023
+    venue: IACR Cryptology ePrint Archive
+    title_similarity: 1.0
+    author_overlap: 0.14285714285714285
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: acm-ccs-2023-how-hard-is-takeover-in-dpos-blockchains-underst
+  provider: semantic_scholar
+  external_id: 5a2990c0422cb74781bb12b95421709eb5897ca9
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: 5a2990c0422cb74781bb12b95421709eb5897ca9
+    title: How Hard is Takeover in DPoS Blockchains? Understanding the Security of Coin-based Voting Governance
+    doi: 10.1145/3576915.3623171
+    publication_year: 2023
+    venue: Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: acm-ccs-2023-large-language-models-for-code-security-hardenin
+  provider: semantic_scholar
+  external_id: 63e2740dc581b4186b4e277a9955e8048c414521
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: 63e2740dc581b4186b4e277a9955e8048c414521
+    title: 'Large Language Models for Code: Security Hardening and Adversarial Testing'
+    doi: 10.1145/3576915.3623175
+    publication_year: 2023
+    venue: Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: acm-ccs-2023-panic-pan-assisted-intra-process-memory-isolatio
+  provider: semantic_scholar
+  external_id: 6647dc71f98daa99b26b1969356f14c79a9ba3d9
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: 6647dc71f98daa99b26b1969356f14c79a9ba3d9
+    title: 'PANIC: PAN-assisted Intra-process Memory Isolation on ARM'
+    doi: 10.1145/3576915.3623206
+    publication_year: 2023
+    venue: Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: acm-ccs-2023-security-verification-of-low-trust-architectures
+  provider: semantic_scholar
+  external_id: 46956882fbf7a9108a5a9b52793689835ad948a7
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: 46956882fbf7a9108a5a9b52793689835ad948a7
+    title: Security Verification of Low-Trust Architectures
+    doi: 10.1145/3576915.3616643
+    publication_year: 2023
+    venue: Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: acm-ccs-2023-silence-is-not-golden-disrupting-the-load-balanc
+  provider: semantic_scholar
+  external_id: de3f6a3527581979562436f5148d21a4169a891b
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: de3f6a3527581979562436f5148d21a4169a891b
+    title: 'Silence is not Golden: Disrupting the Load Balancing of Authoritative DNS Servers'
+    doi: 10.1145/3576915.3616647
+    publication_year: 2023
+    venue: Proceedings of the 2023 ACM SIGSAC Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: acm-ccs-2023-specification-and-verification-of-side-channel-s
+  provider: semantic_scholar
+  external_id: 7149bce4286bfa10ffee922ce7f5621401df4d07
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: 7149bce4286bfa10ffee922ce7f5621401df4d07
+    title: Specification and Verification of Side-channel Security for Open-source Processors via Leakage Contracts
+    doi: 10.1145/3576915.3623192
+    publication_year: 2023
+    venue: Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: acm-ccs-2023-specverilog-adapting-information-flow-control-fo
+  provider: semantic_scholar
+  external_id: 98f5be384d3279545af9b94284995b430c848aaf
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: 98f5be384d3279545af9b94284995b430c848aaf
+    title: 'SpecVerilog: Adapting Information Flow Control for Secure Speculation'
+    doi: 10.1145/3576915.3623074
+    publication_year: 2023
+    venue: Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: acm-ccs-2023-stealing-the-decoding-algorithms-of-language-mod
+  provider: semantic_scholar
+  external_id: fdaeb41ebb60dbe60a3193f02320e3f00f8233fd
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: fdaeb41ebb60dbe60a3193f02320e3f00f8233fd
+    title: Stealing the Decoding Algorithms of Language Models
+    doi: 10.1145/3576915.3616652
+    publication_year: 2023
+    venue: Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: acm-ccs-2023-uncle-maker-time-stamping-out-the-competition-in
+  provider: semantic_scholar
+  external_id: 82320fd747c76152a0562cd0da8c75591f9f887d
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: 82320fd747c76152a0562cd0da8c75591f9f887d
+    title: 'Uncle Maker: (Time)Stamping Out The Competition in Ethereum'
+    doi: 10.1145/3576915.3616674
+    publication_year: 2023
+    venue: IACR Cryptology ePrint Archive
+    title_similarity: 1.0
+    author_overlap: 0.6666666666666666
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: ndss-2023-your-router-is-my-prober-measuring-ipv6-networks
+  provider: semantic_scholar
+  external_id: 8d25ee9aa097c8ab7c3f6a07a6f5d1b870158387
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: 8d25ee9aa097c8ab7c3f6a07a6f5d1b870158387
+    title: 'Your Router is My Prober: Measuring IPv6 Networks via ICMP Rate Limiting Side Channels'
+    doi: 10.48550/arxiv.2210.13088
+    publication_year: 2022
+    venue: Network and Distributed System Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 1
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: ndss-2023-darwin-survival-of-the-fittest-fuzzing-mutators
+  provider: semantic_scholar
+  external_id: d57b31045610cbf9eb8a385c74d7fe4f7252467a
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: d57b31045610cbf9eb8a385c74d7fe4f7252467a
+    title: 'DARWIN: Survival of the Fittest Fuzzing Mutators'
+    doi: 10.14722/ndss.2023.23159
+    publication_year: 2022
+    venue: Network and Distributed System Security Symposium
+    title_similarity: 1.0
+    author_overlap: 0.8
+    year_delta: 1
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-08T18:16:13.005547Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.

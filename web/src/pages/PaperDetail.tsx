@@ -1,11 +1,11 @@
 import { useEffect, useMemo, useState } from "react";
 import type { EChartsCoreOption } from "echarts/core";
 import { Chart } from "../components/Chart";
-import { compactNumber, formatDate, loadPaper } from "../data";
+import { compactNumber, formatDate, loadPaper, providerName } from "../data";
 import { usePreferences } from "../preferences";
-import type { PaperData } from "../types";
+import type { PaperData, Provider } from "../types";
 
-export function PaperDetail({ id }: { id: string }) {
+export function PaperDetail({ id, initialSource }: { id: string; initialSource?: Provider | null }) {
   const { language, locale, resolvedTheme } = usePreferences();
   const text = language === "zh" ? {
     notFound: "未找到论文",
@@ -42,6 +42,8 @@ export function PaperDetail({ id }: { id: string }) {
     observations: "条不可变观测",
     reviewNote: "核验备注",
     chartAria: "引用论文按发表年份分布",
+    source: "引用来源",
+    viaSerpApi: "经由 SerpApi 获取",
   } : {
     notFound: "Paper not found",
     returnToRankings: "Return to rankings",
@@ -77,12 +79,22 @@ export function PaperDetail({ id }: { id: string }) {
     observations: "immutable observation(s)",
     reviewNote: "Review note",
     chartAria: "Citations received by publication year of citing works",
+    source: "Citation source",
+    viaSerpApi: "retrieved via SerpApi",
   };
   const [data, setData] = useState<PaperData | null>(null);
   const [error, setError] = useState("");
+  const [selectedSource, setSelectedSource] = useState<Provider | null>(null);
   useEffect(() => { loadPaper(id).then(setData).catch((reason: Error) => setError(reason.message)); }, [id]);
-  const provider = data?.citation_history.openalex?.length ? "openalex"
-    : data?.citation_history.semantic_scholar?.length ? "semantic_scholar" : null;
+  const availableProviders = data
+    ? (["google_scholar", "openalex", "semantic_scholar"] as Provider[])
+      .filter((item) => Boolean(data.citation_history[item]?.length))
+    : [];
+  const provider = selectedSource && availableProviders.includes(selectedSource)
+    ? selectedSource
+    : initialSource && availableProviders.includes(initialSource)
+      ? initialSource
+      : availableProviders[0] ?? null;
   const latest = provider ? data?.citation_history[provider]?.at(-1) : undefined;
   const dark = resolvedTheme === "dark";
   const yearlyOption = useMemo<EChartsCoreOption>(() => ({
@@ -95,6 +107,7 @@ export function PaperDetail({ id }: { id: string }) {
   if (error) return <section className="empty-state"><h1>{text.notFound}</h1><p>{error}</p><a href="#/">{text.returnToRankings}</a></section>;
   if (!data) return <div className="loading">{text.loading}</div>;
   const doi = data.paper.identifiers.find((item) => item.scheme === "doi");
+  const awardYear = Number(data.awards[0]?.edition_id.slice(-4)) || data.paper.publication_year;
   const binding = data.bindings.find((item) => item.provider === provider)
     ?? data.bindings.find((item) => item.provider === "openalex");
   const affiliations = new Map(
@@ -105,7 +118,10 @@ export function PaperDetail({ id }: { id: string }) {
   );
   const hasAffiliations = [...affiliations.values()].some((items) => items.length);
   const hasYearCounts = Boolean(latest?.citations_by_citing_year.length);
-  const providerName = provider === "semantic_scholar" ? "Semantic Scholar" : "OpenAlex";
+  const citationProviderName = provider ? providerName(provider) : text.source;
+  const providerObservationName = provider === "google_scholar"
+    ? `${citationProviderName} · ${text.viaSerpApi}`
+    : citationProviderName;
   const matchStatus = binding
     ? language === "zh"
       ? ({
@@ -129,14 +145,20 @@ export function PaperDetail({ id }: { id: string }) {
       : binding.method.replace("_", " ")
     : text.requires;
   const providerUrl = binding?.external_id
-    ? provider === "semantic_scholar"
+    ? provider === "google_scholar"
+      ? `https://scholar.google.com/scholar?cites=${binding.external_id}`
+      : provider === "semantic_scholar"
       ? `https://www.semanticscholar.org/paper/${binding.external_id}?utm_source=api`
       : `https://openalex.org/${binding.external_id}`
     : null;
+  const chooseProvider = (next: Provider) => {
+    setSelectedSource(next);
+    window.location.hash = `/paper/${encodeURIComponent(id)}?source=${next}&year=${awardYear}`;
+  };
   return (
     <>
       <section className="paper-hero">
-        <a href="#/" className="back-link">← {language === "zh" ? `${data.paper.publication_year} 年${text.allPapers}` : `${text.allPapers} · ${data.paper.publication_year}`}</a>
+        <a href={`#/?year=${awardYear}${provider ? `&source=${provider}` : ""}`} className="back-link">← {language === "zh" ? `${awardYear} 年${text.allPapers}` : `${text.allPapers} · ${awardYear}`}</a>
         <div className="paper-venue-line">
           <strong>{data.paper.venue_name}</strong>
           <span>{data.awards[0]?.raw_award_name}</span>
@@ -153,11 +175,17 @@ export function PaperDetail({ id }: { id: string }) {
         <div className="paper-links">
           {data.paper.official_paper_url && <a href={data.paper.official_paper_url} target="_blank" rel="noreferrer">{text.official} ↗</a>}
           {doi && <a href={`https://doi.org/${doi.value}`} target="_blank" rel="noreferrer">DOI ↗</a>}
-          {providerUrl && <a href={providerUrl} target="_blank" rel="noreferrer">{providerName} ↗</a>}
+          {providerUrl && <a href={providerUrl} target="_blank" rel="noreferrer">{citationProviderName} ↗</a>}
         </div>
       </section>
+      {availableProviders.length > 1 && <nav className="detail-provider-switch" aria-label={text.source}>
+        <span>{text.source}</span>
+        <div className="segmented provider-selector">
+          {availableProviders.map((item) => <button key={item} className={provider === item ? "active" : ""} onClick={() => chooseProvider(item)}>{providerName(item)}</button>)}
+        </div>
+      </nav>}
       <section className="paper-metrics">
-        <article><span>{text.current}</span><strong>{latest ? compactNumber(latest.total_citations, locale) : "—"}</strong><small>{latest ? `${providerName} · ${text.snapshot} ${formatDate(latest.retrieved_at, locale)}` : text.noEntity}</small></article>
+        <article><span>{text.current}</span><strong>{latest ? compactNumber(latest.total_citations, locale) : "—"}</strong><small>{latest ? `${providerObservationName} · ${text.snapshot} ${formatDate(latest.retrieved_at, locale)}` : text.noEntity}</small></article>
         <article><span>{text.firstThree}</span><strong>{hasYearCounts ? latest?.citations_by_citing_year.filter((item) => item.year >= data.paper.publication_year && item.year < data.paper.publication_year + 3).reduce((sum, item) => sum + item.count, 0) : "—"}</strong><small>{hasYearCounts ? text.ageWindow : text.unavailable}</small></article>
         <article><span>{text.entityMatch}</span><strong className="match-status">{matchStatus}</strong><small>{matchMethod}</small></article>
       </section>
@@ -173,7 +201,7 @@ export function PaperDetail({ id }: { id: string }) {
             <div><dt>{text.awardSource}</dt><dd><a href={data.awards[0]?.official_source.url} target="_blank" rel="noreferrer">{text.officialConference} ↗</a></dd></div>
             <div><dt>{text.rawAward}</dt><dd>{data.awards[0]?.raw_award_name}</dd></div>
             <div><dt>{text.matchDecision}</dt><dd>{matchStatus}{binding?.confidence != null ? ` · ${Math.round(binding.confidence * 100)}% ${text.confidence}` : ` · ${text.requires}`}</dd></div>
-            <div><dt>{text.citationSource}</dt><dd>{providerName} {binding?.external_id ?? text.notResolved}</dd></div>
+            <div><dt>{text.citationSource}</dt><dd>{providerObservationName} {binding?.external_id ?? text.notResolved}</dd></div>
             <div><dt>{text.snapshotHistory}</dt><dd>{provider ? data.citation_history[provider]?.length ?? 0 : 0} {text.observations}</dd></div>
             {binding?.review_notes && <div><dt>{text.reviewNote}</dt><dd>{binding.review_notes}</dd></div>}
           </dl>

@@ -17,18 +17,22 @@ immutable, time-stamped observations.
 
 The first release covers all **47 core 2023 paper awards**:
 
-| Conference | Official awards | Verified OpenAlex entities |
-| --- | ---: | ---: |
-| IEEE S&P | 12 | 12 |
-| USENIX Security | 16 | 11 |
-| ACM CCS | 17 | 17 |
-| NDSS | 2 | 2 |
+| Conference | Official awards | Google Scholar | OpenAlex | Semantic Scholar |
+| --- | ---: | ---: | ---: | ---: |
+| IEEE S&P | 12 | 12 | 12 | 12 |
+| USENIX Security | 16 | 16 | 11 | 15 |
+| ACM CCS | 17 | 17 | 17 | 17 |
+| NDSS | 2 | 2 | 2 | 2 |
 
-Five USENIX papers remain visibly unresolved in OpenAlex. They are not assigned to
-weak lookalikes. Keyed Semantic Scholar candidate discovery is implemented, but
-publishing its response data remains disabled until static redistribution is explicitly
-confirmed for this project; see the
-[publication decision](docs/semantic-scholar-publication.md).
+Five USENIX papers remain visibly unresolved in OpenAlex, and one USENIX paper has no
+title-and-author-consistent Semantic Scholar entity. They are not assigned to weak
+lookalikes. Provider coverage is shown separately rather than filled with another
+provider's count.
+
+The pipeline now also supports Google Scholar observations through SerpApi. Google
+Scholar has no official public API, so these records are labeled with both the
+underlying source and transport. Reviewed Scholar snapshots are selected by default,
+while OpenAlex and Semantic Scholar remain independently selectable comparison views.
 
 ## Quick start
 
@@ -56,6 +60,7 @@ uv run secawardlens awards check
 # Print review candidates; does not change pinned bindings.
 uv run secawardlens match openalex --paper-id PAPER_ID
 uv run secawardlens match semantic-scholar --paper-id PAPER_ID
+uv run secawardlens match google-scholar --paper-id PAPER_ID
 
 # Append a UTC-dated snapshot using existing verified IDs only.
 uv run secawardlens citations refresh
@@ -70,9 +75,12 @@ uv run secawardlens review apply data/review/submissions/FORM.yml
 ```
 
 `OPENALEX_API_KEY` is required for OpenAlex API commands. `S2_API_KEY` is required for
-Semantic Scholar candidate discovery and any future enabled S2 refresh. Create an OpenAlex key at
+Semantic Scholar candidate discovery and refresh. Create an OpenAlex key at
 <https://openalex.org/settings/api> and export it locally with
 `export OPENALEX_API_KEY=...`; export an approved S2 key with `export S2_API_KEY=...`.
+Google Scholar candidate discovery and refresh use a SerpApi account key exported as
+`SERPAPI_KEY`; never commit that key. The current 47-paper cohort costs about 47
+successful SerpApi searches for one full candidate or refresh pass.
 Building or previewing already committed data needs neither key. Routine citation
 refreshes never search or rematch a paper.
 

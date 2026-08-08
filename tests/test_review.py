@@ -1,6 +1,7 @@
 import shutil
 
 import pytest
+import yaml
 
 from secawardlens.io import (
     load_bindings,
@@ -77,5 +78,11 @@ def test_review_form_dry_runs_then_updates_compiled_records(tmp_path) -> None:
 def test_review_form_respects_disabled_provider_publication(tmp_path) -> None:
     root = repository_root()
     shutil.copytree(root / "data", tmp_path / "data")
+    registry_path = tmp_path / "data/provenance/source_registry.yml"
+    registry = yaml.safe_load(registry_path.read_text())
+    for source in registry["citation_sources"]:
+        if source["id"] == "semantic_scholar":
+            source["public_output_enabled"] = False
+    registry_path.write_text(yaml.safe_dump(registry, sort_keys=False))
     with pytest.raises(ValueError, match="public output is disabled"):
         apply_resolution(tmp_path, submission("semantic_scholar"), write=False)

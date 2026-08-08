@@ -41,9 +41,85 @@
       "status": "auto_verified",
       "verified_at": "2026-08-07T18:41:58Z",
       "verified_by": "SecAwardLens pipeline"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "648479337401816425",
+      "method": "manual_override",
+      "override_reason": "Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.",
+      "paper_id": "acm-ccs-2023-capacity-cryptographically-enforced-in-process-c",
+      "provider": "google_scholar",
+      "rejected_candidates": [
+        {
+          "author_overlap": 1.0,
+          "doi": null,
+          "external_id": "13268215811463221044",
+          "publication_year": 2023,
+          "title": "Capacity: Cryptographically-Enforced In-Process Capabilities for Modern ARM Architectures (Extended Version)",
+          "title_similarity": 0.9119170984455959,
+          "venue": "KD Duy, K Cho, T Noh, H Lee - arXiv preprint arXiv:2309.11151, 2023 - arxiv.org",
+          "venue_match": false,
+          "year_delta": 0
+        }
+      ],
+      "related_version_ids": [],
+      "review_notes": "Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "648479337401816425",
+        "publication_year": 2023,
+        "title": "Capacity: Cryptographically-enforced in-process capabilities for modern ARM architectures",
+        "title_similarity": 1.0,
+        "venue": "K Dinh Duy, K Cho, T Noh, H Lee - Proceedings of the 2023 ACM …, 2023 - dl.acm.org",
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-08T18:08:18Z",
+      "verified_by": "SecAwardLens maintainer review"
+    },
+    {
+      "confidence": 1.0,
+      "external_id": "b1a2a35c87c9e48d1c7aa9ca04883dfe272ac852",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "acm-ccs-2023-capacity-cryptographically-enforced-in-process-c",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1145/3576915.3623079",
+        "external_id": "b1a2a35c87c9e48d1c7aa9ca04883dfe272ac852",
+        "publication_year": 2023,
+        "title": "Capacity: Cryptographically-Enforced In-Process Capabilities for Modern ARM Architectures",
+        "title_similarity": 1.0,
+        "venue": "Conference on Computer and Communications Security",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
     }
   ],
   "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "648479337401816425",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-capacity-cryptographically-enforced-in-process-c",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=1b658a630d7ef8b72d54381c26f6f33ad3f9e9e20a5a626c43aa356e308bd1de&num=10&hl=en",
+        "response_sha256": "2b03e1755f7a8065337c6c9c16773f610d3ab3cb37b2801059054a054c823640",
+        "retrieved_at": "2026-08-08T18:08:18Z",
+        "total_citations": 24
+      }
+    ],
     "openalex": [
       {
         "citations_by_citing_year": [
@@ -94,6 +170,20 @@
         "response_sha256": "f3196efff62958b85e994c65051cac56e32bf52abd8c9daf4539d6562e1caa71",
         "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 7
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "b1a2a35c87c9e48d1c7aa9ca04883dfe272ac852",
+        "influential_citations": 1,
+        "paper_id": "acm-ccs-2023-capacity-cryptographically-enforced-in-process-c",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/b1a2a35c87c9e48d1c7aa9ca04883dfe272ac852?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "68aa54496ece5dd9c50ad051c9970b81d0e905cc1b682c41cdb1f2e7f9471fb3",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 19
       }
     ]
   },
@@ -158,7 +248,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -188,6 +278,18 @@
         "source_url": "https://api.crossref.org/works/10.1145/3576915.3623079",
         "value": "10.1145/3576915.3623079",
         "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=648479337401816425",
+        "value": "648479337401816425",
+        "verified_at": "2026-08-08T18:08:18Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/b1a2a35c87c9e48d1c7aa9ca04883dfe272ac852?utm_source=api",
+        "value": "b1a2a35c87c9e48d1c7aa9ca04883dfe272ac852",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
       }
     ],
     "metadata_sources": [

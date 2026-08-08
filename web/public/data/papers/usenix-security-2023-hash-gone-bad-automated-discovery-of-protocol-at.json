@@ -41,9 +41,73 @@
       "status": "manually_verified",
       "verified_at": "2026-08-07T18:41:58Z",
       "verified_by": "machine-assisted-bootstrap"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "9468483505427352578",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2023-hash-gone-bad-automated-discovery-of-protocol-at",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "9468483505427352578",
+        "publication_year": 2023,
+        "title": "Hash Gone Bad: Automated discovery of protocol attacks that exploit hash function weaknesses",
+        "title_similarity": 1.0,
+        "venue": "V Cheval, C Cremers, A Dax, L Hirschi, C Jacomme, S Kremer32nd USENIX Security Symposium (USENIX Security 23), 2023•usenix.org",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:07:57Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "cfa801618d46702b0c3376e3a29326315fe44020",
+      "method": "manual_override",
+      "override_reason": "Exact title and authors identify the preprint/ePrint version of the 2023 USENIX Security award paper; the reviewed S2 paper entity is retained without summing separate versions.",
+      "paper_id": "usenix-security-2023-hash-gone-bad-automated-discovery-of-protocol-at",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Reviewed as a conference/preprint entity-resolution case.",
+      "selected_candidate": {
+        "author_overlap": 0.8333333333333334,
+        "doi": null,
+        "external_id": "cfa801618d46702b0c3376e3a29326315fe44020",
+        "publication_year": 2022,
+        "title": "Hash Gone Bad: Automated discovery of protocol attacks that exploit hash function weaknesses",
+        "title_similarity": 1.0,
+        "venue": "IACR Cryptology ePrint Archive",
+        "venue_match": false,
+        "year_delta": 1
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens maintainer review"
     }
   ],
   "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "9468483505427352578",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-hash-gone-bad-automated-discovery-of-protocol-at",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=9bdbcaf3908aebd18839d88c00cf46cc49cdfd411ef0a22c653e11ac4c828bf0&num=10&hl=en",
+        "response_sha256": "176456d449b9b13e47627a600bfe851f14dde9ee497e6d4abceaee9a8d054ba8",
+        "retrieved_at": "2026-08-08T18:07:57Z",
+        "total_citations": 40
+      }
+    ],
     "openalex": [
       {
         "citations_by_citing_year": [
@@ -94,6 +158,20 @@
         "response_sha256": "9a7f486af35efc2449d70b4ea5add9e805b7a407d7dd95e7736f496363fa9f0e",
         "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 4
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "cfa801618d46702b0c3376e3a29326315fe44020",
+        "influential_citations": 0,
+        "paper_id": "usenix-security-2023-hash-gone-bad-automated-discovery-of-protocol-at",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/cfa801618d46702b0c3376e3a29326315fe44020?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "96cc4e1e23c754e589b6a867dca113abd93ddf692f7b915e12b83f438449c60f",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 19
       }
     ]
   },
@@ -164,7 +242,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -194,6 +272,18 @@
         "source_url": "https://api.openalex.org/works/W4301178121",
         "value": "W4301178121",
         "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=9468483505427352578",
+        "value": "9468483505427352578",
+        "verified_at": "2026-08-08T18:07:57Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/cfa801618d46702b0c3376e3a29326315fe44020?utm_source=api",
+        "value": "cfa801618d46702b0c3376e3a29326315fe44020",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
       }
     ],
     "metadata_sources": [

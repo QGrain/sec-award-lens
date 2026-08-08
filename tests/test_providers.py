@@ -1,5 +1,6 @@
 import httpx
 
+from secawardlens.providers.google_scholar import GoogleScholarClient
 from secawardlens.providers.openalex import OpenAlexClient
 from secawardlens.providers.semantic_scholar import SemanticScholarClient
 
@@ -126,3 +127,132 @@ def test_semantic_scholar_ranked_search_returns_review_candidates() -> None:
     with SemanticScholarClient(client=http) as client:
         results = client.search_title("A Candidate Paper")
     assert [item.external_id for item in results] == ["s2-ranked"]
+
+
+def test_google_scholar_search_returns_only_stable_cluster_candidates() -> None:
+    def handler(request: httpx.Request) -> httpx.Response:
+        assert request.url.path == "/search.json"
+        assert request.url.params["engine"] == "google_scholar"
+        assert request.url.params["api_key"] == "test-key"
+        assert request.url.params["q"] == '"Verified Paper"'
+        return httpx.Response(
+            200,
+            json={
+                "search_metadata": {"status": "Success"},
+                "organic_results": [
+                    {
+                        "title": "Verified Paper",
+                        "result_id": "opaque-result-id",
+                        "publication_info": {
+                            "summary": "A Lovelace - ACM CCS, 2023 - dl.acm.org",
+                            "authors": [{"name": "Ada Lovelace"}],
+                        },
+                        "inline_links": {
+                            "cited_by": {"total": 362, "cites_id": "123456789"}
+                        },
+                    },
+                    {
+                        "title": "Unpinned Result",
+                        "result_id": "not-a-cites-id",
+                        "publication_info": {"summary": "A Author - 2023"},
+                    },
+                ],
+            },
+        )
+
+    http = httpx.Client(
+        base_url="https://serpapi.com", transport=httpx.MockTransport(handler)
+    )
+    with GoogleScholarClient(api_key="test-key", client=http) as client:
+        results = client.search_title("Verified Paper")
+    assert [item.external_id for item in results] == ["123456789"]
+    assert results[0].citation_count == 362
+    assert results[0].publication_year == 2023
+
+
+def test_google_scholar_observation_uses_pinned_cites_id_and_year_counts() -> None:
+    def handler(request: httpx.Request) -> httpx.Response:
+        assert request.url.params["cites"] == "123456789"
+        return httpx.Response(
+            200,
+            json={
+                "search_metadata": {"status": "Success"},
+                "search_information": {"total_results": 362},
+                "citations_per_year": [
+                    {"year": 2023, "citations": 12},
+                    {"year": 2024, "citations": 100},
+                    {"year": 2025, "citations": 170},
+                    {"year": 2026, "citations": 80},
+                ],
+                "organic_results": [],
+            },
+        )
+
+    http = httpx.Client(
+        base_url="https://serpapi.com", transport=httpx.MockTransport(handler)
+    )
+    with GoogleScholarClient(api_key="test-key", client=http) as client:
+        result = client.observation(
+            paper_id="paper",
+            external_id="123456789",
+            retrieved_at="2026-08-08T12:00:00Z",
+        )
+    assert result.provider == "google_scholar"
+    assert result.total_citations == 362
+    assert sum(item.count for item in result.citations_by_citing_year) == 362
+    assert "api_key" not in result.request_fingerprint
+
+
+def test_google_scholar_http_error_does_not_expose_api_key() -> None:
+    def handler(_: httpx.Request) -> httpx.Response:
+        return httpx.Response(401, json={"error": "invalid key"})
+
+    http = httpx.Client(
+        base_url="https://serpapi.com", transport=httpx.MockTransport(handler)
+    )
+    with GoogleScholarClient(api_key="private-test-key", client=http) as client:
+        try:
+            client.search_title("Verified Paper")
+        except RuntimeError as error:
+            assert str(error) == "SerpApi Google Scholar request failed with HTTP 401"
+            assert "private-test-key" not in str(error)
+        else:
+            raise AssertionError("expected a sanitized provider error")
+
+
+def test_google_scholar_discovery_observation_reuses_search_count() -> None:
+    payload = {
+        "search_metadata": {
+            "status": "Success",
+            "processed_at": "2026-08-08 12:30:00 UTC",
+        },
+        "organic_results": [
+            {
+                "title": "Verified Paper",
+                "publication_info": {
+                    "summary": "A Lovelace - ACM CCS, 2023 - dl.acm.org",
+                    "authors": [{"name": "Ada Lovelace"}],
+                },
+                "inline_links": {
+                    "cited_by": {"total": 362, "cites_id": "123456789"}
+                },
+            }
+        ],
+    }
+    http = httpx.Client(
+        base_url="https://serpapi.com",
+        transport=httpx.MockTransport(lambda _: httpx.Response(200, json=payload)),
+    )
+    with GoogleScholarClient(api_key="test-key", client=http) as client:
+        candidates, response = client.search_title_with_payload("Verified Paper")
+        result = client.discovery_observation(
+            paper_id="paper",
+            candidate=candidates[0],
+            search_payload=response,
+            query_title="Verified Paper",
+        )
+    assert result.total_citations == 362
+    assert result.external_id == "123456789"
+    assert result.retrieved_at.isoformat() == "2026-08-08T12:30:00+00:00"
+    assert result.citations_by_citing_year == []
+    assert "api_key" not in result.request_fingerprint

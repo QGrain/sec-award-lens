@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import type { EChartsCoreOption } from "echarts/core";
 import { Chart } from "../components/Chart";
 import { ConferenceSummary } from "../components/ConferenceSummary";
-import { compactNumber, formatDate } from "../data";
+import { compactNumber, formatDate, providerAbbreviation, providerName } from "../data";
 import { usePreferences } from "../preferences";
 import type {
   Citation,
@@ -256,12 +256,16 @@ export function Overview({
   data,
   conferences,
   citationSources,
+  preferredCitationSource,
+  initialCitationSource,
   availableYears,
   onYearChange,
 }: {
   data: YearData;
   conferences: Conference[];
   citationSources: Provider[];
+  preferredCitationSource: Provider;
+  initialCitationSource?: Provider | null;
   availableYears: number[];
   onYearChange: (year: number) => void;
 }) {
@@ -279,6 +283,7 @@ export function Overview({
     filter: "筛选会议",
     metric: "引用指标",
     sourceMetric: "引用来源",
+    scholarVia: "Google Scholar（经由 SerpApi）",
     current: "当前",
     firstThree: "发表后三年",
     capture: "打印 / 截图",
@@ -317,6 +322,7 @@ export function Overview({
     filter: "Filter conferences",
     metric: "Citation metric",
     sourceMetric: "Citation source",
+    scholarVia: "Google Scholar via SerpApi",
     current: "Current",
     firstThree: "First 3 years",
     capture: "Print / capture",
@@ -345,7 +351,12 @@ export function Overview({
   };
   const [active, setActive] = useState<Set<string>>(new Set(conferences.map((item) => item.id)));
   const [metric, setMetric] = useState<Metric>("total");
-  const [source, setSource] = useState<Provider>("openalex");
+  const initialSource = initialCitationSource && citationSources.includes(initialCitationSource)
+    ? initialCitationSource
+    : citationSources.includes(preferredCitationSource)
+      ? preferredCitationSource
+      : citationSources[0] ?? "openalex";
+  const [source, setSource] = useState<Provider>(initialSource);
   const [page, setPage] = useState(1);
   const sourceRows = useMemo<DisplayRow[]>(() => data.rows.map((row) => ({
     ...row,
@@ -356,7 +367,8 @@ export function Overview({
     .sort((a, b) => (valueFor(b, metric) ?? -1) - (valueFor(a, metric) ?? -1)), [active, metric, sourceRows]);
   const matched = sourceRows.filter((row) => row.citation).length;
   const hasAgeMetric = sourceRows.some((row) => row.citation?.citations_first_3_years != null);
-  const sourceName = source === "semantic_scholar" ? "Semantic Scholar" : "OpenAlex";
+  const sourceName = providerName(source);
+  const sourceDisplayName = source === "google_scholar" ? text.scholarVia : sourceName;
   const summaries = useMemo<Summary[]>(() => conferences.map((conference) => {
     const conferenceRows = sourceRows.filter((row) => row.conference.id === conference.id);
     const counts = conferenceRows.flatMap((row) => row.citation ? [row.citation.total_citations] : []);
@@ -387,6 +399,9 @@ export function Overview({
   const yearOptions = [...new Set(availableYears.length ? availableYears : [data.year])]
     .sort((a, b) => b - a);
   useEffect(() => setPage(1), [active, metric, source]);
+  useEffect(() => {
+    if (!citationSources.includes(source)) setSource(initialSource);
+  }, [citationSources, initialSource, source]);
   useEffect(() => {
     if (!hasAgeMetric && metric === "c3") setMetric("total");
   }, [hasAgeMetric, metric]);
@@ -423,7 +438,7 @@ export function Overview({
           {conferences.map((conference) => <button key={conference.id} className={active.has(conference.id) ? "active" : ""} onClick={() => toggle(conference.id)}><i style={{ background: colors[conference.id] }} />{conference.short_name}</button>)}
         </div>
         {citationSources.length > 1 && <div className="segmented provider-selector" aria-label={text.sourceMetric}>
-          {citationSources.map((provider) => <button key={provider} className={source === provider ? "active" : ""} onClick={() => setSource(provider)}>{provider === "semantic_scholar" ? "Semantic Scholar" : "OpenAlex"}</button>)}
+          {citationSources.map((provider) => <button key={provider} className={source === provider ? "active" : ""} onClick={() => setSource(provider)}>{providerName(provider)}</button>)}
         </div>}
         <div className="segmented" aria-label={text.metric}>
           <button className={metric === "total" ? "active" : ""} onClick={() => setMetric("total")}>{text.current}</button>
@@ -444,19 +459,19 @@ export function Overview({
       <section className="panel ranking-panel">
         <div className="panel-heading">
           <div><p className="kicker">{text.ranking}</p><h2>{metric === "total" ? text.rankingCurrent : text.rankingWindow}</h2></div>
-          <span className="source-pill">{text.source} · {sourceName}</span>
+          <span className="source-pill">{text.source} · {sourceDisplayName}</span>
         </div>
         <div className="ranking-header" aria-hidden="true">
           <span>{text.rank}</span><span>{text.paper}</span><span>{text.topic}</span><span>{text.conference}</span><span>{text.citations}</span>
         </div>
         <div className="ranking-list">
           {visibleRows.map((row, index) => (
-            <a className="ranking-row" key={row.paper.id} href={`#/paper/${row.paper.id}`} title={row.paper.canonical_title}>
+            <a className="ranking-row" key={row.paper.id} href={`#/paper/${row.paper.id}?source=${source}&year=${data.year}`} title={row.paper.canonical_title}>
               <span className="rank">{String((page - 1) * PAGE_SIZE + index + 1).padStart(2, "0")}</span>
               <span className="paper-copy"><b>{row.paper.canonical_title}</b><small>{row.paper.authors.slice(0, 3).map((author) => author.name).join(", ")}{row.paper.authors.length > 3 ? " et al." : ""}</small></span>
               <span className="topic-cell" title={topicFor(row) ? text.topicOpenAlex : text.topicUnavailable}>{topicFor(row)?.display_name ?? text.notIndexed}</span>
               <span className="conference-cell"><i style={{ background: colors[row.conference.id] }} />{row.conference.short_name}</span>
-              <span className="citation-number">{row.citation ? compactNumber(valueFor(row, metric) ?? 0, locale) : "—"}<small>{row.citation ? `${text.citations.toLowerCase()} · ${row.citation.provider === "semantic_scholar" ? "S2" : "OA"}` : text.unmatched}</small></span>
+              <span className="citation-number">{row.citation ? compactNumber(valueFor(row, metric) ?? 0, locale) : "—"}<small>{row.citation ? `${text.citations.toLowerCase()} · ${providerAbbreviation(row.citation.provider)}` : text.unmatched}</small></span>
             </a>
           ))}
         </div>

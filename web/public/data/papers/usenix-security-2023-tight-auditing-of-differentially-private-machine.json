@@ -41,9 +41,108 @@
       "status": "manually_verified",
       "verified_at": "2026-08-07T18:41:58Z",
       "verified_by": "machine-assisted-bootstrap"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "282081925352010567",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2023-tight-auditing-of-differentially-private-machine",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "282081925352010567",
+        "publication_year": 2023,
+        "title": "Tight auditing of differentially private machine learning",
+        "title_similarity": 1.0,
+        "venue": "M Nasr, J Hayes, T Steinke, B Balle, F Tramèr, M Jagielski, N Carlini, A Terzis32nd USENIX Security Symposium (USENIX Security 23), 2023•usenix.org",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:07:32Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    },
+    {
+      "confidence": null,
+      "external_id": null,
+      "method": null,
+      "override_reason": null,
+      "paper_id": "usenix-security-2023-tight-auditing-of-differentially-private-machine",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [
+        {
+          "author_overlap": 0.0,
+          "doi": "10.48550/arxiv.2405.14106",
+          "external_id": "3a766e0bdc981032b54d1f02c5174379a8b1530b",
+          "publication_year": 2024,
+          "title": "Nearly Tight Black-Box Auditing of Differentially Private Machine Learning",
+          "title_similarity": 0.8702290076335878,
+          "venue": "Neural Information Processing Systems",
+          "venue_match": false,
+          "year_delta": 1
+        },
+        {
+          "author_overlap": 0.0,
+          "doi": "10.48550/arxiv.2605.21938",
+          "external_id": "63a9242f09e9856067b43693670d0c44e9d42e42",
+          "publication_year": 2026,
+          "title": "Optimal Guarantees for Auditing Rényi Differentially Private Machine Learning",
+          "title_similarity": 0.8059701492537313,
+          "venue": "arXiv.org",
+          "venue_match": false,
+          "year_delta": 3
+        },
+        {
+          "author_overlap": 0.0,
+          "doi": "10.48550/arxiv.2210.08643",
+          "external_id": "bcd160f7f33472700e24c981509e4d3a2a7e9308",
+          "publication_year": 2022,
+          "title": "A General Framework for Auditing Differentially Private Machine Learning",
+          "title_similarity": 0.7751937984496124,
+          "venue": "Neural Information Processing Systems",
+          "venue_match": false,
+          "year_delta": 1
+        },
+        {
+          "author_overlap": 0.0,
+          "doi": "10.3390/app15020647",
+          "external_id": "50f186ad217f7255e8f632317a43c2fa9e31c55f",
+          "publication_year": 2025,
+          "title": "Privacy Auditing in Differential Private Machine Learning: The Current Trends",
+          "title_similarity": 0.736842105263158,
+          "venue": "Applied Sciences",
+          "venue_match": false,
+          "year_delta": 2
+        }
+      ],
+      "related_version_ids": [],
+      "review_notes": "No title-and-author-consistent S2 entity was found. The closest ranked results have different authors and were rejected.",
+      "selected_candidate": null,
+      "status": "pending",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens maintainer review"
     }
   ],
   "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "282081925352010567",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-tight-auditing-of-differentially-private-machine",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=71ea9b01575533f237eec015262c210083cd9338a0108c247bd25881b22a8dad&num=10&hl=en",
+        "response_sha256": "b6c6b84ae891dcd370fb782a2f50948067f33fc7205bc47ddc0996d3a46233c3",
+        "retrieved_at": "2026-08-08T18:07:32Z",
+        "total_citations": 185
+      }
+    ],
     "openalex": [
       {
         "citations_by_citing_year": [
@@ -158,7 +257,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -194,6 +293,12 @@
         "source_url": "https://api.openalex.org/works/W4321276312",
         "value": "W4321276312",
         "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=282081925352010567",
+        "value": "282081925352010567",
+        "verified_at": "2026-08-08T18:07:32Z"
       }
     ],
     "metadata_sources": [

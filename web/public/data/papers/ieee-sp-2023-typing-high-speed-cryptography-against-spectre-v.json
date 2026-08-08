@@ -41,9 +41,73 @@
       "status": "auto_verified",
       "verified_at": "2026-08-07T18:41:58Z",
       "verified_by": "SecAwardLens pipeline"
+    },
+    {
+      "confidence": 0.9400000000000001,
+      "external_id": "9037373832888256359",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "ieee-sp-2023-typing-high-speed-cryptography-against-spectre-v",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 0.75,
+        "doi": null,
+        "external_id": "9037373832888256359",
+        "publication_year": 2023,
+        "title": "Typing high-speed cryptography against spectre v1",
+        "title_similarity": 1.0,
+        "venue": "BA Shivakumar, G Barthe, B Grégoire, V Laporte, T Oliveira, S Priya, P Schwabe…2023 IEEE Symposium on Security and Privacy (SP), 2023•ieeexplore.ieee.org",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:06:37Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    },
+    {
+      "confidence": 1.0,
+      "external_id": "3dab60fb7870f066d276b322be1f5c34e5eb40e8",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "ieee-sp-2023-typing-high-speed-cryptography-against-spectre-v",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 0.875,
+        "doi": "10.1109/sp46215.2023.10179418",
+        "external_id": "3dab60fb7870f066d276b322be1f5c34e5eb40e8",
+        "publication_year": 2023,
+        "title": "Typing High-Speed Cryptography against Spectre v1",
+        "title_similarity": 1.0,
+        "venue": "IEEE Symposium on Security and Privacy",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
     }
   ],
   "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "9037373832888256359",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-typing-high-speed-cryptography-against-spectre-v",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=64e36d337ea0dda440a1fe749b7dd9cb58cb5c958bf3b8bb3d7890105f93879f&num=10&hl=en",
+        "response_sha256": "ac97a40d008d9ced1db1dab7483f2e4d3443b9d323ed46d11df7e9b6abdd0747",
+        "retrieved_at": "2026-08-08T18:06:37Z",
+        "total_citations": 42
+      }
+    ],
     "openalex": [
       {
         "citations_by_citing_year": [
@@ -102,6 +166,20 @@
         "response_sha256": "fed4ff4a5e2d78b406d1d537dfe98511b22eff7ae443e6152709d20468db573f",
         "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 22
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "3dab60fb7870f066d276b322be1f5c34e5eb40e8",
+        "influential_citations": 3,
+        "paper_id": "ieee-sp-2023-typing-high-speed-cryptography-against-spectre-v",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/3dab60fb7870f066d276b322be1f5c34e5eb40e8?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "1f94706438185dcd5165c713b986ba2b7de144c89e55a4882f3bcf0f2edac623",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 31
       }
     ]
   },
@@ -229,7 +307,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -271,6 +349,18 @@
         "source_url": "https://api.crossref.org/works/10.1109/sp46215.2023.10179418",
         "value": "10.1109/sp46215.2023.10179418",
         "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=9037373832888256359",
+        "value": "9037373832888256359",
+        "verified_at": "2026-08-08T18:06:37Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/3dab60fb7870f066d276b322be1f5c34e5eb40e8?utm_source=api",
+        "value": "3dab60fb7870f066d276b322be1f5c34e5eb40e8",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
       }
     ],
     "metadata_sources": [

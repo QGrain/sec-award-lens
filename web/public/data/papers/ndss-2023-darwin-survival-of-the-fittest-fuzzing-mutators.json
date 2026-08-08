@@ -41,9 +41,73 @@
       "status": "auto_verified",
       "verified_at": "2026-08-07T18:41:58Z",
       "verified_by": "SecAwardLens pipeline"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "6303666240795112920",
+      "method": "manual_override",
+      "override_reason": "Exact title and authors identify the 2022 arXiv preprint of the 2023 NDSS award paper; the reviewed numeric Scholar cluster is used to aggregate its versions.",
+      "paper_id": "ndss-2023-darwin-survival-of-the-fittest-fuzzing-mutators",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "6303666240795112920",
+        "publication_year": 2022,
+        "title": "DARWIN: Survival of the fittest fuzzing mutators",
+        "title_similarity": 1.0,
+        "venue": "P Jauernig, D Jakobovic, S Picek, E Stapf, AR SadeghiarXiv preprint arXiv:2210.11783, 2022•arxiv.org",
+        "venue_match": false,
+        "year_delta": 1
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-08T18:09:21Z",
+      "verified_by": "SecAwardLens maintainer review"
+    },
+    {
+      "confidence": 1.0,
+      "external_id": "d57b31045610cbf9eb8a385c74d7fe4f7252467a",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "ndss-2023-darwin-survival-of-the-fittest-fuzzing-mutators",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 0.8,
+        "doi": "10.14722/ndss.2023.23159",
+        "external_id": "d57b31045610cbf9eb8a385c74d7fe4f7252467a",
+        "publication_year": 2022,
+        "title": "DARWIN: Survival of the Fittest Fuzzing Mutators",
+        "title_similarity": 1.0,
+        "venue": "Network and Distributed System Security Symposium",
+        "venue_match": true,
+        "year_delta": 1
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
     }
   ],
   "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "6303666240795112920",
+        "influential_citations": null,
+        "paper_id": "ndss-2023-darwin-survival-of-the-fittest-fuzzing-mutators",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=8a4965959769f7705fb14ad3eb6de141ab420b79974a1490729c81e2dfdaa511&num=10&hl=en",
+        "response_sha256": "b22766e56b3ce4056a3eef980a1ad7e77cd271aa25648affb95fe9a205c01d75",
+        "retrieved_at": "2026-08-08T18:09:21Z",
+        "total_citations": 58
+      }
+    ],
     "openalex": [
       {
         "citations_by_citing_year": [
@@ -102,6 +166,20 @@
         "response_sha256": "480fcdaec2ff75390a04baf63ec8212cdc6a6e1635f6d4beec97bb56225d2cf4",
         "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 29
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "d57b31045610cbf9eb8a385c74d7fe4f7252467a",
+        "influential_citations": 3,
+        "paper_id": "ndss-2023-darwin-survival-of-the-fittest-fuzzing-mutators",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/d57b31045610cbf9eb8a385c74d7fe4f7252467a?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "4ff9d1a2ec3e9355b2989fd64089c63ffdd6e7a18ea7921ac9135b2e76fc1478",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 42
       }
     ]
   },
@@ -183,7 +261,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -216,6 +294,18 @@
         "source_url": "https://api.crossref.org/works/10.14722/ndss.2023.23159",
         "value": "10.14722/ndss.2023.23159",
         "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=6303666240795112920",
+        "value": "6303666240795112920",
+        "verified_at": "2026-08-08T18:09:21Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/d57b31045610cbf9eb8a385c74d7fe4f7252467a?utm_source=api",
+        "value": "d57b31045610cbf9eb8a385c74d7fe4f7252467a",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
       }
     ],
     "metadata_sources": [

@@ -41,9 +41,85 @@
       "status": "manually_verified",
       "verified_at": "2026-08-07T18:41:58Z",
       "verified_by": "machine-assisted-bootstrap"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "15494803768992211890",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2023-treesync-authenticated-group-management-for-mess",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "15494803768992211890",
+        "publication_year": 2023,
+        "title": "{TreeSync}: authenticated group management for messaging layer security",
+        "title_similarity": 1.0,
+        "venue": "T Wallez, J Protzenko, B Beurdouche, K Bhargavan32nd USENIX Security Symposium (USENIX Security 23), 2023•usenix.org",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:07:23Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "e0aea1ee8fb8bb0107946e49d6827efc99c98948",
+      "method": "manual_override",
+      "override_reason": "Exact title and authors identify the preprint/ePrint version of the 2023 USENIX Security award paper; the reviewed S2 paper entity is retained without summing separate versions.",
+      "paper_id": "usenix-security-2023-treesync-authenticated-group-management-for-mess",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [
+        {
+          "author_overlap": 0.75,
+          "doi": "10.1109/sp61157.2025.00228",
+          "external_id": "18d9e78383fb52acece845ae4d12fecf977e3f97",
+          "publication_year": 2025,
+          "title": "TreeKEM: A Modular Machine-Checked Symbolic Security Analysis of Group Key Agreement in Messaging Layer Security",
+          "title_similarity": 0.5810055865921788,
+          "venue": "IEEE Symposium on Security and Privacy",
+          "venue_match": false,
+          "year_delta": 2
+        }
+      ],
+      "related_version_ids": [],
+      "review_notes": "Reviewed as a conference/preprint entity-resolution case.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "e0aea1ee8fb8bb0107946e49d6827efc99c98948",
+        "publication_year": 2022,
+        "title": "TreeSync: Authenticated Group Management for Messaging Layer Security",
+        "title_similarity": 1.0,
+        "venue": "IACR Cryptology ePrint Archive",
+        "venue_match": false,
+        "year_delta": 1
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens maintainer review"
     }
   ],
   "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "15494803768992211890",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-treesync-authenticated-group-management-for-mess",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=a1ed3550f27448f6ee02daf2644bcea119b8ed776b7d37ae65f9e3d2d69863eb&num=10&hl=en",
+        "response_sha256": "c3fda9e78da487adc7e355ab3590fcee5e05f31ac3c3248e75d87ef79cf9a05a",
+        "retrieved_at": "2026-08-08T18:07:23Z",
+        "total_citations": 41
+      }
+    ],
     "openalex": [
       {
         "citations_by_citing_year": [
@@ -78,6 +154,20 @@
         "response_sha256": "d91525751de379501da4e8ffb313b010f66bba29131cce8e1e57ea0d319b0852",
         "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 1
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "e0aea1ee8fb8bb0107946e49d6827efc99c98948",
+        "influential_citations": 1,
+        "paper_id": "usenix-security-2023-treesync-authenticated-group-management-for-mess",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/e0aea1ee8fb8bb0107946e49d6827efc99c98948?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "d5f0f0ab3505a6b8d41115ff4979b1d13fe61b16e97738ecdb612d9687d1016f",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 12
       }
     ]
   },
@@ -141,7 +231,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -165,6 +255,18 @@
         "source_url": "https://api.openalex.org/works/W4392466677",
         "value": "W4392466677",
         "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=15494803768992211890",
+        "value": "15494803768992211890",
+        "verified_at": "2026-08-08T18:07:23Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/e0aea1ee8fb8bb0107946e49d6827efc99c98948?utm_source=api",
+        "value": "e0aea1ee8fb8bb0107946e49d6827efc99c98948",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
       }
     ],
     "metadata_sources": [

@@ -41,9 +41,73 @@
       "status": "auto_verified",
       "verified_at": "2026-08-07T18:41:58Z",
       "verified_by": "SecAwardLens pipeline"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "15944535702908866192",
+      "method": "manual_override",
+      "override_reason": "Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.",
+      "paper_id": "acm-ccs-2023-large-language-models-for-code-security-hardenin",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "15944535702908866192",
+        "publication_year": 2023,
+        "title": "Large language models for code: Security hardening and adversarial testing",
+        "title_similarity": 1.0,
+        "venue": "J He, M VechevProceedings of the 2023 ACM SIGSAC Conference on Computer and Communications …, 2023•dl.acm.org",
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-08T18:08:38Z",
+      "verified_by": "SecAwardLens maintainer review"
+    },
+    {
+      "confidence": 1.0,
+      "external_id": "63e2740dc581b4186b4e277a9955e8048c414521",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "acm-ccs-2023-large-language-models-for-code-security-hardenin",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1145/3576915.3623175",
+        "external_id": "63e2740dc581b4186b4e277a9955e8048c414521",
+        "publication_year": 2023,
+        "title": "Large Language Models for Code: Security Hardening and Adversarial Testing",
+        "title_similarity": 1.0,
+        "venue": "Conference on Computer and Communications Security",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
     }
   ],
   "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "15944535702908866192",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-large-language-models-for-code-security-hardenin",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=ffed452099a20f015a261b17f5c741f7181771db48bc6bdc9a108a5c8851aacf&num=10&hl=en",
+        "response_sha256": "9adda578065f6673f56fea645dd5e94e1704d3229cf327aabcc187323b2f0d28",
+        "retrieved_at": "2026-08-08T18:08:38Z",
+        "total_citations": 362
+      }
+    ],
     "openalex": [
       {
         "citations_by_citing_year": [
@@ -103,6 +167,20 @@
         "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 119
       }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "63e2740dc581b4186b4e277a9955e8048c414521",
+        "influential_citations": 44,
+        "paper_id": "acm-ccs-2023-large-language-models-for-code-security-hardenin",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/63e2740dc581b4186b4e277a9955e8048c414521?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "3b34e9f30b3a6fdc4b9d6a98412558465f6b0577b70b91890878c22c3f12f18e",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 294
+      }
     ]
   },
   "enrichment": {
@@ -142,7 +220,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -166,6 +244,18 @@
         "source_url": "https://api.crossref.org/works/10.1145/3576915.3623175",
         "value": "10.1145/3576915.3623175",
         "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=15944535702908866192",
+        "value": "15944535702908866192",
+        "verified_at": "2026-08-08T18:08:38Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/63e2740dc581b4186b4e277a9955e8048c414521?utm_source=api",
+        "value": "63e2740dc581b4186b4e277a9955e8048c414521",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
       }
     ],
     "metadata_sources": [

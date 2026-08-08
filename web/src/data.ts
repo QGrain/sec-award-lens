@@ -1,4 +1,4 @@
-import type { IndexData, PaperData, YearData } from "./types";
+import type { IndexData, PaperData, Provider, YearData } from "./types";
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 
@@ -19,3 +19,15 @@ export const formatDate = (iso: string, locale = "en-US") =>
 
 export const compactNumber = (value: number, locale = "en-US") =>
   new Intl.NumberFormat(locale, { notation: value >= 1000 ? "compact" : "standard" }).format(value);
+
+export const providerName = (provider: Provider) => ({
+  google_scholar: "Google Scholar",
+  openalex: "OpenAlex",
+  semantic_scholar: "Semantic Scholar",
+})[provider];
+
+export const providerAbbreviation = (provider: Provider) => ({
+  google_scholar: "GS",
+  openalex: "OA",
+  semantic_scholar: "S2",
+})[provider];

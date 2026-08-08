@@ -1,6 +1,8 @@
 {
   "citation_sources": [
-    "openalex"
+    "google_scholar",
+    "openalex",
+    "semantic_scholar"
   ],
   "conferences": [
     {
@@ -76,8 +78,9 @@
     }
   ],
   "default_year": 2023,
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "methodology_url": "#/methodology",
+  "preferred_citation_source": "google_scholar",
   "schema_version": 1,
   "years": [
     2023

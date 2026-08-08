@@ -21,9 +21,18 @@ jobs:
         env:
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
           S2_API_KEY: ${{ secrets.S2_API_KEY }}
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
         run: |
           if test -z "$OPENALEX_API_KEY"; then
             echo "::error::OPENALEX_API_KEY repository secret is required"
+            exit 1
+          fi
+          if test -z "$S2_API_KEY"; then
+            echo "::error::S2_API_KEY repository secret is required"
+            exit 1
+          fi
+          if test -z "$SERPAPI_KEY"; then
+            echo "::error::SERPAPI_KEY repository secret is required"
             exit 1
           fi
           uv run secawardlens citations refresh --provider all --skip-existing

@@ -19,8 +19,8 @@ export function Methodology({ years = [] }: { years?: number[] }) {
     <section><span>02</span><div>
       <h2>{zh ? "学术实体一经核验即固定保存" : "Entities are pinned, not rediscovered"}</h2>
       <p>{zh
-        ? "匹配优先采用 DOI 精确对应；否则保守地综合论文标题、作者、年份与会议证据。存在歧义时进入人工核验，不自动选择。OpenAlex 或 Semantic Scholar ID 一经确认便持久保存，日常刷新直接读取该 ID，不再静默搜索或重新匹配。机器分配的主题与作者机构作为带日期的提供方扩展信息单独保存。"
-        : "DOI exact matches are preferred. Otherwise title, authors, year, and venue evidence are scored conservatively. Ambiguity becomes a review item. Once verified, an OpenAlex or Semantic Scholar ID is persisted; routine refreshes fetch that ID directly and never silently rematch it. Machine-assigned topics and work affiliations are stored separately as dated provider enrichment."}</p>
+        ? "匹配优先采用 DOI 精确对应；否则保守地综合论文标题、作者、年份与会议证据。存在歧义时进入人工核验，不自动选择。OpenAlex、Semantic Scholar ID 或 Google Scholar cites_id 一经确认便持久保存；日常刷新直接读取固定标识，不再静默搜索或重新匹配。机器分配的主题与作者机构作为带日期的提供方扩展信息单独保存。"
+        : "DOI exact matches are preferred. Otherwise title, authors, year, and venue evidence are scored conservatively. Ambiguity becomes a review item. Once verified, an OpenAlex ID, Semantic Scholar ID, or Google Scholar cites_id is persisted; routine refreshes use that pinned identifier and never silently rematch it. Machine-assigned topics and work affiliations are stored separately as dated provider enrichment."}</p>
     </div></section>
     <section><span>03</span><div>
       <h2>{zh ? "引用快照保持不可变" : "Snapshots remain immutable"}</h2>
@@ -37,9 +37,9 @@ export function Methodology({ years = [] }: { years?: number[] }) {
     <section><span>05</span><div>
       <h2>{zh ? "数据提供方保持可见且相互独立" : "Providers stay visible and independent"}</h2>
       <p>{zh ? <>
-        OpenAlex 是当前公开排名的主要引用来源。Semantic Scholar 可用于候选发现和补充覆盖，但每个匹配仍需人工核验；只有在其公开输出开关与适用条款均确认后，S2 引用量才会发布。本站对 Semantic Scholar 的贡献进行署名；相关学术成果请参阅 <a href="https://arxiv.org/abs/2301.10140" target="_blank" rel="noreferrer">Kinney 等人的《The Semantic Scholar Open Data Platform》↗</a>。
+        Google Scholar、OpenAlex 与 Semantic Scholar 的收录范围、版本聚合、去重规则和更新时间并不相同，因此同一论文的引用量可能明显不同，也不存在跨平台统一的“真实计数”。本站在有经过核验的 Scholar 快照时默认展示经 SerpApi 获取的 Google Scholar 观测，并允许切换到其他已发布来源。各来源的数值、标识和时间戳保持独立，不相加。Semantic Scholar 观测作为单独署名的数据序列发布，并明确排除在项目的 CC0 声明之外；相关学术成果请参阅 <a href="https://arxiv.org/abs/2301.10140" target="_blank" rel="noreferrer">Kinney 等人的《The Semantic Scholar Open Data Platform》↗</a>。
       </> : <>
-        OpenAlex is the primary citation source in the current public ranking. Semantic Scholar can generate candidates and supplement coverage, but each match still requires human review; S2 counts are published only when the public-output flag and applicable terms permit it. This site attributes Semantic Scholar’s contribution; see <a href="https://arxiv.org/abs/2301.10140" target="_blank" rel="noreferrer">Kinney et al., “The Semantic Scholar Open Data Platform” ↗</a>.
+        Google Scholar, OpenAlex, and Semantic Scholar differ in coverage, version clustering, deduplication, and update cadence, so the same paper can have substantially different counts; there is no provider-independent “true count.” When verified Scholar snapshots exist, this site defaults to Google Scholar observations retrieved through SerpApi and lets readers switch to other published sources. Counts, identifiers, and timestamps remain separate and are never added together. Semantic Scholar observations are published as a separately attributed series and remain outside the project's CC0 dedication; see <a href="https://arxiv.org/abs/2301.10140" target="_blank" rel="noreferrer">Kinney et al., “The Semantic Scholar Open Data Platform” ↗</a>.
       </>}</p>
     </div></section>
     <aside><strong>{zh ? "当前覆盖" : "Current coverage"}</strong><p>{zh

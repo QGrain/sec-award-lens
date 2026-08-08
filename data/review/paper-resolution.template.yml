@@ -1,5 +1,7 @@
 # Copy to data/review/submissions/<paper-id>-<date>.yml and replace placeholders.
 # The form intentionally has no citation-count field. Counts come from provider snapshots.
+# Provider may be openalex, semantic_scholar, or google_scholar. A verified
+# google_scholar external_id must be the numeric cites_id, not result_id.
 schema_version: 1
 paper_id: replace-with-existing-secawardlens-paper-id
 reviewer: github-handle-or-name

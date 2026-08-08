@@ -41,9 +41,73 @@
       "status": "manually_verified",
       "verified_at": "2026-08-07T18:41:58Z",
       "verified_by": "machine-assisted-bootstrap"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "14810536492047199644",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2023-automated-analysis-of-protocols-that-use-authent",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "14810536492047199644",
+        "publication_year": 2023,
+        "title": "Automated Analysis of Protocols that use Authenticated Encryption: How Subtle {AEAD} Differences can impact Protocol Security",
+        "title_similarity": 1.0,
+        "venue": "C Cremers, A Dax, C Jacomme, M Zhao32nd USENIX Security Symposium (USENIX Security 23), 2023•usenix.org",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:07:59Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "e59a1cb09b0fe3aa79a8cfd1eb1cbb1072a7a7c4",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2023-automated-analysis-of-protocols-that-use-authent",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "e59a1cb09b0fe3aa79a8cfd1eb1cbb1072a7a7c4",
+        "publication_year": 2023,
+        "title": "Automated Analysis of Protocols that use Authenticated Encryption: How Subtle AEAD Differences can impact Protocol Security",
+        "title_similarity": 1.0,
+        "venue": "USENIX Security Symposium",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
     }
   ],
   "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "14810536492047199644",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-automated-analysis-of-protocols-that-use-authent",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=200d6f2c32af7ef07fc177f1648676a3de72d25024866aa05f6e35531b1373b9&num=10&hl=en",
+        "response_sha256": "97e4ed877f7e75558b1fff47ec5b899b4ca9252e0b955380ca83f69f0d850b3a",
+        "retrieved_at": "2026-08-08T18:07:59Z",
+        "total_citations": 21
+      }
+    ],
     "openalex": [
       {
         "citations_by_citing_year": [
@@ -78,6 +142,20 @@
         "response_sha256": "df60ee7e5d9160598236bc61f24436306011f86d8c1757ca7e93e915b3e2557b",
         "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 1
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "e59a1cb09b0fe3aa79a8cfd1eb1cbb1072a7a7c4",
+        "influential_citations": 1,
+        "paper_id": "usenix-security-2023-automated-analysis-of-protocols-that-use-authent",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/e59a1cb09b0fe3aa79a8cfd1eb1cbb1072a7a7c4?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "d3edbd65d25064010f3148a7fc3b3dd8c0d06757047e51e8d5a9fcb380c23b18",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 14
       }
     ]
   },
@@ -142,7 +220,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -166,6 +244,18 @@
         "source_url": "https://api.openalex.org/works/W4401104680",
         "value": "W4401104680",
         "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=14810536492047199644",
+        "value": "14810536492047199644",
+        "verified_at": "2026-08-08T18:07:59Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/e59a1cb09b0fe3aa79a8cfd1eb1cbb1072a7a7c4?utm_source=api",
+        "value": "e59a1cb09b0fe3aa79a8cfd1eb1cbb1072a7a7c4",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
       }
     ],
     "metadata_sources": [

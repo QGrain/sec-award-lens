@@ -3,7 +3,8 @@
     "CitationProvider": {
       "enum": [
         "openalex",
-        "semantic_scholar"
+        "semantic_scholar",
+        "google_scholar"
       ],
       "title": "CitationProvider",
       "type": "string"

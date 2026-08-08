@@ -16,7 +16,11 @@ from .providers.base import ProviderPaper
 VENUE_ALIASES = {
     "ieee-sp": {"ieee symposium on security and privacy", "ieee s&p", "sp"},
     "usenix-security": {"usenix security symposium", "usenix security"},
-    "acm-ccs": {"acm conference on computer and communications security", "ccs"},
+    "acm-ccs": {
+        "acm conference on computer and communications security",
+        "acm sigsac conference on computer and communications security",
+        "ccs",
+    },
     "ndss": {"network and distributed system security symposium", "ndss"},
 }
 

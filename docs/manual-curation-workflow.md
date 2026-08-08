@@ -16,6 +16,9 @@ uv run secawardlens match openalex --paper-id PAPER_ID
 
 export S2_API_KEY='...'
 uv run secawardlens match semantic-scholar --paper-id PAPER_ID
+
+export SERPAPI_KEY='...'
+uv run secawardlens match google-scholar --paper-id PAPER_ID
 ```
 
 Record the paper ID. Do not invent a second ID for a conference version, preprint, or
@@ -30,13 +33,13 @@ Collect these fields, leaving unknown values as `null` rather than guessing:
    publication year, and paper URL.
 3. Publisher/Crossref: DOI and version-of-record landing page.
 4. OpenAlex: work ID, title, authors, year, venue, DOI, and any related work IDs.
-5. Semantic Scholar: paper ID/Corpus ID and the same comparison fields. Candidate
-   JSON can be generated locally or downloaded from the manual **Find Semantic Scholar
-   candidates** Action. It is evidence for identity review; its citation data is not
-   published until the project completes its separate terms decision.
-6. Google Scholar may be used as a manual discovery/cross-check only. Save the URL and
-   date, but do not enter a Scholar count as an OpenAlex or Semantic Scholar count and
-   do not add automated Scholar scraping.
+5. Semantic Scholar: paper ID/Corpus ID and the same comparison fields. Generate
+   candidate JSON locally with the CLI command above. It is identity-review evidence;
+   only accepted, pinned IDs enter routine refreshes.
+6. Google Scholar: run the local SerpApi-backed candidate command. Verify the exact
+   title, authors, year, venue, and clustered versions. Accept only the numeric
+   `cites_id`; an opaque `result_id` is not a refreshable binding. Do not enter a
+   Scholar count as an OpenAlex or Semantic Scholar count.
 
 For each candidate, compare DOI first, then normalized title, authors, publication
 year, venue, and document version. A conference paper and a preprint can be related
@@ -102,6 +105,8 @@ form is the normal maintainer path.
   zero-citation paper.
 - Confirmed external IDs remain pinned. Citation refresh reads the pinned ID and never
   searches again.
+- A Google Scholar binding must be a numeric `cites_id` reviewed against the expected
+  conference paper. Search result order and a matching snippet are not sufficient.
 - OpenAlex topics are provider-assigned machine classifications, not editorial labels.
   Keep them in `paper_enrichments.yml`, separate from canonical paper metadata.
 - Review forms never accept a human-entered citation count. A verified provider ID is
@@ -126,5 +131,5 @@ npm run build
 After the PR is reviewed and merged, the Pages workflow rebuilds the static JSON and
 frontend automatically. If a newly accepted provider ID has no citation snapshot yet,
 run the citation-refresh workflow; its PR adds the first immutable observation, and a
-subsequent merge makes the count visible. Semantic Scholar decisions cannot be applied
-while its `public_output_enabled` gate is false.
+subsequent merge makes the count visible. A provider decision can be applied only while
+that provider's `public_output_enabled` gate is true.

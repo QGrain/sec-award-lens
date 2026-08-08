@@ -41,9 +41,73 @@
       "status": "auto_verified",
       "verified_at": "2026-08-07T18:41:58Z",
       "verified_by": "SecAwardLens pipeline"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "3041857097656571321",
+      "method": "manual_override",
+      "override_reason": "Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.",
+      "paper_id": "acm-ccs-2023-uncle-maker-time-stamping-out-the-competition-in",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "3041857097656571321",
+        "publication_year": 2023,
+        "title": "Uncle maker:(time) stamping out the competition in ethereum",
+        "title_similarity": 1.0,
+        "venue": "A Yaish, G Stern, A ZoharProceedings of the 2023 ACM SIGSAC Conference on Computer and Communications …, 2023•dl.acm.org",
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-08T18:08:57Z",
+      "verified_by": "SecAwardLens maintainer review"
+    },
+    {
+      "confidence": 1.0,
+      "external_id": "82320fd747c76152a0562cd0da8c75591f9f887d",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "acm-ccs-2023-uncle-maker-time-stamping-out-the-competition-in",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 0.6666666666666666,
+        "doi": "10.1145/3576915.3616674",
+        "external_id": "82320fd747c76152a0562cd0da8c75591f9f887d",
+        "publication_year": 2023,
+        "title": "Uncle Maker: (Time)Stamping Out The Competition in Ethereum",
+        "title_similarity": 1.0,
+        "venue": "IACR Cryptology ePrint Archive",
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
     }
   ],
   "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "3041857097656571321",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-uncle-maker-time-stamping-out-the-competition-in",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=92ffbd0895da6a2c5c6d50a5a2df2c4dd1f51de37d38e7a686949d989c6fe270&num=10&hl=en",
+        "response_sha256": "e09353bcc4ef485c1a9134186628160618deb3a0e4a10efcde73584d27017234",
+        "retrieved_at": "2026-08-08T18:08:57Z",
+        "total_citations": 62
+      }
+    ],
     "openalex": [
       {
         "citations_by_citing_year": [
@@ -103,6 +167,20 @@
         "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 21
       }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "82320fd747c76152a0562cd0da8c75591f9f887d",
+        "influential_citations": 1,
+        "paper_id": "acm-ccs-2023-uncle-maker-time-stamping-out-the-competition-in",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/82320fd747c76152a0562cd0da8c75591f9f887d?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "5815553aace34226db452150c56a4a10564c6196632b89ac19e4accd3005e2c2",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 49
+      }
     ]
   },
   "enrichment": {
@@ -154,7 +232,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -181,6 +259,18 @@
         "source_url": "https://api.crossref.org/works/10.1145/3576915.3616674",
         "value": "10.1145/3576915.3616674",
         "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=3041857097656571321",
+        "value": "3041857097656571321",
+        "verified_at": "2026-08-08T18:08:57Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/82320fd747c76152a0562cd0da8c75591f9f887d?utm_source=api",
+        "value": "82320fd747c76152a0562cd0da8c75591f9f887d",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
       }
     ],
     "metadata_sources": [

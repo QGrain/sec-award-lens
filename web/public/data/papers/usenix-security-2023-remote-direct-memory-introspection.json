@@ -31,11 +31,124 @@
       "status": "pending",
       "verified_at": null,
       "verified_by": null
+    },
+    {
+      "confidence": 0.9566666666666668,
+      "external_id": "15692874715604309705",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2023-remote-direct-memory-introspection",
+      "provider": "google_scholar",
+      "rejected_candidates": [
+        {
+          "author_overlap": 0.3333333333333333,
+          "doi": null,
+          "external_id": "4164811555238991755",
+          "publication_year": null,
+          "title": "Remote Direct Memory Introspection",
+          "title_similarity": 1.0,
+          "venue": "HLJXYH DanyangZhuo, S Devadas, A Chen - people.csail.mit.edu",
+          "venue_match": false,
+          "year_delta": null
+        },
+        {
+          "author_overlap": 0.0,
+          "doi": null,
+          "external_id": "1455355189748988951",
+          "publication_year": 2023,
+          "title": "Remote direct memory introspection",
+          "title_similarity": 1.0,
+          "venue": "L Hongyi, X Jiarong, H Yibo, Z Danyang, D Srinivas… - Proceedings of the USENIX …, 2023",
+          "venue_match": false,
+          "year_delta": 0
+        },
+        {
+          "author_overlap": 0.16666666666666666,
+          "doi": null,
+          "external_id": "1220735360656662134",
+          "publication_year": 2025,
+          "title": "Remote Direct Code Execution",
+          "title_similarity": 0.7096774193548387,
+          "venue": "Y Huang, Y Qiu, D Ding, PTJ Kon, Y Zhang… - Proceedings of the 24th …, 2025 - dl.acm.org",
+          "venue_match": false,
+          "year_delta": 2
+        }
+      ],
+      "related_version_ids": [],
+      "review_notes": "Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 0.8333333333333334,
+        "doi": null,
+        "external_id": "15692874715604309705",
+        "publication_year": 2023,
+        "title": "Remote direct memory introspection",
+        "title_similarity": 1.0,
+        "venue": "H Liu, J Xing, Y Huang, D Zhuo, S Devadas… - 32nd USENIX Security …, 2023 - usenix.org",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:08:08Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "7901b79741d948195ae00c67afd3cda1f9b86dc2",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2023-remote-direct-memory-introspection",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "7901b79741d948195ae00c67afd3cda1f9b86dc2",
+        "publication_year": 2023,
+        "title": "Remote Direct Memory Introspection",
+        "title_similarity": 1.0,
+        "venue": "USENIX Security Symposium",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
     }
   ],
-  "citation_history": {},
+  "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "15692874715604309705",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-remote-direct-memory-introspection",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=2ca0046267e1d7009212a8c160a0db19fe2e4a22c396be96cd1f0eedf696a0c8&num=10&hl=en",
+        "response_sha256": "c8ffafe3b1bd22b777dd0f4cdd3aad6b2de779c5d90b96ea5e46c8c52bd36806",
+        "retrieved_at": "2026-08-08T18:08:08Z",
+        "total_citations": 16
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "7901b79741d948195ae00c67afd3cda1f9b86dc2",
+        "influential_citations": 2,
+        "paper_id": "usenix-security-2023-remote-direct-memory-introspection",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/7901b79741d948195ae00c67afd3cda1f9b86dc2?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "54bb18f3790c582eab8ce5d08554d86b37fcbfa7b56bd53d81811dfd998e91c6",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 7
+      }
+    ]
+  },
   "enrichment": null,
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -59,7 +172,20 @@
     ],
     "canonical_title": "Remote Direct Memory Introspection",
     "id": "usenix-security-2023-remote-direct-memory-introspection",
-    "identifiers": [],
+    "identifiers": [
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=15692874715604309705",
+        "value": "15692874715604309705",
+        "verified_at": "2026-08-08T18:08:08Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/7901b79741d948195ae00c67afd3cda1f9b86dc2?utm_source=api",
+        "value": "7901b79741d948195ae00c67afd3cda1f9b86dc2",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
+      }
+    ],
     "metadata_sources": [
       "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
     ],

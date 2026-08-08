@@ -1,4 +1,4 @@
-export type Provider = "openalex" | "semantic_scholar";
+export type Provider = "google_scholar" | "openalex" | "semantic_scholar";
 
 export interface Conference {
   id: string;
@@ -25,7 +25,7 @@ export interface PaperEnrichment {
   authors: AuthorEnrichment[];
 }
 export interface Identifier {
-  scheme: "doi" | "openalex" | "semantic_scholar" | "corpus_id";
+  scheme: "doi" | "openalex" | "semantic_scholar" | "google_scholar" | "corpus_id";
   value: string;
   source_url: string;
   verified_at: string;
@@ -93,6 +93,7 @@ export interface ConferenceSummary {
   conference: Conference;
   award_count: number;
   cited_paper_count: number;
+  citation_source?: Provider;
   citations: Distribution;
 }
 
@@ -111,6 +112,7 @@ export interface IndexData {
   default_year: number;
   conferences: Conference[];
   citation_sources: Provider[];
+  preferred_citation_source: Provider;
 }
 
 export interface Binding {

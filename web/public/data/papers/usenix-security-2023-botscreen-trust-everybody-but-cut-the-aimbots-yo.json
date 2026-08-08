@@ -41,9 +41,85 @@
       "status": "manually_verified",
       "verified_at": "2026-08-07T18:41:58Z",
       "verified_by": "machine-assisted-bootstrap"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "17965825181559142203",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2023-botscreen-trust-everybody-but-cut-the-aimbots-yo",
+      "provider": "google_scholar",
+      "rejected_candidates": [
+        {
+          "author_overlap": 1.0,
+          "doi": null,
+          "external_id": "13094020156684318015",
+          "publication_year": 2023,
+          "title": "BotScreen: Trust Everybody but Cut the Aimbots Yourself BotScreen: Trust Everybody but Cut the Aimbots Yourself",
+          "title_similarity": 0.6625766871165644,
+          "venue": "M Choi, G Ko, S Cha - 2023",
+          "venue_match": false,
+          "year_delta": 0
+        }
+      ],
+      "related_version_ids": [],
+      "review_notes": "Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "17965825181559142203",
+        "publication_year": 2023,
+        "title": "{BotScreen}: Trust Everybody, but Cut the Aimbots Yourself",
+        "title_similarity": 1.0,
+        "venue": "M Choi, G Ko, SK Cha - 32nd USENIX Security Symposium (USENIX …, 2023 - usenix.org",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:07:18Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "9356553497a1f0792300660ad435decabdb29739",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2023-botscreen-trust-everybody-but-cut-the-aimbots-yo",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "9356553497a1f0792300660ad435decabdb29739",
+        "publication_year": 2023,
+        "title": "BotScreen: Trust Everybody, but Cut the Aimbots Yourself",
+        "title_similarity": 1.0,
+        "venue": "USENIX Security Symposium",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
     }
   ],
   "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "17965825181559142203",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-botscreen-trust-everybody-but-cut-the-aimbots-yo",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=a9f2170e80fa401aed8caab6bd7339af4ee24af88ecbba9984ac0d898c8d2917&num=10&hl=en",
+        "response_sha256": "76af7acee636f15428fc29fceef5058dc40347c34b7cfe82e9781869c03d2a69",
+        "retrieved_at": "2026-08-08T18:07:18Z",
+        "total_citations": 21
+      }
+    ],
     "openalex": [
       {
         "citations_by_citing_year": [],
@@ -68,6 +144,20 @@
         "response_sha256": "5801fc8b372e0fabb058638e4715cef4958715f03ea3e07f04c53107cccdeb83",
         "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 0
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "9356553497a1f0792300660ad435decabdb29739",
+        "influential_citations": 3,
+        "paper_id": "usenix-security-2023-botscreen-trust-everybody-but-cut-the-aimbots-yo",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/9356553497a1f0792300660ad435decabdb29739?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "54b42e0d9c90fc4c7a32e05d51d1c48388e2d1d61a2d5d6a50588fe31dc95a3d",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 11
       }
     ]
   },
@@ -130,7 +220,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -151,6 +241,18 @@
         "source_url": "https://api.openalex.org/works/W4393633303",
         "value": "W4393633303",
         "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=17965825181559142203",
+        "value": "17965825181559142203",
+        "verified_at": "2026-08-08T18:07:18Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/9356553497a1f0792300660ad435decabdb29739?utm_source=api",
+        "value": "9356553497a1f0792300660ad435decabdb29739",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
       }
     ],
     "metadata_sources": [

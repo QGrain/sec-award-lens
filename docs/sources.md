@@ -37,13 +37,10 @@ site and are not treated as zero-citation papers:
 - Remote Direct Memory Introspection
 - An Efficient Design of Intelligent Network Data Plane
 
-A diagnostic Semantic Scholar lookup returned a title/author-consistent 2023 entity
-for **Remote Direct Memory Introspection**. It remains an unpublished candidate until
-the identity is manually reviewed and the project completes its S2 publication
-decision. A keyed, rate-limited candidate-discovery workflow is now available for all
-five papers; until it is run and reviewed, the other four remain unknown rather than
-confirmed absent. Use the
-[human curation workflow](manual-curation-workflow.md) for each decision.
+Semantic Scholar independently resolves four of these five OpenAlex gaps. Provider
+coverage remains separate: an S2 count does not fill or replace a missing OpenAlex
+observation. Use the [human curation workflow](manual-curation-workflow.md) for future
+entity decisions.
 
 ### Why NDSS has two included papers
 
@@ -57,7 +54,7 @@ and must not be added to the NDSS main-conference cohort.
 
 ### OpenAlex
 
-OpenAlex is the primary public citation source. Its API exposes persistent work IDs,
+OpenAlex is the open scholarly-graph comparison source. Its API exposes persistent work IDs,
 DOIs, work-specific authorships and institutions, machine-assigned primary topics,
 publication year, locations, total cited-by count, and recent `counts_by_year`. A
 citing-work group-by query can reconstruct a fuller year profile.
@@ -73,17 +70,15 @@ allowance. API documentation: <https://developers.openalex.org/api-reference/aut
 
 The provider adapter supports DOI lookup, exact and ranked title search, persistent
 paper IDs, total citation count, and influential citation count. The approved key is
-used only in maintainer-controlled jobs at less than one request per second. Public export is
-disabled in `source_registry.yml`: API-derived counts and IDs are not committed or
-included in site JSON. The API license permits access/display subject to its agreement,
-while S2 data and underlying third-party content may carry separate licenses. Committing
-those observations to a public download without a distinct license boundary could imply
-redistribution rights the project has not established. See
-[the publication decision](semantic-scholar-publication.md).
+used only in maintainer-controlled jobs at less than one request per second. Reviewed
+IDs and minimal citation observations are published as a distinct provider series;
+raw API responses are not committed. S2-derived fields remain outside the project's
+CC0 dedication because S2 data and underlying third-party content may carry separate
+licenses. See [the publication decision](semantic-scholar-publication.md).
 
 Public pages include Semantic Scholar name/logo attribution, a link-back carrying
 `utm_source=api`, and a citation to *The Semantic Scholar Open Data Platform*. This
-satisfies the display-attribution work independently of the still-closed snapshot gate.
+provides the required display attribution for the published S2 comparison view.
 
 API documentation: <https://api.semanticscholar.org/api-docs/graph>
 
@@ -98,6 +93,26 @@ REST API documentation: <https://www.crossref.org/documentation/retrieve-metadat
 
 ### Google Scholar
 
-Google Scholar is useful for manual discrepancy investigation but is not a pipeline
-dependency. SecAwardLens does not scrape it: automated access is fragile, entity
-identity is difficult to audit, and reproducible historical snapshots are poor.
+Google Scholar usually reports larger counts because it crawls a broader set of
+scholarly material, including theses, books, repositories, preprints, conference
+copies, and non-English documents. It also clusters versions differently from
+OpenAlex and Semantic Scholar. A larger number therefore means broader observed
+coverage, not a provider-independent “true” count.
+
+Google does not offer a public Scholar API and its help page asks automated software
+to respect Scholar's robots.txt. SecAwardLens does not directly scrape Scholar.
+Instead, its optional adapter uses the third-party SerpApi Google Scholar API. An
+exact-title search produces review candidates; after title, authors, year, venue, and
+versions are checked, the numeric `cites_id` is pinned. Refreshes query `cites_id`
+directly, append total counts and the available `citations_per_year`, and never repeat
+title matching.
+
+SerpApi's free plan currently provides 250 successful searches per month and 50 per
+hour. A 47-paper candidate or refresh pass uses roughly 47 searches; two passes fit
+comfortably, while several historical years will require staggered updates or a paid
+plan. SerpApi is still a parser of Google result pages: its release history includes
+fixes for blank IDs and valid searches returning no results after upstream layout
+changes. The pipeline therefore treats missing expected fields as a hard failure and
+opens reviewable data PRs rather than publishing directly.
+
+API documentation: <https://serpapi.com/google-scholar-api>

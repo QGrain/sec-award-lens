@@ -43,9 +43,73 @@
       "status": "auto_verified",
       "verified_at": "2026-08-07T18:41:58Z",
       "verified_by": "SecAwardLens pipeline"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "5522011673165191428",
+      "method": "manual_override",
+      "override_reason": "Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.",
+      "paper_id": "acm-ccs-2023-how-hard-is-takeover-in-dpos-blockchains-underst",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "5522011673165191428",
+        "publication_year": 2023,
+        "title": "How hard is takeover in dpos blockchains? understanding the security of coin-based voting governance",
+        "title_similarity": 1.0,
+        "venue": "C Li, B Palanisamy, R Xu, L Duan, J Liu, W WangProceedings of the 2023 ACM SIGSAC Conference on Computer and Communications …, 2023•dl.acm.org",
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-08T18:08:36Z",
+      "verified_by": "SecAwardLens maintainer review"
+    },
+    {
+      "confidence": 1.0,
+      "external_id": "5a2990c0422cb74781bb12b95421709eb5897ca9",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "acm-ccs-2023-how-hard-is-takeover-in-dpos-blockchains-underst",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1145/3576915.3623171",
+        "external_id": "5a2990c0422cb74781bb12b95421709eb5897ca9",
+        "publication_year": 2023,
+        "title": "How Hard is Takeover in DPoS Blockchains? Understanding the Security of Coin-based Voting Governance",
+        "title_similarity": 1.0,
+        "venue": "Conference on Computer and Communications Security",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
     }
   ],
   "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "5522011673165191428",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-how-hard-is-takeover-in-dpos-blockchains-underst",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=5da7adcd2683f9b3a2dc6246ca966120abd29d1888d729bd4590dca84076d57e&num=10&hl=en",
+        "response_sha256": "8a5e287a3e2f43354194795d085167389d4a616051007d924fefcf1154127fe6",
+        "retrieved_at": "2026-08-08T18:08:36Z",
+        "total_citations": 34
+      }
+    ],
     "openalex": [
       {
         "citations_by_citing_year": [
@@ -96,6 +160,20 @@
         "response_sha256": "a46deb51680ebc20de6c2d1287244c4f8e54517878da47bd7b5930f48b5d7839",
         "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 21
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "5a2990c0422cb74781bb12b95421709eb5897ca9",
+        "influential_citations": 1,
+        "paper_id": "acm-ccs-2023-how-hard-is-takeover-in-dpos-blockchains-underst",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/5a2990c0422cb74781bb12b95421709eb5897ca9?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "4d0b1438dbe2b257de2171f56b8cdd76457acab0e43e4d4aa443d2132fb03738",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 23
       }
     ]
   },
@@ -184,7 +262,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -220,6 +298,18 @@
         "source_url": "https://api.crossref.org/works/10.1145/3576915.3623171",
         "value": "10.1145/3576915.3623171",
         "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=5522011673165191428",
+        "value": "5522011673165191428",
+        "verified_at": "2026-08-08T18:08:36Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/5a2990c0422cb74781bb12b95421709eb5897ca9?utm_source=api",
+        "value": "5a2990c0422cb74781bb12b95421709eb5897ca9",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
       }
     ],
     "metadata_sources": [

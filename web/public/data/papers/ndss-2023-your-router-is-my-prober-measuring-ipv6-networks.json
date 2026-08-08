@@ -43,9 +43,73 @@
       "status": "auto_verified",
       "verified_at": "2026-08-07T18:41:58Z",
       "verified_by": "SecAwardLens pipeline"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "17314998190284780735",
+      "method": "manual_override",
+      "override_reason": "Exact title and authors identify the 2022 arXiv preprint of the 2023 NDSS award paper; the reviewed numeric Scholar cluster is used to aggregate its versions.",
+      "paper_id": "ndss-2023-your-router-is-my-prober-measuring-ipv6-networks",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "17314998190284780735",
+        "publication_year": 2022,
+        "title": "Your router is my prober: Measuring IPv6 networks via ICMP rate limiting side channels",
+        "title_similarity": 1.0,
+        "venue": "L Pan, J Yang, L He, Z Wang, L Nie, G Song, Y LiuarXiv preprint arXiv:2210.13088, 2022•arxiv.org",
+        "venue_match": false,
+        "year_delta": 1
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-08T18:09:10Z",
+      "verified_by": "SecAwardLens maintainer review"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "8d25ee9aa097c8ab7c3f6a07a6f5d1b870158387",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "ndss-2023-your-router-is-my-prober-measuring-ipv6-networks",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.48550/arxiv.2210.13088",
+        "external_id": "8d25ee9aa097c8ab7c3f6a07a6f5d1b870158387",
+        "publication_year": 2022,
+        "title": "Your Router is My Prober: Measuring IPv6 Networks via ICMP Rate Limiting Side Channels",
+        "title_similarity": 1.0,
+        "venue": "Network and Distributed System Security Symposium",
+        "venue_match": true,
+        "year_delta": 1
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
     }
   ],
   "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "17314998190284780735",
+        "influential_citations": null,
+        "paper_id": "ndss-2023-your-router-is-my-prober-measuring-ipv6-networks",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=1efafa1a27fb9d47fcd8eb9b89688f973bba6613745ecb80fc11ac200f6efd07&num=10&hl=en",
+        "response_sha256": "72cfacf419dae9e21d9a87b65f09a5e8f4b78a927885b4bc2a82073161ee6c19",
+        "retrieved_at": "2026-08-08T18:09:10Z",
+        "total_citations": 34
+      }
+    ],
     "openalex": [
       {
         "citations_by_citing_year": [
@@ -104,6 +168,20 @@
         "response_sha256": "2385399d269dca773ba0a8d92565e26fca2bb48ba337ce7b17830d950b2e5a2e",
         "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 21
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "8d25ee9aa097c8ab7c3f6a07a6f5d1b870158387",
+        "influential_citations": 5,
+        "paper_id": "ndss-2023-your-router-is-my-prober-measuring-ipv6-networks",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/8d25ee9aa097c8ab7c3f6a07a6f5d1b870158387?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "f86789228703d37af562d80cb32d72f5cd345bc2ffaa9ddf19c2ea1e06d2fd14",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 29
       }
     ]
   },
@@ -219,7 +297,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -258,6 +336,18 @@
         "source_url": "https://api.crossref.org/works/10.14722/ndss.2023.23049",
         "value": "10.14722/ndss.2023.23049",
         "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=17314998190284780735",
+        "value": "17314998190284780735",
+        "verified_at": "2026-08-08T18:09:10Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/8d25ee9aa097c8ab7c3f6a07a6f5d1b870158387?utm_source=api",
+        "value": "8d25ee9aa097c8ab7c3f6a07a6f5d1b870158387",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
       }
     ],
     "metadata_sources": [

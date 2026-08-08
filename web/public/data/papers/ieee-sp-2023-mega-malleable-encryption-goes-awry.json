@@ -41,9 +41,73 @@
       "status": "auto_verified",
       "verified_at": "2026-08-07T18:41:58Z",
       "verified_by": "SecAwardLens pipeline"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "10545225549490358799",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "ieee-sp-2023-mega-malleable-encryption-goes-awry",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "10545225549490358799",
+        "publication_year": 2023,
+        "title": "MEGA: malleable encryption goes awry",
+        "title_similarity": 1.0,
+        "venue": "M Backendal, M Haller, KG Paterson2023 IEEE Symposium on Security and Privacy (SP), 2023•ieeexplore.ieee.org",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:06:33Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    },
+    {
+      "confidence": 1.0,
+      "external_id": "f8add0e6f04b98b7df6db12d3135c97c9f089a9d",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "ieee-sp-2023-mega-malleable-encryption-goes-awry",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1109/sp46215.2023.10179290",
+        "external_id": "f8add0e6f04b98b7df6db12d3135c97c9f089a9d",
+        "publication_year": 2023,
+        "title": "MEGA: Malleable Encryption Goes Awry",
+        "title_similarity": 1.0,
+        "venue": "IEEE Symposium on Security and Privacy",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
     }
   ],
   "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "10545225549490358799",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-mega-malleable-encryption-goes-awry",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=850d5bfede66a952dff758c5bcb5c4f71c1f4aaa85552717748d059625d9a415&num=10&hl=en",
+        "response_sha256": "a149d984fafe66bbb1078f369711dc629741b067e5f7c6376d515d1eb7ce6d7c",
+        "retrieved_at": "2026-08-08T18:06:33Z",
+        "total_citations": 47
+      }
+    ],
     "openalex": [
       {
         "citations_by_citing_year": [
@@ -103,6 +167,20 @@
         "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 19
       }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "f8add0e6f04b98b7df6db12d3135c97c9f089a9d",
+        "influential_citations": 2,
+        "paper_id": "ieee-sp-2023-mega-malleable-encryption-goes-awry",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/f8add0e6f04b98b7df6db12d3135c97c9f089a9d?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "4e0561680397df3bce2cbc57c9f77c88755147fa06d0429fcd9544b575b951bc",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 21
+      }
     ]
   },
   "enrichment": {
@@ -154,7 +232,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -181,6 +259,18 @@
         "source_url": "https://api.crossref.org/works/10.1109/sp46215.2023.10179290",
         "value": "10.1109/sp46215.2023.10179290",
         "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=10545225549490358799",
+        "value": "10545225549490358799",
+        "verified_at": "2026-08-08T18:06:33Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/f8add0e6f04b98b7df6db12d3135c97c9f089a9d?utm_source=api",
+        "value": "f8add0e6f04b98b7df6db12d3135c97c9f089a9d",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
       }
     ],
     "metadata_sources": [

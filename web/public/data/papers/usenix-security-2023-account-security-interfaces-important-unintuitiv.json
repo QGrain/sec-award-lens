@@ -31,11 +31,90 @@
       "status": "pending",
       "verified_at": null,
       "verified_by": null
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "507752266252204781",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2023-account-security-interfaces-important-unintuitiv",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "507752266252204781",
+        "publication_year": 2023,
+        "title": "Account security interfaces: important, unintuitive, and untrustworthy",
+        "title_similarity": 1.0,
+        "venue": "A Daffalla, M Bohuk, N Dell, R Bellini, T Ristenpart32nd USENIX Security Symposium (USENIX Security 23), 2023•usenix.org",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:07:44Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "be946514fd7b40f54abd86feffeb6cda7060923e",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2023-account-security-interfaces-important-unintuitiv",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "be946514fd7b40f54abd86feffeb6cda7060923e",
+        "publication_year": 2023,
+        "title": "Account Security Interfaces: Important, Unintuitive, and Untrustworthy",
+        "title_similarity": 1.0,
+        "venue": "USENIX Security Symposium",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
     }
   ],
-  "citation_history": {},
+  "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "507752266252204781",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-account-security-interfaces-important-unintuitiv",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=dbaa58bd3fbb3702d40bb8a3c2eeb3d9a2d904b79b7cc9fff3f8ab01e8f8cc70&num=10&hl=en",
+        "response_sha256": "a2c64c38bace64435381db002d48bef450ee16e9b432f1f654a5c3e3f2459840",
+        "retrieved_at": "2026-08-08T18:07:44Z",
+        "total_citations": 21
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "be946514fd7b40f54abd86feffeb6cda7060923e",
+        "influential_citations": 1,
+        "paper_id": "usenix-security-2023-account-security-interfaces-important-unintuitiv",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/be946514fd7b40f54abd86feffeb6cda7060923e?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "2fe07f9c3e042488c6943835640830f4e70a9c3a7f17a69cd8ec45ca664eea81",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 15
+      }
+    ]
+  },
   "enrichment": null,
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -56,7 +135,20 @@
     ],
     "canonical_title": "Account Security Interfaces: Important, Unintuitive, and Untrustworthy",
     "id": "usenix-security-2023-account-security-interfaces-important-unintuitiv",
-    "identifiers": [],
+    "identifiers": [
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=507752266252204781",
+        "value": "507752266252204781",
+        "verified_at": "2026-08-08T18:07:44Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/be946514fd7b40f54abd86feffeb6cda7060923e?utm_source=api",
+        "value": "be946514fd7b40f54abd86feffeb6cda7060923e",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
+      }
+    ],
     "metadata_sources": [
       "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
     ],

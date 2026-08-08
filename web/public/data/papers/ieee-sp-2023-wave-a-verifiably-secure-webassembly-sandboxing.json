@@ -41,9 +41,73 @@
       "status": "auto_verified",
       "verified_at": "2026-08-07T18:41:58Z",
       "verified_by": "SecAwardLens pipeline"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "16103235860680242924",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "ieee-sp-2023-wave-a-verifiably-secure-webassembly-sandboxing",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "16103235860680242924",
+        "publication_year": 2023,
+        "title": "WaVe: a verifiably secure WebAssembly sandboxing runtime",
+        "title_similarity": 1.0,
+        "venue": "E Johnson, E Laufer, Z Zhao, D Gohman, S Narayan, S Savage, D Stefan, F Brown2023 IEEE Symposium on Security and Privacy (SP), 2023•ieeexplore.ieee.org",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:07:03Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    },
+    {
+      "confidence": 1.0,
+      "external_id": "fc3165950d7d32ef4c9424b623199a9d66421db0",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "ieee-sp-2023-wave-a-verifiably-secure-webassembly-sandboxing",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1109/sp46215.2023.10179357",
+        "external_id": "fc3165950d7d32ef4c9424b623199a9d66421db0",
+        "publication_year": 2023,
+        "title": "WaVe: a verifiably secure WebAssembly sandboxing runtime",
+        "title_similarity": 1.0,
+        "venue": "IEEE Symposium on Security and Privacy",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
     }
   ],
   "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "16103235860680242924",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-wave-a-verifiably-secure-webassembly-sandboxing",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=1cbfdeb727b39aa7caef4df0ff757d98cabcef0987c79fa768d50ab081c7322f&num=10&hl=en",
+        "response_sha256": "c33491f7f5bd02b6d118555b057c52932e2276a14b456b0d5d11bc78dfd7c1c3",
+        "retrieved_at": "2026-08-08T18:07:03Z",
+        "total_citations": 68
+      }
+    ],
     "openalex": [
       {
         "citations_by_citing_year": [
@@ -102,6 +166,20 @@
         "response_sha256": "afe1839da7ccf7fda1b718c8b02f7ad782a0bc39657a4be1c7ecd41e1c7d6ec0",
         "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 21
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "fc3165950d7d32ef4c9424b623199a9d66421db0",
+        "influential_citations": 4,
+        "paper_id": "ieee-sp-2023-wave-a-verifiably-secure-webassembly-sandboxing",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/fc3165950d7d32ef4c9424b623199a9d66421db0?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "bca07787bc9928b67436278715313eb6e61cc7113378dddca00b33280f9d305e",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 41
       }
     ]
   },
@@ -202,7 +280,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -241,6 +319,18 @@
         "source_url": "https://api.crossref.org/works/10.1109/sp46215.2023.10179357",
         "value": "10.1109/sp46215.2023.10179357",
         "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=16103235860680242924",
+        "value": "16103235860680242924",
+        "verified_at": "2026-08-08T18:07:03Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/fc3165950d7d32ef4c9424b623199a9d66421db0?utm_source=api",
+        "value": "fc3165950d7d32ef4c9424b623199a9d66421db0",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
       }
     ],
     "metadata_sources": [

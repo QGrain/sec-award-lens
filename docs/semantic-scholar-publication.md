@@ -1,66 +1,55 @@
 # Semantic Scholar publication decision
 
-## Current state after key approval
+## Enabled scope
 
-AI2 approved the project's API-key application with a cumulative limit of one request
-per second. The adapter sends the key only in the `x-api-key` header, waits 1.1 seconds
-between requests, and applies exponential backoff. A manual GitHub Action and local CLI
-can now generate review candidates for the five OpenAlex-unresolved papers.
+AI2 approved the project's Public (Free/Nonprofit) API-key application with a
+cumulative limit of one request per second. The application described SecAwardLens as
+a non-commercial open-source static site, identified the paper and citation fields it
+would retrieve, and disclosed periodic timestamped snapshots. The approval email also
+requested Semantic Scholar attribution on the site or citation of *The Semantic
+Scholar Open Data Platform* in published materials.
 
-Candidate discovery is not publication: it writes no binding, count, snapshot, or site
-JSON. A maintainer must compare title, authors, year, venue, DOI, and document version,
-then submit the structured review form. Routine refreshes never reuse a search result
-unless its ID has been accepted and pinned.
+On that basis, SecAwardLens publishes only the minimum S2-derived records needed for
+the comparison view:
 
-The site includes the Semantic Scholar name/logo, an API-attribution link carrying
-`utm_source=api`, and a citation to *The Semantic Scholar Open Data Platform*. No S2
-response data is currently committed under `data/` or displayed in the ranking.
+- independently reviewed Semantic Scholar paper IDs;
+- total and influential citation counts;
+- UTC retrieval timestamps, request fingerprints, and response digests.
 
-## Why public output remains gated
+Raw API responses, citing-paper graphs, abstracts, and bulk S2 datasets are not
+committed. Routine refreshes use pinned IDs and never silently rematch a title.
 
-This is a licensing and publication-policy decision, not unfinished entity-resolution
-code. The current agreement at <https://api.semanticscholar.org/license/> requires a
-Semantic Scholar link with `utm_source=api`, name/logo on public displays, and scientific
-credit. It also contains restrictions on sharing API Data. A separately published May
-2023 product agreement describes website attribution and provider-specific data
-licenses. Because those texts are not identical, the repository applies the stricter
-boundary.
+## License and attribution boundary
 
-SecAwardLens dedicates its original curation to CC0. Before placing API-derived S2
-observations in the same downloadable repository, the maintainer should establish that
-static storage, GitHub redistribution, the CC0 boundary, and public display comply with
-the applicable agreement. This is project-risk guidance, not legal advice.
+The current product API agreement permits third-party products to access and display
+S2 data subject to the agreement and the licenses accompanying the data. A separate
+official API/Data agreement contains additional public-use, link-back, logo, and
+sharing language. This repository therefore takes a narrow approach:
 
-The submitted key application explicitly disclosed a non-commercial public static site,
-periodic paper-ID/citation retrieval, and proposed timestamped GitHub snapshots. The
-generic approval email confirmed the key, rate limit, and attribution requirement, but
-did not answer the downloadable-snapshot question explicitly.
+- S2-derived records are expressly outside the project's CC0 dedication;
+- the site displays the Semantic Scholar name and mark;
+- public links use `utm_source=api`;
+- the acknowledgements and methodology cite *The Semantic Scholar Open Data
+  Platform*;
+- provider counts remain separate and are never added to OpenAlex or Google Scholar.
 
-## Required steps before publishing S2 observations
+This is a project-maintenance decision, not legal advice. Retain the submitted
+application and approval email outside the repository, and never commit the API key.
+Before expanding to raw responses, bulk citation graphs, or a materially different
+commercial use, review the then-current terms and ask AI2 for written confirmation if
+the scope is uncertain.
 
-1. Retain the submitted application and approval email outside the public repository;
-   never commit the key.
-2. Reply to AI2 asking whether minimal, timestamped S2 paper IDs and citation counts may
-   be committed to a public GitHub repository as downloadable static JSON, and under
-   which upstream terms.
-3. If confirmed, keep S2-derived records outside the CC0 dedication, retain the current
-   attribution/link-back, and change `public_output_enabled` in a reviewed pull request.
-4. Add independently reviewed provider bindings; do not copy OpenAlex decisions or
-   combine counts from the two sources.
+## Operational controls
 
-Suggested clarification:
-
-> Thank you for approving the SecAwardLens API key. Our application described a
-> non-commercial open-source static site and proposed retaining minimal timestamped
-> Semantic Scholar paper IDs and citation counts in its public GitHub repository. May
-> those minimal observations be committed as downloadable static JSON, and if so,
-> which S2 Data license/notice should accompany them? We will keep them outside our
-> CC0 dedication and provide the required Semantic Scholar name/logo, `utm_source=api`
-> link-back, and scholarly attribution.
+The adapter sends the key only in the `x-api-key` header, waits 1.1 seconds between
+requests, and applies exponential backoff. Candidate discovery does not write data.
+A maintainer compares DOI, title, authors, year, venue, and document version before an
+ID is pinned. Missing entities remain visibly unavailable rather than receiving the
+count of a similar paper.
 
 Official references:
 
-- <https://api.semanticscholar.org/license/>
 - <https://www.semanticscholar.org/product/api/license>
+- <https://api.semanticscholar.org/license/>
 - <https://www.semanticscholar.org/product/api>
 - <https://arxiv.org/abs/2301.10140>

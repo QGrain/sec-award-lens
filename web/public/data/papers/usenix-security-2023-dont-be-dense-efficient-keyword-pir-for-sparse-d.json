@@ -31,11 +31,90 @@
       "status": "pending",
       "verified_at": null,
       "verified_by": null
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "1091576476877039757",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2023-dont-be-dense-efficient-keyword-pir-for-sparse-d",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "1091576476877039757",
+        "publication_year": 2023,
+        "title": "{Don't} be dense: efficient keyword {PIR} for sparse databases",
+        "title_similarity": 1.0,
+        "venue": "S Patel, JY Seo, K Yeo32nd USENIX security symposium (USENIX Security 23), 2023•usenix.org",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:07:46Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "3d1fff6e566ffe50399c38017fb19747ab3c3253",
+      "method": "manual_override",
+      "override_reason": "Exact title and authors identify the preprint/ePrint version of the 2023 USENIX Security award paper; the reviewed S2 paper entity is retained without summing separate versions.",
+      "paper_id": "usenix-security-2023-dont-be-dense-efficient-keyword-pir-for-sparse-d",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Reviewed as a conference/preprint entity-resolution case.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "3d1fff6e566ffe50399c38017fb19747ab3c3253",
+        "publication_year": 2023,
+        "title": "Don't be Dense: Efficient Keyword PIR for Sparse Databases",
+        "title_similarity": 1.0,
+        "venue": "IACR Cryptology ePrint Archive",
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens maintainer review"
     }
   ],
-  "citation_history": {},
+  "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "1091576476877039757",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-dont-be-dense-efficient-keyword-pir-for-sparse-d",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=176c2336a1f5930cf95748faef920cb5f0458325158d567b6984e7c5d04c6e8c&num=10&hl=en",
+        "response_sha256": "61e190fcd414a883b7e2c23f2477495984d362985f84249ae63ef93c323a2ecc",
+        "retrieved_at": "2026-08-08T18:07:46Z",
+        "total_citations": 50
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "3d1fff6e566ffe50399c38017fb19747ab3c3253",
+        "influential_citations": 8,
+        "paper_id": "usenix-security-2023-dont-be-dense-efficient-keyword-pir-for-sparse-d",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/3d1fff6e566ffe50399c38017fb19747ab3c3253?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "ed46e86ed44642f6eb79f8382044146d5589eadea50d27f645ce361ccd52b138",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 41
+      }
+    ]
+  },
   "enrichment": null,
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -50,7 +129,20 @@
     ],
     "canonical_title": "Don’t be Dense: Efficient Keyword PIR for Sparse Databases",
     "id": "usenix-security-2023-dont-be-dense-efficient-keyword-pir-for-sparse-d",
-    "identifiers": [],
+    "identifiers": [
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=1091576476877039757",
+        "value": "1091576476877039757",
+        "verified_at": "2026-08-08T18:07:46Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/3d1fff6e566ffe50399c38017fb19747ab3c3253?utm_source=api",
+        "value": "3d1fff6e566ffe50399c38017fb19747ab3c3253",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
+      }
+    ],
     "metadata_sources": [
       "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
     ],

@@ -31,11 +31,90 @@
       "status": "pending",
       "verified_at": null,
       "verified_by": null
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "2604507694742357978",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2023-an-efficient-design-of-intelligent-network-data",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "2604507694742357978",
+        "publication_year": 2023,
+        "title": "An efficient design of intelligent network data plane",
+        "title_similarity": 1.0,
+        "venue": "G Zhou, Z Liu, C Fu, Q Li, K Xu32nd USENIX Security Symposium (USENIX Security 23), 2023•usenix.org",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:08:09Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "a3c847991f0a022b9c7c4df27be7981a35c30b1c",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2023-an-efficient-design-of-intelligent-network-data",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "a3c847991f0a022b9c7c4df27be7981a35c30b1c",
+        "publication_year": 2023,
+        "title": "An Efficient Design of Intelligent Network Data Plane",
+        "title_similarity": 1.0,
+        "venue": "USENIX Security Symposium",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
     }
   ],
-  "citation_history": {},
+  "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "2604507694742357978",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-an-efficient-design-of-intelligent-network-data",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=78f0530b585668f9ef3cd0b2db5ed5312f01042ec8454ca8f581041e01e68414&num=10&hl=en",
+        "response_sha256": "edba62db29962dd8e792a7f2c51ce8e3481f5c747063fa3e47b7656f63abe8a7",
+        "retrieved_at": "2026-08-08T18:08:09Z",
+        "total_citations": 175
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "a3c847991f0a022b9c7c4df27be7981a35c30b1c",
+        "influential_citations": 30,
+        "paper_id": "usenix-security-2023-an-efficient-design-of-intelligent-network-data",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/a3c847991f0a022b9c7c4df27be7981a35c30b1c?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "9974857c7d4d8eb57e3688d08a9c1fccc834d11e9cacbb5fc5e45344e482abde",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 132
+      }
+    ]
+  },
   "enrichment": null,
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -56,7 +135,20 @@
     ],
     "canonical_title": "An Efficient Design of Intelligent Network Data Plane",
     "id": "usenix-security-2023-an-efficient-design-of-intelligent-network-data",
-    "identifiers": [],
+    "identifiers": [
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=2604507694742357978",
+        "value": "2604507694742357978",
+        "verified_at": "2026-08-08T18:08:09Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/a3c847991f0a022b9c7c4df27be7981a35c30b1c?utm_source=api",
+        "value": "a3c847991f0a022b9c7c4df27be7981a35c30b1c",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
+      }
+    ],
     "metadata_sources": [
       "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
     ],

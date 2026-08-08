@@ -86,10 +86,15 @@ entity searches do.
 4. Name it exactly `OPENALEX_API_KEY`, paste the key as its value, and save it.
 
 Repeat the secret steps for the approved Semantic Scholar key, naming it exactly
-`S2_API_KEY`. This enables the manual candidate-discovery Action immediately. It does
-not publish S2 data while `semantic_scholar.public_output_enabled` remains false.
+`S2_API_KEY`. This enables manual candidate discovery and refreshes verified, pinned
+S2 paper IDs at less than one request per second.
 Never use `SEMANTIC_SCHOLAR_API_KEY` (the code does not read that name), and never store
 either key in a repository variable: variables are not secrets.
+
+For Google Scholar observations, copy the private key from the SerpApi account page
+and create a third repository secret named exactly `SERPAPI_KEY`. Locally, use
+`export SERPAPI_KEY='...'`. The key is sent only to SerpApi as its documented
+`api_key` parameter; it is excluded from request fingerprints and generated data.
 
 ## What each workflow does
 
@@ -99,7 +104,6 @@ either key in a repository variable: variables are not secrets.
 | `Deploy GitHub Pages` | Push to `main`; manual dispatch | Rebuild `web/public/data`, build `web/dist`, upload and deploy a Pages artifact |
 | `Refresh citation snapshots` | First day of each month at 08:17 UTC; manual dispatch | Fetch pinned IDs from enabled providers, append dated snapshots, validate/build, and open a PR |
 | `Monitor official award sources` | First day of each month at 09:43 UTC; manual dispatch | Compare normalized official award records with their reviewed count and digest |
-| `Find Semantic Scholar candidates` | Manual dispatch | Search OpenAlex-unresolved records below 1 req/s and upload review-only candidate JSON |
 
 The off-hour cron minutes reduce peak scheduling delays. Scheduled workflows run only
 from the default branch and may be delayed. GitHub disables schedules in a public
@@ -122,11 +126,12 @@ tab if the project has been dormant.
 
 ## Verify automated updates
 
-After adding `OPENALEX_API_KEY`, manually run **Actions → Refresh citation snapshots →
-Run workflow** once instead of waiting for the next month. The expected result is a PR from
+The initial 2023 snapshots are already committed, so the first push and Pages deploy
+do not require a manual refresh. On the next scheduled run, or when manually dispatching
+**Actions → Refresh citation snapshots**, the expected result is a PR from
 `automation/citation-refresh` containing:
 
-- one new `data/snapshots/YYYY-MM-DD-openalex.jsonl` file;
+- one new dated snapshot for each enabled provider with verified bindings;
 - regenerated `web/public/data` files whose counts or timestamps changed;
 - no binding search, rematch, or unrelated source edits.
 
@@ -136,22 +141,19 @@ that run, wait for CI, inspect the diff, and merge manually. Merging to `main` t
 a new Pages deployment. A second refresh on the same UTC date should report that the
 snapshot already exists and should not create duplicate history.
 
-After adding `S2_API_KEY`, run **Actions → Find Semantic Scholar candidates → Run
-workflow** with the paper ID blank. Download the `semantic-scholar-candidates` artifact
-from the completed run; it contains candidates for the five OpenAlex-unresolved papers.
-This Action never edits the repository. Transfer only manually verified decisions into
-the review form described in `docs/manual-curation-workflow.md`.
+Candidate discovery is intentionally local rather than a standing GitHub workflow.
+When adding a new year or correcting an entity, run `secawardlens match
+semantic-scholar --paper-id PAPER_ID` or `secawardlens match google-scholar --paper-id
+PAPER_ID`, review the output, and submit the accepted binding through the structured
+review form. This avoids accumulating downloadable third-party candidate artifacts in
+Actions and makes quota use an explicit maintainer decision. Check SerpApi quota before
+an all-paper discovery pass.
 
-To publish an accepted S2 entity after the static-redistribution question is confirmed:
-
-1. Change `semantic_scholar.public_output_enabled` to `true` in
-   `data/provenance/source_registry.yml` and update the data notice in the same PR.
-2. Apply the reviewed resolution form so the S2 ID is pinned.
-3. Merge after CI; then manually run **Refresh citation snapshots**. Its next PR will
-   contain `YYYY-MM-DD-semantic-scholar.jsonl` and provider-labeled site JSON.
-4. Inspect the S2 count and attribution, merge the PR, and let the normal `main` push
-   deploy it. The current S2 adapter does not retrieve the same by-year series as
-   OpenAlex, so its three-year metric remains unavailable rather than zero.
+To publish a newly accepted S2 entity, apply the reviewed resolution form so its ID is
+pinned, then run **Refresh citation snapshots**. Inspect the resulting
+`YYYY-MM-DD-semantic-scholar.jsonl`, provider link, count, and attribution before
+merging. The current S2 adapter does not retrieve the same by-year series as OpenAlex,
+so its three-year metric remains unavailable rather than zero.
 
 Also manually run **Monitor official award sources** once. Success means all four
 normalized 2023 official-source digests still match; failure requires human inspection
@@ -189,7 +191,7 @@ Common failures:
 | Symptom | Check |
 | --- | --- |
 | Pages job cannot configure the site | Pages source is set to **GitHub Actions** |
-| Refresh reports a missing key | Repository secret is named exactly `OPENALEX_API_KEY` |
+| Refresh reports a missing key | Secret name matches the selected provider: `OPENALEX_API_KEY`, `S2_API_KEY`, or `SERPAPI_KEY` |
 | Refresh cannot open a PR | The workflow's write permissions and “Allow GitHub Actions to create and approve pull requests” are enabled |
 | Site HTML loads but data is 404 | Vite was built in Actions with the repository subpath; inspect the deployed asset/data URLs |
 | Automated PR has no running CI | Open the PR and approve its workflow run |

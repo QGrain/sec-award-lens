@@ -46,7 +46,10 @@ fetch their pinned IDs directly. Search is a separate command.
 
 ## Citation observations
 
-The primary public provider is OpenAlex. Every observation contains the provider,
+Google Scholar, OpenAlex, and Semantic Scholar observations are independent series.
+Google Scholar is preferred in the interface once reviewed snapshots exist, but it is
+obtained through the third-party SerpApi service because Google provides no official
+public Scholar API. Every observation contains the provider,
 external work ID, UTC retrieval time, total citations, citations grouped by the
 publication year of citing works where available, provider record update time,
 response digest, and request fingerprint. Files in `data/snapshots/` are append-only.
@@ -70,8 +73,14 @@ counts differ. Small samples remain visible; for example, NDSS has only two incl
 
 ## Current limitations
 
-- OpenAlex resolves 42/47 2023 records. Five USENIX papers remain pending.
+- Google Scholar resolves 47/47, OpenAlex 42/47, and Semantic Scholar 46/47 of
+  the 2023 records. Missing observations remain visibly missing per provider.
 - One snapshot establishes a baseline; a genuine growth curve needs later snapshots.
 - Provider citation coverage and entity merging can change retrospectively.
+- Scholar generally covers more document types and often clusters repository,
+  preprint, and conference versions differently; a larger count is broader, not an
+  independently verified ground truth.
+- SerpApi is a paid-quota, third-party parser whose response contract can change when
+  Google Scholar changes its result pages.
 - A calendar-year window is coarser than an exact publication-date window.
 - Cross-provider counts are not interchangeable and should not be combined.

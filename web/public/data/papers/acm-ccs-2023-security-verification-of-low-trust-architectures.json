@@ -41,9 +41,73 @@
       "status": "auto_verified",
       "verified_at": "2026-08-07T18:41:58Z",
       "verified_by": "SecAwardLens pipeline"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "183481109382956674",
+      "method": "manual_override",
+      "override_reason": "Exact title, author evidence, 2023 publication year, and the ACM Digital Library DOI landing page identify the conference paper.",
+      "paper_id": "acm-ccs-2023-security-verification-of-low-trust-architectures",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Reviewed from the SerpApi title-search artifact; counts remain provider-specific observations.",
+      "selected_candidate": {
+        "author_overlap": 0.5714285714285714,
+        "doi": null,
+        "external_id": "183481109382956674",
+        "publication_year": 2023,
+        "title": "Security verification of low-trust architectures",
+        "title_similarity": 1.0,
+        "venue": "Q Tan, Y Fisseha, S Chen, L Biernacki… - Proceedings of the …, 2023 - dl.acm.org",
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-08T18:08:49Z",
+      "verified_by": "SecAwardLens maintainer review"
+    },
+    {
+      "confidence": 1.0,
+      "external_id": "46956882fbf7a9108a5a9b52793689835ad948a7",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "acm-ccs-2023-security-verification-of-low-trust-architectures",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1145/3576915.3616643",
+        "external_id": "46956882fbf7a9108a5a9b52793689835ad948a7",
+        "publication_year": 2023,
+        "title": "Security Verification of Low-Trust Architectures",
+        "title_similarity": 1.0,
+        "venue": "Conference on Computer and Communications Security",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-08T18:16:13.005547Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
     }
   ],
   "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "183481109382956674",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-security-verification-of-low-trust-architectures",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=ca5cd6754502f3977642e4e1a8bff23214dacc57321227d8e6c76768fb71a2ae&num=10&hl=en",
+        "response_sha256": "b9054593fb1a139bdf96b391a2a25e07cba9d499bd41b4038de3ba57e3e14c7a",
+        "retrieved_at": "2026-08-08T18:08:49Z",
+        "total_citations": 14
+      }
+    ],
     "openalex": [
       {
         "citations_by_citing_year": [
@@ -94,6 +158,20 @@
         "response_sha256": "f43ccd305c9631d015ffac3a7e805d0264589e5e7899a71fdf61a28d3e08654d",
         "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 7
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "46956882fbf7a9108a5a9b52793689835ad948a7",
+        "influential_citations": 1,
+        "paper_id": "acm-ccs-2023-security-verification-of-low-trust-architectures",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/46956882fbf7a9108a5a9b52793689835ad948a7?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "483635022100ae3f8177fa668e01f42c8acc0da7c3c6cd73f92925dfb17ad0b7",
+        "retrieved_at": "2026-08-08T18:16:23.806407Z",
+        "total_citations": 9
       }
     ]
   },
@@ -194,7 +272,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T10:25:46.712845+00:00",
+  "generated_at": "2026-08-08T18:16:23.806407+00:00",
   "paper": {
     "authors": [
       {
@@ -233,6 +311,18 @@
         "source_url": "https://api.crossref.org/works/10.1145/3576915.3616643",
         "value": "10.1145/3576915.3616643",
         "verified_at": "2026-08-07T18:41:58Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=183481109382956674",
+        "value": "183481109382956674",
+        "verified_at": "2026-08-08T18:08:49Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/46956882fbf7a9108a5a9b52793689835ad948a7?utm_source=api",
+        "value": "46956882fbf7a9108a5a9b52793689835ad948a7",
+        "verified_at": "2026-08-08T18:16:13.005547Z"
       }
     ],
     "metadata_sources": [
