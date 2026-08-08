@@ -56,6 +56,18 @@
         "response_sha256": "53157c249fc183f13f6e21bcdd9b8e86a6d60c759d47a914586bcbc3dae4ec42",
         "retrieved_at": "2026-08-07T18:42:52Z",
         "total_citations": 0
+      },
+      {
+        "citations_by_citing_year": [],
+        "external_id": "W4393633303",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-botscreen-trust-everybody-but-cut-the-aimbots-yo",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-23T08:03:31.855105",
+        "request_fingerprint": "GET /works/W4393633303?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "5801fc8b372e0fabb058638e4715cef4958715f03ea3e07f04c53107cccdeb83",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
+        "total_citations": 0
       }
     ]
   },
@@ -118,7 +130,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-07T18:42:52+00:00",
+  "generated_at": "2026-08-08T10:25:46.712845+00:00",
   "paper": {
     "authors": [
       {

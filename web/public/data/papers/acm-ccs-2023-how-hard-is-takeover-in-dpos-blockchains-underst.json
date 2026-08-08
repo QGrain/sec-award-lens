@@ -71,6 +71,31 @@
         "response_sha256": "89cf084f2be3466b96b6ce74600aaf201070e1df221e9bd4763c99eebd535010",
         "retrieved_at": "2026-08-07T18:42:52Z",
         "total_citations": 21
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 4,
+            "year": 2024
+          },
+          {
+            "count": 12,
+            "year": 2025
+          },
+          {
+            "count": 5,
+            "year": 2026
+          }
+        ],
+        "external_id": "W4388857879",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-how-hard-is-takeover-in-dpos-blockchains-underst",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-31T08:31:51.225901",
+        "request_fingerprint": "GET /works/W4388857879?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "a46deb51680ebc20de6c2d1287244c4f8e54517878da47bd7b5930f48b5d7839",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
+        "total_citations": 21
       }
     ]
   },
@@ -159,7 +184,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-07T18:42:52+00:00",
+  "generated_at": "2026-08-08T10:25:46.712845+00:00",
   "paper": {
     "authors": [
       {

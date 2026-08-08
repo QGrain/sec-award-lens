@@ -69,6 +69,31 @@
         "response_sha256": "ca6d10cfe51056dd96788dc1842d2fb3cb104e12bdf3c725ed1855535cb3fb79",
         "retrieved_at": "2026-08-07T18:42:52Z",
         "total_citations": 5
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2024
+          },
+          {
+            "count": 3,
+            "year": 2025
+          },
+          {
+            "count": 1,
+            "year": 2026
+          }
+        ],
+        "external_id": "W4388856861",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-concurrent-composition-for-interactive-different",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-06T08:24:18.245995",
+        "request_fingerprint": "GET /works/W4388856861?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "53e6cc7a288db5195c8ff68672fea345489b19460c7a9a361c42c53a5197169e",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
+        "total_citations": 5
       }
     ]
   },
@@ -163,7 +188,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-07T18:42:52+00:00",
+  "generated_at": "2026-08-08T10:25:46.712845+00:00",
   "paper": {
     "authors": [
       {

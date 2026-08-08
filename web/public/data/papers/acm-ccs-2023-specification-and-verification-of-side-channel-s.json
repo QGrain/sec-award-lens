@@ -73,6 +73,35 @@
         "response_sha256": "d28bb54a79f438f3376b27cef21f81008207515cbbb7427a8edac8695759e2af",
         "retrieved_at": "2026-08-07T18:42:52Z",
         "total_citations": 28
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 2,
+            "year": 2023
+          },
+          {
+            "count": 11,
+            "year": 2024
+          },
+          {
+            "count": 7,
+            "year": 2025
+          },
+          {
+            "count": 8,
+            "year": 2026
+          }
+        ],
+        "external_id": "W4388858498",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-specification-and-verification-of-side-channel-s",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-04T08:18:43.703281",
+        "request_fingerprint": "GET /works/W4388858498?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "e937c3338c23f51ddb0fd5d14b78c11423288afe828dcb4bc1d96ab2324749e3",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
+        "total_citations": 28
       }
     ]
   },
@@ -154,7 +183,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-07T18:42:52+00:00",
+  "generated_at": "2026-08-08T10:25:46.712845+00:00",
   "paper": {
     "authors": [
       {

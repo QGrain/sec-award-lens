@@ -69,6 +69,31 @@
         "response_sha256": "10fa2aad1ae1e2bdc9f32eaafab0490e4dd1a49e2275544de4fad97084378c57",
         "retrieved_at": "2026-08-07T18:42:52Z",
         "total_citations": 19
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 2,
+            "year": 2024
+          },
+          {
+            "count": 13,
+            "year": 2025
+          },
+          {
+            "count": 4,
+            "year": 2026
+          }
+        ],
+        "external_id": "W4388867285",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-alert-alchemy-soc-workflows-and-decisions-in-the",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4388867285?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "faeed403c6d3cfb5251ff30f89a879e3c015ac014a71064c61a59f1af858bffd",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
+        "total_citations": 19
       }
     ]
   },
@@ -145,7 +170,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-07T18:42:52+00:00",
+  "generated_at": "2026-08-08T10:25:46.712845+00:00",
   "paper": {
     "authors": [
       {

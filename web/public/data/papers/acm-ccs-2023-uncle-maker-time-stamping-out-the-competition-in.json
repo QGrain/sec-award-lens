@@ -73,6 +73,35 @@
         "response_sha256": "123f6377b78514118cbbc349e6b36016a3c782155843fd831f133a2ed814dfa0",
         "retrieved_at": "2026-08-07T18:42:52Z",
         "total_citations": 21
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 2,
+            "year": 2023
+          },
+          {
+            "count": 6,
+            "year": 2024
+          },
+          {
+            "count": 10,
+            "year": 2025
+          },
+          {
+            "count": 3,
+            "year": 2026
+          }
+        ],
+        "external_id": "W4388858825",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-uncle-maker-time-stamping-out-the-competition-in",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4388858825?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "4595eebae227e84a8220cba0cb7e562dcc2a0c3701fa02cf1f55ed41f37c8836",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
+        "total_citations": 21
       }
     ]
   },
@@ -125,7 +154,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-07T18:42:52+00:00",
+  "generated_at": "2026-08-08T10:25:46.712845+00:00",
   "paper": {
     "authors": [
       {

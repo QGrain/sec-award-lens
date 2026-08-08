@@ -61,6 +61,23 @@
         "response_sha256": "317acfad3a21e43d612ea003f731f6c434a3579fd9594a17e4c68a0ad288bec6",
         "retrieved_at": "2026-08-07T18:42:52Z",
         "total_citations": 1
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2024
+          }
+        ],
+        "external_id": "W7064508335",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-a-bug-s-life-analyzing-the-lifecycle-and-mitigat",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W7064508335?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "c280504759e2fb510f287d2104e3f80e900832006a4fdf1f184379660529dc7c",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
+        "total_citations": 1
       }
     ]
   },
@@ -134,7 +151,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-07T18:42:52+00:00",
+  "generated_at": "2026-08-08T10:25:46.712845+00:00",
   "paper": {
     "authors": [
       {

@@ -118,7 +118,7 @@
       }
     }
   ],
-  "generated_at": "2026-08-07T18:42:52+00:00",
+  "generated_at": "2026-08-08T10:25:46.712845+00:00",
   "rows": [
     {
       "award": {
@@ -161,9 +161,9 @@
         "paper_id": "acm-ccs-2023-large-language-models-for-code-security-hardenin",
         "provider": "openalex",
         "provider_record_updated_at": "2026-08-02T14:50:37.381335",
-        "request_fingerprint": "GET /works/W4320560161?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "b77a1e3ca3745f044cdea35a791b3c72b2e8c430cc2dd9497d0a721b4ff13e9e",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4320560161?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "8085fe283da52bbb127fe5893c95edb425d5dd52cb42ac8c797d6f2050798d1d",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 119
       },
       "conference": {
@@ -255,9 +255,9 @@
         "paper_id": "acm-ccs-2023-he3db-an-efficient-and-elastic-encrypted-databas",
         "provider": "openalex",
         "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4388857792?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "e7eb0aa11300513a41a9d5115765003a9a63c63195741f8d13e322d8f222a49d",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4388857792?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "f6f2a1ef777765dd419feceb39c7ab8f03f82972631fff86977057940b071b5a",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 50
       },
       "conference": {
@@ -364,9 +364,9 @@
         "paper_id": "ieee-sp-2023-space-odyssey-an-experimental-software-security",
         "provider": "openalex",
         "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4389546099?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "42ea5a62381c743ffb56be072bd6d70f0b754f9e73ce8312ca08bf6abc7bad0e",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4389546099?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "2cc69d9d3089da3736531fee00d6a74ef90b2d165a3a2de8bc057aa88014d33d",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 50
       },
       "conference": {
@@ -471,9 +471,9 @@
         "paper_id": "usenix-security-2023-glaze-protecting-artists-from-style-mimicry-by-t",
         "provider": "openalex",
         "provider_record_updated_at": "2026-08-06T08:24:18.245995",
-        "request_fingerprint": "GET /works/W4320342250?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "44b52dae4515bef0d00ff3b72513f2226036ee31554c1331d5292abdcb7c5e8d",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4320342250?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "84bbc41eeee6d2ea753450760651b8b7c41d65efbf5816274ab39e905e8b1103",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 43
       },
       "conference": {
@@ -571,9 +571,9 @@
         "paper_id": "ndss-2023-darwin-survival-of-the-fittest-fuzzing-mutators",
         "provider": "openalex",
         "provider_record_updated_at": "2026-08-05T07:39:15.569665",
-        "request_fingerprint": "GET /works/W4307205415?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "9624932109a600065ae3d864cfd4e944ccb3dc858ad292ad490a1741099f20d5",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4307205415?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "480fcdaec2ff75390a04baf63ec8212cdc6a6e1635f6d4beec97bb56225d2cf4",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 29
       },
       "conference": {
@@ -674,9 +674,9 @@
         "paper_id": "acm-ccs-2023-specification-and-verification-of-side-channel-s",
         "provider": "openalex",
         "provider_record_updated_at": "2026-08-04T08:18:43.703281",
-        "request_fingerprint": "GET /works/W4388858498?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "d28bb54a79f438f3376b27cef21f81008207515cbbb7427a8edac8695759e2af",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4388858498?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "e937c3338c23f51ddb0fd5d14b78c11423288afe828dcb4bc1d96ab2324749e3",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 28
       },
       "conference": {
@@ -777,9 +777,9 @@
         "paper_id": "ieee-sp-2023-practically-exploitable-cryptographic-vulnerabil",
         "provider": "openalex",
         "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4389546188?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "652bc9aa93e5adfb90e12d4a4609a0278834682055b68864ae5b6de1da06378b",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4389546188?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "ecfd52ce9b1b695304a0384e24d7209706718751a83e4267d11ae30fb2cc9d51",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 25
       },
       "conference": {
@@ -878,9 +878,9 @@
         "paper_id": "ieee-sp-2023-typing-high-speed-cryptography-against-spectre-v",
         "provider": "openalex",
         "provider_record_updated_at": "2026-08-01T09:00:35.917206",
-        "request_fingerprint": "GET /works/W4385080320?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "29442a06a2ddfa1027d784afcbb0f3027f316cfd48a91231ee07c91a1284e29c",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4385080320?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "fed4ff4a5e2d78b406d1d537dfe98511b22eff7ae443e6152709d20468db573f",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 22
       },
       "conference": {
@@ -987,9 +987,9 @@
         "paper_id": "acm-ccs-2023-how-hard-is-takeover-in-dpos-blockchains-underst",
         "provider": "openalex",
         "provider_record_updated_at": "2026-07-31T08:31:51.225901",
-        "request_fingerprint": "GET /works/W4388857879?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "89cf084f2be3466b96b6ce74600aaf201070e1df221e9bd4763c99eebd535010",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4388857879?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "a46deb51680ebc20de6c2d1287244c4f8e54517878da47bd7b5930f48b5d7839",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 21
       },
       "conference": {
@@ -1093,9 +1093,9 @@
         "paper_id": "acm-ccs-2023-uncle-maker-time-stamping-out-the-competition-in",
         "provider": "openalex",
         "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4388858825?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "123f6377b78514118cbbc349e6b36016a3c782155843fd831f133a2ed814dfa0",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4388858825?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "4595eebae227e84a8220cba0cb7e562dcc2a0c3701fa02cf1f55ed41f37c8836",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 21
       },
       "conference": {
@@ -1189,10 +1189,10 @@
         "influential_citations": null,
         "paper_id": "ieee-sp-2023-wave-a-verifiably-secure-webassembly-sandboxing",
         "provider": "openalex",
-        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4385080305?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "3da76ffb3d6d6734fc05eb8f75ad0f4c3ca4029b43227303e344584d2a6d6c06",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "provider_record_updated_at": "2026-08-08T01:25:22.217667",
+        "request_fingerprint": "GET /works/W4385080305?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "afe1839da7ccf7fda1b718c8b02f7ad782a0bc39657a4be1c7ecd41e1c7d6ec0",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 21
       },
       "conference": {
@@ -1300,9 +1300,9 @@
         "paper_id": "ndss-2023-your-router-is-my-prober-measuring-ipv6-networks",
         "provider": "openalex",
         "provider_record_updated_at": "2026-08-04T08:18:43.703281",
-        "request_fingerprint": "GET /works/W4324007097?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "177ee2528f2be12c24cdc5a59792d3646ae152fff12db8e33cc6a8616a9a0b10",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4324007097?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "2385399d269dca773ba0a8d92565e26fca2bb48ba337ce7b17830d950b2e5a2e",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 21
       },
       "conference": {
@@ -1409,9 +1409,9 @@
         "paper_id": "ieee-sp-2023-red-team-vs-blue-team-a-real-world-hardware-troj",
         "provider": "openalex",
         "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4384948639?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "74c6c7404adc0546c2425ecd2536970d5f6b6c39305834a7f90c7883e2397314",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4384948639?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "f10080f30885eb54d1f62f4d38a2c0e6fa151c1d024896ce0045589bed8e598e",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 20
       },
       "conference": {
@@ -1512,9 +1512,9 @@
         "paper_id": "acm-ccs-2023-alert-alchemy-soc-workflows-and-decisions-in-the",
         "provider": "openalex",
         "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4388867285?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "10fa2aad1ae1e2bdc9f32eaafab0490e4dd1a49e2275544de4fad97084378c57",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4388867285?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "faeed403c6d3cfb5251ff30f89a879e3c015ac014a71064c61a59f1af858bffd",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 19
       },
       "conference": {
@@ -1615,9 +1615,9 @@
         "paper_id": "ieee-sp-2023-mega-malleable-encryption-goes-awry",
         "provider": "openalex",
         "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4384948645?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "f431d73bfbf089774d1cc57cba330eba3c03189cff0601b5ac879d6f2eb89943",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4384948645?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "feee616d49e056f042e70cda9699d8678206e2e7d44267462658c2b6286f9c62",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 19
       },
       "conference": {
@@ -1713,9 +1713,9 @@
         "paper_id": "ieee-sp-2023-in-eighty-percent-of-the-cases-i-select-the-pass",
         "provider": "openalex",
         "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4385679811?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "22fcdda2cf4f552d2ac540c3109992f6f1867df6b53c77a51c3ed20317040032",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4385679811?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "76cd2323653c01855b049e8063b241d187642c1b9607d1efbc6b8108cca4fe87",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 17
       },
       "conference": {
@@ -1807,9 +1807,9 @@
         "paper_id": "acm-ccs-2023-batchman-and-robin-batched-and-non-batched-branc",
         "provider": "openalex",
         "provider_record_updated_at": "2026-08-06T08:24:18.245995",
-        "request_fingerprint": "GET /works/W4388867328?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "8fd7388dce94b3c1c3f063e6b88902c79cf634251abdc4d343f4d3c1b106a4d8",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4388867328?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "5764d12a002746563c95da24e01ca255a81db580cf93b5fe8b4bde6b3008ac07",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 15
       },
       "conference": {
@@ -1910,9 +1910,9 @@
         "paper_id": "acm-ccs-2023-stealing-the-decoding-algorithms-of-language-mod",
         "provider": "openalex",
         "provider_record_updated_at": "2026-07-31T08:31:51.225901",
-        "request_fingerprint": "GET /works/W4388858191?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "e75b249ae3f377015920deae74edea5e2f0d695e27ea2b55a2eb7ca300ecf0b7",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4388858191?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "98aaea46af1a9e58c11e786accbb9a5e8ff15c93021369447bb535157787299d",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 15
       },
       "conference": {
@@ -2010,9 +2010,9 @@
         "paper_id": "ieee-sp-2023-it-s-dom-clobbering-time-attack-techniques-preva",
         "provider": "openalex",
         "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4385679748?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "b5dea8ab6c69d192dc44291a97b640f4c8d2d50943fc77a4e25bcd044e3e2285",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4385679748?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "caf10a124d59bdff6a7212e93bcf4cec6785db82d223ddb8681ceaf9990b9116",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 14
       },
       "conference": {
@@ -2105,9 +2105,9 @@
         "paper_id": "ieee-sp-2023-the-leaky-web-automated-discovery-of-cross-site",
         "provider": "openalex",
         "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4384948721?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "8b997877e1d0f5b87ecd2d912d823c302bb764fb3add67594e41bd50affad318",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4384948721?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "b8f4373bd664307b22a5c8b21b151465f6c712957f265078e03e17c4d4f8f378",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 14
       },
       "conference": {
@@ -2199,9 +2199,9 @@
         "paper_id": "usenix-security-2023-tight-auditing-of-differentially-private-machine",
         "provider": "openalex",
         "provider_record_updated_at": "2026-07-28T07:46:37.118299",
-        "request_fingerprint": "GET /works/W4321276312?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "b3db714844935f0c4c52bb063cb80091e8917647ce7b751dccacb3d5432eb428",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4321276312?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "e31768d2c942fc1f085bd0fbb99fb9ef954cc294fd635fda1faa4c92d5499c6d",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 14
       },
       "conference": {
@@ -2305,9 +2305,9 @@
         "paper_id": "ieee-sp-2023-weak-fiat-shamir-attacks-on-modern-proof-systems",
         "provider": "openalex",
         "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4385080282?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "09cb5296b04068b76eeae83fcce691c86838b975a29926457ebfeb91460016d2",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4385080282?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "63fd88cd962c7a122dd18c4d0ee708dbfced391715ac6ad1248f8f9b4b7674a5",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 12
       },
       "conference": {
@@ -2402,9 +2402,9 @@
         "paper_id": "usenix-security-2023-bug-hunters-perspectives-on-the-challenges-and-b",
         "provider": "openalex",
         "provider_record_updated_at": "2026-08-06T08:24:18.245995",
-        "request_fingerprint": "GET /works/W4316116706?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "1c8fbb66ce7cad589439612f8dc60d5c610eeb6e084b2f95b687ac2ee8021342",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4316116706?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "a7d86f524d533cc2cd24eceba3c360c5f4f45bf03d50592d3338b758da75f20d",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 11
       },
       "conference": {
@@ -2504,9 +2504,9 @@
         "paper_id": "acm-ccs-2023-panic-pan-assisted-intra-process-memory-isolatio",
         "provider": "openalex",
         "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4388857293?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "548a3485c730f1912953841e1b815e88a0834e67e9fb619ff5fcb8cdb1e826e4",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4388857293?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "e60d42a50dc50c7d6a327f70940f80169eed143821ee719b409a2f89432b1c09",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 11
       },
       "conference": {
@@ -2621,9 +2621,9 @@
         "paper_id": "acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl",
         "provider": "openalex",
         "provider_record_updated_at": "2026-08-04T08:18:43.703281",
-        "request_fingerprint": "GET /works/W4388856956?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "a6803e9f726fa6cf2ba2a3bc39f0093cd8dda1cbe51fb8f1a31db0d88d297ea0",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4388856956?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "e1255cf9110f6e1fc7feaef1633e85e48e4ace9a61f43049243eed903e7e74f9",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 10
       },
       "conference": {
@@ -2718,9 +2718,9 @@
         "paper_id": "ieee-sp-2023-characterizing-everyday-misuse-of-smart-home-dev",
         "provider": "openalex",
         "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4385080361?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "71a107591a1e4786355326be4fbb88b66a02275b3881666ec50afbfd70f8ac1b",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4385080361?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "ffb304b6c557d8e3c65103a79ef29d21cd09fdc4ffae44747c348f75a733b4a9",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 9
       },
       "conference": {
@@ -2821,9 +2821,9 @@
         "paper_id": "acm-ccs-2023-coco-efficient-browser-extension-vulnerability-d",
         "provider": "openalex",
         "provider_record_updated_at": "2026-07-30T17:31:21.811387",
-        "request_fingerprint": "GET /works/W4388858938?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "c37ff79b8b1e579938f4e8c82fb7a46a5c4a356e327b5d39d80c56c286afaaae",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4388858938?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "d60192b108c233e432b5dbbc427b0eb69d83a68ba8d824b5ba81278889532d81",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 9
       },
       "conference": {
@@ -2921,9 +2921,9 @@
         "paper_id": "ieee-sp-2023-not-yet-another-digital-id-privacy-preserving-hu",
         "provider": "openalex",
         "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4385679771?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "7e598e2ac73041e939cd0ceef424fa9a8e31e5d56d4da70c83d719e1a856643e",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4385679771?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "ba04ed8a0015efd6853337e839f353437e9cbd058201b5b06fd39b1fdbec423c",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 8
       },
       "conference": {
@@ -3021,9 +3021,9 @@
         "paper_id": "acm-ccs-2023-capacity-cryptographically-enforced-in-process-c",
         "provider": "openalex",
         "provider_record_updated_at": "2026-08-01T09:00:35.917206",
-        "request_fingerprint": "GET /works/W4386973789?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "c367c9d68eda0c1133f5e876aa25388c9a6579110f25f9d841a02cadf99a6230",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4386973789?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "f3196efff62958b85e994c65051cac56e32bf52abd8c9daf4539d6562e1caa71",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 7
       },
       "conference": {
@@ -3117,9 +3117,9 @@
         "paper_id": "acm-ccs-2023-security-verification-of-low-trust-architectures",
         "provider": "openalex",
         "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4386437595?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "dca443e38dd551c5c10cf04036933cc31921c5c4701bc5f6a5f7b0fb5b781ba9",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4386437595?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "f43ccd305c9631d015ffac3a7e805d0264589e5e7899a71fdf61a28d3e08654d",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 7
       },
       "conference": {
@@ -3218,9 +3218,9 @@
         "paper_id": "usenix-security-2023-fuzztruction-using-fault-injection-based-fuzzing",
         "provider": "openalex",
         "provider_record_updated_at": "2026-07-15T18:14:33.161393",
-        "request_fingerprint": "GET /works/W6902390121?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "c1070bf007614748d1ac2c193389d20813b736e7cfbdb53033bcf23421904443",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W6902390121?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "592a0506ef0045b7baf07858fb2f900f1f8bb918f98464defa5656051db6b913",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 6
       },
       "conference": {
@@ -3307,9 +3307,9 @@
         "paper_id": "acm-ccs-2023-concurrent-composition-for-interactive-different",
         "provider": "openalex",
         "provider_record_updated_at": "2026-08-06T08:24:18.245995",
-        "request_fingerprint": "GET /works/W4388856861?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "ca6d10cfe51056dd96788dc1842d2fb3cb104e12bdf3c725ed1855535cb3fb79",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4388856861?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "53e6cc7a288db5195c8ff68672fea345489b19460c7a9a361c42c53a5197169e",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 5
       },
       "conference": {
@@ -3408,9 +3408,9 @@
         "paper_id": "usenix-security-2023-ethical-frameworks-and-computer-security-trolley",
         "provider": "openalex",
         "provider_record_updated_at": "2026-08-06T08:24:18.245995",
-        "request_fingerprint": "GET /works/W4322759797?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "26a5244b34ac8667f9b0bffde4989ec38c104bee26d4c326f6d8c1fc89f5c775",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4322759797?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "e42cdbf05d1dd50eaad920a018863fbc47d2e72b3dc57c693442eb3da8f76655",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 5
       },
       "conference": {
@@ -3491,9 +3491,9 @@
         "paper_id": "acm-ccs-2023-specverilog-adapting-information-flow-control-fo",
         "provider": "openalex",
         "provider_record_updated_at": "2026-07-31T08:31:51.225901",
-        "request_fingerprint": "GET /works/W4388858465?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "053228353a1ac12d275a938ae15a60836d42eb595f234546a1f0d6d90fa14798",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4388858465?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "ce92732d00cd4624e69699c0cdd70743c930e60f889a32bb852ce9508aaf97af",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 5
       },
       "conference": {
@@ -3587,9 +3587,9 @@
         "paper_id": "usenix-security-2023-hash-gone-bad-automated-discovery-of-protocol-at",
         "provider": "openalex",
         "provider_record_updated_at": "2026-08-01T09:00:35.917206",
-        "request_fingerprint": "GET /works/W4301178121?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "cb0f96fe094e380876d5f2afe035d77be755dbb4c24497f5e1c9ef2ddae4138f",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4301178121?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "9a7f486af35efc2449d70b4ea5add9e805b7a407d7dd95e7736f496363fa9f0e",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 4
       },
       "conference": {
@@ -3683,9 +3683,9 @@
         "paper_id": "acm-ccs-2023-silence-is-not-golden-disrupting-the-load-balanc",
         "provider": "openalex",
         "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4388858780?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "aaf496f18e623227587c9c3dce81a22ff4bdc293f457e9923a5736b28bdf1ff5",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4388858780?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "d242a0e1f0c12aaf40a22131515b58cf3cb48fdcbe40b5072d19d2b8ea71d4cd",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 4
       },
       "conference": {
@@ -3789,9 +3789,9 @@
         "paper_id": "usenix-security-2023-a-bug-s-life-analyzing-the-lifecycle-and-mitigat",
         "provider": "openalex",
         "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W7064508335?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "317acfad3a21e43d612ea003f731f6c434a3579fd9594a17e4c68a0ad288bec6",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W7064508335?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "c280504759e2fb510f287d2104e3f80e900832006a4fdf1f184379660529dc7c",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 1
       },
       "conference": {
@@ -3871,9 +3871,9 @@
         "paper_id": "usenix-security-2023-automated-analysis-of-protocols-that-use-authent",
         "provider": "openalex",
         "provider_record_updated_at": "2026-08-01T09:00:35.917206",
-        "request_fingerprint": "GET /works/W4401104680?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "daf916ab0d978be67118bb3b0ecb2989d5e921bb1701bc3a080fcaf233d1308a",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4401104680?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "df60ee7e5d9160598236bc61f24436306011f86d8c1757ca7e93e915b3e2557b",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 1
       },
       "conference": {
@@ -3953,9 +3953,9 @@
         "paper_id": "usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma",
         "provider": "openalex",
         "provider_record_updated_at": "2026-02-10T06:17:13.238206",
-        "request_fingerprint": "GET /works/W6981697802?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "35e32c82195a2ca6abfd5d08a67ae5c6c900e929ee58a9fe1331ed549f05010e",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W6981697802?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "8a2e038d4286f2ac61bdd8adaaf59536e1b88076d1e0fa2e38bfaa2579f7734e",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 1
       },
       "conference": {
@@ -4029,9 +4029,9 @@
         "paper_id": "usenix-security-2023-treesync-authenticated-group-management-for-mess",
         "provider": "openalex",
         "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4392466677?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "0db6cb75fe6d50b6424e90506616c7af959629683c12ac4b96312dbf358ed5e6",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4392466677?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "d91525751de379501da4e8ffb313b010f66bba29131cce8e1e57ea0d319b0852",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 1
       },
       "conference": {
@@ -4106,9 +4106,9 @@
         "paper_id": "acm-ccs-2023-amplification-by-shuffling-without-shuffling",
         "provider": "openalex",
         "provider_record_updated_at": "2026-07-29T14:22:42.915294",
-        "request_fingerprint": "GET /works/W4388857216?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "2f507ff3c30dd356a64a3d2b4d15ac5a54e4bf904039d4dff1542c7a15ba20e0",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4388857216?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "c6243be2371d2565e67683f3d89d89e505826994f3f01feeb948f6243857820a",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 0
       },
       "conference": {
@@ -4186,9 +4186,9 @@
         "paper_id": "usenix-security-2023-botscreen-trust-everybody-but-cut-the-aimbots-yo",
         "provider": "openalex",
         "provider_record_updated_at": "2026-07-23T08:03:31.855105",
-        "request_fingerprint": "GET /works/W4393633303?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,locations,type,updated_date,is_retracted",
-        "response_sha256": "53157c249fc183f13f6e21bcdd9b8e86a6d60c759d47a914586bcbc3dae4ec42",
-        "retrieved_at": "2026-08-07T18:42:52Z",
+        "request_fingerprint": "GET /works/W4393633303?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "5801fc8b372e0fabb058638e4715cef4958715f03ea3e07f04c53107cccdeb83",
+        "retrieved_at": "2026-08-08T10:25:46.712845Z",
         "total_citations": 0
       },
       "conference": {
