@@ -66,11 +66,6 @@ class OpenAlexClient(JsonApiClient):
     )
 
     def __init__(self, api_key: str | None = None, *, client: httpx.Client | None = None) -> None:
-        if not api_key and client is None:
-            raise ValueError(
-                "OpenAlex requires an API key for production use; create a free key at "
-                "https://openalex.org/settings/api"
-            )
         super().__init__(
             base_url="https://api.openalex.org",
             headers={"User-Agent": "SecAwardLens/0.1 (citation research)"},

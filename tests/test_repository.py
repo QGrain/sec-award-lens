@@ -14,19 +14,24 @@ from secawardlens.models import BindingStatus
 from secawardlens.validation import validate_repository
 
 
-def test_2023_release_counts_are_explicit() -> None:
+def test_release_counts_are_explicit() -> None:
     root = repository_root()
     awards = load_awards(root)
-    by_edition = {edition: sum(item.edition_id == edition for item in awards) for edition in {
-        "ieee-sp-2023", "usenix-security-2023", "acm-ccs-2023", "ndss-2023"
-    }}
-    assert by_edition == {
+    expected = {
+        "ieee-sp-2022": 4,
+        "usenix-security-2022": 12,
+        "acm-ccs-2022": 5,
+        "ndss-2022": 1,
         "ieee-sp-2023": 12,
         "usenix-security-2023": 16,
         "acm-ccs-2023": 17,
         "ndss-2023": 2,
     }
-    assert len(load_papers(root)) == 47
+    by_edition = {
+        edition: sum(item.edition_id == edition for item in awards) for edition in expected
+    }
+    assert by_edition == expected
+    assert len(load_papers(root)) == 69
 
 
 def test_entity_coverage_is_visible() -> None:
@@ -34,27 +39,23 @@ def test_entity_coverage_is_visible() -> None:
     verified = Counter(
         item.provider.value
         for item in bindings
-        if item.status in {
-            BindingStatus.AUTO_VERIFIED, BindingStatus.MANUALLY_VERIFIED
-        }
+        if item.status in {BindingStatus.AUTO_VERIFIED, BindingStatus.MANUALLY_VERIFIED}
     )
     pending = Counter(
-        item.provider.value
-        for item in bindings
-        if item.status == BindingStatus.PENDING
+        item.provider.value for item in bindings if item.status == BindingStatus.PENDING
     )
     assert verified == {
-        "google_scholar": 47,
-        "openalex": 42,
-        "semantic_scholar": 46,
+        "google_scholar": 69,
+        "openalex": 55,
+        "semantic_scholar": 66,
     }
-    assert pending == {"openalex": 5, "semantic_scholar": 1}
+    assert pending == {"openalex": 14, "semantic_scholar": 3}
 
 
 def test_openalex_enrichment_stays_provider_specific() -> None:
     enrichments = load_enrichments(repository_root())
-    assert len(enrichments) == 42
-    assert sum(item.primary_topic is not None for item in enrichments) == 41
+    assert len(enrichments) == 55
+    assert sum(item.primary_topic is not None for item in enrichments) == 54
     assert all(item.provider == "openalex" for item in enrichments)
 
 
@@ -62,23 +63,32 @@ def test_repository_validates_and_builds(tmp_path) -> None:
     root = repository_root()
     assert validate_repository(root).valid
     written = build_site_data(root, tmp_path)
-    year = json.loads((tmp_path / "years/2023.json").read_text())
+    year_2022 = json.loads((tmp_path / "years/2022.json").read_text())
+    year_2023 = json.loads((tmp_path / "years/2023.json").read_text())
     index = json.loads((tmp_path / "index.json").read_text())
-    assert year["schema_version"] == 3
-    assert len(year["rows"]) == 47
-    assert sum(item["primary_topic"] is not None for item in year["rows"]) == 41
-    assert all("enrichment" not in item for item in year["rows"])
-    assert sum("google_scholar" in item["citations"] for item in year["rows"]) == 47
-    assert sum("openalex" in item["citations"] for item in year["rows"]) == 42
-    assert sum("semantic_scholar" in item["citations"] for item in year["rows"]) == 46
-    scholar = [item["citations"]["google_scholar"] for item in year["rows"]]
+    assert year_2022["schema_version"] == year_2023["schema_version"] == 3
+    assert len(year_2022["rows"]) == 22
+    assert len(year_2023["rows"]) == 47
+    assert sum(item["primary_topic"] is not None for item in year_2022["rows"]) == 13
+    assert sum(item["primary_topic"] is not None for item in year_2023["rows"]) == 41
+    assert all("enrichment" not in item for item in year_2022["rows"])
+    assert sum("google_scholar" in item["citations"] for item in year_2022["rows"]) == 22
+    assert sum("openalex" in item["citations"] for item in year_2022["rows"]) == 13
+    assert sum("semantic_scholar" in item["citations"] for item in year_2022["rows"]) == 20
+    assert sum("google_scholar" in item["citations"] for item in year_2023["rows"]) == 47
+    assert sum("openalex" in item["citations"] for item in year_2023["rows"]) == 42
+    assert sum("semantic_scholar" in item["citations"] for item in year_2023["rows"]) == 46
+    scholar = [
+        item["citations"]["google_scholar"]
+        for year in (year_2022, year_2023)
+        for item in year["rows"]
+    ]
     assert all(item["citations_first_3_years"] is not None for item in scholar)
     assert all(item["citing_years_retrieved_at"] for item in scholar)
-    assert index["citation_sources"] == [
-        "google_scholar", "openalex", "semantic_scholar"
-    ]
+    assert index["citation_sources"] == ["google_scholar", "openalex", "semantic_scholar"]
     assert index["preferred_citation_source"] == "google_scholar"
-    assert len(written) == 49
+    assert index["years"] == [2022, 2023]
+    assert len(written) == 72
 
 
 def test_google_scholar_default_falls_back_when_its_snapshot_is_absent(tmp_path) -> None:

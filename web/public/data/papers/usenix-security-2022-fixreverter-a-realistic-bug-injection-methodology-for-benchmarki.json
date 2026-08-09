@@ -1,0 +1,181 @@
+{
+  "awards": [
+    {
+      "edition_id": "usenix-security-2022",
+      "id": "usenix-security-2022-fixreverter-a-realistic-bug-injection-methodology-for-benchmarki-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "ae2397a340986e50807a6e1c5921f63da4d0b421718ac3947af5b752fae818ab",
+        "parser_version": "2022.1",
+        "retrieved_at": "2026-08-09T14:15:23Z",
+        "url": "https://www.usenix.org/conference/usenixsecurity22/technical-sessions"
+      },
+      "paper_id": "usenix-security-2022-fixreverter-a-realistic-bug-injection-methodology-for-benchmarki",
+      "raw_authors": "Zenong Zhang and Zach Patterson, University of Texas at Dallas; Michael Hicks, University of Maryland and Amazon; Shiyi Wei, University of Texas at Dallas",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "FIXREVERTER: A Realistic Bug Injection Methodology for Benchmarking Fuzz Testing"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": null,
+      "external_id": null,
+      "method": null,
+      "override_reason": null,
+      "paper_id": "usenix-security-2022-fixreverter-a-realistic-bug-injection-methodology-for-benchmarki",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "No sufficiently reliable OpenAlex conference or preprint entity was found on 2026-08-09; later journal-only and artifact records were not substituted.",
+      "selected_candidate": null,
+      "status": "pending",
+      "verified_at": null,
+      "verified_by": null
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "1039502314047305974",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2022-fixreverter-a-realistic-bug-injection-methodology-for-benchmarki",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "1039502314047305974",
+        "publication_year": 2022,
+        "title": "FIXREVERTER: A Realistic Bug Injection Methodology for Benchmarking Fuzz Testing",
+        "title_similarity": 1.0,
+        "venue": "31st USENIX Security Symposium",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-09T14:35:20Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "a2b87179dcea5dad26e6e3d17640c689eabc2940",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2022-fixreverter-a-realistic-bug-injection-methodology-for-benchmarki",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "a2b87179dcea5dad26e6e3d17640c689eabc2940",
+        "publication_year": 2022,
+        "title": "FIXREVERTER: A Realistic Bug Injection Methodology for Benchmarking Fuzz Testing",
+        "title_similarity": 1.0,
+        "venue": "USENIX Security Symposium",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-09T14:51:00Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
+    }
+  ],
+  "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 2,
+            "year": 2022
+          },
+          {
+            "count": 12,
+            "year": 2023
+          },
+          {
+            "count": 16,
+            "year": 2024
+          },
+          {
+            "count": 16,
+            "year": 2025
+          },
+          {
+            "count": 14,
+            "year": 2026
+          }
+        ],
+        "external_id": "1039502314047305974",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2022-fixreverter-a-realistic-bug-injection-methodology-for-benchmarki",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=1039502314047305974&hl=en",
+        "response_sha256": "37c4833fbc2bc19c2e913351bd6502edcf4e1cc02e08f953e9740d0d32506b8e",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T14:40:32.412627Z",
+        "total_citations": 60
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "a2b87179dcea5dad26e6e3d17640c689eabc2940",
+        "influential_citations": 7,
+        "paper_id": "usenix-security-2022-fixreverter-a-realistic-bug-injection-methodology-for-benchmarki",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/a2b87179dcea5dad26e6e3d17640c689eabc2940?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "7a01a8ae965bfe67a2af15e90dab593bac4cffbb4abd1808d51567067804fd7a",
+        "retrieval_service": "semantic_scholar",
+        "retrieved_at": "2026-08-09T14:48:06.775322Z",
+        "total_citations": 46
+      }
+    ]
+  },
+  "enrichment": null,
+  "generated_at": "2026-08-09T14:48:06.775322+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Zenong Zhang"
+      },
+      {
+        "name": "Zach Patterson"
+      },
+      {
+        "name": "Michael Hicks"
+      },
+      {
+        "name": "Shiyi Wei"
+      }
+    ],
+    "canonical_title": "FIXREVERTER: A Realistic Bug Injection Methodology for Benchmarking Fuzz Testing",
+    "id": "usenix-security-2022-fixreverter-a-realistic-bug-injection-methodology-for-benchmarki",
+    "identifiers": [
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=1039502314047305974",
+        "value": "1039502314047305974",
+        "verified_at": "2026-08-09T14:35:20Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/a2b87179dcea5dad26e6e3d17640c689eabc2940?utm_source=api",
+        "value": "a2b87179dcea5dad26e6e3d17640c689eabc2940",
+        "verified_at": "2026-08-09T14:51:00Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.usenix.org/conference/usenixsecurity22/technical-sessions",
+      "https://www.usenix.org/conference/usenixsecurity22/presentation/zhang-zenong"
+    ],
+    "official_paper_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/zhang-zenong",
+    "publication_year": 2022,
+    "venue_name": "31st USENIX Security Symposium"
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,49 @@
+awards:
+- id: ieee-sp-2022-four-attacks-and-a-proof-for-telegram-award
+  edition_id: ieee-sp-2022
+  paper_id: ieee-sp-2022-four-attacks-and-a-proof-for-telegram
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.ieee-security.org/TC/SP2022/awards.html
+    retrieved_at: '2026-08-09T14:15:23Z'
+    content_sha256: 109993c86c526612fe7f30348b877abb3561e732e3e2294167976c742dc80225
+    parser_version: '2022.1'
+  raw_title: Four Attacks and a Proof for Telegram
+  raw_authors: Martin R. Albrecht (Royal Holloway, University of London), Lenka Mareková (Royal Holloway, University of London), Kenneth G. Paterson (ETH Zurich), Igors Stepanovs (ETH Zurich)
+- id: ieee-sp-2022-asleep-at-the-keyboard-assessing-the-security-of-github-copilots-award
+  edition_id: ieee-sp-2022
+  paper_id: ieee-sp-2022-asleep-at-the-keyboard-assessing-the-security-of-github-copilots
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.ieee-security.org/TC/SP2022/awards.html
+    retrieved_at: '2026-08-09T14:15:23Z'
+    content_sha256: 109993c86c526612fe7f30348b877abb3561e732e3e2294167976c742dc80225
+    parser_version: '2022.1'
+  raw_title: Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s Code Contributions
+  raw_authors: Hammond Pearce, Baleegh Ahmad, Benjamin Tan, Brendan Dolan-Gavitt, Ramesh Karri (NYU Tandon School of Engineering)
+- id: ieee-sp-2022-invisible-finger-practical-electromagnetic-interference-attack-o-award
+  edition_id: ieee-sp-2022
+  paper_id: ieee-sp-2022-invisible-finger-practical-electromagnetic-interference-attack-o
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.ieee-security.org/TC/SP2022/awards.html
+    retrieved_at: '2026-08-09T14:15:23Z'
+    content_sha256: 109993c86c526612fe7f30348b877abb3561e732e3e2294167976c742dc80225
+    parser_version: '2022.1'
+  raw_title: 'Invisible Finger: Practical Electromagnetic Interference Attack on Touchscreen-based Electronic Devices'
+  raw_authors: Haoqi Shan (University of Florida), Boyi Zhang (University of Florida), Zihao Zhan (University of Florida), Dean Sullivan (University of New Hampshire), Shuo Wang (University of Florida), Yier Jin (University of Florida)
+- id: ieee-sp-2022-committed-to-trust-a-qualitative-study-on-security-trust-in-open-award
+  edition_id: ieee-sp-2022
+  paper_id: ieee-sp-2022-committed-to-trust-a-qualitative-study-on-security-trust-in-open
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.ieee-security.org/TC/SP2022/awards.html
+    retrieved_at: '2026-08-09T14:15:23Z'
+    content_sha256: 109993c86c526612fe7f30348b877abb3561e732e3e2294167976c742dc80225
+    parser_version: '2022.1'
+  raw_title: 'Committed to Trust: A Qualitative Study on Security & Trust in Open Source Software Projects'
+  raw_authors: Dominik Wermke (CISPA), Noah Woehler (CISPA), Jan H. Klemmer (Leibniz University Hannover), Marcel Fourné (MPI-SP), Yasemin Acar (George Washington University), Sascha Fahl (CISPA, Leibniz University Hannover)

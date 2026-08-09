@@ -107,6 +107,11 @@ def build_site_data(root: Path, output: Path | None = None) -> list[Path]:
         year_editions = [item for item in editions if item.year == year]
         edition_ids = {item.id for item in year_editions}
         year_awards = [item for item in awards if item.edition_id in edition_ids]
+        year_paper_ids = {item.paper_id for item in year_awards}
+        year_generated_at = max(
+            (item.retrieved_at for item in observations if item.paper_id in year_paper_ids),
+            default=max(item.official_source.retrieved_at for item in year_awards),
+        )
         rows: list[dict[str, Any]] = []
         for award in year_awards:
             paper = paper_by_id[award.paper_id]
@@ -168,7 +173,7 @@ def build_site_data(root: Path, output: Path | None = None) -> list[Path]:
             target,
             {
                 "schema_version": 3,
-                "generated_at": generated_at.isoformat(),
+                "generated_at": year_generated_at.isoformat(),
                 "year": year,
                 "rows": sorted(
                     rows,
@@ -186,12 +191,17 @@ def build_site_data(root: Path, output: Path | None = None) -> list[Path]:
 
     for paper in papers:
         paper_bindings = [item for item in bindings if item.paper_id == paper.id]
+        paper_awards = [item for item in awards if item.paper_id == paper.id]
+        paper_generated_at = max(
+            (item.retrieved_at for item in observations if item.paper_id == paper.id),
+            default=max(item.official_source.retrieved_at for item in paper_awards),
+        )
         target = output / "papers" / f"{paper.id}.json"
         _write_json(
             target,
             {
                 "schema_version": 1,
-                "generated_at": generated_at.isoformat(),
+                "generated_at": paper_generated_at.isoformat(),
                 "paper": paper.model_dump(mode="json"),
                 "enrichment": (
                     enrichment_by_paper[paper.id].model_dump(mode="json")
@@ -199,7 +209,7 @@ def build_site_data(root: Path, output: Path | None = None) -> list[Path]:
                     else None
                 ),
                 "awards": [
-                    item.model_dump(mode="json") for item in awards if item.paper_id == paper.id
+                    item.model_dump(mode="json") for item in paper_awards
                 ],
                 "bindings": [item.model_dump(mode="json") for item in paper_bindings],
                 "citation_history": {

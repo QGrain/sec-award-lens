@@ -99,7 +99,7 @@ and create a third repository secret named exactly `SERPAPI_KEY`. Locally, use
 Optionally create `SCRAPERAPI_KEY` from the ScraperAPI dashboard. Monthly refresh reads
 both services' live remaining capacity, prefers SerpApi when it can cover the batch,
 and falls back to ScraperAPI when necessary. Current Google SERP pricing is 25
-ScraperAPI credits per paper, so the 47-paper release needs at least 1,175 credits.
+ScraperAPI credits per paper, so the 69-paper release needs at least 1,725 credits.
 Do not add `ZENROWS_API_KEY` to GitHub Actions yet. The strongest documented Fetch
 configuration can resolve individual Scholar pages, but batch tests still produced
 CAPTCHA and concurrency/rate-limit failures. The production workflow intentionally
@@ -157,7 +157,7 @@ tab if the project has been dormant.
 
 ## Verify automated updates
 
-The initial 2023 snapshots are already committed, so the first push and Pages deploy
+The reviewed 2022 and 2023 snapshots are already committed, so the next push and Pages deploy
 do not require a manual refresh. On the next scheduled run, or when manually dispatching
 **Actions → Refresh citation snapshots**, the expected result is a PR from
 `automation/citation-refresh` containing:
@@ -186,8 +186,8 @@ pinned, then run **Refresh citation snapshots**. Inspect the resulting
 merging. The current S2 adapter does not retrieve the same by-year series as OpenAlex,
 so its three-year metric remains unavailable rather than zero.
 
-Also manually run **Monitor official award sources** once. Success means all four
-normalized 2023 official-source digests still match; failure requires human inspection
+Also manually run **Monitor official award sources** once. Success means all eight
+normalized 2022 and 2023 official-source digests still match; failure requires human inspection
 and must not automatically rewrite curated awards.
 
 ## Recommended repository protection

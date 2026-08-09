@@ -1,4 +1,24 @@
 editions:
+- id: ieee-sp-2022
+  conference_id: ieee-sp
+  year: 2022
+  official_event_url: https://www.ieee-security.org/TC/SP2022/awards.html
+  proceedings_url: https://www.ieee-security.org/TC/SP2022/program-papers.html
+- id: usenix-security-2022
+  conference_id: usenix-security
+  year: 2022
+  official_event_url: https://www.usenix.org/conference/usenixsecurity22/technical-sessions
+  proceedings_url: https://www.usenix.org/conference/usenixsecurity22/technical-sessions
+- id: acm-ccs-2022
+  conference_id: acm-ccs
+  year: 2022
+  official_event_url: https://www.sigsac.org/ccs/CCS2022/program/awards.html
+  proceedings_url: https://www.sigsac.org/ccs/CCS2022/proceedings/ccs-proceedings.html
+- id: ndss-2022
+  conference_id: ndss
+  year: 2022
+  official_event_url: https://www.ndss-symposium.org/ndss2022/
+  proceedings_url: https://www.ndss-symposium.org/ndss2022/accepted-papers/
 - id: ieee-sp-2023
   conference_id: ieee-sp
   year: 2023

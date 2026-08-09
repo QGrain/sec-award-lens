@@ -1796,3 +1796,547 @@ enrichments:
       openalex_id: I31512782
       ror: https://ror.org/05n911h24
     openalex_author_id: A5079497016
+- paper_id: ieee-sp-2022-four-attacks-and-a-proof-for-telegram
+  provider: openalex
+  external_id: W4288057802
+  retrieved_at: '2026-08-09T14:35:20Z'
+  primary_topic:
+    display_name: Cryptographic Implementations and Security
+    openalex_id: T10951
+    score: 0.9998999834060669
+  authors:
+  - author_name: Martin R. Albrecht
+    openalex_author_id: A5066696423
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Royal Holloway University of London
+      openalex_id: I184558857
+      ror: https://ror.org/04g2vpn86
+  - author_name: Lenka Mareková
+    openalex_author_id: A5021787921
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Royal Holloway University of London
+      openalex_id: I184558857
+      ror: https://ror.org/04g2vpn86
+  - author_name: Kenneth G. Paterson
+    openalex_author_id: A5072987600
+    name_similarity: 1.0
+    affiliations:
+    - display_name: ETH Zurich
+      openalex_id: I35440088
+      ror: https://ror.org/05a28rw58
+  - author_name: Igors Stepanovs
+    openalex_author_id: A5069046629
+    name_similarity: 1.0
+    affiliations:
+    - display_name: ETH Zurich
+      openalex_id: I35440088
+      ror: https://ror.org/05a28rw58
+- paper_id: ieee-sp-2022-asleep-at-the-keyboard-assessing-the-security-of-github-copilots
+  provider: openalex
+  external_id: W4288057765
+  retrieved_at: '2026-08-09T14:35:20Z'
+  primary_topic:
+    display_name: Advanced Malware Detection Techniques
+    openalex_id: T11241
+    score: 0.9997000098228455
+  authors:
+  - author_name: Hammond Pearce
+    openalex_author_id: A5053148078
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Long Island University
+      openalex_id: I138873065
+      ror: https://ror.org/0324fzh77
+    - display_name: New York University
+      openalex_id: I57206974
+      ror: https://ror.org/0190ak572
+  - author_name: Baleegh Ahmad
+    openalex_author_id: A5063392410
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Long Island University
+      openalex_id: I138873065
+      ror: https://ror.org/0324fzh77
+    - display_name: New York University
+      openalex_id: I57206974
+      ror: https://ror.org/0190ak572
+  - author_name: Benjamin Tan
+    openalex_author_id: A5069388936
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Calgary
+      openalex_id: I168635309
+      ror: https://ror.org/03yjb2x39
+  - author_name: Brendan Dolan-Gavitt
+    openalex_author_id: A5060815601
+    name_similarity: 1.0
+    affiliations:
+    - display_name: State University of New York
+      openalex_id: I1327163397
+      ror: https://ror.org/01q1z8k08
+    - display_name: New York University
+      openalex_id: I57206974
+      ror: https://ror.org/0190ak572
+  - author_name: Ramesh Karri
+    openalex_author_id: A5059648257
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Long Island University
+      openalex_id: I138873065
+      ror: https://ror.org/0324fzh77
+    - display_name: New York University
+      openalex_id: I57206974
+      ror: https://ror.org/0190ak572
+- paper_id: ieee-sp-2022-invisible-finger-practical-electromagnetic-interference-attack-o
+  provider: openalex
+  external_id: W4288057774
+  retrieved_at: '2026-08-09T14:35:20Z'
+  primary_topic:
+    display_name: Physical Unclonable Functions (PUFs) and Hardware Security
+    openalex_id: T12122
+    score: 0.9988999962806702
+  authors:
+  - author_name: Haoqi Shan
+    openalex_author_id: A5076364292
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Florida
+      openalex_id: I33213144
+      ror: https://ror.org/02y3ad647
+  - author_name: Boyi Zhang
+    openalex_author_id: A5005535515
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Florida
+      openalex_id: I33213144
+      ror: https://ror.org/02y3ad647
+  - author_name: Zihao Zhan
+    openalex_author_id: A5010864491
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Florida
+      openalex_id: I33213144
+      ror: https://ror.org/02y3ad647
+  - author_name: Dean Sullivan
+    openalex_author_id: A5069563170
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of New Hampshire at Manchester
+      openalex_id: I179093154
+      ror: https://ror.org/04pvpk743
+  - author_name: Shuo Wang
+    openalex_author_id: A5100400144
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Florida
+      openalex_id: I33213144
+      ror: https://ror.org/02y3ad647
+  - author_name: Yier Jin
+    openalex_author_id: A5017464942
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Florida
+      openalex_id: I33213144
+      ror: https://ror.org/02y3ad647
+- paper_id: ieee-sp-2022-committed-to-trust-a-qualitative-study-on-security-trust-in-open
+  provider: openalex
+  external_id: W4288057810
+  retrieved_at: '2026-08-09T14:35:20Z'
+  primary_topic:
+    display_name: Open Source Software Innovations
+    openalex_id: T11675
+    score: 0.9994000196456909
+  authors:
+  - author_name: Dominik Wermke
+    openalex_author_id: A5004650891
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Helmholtz Center for Information Security
+      openalex_id: I4210128801
+      ror: https://ror.org/02njgxr09
+  - author_name: Noah Wöhler
+    openalex_author_id: A5047899337
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Helmholtz Center for Information Security
+      openalex_id: I4210128801
+      ror: https://ror.org/02njgxr09
+  - author_name: Jan H. Klemmer
+    openalex_author_id: A5037107748
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Leibniz University Hannover
+      openalex_id: I114112103
+      ror: https://ror.org/0304hq317
+  - author_name: Marcel Fourné
+    openalex_author_id: A5018571922
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Max Planck Institute for Security and Privacy
+      openalex_id: I4210096592
+      ror: https://ror.org/00bj0r217
+  - author_name: Yasemin Acar
+    openalex_author_id: A5074668699
+    name_similarity: 1.0
+    affiliations:
+    - display_name: George Washington University
+      openalex_id: I193531525
+      ror: https://ror.org/00y4zzh67
+  - author_name: Sascha Fahl
+    openalex_author_id: A5087356408
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Helmholtz Center for Information Security
+      openalex_id: I4210128801
+      ror: https://ror.org/02njgxr09
+- paper_id: acm-ccs-2022-proving-unsat-in-zero-knowledge
+  provider: openalex
+  external_id: W4308430049
+  retrieved_at: '2026-08-09T14:35:20Z'
+  primary_topic:
+    display_name: Cryptography and Data Security
+    openalex_id: T10237
+    score: 0.9998999834060669
+  authors:
+  - author_name: Ning Luo
+    openalex_author_id: A5061101152
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Yale University
+      openalex_id: I32971472
+      ror: https://ror.org/03v76x132
+  - author_name: Timos Antonopoulos
+    openalex_author_id: A5045656414
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Yale University
+      openalex_id: I32971472
+      ror: https://ror.org/03v76x132
+  - author_name: William Harris
+    openalex_author_id: A5030836304
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Galois (United States)
+      openalex_id: I4210140281
+      ror: https://ror.org/03g8y8161
+  - author_name: Ruzica Piskac
+    openalex_author_id: A5045794652
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Yale University
+      openalex_id: I32971472
+      ror: https://ror.org/03v76x132
+  - author_name: Eran Tromer
+    openalex_author_id: A5049555551
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Columbia University
+      openalex_id: I78577930
+      ror: https://ror.org/00hj8s172
+  - author_name: Xiao Wang
+    openalex_author_id: A5077754703
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Northwestern University
+      openalex_id: I111979921
+      ror: https://ror.org/000e0be47
+- paper_id: acm-ccs-2022-automatic-detection-of-speculative-execution-combinations
+  provider: openalex
+  external_id: W4308643153
+  retrieved_at: '2026-08-09T14:35:20Z'
+  primary_topic:
+    display_name: Security and Verification in Computing
+    openalex_id: T11424
+    score: 1.0
+  authors:
+  - author_name: Xaver Fabian
+    openalex_author_id: A5041442525
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Helmholtz Center for Information Security
+      openalex_id: I4210128801
+      ror: https://ror.org/02njgxr09
+  - author_name: Marco Guarnieri
+    openalex_author_id: A5069694679
+    name_similarity: 1.0
+    affiliations:
+    - display_name: IMDEA Software Institute
+      openalex_id: I4210162154
+      ror: https://ror.org/04xvfkh51
+  - author_name: Marco Patrignani
+    openalex_author_id: A5023276491
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Trento
+      openalex_id: I193223587
+      ror: https://ror.org/05trd4x28
+- paper_id: ndss-2022-preventing-kernel-hacks-with-hakcs
+  provider: openalex
+  external_id: W4226543528
+  retrieved_at: '2026-08-09T14:35:20Z'
+  primary_topic:
+    display_name: Security and Verification in Computing
+    openalex_id: T11424
+    score: 0.9994000196456909
+  authors:
+  - author_name: Derrick McKee
+    openalex_author_id: A5005035041
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Purdue University West Lafayette
+      openalex_id: I219193219
+      ror: https://ror.org/02dqehb95
+  - author_name: Yianni Giannaris
+    openalex_author_id: A5088183478
+    name_similarity: 1.0
+    affiliations:
+    - display_name: MIT Computer Science and Artificial Intelligence Laboratory
+      openalex_id: I4405258931
+      ror: https://ror.org/01e85r662
+  - author_name: Carolina Ortega
+    openalex_author_id: A5102448911
+    name_similarity: 1.0
+    affiliations:
+    - display_name: MIT Computer Science and Artificial Intelligence Laboratory
+      openalex_id: I4405258931
+      ror: https://ror.org/01e85r662
+  - author_name: Howard Shrobe
+    openalex_author_id: A5046588386
+    name_similarity: 1.0
+    affiliations:
+    - display_name: MIT Computer Science and Artificial Intelligence Laboratory
+      openalex_id: I4405258931
+      ror: https://ror.org/01e85r662
+  - author_name: Mathias Payer
+    openalex_author_id: A5065116578
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Laboratoire d'Informatique Fondamentale de Lille
+      openalex_id: I174424907
+      ror: https://ror.org/05rhg0h08
+    - display_name: École Polytechnique Fédérale de Lausanne
+      openalex_id: I5124864
+      ror: https://ror.org/02s376052
+  - author_name: Hamed Okhravi
+    openalex_author_id: A5033661137
+    name_similarity: 1.0
+    affiliations:
+    - display_name: MIT Lincoln Laboratory
+      openalex_id: I4210122954
+      ror: https://ror.org/022z6jk58
+  - author_name: Nathan Burow
+    openalex_author_id: A5061277591
+    name_similarity: 1.0
+    affiliations:
+    - display_name: MIT Lincoln Laboratory
+      openalex_id: I4210122954
+      ror: https://ror.org/022z6jk58
+- paper_id: acm-ccs-2022-victory-by-ko-attacking-openpgp-using-key-overwriting
+  provider: openalex
+  external_id: W4308391724
+  retrieved_at: '2026-08-09T14:35:20Z'
+  primary_topic:
+    display_name: Security and Verification in Computing
+    openalex_id: T11424
+    score: 0.9998000264167786
+  authors:
+  - author_name: Lara Bruseghini
+    openalex_author_id: A5001116601
+    name_similarity: 1.0
+    affiliations:
+    - display_name: ETH Zurich
+      openalex_id: I35440088
+      ror: https://ror.org/05a28rw58
+  - author_name: Daniel Huigens
+    openalex_author_id: A5009215863
+    name_similarity: 1.0
+    affiliations: []
+  - author_name: Kenneth G. Paterson
+    openalex_author_id: A5072987600
+    name_similarity: 1.0
+    affiliations:
+    - display_name: ETH Zurich
+      openalex_id: I35440088
+      ror: https://ror.org/05a28rw58
+- paper_id: acm-ccs-2022-zapper-smart-contracts-with-data-and-identity-privacy
+  provider: openalex
+  external_id: W4308642223
+  retrieved_at: '2026-08-09T14:35:20Z'
+  primary_topic:
+    display_name: Blockchain Technology Applications and Security
+    openalex_id: T10270
+    score: 0.9998000264167786
+  authors:
+  - author_name: Samuel Steffen
+    openalex_author_id: A5069763931
+    name_similarity: 1.0
+    affiliations:
+    - display_name: ETH Zurich
+      openalex_id: I35440088
+      ror: https://ror.org/05a28rw58
+  - author_name: Benjamin Bichsel
+    openalex_author_id: A5074409480
+    name_similarity: 1.0
+    affiliations:
+    - display_name: ETH Zurich
+      openalex_id: I35440088
+      ror: https://ror.org/05a28rw58
+  - author_name: Martin Vechev
+    openalex_author_id: A5069901599
+    name_similarity: 1.0
+    affiliations:
+    - display_name: ETH Zurich
+      openalex_id: I35440088
+      ror: https://ror.org/05a28rw58
+- paper_id: acm-ccs-2022-star-secret-sharing-for-private-threshold-aggregation-reporting
+  provider: openalex
+  external_id: W4308408787
+  retrieved_at: '2026-08-09T14:35:20Z'
+  primary_topic:
+    display_name: Privacy-Preserving Technologies in Data
+    openalex_id: T10764
+    score: 0.9998000264167786
+  authors:
+  - author_name: Alex Davidson
+    openalex_author_id: A5066592591
+    name_similarity: 1.0
+    affiliations: []
+  - author_name: Peter Snyder
+    openalex_author_id: A5067856099
+    name_similarity: 1.0
+    affiliations: []
+  - author_name: E. B. Quirk
+    openalex_author_id: A5026707255
+    name_similarity: 1.0
+    affiliations: []
+  - author_name: Joseph Genereux
+    openalex_author_id: A5032498072
+    name_similarity: 1.0
+    affiliations: []
+  - author_name: Benjamin Livshits
+    openalex_author_id: A5068390911
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Imperial College London
+      openalex_id: I47508984
+      ror: https://ror.org/041kmwe10
+  - author_name: Hamed Haddadi
+    openalex_author_id: A5043326652
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Imperial College London
+      openalex_id: I47508984
+      ror: https://ror.org/041kmwe10
+- paper_id: usenix-security-2022-attacks-on-deidentification-s-defenses
+  provider: openalex
+  external_id: W4226318410
+  retrieved_at: '2026-08-09T14:35:20Z'
+  primary_topic:
+    display_name: Privacy-Preserving Technologies in Data
+    openalex_id: T10764
+    score: 0.9965999722480774
+  authors:
+  - author_name: Aloni Cohen
+    openalex_author_id: A5086202086
+    name_similarity: 1.0
+    affiliations: []
+- paper_id: usenix-security-2022-dos-and-don-ts-of-machine-learning-in-computer-security
+  provider: openalex
+  external_id: W3092978542
+  retrieved_at: '2026-08-09T14:35:20Z'
+  primary_topic:
+    display_name: Advanced Malware Detection Techniques
+    openalex_id: T11241
+    score: 0.9998999834060669
+  authors:
+  - author_name: Daniel Arp
+    openalex_author_id: A5029169901
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Technische Universität Braunschweig
+      openalex_id: I94509681
+      ror: https://ror.org/010nsgg66
+  - author_name: Erwin Quiring
+    openalex_author_id: A5085852581
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Technische Universität Braunschweig
+      openalex_id: I94509681
+      ror: https://ror.org/010nsgg66
+  - author_name: Feargus Pendlebury
+    openalex_author_id: A5090260871
+    name_similarity: 1.0
+    affiliations:
+    - display_name: King's College London
+      openalex_id: I183935753
+      ror: https://ror.org/0220mzb33
+  - author_name: Alexander Warnecke
+    openalex_author_id: A5070293380
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Technische Universität Braunschweig
+      openalex_id: I94509681
+      ror: https://ror.org/010nsgg66
+  - author_name: Fabio Pierazzi
+    openalex_author_id: A5072597369
+    name_similarity: 1.0
+    affiliations:
+    - display_name: King's College London
+      openalex_id: I183935753
+      ror: https://ror.org/0220mzb33
+  - author_name: Christian Wressnegger
+    openalex_author_id: A5040751355
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Karlsruhe Institute of Technology
+      openalex_id: I102335020
+      ror: https://ror.org/04t3en479
+  - author_name: Lorenzo Cavallaro
+    openalex_author_id: A5036908366
+    name_similarity: 1.0
+    affiliations:
+    - display_name: King's College London
+      openalex_id: I183935753
+      ror: https://ror.org/0220mzb33
+  - author_name: Konrad Rieck
+    openalex_author_id: A5066077721
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Technische Universität Braunschweig
+      openalex_id: I94509681
+      ror: https://ror.org/010nsgg66
+- paper_id: usenix-security-2022-augmenting-decompiler-output-with-learned-variable-names-and-typ
+  provider: openalex
+  external_id: W3193654868
+  retrieved_at: '2026-08-09T14:35:20Z'
+  primary_topic:
+    display_name: Software Engineering Research
+    openalex_id: T10260
+    score: 0.9994000196456909
+  authors:
+  - author_name: Qibin Chen
+    openalex_author_id: A5101837124
+    name_similarity: 1.0
+    affiliations: []
+  - author_name: Jeremy Lacomis
+    openalex_author_id: A5028103795
+    name_similarity: 1.0
+    affiliations: []
+  - author_name: Edward J. Schwartz
+    openalex_author_id: A5061771254
+    name_similarity: 1.0
+    affiliations: []
+  - author_name: Claire Le Goues
+    openalex_author_id: A5032356672
+    name_similarity: 1.0
+    affiliations: []
+  - author_name: Graham Neubig
+    openalex_author_id: A5068811427
+    name_similarity: 1.0
+    affiliations: []
+  - author_name: Bogdan Vasilescu
+    openalex_author_id: A5050821883
+    name_similarity: 1.0
+    affiliations: []

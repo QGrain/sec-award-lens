@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import math
 from collections import Counter, defaultdict
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -261,11 +262,24 @@ def validate_repository(root: Path) -> ValidationReport:
             not _duplicates([str(year) for year in citing_years]),
             f"duplicate citing year in observation for {observation.paper_id}",
         )
-        report.require(
-            sum(item.count for item in observation.citations_by_citing_year)
-            <= observation.total_citations,
-            f"citing-year counts exceed total for {observation.paper_id}",
+        citing_year_total = sum(
+            item.count for item in observation.citations_by_citing_year
         )
+        excess = citing_year_total - observation.total_citations
+        if excess > 0:
+            message = (
+                "citing-year counts exceed total for "
+                f"{observation.paper_id}/{observation.provider}: "
+                f"{citing_year_total} > {observation.total_citations}"
+            )
+            # Provider totals and citing-work aggregations can be updated on
+            # slightly different schedules. Preserve both returned values and
+            # tolerate only a small, visible indexing drift.
+            tolerance = max(2, math.ceil(observation.total_citations * 0.01))
+            if excess <= tolerance:
+                report.warnings.append(message)
+            else:
+                report.errors.append(message)
     for duplicate in sorted(_duplicates(snapshot_keys)):
         report.errors.append(f"duplicate citation observation: {duplicate}")
     for observation_key, points in grouped_observations.items():

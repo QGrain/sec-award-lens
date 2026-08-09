@@ -2,27 +2,51 @@
 
 ## Award ground truth
 
-The table describes what has been verified in the initial 2023 release. Historical
-expansion is not marked complete until each conference-year appears in the coverage
-matrix. The current data is machine-assisted and source-backed, but it still needs an
-independent maintainer sign-off: `verified` means the extractor found the expected
-official section and passed structural validation, not that a second person reviewed
-every row.
+The table describes the verified 2022 and 2023 award sources. Expansion is not marked
+complete until each conference-year appears in the coverage matrix. The data is
+machine-assisted and source-backed, but it still benefits from independent maintainer
+sign-off: `verified` means the extractor found the expected official section and
+passed structural validation, not that a second person reviewed every row.
 
-| Conference | Verified 2023 source | Observed structure | Automation assessment | Human follow-up |
-| --- | --- | --- | --- | --- |
-| IEEE S&P | [official awards program](https://www.ieee-security.org/TC/SP2023/program-awards.html) | A dedicated Distinguished Paper Award section with repeated title/author cards | High for 2023; event-site templates and award labels must be checked per era | Compare all 12 titles; check the manually separated `Pubali Datta / Noel Warford` and `Moritz Schloegel / Manuel Vögele` names |
-| USENIX Security | [official technical sessions](https://www.usenix.org/conference/usenixsecurity23/technical-sessions) | Award marker inside each paper card; title, author markup, and paper URL are nearby | High within this Drupal template; older conference templates need separate adapters | Highest priority: sign off all 16 cards, review 11 repository/preprint overrides, and resolve the five entities below |
-| ACM CCS | [SIGSAC award archive](https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html) | One organizer-maintained page grouped by year | High coverage potential, but the 2023 HTML omits closing list-item tags and requires tolerant parsing | Visually sign off all 17 records because the source HTML is malformed |
-| NDSS | [official 2023 symposium page](https://www.ndss-symposium.org/ndss2023/) | A Distinguished Paper Award heading followed by exactly two linked papers | Moderate; annual WordPress pages vary and no single verified historical table is assumed | Low risk: sign off the two-title list; program titles/authors already cross-check |
+| Year | Conference | Official source | Included awards | Source-specific notes |
+| ---: | --- | --- | ---: | --- |
+| 2022 | IEEE S&P | [official awards page](https://www.ieee-security.org/TC/SP2022/awards.html) | 4 | The Distinguished Paper section is parsed and stops before Test of Time awards. |
+| 2022 | USENIX Security | [official technical sessions](https://www.usenix.org/conference/usenixsecurity22/technical-sessions) | 12 | Award markers are attached to individual paper cards; each links to an official paper page. |
+| 2022 | ACM CCS | [official awards page](https://www.sigsac.org/ccs/CCS2022/program/awards.html) | 5 | Distinguished Paper Awards are included; Best Paper Honorable Mentions and Test of Time awards are excluded. |
+| 2022 | NDSS | [official symposium page](https://www.ndss-symposium.org/ndss2022/) | 1 | The single Distinguished Paper is included; poster and Test of Time awards are separate. |
+| 2023 | IEEE S&P | [official awards program](https://www.ieee-security.org/TC/SP2023/program-awards.html) | 12 | Repeated title/author cards require checking names split by affiliation markup. |
+| 2023 | USENIX Security | [official technical sessions](https://www.usenix.org/conference/usenixsecurity23/technical-sessions) | 16 | The same Drupal card pattern is handled by a year-specific adapter. |
+| 2023 | ACM CCS | [SIGSAC award archive](https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html) | 17 | Malformed list markup requires tolerant parsing and visual sign-off. |
+| 2023 | NDSS | [official symposium page](https://www.ndss-symposium.org/ndss2023/) | 2 | A dedicated Distinguished Paper heading is followed by exactly two linked papers. |
 
 The monitor hashes the normalized extracted records rather than an entire page, so an
 analytics script or navigation edit does not create noise. A changed record count or
 digest fails the monitor. A maintainer then compares the source and updates curated
 data and digest together if the organizer made a legitimate correction.
 
-Historical gaps remain explicit. The next target years are 2022 and 2024; no source is
+Historical gaps remain explicit. The next target years are 2021 and 2024; no source is
 treated as complete merely because a search returned no awards.
+
+### Unresolved 2022 entities
+
+Google Scholar resolves all 22 records. Nine USENIX Security papers remain `pending`
+in OpenAlex because no sufficiently reliable conference or preprint entity was found;
+later journal-only records and artifact deposits were not substituted:
+
+- OpenVPN is Open to VPN Fingerprinting
+- The Antrim County 2020 Election Incident: An Independent Forensic Investigation
+- An Audit of Facebook's Political Ad Policy Enforcement
+- Online Website Fingerprinting: Evaluating Website Fingerprinting Attacks on Tor in the Real World
+- Identity Confusion in WebView-based Mobile App-in-app Ecosystems
+- Provably-Safe Multilingual Software Sandboxing using WebAssembly
+- Faster Yet Safer: Logging System Via Fixed-Key Blockcipher
+- Private Signaling
+- FIXREVERTER: A Realistic Bug Injection Methodology for Benchmarking Fuzz Testing
+
+Semantic Scholar resolves 20 of 22. It returned no suitable record for *Dos and Don'ts
+of Machine Learning in Computer Security*, and its only result for *Private Signaling*
+was a different 2025 paper. Both remain pending. The OpenVPN S2 record and the ePrint
+version of *Faster Yet Safer* are explicit manual overrides with official-page evidence.
 
 ### Unresolved 2023 entities
 
@@ -42,13 +66,11 @@ coverage remains separate: an S2 count does not fill or replace a missing OpenAl
 observation. Use the [human curation workflow](manual-curation-workflow.md) for future
 entity decisions.
 
-### Why NDSS has two included papers
+### Why NDSS has one 2022 paper and two 2023 papers
 
-The official NDSS 2023 main-symposium page has a distinct “2023 Distinguished Paper
-Award Winners” heading followed by exactly two papers. Best Technical Poster and Best
-Poster Presentation are separate sections and outside the project scope. Search
-results also surface co-located workshops such as VehicleSec; those are separate venues
-and must not be added to the NDSS main-conference cohort.
+The official NDSS main-symposium pages list exactly one 2022 Distinguished Paper and
+two 2023 Distinguished Papers. Poster awards, Test of Time awards, and co-located
+workshops are separate categories or venues and remain outside this cohort.
 
 ## Scholarly providers
 
@@ -62,9 +84,11 @@ Singleton work refreshes are reproducible and do not require search. OpenAlex ma
 merge or split conference, repository, and preprint versions, so IDs are reviewed and
 pinned; known alternatives are recorded rather than summed.
 
-As of February 2026, production API requests require a free API key. Singleton work
-lookups are priced at zero API credits, while search and filters consume the free daily
-allowance. API documentation: <https://developers.openalex.org/api-reference/authentication>
+OpenAlex currently permits a small anonymous daily allowance and gives registered free
+API keys a larger daily allowance. Singleton work lookups are priced at zero API
+credits, while search and filters consume the allowance. The scheduled project workflow
+still requires a configured key for predictable operation. API documentation:
+<https://developers.openalex.org/api-reference/authentication>
 
 ### Semantic Scholar
 
@@ -111,10 +135,9 @@ maintainers remain responsible for reviewing Google Scholar's help, robots polic
 applicable service terms before enabling scheduled access. Automated results enter a
 reviewable pull request rather than deploying directly.
 
-SerpApi's free plan currently provides 250 successful searches per month. A 47-paper
-candidate or refresh pass uses roughly 47 searches; two passes fit
-comfortably, while several historical years will require staggered updates or a paid
-plan. SerpApi is still a parser of Google result pages: its release history includes
+SerpApi's free plan currently provides 250 successful searches per month. A complete
+69-paper refresh uses roughly 69 searches; candidate discovery for new years is a
+separate cost and may need to be staggered. SerpApi is still a parser of Google result pages: its release history includes
 fixes for blank IDs and valid searches returning no results after upstream layout
 changes. The pipeline therefore treats missing expected fields as a hard failure and
 opens reviewable data PRs rather than publishing directly.
@@ -122,7 +145,7 @@ opens reviewable data PRs rather than publishing directly.
 API documentation: <https://serpapi.com/google-scholar-api>
 
 ScraperAPI is a verified refresh fallback, not a fourth citation source. Its Google
-SERP requests currently cost 25 credits each, so 47 papers cost about 1,175 credits.
+SERP requests currently cost 25 credits each, so 69 papers cost about 1,725 credits.
 The workflow reads the live `creditsLeft` account field and `/account/urlcost` before
 selecting a transport, caps each request at 25 credits, rejects CAPTCHA pages even when
 the proxy returns HTTP 200, and records `retrieval_service: scraperapi`. Scholar HTML

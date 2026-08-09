@@ -1,0 +1,283 @@
+{
+  "awards": [
+    {
+      "edition_id": "usenix-security-2022",
+      "id": "usenix-security-2022-augmenting-decompiler-output-with-learned-variable-names-and-typ-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "ae2397a340986e50807a6e1c5921f63da4d0b421718ac3947af5b752fae818ab",
+        "parser_version": "2022.1",
+        "retrieved_at": "2026-08-09T14:15:23Z",
+        "url": "https://www.usenix.org/conference/usenixsecurity22/technical-sessions"
+      },
+      "paper_id": "usenix-security-2022-augmenting-decompiler-output-with-learned-variable-names-and-typ",
+      "raw_authors": "Qibin Chen and Jeremy Lacomis, Carnegie Mellon University; Edward J. Schwartz, Carnegie Mellon University Software Engineering Institute; Claire Le Goues, Graham Neubig, and Bogdan Vasilescu, Carnegie Mellon University",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "Augmenting Decompiler Output with Learned Variable Names and Types"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 0.99,
+      "external_id": "W3193654868",
+      "method": "manual_override",
+      "override_reason": "Exact title and author agreement with the official USENIX paper; OpenAlex exposes the corresponding preprint entity, which is retained without combining separate versions.",
+      "paper_id": "usenix-security-2022-augmenting-decompiler-output-with-learned-variable-names-and-typ",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Reviewed against the official award paper page and the persistent OpenAlex work record.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.48550/arxiv.2108.06363",
+        "external_id": "W3193654868",
+        "publication_year": 2021,
+        "title": "Augmenting Decompiler Output with Learned Variable Names and Types",
+        "title_similarity": 1.0,
+        "venue": "arXiv (Cornell University)",
+        "venue_match": false,
+        "year_delta": 1
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-09T14:35:20Z",
+      "verified_by": "SecAwardLens maintainer review"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "14649896203905633863",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2022-augmenting-decompiler-output-with-learned-variable-names-and-typ",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "14649896203905633863",
+        "publication_year": 2022,
+        "title": "Augmenting Decompiler Output with Learned Variable Names and Types",
+        "title_similarity": 1.0,
+        "venue": "31st USENIX Security Symposium",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-09T14:35:20Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "06e36261b21af2943e464a562c92c09dac292a82",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2022-augmenting-decompiler-output-with-learned-variable-names-and-typ",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "06e36261b21af2943e464a562c92c09dac292a82",
+        "publication_year": 2021,
+        "title": "Augmenting Decompiler Output with Learned Variable Names and Types",
+        "title_similarity": 1.0,
+        "venue": "USENIX Security Symposium",
+        "venue_match": true,
+        "year_delta": 1
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-09T14:51:00Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
+    }
+  ],
+  "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 4,
+            "year": 2022
+          },
+          {
+            "count": 18,
+            "year": 2023
+          },
+          {
+            "count": 32,
+            "year": 2024
+          },
+          {
+            "count": 50,
+            "year": 2025
+          },
+          {
+            "count": 30,
+            "year": 2026
+          }
+        ],
+        "external_id": "14649896203905633863",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2022-augmenting-decompiler-output-with-learned-variable-names-and-typ",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=14649896203905633863&hl=en",
+        "response_sha256": "ce80f0ac7872353c2f53ca37f3d58066b4871fe826ebaa806aa4f0ca6bea91b7",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T14:40:32.412627Z",
+        "total_citations": 134
+      }
+    ],
+    "openalex": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 2,
+            "year": 2022
+          },
+          {
+            "count": 5,
+            "year": 2023
+          },
+          {
+            "count": 2,
+            "year": 2024
+          },
+          {
+            "count": 2,
+            "year": 2025
+          }
+        ],
+        "external_id": "W3193654868",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2022-augmenting-decompiler-output-with-learned-variable-names-and-typ",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-28T07:46:37.118299",
+        "request_fingerprint": "GET /works/W3193654868?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "fa49959b1ac8b2af90a6374d155ad745eebc38b24d6478ffd61f8be957e926b1",
+        "retrieval_service": "openalex",
+        "retrieved_at": "2026-08-09T14:42:27.999060Z",
+        "total_citations": 11
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "06e36261b21af2943e464a562c92c09dac292a82",
+        "influential_citations": 10,
+        "paper_id": "usenix-security-2022-augmenting-decompiler-output-with-learned-variable-names-and-typ",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/06e36261b21af2943e464a562c92c09dac292a82?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "a26eea29b881a90baa48bf4f4b6ab435fd87d53c8d999b5f04a417e2f3a61dc3",
+        "retrieval_service": "semantic_scholar",
+        "retrieved_at": "2026-08-09T14:48:06.775322Z",
+        "total_citations": 99
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [],
+        "author_name": "Qibin Chen",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5101837124"
+      },
+      {
+        "affiliations": [],
+        "author_name": "Jeremy Lacomis",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5028103795"
+      },
+      {
+        "affiliations": [],
+        "author_name": "Edward J. Schwartz",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5061771254"
+      },
+      {
+        "affiliations": [],
+        "author_name": "Claire Le Goues",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5032356672"
+      },
+      {
+        "affiliations": [],
+        "author_name": "Graham Neubig",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5068811427"
+      },
+      {
+        "affiliations": [],
+        "author_name": "Bogdan Vasilescu",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5050821883"
+      }
+    ],
+    "external_id": "W3193654868",
+    "paper_id": "usenix-security-2022-augmenting-decompiler-output-with-learned-variable-names-and-typ",
+    "primary_topic": {
+      "display_name": "Software Engineering Research",
+      "openalex_id": "T10260",
+      "score": 0.9994000196456909
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-09T14:35:20Z"
+  },
+  "generated_at": "2026-08-09T14:48:06.775322+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Qibin Chen"
+      },
+      {
+        "name": "Jeremy Lacomis"
+      },
+      {
+        "name": "Edward J. Schwartz"
+      },
+      {
+        "name": "Claire Le Goues"
+      },
+      {
+        "name": "Graham Neubig"
+      },
+      {
+        "name": "Bogdan Vasilescu"
+      }
+    ],
+    "canonical_title": "Augmenting Decompiler Output with Learned Variable Names and Types",
+    "id": "usenix-security-2022-augmenting-decompiler-output-with-learned-variable-names-and-typ",
+    "identifiers": [
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W3193654868",
+        "value": "W3193654868",
+        "verified_at": "2026-08-09T14:35:20Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=14649896203905633863",
+        "value": "14649896203905633863",
+        "verified_at": "2026-08-09T14:35:20Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/06e36261b21af2943e464a562c92c09dac292a82?utm_source=api",
+        "value": "06e36261b21af2943e464a562c92c09dac292a82",
+        "verified_at": "2026-08-09T14:51:00Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.usenix.org/conference/usenixsecurity22/technical-sessions",
+      "https://www.usenix.org/conference/usenixsecurity22/presentation/chen-qibin"
+    ],
+    "official_paper_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/chen-qibin",
+    "publication_year": 2022,
+    "venue_name": "31st USENIX Security Symposium"
+  },
+  "schema_version": 1
+}

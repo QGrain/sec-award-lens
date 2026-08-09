@@ -124,8 +124,17 @@ main { max-width: 1240px; margin: 0 auto; padding: 0 24px 80px; }
 .hero-stat span, .hero-stat small { color: #a9bcb5; font-size: 13px; }
 .hero-stat small { display: block; padding-top: 20px; font-family: var(--font-mono); }
 
-.control-bar { border: 1px solid var(--line); background: color-mix(in srgb, var(--paper) 82%, transparent); padding: 12px; display: flex; align-items: center; gap: 14px; border-radius: 10px; box-shadow: 0 10px 40px rgba(0,0,0,.07); }
-.control-group { display: flex; align-items: center; gap: 9px; font: 500 12px var(--font-mono); text-transform: uppercase; letter-spacing: .08em; }
+.year-browser { border: 1px solid var(--line); border-bottom: 0; background: color-mix(in srgb, var(--paper) 88%, transparent); padding: 12px 14px; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 18px; border-radius: 10px 10px 0 0; }
+.year-browser-heading { display: flex; flex-direction: column; gap: 3px; }
+.year-browser-heading > span, .year-browser-menu > span { font: 600 11px var(--font-mono); text-transform: uppercase; letter-spacing: .08em; }
+.year-browser-heading small { color: var(--muted); font-size: 11px; }
+.year-list { display: flex; align-items: center; gap: 7px; min-width: 0; overflow-x: auto; scrollbar-width: none; }
+.year-list::-webkit-scrollbar { display: none; }
+.year-list button { flex: 0 0 auto; min-width: 64px; height: 34px; border: 1px solid var(--line); border-radius: 999px; background: var(--control); color: var(--muted); cursor: pointer; font: 700 12px var(--font-mono); transition: background .16s, border-color .16s, color .16s, transform .16s; }
+.year-list button:hover { border-color: color-mix(in srgb, var(--green) 55%, var(--line)); color: var(--ink); transform: translateY(-1px); }
+.year-list button.active { border-color: var(--green); background: var(--green); color: #071c16; }
+.year-browser-menu { display: flex; align-items: center; gap: 8px; color: var(--muted); }
+.control-bar { border: 1px solid var(--line); background: color-mix(in srgb, var(--paper) 82%, transparent); padding: 12px; display: flex; align-items: center; gap: 14px; border-radius: 0 0 10px 10px; box-shadow: 0 10px 40px rgba(0,0,0,.07); }
 .conference-toggles button, .segmented button { border: 1px solid var(--line); background: var(--control); color: var(--control-ink); border-radius: 6px; padding: 9px 12px; font-size: 12px; font-weight: 700; cursor: pointer; }
 .year-picker { position: relative; display: inline-flex; align-items: center; }
 .year-trigger { min-width: 82px; height: 36px; border: 1px solid var(--line); background: var(--control); color: var(--control-ink); border-radius: 7px; padding: 0 9px 0 12px; display: flex; align-items: center; justify-content: space-between; gap: 10px; cursor: pointer; font: 700 12px var(--font-mono); transition: border-color .16s, background .16s; }
@@ -285,6 +294,9 @@ footer { max-width: 1240px; padding: 25px 24px 35px; margin: 0 auto; border-top:
   .ranking-header, .ranking-row { grid-template-columns: 42px minmax(260px, 1fr) minmax(150px, .7fr) 90px; }
   .ranking-header span:nth-child(4), .conference-cell { display: none; }
   .control-bar { align-items: stretch; flex-direction: column; }
+  .year-browser { grid-template-columns: 1fr auto; gap: 10px 14px; }
+  .year-list { grid-column: 1 / -1; grid-row: 2; margin: 0 -2px; padding: 2px; }
+  .year-browser-menu > span { display: none; }
   .review-banner { align-items: flex-start; flex-wrap: wrap; }
   .review-banner a { margin-left: 0; }
   .conference-toggles { flex-wrap: wrap; }
@@ -307,6 +319,9 @@ footer { max-width: 1240px; padding: 25px 24px 35px; margin: 0 auto; border-top:
   .hero { min-height: 0; padding: 52px 0 40px; }
   .hero h1 { font-size: 35px; line-height: 1.08; }
   .hero h1 span, .hero h1 em { white-space: normal; }
+  .year-browser { padding: 11px 12px; }
+  .year-browser-heading > span { font-size: 10px; }
+  .year-list button { min-width: 61px; }
   .summary-grid { grid-template-columns: 1fr; }
   .summary-card { min-height: 150px; }
   .ranking-panel { padding: 17px; }
@@ -339,7 +354,7 @@ footer { max-width: 1240px; padding: 25px 24px 35px; margin: 0 auto; border-top:
 
 @media print {
   :root { color: #152a24; --ink: #152a24; --muted: #61716c; --line: #d5dfd8; --paper: #fff; --control: #fff; --hover: #f1f7f3; }
-  .site-header, footer, .control-bar, .comparison-panel, .review-banner { display: none; }
+  .site-header, footer, .year-browser, .control-bar, .comparison-panel, .review-banner { display: none; }
   body { background: #fff; }
   main { max-width: none; padding: 20px; }
   .hero { min-height: 260px; padding: 20px 0; }

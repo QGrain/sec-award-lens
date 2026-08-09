@@ -1,0 +1,270 @@
+{
+  "awards": [
+    {
+      "edition_id": "acm-ccs-2022",
+      "id": "acm-ccs-2022-victory-by-ko-attacking-openpgp-using-key-overwriting-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "2bf8eebed43c2c1f46e5d3a2d7f48114e666ba330c492e095a95e294ce19ce98",
+        "parser_version": "2022.1",
+        "retrieved_at": "2026-08-09T14:15:23Z",
+        "url": "https://www.sigsac.org/ccs/CCS2022/program/awards.html"
+      },
+      "paper_id": "acm-ccs-2022-victory-by-ko-attacking-openpgp-using-key-overwriting",
+      "raw_authors": "Kenny Paterson, Lara Bruseghini, Daniel Huigens",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "Victory by KO: Attacking OpenPGP Using Key Overwriting"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 0.99,
+      "external_id": "W4308391724",
+      "method": "manual_override",
+      "override_reason": "Exact DOI, publication year, and author agreement with the ACM proceedings record; OpenAlex abbreviates the work title.",
+      "paper_id": "acm-ccs-2022-victory-by-ko-attacking-openpgp-using-key-overwriting",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Reviewed against the official award paper page and the persistent OpenAlex work record.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1145/3548606.3559363",
+        "external_id": "W4308391724",
+        "publication_year": 2022,
+        "title": "Victory by KO",
+        "title_similarity": 0.3939393939393939,
+        "venue": "Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-09T14:35:20Z",
+      "verified_by": "SecAwardLens maintainer review"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "17412810065875244128",
+      "method": "manual_override",
+      "override_reason": "Exact title, author, and publication-year agreement with the official paper record identifies this Google Scholar numeric cluster; manual review resolves incomplete venue or author evidence in the search result.",
+      "paper_id": "acm-ccs-2022-victory-by-ko-attacking-openpgp-using-key-overwriting",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Reviewed from the SerpApi title-search result; counts remain provider-specific observations.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "17412810065875244128",
+        "publication_year": 2022,
+        "title": "Victory by KO: Attacking OpenPGP Using Key Overwriting",
+        "title_similarity": 1.0,
+        "venue": "Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-09T14:35:20Z",
+      "verified_by": "SecAwardLens maintainer review"
+    },
+    {
+      "confidence": 1.0,
+      "external_id": "97196772642dfe7080c6ea954c99bb3b36f08a7a",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "acm-ccs-2022-victory-by-ko-attacking-openpgp-using-key-overwriting",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1145/3548606.3559363",
+        "external_id": "97196772642dfe7080c6ea954c99bb3b36f08a7a",
+        "publication_year": 2022,
+        "title": "Victory by KO: Attacking OpenPGP Using Key Overwriting",
+        "title_similarity": 1.0,
+        "venue": "Conference on Computer and Communications Security",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-09T14:51:00Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
+    }
+  ],
+  "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2022
+          },
+          {
+            "count": 3,
+            "year": 2023
+          },
+          {
+            "count": 6,
+            "year": 2024
+          },
+          {
+            "count": 3,
+            "year": 2025
+          }
+        ],
+        "external_id": "17412810065875244128",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2022-victory-by-ko-attacking-openpgp-using-key-overwriting",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=17412810065875244128&hl=en",
+        "response_sha256": "a2174baaf55260f04173eacd437dfc721173a5a1f60d392f4eff6edbe37e48c7",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T14:40:32.412627Z",
+        "total_citations": 13
+      }
+    ],
+    "openalex": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 2,
+            "year": 2022
+          },
+          {
+            "count": 1,
+            "year": 2023
+          },
+          {
+            "count": 2,
+            "year": 2024
+          },
+          {
+            "count": 1,
+            "year": 2025
+          }
+        ],
+        "external_id": "W4308391724",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2022-victory-by-ko-attacking-openpgp-using-key-overwriting",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+        "request_fingerprint": "GET /works/W4308391724?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "d2b73cdafab81a5e02eb08a9c549059612a1905f4fb2fefb1d61b5777a2e860f",
+        "retrieval_service": "openalex",
+        "retrieved_at": "2026-08-09T14:42:27.999060Z",
+        "total_citations": 6
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "97196772642dfe7080c6ea954c99bb3b36f08a7a",
+        "influential_citations": 0,
+        "paper_id": "acm-ccs-2022-victory-by-ko-attacking-openpgp-using-key-overwriting",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/97196772642dfe7080c6ea954c99bb3b36f08a7a?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "0773b4f303034147f8207fb8b84b0e02ae80200324226ef6fdaf4ba2b4c42e35",
+        "retrieval_service": "semantic_scholar",
+        "retrieved_at": "2026-08-09T14:48:06.775322Z",
+        "total_citations": 9
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [
+          {
+            "display_name": "ETH Zurich",
+            "openalex_id": "I35440088",
+            "ror": "https://ror.org/05a28rw58"
+          }
+        ],
+        "author_name": "Lara Bruseghini",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5001116601"
+      },
+      {
+        "affiliations": [],
+        "author_name": "Daniel Huigens",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5009215863"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "ETH Zurich",
+            "openalex_id": "I35440088",
+            "ror": "https://ror.org/05a28rw58"
+          }
+        ],
+        "author_name": "Kenneth G. Paterson",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5072987600"
+      }
+    ],
+    "external_id": "W4308391724",
+    "paper_id": "acm-ccs-2022-victory-by-ko-attacking-openpgp-using-key-overwriting",
+    "primary_topic": {
+      "display_name": "Security and Verification in Computing",
+      "openalex_id": "T11424",
+      "score": 0.9998000264167786
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-09T14:35:20Z"
+  },
+  "generated_at": "2026-08-09T14:48:06.775322+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Lara Bruseghini"
+      },
+      {
+        "name": "Daniel Huigens"
+      },
+      {
+        "name": "Kenneth G. Paterson"
+      }
+    ],
+    "canonical_title": "Victory by KO: Attacking OpenPGP Using Key Overwriting",
+    "id": "acm-ccs-2022-victory-by-ko-attacking-openpgp-using-key-overwriting",
+    "identifiers": [
+      {
+        "scheme": "doi",
+        "source_url": "https://dl.acm.org/doi/10.1145/3548606.3559363",
+        "value": "10.1145/3548606.3559363",
+        "verified_at": "2026-08-09T14:15:23Z"
+      },
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W4308391724",
+        "value": "W4308391724",
+        "verified_at": "2026-08-09T14:35:20Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=17412810065875244128",
+        "value": "17412810065875244128",
+        "verified_at": "2026-08-09T14:35:20Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/97196772642dfe7080c6ea954c99bb3b36f08a7a?utm_source=api",
+        "value": "97196772642dfe7080c6ea954c99bb3b36f08a7a",
+        "verified_at": "2026-08-09T14:51:00Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.sigsac.org/ccs/CCS2022/program/awards.html",
+      "https://www.sigsac.org/ccs/CCS2022/proceedings/ccs-proceedings.html"
+    ],
+    "official_paper_url": "https://dl.acm.org/doi/10.1145/3548606.3559363",
+    "publication_year": 2022,
+    "venue_name": "2022 ACM SIGSAC Conference on Computer and Communications Security"
+  },
+  "schema_version": 1
+}

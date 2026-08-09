@@ -40,3 +40,21 @@ describe("generated 2023 contract", () => {
     expect(data.conference_summaries.map((item) => item.award_count)).toEqual([12, 16, 17, 2]);
   });
 });
+
+describe("generated 2022 contract", () => {
+  const data = JSON.parse(
+    readFileSync(join(process.cwd(), "public/data/years/2022.json"), "utf8"),
+  ) as YearData;
+
+  it("contains all official 2022 award records and provider coverage", () => {
+    expect(data.schema_version).toBe(3);
+    expect(data.rows).toHaveLength(22);
+    expect(data.rows.filter((row) => row.citations.google_scholar)).toHaveLength(22);
+    expect(data.rows.filter((row) => row.citations.openalex)).toHaveLength(13);
+    expect(data.rows.filter((row) => row.citations.semantic_scholar)).toHaveLength(20);
+  });
+
+  it("reports paper denominators for every conference", () => {
+    expect(data.conference_summaries.map((item) => item.award_count)).toEqual([4, 12, 5, 1]);
+  });
+});

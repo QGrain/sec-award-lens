@@ -1,0 +1,178 @@
+{
+  "awards": [
+    {
+      "edition_id": "usenix-security-2022",
+      "id": "usenix-security-2022-online-website-fingerprinting-evaluating-website-fingerprinting-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "ae2397a340986e50807a6e1c5921f63da4d0b421718ac3947af5b752fae818ab",
+        "parser_version": "2022.1",
+        "retrieved_at": "2026-08-09T14:15:23Z",
+        "url": "https://www.usenix.org/conference/usenixsecurity22/technical-sessions"
+      },
+      "paper_id": "usenix-security-2022-online-website-fingerprinting-evaluating-website-fingerprinting",
+      "raw_authors": "Giovanni Cherubin, Alan Turing Institute; Rob Jansen, U.S. Naval Research Laboratory; Carmela Troncoso, EPFL SPRING Lab",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "Online Website Fingerprinting: Evaluating Website Fingerprinting Attacks on Tor in the Real World"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": null,
+      "external_id": null,
+      "method": null,
+      "override_reason": null,
+      "paper_id": "usenix-security-2022-online-website-fingerprinting-evaluating-website-fingerprinting",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "No sufficiently reliable OpenAlex conference or preprint entity was found on 2026-08-09; later journal-only and artifact records were not substituted.",
+      "selected_candidate": null,
+      "status": "pending",
+      "verified_at": null,
+      "verified_by": null
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "10197221097772115422",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2022-online-website-fingerprinting-evaluating-website-fingerprinting",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "10197221097772115422",
+        "publication_year": 2022,
+        "title": "Online Website Fingerprinting: Evaluating Website Fingerprinting Attacks on Tor in the Real World",
+        "title_similarity": 1.0,
+        "venue": "31st USENIX Security Symposium",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-09T14:35:20Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "a2b2c2a3d421930688669e0b6cf528f8c1125bcc",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2022-online-website-fingerprinting-evaluating-website-fingerprinting",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "a2b2c2a3d421930688669e0b6cf528f8c1125bcc",
+        "publication_year": 2022,
+        "title": "Online Website Fingerprinting: Evaluating Website Fingerprinting Attacks on Tor in the Real World",
+        "title_similarity": 1.0,
+        "venue": "USENIX Security Symposium",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-09T14:51:00Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
+    }
+  ],
+  "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 4,
+            "year": 2022
+          },
+          {
+            "count": 35,
+            "year": 2023
+          },
+          {
+            "count": 53,
+            "year": 2024
+          },
+          {
+            "count": 62,
+            "year": 2025
+          },
+          {
+            "count": 34,
+            "year": 2026
+          }
+        ],
+        "external_id": "10197221097772115422",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2022-online-website-fingerprinting-evaluating-website-fingerprinting",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=10197221097772115422&hl=en",
+        "response_sha256": "42a4072d8bfd8b1d0b9b421be613c5ccb690f38fbd1183df5638b15c5e303845",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T14:40:32.412627Z",
+        "total_citations": 188
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "a2b2c2a3d421930688669e0b6cf528f8c1125bcc",
+        "influential_citations": 15,
+        "paper_id": "usenix-security-2022-online-website-fingerprinting-evaluating-website-fingerprinting",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/a2b2c2a3d421930688669e0b6cf528f8c1125bcc?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "fb5a5a9fe6bb8074c89c26c0545ae7b7d18e25ae833a8af8969352aac3e2182a",
+        "retrieval_service": "semantic_scholar",
+        "retrieved_at": "2026-08-09T14:48:06.775322Z",
+        "total_citations": 128
+      }
+    ]
+  },
+  "enrichment": null,
+  "generated_at": "2026-08-09T14:48:06.775322+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Giovanni Cherubin"
+      },
+      {
+        "name": "Rob Jansen"
+      },
+      {
+        "name": "Carmela Troncoso"
+      }
+    ],
+    "canonical_title": "Online Website Fingerprinting: Evaluating Website Fingerprinting Attacks on Tor in the Real World",
+    "id": "usenix-security-2022-online-website-fingerprinting-evaluating-website-fingerprinting",
+    "identifiers": [
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=10197221097772115422",
+        "value": "10197221097772115422",
+        "verified_at": "2026-08-09T14:35:20Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/a2b2c2a3d421930688669e0b6cf528f8c1125bcc?utm_source=api",
+        "value": "a2b2c2a3d421930688669e0b6cf528f8c1125bcc",
+        "verified_at": "2026-08-09T14:51:00Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.usenix.org/conference/usenixsecurity22/technical-sessions",
+      "https://www.usenix.org/conference/usenixsecurity22/presentation/cherubin"
+    ],
+    "official_paper_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/cherubin",
+    "publication_year": 2022,
+    "venue_name": "31st USENIX Security Symposium"
+  },
+  "schema_version": 1
+}

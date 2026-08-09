@@ -1,0 +1,196 @@
+{
+  "awards": [
+    {
+      "edition_id": "usenix-security-2022",
+      "id": "usenix-security-2022-identity-confusion-in-webview-based-mobile-app-in-app-ecosystems-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "ae2397a340986e50807a6e1c5921f63da4d0b421718ac3947af5b752fae818ab",
+        "parser_version": "2022.1",
+        "retrieved_at": "2026-08-09T14:15:23Z",
+        "url": "https://www.usenix.org/conference/usenixsecurity22/technical-sessions"
+      },
+      "paper_id": "usenix-security-2022-identity-confusion-in-webview-based-mobile-app-in-app-ecosystems",
+      "raw_authors": "Lei Zhang, Zhibo Zhang, and Ancong Liu, Fudan University; Yinzhi Cao, Johns Hopkins University; Xiaohan Zhang, Yanjun Chen, Yuan Zhang, Guangliang Yang, and Min Yang, Fudan University",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "Identity Confusion in WebView-based Mobile App-in-app Ecosystems"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": null,
+      "external_id": null,
+      "method": null,
+      "override_reason": null,
+      "paper_id": "usenix-security-2022-identity-confusion-in-webview-based-mobile-app-in-app-ecosystems",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "No sufficiently reliable OpenAlex conference or preprint entity was found on 2026-08-09; later journal-only and artifact records were not substituted.",
+      "selected_candidate": null,
+      "status": "pending",
+      "verified_at": null,
+      "verified_by": null
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "2859060886136934922",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2022-identity-confusion-in-webview-based-mobile-app-in-app-ecosystems",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "2859060886136934922",
+        "publication_year": 2022,
+        "title": "Identity Confusion in WebView-based Mobile App-in-app Ecosystems",
+        "title_similarity": 1.0,
+        "venue": "31st USENIX Security Symposium",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-09T14:35:20Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "29e6e2bb927fd0ecd418b63e783f086ac5375623",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2022-identity-confusion-in-webview-based-mobile-app-in-app-ecosystems",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "29e6e2bb927fd0ecd418b63e783f086ac5375623",
+        "publication_year": 2022,
+        "title": "Identity Confusion in WebView-based Mobile App-in-app Ecosystems",
+        "title_similarity": 1.0,
+        "venue": "USENIX Security Symposium",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-09T14:51:00Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
+    }
+  ],
+  "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 2,
+            "year": 2022
+          },
+          {
+            "count": 29,
+            "year": 2023
+          },
+          {
+            "count": 13,
+            "year": 2024
+          },
+          {
+            "count": 17,
+            "year": 2025
+          },
+          {
+            "count": 8,
+            "year": 2026
+          }
+        ],
+        "external_id": "2859060886136934922",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2022-identity-confusion-in-webview-based-mobile-app-in-app-ecosystems",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=2859060886136934922&hl=en",
+        "response_sha256": "55ed3a080253392d2e6ed6525574b4f6ef0e7c263526ca5fdede00848a2c180f",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T14:40:32.412627Z",
+        "total_citations": 69
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "29e6e2bb927fd0ecd418b63e783f086ac5375623",
+        "influential_citations": 3,
+        "paper_id": "usenix-security-2022-identity-confusion-in-webview-based-mobile-app-in-app-ecosystems",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/29e6e2bb927fd0ecd418b63e783f086ac5375623?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "fa1866c8b807ab240a912404ae670f794beda3a37f5f800699f356f18bab5033",
+        "retrieval_service": "semantic_scholar",
+        "retrieved_at": "2026-08-09T14:48:06.775322Z",
+        "total_citations": 41
+      }
+    ]
+  },
+  "enrichment": null,
+  "generated_at": "2026-08-09T14:48:06.775322+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Lei Zhang"
+      },
+      {
+        "name": "Zhibo Zhang"
+      },
+      {
+        "name": "Ancong Liu"
+      },
+      {
+        "name": "Yinzhi Cao"
+      },
+      {
+        "name": "Xiaohan Zhang"
+      },
+      {
+        "name": "Yanjun Chen"
+      },
+      {
+        "name": "Yuan Zhang"
+      },
+      {
+        "name": "Guangliang Yang"
+      },
+      {
+        "name": "Min Yang"
+      }
+    ],
+    "canonical_title": "Identity Confusion in WebView-based Mobile App-in-app Ecosystems",
+    "id": "usenix-security-2022-identity-confusion-in-webview-based-mobile-app-in-app-ecosystems",
+    "identifiers": [
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=2859060886136934922",
+        "value": "2859060886136934922",
+        "verified_at": "2026-08-09T14:35:20Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/29e6e2bb927fd0ecd418b63e783f086ac5375623?utm_source=api",
+        "value": "29e6e2bb927fd0ecd418b63e783f086ac5375623",
+        "verified_at": "2026-08-09T14:51:00Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.usenix.org/conference/usenixsecurity22/technical-sessions",
+      "https://www.usenix.org/conference/usenixsecurity22/presentation/zhang-lei"
+    ],
+    "official_paper_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/zhang-lei",
+    "publication_year": 2022,
+    "venue_name": "31st USENIX Security Symposium"
+  },
+  "schema_version": 1
+}

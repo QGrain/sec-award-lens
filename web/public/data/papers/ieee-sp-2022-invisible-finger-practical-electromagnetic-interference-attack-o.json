@@ -1,0 +1,325 @@
+{
+  "awards": [
+    {
+      "edition_id": "ieee-sp-2022",
+      "id": "ieee-sp-2022-invisible-finger-practical-electromagnetic-interference-attack-o-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "109993c86c526612fe7f30348b877abb3561e732e3e2294167976c742dc80225",
+        "parser_version": "2022.1",
+        "retrieved_at": "2026-08-09T14:15:23Z",
+        "url": "https://www.ieee-security.org/TC/SP2022/awards.html"
+      },
+      "paper_id": "ieee-sp-2022-invisible-finger-practical-electromagnetic-interference-attack-o",
+      "raw_authors": "Haoqi Shan (University of Florida), Boyi Zhang (University of Florida), Zihao Zhan (University of Florida), Dean Sullivan (University of New Hampshire), Shuo Wang (University of Florida), Yier Jin (University of Florida)",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "Invisible Finger: Practical Electromagnetic Interference Attack on Touchscreen-based Electronic Devices"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 1.0,
+      "external_id": "W4288057774",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "ieee-sp-2022-invisible-finger-practical-electromagnetic-interference-attack-o",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI with compatible title, author, and publication-year evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1109/sp46214.2022.9833718",
+        "external_id": "W4288057774",
+        "publication_year": 2022,
+        "title": "Invisible Finger: Practical Electromagnetic Interference Attack on Touchscreen-based Electronic Devices",
+        "title_similarity": 1.0,
+        "venue": "2022 IEEE Symposium on Security and Privacy (SP)",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-09T14:35:20Z",
+      "verified_by": "SecAwardLens OpenAlex resolver"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "9271269350994327061",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "ieee-sp-2022-invisible-finger-practical-electromagnetic-interference-attack-o",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "9271269350994327061",
+        "publication_year": 2022,
+        "title": "Invisible Finger: Practical Electromagnetic Interference Attack on Touchscreen-based Electronic Devices",
+        "title_similarity": 1.0,
+        "venue": "2022 IEEE Symposium on Security and Privacy (SP)",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-09T14:35:20Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    },
+    {
+      "confidence": 1.0,
+      "external_id": "8736acd01917ebed8ea90b99a36089d047a9dc64",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "ieee-sp-2022-invisible-finger-practical-electromagnetic-interference-attack-o",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1109/sp46214.2022.9833718",
+        "external_id": "8736acd01917ebed8ea90b99a36089d047a9dc64",
+        "publication_year": 2022,
+        "title": "Invisible Finger: Practical Electromagnetic Interference Attack on Touchscreen-based Electronic Devices",
+        "title_similarity": 1.0,
+        "venue": "IEEE Symposium on Security and Privacy",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-09T14:35:20Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
+    }
+  ],
+  "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 5,
+            "year": 2022
+          },
+          {
+            "count": 13,
+            "year": 2023
+          },
+          {
+            "count": 16,
+            "year": 2024
+          },
+          {
+            "count": 13,
+            "year": 2025
+          },
+          {
+            "count": 7,
+            "year": 2026
+          }
+        ],
+        "external_id": "9271269350994327061",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2022-invisible-finger-practical-electromagnetic-interference-attack-o",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=9271269350994327061&hl=en",
+        "response_sha256": "245acc7fafcce7d0e1067ced6b24b67e5055b1b45fc7a3c449b51e69b82ae582",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T14:40:32.412627Z",
+        "total_citations": 54
+      }
+    ],
+    "openalex": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 5,
+            "year": 2023
+          },
+          {
+            "count": 9,
+            "year": 2024
+          },
+          {
+            "count": 8,
+            "year": 2025
+          },
+          {
+            "count": 3,
+            "year": 2026
+          }
+        ],
+        "external_id": "W4288057774",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2022-invisible-finger-practical-electromagnetic-interference-attack-o",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-05T07:39:15.569665",
+        "request_fingerprint": "GET /works/W4288057774?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "95ce04c5369b9c406860bc2033cab80a3393eb278745c00342d3bbc4b4313723",
+        "retrieval_service": "openalex",
+        "retrieved_at": "2026-08-09T14:42:27.999060Z",
+        "total_citations": 25
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "8736acd01917ebed8ea90b99a36089d047a9dc64",
+        "influential_citations": 4,
+        "paper_id": "ieee-sp-2022-invisible-finger-practical-electromagnetic-interference-attack-o",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/8736acd01917ebed8ea90b99a36089d047a9dc64?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "b2a0c74f5efec3cb385ae2a96c8bc5e05a5d5714fe920750c05ea114b37995ae",
+        "retrieval_service": "semantic_scholar",
+        "retrieved_at": "2026-08-09T14:42:47.499590Z",
+        "total_citations": 18
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [
+          {
+            "display_name": "University of Florida",
+            "openalex_id": "I33213144",
+            "ror": "https://ror.org/02y3ad647"
+          }
+        ],
+        "author_name": "Haoqi Shan",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5076364292"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "University of Florida",
+            "openalex_id": "I33213144",
+            "ror": "https://ror.org/02y3ad647"
+          }
+        ],
+        "author_name": "Boyi Zhang",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5005535515"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "University of Florida",
+            "openalex_id": "I33213144",
+            "ror": "https://ror.org/02y3ad647"
+          }
+        ],
+        "author_name": "Zihao Zhan",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5010864491"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "University of New Hampshire at Manchester",
+            "openalex_id": "I179093154",
+            "ror": "https://ror.org/04pvpk743"
+          }
+        ],
+        "author_name": "Dean Sullivan",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5069563170"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "University of Florida",
+            "openalex_id": "I33213144",
+            "ror": "https://ror.org/02y3ad647"
+          }
+        ],
+        "author_name": "Shuo Wang",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5100400144"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "University of Florida",
+            "openalex_id": "I33213144",
+            "ror": "https://ror.org/02y3ad647"
+          }
+        ],
+        "author_name": "Yier Jin",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5017464942"
+      }
+    ],
+    "external_id": "W4288057774",
+    "paper_id": "ieee-sp-2022-invisible-finger-practical-electromagnetic-interference-attack-o",
+    "primary_topic": {
+      "display_name": "Physical Unclonable Functions (PUFs) and Hardware Security",
+      "openalex_id": "T12122",
+      "score": 0.9988999962806702
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-09T14:35:20Z"
+  },
+  "generated_at": "2026-08-09T14:42:47.499590+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Haoqi Shan"
+      },
+      {
+        "name": "Boyi Zhang"
+      },
+      {
+        "name": "Zihao Zhan"
+      },
+      {
+        "name": "Dean Sullivan"
+      },
+      {
+        "name": "Shuo Wang"
+      },
+      {
+        "name": "Yier Jin"
+      }
+    ],
+    "canonical_title": "Invisible Finger: Practical Electromagnetic Interference Attack on Touchscreen-based Electronic Devices",
+    "id": "ieee-sp-2022-invisible-finger-practical-electromagnetic-interference-attack-o",
+    "identifiers": [
+      {
+        "scheme": "doi",
+        "source_url": "https://api.crossref.org/works/10.1109/sp46214.2022.9833718",
+        "value": "10.1109/sp46214.2022.9833718",
+        "verified_at": "2026-08-09T14:15:23Z"
+      },
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W4288057774",
+        "value": "W4288057774",
+        "verified_at": "2026-08-09T14:35:20Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=9271269350994327061",
+        "value": "9271269350994327061",
+        "verified_at": "2026-08-09T14:35:20Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/8736acd01917ebed8ea90b99a36089d047a9dc64?utm_source=api",
+        "value": "8736acd01917ebed8ea90b99a36089d047a9dc64",
+        "verified_at": "2026-08-09T14:35:20Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.ieee-security.org/TC/SP2022/awards.html",
+      "https://api.crossref.org/works/10.1109/sp46214.2022.9833718"
+    ],
+    "official_paper_url": null,
+    "publication_year": 2022,
+    "venue_name": "2022 IEEE Symposium on Security and Privacy"
+  },
+  "schema_version": 1
+}

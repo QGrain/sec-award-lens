@@ -45,6 +45,38 @@
   ],
   "coverage": [
     {
+      "edition_id": "ieee-sp-2022",
+      "notes": "Official awards page contains 4 core Distinguished Paper Award records; Test-of-Time awards are excluded.",
+      "source_urls": [
+        "https://www.ieee-security.org/TC/SP2022/awards.html"
+      ],
+      "status": "verified"
+    },
+    {
+      "edition_id": "usenix-security-2022",
+      "notes": "Official technical-sessions page contains 12 core Distinguished Paper Award records across the 2022 submission cycles.",
+      "source_urls": [
+        "https://www.usenix.org/conference/usenixsecurity22/technical-sessions"
+      ],
+      "status": "verified"
+    },
+    {
+      "edition_id": "acm-ccs-2022",
+      "notes": "Official awards page contains 5 Distinguished Paper Award records; Best Paper Honorable Mentions and Test-of-Time awards are excluded.",
+      "source_urls": [
+        "https://www.sigsac.org/ccs/CCS2022/program/awards.html"
+      ],
+      "status": "verified"
+    },
+    {
+      "edition_id": "ndss-2022",
+      "notes": "Official main-symposium page contains 1 Distinguished Paper Award record; poster and Test-of-Time awards are excluded.",
+      "source_urls": [
+        "https://www.ndss-symposium.org/ndss2022/"
+      ],
+      "status": "verified"
+    },
+    {
       "edition_id": "ieee-sp-2023",
       "notes": "Official page contains 12 core Distinguished Paper Award records; independent maintainer row-by-row sign-off is pending.",
       "source_urls": [
@@ -78,11 +110,12 @@
     }
   ],
   "default_year": 2023,
-  "generated_at": "2026-08-09T05:36:36.847658+00:00",
+  "generated_at": "2026-08-09T14:48:06.775322+00:00",
   "methodology_url": "#/methodology",
   "preferred_citation_source": "google_scholar",
   "schema_version": 1,
   "years": [
+    2022,
     2023
   ]
 }

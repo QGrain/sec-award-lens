@@ -317,3 +317,155 @@ overrides:
   - https://www.semanticscholar.org/paper/cfa801618d46702b0c3376e3a29326315fe44020?utm_source=api
   - https://www.usenix.org/conference/usenixsecurity23/presentation/cheval
   - https://www.usenix.org/conference/usenixsecurity23/technical-sessions
+- paper_id: acm-ccs-2022-victory-by-ko-attacking-openpgp-using-key-overwriting
+  provider: openalex
+  external_id: W4308391724
+  reason: Exact DOI, publication year, and author agreement with the ACM proceedings record; OpenAlex abbreviates the work title.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:35:20Z'
+  evidence_urls:
+  - https://dl.acm.org/doi/10.1145/3548606.3559363
+  - https://openalex.org/W4308391724
+- paper_id: acm-ccs-2022-zapper-smart-contracts-with-data-and-identity-privacy
+  provider: openalex
+  external_id: W4308642223
+  reason: Exact DOI, publication year, and author agreement with the ACM proceedings record; OpenAlex abbreviates the work title.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:35:20Z'
+  evidence_urls:
+  - https://dl.acm.org/doi/10.1145/3548606.3560622
+  - https://openalex.org/W4308642223
+- paper_id: acm-ccs-2022-star-secret-sharing-for-private-threshold-aggregation-reporting
+  provider: openalex
+  external_id: W4308408787
+  reason: Exact DOI, publication year, and author agreement with the ACM proceedings record; OpenAlex abbreviates the work title.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:35:20Z'
+  evidence_urls:
+  - https://dl.acm.org/doi/10.1145/3548606.3560631
+  - https://openalex.org/W4308408787
+- paper_id: usenix-security-2022-attacks-on-deidentification-s-defenses
+  provider: openalex
+  external_id: W4226318410
+  reason: Exact title and author agreement with the official USENIX paper; OpenAlex exposes the corresponding preprint entity, which is retained without combining separate versions.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:35:20Z'
+  evidence_urls:
+  - https://www.usenix.org/conference/usenixsecurity22/presentation/cohen
+  - https://openalex.org/W4226318410
+- paper_id: usenix-security-2022-dos-and-don-ts-of-machine-learning-in-computer-security
+  provider: openalex
+  external_id: W3092978542
+  reason: Exact title and author agreement with the official USENIX paper; OpenAlex exposes the corresponding preprint entity, which is retained without combining separate versions.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:35:20Z'
+  evidence_urls:
+  - https://www.usenix.org/conference/usenixsecurity22/presentation/arp
+  - https://openalex.org/W3092978542
+- paper_id: usenix-security-2022-augmenting-decompiler-output-with-learned-variable-names-and-typ
+  provider: openalex
+  external_id: W3193654868
+  reason: Exact title and author agreement with the official USENIX paper; OpenAlex exposes the corresponding preprint entity, which is retained without combining separate versions.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:35:20Z'
+  evidence_urls:
+  - https://www.usenix.org/conference/usenixsecurity22/presentation/chen-qibin
+  - https://openalex.org/W3193654868
+- paper_id: ieee-sp-2022-four-attacks-and-a-proof-for-telegram
+  provider: google_scholar
+  external_id: '11099704654015424130'
+  reason: Exact title, author, and publication-year agreement with the official paper record identifies this Google Scholar numeric cluster; manual review resolves incomplete venue or author evidence in the search result.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:35:20Z'
+  evidence_urls:
+  - https://scholar.google.com/scholar?cluster=11099704654015424130
+  - https://www.ieee-security.org/TC/SP2022/awards.html
+  - https://www.ieee-security.org/TC/SP2022/awards.html
+- paper_id: ieee-sp-2022-asleep-at-the-keyboard-assessing-the-security-of-github-copilots
+  provider: google_scholar
+  external_id: '15749188844572183021'
+  reason: Google Scholar groups the official 2022 IEEE conference paper with a later journal version; the numeric cluster is retained as Scholar’s canonical version group.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:35:20Z'
+  evidence_urls:
+  - https://scholar.google.com/scholar?cluster=15749188844572183021
+  - https://www.ieee-security.org/TC/SP2022/awards.html
+  - https://www.ieee-security.org/TC/SP2022/awards.html
+- paper_id: usenix-security-2022-openvpn-is-open-to-vpn-fingerprinting
+  provider: google_scholar
+  external_id: '5669762753806705860'
+  reason: Google Scholar groups the official 2022 USENIX conference paper with a later journal version; the numeric cluster is retained as Scholar’s canonical version group.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:35:20Z'
+  evidence_urls:
+  - https://scholar.google.com/scholar?cluster=5669762753806705860
+  - https://www.usenix.org/conference/usenixsecurity22/presentation/xue-diwen
+  - https://www.usenix.org/conference/usenixsecurity22/technical-sessions
+- paper_id: acm-ccs-2022-victory-by-ko-attacking-openpgp-using-key-overwriting
+  provider: google_scholar
+  external_id: '17412810065875244128'
+  reason: Exact title, author, and publication-year agreement with the official paper record identifies this Google Scholar numeric cluster; manual review resolves incomplete venue or author evidence in the search result.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:35:20Z'
+  evidence_urls:
+  - https://scholar.google.com/scholar?cluster=17412810065875244128
+  - https://dl.acm.org/doi/10.1145/3548606.3559363
+  - https://www.sigsac.org/ccs/CCS2022/program/awards.html
+- paper_id: acm-ccs-2022-proving-unsat-in-zero-knowledge
+  provider: google_scholar
+  external_id: '10094656466972185374'
+  reason: Exact title, author, and publication-year agreement with the official paper record identifies this Google Scholar numeric cluster; manual review resolves incomplete venue or author evidence in the search result.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:35:20Z'
+  evidence_urls:
+  - https://scholar.google.com/scholar?cluster=10094656466972185374
+  - https://dl.acm.org/doi/10.1145/3548606.3559373
+  - https://www.sigsac.org/ccs/CCS2022/program/awards.html
+- paper_id: acm-ccs-2022-automatic-detection-of-speculative-execution-combinations
+  provider: google_scholar
+  external_id: '699693440773325732'
+  reason: Exact title, author, and publication-year agreement with the official paper record identifies this Google Scholar numeric cluster; manual review resolves incomplete venue or author evidence in the search result.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:35:20Z'
+  evidence_urls:
+  - https://scholar.google.com/scholar?cluster=699693440773325732
+  - https://dl.acm.org/doi/10.1145/3548606.3560555
+  - https://www.sigsac.org/ccs/CCS2022/program/awards.html
+- paper_id: acm-ccs-2022-zapper-smart-contracts-with-data-and-identity-privacy
+  provider: google_scholar
+  external_id: '2611490582441277773'
+  reason: Exact title, author, and publication-year agreement with the official paper record identifies this Google Scholar numeric cluster; manual review resolves incomplete venue or author evidence in the search result.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:35:20Z'
+  evidence_urls:
+  - https://scholar.google.com/scholar?cluster=2611490582441277773
+  - https://dl.acm.org/doi/10.1145/3548606.3560622
+  - https://www.sigsac.org/ccs/CCS2022/program/awards.html
+- paper_id: acm-ccs-2022-star-secret-sharing-for-private-threshold-aggregation-reporting
+  provider: google_scholar
+  external_id: '10518023341920651716'
+  reason: Exact title, author, and publication-year agreement with the official paper record identifies this Google Scholar numeric cluster; manual review resolves incomplete venue or author evidence in the search result.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:35:20Z'
+  evidence_urls:
+  - https://scholar.google.com/scholar?cluster=10518023341920651716
+  - https://dl.acm.org/doi/10.1145/3548606.3560631
+  - https://www.sigsac.org/ccs/CCS2022/program/awards.html
+- paper_id: usenix-security-2022-openvpn-is-open-to-vpn-fingerprinting
+  provider: semantic_scholar
+  external_id: 2ae766461643b27129c8e9479dba94e7fe2d3672
+  reason: Semantic Scholar’s only exact-title result is the ingested USENIX proceedings document, whose extracted title includes a proceedings header and lacks parsed author/year fields; the official paper page and unique title confirm the entity.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:51:00Z'
+  evidence_urls:
+  - https://www.semanticscholar.org/paper/2ae766461643b27129c8e9479dba94e7fe2d3672?utm_source=api
+  - https://www.usenix.org/conference/usenixsecurity22/presentation/xue-diwen
+- paper_id: usenix-security-2022-faster-yet-safer-logging-system-via-fixed-key-blockcipher
+  provider: semantic_scholar
+  external_id: 468fbd7760d8fe677f75bdb4d3e6f3a29fcacd1f
+  reason: Exact title, full author list, and publication-year agreement identify the ePrint version of the official USENIX paper; the entity is retained without combining separate versions.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:51:00Z'
+  evidence_urls:
+  - https://www.semanticscholar.org/paper/468fbd7760d8fe677f75bdb4d3e6f3a29fcacd1f?utm_source=api
+  - https://www.usenix.org/conference/usenixsecurity22/presentation/hoang

@@ -1,4 +1,589 @@
 papers:
+- id: ieee-sp-2022-four-attacks-and-a-proof-for-telegram
+  canonical_title: Four Attacks and a Proof for Telegram
+  authors:
+  - name: Martin R. Albrecht
+  - name: Lenka Mareková
+  - name: Kenneth G. Paterson
+  - name: Igors Stepanovs
+  publication_year: 2022
+  venue_name: 2022 IEEE Symposium on Security and Privacy
+  official_paper_url: null
+  identifiers:
+  - scheme: doi
+    value: 10.1109/sp46214.2022.9833666
+    source_url: https://api.crossref.org/works/10.1109/sp46214.2022.9833666
+    verified_at: '2026-08-09T14:15:23Z'
+  - scheme: openalex
+    value: W4288057802
+    source_url: https://api.openalex.org/works/W4288057802
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: google_scholar
+    value: '11099704654015424130'
+    source_url: https://scholar.google.com/scholar?cluster=11099704654015424130
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: semantic_scholar
+    value: 1547c8b075c10dce8a7190fdd52033b0d9373bb8
+    source_url: https://www.semanticscholar.org/paper/1547c8b075c10dce8a7190fdd52033b0d9373bb8?utm_source=api
+    verified_at: '2026-08-09T14:35:20Z'
+  metadata_sources:
+  - https://www.ieee-security.org/TC/SP2022/awards.html
+  - https://api.crossref.org/works/10.1109/sp46214.2022.9833666
+- id: ieee-sp-2022-asleep-at-the-keyboard-assessing-the-security-of-github-copilots
+  canonical_title: Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s Code Contributions
+  authors:
+  - name: Hammond Pearce
+  - name: Baleegh Ahmad
+  - name: Benjamin Tan
+  - name: Brendan Dolan-Gavitt
+  - name: Ramesh Karri
+  publication_year: 2022
+  venue_name: 2022 IEEE Symposium on Security and Privacy
+  official_paper_url: null
+  identifiers:
+  - scheme: doi
+    value: 10.1109/sp46214.2022.9833571
+    source_url: https://api.crossref.org/works/10.1109/sp46214.2022.9833571
+    verified_at: '2026-08-09T14:15:23Z'
+  - scheme: openalex
+    value: W4288057765
+    source_url: https://api.openalex.org/works/W4288057765
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: google_scholar
+    value: '15749188844572183021'
+    source_url: https://scholar.google.com/scholar?cluster=15749188844572183021
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: semantic_scholar
+    value: 6e5eb6167d9766fbb4d14611d15cf95d7b75fb9d
+    source_url: https://www.semanticscholar.org/paper/6e5eb6167d9766fbb4d14611d15cf95d7b75fb9d?utm_source=api
+    verified_at: '2026-08-09T14:35:20Z'
+  metadata_sources:
+  - https://www.ieee-security.org/TC/SP2022/awards.html
+  - https://api.crossref.org/works/10.1109/sp46214.2022.9833571
+- id: ieee-sp-2022-invisible-finger-practical-electromagnetic-interference-attack-o
+  canonical_title: 'Invisible Finger: Practical Electromagnetic Interference Attack on Touchscreen-based Electronic Devices'
+  authors:
+  - name: Haoqi Shan
+  - name: Boyi Zhang
+  - name: Zihao Zhan
+  - name: Dean Sullivan
+  - name: Shuo Wang
+  - name: Yier Jin
+  publication_year: 2022
+  venue_name: 2022 IEEE Symposium on Security and Privacy
+  official_paper_url: null
+  identifiers:
+  - scheme: doi
+    value: 10.1109/sp46214.2022.9833718
+    source_url: https://api.crossref.org/works/10.1109/sp46214.2022.9833718
+    verified_at: '2026-08-09T14:15:23Z'
+  - scheme: openalex
+    value: W4288057774
+    source_url: https://api.openalex.org/works/W4288057774
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: google_scholar
+    value: '9271269350994327061'
+    source_url: https://scholar.google.com/scholar?cluster=9271269350994327061
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: semantic_scholar
+    value: 8736acd01917ebed8ea90b99a36089d047a9dc64
+    source_url: https://www.semanticscholar.org/paper/8736acd01917ebed8ea90b99a36089d047a9dc64?utm_source=api
+    verified_at: '2026-08-09T14:35:20Z'
+  metadata_sources:
+  - https://www.ieee-security.org/TC/SP2022/awards.html
+  - https://api.crossref.org/works/10.1109/sp46214.2022.9833718
+- id: ieee-sp-2022-committed-to-trust-a-qualitative-study-on-security-trust-in-open
+  canonical_title: 'Committed to Trust: A Qualitative Study on Security & Trust in Open Source Software Projects'
+  authors:
+  - name: Dominik Wermke
+  - name: Noah Wöhler
+  - name: Jan H. Klemmer
+  - name: Marcel Fourné
+  - name: Yasemin Acar
+  - name: Sascha Fahl
+  publication_year: 2022
+  venue_name: 2022 IEEE Symposium on Security and Privacy
+  official_paper_url: null
+  identifiers:
+  - scheme: doi
+    value: 10.1109/sp46214.2022.9833686
+    source_url: https://api.crossref.org/works/10.1109/sp46214.2022.9833686
+    verified_at: '2026-08-09T14:15:23Z'
+  - scheme: openalex
+    value: W4288057810
+    source_url: https://api.openalex.org/works/W4288057810
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: google_scholar
+    value: '1063041065774482518'
+    source_url: https://scholar.google.com/scholar?cluster=1063041065774482518
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: semantic_scholar
+    value: ca2925811878d47cd80113ece88c708cc4a594b0
+    source_url: https://www.semanticscholar.org/paper/ca2925811878d47cd80113ece88c708cc4a594b0?utm_source=api
+    verified_at: '2026-08-09T14:35:20Z'
+  metadata_sources:
+  - https://www.ieee-security.org/TC/SP2022/awards.html
+  - https://api.crossref.org/works/10.1109/sp46214.2022.9833686
+- id: usenix-security-2022-openvpn-is-open-to-vpn-fingerprinting
+  canonical_title: OpenVPN is Open to VPN Fingerprinting
+  authors:
+  - name: Diwen Xue
+  - name: Reethika Ramesh
+  - name: Arham Jain
+  - name: Michalis Kallitsis
+  - name: J. Alex Halderman
+  - name: Jedidiah R. Crandall
+  - name: Roya Ensafi
+  publication_year: 2022
+  venue_name: 31st USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity22/presentation/xue-diwen
+  identifiers:
+  - scheme: google_scholar
+    value: '5669762753806705860'
+    source_url: https://scholar.google.com/scholar?cluster=5669762753806705860
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: semantic_scholar
+    value: 2ae766461643b27129c8e9479dba94e7fe2d3672
+    source_url: https://www.semanticscholar.org/paper/2ae766461643b27129c8e9479dba94e7fe2d3672?utm_source=api
+    verified_at: '2026-08-09T14:51:00Z'
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity22/technical-sessions
+  - https://www.usenix.org/conference/usenixsecurity22/presentation/xue-diwen
+- id: usenix-security-2022-the-antrim-county-2020-election-incident-an-independent-forensic
+  canonical_title: 'The Antrim County 2020 Election Incident: An Independent Forensic Investigation'
+  authors:
+  - name: J. Alex Halderman
+  publication_year: 2022
+  venue_name: 31st USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity22/presentation/halderman
+  identifiers:
+  - scheme: google_scholar
+    value: '10114064190837447854'
+    source_url: https://scholar.google.com/scholar?cluster=10114064190837447854
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: semantic_scholar
+    value: 0dcdd3ba951442360af81c03a73a58d3b29a200c
+    source_url: https://www.semanticscholar.org/paper/0dcdd3ba951442360af81c03a73a58d3b29a200c?utm_source=api
+    verified_at: '2026-08-09T14:51:00Z'
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity22/technical-sessions
+  - https://www.usenix.org/conference/usenixsecurity22/presentation/halderman
+- id: usenix-security-2022-an-audit-of-facebook-s-political-ad-policy-enforcement
+  canonical_title: An Audit of Facebook's Political Ad Policy Enforcement
+  authors:
+  - name: Victor Le Pochat
+  - name: Laura Edelson
+  - name: Tom Van Goethem
+  - name: Wouter Joosen
+  - name: Damon McCoy
+  - name: Tobias Lauinger
+  publication_year: 2022
+  venue_name: 31st USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity22/presentation/lepochat
+  identifiers:
+  - scheme: google_scholar
+    value: '16241320413858386121'
+    source_url: https://scholar.google.com/scholar?cluster=16241320413858386121
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: semantic_scholar
+    value: 0d5ebff6e81bbbf9b801dfdf4dd32048050aa901
+    source_url: https://www.semanticscholar.org/paper/0d5ebff6e81bbbf9b801dfdf4dd32048050aa901?utm_source=api
+    verified_at: '2026-08-09T14:51:00Z'
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity22/technical-sessions
+  - https://www.usenix.org/conference/usenixsecurity22/presentation/lepochat
+- id: usenix-security-2022-online-website-fingerprinting-evaluating-website-fingerprinting
+  canonical_title: 'Online Website Fingerprinting: Evaluating Website Fingerprinting Attacks on Tor in the Real World'
+  authors:
+  - name: Giovanni Cherubin
+  - name: Rob Jansen
+  - name: Carmela Troncoso
+  publication_year: 2022
+  venue_name: 31st USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity22/presentation/cherubin
+  identifiers:
+  - scheme: google_scholar
+    value: '10197221097772115422'
+    source_url: https://scholar.google.com/scholar?cluster=10197221097772115422
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: semantic_scholar
+    value: a2b2c2a3d421930688669e0b6cf528f8c1125bcc
+    source_url: https://www.semanticscholar.org/paper/a2b2c2a3d421930688669e0b6cf528f8c1125bcc?utm_source=api
+    verified_at: '2026-08-09T14:51:00Z'
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity22/technical-sessions
+  - https://www.usenix.org/conference/usenixsecurity22/presentation/cherubin
+- id: usenix-security-2022-attacks-on-deidentification-s-defenses
+  canonical_title: Attacks on Deidentification's Defenses
+  authors:
+  - name: Aloni Cohen
+  publication_year: 2022
+  venue_name: 31st USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity22/presentation/cohen
+  identifiers:
+  - scheme: openalex
+    value: W4226318410
+    source_url: https://api.openalex.org/works/W4226318410
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: google_scholar
+    value: '851999209444612219'
+    source_url: https://scholar.google.com/scholar?cluster=851999209444612219
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: semantic_scholar
+    value: 784de911b3cc582776a0dc26501a0e440ba11851
+    source_url: https://www.semanticscholar.org/paper/784de911b3cc582776a0dc26501a0e440ba11851?utm_source=api
+    verified_at: '2026-08-09T14:51:00Z'
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity22/technical-sessions
+  - https://www.usenix.org/conference/usenixsecurity22/presentation/cohen
+- id: usenix-security-2022-identity-confusion-in-webview-based-mobile-app-in-app-ecosystems
+  canonical_title: Identity Confusion in WebView-based Mobile App-in-app Ecosystems
+  authors:
+  - name: Lei Zhang
+  - name: Zhibo Zhang
+  - name: Ancong Liu
+  - name: Yinzhi Cao
+  - name: Xiaohan Zhang
+  - name: Yanjun Chen
+  - name: Yuan Zhang
+  - name: Guangliang Yang
+  - name: Min Yang
+  publication_year: 2022
+  venue_name: 31st USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity22/presentation/zhang-lei
+  identifiers:
+  - scheme: google_scholar
+    value: '2859060886136934922'
+    source_url: https://scholar.google.com/scholar?cluster=2859060886136934922
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: semantic_scholar
+    value: 29e6e2bb927fd0ecd418b63e783f086ac5375623
+    source_url: https://www.semanticscholar.org/paper/29e6e2bb927fd0ecd418b63e783f086ac5375623?utm_source=api
+    verified_at: '2026-08-09T14:51:00Z'
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity22/technical-sessions
+  - https://www.usenix.org/conference/usenixsecurity22/presentation/zhang-lei
+- id: usenix-security-2022-provably-safe-multilingual-software-sandboxing-using-webassembly
+  canonical_title: Provably-Safe Multilingual Software Sandboxing using WebAssembly
+  authors:
+  - name: Jay Bosamiya
+  - name: Wen Shih Lim
+  - name: Bryan Parno
+  publication_year: 2022
+  venue_name: 31st USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity22/presentation/bosamiya
+  identifiers:
+  - scheme: google_scholar
+    value: '10881861069402808910'
+    source_url: https://scholar.google.com/scholar?cluster=10881861069402808910
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: semantic_scholar
+    value: 0bfa7803aa3086b5a6fd7f679f80d95627710986
+    source_url: https://www.semanticscholar.org/paper/0bfa7803aa3086b5a6fd7f679f80d95627710986?utm_source=api
+    verified_at: '2026-08-09T14:51:00Z'
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity22/technical-sessions
+  - https://www.usenix.org/conference/usenixsecurity22/presentation/bosamiya
+- id: usenix-security-2022-faster-yet-safer-logging-system-via-fixed-key-blockcipher
+  canonical_title: 'Faster Yet Safer: Logging System Via Fixed-Key Blockcipher'
+  authors:
+  - name: Viet Tung Hoang
+  - name: Cong Wu
+  - name: Xin Yuan
+  publication_year: 2022
+  venue_name: 31st USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity22/presentation/hoang
+  identifiers:
+  - scheme: google_scholar
+    value: '11231767369694333501'
+    source_url: https://scholar.google.com/scholar?cluster=11231767369694333501
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: semantic_scholar
+    value: 468fbd7760d8fe677f75bdb4d3e6f3a29fcacd1f
+    source_url: https://www.semanticscholar.org/paper/468fbd7760d8fe677f75bdb4d3e6f3a29fcacd1f?utm_source=api
+    verified_at: '2026-08-09T14:51:00Z'
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity22/technical-sessions
+  - https://www.usenix.org/conference/usenixsecurity22/presentation/hoang
+- id: usenix-security-2022-private-signaling
+  canonical_title: Private Signaling
+  authors:
+  - name: Varun Madathil
+  - name: Alessandra Scafuro
+  - name: István András Seres
+  - name: Omer Shlomovits
+  - name: Denis Varlakov
+  publication_year: 2022
+  venue_name: 31st USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity22/presentation/madathil
+  identifiers:
+  - scheme: google_scholar
+    value: '12188768957845531984'
+    source_url: https://scholar.google.com/scholar?cluster=12188768957845531984
+    verified_at: '2026-08-09T14:35:20Z'
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity22/technical-sessions
+  - https://www.usenix.org/conference/usenixsecurity22/presentation/madathil
+- id: usenix-security-2022-fixreverter-a-realistic-bug-injection-methodology-for-benchmarki
+  canonical_title: 'FIXREVERTER: A Realistic Bug Injection Methodology for Benchmarking Fuzz Testing'
+  authors:
+  - name: Zenong Zhang
+  - name: Zach Patterson
+  - name: Michael Hicks
+  - name: Shiyi Wei
+  publication_year: 2022
+  venue_name: 31st USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity22/presentation/zhang-zenong
+  identifiers:
+  - scheme: google_scholar
+    value: '1039502314047305974'
+    source_url: https://scholar.google.com/scholar?cluster=1039502314047305974
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: semantic_scholar
+    value: a2b87179dcea5dad26e6e3d17640c689eabc2940
+    source_url: https://www.semanticscholar.org/paper/a2b87179dcea5dad26e6e3d17640c689eabc2940?utm_source=api
+    verified_at: '2026-08-09T14:51:00Z'
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity22/technical-sessions
+  - https://www.usenix.org/conference/usenixsecurity22/presentation/zhang-zenong
+- id: usenix-security-2022-dos-and-don-ts-of-machine-learning-in-computer-security
+  canonical_title: Dos and Don'ts of Machine Learning in Computer Security
+  authors:
+  - name: Daniel Arp
+  - name: Erwin Quiring
+  - name: Feargus Pendlebury
+  - name: Alexander Warnecke
+  - name: Fabio Pierazzi
+  - name: Christian Wressnegger
+  - name: Lorenzo Cavallaro
+  - name: Konrad Rieck
+  publication_year: 2022
+  venue_name: 31st USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity22/presentation/arp
+  identifiers:
+  - scheme: openalex
+    value: W3092978542
+    source_url: https://api.openalex.org/works/W3092978542
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: google_scholar
+    value: '9061477006498320470'
+    source_url: https://scholar.google.com/scholar?cluster=9061477006498320470
+    verified_at: '2026-08-09T14:35:20Z'
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity22/technical-sessions
+  - https://www.usenix.org/conference/usenixsecurity22/presentation/arp
+- id: usenix-security-2022-augmenting-decompiler-output-with-learned-variable-names-and-typ
+  canonical_title: Augmenting Decompiler Output with Learned Variable Names and Types
+  authors:
+  - name: Qibin Chen
+  - name: Jeremy Lacomis
+  - name: Edward J. Schwartz
+  - name: Claire Le Goues
+  - name: Graham Neubig
+  - name: Bogdan Vasilescu
+  publication_year: 2022
+  venue_name: 31st USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity22/presentation/chen-qibin
+  identifiers:
+  - scheme: openalex
+    value: W3193654868
+    source_url: https://api.openalex.org/works/W3193654868
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: google_scholar
+    value: '14649896203905633863'
+    source_url: https://scholar.google.com/scholar?cluster=14649896203905633863
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: semantic_scholar
+    value: 06e36261b21af2943e464a562c92c09dac292a82
+    source_url: https://www.semanticscholar.org/paper/06e36261b21af2943e464a562c92c09dac292a82?utm_source=api
+    verified_at: '2026-08-09T14:51:00Z'
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity22/technical-sessions
+  - https://www.usenix.org/conference/usenixsecurity22/presentation/chen-qibin
+- id: acm-ccs-2022-victory-by-ko-attacking-openpgp-using-key-overwriting
+  canonical_title: 'Victory by KO: Attacking OpenPGP Using Key Overwriting'
+  authors:
+  - name: Lara Bruseghini
+  - name: Daniel Huigens
+  - name: Kenneth G. Paterson
+  publication_year: 2022
+  venue_name: 2022 ACM SIGSAC Conference on Computer and Communications Security
+  official_paper_url: https://dl.acm.org/doi/10.1145/3548606.3559363
+  identifiers:
+  - scheme: doi
+    value: 10.1145/3548606.3559363
+    source_url: https://dl.acm.org/doi/10.1145/3548606.3559363
+    verified_at: '2026-08-09T14:15:23Z'
+  - scheme: openalex
+    value: W4308391724
+    source_url: https://api.openalex.org/works/W4308391724
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: google_scholar
+    value: '17412810065875244128'
+    source_url: https://scholar.google.com/scholar?cluster=17412810065875244128
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: semantic_scholar
+    value: 97196772642dfe7080c6ea954c99bb3b36f08a7a
+    source_url: https://www.semanticscholar.org/paper/97196772642dfe7080c6ea954c99bb3b36f08a7a?utm_source=api
+    verified_at: '2026-08-09T14:51:00Z'
+  metadata_sources:
+  - https://www.sigsac.org/ccs/CCS2022/program/awards.html
+  - https://www.sigsac.org/ccs/CCS2022/proceedings/ccs-proceedings.html
+- id: acm-ccs-2022-proving-unsat-in-zero-knowledge
+  canonical_title: Proving UNSAT in Zero Knowledge
+  authors:
+  - name: Ning Luo
+  - name: Timos Antonopoulos
+  - name: William Harris
+  - name: Ruzica Piskac
+  - name: Eran Tromer
+  - name: Xiao Wang
+  publication_year: 2022
+  venue_name: 2022 ACM SIGSAC Conference on Computer and Communications Security
+  official_paper_url: https://dl.acm.org/doi/10.1145/3548606.3559373
+  identifiers:
+  - scheme: doi
+    value: 10.1145/3548606.3559373
+    source_url: https://api.crossref.org/works/10.1145/3548606.3559373
+    verified_at: '2026-08-09T14:15:23Z'
+  - scheme: openalex
+    value: W4308430049
+    source_url: https://api.openalex.org/works/W4308430049
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: google_scholar
+    value: '10094656466972185374'
+    source_url: https://scholar.google.com/scholar?cluster=10094656466972185374
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: semantic_scholar
+    value: 2565ea47daef463a1a8db42818930ddcb65cdbc7
+    source_url: https://www.semanticscholar.org/paper/2565ea47daef463a1a8db42818930ddcb65cdbc7?utm_source=api
+    verified_at: '2026-08-09T14:51:00Z'
+  metadata_sources:
+  - https://www.sigsac.org/ccs/CCS2022/program/awards.html
+  - https://www.sigsac.org/ccs/CCS2022/proceedings/ccs-proceedings.html
+- id: acm-ccs-2022-automatic-detection-of-speculative-execution-combinations
+  canonical_title: Automatic Detection of Speculative Execution Combinations
+  authors:
+  - name: Xaver Fabian
+  - name: Marco Guarnieri
+  - name: Marco Patrignani
+  publication_year: 2022
+  venue_name: 2022 ACM SIGSAC Conference on Computer and Communications Security
+  official_paper_url: https://dl.acm.org/doi/10.1145/3548606.3560555
+  identifiers:
+  - scheme: doi
+    value: 10.1145/3548606.3560555
+    source_url: https://api.crossref.org/works/10.1145/3548606.3560555
+    verified_at: '2026-08-09T14:15:23Z'
+  - scheme: openalex
+    value: W4308643153
+    source_url: https://api.openalex.org/works/W4308643153
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: google_scholar
+    value: '699693440773325732'
+    source_url: https://scholar.google.com/scholar?cluster=699693440773325732
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: semantic_scholar
+    value: ab70d99041d396740f3dbcb626f12232007bf86b
+    source_url: https://www.semanticscholar.org/paper/ab70d99041d396740f3dbcb626f12232007bf86b?utm_source=api
+    verified_at: '2026-08-09T14:51:00Z'
+  metadata_sources:
+  - https://www.sigsac.org/ccs/CCS2022/program/awards.html
+  - https://www.sigsac.org/ccs/CCS2022/proceedings/ccs-proceedings.html
+- id: acm-ccs-2022-zapper-smart-contracts-with-data-and-identity-privacy
+  canonical_title: 'Zapper: Smart Contracts with Data and Identity Privacy'
+  authors:
+  - name: Samuel Steffen
+  - name: Benjamin Bichsel
+  - name: Martin Vechev
+  publication_year: 2022
+  venue_name: 2022 ACM SIGSAC Conference on Computer and Communications Security
+  official_paper_url: https://dl.acm.org/doi/10.1145/3548606.3560622
+  identifiers:
+  - scheme: doi
+    value: 10.1145/3548606.3560622
+    source_url: https://dl.acm.org/doi/10.1145/3548606.3560622
+    verified_at: '2026-08-09T14:15:23Z'
+  - scheme: openalex
+    value: W4308642223
+    source_url: https://api.openalex.org/works/W4308642223
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: google_scholar
+    value: '2611490582441277773'
+    source_url: https://scholar.google.com/scholar?cluster=2611490582441277773
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: semantic_scholar
+    value: fc946439d9e1d7993c9619848c44ed1d5b583f14
+    source_url: https://www.semanticscholar.org/paper/fc946439d9e1d7993c9619848c44ed1d5b583f14?utm_source=api
+    verified_at: '2026-08-09T14:51:00Z'
+  metadata_sources:
+  - https://www.sigsac.org/ccs/CCS2022/program/awards.html
+  - https://www.sigsac.org/ccs/CCS2022/proceedings/ccs-proceedings.html
+- id: acm-ccs-2022-star-secret-sharing-for-private-threshold-aggregation-reporting
+  canonical_title: 'STAR: Secret Sharing for Private Threshold Aggregation Reporting'
+  authors:
+  - name: Alex Davidson
+  - name: Peter Snyder
+  - name: E. B. Quirk
+  - name: Joseph Genereux
+  - name: Benjamin Livshits
+  - name: Hamed Haddadi
+  publication_year: 2022
+  venue_name: 2022 ACM SIGSAC Conference on Computer and Communications Security
+  official_paper_url: https://dl.acm.org/doi/10.1145/3548606.3560631
+  identifiers:
+  - scheme: doi
+    value: 10.1145/3548606.3560631
+    source_url: https://dl.acm.org/doi/10.1145/3548606.3560631
+    verified_at: '2026-08-09T14:15:23Z'
+  - scheme: openalex
+    value: W4308408787
+    source_url: https://api.openalex.org/works/W4308408787
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: google_scholar
+    value: '10518023341920651716'
+    source_url: https://scholar.google.com/scholar?cluster=10518023341920651716
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: semantic_scholar
+    value: 4ac1fa7466be87162be5c8dce0c8f5812c75bce3
+    source_url: https://www.semanticscholar.org/paper/4ac1fa7466be87162be5c8dce0c8f5812c75bce3?utm_source=api
+    verified_at: '2026-08-09T14:51:00Z'
+  metadata_sources:
+  - https://www.sigsac.org/ccs/CCS2022/program/awards.html
+  - https://www.sigsac.org/ccs/CCS2022/proceedings/ccs-proceedings.html
+- id: ndss-2022-preventing-kernel-hacks-with-hakcs
+  canonical_title: Preventing Kernel Hacks with HAKCs
+  authors:
+  - name: Derrick McKee
+  - name: Yianni Giannaris
+  - name: Carolina Ortega
+  - name: Howard Shrobe
+  - name: Mathias Payer
+  - name: Hamed Okhravi
+  - name: Nathan Burow
+  publication_year: 2022
+  venue_name: Network and Distributed System Security Symposium 2022
+  official_paper_url: https://www.ndss-symposium.org/ndss-paper/auto-draft-257/
+  identifiers:
+  - scheme: doi
+    value: 10.14722/ndss.2022.24026
+    source_url: https://api.crossref.org/works/10.14722/ndss.2022.24026
+    verified_at: '2026-08-09T14:15:23Z'
+  - scheme: openalex
+    value: W4226543528
+    source_url: https://api.openalex.org/works/W4226543528
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: google_scholar
+    value: '18170487006816021013'
+    source_url: https://scholar.google.com/scholar?cluster=18170487006816021013
+    verified_at: '2026-08-09T14:35:20Z'
+  - scheme: semantic_scholar
+    value: 060eed4b80ca80c9854925ee4f47268af6ed8ea1
+    source_url: https://www.semanticscholar.org/paper/060eed4b80ca80c9854925ee4f47268af6ed8ea1?utm_source=api
+    verified_at: '2026-08-09T14:51:00Z'
+  metadata_sources:
+  - https://www.ndss-symposium.org/ndss2022/
+  - https://www.ndss-symposium.org/ndss-paper/auto-draft-257/
 - id: ieee-sp-2023-mega-malleable-encryption-goes-awry
   canonical_title: 'MEGA: Malleable Encryption Goes Awry'
   authors:

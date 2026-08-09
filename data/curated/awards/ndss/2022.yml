@@ -1,0 +1,13 @@
+awards:
+- id: ndss-2022-preventing-kernel-hacks-with-hakcs-award
+  edition_id: ndss-2022
+  paper_id: ndss-2022-preventing-kernel-hacks-with-hakcs
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.ndss-symposium.org/ndss2022/
+    retrieved_at: '2026-08-09T14:15:23Z'
+    content_sha256: 4b6a0976c5f7f8590523f510c83a97eb294c51ebf56fbb4eb611de2a81b493ca
+    parser_version: '2022.1'
+  raw_title: Preventing Kernel Hacks with HAKCs
+  raw_authors: Derrick McKee (Purdue University), Yianni Giannaris (MIT CSAIL), Carolina Ortega (MIT CSAIL), Howard Shrobe (MIT CSAIL), Mathias Payer (EPFL), Hamed Okhravi (MIT Lincoln Laboratory), Nathan Burow (MIT Lincoln Laboratory)

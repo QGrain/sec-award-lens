@@ -1,5 +1,29 @@
 award_sources:
 - conference_id: ieee-sp
+  year: 2022
+  url: https://www.ieee-security.org/TC/SP2022/awards.html
+  adapter: parse_ieee_2022
+  expected_records: 4
+  extracted_sha256: 109993c86c526612fe7f30348b877abb3561e732e3e2294167976c742dc80225
+- conference_id: usenix-security
+  year: 2022
+  url: https://www.usenix.org/conference/usenixsecurity22/technical-sessions
+  adapter: parse_usenix_2022
+  expected_records: 12
+  extracted_sha256: ae2397a340986e50807a6e1c5921f63da4d0b421718ac3947af5b752fae818ab
+- conference_id: acm-ccs
+  year: 2022
+  url: https://www.sigsac.org/ccs/CCS2022/program/awards.html
+  adapter: parse_ccs_2022
+  expected_records: 5
+  extracted_sha256: 2bf8eebed43c2c1f46e5d3a2d7f48114e666ba330c492e095a95e294ce19ce98
+- conference_id: ndss
+  year: 2022
+  url: https://www.ndss-symposium.org/ndss2022/
+  adapter: parse_ndss_2022
+  expected_records: 1
+  extracted_sha256: 4b6a0976c5f7f8590523f510c83a97eb294c51ebf56fbb4eb611de2a81b493ca
+- conference_id: ieee-sp
   year: 2023
   url: https://www.ieee-security.org/TC/SP2023/program-awards.html
   adapter: parse_ieee_2023
@@ -42,7 +66,7 @@ citation_sources:
   - cited_by_count
   - counts_by_year
   - updated_date
-  notes: A free API key is required. Persistent work IDs are pinned after review; routine refresh does not search.
+  notes: A free API key is recommended and required by the scheduled workflow; OpenAlex also provides a small anonymous allowance. Persistent work IDs are pinned after review, and routine refresh does not search.
 - id: semantic_scholar
   role: optional_comparison
   api_url: https://api.semanticscholar.org/graph/v1

@@ -2886,3 +2886,1202 @@ bindings:
   verified_by: SecAwardLens Semantic Scholar resolver
   verified_at: '2026-08-08T18:16:13.005547Z'
   review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: ieee-sp-2022-four-attacks-and-a-proof-for-telegram
+  provider: openalex
+  external_id: W4288057802
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4288057802
+    title: Four Attacks and a Proof for Telegram
+    doi: 10.1109/sp46214.2022.9833666
+    publication_year: 2022
+    venue: 2022 IEEE Symposium on Security and Privacy (SP)
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens OpenAlex resolver
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Verified by exact DOI with compatible title, author, and publication-year evidence.
+- paper_id: ieee-sp-2022-asleep-at-the-keyboard-assessing-the-security-of-github-copilots
+  provider: openalex
+  external_id: W4288057765
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4288057765
+    title: Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s Code Contributions
+    doi: 10.1109/sp46214.2022.9833571
+    publication_year: 2022
+    venue: 2022 IEEE Symposium on Security and Privacy (SP)
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens OpenAlex resolver
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Verified by exact DOI with compatible title, author, and publication-year evidence.
+- paper_id: ieee-sp-2022-invisible-finger-practical-electromagnetic-interference-attack-o
+  provider: openalex
+  external_id: W4288057774
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4288057774
+    title: 'Invisible Finger: Practical Electromagnetic Interference Attack on Touchscreen-based Electronic Devices'
+    doi: 10.1109/sp46214.2022.9833718
+    publication_year: 2022
+    venue: 2022 IEEE Symposium on Security and Privacy (SP)
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens OpenAlex resolver
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Verified by exact DOI with compatible title, author, and publication-year evidence.
+- paper_id: ieee-sp-2022-committed-to-trust-a-qualitative-study-on-security-trust-in-open
+  provider: openalex
+  external_id: W4288057810
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4288057810
+    title: 'Committed to Trust: A Qualitative Study on Security &amp; Trust in Open Source Software Projects'
+    doi: 10.1109/sp46214.2022.9833686
+    publication_year: 2022
+    venue: 2022 IEEE Symposium on Security and Privacy (SP)
+    title_similarity: 0.978021978021978
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens OpenAlex resolver
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Verified by exact DOI with compatible title, author, and publication-year evidence.
+- paper_id: acm-ccs-2022-proving-unsat-in-zero-knowledge
+  provider: openalex
+  external_id: W4308430049
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4308430049
+    title: Proving UNSAT in Zero Knowledge
+    doi: 10.1145/3548606.3559373
+    publication_year: 2022
+    venue: Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 0.8333333333333334
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens OpenAlex resolver
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Verified by exact DOI with compatible title, author, and publication-year evidence.
+- paper_id: acm-ccs-2022-automatic-detection-of-speculative-execution-combinations
+  provider: openalex
+  external_id: W4308643153
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4308643153
+    title: Automatic Detection of Speculative Execution Combinations
+    doi: 10.1145/3548606.3560555
+    publication_year: 2022
+    venue: Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens OpenAlex resolver
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Verified by exact DOI with compatible title, author, and publication-year evidence.
+- paper_id: ndss-2022-preventing-kernel-hacks-with-hakcs
+  provider: openalex
+  external_id: W4226543528
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W4226543528
+    title: Preventing Kernel Hacks with HAKCs
+    doi: 10.14722/ndss.2022.24026
+    publication_year: 2022
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens OpenAlex resolver
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Verified by exact DOI with compatible title, author, and publication-year evidence.
+- paper_id: acm-ccs-2022-victory-by-ko-attacking-openpgp-using-key-overwriting
+  provider: openalex
+  external_id: W4308391724
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: W4308391724
+    title: Victory by KO
+    doi: 10.1145/3548606.3559363
+    publication_year: 2022
+    venue: Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security
+    title_similarity: 0.3939393939393939
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:35:20Z'
+  override_reason: Exact DOI, publication year, and author agreement with the ACM proceedings record; OpenAlex abbreviates the work title.
+  review_notes: Reviewed against the official award paper page and the persistent OpenAlex work record.
+- paper_id: acm-ccs-2022-zapper-smart-contracts-with-data-and-identity-privacy
+  provider: openalex
+  external_id: W4308642223
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: W4308642223
+    title: Zapper
+    doi: 10.1145/3548606.3560622
+    publication_year: 2022
+    venue: Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security
+    title_similarity: 0.2033898305084746
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:35:20Z'
+  override_reason: Exact DOI, publication year, and author agreement with the ACM proceedings record; OpenAlex abbreviates the work title.
+  review_notes: Reviewed against the official award paper page and the persistent OpenAlex work record.
+- paper_id: acm-ccs-2022-star-secret-sharing-for-private-threshold-aggregation-reporting
+  provider: openalex
+  external_id: W4308408787
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: W4308408787
+    title: STAR
+    doi: 10.1145/3548606.3560631
+    publication_year: 2022
+    venue: Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security
+    title_similarity: 0.11940298507462688
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:35:20Z'
+  override_reason: Exact DOI, publication year, and author agreement with the ACM proceedings record; OpenAlex abbreviates the work title.
+  review_notes: Reviewed against the official award paper page and the persistent OpenAlex work record.
+- paper_id: usenix-security-2022-attacks-on-deidentification-s-defenses
+  provider: openalex
+  external_id: W4226318410
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: W4226318410
+    title: Attacks on Deidentification's Defenses
+    doi: 10.48550/arxiv.2202.13470
+    publication_year: 2022
+    venue: arXiv (Cornell University)
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:35:20Z'
+  override_reason: Exact title and author agreement with the official USENIX paper; OpenAlex exposes the corresponding preprint entity, which is retained without combining separate versions.
+  review_notes: Reviewed against the official award paper page and the persistent OpenAlex work record.
+- paper_id: usenix-security-2022-dos-and-don-ts-of-machine-learning-in-computer-security
+  provider: openalex
+  external_id: W3092978542
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: W3092978542
+    title: Dos and Don'ts of Machine Learning in Computer Security
+    doi: 10.48550/arxiv.2010.09470
+    publication_year: 2020
+    venue: arXiv (Cornell University)
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 2
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:35:20Z'
+  override_reason: Exact title and author agreement with the official USENIX paper; OpenAlex exposes the corresponding preprint entity, which is retained without combining separate versions.
+  review_notes: Reviewed against the official award paper page and the persistent OpenAlex work record.
+- paper_id: usenix-security-2022-augmenting-decompiler-output-with-learned-variable-names-and-typ
+  provider: openalex
+  external_id: W3193654868
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: W3193654868
+    title: Augmenting Decompiler Output with Learned Variable Names and Types
+    doi: 10.48550/arxiv.2108.06363
+    publication_year: 2021
+    venue: arXiv (Cornell University)
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 1
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:35:20Z'
+  override_reason: Exact title and author agreement with the official USENIX paper; OpenAlex exposes the corresponding preprint entity, which is retained without combining separate versions.
+  review_notes: Reviewed against the official award paper page and the persistent OpenAlex work record.
+- paper_id: usenix-security-2022-openvpn-is-open-to-vpn-fingerprinting
+  provider: openalex
+  status: pending
+  rejected_candidates: []
+  related_version_ids: []
+  review_notes: No sufficiently reliable OpenAlex conference or preprint entity was found on 2026-08-09; later journal-only and artifact records were not substituted.
+- paper_id: usenix-security-2022-the-antrim-county-2020-election-incident-an-independent-forensic
+  provider: openalex
+  status: pending
+  rejected_candidates: []
+  related_version_ids: []
+  review_notes: No sufficiently reliable OpenAlex conference or preprint entity was found on 2026-08-09; later journal-only and artifact records were not substituted.
+- paper_id: usenix-security-2022-an-audit-of-facebook-s-political-ad-policy-enforcement
+  provider: openalex
+  status: pending
+  rejected_candidates: []
+  related_version_ids: []
+  review_notes: No sufficiently reliable OpenAlex conference or preprint entity was found on 2026-08-09; later journal-only and artifact records were not substituted.
+- paper_id: usenix-security-2022-online-website-fingerprinting-evaluating-website-fingerprinting
+  provider: openalex
+  status: pending
+  rejected_candidates: []
+  related_version_ids: []
+  review_notes: No sufficiently reliable OpenAlex conference or preprint entity was found on 2026-08-09; later journal-only and artifact records were not substituted.
+- paper_id: usenix-security-2022-identity-confusion-in-webview-based-mobile-app-in-app-ecosystems
+  provider: openalex
+  status: pending
+  rejected_candidates: []
+  related_version_ids: []
+  review_notes: No sufficiently reliable OpenAlex conference or preprint entity was found on 2026-08-09; later journal-only and artifact records were not substituted.
+- paper_id: usenix-security-2022-provably-safe-multilingual-software-sandboxing-using-webassembly
+  provider: openalex
+  status: pending
+  rejected_candidates: []
+  related_version_ids: []
+  review_notes: No sufficiently reliable OpenAlex conference or preprint entity was found on 2026-08-09; later journal-only and artifact records were not substituted.
+- paper_id: usenix-security-2022-faster-yet-safer-logging-system-via-fixed-key-blockcipher
+  provider: openalex
+  status: pending
+  rejected_candidates: []
+  related_version_ids: []
+  review_notes: No sufficiently reliable OpenAlex conference or preprint entity was found on 2026-08-09; later journal-only and artifact records were not substituted.
+- paper_id: usenix-security-2022-private-signaling
+  provider: openalex
+  status: pending
+  rejected_candidates: []
+  related_version_ids: []
+  review_notes: No sufficiently reliable OpenAlex conference or preprint entity was found on 2026-08-09; later journal-only and artifact records were not substituted.
+- paper_id: usenix-security-2022-fixreverter-a-realistic-bug-injection-methodology-for-benchmarki
+  provider: openalex
+  status: pending
+  rejected_candidates: []
+  related_version_ids: []
+  review_notes: No sufficiently reliable OpenAlex conference or preprint entity was found on 2026-08-09; later journal-only and artifact records were not substituted.
+- paper_id: ieee-sp-2022-four-attacks-and-a-proof-for-telegram
+  provider: google_scholar
+  external_id: '11099704654015424130'
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: '11099704654015424130'
+    title: Four Attacks and a Proof for Telegram
+    publication_year: 2022
+    venue: 2022 IEEE Symposium on Security and Privacy (SP)
+    title_similarity: 1.0
+    author_overlap: 0.75
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Reviewed from the SerpApi title-search result; counts remain provider-specific observations.
+  override_reason: Exact title, author, and publication-year agreement with the official paper record identifies this Google Scholar numeric cluster; manual review resolves incomplete venue or author evidence in the search result.
+- paper_id: ieee-sp-2022-asleep-at-the-keyboard-assessing-the-security-of-github-copilots
+  provider: google_scholar
+  external_id: '15749188844572183021'
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: '15749188844572183021'
+    title: Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s Code Contributions
+    publication_year: 2025
+    venue: Communications of the ACM
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 3
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Reviewed from the SerpApi title-search result; counts remain provider-specific observations.
+  override_reason: Google Scholar groups the official 2022 IEEE conference paper with a later journal version; the numeric cluster is retained as Scholar’s canonical version group.
+- paper_id: ieee-sp-2022-invisible-finger-practical-electromagnetic-interference-attack-o
+  provider: google_scholar
+  external_id: '9271269350994327061'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '9271269350994327061'
+    title: 'Invisible Finger: Practical Electromagnetic Interference Attack on Touchscreen-based Electronic Devices'
+    publication_year: 2022
+    venue: 2022 IEEE Symposium on Security and Privacy (SP)
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: ieee-sp-2022-committed-to-trust-a-qualitative-study-on-security-trust-in-open
+  provider: google_scholar
+  external_id: '1063041065774482518'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '1063041065774482518'
+    title: 'Committed to Trust: A Qualitative Study on Security & Trust in Open Source Software Projects'
+    publication_year: 2022
+    venue: 2022 IEEE Symposium on Security and Privacy (SP)
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: usenix-security-2022-openvpn-is-open-to-vpn-fingerprinting
+  provider: google_scholar
+  external_id: '5669762753806705860'
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: '5669762753806705860'
+    title: OpenVPN is Open to VPN Fingerprinting
+    publication_year: 2025
+    venue: Communications of the ACM
+    title_similarity: 1.0
+    author_overlap: 0.8571428571
+    year_delta: 3
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Reviewed from the SerpApi title-search result; counts remain provider-specific observations.
+  override_reason: Google Scholar groups the official 2022 USENIX conference paper with a later journal version; the numeric cluster is retained as Scholar’s canonical version group.
+- paper_id: usenix-security-2022-the-antrim-county-2020-election-incident-an-independent-forensic
+  provider: google_scholar
+  external_id: '10114064190837447854'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '10114064190837447854'
+    title: 'The Antrim County 2020 Election Incident: An Independent Forensic Investigation'
+    publication_year: 2022
+    venue: 31st USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: usenix-security-2022-an-audit-of-facebook-s-political-ad-policy-enforcement
+  provider: google_scholar
+  external_id: '16241320413858386121'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '16241320413858386121'
+    title: An Audit of Facebook's Political Ad Policy Enforcement
+    publication_year: 2022
+    venue: 31st USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: usenix-security-2022-online-website-fingerprinting-evaluating-website-fingerprinting
+  provider: google_scholar
+  external_id: '10197221097772115422'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '10197221097772115422'
+    title: 'Online Website Fingerprinting: Evaluating Website Fingerprinting Attacks on Tor in the Real World'
+    publication_year: 2022
+    venue: 31st USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: usenix-security-2022-attacks-on-deidentification-s-defenses
+  provider: google_scholar
+  external_id: '851999209444612219'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '851999209444612219'
+    title: Attacks on Deidentification's Defenses
+    publication_year: 2022
+    venue: 31st USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: usenix-security-2022-identity-confusion-in-webview-based-mobile-app-in-app-ecosystems
+  provider: google_scholar
+  external_id: '2859060886136934922'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '2859060886136934922'
+    title: Identity Confusion in WebView-based Mobile App-in-app Ecosystems
+    publication_year: 2022
+    venue: 31st USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: usenix-security-2022-provably-safe-multilingual-software-sandboxing-using-webassembly
+  provider: google_scholar
+  external_id: '10881861069402808910'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '10881861069402808910'
+    title: Provably-Safe Multilingual Software Sandboxing using WebAssembly
+    publication_year: 2022
+    venue: 31st USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: usenix-security-2022-faster-yet-safer-logging-system-via-fixed-key-blockcipher
+  provider: google_scholar
+  external_id: '11231767369694333501'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '11231767369694333501'
+    title: 'Faster Yet Safer: Logging System Via Fixed-Key Blockcipher'
+    publication_year: 2022
+    venue: 31st USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: usenix-security-2022-private-signaling
+  provider: google_scholar
+  external_id: '12188768957845531984'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '12188768957845531984'
+    title: Private Signaling
+    publication_year: 2022
+    venue: 31st USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 0.8
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: usenix-security-2022-fixreverter-a-realistic-bug-injection-methodology-for-benchmarki
+  provider: google_scholar
+  external_id: '1039502314047305974'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '1039502314047305974'
+    title: 'FIXREVERTER: A Realistic Bug Injection Methodology for Benchmarking Fuzz Testing'
+    publication_year: 2022
+    venue: 31st USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: usenix-security-2022-dos-and-don-ts-of-machine-learning-in-computer-security
+  provider: google_scholar
+  external_id: '9061477006498320470'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '9061477006498320470'
+    title: Dos and Don'ts of Machine Learning in Computer Security
+    publication_year: 2022
+    venue: 31st USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 0.875
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: usenix-security-2022-augmenting-decompiler-output-with-learned-variable-names-and-typ
+  provider: google_scholar
+  external_id: '14649896203905633863'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '14649896203905633863'
+    title: Augmenting Decompiler Output with Learned Variable Names and Types
+    publication_year: 2022
+    venue: 31st USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: acm-ccs-2022-victory-by-ko-attacking-openpgp-using-key-overwriting
+  provider: google_scholar
+  external_id: '17412810065875244128'
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: '17412810065875244128'
+    title: 'Victory by KO: Attacking OpenPGP Using Key Overwriting'
+    publication_year: 2022
+    venue: Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Reviewed from the SerpApi title-search result; counts remain provider-specific observations.
+  override_reason: Exact title, author, and publication-year agreement with the official paper record identifies this Google Scholar numeric cluster; manual review resolves incomplete venue or author evidence in the search result.
+- paper_id: acm-ccs-2022-proving-unsat-in-zero-knowledge
+  provider: google_scholar
+  external_id: '10094656466972185374'
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: '10094656466972185374'
+    title: Proving UNSAT in Zero Knowledge
+    publication_year: 2022
+    venue: Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Reviewed from the SerpApi title-search result; counts remain provider-specific observations.
+  override_reason: Exact title, author, and publication-year agreement with the official paper record identifies this Google Scholar numeric cluster; manual review resolves incomplete venue or author evidence in the search result.
+- paper_id: acm-ccs-2022-automatic-detection-of-speculative-execution-combinations
+  provider: google_scholar
+  external_id: '699693440773325732'
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: '699693440773325732'
+    title: Automatic Detection of Speculative Execution Combinations
+    publication_year: 2022
+    venue: Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Reviewed from the SerpApi title-search result; counts remain provider-specific observations.
+  override_reason: Exact title, author, and publication-year agreement with the official paper record identifies this Google Scholar numeric cluster; manual review resolves incomplete venue or author evidence in the search result.
+- paper_id: acm-ccs-2022-zapper-smart-contracts-with-data-and-identity-privacy
+  provider: google_scholar
+  external_id: '2611490582441277773'
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: '2611490582441277773'
+    title: 'Zapper: Smart Contracts with Data and Identity Privacy'
+    publication_year: 2022
+    venue: Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Reviewed from the SerpApi title-search result; counts remain provider-specific observations.
+  override_reason: Exact title, author, and publication-year agreement with the official paper record identifies this Google Scholar numeric cluster; manual review resolves incomplete venue or author evidence in the search result.
+- paper_id: acm-ccs-2022-star-secret-sharing-for-private-threshold-aggregation-reporting
+  provider: google_scholar
+  external_id: '10518023341920651716'
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: '10518023341920651716'
+    title: 'STAR: Secret Sharing for Private Threshold Aggregation Reporting'
+    publication_year: 2022
+    venue: Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Reviewed from the SerpApi title-search result; counts remain provider-specific observations.
+  override_reason: Exact title, author, and publication-year agreement with the official paper record identifies this Google Scholar numeric cluster; manual review resolves incomplete venue or author evidence in the search result.
+- paper_id: ndss-2022-preventing-kernel-hacks-with-hakcs
+  provider: google_scholar
+  external_id: '18170487006816021013'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '18170487006816021013'
+    title: Preventing Kernel Hacks with HAKCs
+    publication_year: 2022
+    venue: NDSS
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.
+- paper_id: ieee-sp-2022-four-attacks-and-a-proof-for-telegram
+  provider: semantic_scholar
+  external_id: 1547c8b075c10dce8a7190fdd52033b0d9373bb8
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: 1547c8b075c10dce8a7190fdd52033b0d9373bb8
+    title: Four Attacks and a Proof for Telegram
+    publication_year: 2022
+    venue: IEEE Symposium on Security and Privacy
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: ieee-sp-2022-asleep-at-the-keyboard-assessing-the-security-of-github-copilots
+  provider: semantic_scholar
+  external_id: 6e5eb6167d9766fbb4d14611d15cf95d7b75fb9d
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: 6e5eb6167d9766fbb4d14611d15cf95d7b75fb9d
+    title: Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s Code Contributions
+    publication_year: 2021
+    venue: IEEE Symposium on Security and Privacy
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 1
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: ieee-sp-2022-invisible-finger-practical-electromagnetic-interference-attack-o
+  provider: semantic_scholar
+  external_id: 8736acd01917ebed8ea90b99a36089d047a9dc64
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: 8736acd01917ebed8ea90b99a36089d047a9dc64
+    title: 'Invisible Finger: Practical Electromagnetic Interference Attack on Touchscreen-based Electronic Devices'
+    doi: 10.1109/sp46214.2022.9833718
+    publication_year: 2022
+    venue: IEEE Symposium on Security and Privacy
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: ieee-sp-2022-committed-to-trust-a-qualitative-study-on-security-trust-in-open
+  provider: semantic_scholar
+  external_id: ca2925811878d47cd80113ece88c708cc4a594b0
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: ca2925811878d47cd80113ece88c708cc4a594b0
+    title: 'Committed to Trust: A Qualitative Study on Security & Trust in Open Source Software Projects'
+    doi: 10.1109/sp46214.2022.9833686
+    publication_year: 2022
+    venue: IEEE Symposium on Security and Privacy
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-09T14:35:20Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: usenix-security-2022-openvpn-is-open-to-vpn-fingerprinting
+  provider: semantic_scholar
+  external_id: 2ae766461643b27129c8e9479dba94e7fe2d3672
+  status: manually_verified
+  method: manual_override
+  confidence: 0.96
+  selected_candidate:
+    external_id: 2ae766461643b27129c8e9479dba94e7fe2d3672
+    title: This paper is included in the Proceedings of the 31st USENIX Security Symposium. OpenVPN is Open to VPN Fingerprinting
+    title_similarity: 0.48051948051948057
+    author_overlap: 0.0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:51:00Z'
+  override_reason: Semantic Scholar’s only exact-title result is the ingested USENIX proceedings document, whose extracted title includes a proceedings header and lacks parsed author/year fields; the official paper page and unique title confirm the entity.
+  review_notes: Reviewed against the official USENIX paper page and the Semantic Scholar record.
+- paper_id: usenix-security-2022-the-antrim-county-2020-election-incident-an-independent-forensic
+  provider: semantic_scholar
+  external_id: 0dcdd3ba951442360af81c03a73a58d3b29a200c
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: 0dcdd3ba951442360af81c03a73a58d3b29a200c
+    title: 'The Antrim County 2020 Election Incident: An Independent Forensic Investigation'
+    publication_year: 2022
+    venue: USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-09T14:51:00Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: usenix-security-2022-an-audit-of-facebook-s-political-ad-policy-enforcement
+  provider: semantic_scholar
+  external_id: 0d5ebff6e81bbbf9b801dfdf4dd32048050aa901
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: 0d5ebff6e81bbbf9b801dfdf4dd32048050aa901
+    title: An Audit of Facebook's Political Ad Policy Enforcement
+    publication_year: 2022
+    venue: USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-09T14:51:00Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: usenix-security-2022-online-website-fingerprinting-evaluating-website-fingerprinting
+  provider: semantic_scholar
+  external_id: a2b2c2a3d421930688669e0b6cf528f8c1125bcc
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: a2b2c2a3d421930688669e0b6cf528f8c1125bcc
+    title: 'Online Website Fingerprinting: Evaluating Website Fingerprinting Attacks on Tor in the Real World'
+    publication_year: 2022
+    venue: USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-09T14:51:00Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: usenix-security-2022-attacks-on-deidentification-s-defenses
+  provider: semantic_scholar
+  external_id: 784de911b3cc582776a0dc26501a0e440ba11851
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: 784de911b3cc582776a0dc26501a0e440ba11851
+    title: Attacks on Deidentification's Defenses
+    publication_year: 2022
+    venue: USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-09T14:51:00Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: usenix-security-2022-identity-confusion-in-webview-based-mobile-app-in-app-ecosystems
+  provider: semantic_scholar
+  external_id: 29e6e2bb927fd0ecd418b63e783f086ac5375623
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: 29e6e2bb927fd0ecd418b63e783f086ac5375623
+    title: Identity Confusion in WebView-based Mobile App-in-app Ecosystems
+    publication_year: 2022
+    venue: USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-09T14:51:00Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: usenix-security-2022-provably-safe-multilingual-software-sandboxing-using-webassembly
+  provider: semantic_scholar
+  external_id: 0bfa7803aa3086b5a6fd7f679f80d95627710986
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: 0bfa7803aa3086b5a6fd7f679f80d95627710986
+    title: Provably-Safe Multilingual Software Sandboxing using WebAssembly
+    publication_year: 2022
+    venue: USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-09T14:51:00Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: usenix-security-2022-faster-yet-safer-logging-system-via-fixed-key-blockcipher
+  provider: semantic_scholar
+  external_id: 468fbd7760d8fe677f75bdb4d3e6f3a29fcacd1f
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: 468fbd7760d8fe677f75bdb4d3e6f3a29fcacd1f
+    title: 'Faster Yet Safer: Logging System Via Fixed-Key Blockcipher'
+    publication_year: 2022
+    venue: IACR Cryptology ePrint Archive
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-09T14:51:00Z'
+  override_reason: Exact title, full author list, and publication-year agreement identify the ePrint version of the official USENIX paper; the entity is retained without combining separate versions.
+  review_notes: Reviewed against the official USENIX paper page and the Semantic Scholar record.
+- paper_id: usenix-security-2022-private-signaling
+  provider: semantic_scholar
+  status: pending
+  rejected_candidates: []
+  related_version_ids: []
+  review_notes: Semantic Scholar candidate retrieval was rate-limited on 2026-08-09; no external ID was pinned without review.
+- paper_id: usenix-security-2022-fixreverter-a-realistic-bug-injection-methodology-for-benchmarki
+  provider: semantic_scholar
+  external_id: a2b87179dcea5dad26e6e3d17640c689eabc2940
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: a2b87179dcea5dad26e6e3d17640c689eabc2940
+    title: 'FIXREVERTER: A Realistic Bug Injection Methodology for Benchmarking Fuzz Testing'
+    publication_year: 2022
+    venue: USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-09T14:51:00Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: usenix-security-2022-dos-and-don-ts-of-machine-learning-in-computer-security
+  provider: semantic_scholar
+  status: pending
+  rejected_candidates: []
+  related_version_ids: []
+  review_notes: Semantic Scholar candidate retrieval was rate-limited on 2026-08-09; no external ID was pinned without review.
+- paper_id: usenix-security-2022-augmenting-decompiler-output-with-learned-variable-names-and-typ
+  provider: semantic_scholar
+  external_id: 06e36261b21af2943e464a562c92c09dac292a82
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: 06e36261b21af2943e464a562c92c09dac292a82
+    title: Augmenting Decompiler Output with Learned Variable Names and Types
+    publication_year: 2021
+    venue: USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 1
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-09T14:51:00Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: acm-ccs-2022-victory-by-ko-attacking-openpgp-using-key-overwriting
+  provider: semantic_scholar
+  external_id: 97196772642dfe7080c6ea954c99bb3b36f08a7a
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: 97196772642dfe7080c6ea954c99bb3b36f08a7a
+    title: 'Victory by KO: Attacking OpenPGP Using Key Overwriting'
+    doi: 10.1145/3548606.3559363
+    publication_year: 2022
+    venue: Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-09T14:51:00Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: acm-ccs-2022-proving-unsat-in-zero-knowledge
+  provider: semantic_scholar
+  external_id: 2565ea47daef463a1a8db42818930ddcb65cdbc7
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: 2565ea47daef463a1a8db42818930ddcb65cdbc7
+    title: Proving UNSAT in Zero Knowledge
+    doi: 10.1145/3548606.3559373
+    publication_year: 2022
+    venue: IACR Cryptology ePrint Archive
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-09T14:51:00Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: acm-ccs-2022-automatic-detection-of-speculative-execution-combinations
+  provider: semantic_scholar
+  external_id: ab70d99041d396740f3dbcb626f12232007bf86b
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: ab70d99041d396740f3dbcb626f12232007bf86b
+    title: Automatic Detection of Speculative Execution Combinations
+    doi: 10.1145/3548606.3560555
+    publication_year: 2022
+    venue: Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-09T14:51:00Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: acm-ccs-2022-zapper-smart-contracts-with-data-and-identity-privacy
+  provider: semantic_scholar
+  external_id: fc946439d9e1d7993c9619848c44ed1d5b583f14
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: fc946439d9e1d7993c9619848c44ed1d5b583f14
+    title: 'Zapper: Smart Contracts with Data and Identity Privacy'
+    doi: 10.1145/3548606.3560622
+    publication_year: 2022
+    venue: Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-09T14:51:00Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: acm-ccs-2022-star-secret-sharing-for-private-threshold-aggregation-reporting
+  provider: semantic_scholar
+  external_id: 4ac1fa7466be87162be5c8dce0c8f5812c75bce3
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: 4ac1fa7466be87162be5c8dce0c8f5812c75bce3
+    title: 'STAR: Secret Sharing for Private Threshold Aggregation Reporting'
+    doi: 10.1145/3548606.3560631
+    publication_year: 2021
+    venue: Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 1
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-09T14:51:00Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: ndss-2022-preventing-kernel-hacks-with-hakcs
+  provider: semantic_scholar
+  external_id: 060eed4b80ca80c9854925ee4f47268af6ed8ea1
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: 060eed4b80ca80c9854925ee4f47268af6ed8ea1
+    title: Preventing Kernel Hacks with HAKCs
+    doi: 10.14722/ndss.2022.24026
+    publication_year: 2022
+    venue: Network and Distributed System Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-09T14:51:00Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.

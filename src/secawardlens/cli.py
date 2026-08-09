@@ -6,6 +6,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Annotated
 
+import httpx
 import typer
 
 from .awards.sources import ADAPTERS, fetch_award_candidates
@@ -20,7 +21,13 @@ from .io import (
     repository_root,
 )
 from .matching import resolve_candidates
-from .models import BindingStatus, CitationProvider, CitationRetrievalService, utc_now
+from .models import (
+    BindingStatus,
+    CitationProvider,
+    CitationRetrievalService,
+    Paper,
+    utc_now,
+)
 from .normalization import title_similarity
 from .providers.google_scholar import (
     GoogleScholarClient,
@@ -52,14 +59,8 @@ def _root(path: Path | None) -> Path:
     return path.resolve() if path else repository_root()
 
 
-def _openalex_api_key() -> str:
-    key = os.getenv("OPENALEX_API_KEY")
-    if not key:
-        raise typer.BadParameter(
-            "OPENALEX_API_KEY is required. Create a free key at "
-            "https://openalex.org/settings/api and export it or add it as a GitHub secret."
-        )
-    return key
+def _openalex_api_key() -> str | None:
+    return os.getenv("OPENALEX_API_KEY")
 
 
 def _semantic_scholar_api_key() -> str:
@@ -96,10 +97,21 @@ def _google_scholar_keys() -> dict[CitationRetrievalService, str]:
     return available
 
 
+def _papers_for_year(project: Path, year: int | None) -> list[Paper]:
+    papers = load_papers(project)
+    if year is None:
+        return list(papers)
+    edition_ids = {item.id for item in load_editions(project) if item.year == year}
+    paper_ids = {
+        item.paper_id for item in load_awards(project) if item.edition_id in edition_ids
+    }
+    return [paper for paper in papers if paper.id in paper_ids]
+
+
 @awards_app.command("check")
 def check_awards(
     conference: Annotated[str | None, typer.Option()] = None,
-    year: Annotated[int, typer.Option()] = 2023,
+    year: Annotated[int | None, typer.Option(help="Limit checks to one award year.")] = None,
     root: Annotated[Path | None, typer.Option()] = None,
 ) -> None:
     """Parse official pages and print record counts without changing curated data."""
@@ -109,7 +121,12 @@ def check_awards(
         (item.conference_id, item.year): item.expected_records
         for item in registry.award_sources
     }
-    keys = [key for key in ADAPTERS if key[1] == year and (not conference or key[0] == conference)]
+    keys = [
+        key
+        for key in ADAPTERS
+        if (year is None or key[1] == year)
+        and (not conference or key[0] == conference)
+    ]
     failed = False
     curated = load_awards(project)
     for conference_id, edition_year in keys:
@@ -188,13 +205,18 @@ def apply_review(
 @match_app.command("openalex")
 def match_openalex(
     root: Annotated[Path | None, typer.Option()] = None,
+    year: Annotated[int | None, typer.Option(help="Limit candidates to one award year.")] = None,
     paper_id: Annotated[
         str | None, typer.Option(help="Limit candidate generation to one paper.")
     ] = None,
 ) -> None:
     """Generate reviewable OpenAlex candidates without changing pinned bindings."""
     project = _root(root)
-    papers = [paper for paper in load_papers(project) if not paper_id or paper.id == paper_id]
+    papers = [
+        paper
+        for paper in _papers_for_year(project, year)
+        if not paper_id or paper.id == paper_id
+    ]
     awards = load_awards(project)
     editions = {item.id: item for item in load_editions(project)}
     conference_by_paper = {
@@ -203,7 +225,15 @@ def match_openalex(
     decisions = []
     with OpenAlexClient(api_key=_openalex_api_key()) as client:
         for paper in papers:
-            candidates = client.autocomplete_title(paper.canonical_title)
+            doi = next(
+                (item.value for item in paper.identifiers if item.scheme == "doi"),
+                None,
+            )
+            candidates = (
+                [client.get_by_doi(doi)]
+                if doi
+                else client.autocomplete_title(paper.canonical_title)
+            )
             plausible = [
                 item
                 for item in candidates
@@ -222,6 +252,7 @@ def match_openalex(
 @match_app.command("semantic-scholar")
 def match_semantic_scholar(
     root: Annotated[Path | None, typer.Option()] = None,
+    year: Annotated[int | None, typer.Option(help="Limit candidates to one award year.")] = None,
     paper_id: Annotated[
         str | None, typer.Option(help="Limit candidate generation to one paper.")
     ] = None,
@@ -232,7 +263,7 @@ def match_semantic_scholar(
 ) -> None:
     """Generate reviewable S2 candidates; never writes IDs or provider data."""
     project = _root(root)
-    papers = load_papers(project)
+    papers = _papers_for_year(project, year)
     bindings = load_bindings(project)
     if paper_id:
         papers = [paper for paper in papers if paper.id == paper_id]
@@ -255,8 +286,29 @@ def match_semantic_scholar(
     decisions = []
     with SemanticScholarClient(api_key=_semantic_scholar_api_key()) as client:
         for paper in papers:
-            exact = client.title_candidate(paper.canonical_title)
-            found = ([exact] if exact else []) + client.search_title(paper.canonical_title)
+            doi = next(
+                (item.value for item in paper.identifiers if item.scheme == "doi"),
+                None,
+            )
+            if doi:
+                try:
+                    found = [client.get_by_doi(doi)]
+                except httpx.HTTPStatusError as error:
+                    if error.response.status_code != 404:
+                        raise
+                    exact = client.title_candidate(paper.canonical_title)
+                    found = (
+                        [exact]
+                        if exact and title_similarity(paper.canonical_title, exact.title) >= 0.9
+                        else ([exact] if exact else []) + client.search_title(paper.canonical_title)
+                    )
+            else:
+                exact = client.title_candidate(paper.canonical_title)
+                found = (
+                    [exact]
+                    if exact and title_similarity(paper.canonical_title, exact.title) >= 0.9
+                    else ([exact] if exact else []) + client.search_title(paper.canonical_title)
+                )
             candidates = list({item.external_id: item for item in found}.values())
             plausible = [
                 item
@@ -277,13 +329,14 @@ def match_semantic_scholar(
 @match_app.command("google-scholar")
 def match_google_scholar(
     root: Annotated[Path | None, typer.Option()] = None,
+    year: Annotated[int | None, typer.Option(help="Limit candidates to one award year.")] = None,
     paper_id: Annotated[
         str | None, typer.Option(help="Limit candidate generation to one paper.")
     ] = None,
 ) -> None:
     """Generate reviewable Scholar candidates through SerpApi; never pins IDs."""
     project = _root(root)
-    papers = load_papers(project)
+    papers = _papers_for_year(project, year)
     if paper_id:
         papers = [paper for paper in papers if paper.id == paper_id]
         if not papers:
@@ -360,6 +413,7 @@ def match_google_scholar(
 @citations_app.command("refresh")
 def refresh_citations(
     root: Annotated[Path | None, typer.Option()] = None,
+    year: Annotated[int | None, typer.Option(help="Limit the refresh to one award year.")] = None,
     full_history: Annotated[
         bool, typer.Option(help="Query the citing-work graph by year.")
     ] = False,
@@ -375,6 +429,10 @@ def refresh_citations(
     skip_existing: Annotated[
         bool,
         typer.Option(help="Skip a provider when its UTC-dated snapshot already exists."),
+    ] = False,
+    append_missing: Annotated[
+        bool,
+        typer.Option(help="Append only papers absent from an existing UTC-dated snapshot."),
     ] = False,
 ) -> None:
     """Refresh pinned verified IDs directly; never searches or rematches papers."""
@@ -393,12 +451,14 @@ def refresh_citations(
         raise typer.BadParameter(
             "provider must be openalex, semantic_scholar, google_scholar, or all"
         )
+    if skip_existing and append_missing:
+        raise typer.BadParameter("--skip-existing and --append-missing are mutually exclusive")
     public_sources = {
         item.id: item.public_output_enabled
         for item in load_source_registry(project).citation_sources
     }
     all_bindings = load_bindings(project)
-    paper_ids = {paper.id for paper in load_papers(project)}
+    paper_ids = {paper.id for paper in _papers_for_year(project, year)}
     retrieved_at = datetime.fromisoformat(at.replace("Z", "+00:00")) if at else utc_now()
     date = retrieved_at.date().isoformat()
 
@@ -418,11 +478,25 @@ def refresh_citations(
             typer.echo(f"skipped {selected.value}: no verified bindings")
             continue
         target = project / "data/snapshots" / f"{date}-{selected.value.replace('_', '-')}.jsonl"
+        existing_paper_ids: set[str] = set()
         if target.exists():
             if skip_existing:
                 typer.echo(f"skipped {selected.value}: snapshot already exists: {target}")
                 continue
-            raise typer.BadParameter(f"snapshot already exists: {target}")
+            if not append_missing:
+                raise typer.BadParameter(f"snapshot already exists: {target}")
+            with target.open(encoding="utf-8") as handle:
+                existing_paper_ids = {
+                    json.loads(line)["paper_id"] for line in handle if line.strip()
+                }
+            bindings = [
+                binding for binding in bindings if binding.paper_id not in existing_paper_ids
+            ]
+            if not bindings:
+                typer.echo(
+                    f"skipped {selected.value}: all selected papers already exist in {target}"
+                )
+                continue
 
         if selected == CitationProvider.OPENALEX:
             with OpenAlexClient(api_key=_openalex_api_key()) as openalex_client:
@@ -530,5 +604,8 @@ def refresh_citations(
                 for scholar_client in clients.values():
                     scholar_client.close()
         target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_text(jsonl(observations), encoding="utf-8")
-        typer.echo(f"wrote {len(observations)} observations to {target}")
+        mode = "a" if target.exists() and append_missing else "w"
+        with target.open(mode, encoding="utf-8") as handle:
+            handle.write(jsonl(observations))
+        action = "appended" if mode == "a" else "wrote"
+        typer.echo(f"{action} {len(observations)} observations to {target}")

@@ -1,0 +1,101 @@
+awards:
+- id: usenix-security-2022-openvpn-is-open-to-vpn-fingerprinting-award
+  edition_id: usenix-security-2022
+  paper_id: usenix-security-2022-openvpn-is-open-to-vpn-fingerprinting
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source: &source
+    url: https://www.usenix.org/conference/usenixsecurity22/technical-sessions
+    retrieved_at: '2026-08-09T14:15:23Z'
+    content_sha256: ae2397a340986e50807a6e1c5921f63da4d0b421718ac3947af5b752fae818ab
+    parser_version: '2022.1'
+  raw_title: OpenVPN is Open to VPN Fingerprinting
+  raw_authors: Diwen Xue, Reethika Ramesh, and Arham Jain, University of Michigan; Michalis Kallitsis, Merit Network, Inc.; J. Alex Halderman, University of Michigan; Jedidiah R. Crandall, Arizona State University/Breakpointing Bad; Roya Ensafi, University of Michigan
+- id: usenix-security-2022-the-antrim-county-2020-election-incident-an-independent-forensic-award
+  edition_id: usenix-security-2022
+  paper_id: usenix-security-2022-the-antrim-county-2020-election-incident-an-independent-forensic
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source: *source
+  raw_title: 'The Antrim County 2020 Election Incident: An Independent Forensic Investigation'
+  raw_authors: J. Alex Halderman, University of Michigan
+- id: usenix-security-2022-an-audit-of-facebook-s-political-ad-policy-enforcement-award
+  edition_id: usenix-security-2022
+  paper_id: usenix-security-2022-an-audit-of-facebook-s-political-ad-policy-enforcement
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source: *source
+  raw_title: An Audit of Facebook's Political Ad Policy Enforcement
+  raw_authors: Victor Le Pochat, imec-DistriNet, KU Leuven; Laura Edelson, New York University; Tom Van Goethem and Wouter Joosen, imec-DistriNet, KU Leuven; Damon McCoy and Tobias Lauinger, New York University
+- id: usenix-security-2022-online-website-fingerprinting-evaluating-website-fingerprinting-award
+  edition_id: usenix-security-2022
+  paper_id: usenix-security-2022-online-website-fingerprinting-evaluating-website-fingerprinting
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source: *source
+  raw_title: 'Online Website Fingerprinting: Evaluating Website Fingerprinting Attacks on Tor in the Real World'
+  raw_authors: Giovanni Cherubin, Alan Turing Institute; Rob Jansen, U.S. Naval Research Laboratory; Carmela Troncoso, EPFL SPRING Lab
+- id: usenix-security-2022-attacks-on-deidentification-s-defenses-award
+  edition_id: usenix-security-2022
+  paper_id: usenix-security-2022-attacks-on-deidentification-s-defenses
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source: *source
+  raw_title: Attacks on Deidentification's Defenses
+  raw_authors: Aloni Cohen, University of Chicago
+- id: usenix-security-2022-identity-confusion-in-webview-based-mobile-app-in-app-ecosystems-award
+  edition_id: usenix-security-2022
+  paper_id: usenix-security-2022-identity-confusion-in-webview-based-mobile-app-in-app-ecosystems
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source: *source
+  raw_title: Identity Confusion in WebView-based Mobile App-in-app Ecosystems
+  raw_authors: Lei Zhang, Zhibo Zhang, and Ancong Liu, Fudan University; Yinzhi Cao, Johns Hopkins University; Xiaohan Zhang, Yanjun Chen, Yuan Zhang, Guangliang Yang, and Min Yang, Fudan University
+- id: usenix-security-2022-provably-safe-multilingual-software-sandboxing-using-webassembly-award
+  edition_id: usenix-security-2022
+  paper_id: usenix-security-2022-provably-safe-multilingual-software-sandboxing-using-webassembly
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source: *source
+  raw_title: Provably-Safe Multilingual Software Sandboxing using WebAssembly
+  raw_authors: Jay Bosamiya, Wen Shih Lim, and Bryan Parno, Carnegie Mellon University
+- id: usenix-security-2022-faster-yet-safer-logging-system-via-fixed-key-blockcipher-award
+  edition_id: usenix-security-2022
+  paper_id: usenix-security-2022-faster-yet-safer-logging-system-via-fixed-key-blockcipher
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source: *source
+  raw_title: 'Faster Yet Safer: Logging System Via Fixed-Key Blockcipher'
+  raw_authors: Viet Tung Hoang, Cong Wu, and Xin Yuan, Florida State University
+- id: usenix-security-2022-private-signaling-award
+  edition_id: usenix-security-2022
+  paper_id: usenix-security-2022-private-signaling
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source: *source
+  raw_title: Private Signaling
+  raw_authors: Varun Madathil and Alessandra Scafuro, North Carolina State University; István András Seres, Eötvös Loránd University; Omer Shlomovits and Denis Varlakov, ZenGo X
+- id: usenix-security-2022-fixreverter-a-realistic-bug-injection-methodology-for-benchmarki-award
+  edition_id: usenix-security-2022
+  paper_id: usenix-security-2022-fixreverter-a-realistic-bug-injection-methodology-for-benchmarki
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source: *source
+  raw_title: 'FIXREVERTER: A Realistic Bug Injection Methodology for Benchmarking Fuzz Testing'
+  raw_authors: Zenong Zhang and Zach Patterson, University of Texas at Dallas; Michael Hicks, University of Maryland and Amazon; Shiyi Wei, University of Texas at Dallas
+- id: usenix-security-2022-dos-and-don-ts-of-machine-learning-in-computer-security-award
+  edition_id: usenix-security-2022
+  paper_id: usenix-security-2022-dos-and-don-ts-of-machine-learning-in-computer-security
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source: *source
+  raw_title: Dos and Don'ts of Machine Learning in Computer Security
+  raw_authors: Daniel Arp, Technische Universität Berlin; Erwin Quiring, Technische Universität Braunschweig; Feargus Pendlebury, King's College London and Royal Holloway, University of London and The Alan Turing Institute; Alexander Warnecke, Technische Universität Braunschweig; Fabio Pierazzi, King's College London; Christian Wressnegger, KASTEL Security Research Labs and Karlsruhe Institute of Technology; Lorenzo Cavallaro, University College London; Konrad Rieck, Technische Universität Braunschweig
+- id: usenix-security-2022-augmenting-decompiler-output-with-learned-variable-names-and-typ-award
+  edition_id: usenix-security-2022
+  paper_id: usenix-security-2022-augmenting-decompiler-output-with-learned-variable-names-and-typ
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source: *source
+  raw_title: Augmenting Decompiler Output with Learned Variable Names and Types
+  raw_authors: Qibin Chen and Jeremy Lacomis, Carnegie Mellon University; Edward J. Schwartz, Carnegie Mellon University Software Engineering Institute; Claire Le Goues, Graham Neubig, and Bogdan Vasilescu, Carnegie Mellon University

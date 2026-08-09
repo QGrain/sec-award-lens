@@ -1,4 +1,24 @@
 coverage:
+- edition_id: ieee-sp-2022
+  status: verified
+  source_urls:
+  - https://www.ieee-security.org/TC/SP2022/awards.html
+  notes: Official awards page contains 4 core Distinguished Paper Award records; Test-of-Time awards are excluded.
+- edition_id: usenix-security-2022
+  status: verified
+  source_urls:
+  - https://www.usenix.org/conference/usenixsecurity22/technical-sessions
+  notes: Official technical-sessions page contains 12 core Distinguished Paper Award records across the 2022 submission cycles.
+- edition_id: acm-ccs-2022
+  status: verified
+  source_urls:
+  - https://www.sigsac.org/ccs/CCS2022/program/awards.html
+  notes: Official awards page contains 5 Distinguished Paper Award records; Best Paper Honorable Mentions and Test-of-Time awards are excluded.
+- edition_id: ndss-2022
+  status: verified
+  source_urls:
+  - https://www.ndss-symposium.org/ndss2022/
+  notes: Official main-symposium page contains 1 Distinguished Paper Award record; poster and Test-of-Time awards are excluded.
 - edition_id: ieee-sp-2023
   status: verified
   source_urls:

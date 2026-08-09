@@ -420,6 +420,9 @@ export function Overview({
     coverage: "四个会议覆盖",
     snapshot: "数据快照",
     year: "年份",
+    browseYears: "浏览已核验年份",
+    yearMenu: "年份菜单",
+    viewYear: "查看该年份",
     filter: "筛选会议",
     metric: "引用指标",
     sourceMetric: "引用来源",
@@ -461,6 +464,9 @@ export function Overview({
     coverage: "four-conference coverage",
     snapshot: "snapshot",
     year: "Year",
+    browseYears: "Browse verified years",
+    yearMenu: "Year menu",
+    viewYear: "View this year",
     filter: "Filter conferences",
     metric: "Citation metric",
     sourceMetric: "Citation source",
@@ -580,8 +586,28 @@ export function Overview({
         </aside>
       </section>
 
+      <section className="year-browser" aria-label={text.browseYears}>
+        <div className="year-browser-heading">
+          <span>{text.browseYears}</span>
+          <small>{language === "zh" ? `${yearOptions.length} 个年份可浏览` : `${yearOptions.length} years available`}</small>
+        </div>
+        <div className="year-list">
+          {yearOptions.map((year) => <button
+            type="button"
+            key={year}
+            className={year === data.year ? "active" : ""}
+            aria-current={year === data.year ? "page" : undefined}
+            title={`${text.viewYear}: ${year}`}
+            onClick={() => onYearChange(year)}
+          >{year}</button>)}
+        </div>
+        <div className="year-browser-menu">
+          <span>{text.yearMenu}</span>
+          <YearPicker label={text.year} value={data.year} years={yearOptions} onChange={onYearChange} />
+        </div>
+      </section>
+
       <section className="control-bar">
-        <div className="control-group"><span>{text.year}</span><YearPicker label={text.year} value={data.year} years={yearOptions} onChange={onYearChange} /></div>
         <div className="conference-toggles" aria-label={text.filter}>
           {conferences.map((conference) => <button key={conference.id} className={active.has(conference.id) ? "active" : ""} onClick={() => toggle(conference.id)}><i style={{ background: colors[conference.id] }} />{conference.short_name}</button>)}
         </div>

@@ -8,8 +8,8 @@ Raw conference terminology is preserved while those labels are normalized into a
 small comparison vocabulary. Student, practical, artifact, poster, honorable
 mention, test-of-time, and sponsor-specific prizes are outside the initial scope.
 
-The initial 2023 cohort has 47 awards. It validates the end-to-end pipeline but is not
-a claim that one year describes the field.
+The current release has 69 awards across 2022 and 2023. These cohorts validate the
+end-to-end pipeline but are not a claim that two years describe the field.
 
 ## Separation of records
 
@@ -81,13 +81,15 @@ elapsed. Partial windows must be labeled as such when newer years are added.
 Conference views report `n`, matched `n`, median, mean, quartiles, observed minimum
 and maximum, and the paper-level distribution. Totals are intentionally omitted from
 summary cards because award
-counts differ. Small samples remain visible; for example, NDSS has only two included
-2023 winners, so its summary is descriptive rather than a stable conference estimate.
+counts differ. Small samples remain visible; for example, NDSS has one included 2022
+winner and two included 2023 winners, so those summaries are descriptive rather than
+stable conference estimates.
 
 ## Current limitations
 
-- Google Scholar resolves 47/47, OpenAlex 42/47, and Semantic Scholar 46/47 of
-  the 2023 records. Missing observations remain visibly missing per provider.
+- Google Scholar resolves 22/22, OpenAlex 13/22, and Semantic Scholar 20/22 of
+  the 2022 records. The corresponding 2023 coverage is 47/47, 42/47, and 46/47.
+  Missing observations remain visibly missing per provider.
 - One snapshot establishes a baseline; a genuine growth curve needs later snapshots.
 - Provider citation coverage and entity merging can change retrospectively.
 - Scholar generally covers more document types and often clusters repository,
@@ -96,7 +98,8 @@ counts differ. Small samples remain visible; for example, NDSS has only two incl
 - SerpApi is a paid-quota, third-party parser whose response contract can change when
   Google Scholar changes its result pages. SerpApi is the preferred retrieval service;
   ScraperAPI is a current-total-only fallback and is recorded separately in provenance.
-- The first Google Scholar baseline has no citing-year histogram because it was
-  derived from discovery responses; this is a missing field, not a zero-valued series.
+- The 2022 Google Scholar baseline includes a citing-year histogram from pinned-cluster
+  refreshes. Earlier discovery observations may lack that field; absence is not a
+  zero-valued series.
 - A calendar-year window is coarser than an exact publication-date window.
 - Cross-provider counts are not interchangeable and should not be combined.

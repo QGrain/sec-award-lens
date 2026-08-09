@@ -1,0 +1,191 @@
+{
+  "awards": [
+    {
+      "edition_id": "usenix-security-2022",
+      "id": "usenix-security-2022-an-audit-of-facebook-s-political-ad-policy-enforcement-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "ae2397a340986e50807a6e1c5921f63da4d0b421718ac3947af5b752fae818ab",
+        "parser_version": "2022.1",
+        "retrieved_at": "2026-08-09T14:15:23Z",
+        "url": "https://www.usenix.org/conference/usenixsecurity22/technical-sessions"
+      },
+      "paper_id": "usenix-security-2022-an-audit-of-facebook-s-political-ad-policy-enforcement",
+      "raw_authors": "Victor Le Pochat, imec-DistriNet, KU Leuven; Laura Edelson, New York University; Tom Van Goethem and Wouter Joosen, imec-DistriNet, KU Leuven; Damon McCoy and Tobias Lauinger, New York University",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "An Audit of Facebook's Political Ad Policy Enforcement"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": null,
+      "external_id": null,
+      "method": null,
+      "override_reason": null,
+      "paper_id": "usenix-security-2022-an-audit-of-facebook-s-political-ad-policy-enforcement",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "No sufficiently reliable OpenAlex conference or preprint entity was found on 2026-08-09; later journal-only and artifact records were not substituted.",
+      "selected_candidate": null,
+      "status": "pending",
+      "verified_at": null,
+      "verified_by": null
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "16241320413858386121",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2022-an-audit-of-facebook-s-political-ad-policy-enforcement",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Exact title, positive author evidence, publication-year agreement, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "16241320413858386121",
+        "publication_year": 2022,
+        "title": "An Audit of Facebook's Political Ad Policy Enforcement",
+        "title_similarity": 1.0,
+        "venue": "31st USENIX Security Symposium",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-09T14:35:20Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "0d5ebff6e81bbbf9b801dfdf4dd32048050aa901",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2022-an-audit-of-facebook-s-political-ad-policy-enforcement",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "0d5ebff6e81bbbf9b801dfdf4dd32048050aa901",
+        "publication_year": 2022,
+        "title": "An Audit of Facebook's Political Ad Policy Enforcement",
+        "title_similarity": 1.0,
+        "venue": "USENIX Security Symposium",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-09T14:51:00Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
+    }
+  ],
+  "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2021
+          },
+          {
+            "count": 8,
+            "year": 2022
+          },
+          {
+            "count": 16,
+            "year": 2023
+          },
+          {
+            "count": 15,
+            "year": 2024
+          },
+          {
+            "count": 14,
+            "year": 2025
+          },
+          {
+            "count": 8,
+            "year": 2026
+          }
+        ],
+        "external_id": "16241320413858386121",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2022-an-audit-of-facebook-s-political-ad-policy-enforcement",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=16241320413858386121&hl=en",
+        "response_sha256": "97ae09928e8b490bdef464314d87496ecc8c2e2312bd35130237330605a02b2e",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T14:40:32.412627Z",
+        "total_citations": 63
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "0d5ebff6e81bbbf9b801dfdf4dd32048050aa901",
+        "influential_citations": 6,
+        "paper_id": "usenix-security-2022-an-audit-of-facebook-s-political-ad-policy-enforcement",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/0d5ebff6e81bbbf9b801dfdf4dd32048050aa901?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "b2346ec6494e283b8ca0d28d26b3eada2ceb5d48087d36bbabb5aab832e9e2bf",
+        "retrieval_service": "semantic_scholar",
+        "retrieved_at": "2026-08-09T14:48:06.775322Z",
+        "total_citations": 40
+      }
+    ]
+  },
+  "enrichment": null,
+  "generated_at": "2026-08-09T14:48:06.775322+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Victor Le Pochat"
+      },
+      {
+        "name": "Laura Edelson"
+      },
+      {
+        "name": "Tom Van Goethem"
+      },
+      {
+        "name": "Wouter Joosen"
+      },
+      {
+        "name": "Damon McCoy"
+      },
+      {
+        "name": "Tobias Lauinger"
+      }
+    ],
+    "canonical_title": "An Audit of Facebook's Political Ad Policy Enforcement",
+    "id": "usenix-security-2022-an-audit-of-facebook-s-political-ad-policy-enforcement",
+    "identifiers": [
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=16241320413858386121",
+        "value": "16241320413858386121",
+        "verified_at": "2026-08-09T14:35:20Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/0d5ebff6e81bbbf9b801dfdf4dd32048050aa901?utm_source=api",
+        "value": "0d5ebff6e81bbbf9b801dfdf4dd32048050aa901",
+        "verified_at": "2026-08-09T14:51:00Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.usenix.org/conference/usenixsecurity22/technical-sessions",
+      "https://www.usenix.org/conference/usenixsecurity22/presentation/lepochat"
+    ],
+    "official_paper_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/lepochat",
+    "publication_year": 2022,
+    "venue_name": "31st USENIX Security Symposium"
+  },
+  "schema_version": 1
+}

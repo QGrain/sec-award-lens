@@ -12,8 +12,6 @@ from bs4.element import NavigableString, Tag
 from ..models import AwardCandidate
 from ..normalization import split_author_names
 
-PARSER_VERSION = "2023.1"
-
 
 @dataclass(frozen=True)
 class AwardPage:
@@ -23,6 +21,18 @@ class AwardPage:
 
 
 ADAPTERS: dict[tuple[str, int], AwardPage] = {
+    ("ieee-sp", 2022): AwardPage(
+        "ieee-sp", 2022, "https://www.ieee-security.org/TC/SP2022/awards.html"
+    ),
+    ("usenix-security", 2022): AwardPage(
+        "usenix-security",
+        2022,
+        "https://www.usenix.org/conference/usenixsecurity22/technical-sessions",
+    ),
+    ("acm-ccs", 2022): AwardPage(
+        "acm-ccs", 2022, "https://www.sigsac.org/ccs/CCS2022/program/awards.html"
+    ),
+    ("ndss", 2022): AwardPage("ndss", 2022, "https://www.ndss-symposium.org/ndss2022/"),
     ("ieee-sp", 2023): AwardPage(
         "ieee-sp", 2023, "https://www.ieee-security.org/TC/SP2023/program-awards.html"
     ),
@@ -40,6 +50,31 @@ ADAPTERS: dict[tuple[str, int], AwardPage] = {
 
 def normalize_space(value: str) -> str:
     return re.sub(r"\s+", " ", value).strip()
+
+
+def parse_ieee_2022(html: str) -> list[AwardCandidate]:
+    soup = BeautifulSoup(html, "html.parser")
+    heading = soup.find(id="distinguished-paper-award")
+    if not isinstance(heading, Tag):
+        raise ValueError("IEEE S&P 2022 award section not found")
+    candidates: list[AwardCandidate] = []
+    node = heading.find_next_sibling()
+    while isinstance(node, Tag) and node.name != "h1":
+        if node.name == "p":
+            title_node = node.find("strong")
+            if isinstance(title_node, Tag):
+                title = normalize_space(title_node.get_text(" ", strip=True))
+                title_node.extract()
+                raw_authors = normalize_space(node.get_text(" ", strip=True))
+                candidates.append(
+                    AwardCandidate(
+                        raw_title=title,
+                        raw_authors=raw_authors,
+                        authors=split_author_names(raw_authors),
+                    )
+                )
+        node = node.find_next_sibling()
+    return candidates
 
 
 def parse_ieee_2023(html: str) -> list[AwardCandidate]:
@@ -78,7 +113,7 @@ def _usenix_author_names(authors_node: Tag) -> list[str]:
     return split_author_names(normalize_space(" ".join(fragments)))
 
 
-def parse_usenix_2023(html: str) -> list[AwardCandidate]:
+def _parse_usenix(html: str, year: int) -> list[AwardCandidate]:
     soup = BeautifulSoup(html, "html.parser")
     candidates: list[AwardCandidate] = []
     for award in soup.find_all("p", string=re.compile("Distinguished Paper Award Winner")):
@@ -91,13 +126,46 @@ def parse_usenix_2023(html: str) -> list[AwardCandidate]:
             continue
         raw_authors = normalize_space(authors_node.get_text(" ", strip=True))
         href = str(title_link.get("href", ""))
-        paper_url = httpx.URL(ADAPTERS[("usenix-security", 2023)].url).join(href)
+        paper_url = httpx.URL(ADAPTERS[("usenix-security", year)].url).join(href)
         candidates.append(
             AwardCandidate(
                 raw_title=normalize_space(title_link.get_text(" ", strip=True)),
                 raw_authors=raw_authors,
                 authors=_usenix_author_names(authors_node),
                 official_paper_url=str(paper_url),
+            )
+        )
+    return candidates
+
+
+def parse_usenix_2022(html: str) -> list[AwardCandidate]:
+    return _parse_usenix(html, 2022)
+
+
+def parse_usenix_2023(html: str) -> list[AwardCandidate]:
+    return _parse_usenix(html, 2023)
+
+
+def parse_ccs_2022(html: str) -> list[AwardCandidate]:
+    soup = BeautifulSoup(html, "html.parser")
+    heading = soup.find(id="distinguished-paper-award")
+    if not isinstance(heading, Tag):
+        raise ValueError("CCS 2022 award section not found")
+    awards_list = heading.find_next_sibling("ul")
+    if not isinstance(awards_list, Tag):
+        raise ValueError("CCS 2022 awards list not found")
+    candidates: list[AwardCandidate] = []
+    for item in awards_list.find_all("li", recursive=False):
+        title_node = item.find("strong", recursive=False)
+        authors_node = item.find("li")
+        if not isinstance(title_node, Tag) or not isinstance(authors_node, Tag):
+            continue
+        raw_authors = normalize_space(authors_node.get_text(" ", strip=True))
+        candidates.append(
+            AwardCandidate(
+                raw_title=normalize_space(title_node.get_text(" ", strip=True)),
+                raw_authors=raw_authors,
+                authors=split_author_names(raw_authors),
             )
         )
     return candidates
@@ -177,7 +245,43 @@ def parse_ndss_2023(html: str) -> list[AwardCandidate]:
     return candidates
 
 
+def parse_ndss_2022(html: str) -> list[AwardCandidate]:
+    soup = BeautifulSoup(html, "html.parser")
+    heading = next(
+        (
+            node
+            for node in soup.find_all(["h2", "h3"])
+            if "2022 Distinguished Paper Award" in node.get_text(" ", strip=True)
+        ),
+        None,
+    )
+    if not isinstance(heading, Tag):
+        raise ValueError("NDSS 2022 award section not found")
+    paper = heading.find_next_sibling("p")
+    if not isinstance(paper, Tag):
+        raise ValueError("NDSS 2022 award paper not found")
+    title_node = paper.find("strong")
+    link = paper.find("a")
+    if not isinstance(title_node, Tag) or not isinstance(link, Tag):
+        raise ValueError("NDSS 2022 award metadata not found")
+    title = normalize_space(title_node.get_text(" ", strip=True))
+    title_node.extract()
+    raw_authors = normalize_space(paper.get_text(" ", strip=True))
+    return [
+        AwardCandidate(
+            raw_title=title,
+            raw_authors=raw_authors,
+            authors=split_author_names(raw_authors),
+            official_paper_url=str(link.get("href")),
+        )
+    ]
+
+
 PARSERS = {
+    ("ieee-sp", 2022): parse_ieee_2022,
+    ("usenix-security", 2022): parse_usenix_2022,
+    ("acm-ccs", 2022): parse_ccs_2022,
+    ("ndss", 2022): parse_ndss_2022,
     ("ieee-sp", 2023): parse_ieee_2023,
     ("usenix-security", 2023): parse_usenix_2023,
     ("acm-ccs", 2023): parse_ccs_2023,

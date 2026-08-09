@@ -1,0 +1,3387 @@
+{
+  "conference_summaries": [
+    {
+      "award_count": 4,
+      "citation_source": "google_scholar",
+      "citations": {
+        "max": 1325.0,
+        "mean": 387.75,
+        "median": 86.0,
+        "min": 54.0,
+        "n": 4,
+        "q1": 61.0,
+        "q3": 714.5
+      },
+      "cited_paper_count": 4,
+      "conference": {
+        "aliases": [
+          "Oakland",
+          "IEEE Security & Privacy"
+        ],
+        "id": "ieee-sp",
+        "name": "IEEE Symposium on Security and Privacy",
+        "organizer": "IEEE Computer Society",
+        "short_name": "IEEE S&P"
+      },
+      "edition": {
+        "conference_id": "ieee-sp",
+        "id": "ieee-sp-2022",
+        "official_event_url": "https://www.ieee-security.org/TC/SP2022/awards.html",
+        "proceedings_url": "https://www.ieee-security.org/TC/SP2022/program-papers.html",
+        "year": 2022
+      }
+    },
+    {
+      "award_count": 12,
+      "citation_source": "google_scholar",
+      "citations": {
+        "max": 814.0,
+        "mean": 138.83333333333334,
+        "median": 73.5,
+        "min": 8.0,
+        "n": 12,
+        "q1": 47.5,
+        "q3": 120.0
+      },
+      "cited_paper_count": 12,
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "edition": {
+        "conference_id": "usenix-security",
+        "id": "usenix-security-2022",
+        "official_event_url": "https://www.usenix.org/conference/usenixsecurity22/technical-sessions",
+        "proceedings_url": "https://www.usenix.org/conference/usenixsecurity22/technical-sessions",
+        "year": 2022
+      }
+    },
+    {
+      "award_count": 5,
+      "citation_source": "google_scholar",
+      "citations": {
+        "max": 42.0,
+        "mean": 32.4,
+        "median": 36.0,
+        "min": 13.0,
+        "n": 5,
+        "q1": 21.5,
+        "q3": 41.5
+      },
+      "cited_paper_count": 5,
+      "conference": {
+        "aliases": [
+          "CCS"
+        ],
+        "id": "acm-ccs",
+        "name": "ACM Conference on Computer and Communications Security",
+        "organizer": "ACM SIGSAC",
+        "short_name": "ACM CCS"
+      },
+      "edition": {
+        "conference_id": "acm-ccs",
+        "id": "acm-ccs-2022",
+        "official_event_url": "https://www.sigsac.org/ccs/CCS2022/program/awards.html",
+        "proceedings_url": "https://www.sigsac.org/ccs/CCS2022/proceedings/ccs-proceedings.html",
+        "year": 2022
+      }
+    },
+    {
+      "award_count": 1,
+      "citation_source": "google_scholar",
+      "citations": {
+        "max": 107.0,
+        "mean": 107.0,
+        "median": 107.0,
+        "min": 107.0,
+        "n": 1,
+        "q1": 107.0,
+        "q3": 107.0
+      },
+      "cited_paper_count": 1,
+      "conference": {
+        "aliases": [
+          "NDSS Symposium"
+        ],
+        "id": "ndss",
+        "name": "Network and Distributed System Security Symposium",
+        "organizer": "Internet Society",
+        "short_name": "NDSS"
+      },
+      "edition": {
+        "conference_id": "ndss",
+        "id": "ndss-2022",
+        "official_event_url": "https://www.ndss-symposium.org/ndss2022/",
+        "proceedings_url": "https://www.ndss-symposium.org/ndss2022/accepted-papers/",
+        "year": 2022
+      }
+    }
+  ],
+  "generated_at": "2026-08-09T14:48:06.775322+00:00",
+  "rows": [
+    {
+      "award": {
+        "edition_id": "ieee-sp-2022",
+        "id": "ieee-sp-2022-asleep-at-the-keyboard-assessing-the-security-of-github-copilots-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "109993c86c526612fe7f30348b877abb3561e732e3e2294167976c742dc80225",
+          "parser_version": "2022.1",
+          "retrieved_at": "2026-08-09T14:15:23Z",
+          "url": "https://www.ieee-security.org/TC/SP2022/awards.html"
+        },
+        "paper_id": "ieee-sp-2022-asleep-at-the-keyboard-assessing-the-security-of-github-copilots",
+        "raw_authors": "Hammond Pearce, Baleegh Ahmad, Benjamin Tan, Brendan Dolan-Gavitt, Ramesh Karri (NYU Tandon School of Engineering)",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s Code Contributions"
+      },
+      "citations": {
+        "google_scholar": {
+          "citations_by_citing_year": [
+            {
+              "count": 16,
+              "year": 2022
+            },
+            {
+              "count": 126,
+              "year": 2023
+            },
+            {
+              "count": 260,
+              "year": 2024
+            },
+            {
+              "count": 394,
+              "year": 2025
+            },
+            {
+              "count": 510,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 402,
+          "citing_years_retrieved_at": "2026-08-09T14:40:32.412627+00:00",
+          "external_id": "15749188844572183021",
+          "influential_citations": null,
+          "paper_id": "ieee-sp-2022-asleep-at-the-keyboard-assessing-the-security-of-github-copilots",
+          "provider": "google_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=15749188844572183021&hl=en",
+          "response_sha256": "95644f1bd68d8c424ef28caf2a3b8ac6ade85c2b7fdad796d2aab56b8029e7b0",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T14:40:32.412627Z",
+          "total_citations": 1325
+        },
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 8,
+              "year": 2022
+            },
+            {
+              "count": 61,
+              "year": 2023
+            },
+            {
+              "count": 125,
+              "year": 2024
+            },
+            {
+              "count": 132,
+              "year": 2025
+            },
+            {
+              "count": 71,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 194,
+          "citing_years_retrieved_at": "2026-08-09T14:42:27.999060+00:00",
+          "external_id": "W4288057765",
+          "influential_citations": null,
+          "paper_id": "ieee-sp-2022-asleep-at-the-keyboard-assessing-the-security-of-github-copilots",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-08-08T01:25:22.217667",
+          "request_fingerprint": "GET /works/W4288057765?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "740995eb95f17a8d35d7e79ba61c2f4dd75fdf8b49e446f6a572289fac468025",
+          "retrieval_service": "openalex",
+          "retrieved_at": "2026-08-09T14:42:27.999060Z",
+          "total_citations": 396
+        },
+        "semantic_scholar": {
+          "citations_by_citing_year": [],
+          "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
+          "external_id": "6e5eb6167d9766fbb4d14611d15cf95d7b75fb9d",
+          "influential_citations": 104,
+          "paper_id": "ieee-sp-2022-asleep-at-the-keyboard-assessing-the-security-of-github-copilots",
+          "provider": "semantic_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /paper/6e5eb6167d9766fbb4d14611d15cf95d7b75fb9d?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+          "response_sha256": "d13a3790d98e47d20fe3cc9b40a84c26476e03c64b1bb7de4c6cac427e18953a",
+          "retrieval_service": "semantic_scholar",
+          "retrieved_at": "2026-08-09T14:42:47.499590Z",
+          "total_citations": 895
+        }
+      },
+      "conference": {
+        "aliases": [
+          "Oakland",
+          "IEEE Security & Privacy"
+        ],
+        "id": "ieee-sp",
+        "name": "IEEE Symposium on Security and Privacy",
+        "organizer": "IEEE Computer Society",
+        "short_name": "IEEE S&P"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Hammond Pearce"
+          },
+          {
+            "name": "Baleegh Ahmad"
+          },
+          {
+            "name": "Benjamin Tan"
+          },
+          {
+            "name": "Brendan Dolan-Gavitt"
+          },
+          {
+            "name": "Ramesh Karri"
+          }
+        ],
+        "canonical_title": "Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s Code Contributions",
+        "id": "ieee-sp-2022-asleep-at-the-keyboard-assessing-the-security-of-github-copilots",
+        "identifiers": [
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1109/sp46214.2022.9833571",
+            "value": "10.1109/sp46214.2022.9833571",
+            "verified_at": "2026-08-09T14:15:23Z"
+          },
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4288057765",
+            "value": "W4288057765",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "google_scholar",
+            "source_url": "https://scholar.google.com/scholar?cluster=15749188844572183021",
+            "value": "15749188844572183021",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "semantic_scholar",
+            "source_url": "https://www.semanticscholar.org/paper/6e5eb6167d9766fbb4d14611d15cf95d7b75fb9d?utm_source=api",
+            "value": "6e5eb6167d9766fbb4d14611d15cf95d7b75fb9d",
+            "verified_at": "2026-08-09T14:35:20Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.ieee-security.org/TC/SP2022/awards.html",
+          "https://api.crossref.org/works/10.1109/sp46214.2022.9833571"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2022,
+        "venue_name": "2022 IEEE Symposium on Security and Privacy"
+      },
+      "primary_topic": {
+        "display_name": "Advanced Malware Detection Techniques",
+        "openalex_id": "T11241",
+        "score": 0.9997000098228455
+      }
+    },
+    {
+      "award": {
+        "edition_id": "usenix-security-2022",
+        "id": "usenix-security-2022-dos-and-don-ts-of-machine-learning-in-computer-security-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "ae2397a340986e50807a6e1c5921f63da4d0b421718ac3947af5b752fae818ab",
+          "parser_version": "2022.1",
+          "retrieved_at": "2026-08-09T14:15:23Z",
+          "url": "https://www.usenix.org/conference/usenixsecurity22/technical-sessions"
+        },
+        "paper_id": "usenix-security-2022-dos-and-don-ts-of-machine-learning-in-computer-security",
+        "raw_authors": "Daniel Arp, Technische Universität Berlin; Erwin Quiring, Technische Universität Braunschweig; Feargus Pendlebury, King's College London and Royal Holloway, University of London and The Alan Turing Institute; Alexander Warnecke, Technische Universität Braunschweig; Fabio Pierazzi, King's College London; Christian Wressnegger, KASTEL Security Research Labs and Karlsruhe Institute of Technology; Lorenzo Cavallaro, University College London; Konrad Rieck, Technische Universität Braunschweig",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Dos and Don'ts of Machine Learning in Computer Security"
+      },
+      "citations": {
+        "google_scholar": {
+          "citations_by_citing_year": [
+            {
+              "count": 18,
+              "year": 2021
+            },
+            {
+              "count": 59,
+              "year": 2022
+            },
+            {
+              "count": 155,
+              "year": 2023
+            },
+            {
+              "count": 202,
+              "year": 2024
+            },
+            {
+              "count": 219,
+              "year": 2025
+            },
+            {
+              "count": 157,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 416,
+          "citing_years_retrieved_at": "2026-08-09T14:40:32.412627+00:00",
+          "external_id": "9061477006498320470",
+          "influential_citations": null,
+          "paper_id": "usenix-security-2022-dos-and-don-ts-of-machine-learning-in-computer-security",
+          "provider": "google_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=9061477006498320470&hl=en",
+          "response_sha256": "48c7402748ce7ee95d29572fb55ef95a046868304d4b917d030e75223f445fa2",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T14:40:32.412627Z",
+          "total_citations": 814
+        },
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 3,
+              "year": 2021
+            },
+            {
+              "count": 5,
+              "year": 2022
+            },
+            {
+              "count": 5,
+              "year": 2023
+            },
+            {
+              "count": 7,
+              "year": 2024
+            },
+            {
+              "count": 4,
+              "year": 2025
+            }
+          ],
+          "citations_first_3_years": 17,
+          "citing_years_retrieved_at": "2026-08-09T14:42:27.999060+00:00",
+          "external_id": "W3092978542",
+          "influential_citations": null,
+          "paper_id": "usenix-security-2022-dos-and-don-ts-of-machine-learning-in-computer-security",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-08-09T07:27:16.801131",
+          "request_fingerprint": "GET /works/W3092978542?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "6d47a500291948b51e9ba4feb546505344f216d35fcf619c01bba17cd44025fc",
+          "retrieval_service": "openalex",
+          "retrieved_at": "2026-08-09T14:42:27.999060Z",
+          "total_citations": 24
+        }
+      },
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Daniel Arp"
+          },
+          {
+            "name": "Erwin Quiring"
+          },
+          {
+            "name": "Feargus Pendlebury"
+          },
+          {
+            "name": "Alexander Warnecke"
+          },
+          {
+            "name": "Fabio Pierazzi"
+          },
+          {
+            "name": "Christian Wressnegger"
+          },
+          {
+            "name": "Lorenzo Cavallaro"
+          },
+          {
+            "name": "Konrad Rieck"
+          }
+        ],
+        "canonical_title": "Dos and Don'ts of Machine Learning in Computer Security",
+        "id": "usenix-security-2022-dos-and-don-ts-of-machine-learning-in-computer-security",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W3092978542",
+            "value": "W3092978542",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "google_scholar",
+            "source_url": "https://scholar.google.com/scholar?cluster=9061477006498320470",
+            "value": "9061477006498320470",
+            "verified_at": "2026-08-09T14:35:20Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.usenix.org/conference/usenixsecurity22/technical-sessions",
+          "https://www.usenix.org/conference/usenixsecurity22/presentation/arp"
+        ],
+        "official_paper_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
+        "publication_year": 2022,
+        "venue_name": "31st USENIX Security Symposium"
+      },
+      "primary_topic": {
+        "display_name": "Advanced Malware Detection Techniques",
+        "openalex_id": "T11241",
+        "score": 0.9998999834060669
+      }
+    },
+    {
+      "award": {
+        "edition_id": "usenix-security-2022",
+        "id": "usenix-security-2022-online-website-fingerprinting-evaluating-website-fingerprinting-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "ae2397a340986e50807a6e1c5921f63da4d0b421718ac3947af5b752fae818ab",
+          "parser_version": "2022.1",
+          "retrieved_at": "2026-08-09T14:15:23Z",
+          "url": "https://www.usenix.org/conference/usenixsecurity22/technical-sessions"
+        },
+        "paper_id": "usenix-security-2022-online-website-fingerprinting-evaluating-website-fingerprinting",
+        "raw_authors": "Giovanni Cherubin, Alan Turing Institute; Rob Jansen, U.S. Naval Research Laboratory; Carmela Troncoso, EPFL SPRING Lab",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Online Website Fingerprinting: Evaluating Website Fingerprinting Attacks on Tor in the Real World"
+      },
+      "citations": {
+        "google_scholar": {
+          "citations_by_citing_year": [
+            {
+              "count": 4,
+              "year": 2022
+            },
+            {
+              "count": 35,
+              "year": 2023
+            },
+            {
+              "count": 53,
+              "year": 2024
+            },
+            {
+              "count": 62,
+              "year": 2025
+            },
+            {
+              "count": 34,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 92,
+          "citing_years_retrieved_at": "2026-08-09T14:40:32.412627+00:00",
+          "external_id": "10197221097772115422",
+          "influential_citations": null,
+          "paper_id": "usenix-security-2022-online-website-fingerprinting-evaluating-website-fingerprinting",
+          "provider": "google_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=10197221097772115422&hl=en",
+          "response_sha256": "42a4072d8bfd8b1d0b9b421be613c5ccb690f38fbd1183df5638b15c5e303845",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T14:40:32.412627Z",
+          "total_citations": 188
+        },
+        "semantic_scholar": {
+          "citations_by_citing_year": [],
+          "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
+          "external_id": "a2b2c2a3d421930688669e0b6cf528f8c1125bcc",
+          "influential_citations": 15,
+          "paper_id": "usenix-security-2022-online-website-fingerprinting-evaluating-website-fingerprinting",
+          "provider": "semantic_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /paper/a2b2c2a3d421930688669e0b6cf528f8c1125bcc?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+          "response_sha256": "fb5a5a9fe6bb8074c89c26c0545ae7b7d18e25ae833a8af8969352aac3e2182a",
+          "retrieval_service": "semantic_scholar",
+          "retrieved_at": "2026-08-09T14:48:06.775322Z",
+          "total_citations": 128
+        }
+      },
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Giovanni Cherubin"
+          },
+          {
+            "name": "Rob Jansen"
+          },
+          {
+            "name": "Carmela Troncoso"
+          }
+        ],
+        "canonical_title": "Online Website Fingerprinting: Evaluating Website Fingerprinting Attacks on Tor in the Real World",
+        "id": "usenix-security-2022-online-website-fingerprinting-evaluating-website-fingerprinting",
+        "identifiers": [
+          {
+            "scheme": "google_scholar",
+            "source_url": "https://scholar.google.com/scholar?cluster=10197221097772115422",
+            "value": "10197221097772115422",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "semantic_scholar",
+            "source_url": "https://www.semanticscholar.org/paper/a2b2c2a3d421930688669e0b6cf528f8c1125bcc?utm_source=api",
+            "value": "a2b2c2a3d421930688669e0b6cf528f8c1125bcc",
+            "verified_at": "2026-08-09T14:51:00Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.usenix.org/conference/usenixsecurity22/technical-sessions",
+          "https://www.usenix.org/conference/usenixsecurity22/presentation/cherubin"
+        ],
+        "official_paper_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/cherubin",
+        "publication_year": 2022,
+        "venue_name": "31st USENIX Security Symposium"
+      },
+      "primary_topic": null
+    },
+    {
+      "award": {
+        "edition_id": "usenix-security-2022",
+        "id": "usenix-security-2022-augmenting-decompiler-output-with-learned-variable-names-and-typ-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "ae2397a340986e50807a6e1c5921f63da4d0b421718ac3947af5b752fae818ab",
+          "parser_version": "2022.1",
+          "retrieved_at": "2026-08-09T14:15:23Z",
+          "url": "https://www.usenix.org/conference/usenixsecurity22/technical-sessions"
+        },
+        "paper_id": "usenix-security-2022-augmenting-decompiler-output-with-learned-variable-names-and-typ",
+        "raw_authors": "Qibin Chen and Jeremy Lacomis, Carnegie Mellon University; Edward J. Schwartz, Carnegie Mellon University Software Engineering Institute; Claire Le Goues, Graham Neubig, and Bogdan Vasilescu, Carnegie Mellon University",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Augmenting Decompiler Output with Learned Variable Names and Types"
+      },
+      "citations": {
+        "google_scholar": {
+          "citations_by_citing_year": [
+            {
+              "count": 4,
+              "year": 2022
+            },
+            {
+              "count": 18,
+              "year": 2023
+            },
+            {
+              "count": 32,
+              "year": 2024
+            },
+            {
+              "count": 50,
+              "year": 2025
+            },
+            {
+              "count": 30,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 54,
+          "citing_years_retrieved_at": "2026-08-09T14:40:32.412627+00:00",
+          "external_id": "14649896203905633863",
+          "influential_citations": null,
+          "paper_id": "usenix-security-2022-augmenting-decompiler-output-with-learned-variable-names-and-typ",
+          "provider": "google_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=14649896203905633863&hl=en",
+          "response_sha256": "ce80f0ac7872353c2f53ca37f3d58066b4871fe826ebaa806aa4f0ca6bea91b7",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T14:40:32.412627Z",
+          "total_citations": 134
+        },
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 2,
+              "year": 2022
+            },
+            {
+              "count": 5,
+              "year": 2023
+            },
+            {
+              "count": 2,
+              "year": 2024
+            },
+            {
+              "count": 2,
+              "year": 2025
+            }
+          ],
+          "citations_first_3_years": 9,
+          "citing_years_retrieved_at": "2026-08-09T14:42:27.999060+00:00",
+          "external_id": "W3193654868",
+          "influential_citations": null,
+          "paper_id": "usenix-security-2022-augmenting-decompiler-output-with-learned-variable-names-and-typ",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-28T07:46:37.118299",
+          "request_fingerprint": "GET /works/W3193654868?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "fa49959b1ac8b2af90a6374d155ad745eebc38b24d6478ffd61f8be957e926b1",
+          "retrieval_service": "openalex",
+          "retrieved_at": "2026-08-09T14:42:27.999060Z",
+          "total_citations": 11
+        },
+        "semantic_scholar": {
+          "citations_by_citing_year": [],
+          "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
+          "external_id": "06e36261b21af2943e464a562c92c09dac292a82",
+          "influential_citations": 10,
+          "paper_id": "usenix-security-2022-augmenting-decompiler-output-with-learned-variable-names-and-typ",
+          "provider": "semantic_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /paper/06e36261b21af2943e464a562c92c09dac292a82?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+          "response_sha256": "a26eea29b881a90baa48bf4f4b6ab435fd87d53c8d999b5f04a417e2f3a61dc3",
+          "retrieval_service": "semantic_scholar",
+          "retrieved_at": "2026-08-09T14:48:06.775322Z",
+          "total_citations": 99
+        }
+      },
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Qibin Chen"
+          },
+          {
+            "name": "Jeremy Lacomis"
+          },
+          {
+            "name": "Edward J. Schwartz"
+          },
+          {
+            "name": "Claire Le Goues"
+          },
+          {
+            "name": "Graham Neubig"
+          },
+          {
+            "name": "Bogdan Vasilescu"
+          }
+        ],
+        "canonical_title": "Augmenting Decompiler Output with Learned Variable Names and Types",
+        "id": "usenix-security-2022-augmenting-decompiler-output-with-learned-variable-names-and-typ",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W3193654868",
+            "value": "W3193654868",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "google_scholar",
+            "source_url": "https://scholar.google.com/scholar?cluster=14649896203905633863",
+            "value": "14649896203905633863",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "semantic_scholar",
+            "source_url": "https://www.semanticscholar.org/paper/06e36261b21af2943e464a562c92c09dac292a82?utm_source=api",
+            "value": "06e36261b21af2943e464a562c92c09dac292a82",
+            "verified_at": "2026-08-09T14:51:00Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.usenix.org/conference/usenixsecurity22/technical-sessions",
+          "https://www.usenix.org/conference/usenixsecurity22/presentation/chen-qibin"
+        ],
+        "official_paper_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/chen-qibin",
+        "publication_year": 2022,
+        "venue_name": "31st USENIX Security Symposium"
+      },
+      "primary_topic": {
+        "display_name": "Software Engineering Research",
+        "openalex_id": "T10260",
+        "score": 0.9994000196456909
+      }
+    },
+    {
+      "award": {
+        "edition_id": "ndss-2022",
+        "id": "ndss-2022-preventing-kernel-hacks-with-hakcs-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "4b6a0976c5f7f8590523f510c83a97eb294c51ebf56fbb4eb611de2a81b493ca",
+          "parser_version": "2022.1",
+          "retrieved_at": "2026-08-09T14:15:23Z",
+          "url": "https://www.ndss-symposium.org/ndss2022/"
+        },
+        "paper_id": "ndss-2022-preventing-kernel-hacks-with-hakcs",
+        "raw_authors": "Derrick McKee (Purdue University), Yianni Giannaris (MIT CSAIL), Carolina Ortega (MIT CSAIL), Howard Shrobe (MIT CSAIL), Mathias Payer (EPFL), Hamed Okhravi (MIT Lincoln Laboratory), Nathan Burow (MIT Lincoln Laboratory)",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Preventing Kernel Hacks with HAKCs"
+      },
+      "citations": {
+        "google_scholar": {
+          "citations_by_citing_year": [
+            {
+              "count": 6,
+              "year": 2022
+            },
+            {
+              "count": 28,
+              "year": 2023
+            },
+            {
+              "count": 28,
+              "year": 2024
+            },
+            {
+              "count": 28,
+              "year": 2025
+            },
+            {
+              "count": 17,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 62,
+          "citing_years_retrieved_at": "2026-08-09T14:40:32.412627+00:00",
+          "external_id": "18170487006816021013",
+          "influential_citations": null,
+          "paper_id": "ndss-2022-preventing-kernel-hacks-with-hakcs",
+          "provider": "google_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=18170487006816021013&hl=en",
+          "response_sha256": "7fb26f99e42c02a72cb65fbe3a5df9b3a7342807702e8266ac47b2c95b0ebb7c",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T14:40:32.412627Z",
+          "total_citations": 107
+        },
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2022
+            },
+            {
+              "count": 12,
+              "year": 2023
+            },
+            {
+              "count": 10,
+              "year": 2024
+            },
+            {
+              "count": 11,
+              "year": 2025
+            },
+            {
+              "count": 2,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 23,
+          "citing_years_retrieved_at": "2026-08-09T14:42:27.999060+00:00",
+          "external_id": "W4226543528",
+          "influential_citations": null,
+          "paper_id": "ndss-2022-preventing-kernel-hacks-with-hakcs",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-08-06T08:24:18.245995",
+          "request_fingerprint": "GET /works/W4226543528?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "0ee332ef77b47b13939fa8dab5b2f1f1539a819b9a32b00e1e40fffd5f1c1b4b",
+          "retrieval_service": "openalex",
+          "retrieved_at": "2026-08-09T14:42:27.999060Z",
+          "total_citations": 38
+        },
+        "semantic_scholar": {
+          "citations_by_citing_year": [],
+          "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
+          "external_id": "060eed4b80ca80c9854925ee4f47268af6ed8ea1",
+          "influential_citations": 3,
+          "paper_id": "ndss-2022-preventing-kernel-hacks-with-hakcs",
+          "provider": "semantic_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /paper/060eed4b80ca80c9854925ee4f47268af6ed8ea1?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+          "response_sha256": "05cb055158738650b7474c3c087b280337dd9794f21c55b0d68dafae97b0b8a7",
+          "retrieval_service": "semantic_scholar",
+          "retrieved_at": "2026-08-09T14:48:06.775322Z",
+          "total_citations": 47
+        }
+      },
+      "conference": {
+        "aliases": [
+          "NDSS Symposium"
+        ],
+        "id": "ndss",
+        "name": "Network and Distributed System Security Symposium",
+        "organizer": "Internet Society",
+        "short_name": "NDSS"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Derrick McKee"
+          },
+          {
+            "name": "Yianni Giannaris"
+          },
+          {
+            "name": "Carolina Ortega"
+          },
+          {
+            "name": "Howard Shrobe"
+          },
+          {
+            "name": "Mathias Payer"
+          },
+          {
+            "name": "Hamed Okhravi"
+          },
+          {
+            "name": "Nathan Burow"
+          }
+        ],
+        "canonical_title": "Preventing Kernel Hacks with HAKCs",
+        "id": "ndss-2022-preventing-kernel-hacks-with-hakcs",
+        "identifiers": [
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.14722/ndss.2022.24026",
+            "value": "10.14722/ndss.2022.24026",
+            "verified_at": "2026-08-09T14:15:23Z"
+          },
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4226543528",
+            "value": "W4226543528",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "google_scholar",
+            "source_url": "https://scholar.google.com/scholar?cluster=18170487006816021013",
+            "value": "18170487006816021013",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "semantic_scholar",
+            "source_url": "https://www.semanticscholar.org/paper/060eed4b80ca80c9854925ee4f47268af6ed8ea1?utm_source=api",
+            "value": "060eed4b80ca80c9854925ee4f47268af6ed8ea1",
+            "verified_at": "2026-08-09T14:51:00Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.ndss-symposium.org/ndss2022/",
+          "https://www.ndss-symposium.org/ndss-paper/auto-draft-257/"
+        ],
+        "official_paper_url": "https://www.ndss-symposium.org/ndss-paper/auto-draft-257/",
+        "publication_year": 2022,
+        "venue_name": "Network and Distributed System Security Symposium 2022"
+      },
+      "primary_topic": {
+        "display_name": "Security and Verification in Computing",
+        "openalex_id": "T11424",
+        "score": 0.9994000196456909
+      }
+    },
+    {
+      "award": {
+        "edition_id": "usenix-security-2022",
+        "id": "usenix-security-2022-openvpn-is-open-to-vpn-fingerprinting-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "ae2397a340986e50807a6e1c5921f63da4d0b421718ac3947af5b752fae818ab",
+          "parser_version": "2022.1",
+          "retrieved_at": "2026-08-09T14:15:23Z",
+          "url": "https://www.usenix.org/conference/usenixsecurity22/technical-sessions"
+        },
+        "paper_id": "usenix-security-2022-openvpn-is-open-to-vpn-fingerprinting",
+        "raw_authors": "Diwen Xue, Reethika Ramesh, and Arham Jain, University of Michigan; Michalis Kallitsis, Merit Network, Inc.; J. Alex Halderman, University of Michigan; Jedidiah R. Crandall, Arizona State University/Breakpointing Bad; Roya Ensafi, University of Michigan",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "OpenVPN is Open to VPN Fingerprinting"
+      },
+      "citations": {
+        "google_scholar": {
+          "citations_by_citing_year": [
+            {
+              "count": 24,
+              "year": 2023
+            },
+            {
+              "count": 24,
+              "year": 2024
+            },
+            {
+              "count": 33,
+              "year": 2025
+            },
+            {
+              "count": 24,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 48,
+          "citing_years_retrieved_at": "2026-08-09T14:40:32.412627+00:00",
+          "external_id": "5669762753806705860",
+          "influential_citations": null,
+          "paper_id": "usenix-security-2022-openvpn-is-open-to-vpn-fingerprinting",
+          "provider": "google_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=5669762753806705860&hl=en",
+          "response_sha256": "f0bcc48353ce36b5e75af84801e68ccef1ca5db0bfece29c57b0e438e20b7e48",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T14:40:32.412627Z",
+          "total_citations": 106
+        },
+        "semantic_scholar": {
+          "citations_by_citing_year": [],
+          "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
+          "external_id": "2ae766461643b27129c8e9479dba94e7fe2d3672",
+          "influential_citations": 8,
+          "paper_id": "usenix-security-2022-openvpn-is-open-to-vpn-fingerprinting",
+          "provider": "semantic_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /paper/2ae766461643b27129c8e9479dba94e7fe2d3672?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+          "response_sha256": "c58063d5b7d823877f7d4a374921ab108542582acf404e0ed975a990169e54a0",
+          "retrieval_service": "semantic_scholar",
+          "retrieved_at": "2026-08-09T14:48:06.775322Z",
+          "total_citations": 56
+        }
+      },
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Diwen Xue"
+          },
+          {
+            "name": "Reethika Ramesh"
+          },
+          {
+            "name": "Arham Jain"
+          },
+          {
+            "name": "Michalis Kallitsis"
+          },
+          {
+            "name": "J. Alex Halderman"
+          },
+          {
+            "name": "Jedidiah R. Crandall"
+          },
+          {
+            "name": "Roya Ensafi"
+          }
+        ],
+        "canonical_title": "OpenVPN is Open to VPN Fingerprinting",
+        "id": "usenix-security-2022-openvpn-is-open-to-vpn-fingerprinting",
+        "identifiers": [
+          {
+            "scheme": "google_scholar",
+            "source_url": "https://scholar.google.com/scholar?cluster=5669762753806705860",
+            "value": "5669762753806705860",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "semantic_scholar",
+            "source_url": "https://www.semanticscholar.org/paper/2ae766461643b27129c8e9479dba94e7fe2d3672?utm_source=api",
+            "value": "2ae766461643b27129c8e9479dba94e7fe2d3672",
+            "verified_at": "2026-08-09T14:51:00Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.usenix.org/conference/usenixsecurity22/technical-sessions",
+          "https://www.usenix.org/conference/usenixsecurity22/presentation/xue-diwen"
+        ],
+        "official_paper_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/xue-diwen",
+        "publication_year": 2022,
+        "venue_name": "31st USENIX Security Symposium"
+      },
+      "primary_topic": null
+    },
+    {
+      "award": {
+        "edition_id": "ieee-sp-2022",
+        "id": "ieee-sp-2022-committed-to-trust-a-qualitative-study-on-security-trust-in-open-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "109993c86c526612fe7f30348b877abb3561e732e3e2294167976c742dc80225",
+          "parser_version": "2022.1",
+          "retrieved_at": "2026-08-09T14:15:23Z",
+          "url": "https://www.ieee-security.org/TC/SP2022/awards.html"
+        },
+        "paper_id": "ieee-sp-2022-committed-to-trust-a-qualitative-study-on-security-trust-in-open",
+        "raw_authors": "Dominik Wermke (CISPA), Noah Woehler (CISPA), Jan H. Klemmer (Leibniz University Hannover), Marcel Fourné (MPI-SP), Yasemin Acar (George Washington University), Sascha Fahl (CISPA, Leibniz University Hannover)",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Committed to Trust: A Qualitative Study on Security & Trust in Open Source Software Projects"
+      },
+      "citations": {
+        "google_scholar": {
+          "citations_by_citing_year": [
+            {
+              "count": 4,
+              "year": 2022
+            },
+            {
+              "count": 21,
+              "year": 2023
+            },
+            {
+              "count": 32,
+              "year": 2024
+            },
+            {
+              "count": 25,
+              "year": 2025
+            },
+            {
+              "count": 17,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 57,
+          "citing_years_retrieved_at": "2026-08-09T14:40:32.412627+00:00",
+          "external_id": "1063041065774482518",
+          "influential_citations": null,
+          "paper_id": "ieee-sp-2022-committed-to-trust-a-qualitative-study-on-security-trust-in-open",
+          "provider": "google_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=1063041065774482518&hl=en",
+          "response_sha256": "34919747d1bd020e8a9b0ead3112cab24e2e0e487298b4eb0adfdebb3f30ed79",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T14:40:32.412627Z",
+          "total_citations": 104
+        },
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2022
+            },
+            {
+              "count": 11,
+              "year": 2023
+            },
+            {
+              "count": 11,
+              "year": 2024
+            },
+            {
+              "count": 11,
+              "year": 2025
+            },
+            {
+              "count": 6,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 23,
+          "citing_years_retrieved_at": "2026-08-09T14:42:27.999060+00:00",
+          "external_id": "W4288057810",
+          "influential_citations": null,
+          "paper_id": "ieee-sp-2022-committed-to-trust-a-qualitative-study-on-security-trust-in-open",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+          "request_fingerprint": "GET /works/W4288057810?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "d61ddce6004605ca7ae0148467fb59bd98ba637f65555aa2bc913d2b82a1bc60",
+          "retrieval_service": "openalex",
+          "retrieved_at": "2026-08-09T14:42:27.999060Z",
+          "total_citations": 40
+        },
+        "semantic_scholar": {
+          "citations_by_citing_year": [],
+          "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
+          "external_id": "ca2925811878d47cd80113ece88c708cc4a594b0",
+          "influential_citations": 5,
+          "paper_id": "ieee-sp-2022-committed-to-trust-a-qualitative-study-on-security-trust-in-open",
+          "provider": "semantic_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /paper/ca2925811878d47cd80113ece88c708cc4a594b0?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+          "response_sha256": "7de43921953bb2e84047964f336a736378a84957658ecf9cc0b4712d334c9543",
+          "retrieval_service": "semantic_scholar",
+          "retrieved_at": "2026-08-09T14:42:47.499590Z",
+          "total_citations": 57
+        }
+      },
+      "conference": {
+        "aliases": [
+          "Oakland",
+          "IEEE Security & Privacy"
+        ],
+        "id": "ieee-sp",
+        "name": "IEEE Symposium on Security and Privacy",
+        "organizer": "IEEE Computer Society",
+        "short_name": "IEEE S&P"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Dominik Wermke"
+          },
+          {
+            "name": "Noah Wöhler"
+          },
+          {
+            "name": "Jan H. Klemmer"
+          },
+          {
+            "name": "Marcel Fourné"
+          },
+          {
+            "name": "Yasemin Acar"
+          },
+          {
+            "name": "Sascha Fahl"
+          }
+        ],
+        "canonical_title": "Committed to Trust: A Qualitative Study on Security & Trust in Open Source Software Projects",
+        "id": "ieee-sp-2022-committed-to-trust-a-qualitative-study-on-security-trust-in-open",
+        "identifiers": [
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1109/sp46214.2022.9833686",
+            "value": "10.1109/sp46214.2022.9833686",
+            "verified_at": "2026-08-09T14:15:23Z"
+          },
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4288057810",
+            "value": "W4288057810",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "google_scholar",
+            "source_url": "https://scholar.google.com/scholar?cluster=1063041065774482518",
+            "value": "1063041065774482518",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "semantic_scholar",
+            "source_url": "https://www.semanticscholar.org/paper/ca2925811878d47cd80113ece88c708cc4a594b0?utm_source=api",
+            "value": "ca2925811878d47cd80113ece88c708cc4a594b0",
+            "verified_at": "2026-08-09T14:35:20Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.ieee-security.org/TC/SP2022/awards.html",
+          "https://api.crossref.org/works/10.1109/sp46214.2022.9833686"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2022,
+        "venue_name": "2022 IEEE Symposium on Security and Privacy"
+      },
+      "primary_topic": {
+        "display_name": "Open Source Software Innovations",
+        "openalex_id": "T11675",
+        "score": 0.9994000196456909
+      }
+    },
+    {
+      "award": {
+        "edition_id": "usenix-security-2022",
+        "id": "usenix-security-2022-provably-safe-multilingual-software-sandboxing-using-webassembly-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "ae2397a340986e50807a6e1c5921f63da4d0b421718ac3947af5b752fae818ab",
+          "parser_version": "2022.1",
+          "retrieved_at": "2026-08-09T14:15:23Z",
+          "url": "https://www.usenix.org/conference/usenixsecurity22/technical-sessions"
+        },
+        "paper_id": "usenix-security-2022-provably-safe-multilingual-software-sandboxing-using-webassembly",
+        "raw_authors": "Jay Bosamiya, Wen Shih Lim, and Bryan Parno, Carnegie Mellon University",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Provably-Safe Multilingual Software Sandboxing using WebAssembly"
+      },
+      "citations": {
+        "google_scholar": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2022
+            },
+            {
+              "count": 14,
+              "year": 2023
+            },
+            {
+              "count": 25,
+              "year": 2024
+            },
+            {
+              "count": 27,
+              "year": 2025
+            },
+            {
+              "count": 14,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 40,
+          "citing_years_retrieved_at": "2026-08-09T14:40:32.412627+00:00",
+          "external_id": "10881861069402808910",
+          "influential_citations": null,
+          "paper_id": "usenix-security-2022-provably-safe-multilingual-software-sandboxing-using-webassembly",
+          "provider": "google_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=10881861069402808910&hl=en",
+          "response_sha256": "e73c805af27082d3864d60e53fb070012d791c5f23f4f0493edc92ffd4b60166",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T14:40:32.412627Z",
+          "total_citations": 84
+        },
+        "semantic_scholar": {
+          "citations_by_citing_year": [],
+          "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
+          "external_id": "0bfa7803aa3086b5a6fd7f679f80d95627710986",
+          "influential_citations": 4,
+          "paper_id": "usenix-security-2022-provably-safe-multilingual-software-sandboxing-using-webassembly",
+          "provider": "semantic_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /paper/0bfa7803aa3086b5a6fd7f679f80d95627710986?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+          "response_sha256": "3285bc66b5846f0f237262c34583e1bb7e429699c5e3a00eb46450752566552c",
+          "retrieval_service": "semantic_scholar",
+          "retrieved_at": "2026-08-09T14:48:06.775322Z",
+          "total_citations": 47
+        }
+      },
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Jay Bosamiya"
+          },
+          {
+            "name": "Wen Shih Lim"
+          },
+          {
+            "name": "Bryan Parno"
+          }
+        ],
+        "canonical_title": "Provably-Safe Multilingual Software Sandboxing using WebAssembly",
+        "id": "usenix-security-2022-provably-safe-multilingual-software-sandboxing-using-webassembly",
+        "identifiers": [
+          {
+            "scheme": "google_scholar",
+            "source_url": "https://scholar.google.com/scholar?cluster=10881861069402808910",
+            "value": "10881861069402808910",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "semantic_scholar",
+            "source_url": "https://www.semanticscholar.org/paper/0bfa7803aa3086b5a6fd7f679f80d95627710986?utm_source=api",
+            "value": "0bfa7803aa3086b5a6fd7f679f80d95627710986",
+            "verified_at": "2026-08-09T14:51:00Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.usenix.org/conference/usenixsecurity22/technical-sessions",
+          "https://www.usenix.org/conference/usenixsecurity22/presentation/bosamiya"
+        ],
+        "official_paper_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/bosamiya",
+        "publication_year": 2022,
+        "venue_name": "31st USENIX Security Symposium"
+      },
+      "primary_topic": null
+    },
+    {
+      "award": {
+        "edition_id": "usenix-security-2022",
+        "id": "usenix-security-2022-attacks-on-deidentification-s-defenses-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "ae2397a340986e50807a6e1c5921f63da4d0b421718ac3947af5b752fae818ab",
+          "parser_version": "2022.1",
+          "retrieved_at": "2026-08-09T14:15:23Z",
+          "url": "https://www.usenix.org/conference/usenixsecurity22/technical-sessions"
+        },
+        "paper_id": "usenix-security-2022-attacks-on-deidentification-s-defenses",
+        "raw_authors": "Aloni Cohen, University of Chicago",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Attacks on Deidentification's Defenses"
+      },
+      "citations": {
+        "google_scholar": {
+          "citations_by_citing_year": [
+            {
+              "count": 4,
+              "year": 2022
+            },
+            {
+              "count": 9,
+              "year": 2023
+            },
+            {
+              "count": 29,
+              "year": 2024
+            },
+            {
+              "count": 27,
+              "year": 2025
+            },
+            {
+              "count": 9,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 42,
+          "citing_years_retrieved_at": "2026-08-09T14:40:32.412627+00:00",
+          "external_id": "851999209444612219",
+          "influential_citations": null,
+          "paper_id": "usenix-security-2022-attacks-on-deidentification-s-defenses",
+          "provider": "google_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=851999209444612219&hl=en",
+          "response_sha256": "9874a5766f73896edbc494f859b4e503590c6349c388682669fe14a1d9faa6ef",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T14:40:32.412627Z",
+          "total_citations": 78
+        },
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2022
+            },
+            {
+              "count": 3,
+              "year": 2023
+            },
+            {
+              "count": 1,
+              "year": 2024
+            }
+          ],
+          "citations_first_3_years": 5,
+          "citing_years_retrieved_at": "2026-08-09T14:42:27.999060+00:00",
+          "external_id": "W4226318410",
+          "influential_citations": null,
+          "paper_id": "usenix-security-2022-attacks-on-deidentification-s-defenses",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-08-05T07:39:15.569665",
+          "request_fingerprint": "GET /works/W4226318410?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "15bf500ff22c81a8e6c75783d389f1591a1b6489d89aaffa24cc81779a468846",
+          "retrieval_service": "openalex",
+          "retrieved_at": "2026-08-09T14:42:27.999060Z",
+          "total_citations": 5
+        },
+        "semantic_scholar": {
+          "citations_by_citing_year": [],
+          "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
+          "external_id": "784de911b3cc582776a0dc26501a0e440ba11851",
+          "influential_citations": 2,
+          "paper_id": "usenix-security-2022-attacks-on-deidentification-s-defenses",
+          "provider": "semantic_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /paper/784de911b3cc582776a0dc26501a0e440ba11851?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+          "response_sha256": "5768867e6de6f02e28bb23a4f93ffc505a7a6cdca1a4c19cb0f7e569a6bab938",
+          "retrieval_service": "semantic_scholar",
+          "retrieved_at": "2026-08-09T14:48:06.775322Z",
+          "total_citations": 40
+        }
+      },
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Aloni Cohen"
+          }
+        ],
+        "canonical_title": "Attacks on Deidentification's Defenses",
+        "id": "usenix-security-2022-attacks-on-deidentification-s-defenses",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4226318410",
+            "value": "W4226318410",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "google_scholar",
+            "source_url": "https://scholar.google.com/scholar?cluster=851999209444612219",
+            "value": "851999209444612219",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "semantic_scholar",
+            "source_url": "https://www.semanticscholar.org/paper/784de911b3cc582776a0dc26501a0e440ba11851?utm_source=api",
+            "value": "784de911b3cc582776a0dc26501a0e440ba11851",
+            "verified_at": "2026-08-09T14:51:00Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.usenix.org/conference/usenixsecurity22/technical-sessions",
+          "https://www.usenix.org/conference/usenixsecurity22/presentation/cohen"
+        ],
+        "official_paper_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/cohen",
+        "publication_year": 2022,
+        "venue_name": "31st USENIX Security Symposium"
+      },
+      "primary_topic": {
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "openalex_id": "T10764",
+        "score": 0.9965999722480774
+      }
+    },
+    {
+      "award": {
+        "edition_id": "usenix-security-2022",
+        "id": "usenix-security-2022-identity-confusion-in-webview-based-mobile-app-in-app-ecosystems-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "ae2397a340986e50807a6e1c5921f63da4d0b421718ac3947af5b752fae818ab",
+          "parser_version": "2022.1",
+          "retrieved_at": "2026-08-09T14:15:23Z",
+          "url": "https://www.usenix.org/conference/usenixsecurity22/technical-sessions"
+        },
+        "paper_id": "usenix-security-2022-identity-confusion-in-webview-based-mobile-app-in-app-ecosystems",
+        "raw_authors": "Lei Zhang, Zhibo Zhang, and Ancong Liu, Fudan University; Yinzhi Cao, Johns Hopkins University; Xiaohan Zhang, Yanjun Chen, Yuan Zhang, Guangliang Yang, and Min Yang, Fudan University",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Identity Confusion in WebView-based Mobile App-in-app Ecosystems"
+      },
+      "citations": {
+        "google_scholar": {
+          "citations_by_citing_year": [
+            {
+              "count": 2,
+              "year": 2022
+            },
+            {
+              "count": 29,
+              "year": 2023
+            },
+            {
+              "count": 13,
+              "year": 2024
+            },
+            {
+              "count": 17,
+              "year": 2025
+            },
+            {
+              "count": 8,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 44,
+          "citing_years_retrieved_at": "2026-08-09T14:40:32.412627+00:00",
+          "external_id": "2859060886136934922",
+          "influential_citations": null,
+          "paper_id": "usenix-security-2022-identity-confusion-in-webview-based-mobile-app-in-app-ecosystems",
+          "provider": "google_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=2859060886136934922&hl=en",
+          "response_sha256": "55ed3a080253392d2e6ed6525574b4f6ef0e7c263526ca5fdede00848a2c180f",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T14:40:32.412627Z",
+          "total_citations": 69
+        },
+        "semantic_scholar": {
+          "citations_by_citing_year": [],
+          "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
+          "external_id": "29e6e2bb927fd0ecd418b63e783f086ac5375623",
+          "influential_citations": 3,
+          "paper_id": "usenix-security-2022-identity-confusion-in-webview-based-mobile-app-in-app-ecosystems",
+          "provider": "semantic_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /paper/29e6e2bb927fd0ecd418b63e783f086ac5375623?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+          "response_sha256": "fa1866c8b807ab240a912404ae670f794beda3a37f5f800699f356f18bab5033",
+          "retrieval_service": "semantic_scholar",
+          "retrieved_at": "2026-08-09T14:48:06.775322Z",
+          "total_citations": 41
+        }
+      },
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Lei Zhang"
+          },
+          {
+            "name": "Zhibo Zhang"
+          },
+          {
+            "name": "Ancong Liu"
+          },
+          {
+            "name": "Yinzhi Cao"
+          },
+          {
+            "name": "Xiaohan Zhang"
+          },
+          {
+            "name": "Yanjun Chen"
+          },
+          {
+            "name": "Yuan Zhang"
+          },
+          {
+            "name": "Guangliang Yang"
+          },
+          {
+            "name": "Min Yang"
+          }
+        ],
+        "canonical_title": "Identity Confusion in WebView-based Mobile App-in-app Ecosystems",
+        "id": "usenix-security-2022-identity-confusion-in-webview-based-mobile-app-in-app-ecosystems",
+        "identifiers": [
+          {
+            "scheme": "google_scholar",
+            "source_url": "https://scholar.google.com/scholar?cluster=2859060886136934922",
+            "value": "2859060886136934922",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "semantic_scholar",
+            "source_url": "https://www.semanticscholar.org/paper/29e6e2bb927fd0ecd418b63e783f086ac5375623?utm_source=api",
+            "value": "29e6e2bb927fd0ecd418b63e783f086ac5375623",
+            "verified_at": "2026-08-09T14:51:00Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.usenix.org/conference/usenixsecurity22/technical-sessions",
+          "https://www.usenix.org/conference/usenixsecurity22/presentation/zhang-lei"
+        ],
+        "official_paper_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/zhang-lei",
+        "publication_year": 2022,
+        "venue_name": "31st USENIX Security Symposium"
+      },
+      "primary_topic": null
+    },
+    {
+      "award": {
+        "edition_id": "ieee-sp-2022",
+        "id": "ieee-sp-2022-four-attacks-and-a-proof-for-telegram-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "109993c86c526612fe7f30348b877abb3561e732e3e2294167976c742dc80225",
+          "parser_version": "2022.1",
+          "retrieved_at": "2026-08-09T14:15:23Z",
+          "url": "https://www.ieee-security.org/TC/SP2022/awards.html"
+        },
+        "paper_id": "ieee-sp-2022-four-attacks-and-a-proof-for-telegram",
+        "raw_authors": "Martin R. Albrecht (Royal Holloway, University of London), Lenka Mareková (Royal Holloway, University of London), Kenneth G. Paterson (ETH Zurich), Igors Stepanovs (ETH Zurich)",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Four Attacks and a Proof for Telegram"
+      },
+      "citations": {
+        "google_scholar": {
+          "citations_by_citing_year": [
+            {
+              "count": 2,
+              "year": 2021
+            },
+            {
+              "count": 3,
+              "year": 2022
+            },
+            {
+              "count": 17,
+              "year": 2023
+            },
+            {
+              "count": 15,
+              "year": 2024
+            },
+            {
+              "count": 17,
+              "year": 2025
+            },
+            {
+              "count": 13,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 35,
+          "citing_years_retrieved_at": "2026-08-09T14:40:32.412627+00:00",
+          "external_id": "11099704654015424130",
+          "influential_citations": null,
+          "paper_id": "ieee-sp-2022-four-attacks-and-a-proof-for-telegram",
+          "provider": "google_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=11099704654015424130&hl=en",
+          "response_sha256": "0d70f441d786b3bfd6df4e1f925f7e2752625c4eb93b7729eddd0292e987b73e",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T14:40:32.412627Z",
+          "total_citations": 68
+        },
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2022
+            },
+            {
+              "count": 8,
+              "year": 2023
+            },
+            {
+              "count": 4,
+              "year": 2024
+            },
+            {
+              "count": 9,
+              "year": 2025
+            },
+            {
+              "count": 1,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 13,
+          "citing_years_retrieved_at": "2026-08-09T14:42:27.999060+00:00",
+          "external_id": "W4288057802",
+          "influential_citations": null,
+          "paper_id": "ieee-sp-2022-four-attacks-and-a-proof-for-telegram",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+          "request_fingerprint": "GET /works/W4288057802?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "691f5229bd3c48240f3cf03589cc3150640b73a20cc92af29b5ee42aaa68ee3f",
+          "retrieval_service": "openalex",
+          "retrieved_at": "2026-08-09T14:42:27.999060Z",
+          "total_citations": 23
+        },
+        "semantic_scholar": {
+          "citations_by_citing_year": [],
+          "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
+          "external_id": "1547c8b075c10dce8a7190fdd52033b0d9373bb8",
+          "influential_citations": 4,
+          "paper_id": "ieee-sp-2022-four-attacks-and-a-proof-for-telegram",
+          "provider": "semantic_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /paper/1547c8b075c10dce8a7190fdd52033b0d9373bb8?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+          "response_sha256": "f67db18b78740fb1eae4a79ff06adb86f861e6d72d2e6cca6594425d17da0bd0",
+          "retrieval_service": "semantic_scholar",
+          "retrieved_at": "2026-08-09T14:42:47.499590Z",
+          "total_citations": 42
+        }
+      },
+      "conference": {
+        "aliases": [
+          "Oakland",
+          "IEEE Security & Privacy"
+        ],
+        "id": "ieee-sp",
+        "name": "IEEE Symposium on Security and Privacy",
+        "organizer": "IEEE Computer Society",
+        "short_name": "IEEE S&P"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Martin R. Albrecht"
+          },
+          {
+            "name": "Lenka Mareková"
+          },
+          {
+            "name": "Kenneth G. Paterson"
+          },
+          {
+            "name": "Igors Stepanovs"
+          }
+        ],
+        "canonical_title": "Four Attacks and a Proof for Telegram",
+        "id": "ieee-sp-2022-four-attacks-and-a-proof-for-telegram",
+        "identifiers": [
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1109/sp46214.2022.9833666",
+            "value": "10.1109/sp46214.2022.9833666",
+            "verified_at": "2026-08-09T14:15:23Z"
+          },
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4288057802",
+            "value": "W4288057802",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "google_scholar",
+            "source_url": "https://scholar.google.com/scholar?cluster=11099704654015424130",
+            "value": "11099704654015424130",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "semantic_scholar",
+            "source_url": "https://www.semanticscholar.org/paper/1547c8b075c10dce8a7190fdd52033b0d9373bb8?utm_source=api",
+            "value": "1547c8b075c10dce8a7190fdd52033b0d9373bb8",
+            "verified_at": "2026-08-09T14:35:20Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.ieee-security.org/TC/SP2022/awards.html",
+          "https://api.crossref.org/works/10.1109/sp46214.2022.9833666"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2022,
+        "venue_name": "2022 IEEE Symposium on Security and Privacy"
+      },
+      "primary_topic": {
+        "display_name": "Cryptographic Implementations and Security",
+        "openalex_id": "T10951",
+        "score": 0.9998999834060669
+      }
+    },
+    {
+      "award": {
+        "edition_id": "usenix-security-2022",
+        "id": "usenix-security-2022-an-audit-of-facebook-s-political-ad-policy-enforcement-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "ae2397a340986e50807a6e1c5921f63da4d0b421718ac3947af5b752fae818ab",
+          "parser_version": "2022.1",
+          "retrieved_at": "2026-08-09T14:15:23Z",
+          "url": "https://www.usenix.org/conference/usenixsecurity22/technical-sessions"
+        },
+        "paper_id": "usenix-security-2022-an-audit-of-facebook-s-political-ad-policy-enforcement",
+        "raw_authors": "Victor Le Pochat, imec-DistriNet, KU Leuven; Laura Edelson, New York University; Tom Van Goethem and Wouter Joosen, imec-DistriNet, KU Leuven; Damon McCoy and Tobias Lauinger, New York University",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "An Audit of Facebook's Political Ad Policy Enforcement"
+      },
+      "citations": {
+        "google_scholar": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2021
+            },
+            {
+              "count": 8,
+              "year": 2022
+            },
+            {
+              "count": 16,
+              "year": 2023
+            },
+            {
+              "count": 15,
+              "year": 2024
+            },
+            {
+              "count": 14,
+              "year": 2025
+            },
+            {
+              "count": 8,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 39,
+          "citing_years_retrieved_at": "2026-08-09T14:40:32.412627+00:00",
+          "external_id": "16241320413858386121",
+          "influential_citations": null,
+          "paper_id": "usenix-security-2022-an-audit-of-facebook-s-political-ad-policy-enforcement",
+          "provider": "google_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=16241320413858386121&hl=en",
+          "response_sha256": "97ae09928e8b490bdef464314d87496ecc8c2e2312bd35130237330605a02b2e",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T14:40:32.412627Z",
+          "total_citations": 63
+        },
+        "semantic_scholar": {
+          "citations_by_citing_year": [],
+          "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
+          "external_id": "0d5ebff6e81bbbf9b801dfdf4dd32048050aa901",
+          "influential_citations": 6,
+          "paper_id": "usenix-security-2022-an-audit-of-facebook-s-political-ad-policy-enforcement",
+          "provider": "semantic_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /paper/0d5ebff6e81bbbf9b801dfdf4dd32048050aa901?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+          "response_sha256": "b2346ec6494e283b8ca0d28d26b3eada2ceb5d48087d36bbabb5aab832e9e2bf",
+          "retrieval_service": "semantic_scholar",
+          "retrieved_at": "2026-08-09T14:48:06.775322Z",
+          "total_citations": 40
+        }
+      },
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Victor Le Pochat"
+          },
+          {
+            "name": "Laura Edelson"
+          },
+          {
+            "name": "Tom Van Goethem"
+          },
+          {
+            "name": "Wouter Joosen"
+          },
+          {
+            "name": "Damon McCoy"
+          },
+          {
+            "name": "Tobias Lauinger"
+          }
+        ],
+        "canonical_title": "An Audit of Facebook's Political Ad Policy Enforcement",
+        "id": "usenix-security-2022-an-audit-of-facebook-s-political-ad-policy-enforcement",
+        "identifiers": [
+          {
+            "scheme": "google_scholar",
+            "source_url": "https://scholar.google.com/scholar?cluster=16241320413858386121",
+            "value": "16241320413858386121",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "semantic_scholar",
+            "source_url": "https://www.semanticscholar.org/paper/0d5ebff6e81bbbf9b801dfdf4dd32048050aa901?utm_source=api",
+            "value": "0d5ebff6e81bbbf9b801dfdf4dd32048050aa901",
+            "verified_at": "2026-08-09T14:51:00Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.usenix.org/conference/usenixsecurity22/technical-sessions",
+          "https://www.usenix.org/conference/usenixsecurity22/presentation/lepochat"
+        ],
+        "official_paper_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/lepochat",
+        "publication_year": 2022,
+        "venue_name": "31st USENIX Security Symposium"
+      },
+      "primary_topic": null
+    },
+    {
+      "award": {
+        "edition_id": "usenix-security-2022",
+        "id": "usenix-security-2022-fixreverter-a-realistic-bug-injection-methodology-for-benchmarki-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "ae2397a340986e50807a6e1c5921f63da4d0b421718ac3947af5b752fae818ab",
+          "parser_version": "2022.1",
+          "retrieved_at": "2026-08-09T14:15:23Z",
+          "url": "https://www.usenix.org/conference/usenixsecurity22/technical-sessions"
+        },
+        "paper_id": "usenix-security-2022-fixreverter-a-realistic-bug-injection-methodology-for-benchmarki",
+        "raw_authors": "Zenong Zhang and Zach Patterson, University of Texas at Dallas; Michael Hicks, University of Maryland and Amazon; Shiyi Wei, University of Texas at Dallas",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "FIXREVERTER: A Realistic Bug Injection Methodology for Benchmarking Fuzz Testing"
+      },
+      "citations": {
+        "google_scholar": {
+          "citations_by_citing_year": [
+            {
+              "count": 2,
+              "year": 2022
+            },
+            {
+              "count": 12,
+              "year": 2023
+            },
+            {
+              "count": 16,
+              "year": 2024
+            },
+            {
+              "count": 16,
+              "year": 2025
+            },
+            {
+              "count": 14,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 30,
+          "citing_years_retrieved_at": "2026-08-09T14:40:32.412627+00:00",
+          "external_id": "1039502314047305974",
+          "influential_citations": null,
+          "paper_id": "usenix-security-2022-fixreverter-a-realistic-bug-injection-methodology-for-benchmarki",
+          "provider": "google_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=1039502314047305974&hl=en",
+          "response_sha256": "37c4833fbc2bc19c2e913351bd6502edcf4e1cc02e08f953e9740d0d32506b8e",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T14:40:32.412627Z",
+          "total_citations": 60
+        },
+        "semantic_scholar": {
+          "citations_by_citing_year": [],
+          "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
+          "external_id": "a2b87179dcea5dad26e6e3d17640c689eabc2940",
+          "influential_citations": 7,
+          "paper_id": "usenix-security-2022-fixreverter-a-realistic-bug-injection-methodology-for-benchmarki",
+          "provider": "semantic_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /paper/a2b87179dcea5dad26e6e3d17640c689eabc2940?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+          "response_sha256": "7a01a8ae965bfe67a2af15e90dab593bac4cffbb4abd1808d51567067804fd7a",
+          "retrieval_service": "semantic_scholar",
+          "retrieved_at": "2026-08-09T14:48:06.775322Z",
+          "total_citations": 46
+        }
+      },
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Zenong Zhang"
+          },
+          {
+            "name": "Zach Patterson"
+          },
+          {
+            "name": "Michael Hicks"
+          },
+          {
+            "name": "Shiyi Wei"
+          }
+        ],
+        "canonical_title": "FIXREVERTER: A Realistic Bug Injection Methodology for Benchmarking Fuzz Testing",
+        "id": "usenix-security-2022-fixreverter-a-realistic-bug-injection-methodology-for-benchmarki",
+        "identifiers": [
+          {
+            "scheme": "google_scholar",
+            "source_url": "https://scholar.google.com/scholar?cluster=1039502314047305974",
+            "value": "1039502314047305974",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "semantic_scholar",
+            "source_url": "https://www.semanticscholar.org/paper/a2b87179dcea5dad26e6e3d17640c689eabc2940?utm_source=api",
+            "value": "a2b87179dcea5dad26e6e3d17640c689eabc2940",
+            "verified_at": "2026-08-09T14:51:00Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.usenix.org/conference/usenixsecurity22/technical-sessions",
+          "https://www.usenix.org/conference/usenixsecurity22/presentation/zhang-zenong"
+        ],
+        "official_paper_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/zhang-zenong",
+        "publication_year": 2022,
+        "venue_name": "31st USENIX Security Symposium"
+      },
+      "primary_topic": null
+    },
+    {
+      "award": {
+        "edition_id": "ieee-sp-2022",
+        "id": "ieee-sp-2022-invisible-finger-practical-electromagnetic-interference-attack-o-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "109993c86c526612fe7f30348b877abb3561e732e3e2294167976c742dc80225",
+          "parser_version": "2022.1",
+          "retrieved_at": "2026-08-09T14:15:23Z",
+          "url": "https://www.ieee-security.org/TC/SP2022/awards.html"
+        },
+        "paper_id": "ieee-sp-2022-invisible-finger-practical-electromagnetic-interference-attack-o",
+        "raw_authors": "Haoqi Shan (University of Florida), Boyi Zhang (University of Florida), Zihao Zhan (University of Florida), Dean Sullivan (University of New Hampshire), Shuo Wang (University of Florida), Yier Jin (University of Florida)",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Invisible Finger: Practical Electromagnetic Interference Attack on Touchscreen-based Electronic Devices"
+      },
+      "citations": {
+        "google_scholar": {
+          "citations_by_citing_year": [
+            {
+              "count": 5,
+              "year": 2022
+            },
+            {
+              "count": 13,
+              "year": 2023
+            },
+            {
+              "count": 16,
+              "year": 2024
+            },
+            {
+              "count": 13,
+              "year": 2025
+            },
+            {
+              "count": 7,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 34,
+          "citing_years_retrieved_at": "2026-08-09T14:40:32.412627+00:00",
+          "external_id": "9271269350994327061",
+          "influential_citations": null,
+          "paper_id": "ieee-sp-2022-invisible-finger-practical-electromagnetic-interference-attack-o",
+          "provider": "google_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=9271269350994327061&hl=en",
+          "response_sha256": "245acc7fafcce7d0e1067ced6b24b67e5055b1b45fc7a3c449b51e69b82ae582",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T14:40:32.412627Z",
+          "total_citations": 54
+        },
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 5,
+              "year": 2023
+            },
+            {
+              "count": 9,
+              "year": 2024
+            },
+            {
+              "count": 8,
+              "year": 2025
+            },
+            {
+              "count": 3,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 14,
+          "citing_years_retrieved_at": "2026-08-09T14:42:27.999060+00:00",
+          "external_id": "W4288057774",
+          "influential_citations": null,
+          "paper_id": "ieee-sp-2022-invisible-finger-practical-electromagnetic-interference-attack-o",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-08-05T07:39:15.569665",
+          "request_fingerprint": "GET /works/W4288057774?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "95ce04c5369b9c406860bc2033cab80a3393eb278745c00342d3bbc4b4313723",
+          "retrieval_service": "openalex",
+          "retrieved_at": "2026-08-09T14:42:27.999060Z",
+          "total_citations": 25
+        },
+        "semantic_scholar": {
+          "citations_by_citing_year": [],
+          "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
+          "external_id": "8736acd01917ebed8ea90b99a36089d047a9dc64",
+          "influential_citations": 4,
+          "paper_id": "ieee-sp-2022-invisible-finger-practical-electromagnetic-interference-attack-o",
+          "provider": "semantic_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /paper/8736acd01917ebed8ea90b99a36089d047a9dc64?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+          "response_sha256": "b2a0c74f5efec3cb385ae2a96c8bc5e05a5d5714fe920750c05ea114b37995ae",
+          "retrieval_service": "semantic_scholar",
+          "retrieved_at": "2026-08-09T14:42:47.499590Z",
+          "total_citations": 18
+        }
+      },
+      "conference": {
+        "aliases": [
+          "Oakland",
+          "IEEE Security & Privacy"
+        ],
+        "id": "ieee-sp",
+        "name": "IEEE Symposium on Security and Privacy",
+        "organizer": "IEEE Computer Society",
+        "short_name": "IEEE S&P"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Haoqi Shan"
+          },
+          {
+            "name": "Boyi Zhang"
+          },
+          {
+            "name": "Zihao Zhan"
+          },
+          {
+            "name": "Dean Sullivan"
+          },
+          {
+            "name": "Shuo Wang"
+          },
+          {
+            "name": "Yier Jin"
+          }
+        ],
+        "canonical_title": "Invisible Finger: Practical Electromagnetic Interference Attack on Touchscreen-based Electronic Devices",
+        "id": "ieee-sp-2022-invisible-finger-practical-electromagnetic-interference-attack-o",
+        "identifiers": [
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1109/sp46214.2022.9833718",
+            "value": "10.1109/sp46214.2022.9833718",
+            "verified_at": "2026-08-09T14:15:23Z"
+          },
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4288057774",
+            "value": "W4288057774",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "google_scholar",
+            "source_url": "https://scholar.google.com/scholar?cluster=9271269350994327061",
+            "value": "9271269350994327061",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "semantic_scholar",
+            "source_url": "https://www.semanticscholar.org/paper/8736acd01917ebed8ea90b99a36089d047a9dc64?utm_source=api",
+            "value": "8736acd01917ebed8ea90b99a36089d047a9dc64",
+            "verified_at": "2026-08-09T14:35:20Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.ieee-security.org/TC/SP2022/awards.html",
+          "https://api.crossref.org/works/10.1109/sp46214.2022.9833718"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2022,
+        "venue_name": "2022 IEEE Symposium on Security and Privacy"
+      },
+      "primary_topic": {
+        "display_name": "Physical Unclonable Functions (PUFs) and Hardware Security",
+        "openalex_id": "T12122",
+        "score": 0.9988999962806702
+      }
+    },
+    {
+      "award": {
+        "edition_id": "acm-ccs-2022",
+        "id": "acm-ccs-2022-automatic-detection-of-speculative-execution-combinations-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "2bf8eebed43c2c1f46e5d3a2d7f48114e666ba330c492e095a95e294ce19ce98",
+          "parser_version": "2022.1",
+          "retrieved_at": "2026-08-09T14:15:23Z",
+          "url": "https://www.sigsac.org/ccs/CCS2022/program/awards.html"
+        },
+        "paper_id": "acm-ccs-2022-automatic-detection-of-speculative-execution-combinations",
+        "raw_authors": "Xaver Fabian, Marco Patrignani, Marco Guarnieri",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Automatic Detection of Speculative Execution Combinations"
+      },
+      "citations": {
+        "google_scholar": {
+          "citations_by_citing_year": [
+            {
+              "count": 13,
+              "year": 2023
+            },
+            {
+              "count": 12,
+              "year": 2024
+            },
+            {
+              "count": 11,
+              "year": 2025
+            },
+            {
+              "count": 5,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 25,
+          "citing_years_retrieved_at": "2026-08-09T14:40:32.412627+00:00",
+          "external_id": "699693440773325732",
+          "influential_citations": null,
+          "paper_id": "acm-ccs-2022-automatic-detection-of-speculative-execution-combinations",
+          "provider": "google_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=699693440773325732&hl=en",
+          "response_sha256": "54e562a4af431fd6185d22a1b53548b98de34f8ecf59cf3487744eadffa39378",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T14:40:32.412627Z",
+          "total_citations": 42
+        },
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2022
+            },
+            {
+              "count": 4,
+              "year": 2023
+            },
+            {
+              "count": 9,
+              "year": 2024
+            },
+            {
+              "count": 5,
+              "year": 2025
+            },
+            {
+              "count": 2,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 14,
+          "citing_years_retrieved_at": "2026-08-09T14:42:27.999060+00:00",
+          "external_id": "W4308643153",
+          "influential_citations": null,
+          "paper_id": "acm-ccs-2022-automatic-detection-of-speculative-execution-combinations",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-08-01T09:00:35.917206",
+          "request_fingerprint": "GET /works/W4308643153?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "3ef7112c855cae02b9a57935db6f26ff40e9bbb9ea314e70a3a744b7ecee55a8",
+          "retrieval_service": "openalex",
+          "retrieved_at": "2026-08-09T14:42:27.999060Z",
+          "total_citations": 21
+        },
+        "semantic_scholar": {
+          "citations_by_citing_year": [],
+          "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
+          "external_id": "ab70d99041d396740f3dbcb626f12232007bf86b",
+          "influential_citations": 4,
+          "paper_id": "acm-ccs-2022-automatic-detection-of-speculative-execution-combinations",
+          "provider": "semantic_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /paper/ab70d99041d396740f3dbcb626f12232007bf86b?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+          "response_sha256": "19328ee531f8e4097265f3fdd26a7fca6ab2ea5cae3ee09dec4fb79a3f1f9120",
+          "retrieval_service": "semantic_scholar",
+          "retrieved_at": "2026-08-09T14:48:06.775322Z",
+          "total_citations": 31
+        }
+      },
+      "conference": {
+        "aliases": [
+          "CCS"
+        ],
+        "id": "acm-ccs",
+        "name": "ACM Conference on Computer and Communications Security",
+        "organizer": "ACM SIGSAC",
+        "short_name": "ACM CCS"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Xaver Fabian"
+          },
+          {
+            "name": "Marco Guarnieri"
+          },
+          {
+            "name": "Marco Patrignani"
+          }
+        ],
+        "canonical_title": "Automatic Detection of Speculative Execution Combinations",
+        "id": "acm-ccs-2022-automatic-detection-of-speculative-execution-combinations",
+        "identifiers": [
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1145/3548606.3560555",
+            "value": "10.1145/3548606.3560555",
+            "verified_at": "2026-08-09T14:15:23Z"
+          },
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4308643153",
+            "value": "W4308643153",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "google_scholar",
+            "source_url": "https://scholar.google.com/scholar?cluster=699693440773325732",
+            "value": "699693440773325732",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "semantic_scholar",
+            "source_url": "https://www.semanticscholar.org/paper/ab70d99041d396740f3dbcb626f12232007bf86b?utm_source=api",
+            "value": "ab70d99041d396740f3dbcb626f12232007bf86b",
+            "verified_at": "2026-08-09T14:51:00Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.sigsac.org/ccs/CCS2022/program/awards.html",
+          "https://www.sigsac.org/ccs/CCS2022/proceedings/ccs-proceedings.html"
+        ],
+        "official_paper_url": "https://dl.acm.org/doi/10.1145/3548606.3560555",
+        "publication_year": 2022,
+        "venue_name": "2022 ACM SIGSAC Conference on Computer and Communications Security"
+      },
+      "primary_topic": {
+        "display_name": "Security and Verification in Computing",
+        "openalex_id": "T11424",
+        "score": 1.0
+      }
+    },
+    {
+      "award": {
+        "edition_id": "acm-ccs-2022",
+        "id": "acm-ccs-2022-star-secret-sharing-for-private-threshold-aggregation-reporting-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "2bf8eebed43c2c1f46e5d3a2d7f48114e666ba330c492e095a95e294ce19ce98",
+          "parser_version": "2022.1",
+          "retrieved_at": "2026-08-09T14:15:23Z",
+          "url": "https://www.sigsac.org/ccs/CCS2022/program/awards.html"
+        },
+        "paper_id": "acm-ccs-2022-star-secret-sharing-for-private-threshold-aggregation-reporting",
+        "raw_authors": "Alex Davidson, Peter Snyder, E. B. Quirk, Joseph Genereux, Hamed Haddadi, Benjamin Livshits",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "STAR: Secret Sharing for Private Threshold Aggregation Reporting"
+      },
+      "citations": {
+        "google_scholar": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2022
+            },
+            {
+              "count": 9,
+              "year": 2023
+            },
+            {
+              "count": 11,
+              "year": 2024
+            },
+            {
+              "count": 15,
+              "year": 2025
+            },
+            {
+              "count": 5,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 21,
+          "citing_years_retrieved_at": "2026-08-09T14:40:32.412627+00:00",
+          "external_id": "10518023341920651716",
+          "influential_citations": null,
+          "paper_id": "acm-ccs-2022-star-secret-sharing-for-private-threshold-aggregation-reporting",
+          "provider": "google_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=10518023341920651716&hl=en",
+          "response_sha256": "27c64cbaf23fa614df939e843ceb93cb54c3cc339555ebece507ce5ce1dc8260",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T14:40:32.412627Z",
+          "total_citations": 41
+        },
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 3,
+              "year": 2023
+            },
+            {
+              "count": 7,
+              "year": 2024
+            },
+            {
+              "count": 4,
+              "year": 2025
+            }
+          ],
+          "citations_first_3_years": 10,
+          "citing_years_retrieved_at": "2026-08-09T14:42:27.999060+00:00",
+          "external_id": "W4308408787",
+          "influential_citations": null,
+          "paper_id": "acm-ccs-2022-star-secret-sharing-for-private-threshold-aggregation-reporting",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+          "request_fingerprint": "GET /works/W4308408787?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "121902a2eea771fb55d2c657586c3f80bc24fe262271f9051c791ea2e9510f49",
+          "retrieval_service": "openalex",
+          "retrieved_at": "2026-08-09T14:42:27.999060Z",
+          "total_citations": 14
+        },
+        "semantic_scholar": {
+          "citations_by_citing_year": [],
+          "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
+          "external_id": "4ac1fa7466be87162be5c8dce0c8f5812c75bce3",
+          "influential_citations": 3,
+          "paper_id": "acm-ccs-2022-star-secret-sharing-for-private-threshold-aggregation-reporting",
+          "provider": "semantic_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /paper/4ac1fa7466be87162be5c8dce0c8f5812c75bce3?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+          "response_sha256": "99f2d101dfcd21d1a7c5391753b5cc60ca2d94cdec985cd379e14024fd25e2d3",
+          "retrieval_service": "semantic_scholar",
+          "retrieved_at": "2026-08-09T14:48:06.775322Z",
+          "total_citations": 23
+        }
+      },
+      "conference": {
+        "aliases": [
+          "CCS"
+        ],
+        "id": "acm-ccs",
+        "name": "ACM Conference on Computer and Communications Security",
+        "organizer": "ACM SIGSAC",
+        "short_name": "ACM CCS"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Alex Davidson"
+          },
+          {
+            "name": "Peter Snyder"
+          },
+          {
+            "name": "E. B. Quirk"
+          },
+          {
+            "name": "Joseph Genereux"
+          },
+          {
+            "name": "Benjamin Livshits"
+          },
+          {
+            "name": "Hamed Haddadi"
+          }
+        ],
+        "canonical_title": "STAR: Secret Sharing for Private Threshold Aggregation Reporting",
+        "id": "acm-ccs-2022-star-secret-sharing-for-private-threshold-aggregation-reporting",
+        "identifiers": [
+          {
+            "scheme": "doi",
+            "source_url": "https://dl.acm.org/doi/10.1145/3548606.3560631",
+            "value": "10.1145/3548606.3560631",
+            "verified_at": "2026-08-09T14:15:23Z"
+          },
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4308408787",
+            "value": "W4308408787",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "google_scholar",
+            "source_url": "https://scholar.google.com/scholar?cluster=10518023341920651716",
+            "value": "10518023341920651716",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "semantic_scholar",
+            "source_url": "https://www.semanticscholar.org/paper/4ac1fa7466be87162be5c8dce0c8f5812c75bce3?utm_source=api",
+            "value": "4ac1fa7466be87162be5c8dce0c8f5812c75bce3",
+            "verified_at": "2026-08-09T14:51:00Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.sigsac.org/ccs/CCS2022/program/awards.html",
+          "https://www.sigsac.org/ccs/CCS2022/proceedings/ccs-proceedings.html"
+        ],
+        "official_paper_url": "https://dl.acm.org/doi/10.1145/3548606.3560631",
+        "publication_year": 2022,
+        "venue_name": "2022 ACM SIGSAC Conference on Computer and Communications Security"
+      },
+      "primary_topic": {
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "openalex_id": "T10764",
+        "score": 0.9998000264167786
+      }
+    },
+    {
+      "award": {
+        "edition_id": "acm-ccs-2022",
+        "id": "acm-ccs-2022-proving-unsat-in-zero-knowledge-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "2bf8eebed43c2c1f46e5d3a2d7f48114e666ba330c492e095a95e294ce19ce98",
+          "parser_version": "2022.1",
+          "retrieved_at": "2026-08-09T14:15:23Z",
+          "url": "https://www.sigsac.org/ccs/CCS2022/program/awards.html"
+        },
+        "paper_id": "acm-ccs-2022-proving-unsat-in-zero-knowledge",
+        "raw_authors": "Ning Luo, Timos Antonopoulos, William Harris, Ruzica Piskac, Eran Tromer, Xiao Wang",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Proving UNSAT in Zero Knowledge"
+      },
+      "citations": {
+        "google_scholar": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2021
+            },
+            {
+              "count": 4,
+              "year": 2023
+            },
+            {
+              "count": 12,
+              "year": 2024
+            },
+            {
+              "count": 10,
+              "year": 2025
+            },
+            {
+              "count": 8,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 16,
+          "citing_years_retrieved_at": "2026-08-09T14:40:32.412627+00:00",
+          "external_id": "10094656466972185374",
+          "influential_citations": null,
+          "paper_id": "acm-ccs-2022-proving-unsat-in-zero-knowledge",
+          "provider": "google_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=10094656466972185374&hl=en",
+          "response_sha256": "6dd10e36e55a084708767c821f072f665ddab285909e3088ad40e1102debca6c",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T14:40:32.412627Z",
+          "total_citations": 36
+        },
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2022
+            },
+            {
+              "count": 3,
+              "year": 2023
+            },
+            {
+              "count": 5,
+              "year": 2024
+            },
+            {
+              "count": 5,
+              "year": 2025
+            },
+            {
+              "count": 2,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 9,
+          "citing_years_retrieved_at": "2026-08-09T14:42:27.999060+00:00",
+          "external_id": "W4308430049",
+          "influential_citations": null,
+          "paper_id": "acm-ccs-2022-proving-unsat-in-zero-knowledge",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-08-06T08:24:18.245995",
+          "request_fingerprint": "GET /works/W4308430049?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "9b630423549c5042b9e3c4f7ebe45bc65594b490cc20900536b71917f8210920",
+          "retrieval_service": "openalex",
+          "retrieved_at": "2026-08-09T14:42:27.999060Z",
+          "total_citations": 16
+        },
+        "semantic_scholar": {
+          "citations_by_citing_year": [],
+          "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
+          "external_id": "2565ea47daef463a1a8db42818930ddcb65cdbc7",
+          "influential_citations": 0,
+          "paper_id": "acm-ccs-2022-proving-unsat-in-zero-knowledge",
+          "provider": "semantic_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /paper/2565ea47daef463a1a8db42818930ddcb65cdbc7?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+          "response_sha256": "a8986f6a0aab03eef578472c4bb8754f7f113e27b859b719dfa70d0e326fcbd9",
+          "retrieval_service": "semantic_scholar",
+          "retrieved_at": "2026-08-09T14:48:06.775322Z",
+          "total_citations": 17
+        }
+      },
+      "conference": {
+        "aliases": [
+          "CCS"
+        ],
+        "id": "acm-ccs",
+        "name": "ACM Conference on Computer and Communications Security",
+        "organizer": "ACM SIGSAC",
+        "short_name": "ACM CCS"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Ning Luo"
+          },
+          {
+            "name": "Timos Antonopoulos"
+          },
+          {
+            "name": "William Harris"
+          },
+          {
+            "name": "Ruzica Piskac"
+          },
+          {
+            "name": "Eran Tromer"
+          },
+          {
+            "name": "Xiao Wang"
+          }
+        ],
+        "canonical_title": "Proving UNSAT in Zero Knowledge",
+        "id": "acm-ccs-2022-proving-unsat-in-zero-knowledge",
+        "identifiers": [
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1145/3548606.3559373",
+            "value": "10.1145/3548606.3559373",
+            "verified_at": "2026-08-09T14:15:23Z"
+          },
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4308430049",
+            "value": "W4308430049",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "google_scholar",
+            "source_url": "https://scholar.google.com/scholar?cluster=10094656466972185374",
+            "value": "10094656466972185374",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "semantic_scholar",
+            "source_url": "https://www.semanticscholar.org/paper/2565ea47daef463a1a8db42818930ddcb65cdbc7?utm_source=api",
+            "value": "2565ea47daef463a1a8db42818930ddcb65cdbc7",
+            "verified_at": "2026-08-09T14:51:00Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.sigsac.org/ccs/CCS2022/program/awards.html",
+          "https://www.sigsac.org/ccs/CCS2022/proceedings/ccs-proceedings.html"
+        ],
+        "official_paper_url": "https://dl.acm.org/doi/10.1145/3548606.3559373",
+        "publication_year": 2022,
+        "venue_name": "2022 ACM SIGSAC Conference on Computer and Communications Security"
+      },
+      "primary_topic": {
+        "display_name": "Cryptography and Data Security",
+        "openalex_id": "T10237",
+        "score": 0.9998999834060669
+      }
+    },
+    {
+      "award": {
+        "edition_id": "usenix-security-2022",
+        "id": "usenix-security-2022-private-signaling-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "ae2397a340986e50807a6e1c5921f63da4d0b421718ac3947af5b752fae818ab",
+          "parser_version": "2022.1",
+          "retrieved_at": "2026-08-09T14:15:23Z",
+          "url": "https://www.usenix.org/conference/usenixsecurity22/technical-sessions"
+        },
+        "paper_id": "usenix-security-2022-private-signaling",
+        "raw_authors": "Varun Madathil and Alessandra Scafuro, North Carolina State University; István András Seres, Eötvös Loránd University; Omer Shlomovits and Denis Varlakov, ZenGo X",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Private Signaling"
+      },
+      "citations": {
+        "google_scholar": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2021
+            },
+            {
+              "count": 1,
+              "year": 2022
+            },
+            {
+              "count": 4,
+              "year": 2023
+            },
+            {
+              "count": 13,
+              "year": 2024
+            },
+            {
+              "count": 13,
+              "year": 2025
+            },
+            {
+              "count": 3,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 18,
+          "citing_years_retrieved_at": "2026-08-09T14:40:32.412627+00:00",
+          "external_id": "12188768957845531984",
+          "influential_citations": null,
+          "paper_id": "usenix-security-2022-private-signaling",
+          "provider": "google_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=12188768957845531984&hl=en",
+          "response_sha256": "ab5293be9c349b08b84ab2c7f5950dbf81d6f993bde2adfb5fb8104f40131ffc",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T14:40:32.412627Z",
+          "total_citations": 35
+        }
+      },
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Varun Madathil"
+          },
+          {
+            "name": "Alessandra Scafuro"
+          },
+          {
+            "name": "István András Seres"
+          },
+          {
+            "name": "Omer Shlomovits"
+          },
+          {
+            "name": "Denis Varlakov"
+          }
+        ],
+        "canonical_title": "Private Signaling",
+        "id": "usenix-security-2022-private-signaling",
+        "identifiers": [
+          {
+            "scheme": "google_scholar",
+            "source_url": "https://scholar.google.com/scholar?cluster=12188768957845531984",
+            "value": "12188768957845531984",
+            "verified_at": "2026-08-09T14:35:20Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.usenix.org/conference/usenixsecurity22/technical-sessions",
+          "https://www.usenix.org/conference/usenixsecurity22/presentation/madathil"
+        ],
+        "official_paper_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/madathil",
+        "publication_year": 2022,
+        "venue_name": "31st USENIX Security Symposium"
+      },
+      "primary_topic": null
+    },
+    {
+      "award": {
+        "edition_id": "acm-ccs-2022",
+        "id": "acm-ccs-2022-zapper-smart-contracts-with-data-and-identity-privacy-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "2bf8eebed43c2c1f46e5d3a2d7f48114e666ba330c492e095a95e294ce19ce98",
+          "parser_version": "2022.1",
+          "retrieved_at": "2026-08-09T14:15:23Z",
+          "url": "https://www.sigsac.org/ccs/CCS2022/program/awards.html"
+        },
+        "paper_id": "acm-ccs-2022-zapper-smart-contracts-with-data-and-identity-privacy",
+        "raw_authors": "Samuel Steffen, Benjamin Bichsel, Martin Vechev",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Zapper: Smart Contracts with Data and Identity Privacy"
+      },
+      "citations": {
+        "google_scholar": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2022
+            },
+            {
+              "count": 4,
+              "year": 2023
+            },
+            {
+              "count": 8,
+              "year": 2024
+            },
+            {
+              "count": 10,
+              "year": 2025
+            },
+            {
+              "count": 7,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 13,
+          "citing_years_retrieved_at": "2026-08-09T14:40:32.412627+00:00",
+          "external_id": "2611490582441277773",
+          "influential_citations": null,
+          "paper_id": "acm-ccs-2022-zapper-smart-contracts-with-data-and-identity-privacy",
+          "provider": "google_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=2611490582441277773&hl=en",
+          "response_sha256": "a7e86011fb5f222763eca331649d9962a6d1d257a46bbe78352f4fda76d42508",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T14:40:32.412627Z",
+          "total_citations": 30
+        },
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 4,
+              "year": 2023
+            },
+            {
+              "count": 5,
+              "year": 2024
+            },
+            {
+              "count": 7,
+              "year": 2025
+            },
+            {
+              "count": 4,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 9,
+          "citing_years_retrieved_at": "2026-08-09T14:42:27.999060+00:00",
+          "external_id": "W4308642223",
+          "influential_citations": null,
+          "paper_id": "acm-ccs-2022-zapper-smart-contracts-with-data-and-identity-privacy",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+          "request_fingerprint": "GET /works/W4308642223?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "c8fb03dc98aa056bd389947281cd173b0b30e54dab816620969bddd0c3ccdf15",
+          "retrieval_service": "openalex",
+          "retrieved_at": "2026-08-09T14:42:27.999060Z",
+          "total_citations": 20
+        },
+        "semantic_scholar": {
+          "citations_by_citing_year": [],
+          "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
+          "external_id": "fc946439d9e1d7993c9619848c44ed1d5b583f14",
+          "influential_citations": 2,
+          "paper_id": "acm-ccs-2022-zapper-smart-contracts-with-data-and-identity-privacy",
+          "provider": "semantic_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /paper/fc946439d9e1d7993c9619848c44ed1d5b583f14?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+          "response_sha256": "9007af588fb89d653fc8d96f88ed0e6dd2dab6a1ffebc71ac9d4b9ba37f26aec",
+          "retrieval_service": "semantic_scholar",
+          "retrieved_at": "2026-08-09T14:48:06.775322Z",
+          "total_citations": 20
+        }
+      },
+      "conference": {
+        "aliases": [
+          "CCS"
+        ],
+        "id": "acm-ccs",
+        "name": "ACM Conference on Computer and Communications Security",
+        "organizer": "ACM SIGSAC",
+        "short_name": "ACM CCS"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Samuel Steffen"
+          },
+          {
+            "name": "Benjamin Bichsel"
+          },
+          {
+            "name": "Martin Vechev"
+          }
+        ],
+        "canonical_title": "Zapper: Smart Contracts with Data and Identity Privacy",
+        "id": "acm-ccs-2022-zapper-smart-contracts-with-data-and-identity-privacy",
+        "identifiers": [
+          {
+            "scheme": "doi",
+            "source_url": "https://dl.acm.org/doi/10.1145/3548606.3560622",
+            "value": "10.1145/3548606.3560622",
+            "verified_at": "2026-08-09T14:15:23Z"
+          },
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4308642223",
+            "value": "W4308642223",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "google_scholar",
+            "source_url": "https://scholar.google.com/scholar?cluster=2611490582441277773",
+            "value": "2611490582441277773",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "semantic_scholar",
+            "source_url": "https://www.semanticscholar.org/paper/fc946439d9e1d7993c9619848c44ed1d5b583f14?utm_source=api",
+            "value": "fc946439d9e1d7993c9619848c44ed1d5b583f14",
+            "verified_at": "2026-08-09T14:51:00Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.sigsac.org/ccs/CCS2022/program/awards.html",
+          "https://www.sigsac.org/ccs/CCS2022/proceedings/ccs-proceedings.html"
+        ],
+        "official_paper_url": "https://dl.acm.org/doi/10.1145/3548606.3560622",
+        "publication_year": 2022,
+        "venue_name": "2022 ACM SIGSAC Conference on Computer and Communications Security"
+      },
+      "primary_topic": {
+        "display_name": "Blockchain Technology Applications and Security",
+        "openalex_id": "T10270",
+        "score": 0.9998000264167786
+      }
+    },
+    {
+      "award": {
+        "edition_id": "usenix-security-2022",
+        "id": "usenix-security-2022-faster-yet-safer-logging-system-via-fixed-key-blockcipher-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "ae2397a340986e50807a6e1c5921f63da4d0b421718ac3947af5b752fae818ab",
+          "parser_version": "2022.1",
+          "retrieved_at": "2026-08-09T14:15:23Z",
+          "url": "https://www.usenix.org/conference/usenixsecurity22/technical-sessions"
+        },
+        "paper_id": "usenix-security-2022-faster-yet-safer-logging-system-via-fixed-key-blockcipher",
+        "raw_authors": "Viet Tung Hoang, Cong Wu, and Xin Yuan, Florida State University",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Faster Yet Safer: Logging System Via Fixed-Key Blockcipher"
+      },
+      "citations": {
+        "google_scholar": {
+          "citations_by_citing_year": [
+            {
+              "count": 2,
+              "year": 2022
+            },
+            {
+              "count": 7,
+              "year": 2023
+            },
+            {
+              "count": 5,
+              "year": 2024
+            },
+            {
+              "count": 7,
+              "year": 2025
+            },
+            {
+              "count": 6,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 14,
+          "citing_years_retrieved_at": "2026-08-09T14:40:32.412627+00:00",
+          "external_id": "11231767369694333501",
+          "influential_citations": null,
+          "paper_id": "usenix-security-2022-faster-yet-safer-logging-system-via-fixed-key-blockcipher",
+          "provider": "google_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=11231767369694333501&hl=en",
+          "response_sha256": "1302870905975e64f133ef960f26948e4eeb254ff95f1791032581d66d43763c",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T14:40:32.412627Z",
+          "total_citations": 27
+        },
+        "semantic_scholar": {
+          "citations_by_citing_year": [],
+          "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
+          "external_id": "468fbd7760d8fe677f75bdb4d3e6f3a29fcacd1f",
+          "influential_citations": 4,
+          "paper_id": "usenix-security-2022-faster-yet-safer-logging-system-via-fixed-key-blockcipher",
+          "provider": "semantic_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /paper/468fbd7760d8fe677f75bdb4d3e6f3a29fcacd1f?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+          "response_sha256": "74cec8b37c9790a04baf4a0b1fde5385dc60b7ba24b699eef746edbefde0b5f5",
+          "retrieval_service": "semantic_scholar",
+          "retrieved_at": "2026-08-09T14:48:06.775322Z",
+          "total_citations": 20
+        }
+      },
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Viet Tung Hoang"
+          },
+          {
+            "name": "Cong Wu"
+          },
+          {
+            "name": "Xin Yuan"
+          }
+        ],
+        "canonical_title": "Faster Yet Safer: Logging System Via Fixed-Key Blockcipher",
+        "id": "usenix-security-2022-faster-yet-safer-logging-system-via-fixed-key-blockcipher",
+        "identifiers": [
+          {
+            "scheme": "google_scholar",
+            "source_url": "https://scholar.google.com/scholar?cluster=11231767369694333501",
+            "value": "11231767369694333501",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "semantic_scholar",
+            "source_url": "https://www.semanticscholar.org/paper/468fbd7760d8fe677f75bdb4d3e6f3a29fcacd1f?utm_source=api",
+            "value": "468fbd7760d8fe677f75bdb4d3e6f3a29fcacd1f",
+            "verified_at": "2026-08-09T14:51:00Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.usenix.org/conference/usenixsecurity22/technical-sessions",
+          "https://www.usenix.org/conference/usenixsecurity22/presentation/hoang"
+        ],
+        "official_paper_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/hoang",
+        "publication_year": 2022,
+        "venue_name": "31st USENIX Security Symposium"
+      },
+      "primary_topic": null
+    },
+    {
+      "award": {
+        "edition_id": "acm-ccs-2022",
+        "id": "acm-ccs-2022-victory-by-ko-attacking-openpgp-using-key-overwriting-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "2bf8eebed43c2c1f46e5d3a2d7f48114e666ba330c492e095a95e294ce19ce98",
+          "parser_version": "2022.1",
+          "retrieved_at": "2026-08-09T14:15:23Z",
+          "url": "https://www.sigsac.org/ccs/CCS2022/program/awards.html"
+        },
+        "paper_id": "acm-ccs-2022-victory-by-ko-attacking-openpgp-using-key-overwriting",
+        "raw_authors": "Kenny Paterson, Lara Bruseghini, Daniel Huigens",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Victory by KO: Attacking OpenPGP Using Key Overwriting"
+      },
+      "citations": {
+        "google_scholar": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2022
+            },
+            {
+              "count": 3,
+              "year": 2023
+            },
+            {
+              "count": 6,
+              "year": 2024
+            },
+            {
+              "count": 3,
+              "year": 2025
+            }
+          ],
+          "citations_first_3_years": 10,
+          "citing_years_retrieved_at": "2026-08-09T14:40:32.412627+00:00",
+          "external_id": "17412810065875244128",
+          "influential_citations": null,
+          "paper_id": "acm-ccs-2022-victory-by-ko-attacking-openpgp-using-key-overwriting",
+          "provider": "google_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=17412810065875244128&hl=en",
+          "response_sha256": "a2174baaf55260f04173eacd437dfc721173a5a1f60d392f4eff6edbe37e48c7",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T14:40:32.412627Z",
+          "total_citations": 13
+        },
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 2,
+              "year": 2022
+            },
+            {
+              "count": 1,
+              "year": 2023
+            },
+            {
+              "count": 2,
+              "year": 2024
+            },
+            {
+              "count": 1,
+              "year": 2025
+            }
+          ],
+          "citations_first_3_years": 5,
+          "citing_years_retrieved_at": "2026-08-09T14:42:27.999060+00:00",
+          "external_id": "W4308391724",
+          "influential_citations": null,
+          "paper_id": "acm-ccs-2022-victory-by-ko-attacking-openpgp-using-key-overwriting",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-07-29T14:22:42.915294",
+          "request_fingerprint": "GET /works/W4308391724?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "d2b73cdafab81a5e02eb08a9c549059612a1905f4fb2fefb1d61b5777a2e860f",
+          "retrieval_service": "openalex",
+          "retrieved_at": "2026-08-09T14:42:27.999060Z",
+          "total_citations": 6
+        },
+        "semantic_scholar": {
+          "citations_by_citing_year": [],
+          "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
+          "external_id": "97196772642dfe7080c6ea954c99bb3b36f08a7a",
+          "influential_citations": 0,
+          "paper_id": "acm-ccs-2022-victory-by-ko-attacking-openpgp-using-key-overwriting",
+          "provider": "semantic_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /paper/97196772642dfe7080c6ea954c99bb3b36f08a7a?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+          "response_sha256": "0773b4f303034147f8207fb8b84b0e02ae80200324226ef6fdaf4ba2b4c42e35",
+          "retrieval_service": "semantic_scholar",
+          "retrieved_at": "2026-08-09T14:48:06.775322Z",
+          "total_citations": 9
+        }
+      },
+      "conference": {
+        "aliases": [
+          "CCS"
+        ],
+        "id": "acm-ccs",
+        "name": "ACM Conference on Computer and Communications Security",
+        "organizer": "ACM SIGSAC",
+        "short_name": "ACM CCS"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Lara Bruseghini"
+          },
+          {
+            "name": "Daniel Huigens"
+          },
+          {
+            "name": "Kenneth G. Paterson"
+          }
+        ],
+        "canonical_title": "Victory by KO: Attacking OpenPGP Using Key Overwriting",
+        "id": "acm-ccs-2022-victory-by-ko-attacking-openpgp-using-key-overwriting",
+        "identifiers": [
+          {
+            "scheme": "doi",
+            "source_url": "https://dl.acm.org/doi/10.1145/3548606.3559363",
+            "value": "10.1145/3548606.3559363",
+            "verified_at": "2026-08-09T14:15:23Z"
+          },
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4308391724",
+            "value": "W4308391724",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "google_scholar",
+            "source_url": "https://scholar.google.com/scholar?cluster=17412810065875244128",
+            "value": "17412810065875244128",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "semantic_scholar",
+            "source_url": "https://www.semanticscholar.org/paper/97196772642dfe7080c6ea954c99bb3b36f08a7a?utm_source=api",
+            "value": "97196772642dfe7080c6ea954c99bb3b36f08a7a",
+            "verified_at": "2026-08-09T14:51:00Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.sigsac.org/ccs/CCS2022/program/awards.html",
+          "https://www.sigsac.org/ccs/CCS2022/proceedings/ccs-proceedings.html"
+        ],
+        "official_paper_url": "https://dl.acm.org/doi/10.1145/3548606.3559363",
+        "publication_year": 2022,
+        "venue_name": "2022 ACM SIGSAC Conference on Computer and Communications Security"
+      },
+      "primary_topic": {
+        "display_name": "Security and Verification in Computing",
+        "openalex_id": "T11424",
+        "score": 0.9998000264167786
+      }
+    },
+    {
+      "award": {
+        "edition_id": "usenix-security-2022",
+        "id": "usenix-security-2022-the-antrim-county-2020-election-incident-an-independent-forensic-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "ae2397a340986e50807a6e1c5921f63da4d0b421718ac3947af5b752fae818ab",
+          "parser_version": "2022.1",
+          "retrieved_at": "2026-08-09T14:15:23Z",
+          "url": "https://www.usenix.org/conference/usenixsecurity22/technical-sessions"
+        },
+        "paper_id": "usenix-security-2022-the-antrim-county-2020-election-incident-an-independent-forensic",
+        "raw_authors": "J. Alex Halderman, University of Michigan",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "The Antrim County 2020 Election Incident: An Independent Forensic Investigation"
+      },
+      "citations": {
+        "google_scholar": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2022
+            },
+            {
+              "count": 3,
+              "year": 2024
+            },
+            {
+              "count": 3,
+              "year": 2025
+            },
+            {
+              "count": 1,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 4,
+          "citing_years_retrieved_at": "2026-08-09T14:40:32.412627+00:00",
+          "external_id": "10114064190837447854",
+          "influential_citations": null,
+          "paper_id": "usenix-security-2022-the-antrim-county-2020-election-incident-an-independent-forensic",
+          "provider": "google_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=10114064190837447854&hl=en",
+          "response_sha256": "520e88ec08beac2ec7f0709d9afeb75884e1e1eba1fc4f0f6324b8118919c67c",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T14:40:32.412627Z",
+          "total_citations": 8
+        },
+        "semantic_scholar": {
+          "citations_by_citing_year": [],
+          "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
+          "external_id": "0dcdd3ba951442360af81c03a73a58d3b29a200c",
+          "influential_citations": 0,
+          "paper_id": "usenix-security-2022-the-antrim-county-2020-election-incident-an-independent-forensic",
+          "provider": "semantic_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /paper/0dcdd3ba951442360af81c03a73a58d3b29a200c?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+          "response_sha256": "7b581db8bafb6acf5ba3dd1889b798af30369f62126e34b81feaabb92d5cdd20",
+          "retrieval_service": "semantic_scholar",
+          "retrieved_at": "2026-08-09T14:48:06.775322Z",
+          "total_citations": 10
+        }
+      },
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "J. Alex Halderman"
+          }
+        ],
+        "canonical_title": "The Antrim County 2020 Election Incident: An Independent Forensic Investigation",
+        "id": "usenix-security-2022-the-antrim-county-2020-election-incident-an-independent-forensic",
+        "identifiers": [
+          {
+            "scheme": "google_scholar",
+            "source_url": "https://scholar.google.com/scholar?cluster=10114064190837447854",
+            "value": "10114064190837447854",
+            "verified_at": "2026-08-09T14:35:20Z"
+          },
+          {
+            "scheme": "semantic_scholar",
+            "source_url": "https://www.semanticscholar.org/paper/0dcdd3ba951442360af81c03a73a58d3b29a200c?utm_source=api",
+            "value": "0dcdd3ba951442360af81c03a73a58d3b29a200c",
+            "verified_at": "2026-08-09T14:51:00Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.usenix.org/conference/usenixsecurity22/technical-sessions",
+          "https://www.usenix.org/conference/usenixsecurity22/presentation/halderman"
+        ],
+        "official_paper_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/halderman",
+        "publication_year": 2022,
+        "venue_name": "31st USENIX Security Symposium"
+      },
+      "primary_topic": null
+    }
+  ],
+  "schema_version": 3,
+  "year": 2022
+}

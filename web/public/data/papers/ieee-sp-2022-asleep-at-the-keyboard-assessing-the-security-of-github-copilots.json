@@ -1,0 +1,334 @@
+{
+  "awards": [
+    {
+      "edition_id": "ieee-sp-2022",
+      "id": "ieee-sp-2022-asleep-at-the-keyboard-assessing-the-security-of-github-copilots-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "109993c86c526612fe7f30348b877abb3561e732e3e2294167976c742dc80225",
+        "parser_version": "2022.1",
+        "retrieved_at": "2026-08-09T14:15:23Z",
+        "url": "https://www.ieee-security.org/TC/SP2022/awards.html"
+      },
+      "paper_id": "ieee-sp-2022-asleep-at-the-keyboard-assessing-the-security-of-github-copilots",
+      "raw_authors": "Hammond Pearce, Baleegh Ahmad, Benjamin Tan, Brendan Dolan-Gavitt, Ramesh Karri (NYU Tandon School of Engineering)",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s Code Contributions"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 1.0,
+      "external_id": "W4288057765",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "ieee-sp-2022-asleep-at-the-keyboard-assessing-the-security-of-github-copilots",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI with compatible title, author, and publication-year evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1109/sp46214.2022.9833571",
+        "external_id": "W4288057765",
+        "publication_year": 2022,
+        "title": "Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s Code Contributions",
+        "title_similarity": 1.0,
+        "venue": "2022 IEEE Symposium on Security and Privacy (SP)",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-09T14:35:20Z",
+      "verified_by": "SecAwardLens OpenAlex resolver"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "15749188844572183021",
+      "method": "manual_override",
+      "override_reason": "Google Scholar groups the official 2022 IEEE conference paper with a later journal version; the numeric cluster is retained as Scholar’s canonical version group.",
+      "paper_id": "ieee-sp-2022-asleep-at-the-keyboard-assessing-the-security-of-github-copilots",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Reviewed from the SerpApi title-search result; counts remain provider-specific observations.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "15749188844572183021",
+        "publication_year": 2025,
+        "title": "Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s Code Contributions",
+        "title_similarity": 1.0,
+        "venue": "Communications of the ACM",
+        "venue_match": false,
+        "year_delta": 3
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-09T14:35:20Z",
+      "verified_by": "SecAwardLens maintainer review"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "6e5eb6167d9766fbb4d14611d15cf95d7b75fb9d",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "ieee-sp-2022-asleep-at-the-keyboard-assessing-the-security-of-github-copilots",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "6e5eb6167d9766fbb4d14611d15cf95d7b75fb9d",
+        "publication_year": 2021,
+        "title": "Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s Code Contributions",
+        "title_similarity": 1.0,
+        "venue": "IEEE Symposium on Security and Privacy",
+        "venue_match": true,
+        "year_delta": 1
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-09T14:35:20Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
+    }
+  ],
+  "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 16,
+            "year": 2022
+          },
+          {
+            "count": 126,
+            "year": 2023
+          },
+          {
+            "count": 260,
+            "year": 2024
+          },
+          {
+            "count": 394,
+            "year": 2025
+          },
+          {
+            "count": 510,
+            "year": 2026
+          }
+        ],
+        "external_id": "15749188844572183021",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2022-asleep-at-the-keyboard-assessing-the-security-of-github-copilots",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=15749188844572183021&hl=en",
+        "response_sha256": "95644f1bd68d8c424ef28caf2a3b8ac6ade85c2b7fdad796d2aab56b8029e7b0",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T14:40:32.412627Z",
+        "total_citations": 1325
+      }
+    ],
+    "openalex": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 8,
+            "year": 2022
+          },
+          {
+            "count": 61,
+            "year": 2023
+          },
+          {
+            "count": 125,
+            "year": 2024
+          },
+          {
+            "count": 132,
+            "year": 2025
+          },
+          {
+            "count": 71,
+            "year": 2026
+          }
+        ],
+        "external_id": "W4288057765",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2022-asleep-at-the-keyboard-assessing-the-security-of-github-copilots",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-08T01:25:22.217667",
+        "request_fingerprint": "GET /works/W4288057765?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "740995eb95f17a8d35d7e79ba61c2f4dd75fdf8b49e446f6a572289fac468025",
+        "retrieval_service": "openalex",
+        "retrieved_at": "2026-08-09T14:42:27.999060Z",
+        "total_citations": 396
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "6e5eb6167d9766fbb4d14611d15cf95d7b75fb9d",
+        "influential_citations": 104,
+        "paper_id": "ieee-sp-2022-asleep-at-the-keyboard-assessing-the-security-of-github-copilots",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/6e5eb6167d9766fbb4d14611d15cf95d7b75fb9d?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "d13a3790d98e47d20fe3cc9b40a84c26476e03c64b1bb7de4c6cac427e18953a",
+        "retrieval_service": "semantic_scholar",
+        "retrieved_at": "2026-08-09T14:42:47.499590Z",
+        "total_citations": 895
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [
+          {
+            "display_name": "Long Island University",
+            "openalex_id": "I138873065",
+            "ror": "https://ror.org/0324fzh77"
+          },
+          {
+            "display_name": "New York University",
+            "openalex_id": "I57206974",
+            "ror": "https://ror.org/0190ak572"
+          }
+        ],
+        "author_name": "Hammond Pearce",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5053148078"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Long Island University",
+            "openalex_id": "I138873065",
+            "ror": "https://ror.org/0324fzh77"
+          },
+          {
+            "display_name": "New York University",
+            "openalex_id": "I57206974",
+            "ror": "https://ror.org/0190ak572"
+          }
+        ],
+        "author_name": "Baleegh Ahmad",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5063392410"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "University of Calgary",
+            "openalex_id": "I168635309",
+            "ror": "https://ror.org/03yjb2x39"
+          }
+        ],
+        "author_name": "Benjamin Tan",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5069388936"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "State University of New York",
+            "openalex_id": "I1327163397",
+            "ror": "https://ror.org/01q1z8k08"
+          },
+          {
+            "display_name": "New York University",
+            "openalex_id": "I57206974",
+            "ror": "https://ror.org/0190ak572"
+          }
+        ],
+        "author_name": "Brendan Dolan-Gavitt",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5060815601"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Long Island University",
+            "openalex_id": "I138873065",
+            "ror": "https://ror.org/0324fzh77"
+          },
+          {
+            "display_name": "New York University",
+            "openalex_id": "I57206974",
+            "ror": "https://ror.org/0190ak572"
+          }
+        ],
+        "author_name": "Ramesh Karri",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5059648257"
+      }
+    ],
+    "external_id": "W4288057765",
+    "paper_id": "ieee-sp-2022-asleep-at-the-keyboard-assessing-the-security-of-github-copilots",
+    "primary_topic": {
+      "display_name": "Advanced Malware Detection Techniques",
+      "openalex_id": "T11241",
+      "score": 0.9997000098228455
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-09T14:35:20Z"
+  },
+  "generated_at": "2026-08-09T14:42:47.499590+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Hammond Pearce"
+      },
+      {
+        "name": "Baleegh Ahmad"
+      },
+      {
+        "name": "Benjamin Tan"
+      },
+      {
+        "name": "Brendan Dolan-Gavitt"
+      },
+      {
+        "name": "Ramesh Karri"
+      }
+    ],
+    "canonical_title": "Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s Code Contributions",
+    "id": "ieee-sp-2022-asleep-at-the-keyboard-assessing-the-security-of-github-copilots",
+    "identifiers": [
+      {
+        "scheme": "doi",
+        "source_url": "https://api.crossref.org/works/10.1109/sp46214.2022.9833571",
+        "value": "10.1109/sp46214.2022.9833571",
+        "verified_at": "2026-08-09T14:15:23Z"
+      },
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W4288057765",
+        "value": "W4288057765",
+        "verified_at": "2026-08-09T14:35:20Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=15749188844572183021",
+        "value": "15749188844572183021",
+        "verified_at": "2026-08-09T14:35:20Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/6e5eb6167d9766fbb4d14611d15cf95d7b75fb9d?utm_source=api",
+        "value": "6e5eb6167d9766fbb4d14611d15cf95d7b75fb9d",
+        "verified_at": "2026-08-09T14:35:20Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.ieee-security.org/TC/SP2022/awards.html",
+      "https://api.crossref.org/works/10.1109/sp46214.2022.9833571"
+    ],
+    "official_paper_url": null,
+    "publication_year": 2022,
+    "venue_name": "2022 IEEE Symposium on Security and Privacy"
+  },
+  "schema_version": 1
+}

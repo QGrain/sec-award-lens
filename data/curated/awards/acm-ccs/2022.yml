@@ -1,0 +1,45 @@
+awards:
+- id: acm-ccs-2022-victory-by-ko-attacking-openpgp-using-key-overwriting-award
+  edition_id: acm-ccs-2022
+  paper_id: acm-ccs-2022-victory-by-ko-attacking-openpgp-using-key-overwriting
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source: &source
+    url: https://www.sigsac.org/ccs/CCS2022/program/awards.html
+    retrieved_at: '2026-08-09T14:15:23Z'
+    content_sha256: 2bf8eebed43c2c1f46e5d3a2d7f48114e666ba330c492e095a95e294ce19ce98
+    parser_version: '2022.1'
+  raw_title: 'Victory by KO: Attacking OpenPGP Using Key Overwriting'
+  raw_authors: Kenny Paterson, Lara Bruseghini, Daniel Huigens
+- id: acm-ccs-2022-proving-unsat-in-zero-knowledge-award
+  edition_id: acm-ccs-2022
+  paper_id: acm-ccs-2022-proving-unsat-in-zero-knowledge
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source: *source
+  raw_title: Proving UNSAT in Zero Knowledge
+  raw_authors: Ning Luo, Timos Antonopoulos, William Harris, Ruzica Piskac, Eran Tromer, Xiao Wang
+- id: acm-ccs-2022-automatic-detection-of-speculative-execution-combinations-award
+  edition_id: acm-ccs-2022
+  paper_id: acm-ccs-2022-automatic-detection-of-speculative-execution-combinations
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source: *source
+  raw_title: Automatic Detection of Speculative Execution Combinations
+  raw_authors: Xaver Fabian, Marco Patrignani, Marco Guarnieri
+- id: acm-ccs-2022-zapper-smart-contracts-with-data-and-identity-privacy-award
+  edition_id: acm-ccs-2022
+  paper_id: acm-ccs-2022-zapper-smart-contracts-with-data-and-identity-privacy
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source: *source
+  raw_title: 'Zapper: Smart Contracts with Data and Identity Privacy'
+  raw_authors: Samuel Steffen, Benjamin Bichsel, Martin Vechev
+- id: acm-ccs-2022-star-secret-sharing-for-private-threshold-aggregation-reporting-award
+  edition_id: acm-ccs-2022
+  paper_id: acm-ccs-2022-star-secret-sharing-for-private-threshold-aggregation-reporting
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source: *source
+  raw_title: 'STAR: Secret Sharing for Private Threshold Aggregation Reporting'
+  raw_authors: Alex Davidson, Peter Snyder, E. B. Quirk, Joseph Genereux, Hamed Haddadi, Benjamin Livshits

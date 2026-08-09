@@ -1,0 +1,186 @@
+{
+  "awards": [
+    {
+      "edition_id": "usenix-security-2022",
+      "id": "usenix-security-2022-openvpn-is-open-to-vpn-fingerprinting-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "ae2397a340986e50807a6e1c5921f63da4d0b421718ac3947af5b752fae818ab",
+        "parser_version": "2022.1",
+        "retrieved_at": "2026-08-09T14:15:23Z",
+        "url": "https://www.usenix.org/conference/usenixsecurity22/technical-sessions"
+      },
+      "paper_id": "usenix-security-2022-openvpn-is-open-to-vpn-fingerprinting",
+      "raw_authors": "Diwen Xue, Reethika Ramesh, and Arham Jain, University of Michigan; Michalis Kallitsis, Merit Network, Inc.; J. Alex Halderman, University of Michigan; Jedidiah R. Crandall, Arizona State University/Breakpointing Bad; Roya Ensafi, University of Michigan",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "OpenVPN is Open to VPN Fingerprinting"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": null,
+      "external_id": null,
+      "method": null,
+      "override_reason": null,
+      "paper_id": "usenix-security-2022-openvpn-is-open-to-vpn-fingerprinting",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "No sufficiently reliable OpenAlex conference or preprint entity was found on 2026-08-09; later journal-only and artifact records were not substituted.",
+      "selected_candidate": null,
+      "status": "pending",
+      "verified_at": null,
+      "verified_by": null
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "5669762753806705860",
+      "method": "manual_override",
+      "override_reason": "Google Scholar groups the official 2022 USENIX conference paper with a later journal version; the numeric cluster is retained as Scholar’s canonical version group.",
+      "paper_id": "usenix-security-2022-openvpn-is-open-to-vpn-fingerprinting",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Reviewed from the SerpApi title-search result; counts remain provider-specific observations.",
+      "selected_candidate": {
+        "author_overlap": 0.8571428571,
+        "doi": null,
+        "external_id": "5669762753806705860",
+        "publication_year": 2025,
+        "title": "OpenVPN is Open to VPN Fingerprinting",
+        "title_similarity": 1.0,
+        "venue": "Communications of the ACM",
+        "venue_match": false,
+        "year_delta": 3
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-09T14:35:20Z",
+      "verified_by": "SecAwardLens maintainer review"
+    },
+    {
+      "confidence": 0.96,
+      "external_id": "2ae766461643b27129c8e9479dba94e7fe2d3672",
+      "method": "manual_override",
+      "override_reason": "Semantic Scholar’s only exact-title result is the ingested USENIX proceedings document, whose extracted title includes a proceedings header and lacks parsed author/year fields; the official paper page and unique title confirm the entity.",
+      "paper_id": "usenix-security-2022-openvpn-is-open-to-vpn-fingerprinting",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Reviewed against the official USENIX paper page and the Semantic Scholar record.",
+      "selected_candidate": {
+        "author_overlap": 0.0,
+        "doi": null,
+        "external_id": "2ae766461643b27129c8e9479dba94e7fe2d3672",
+        "publication_year": null,
+        "title": "This paper is included in the Proceedings of the 31st USENIX Security Symposium. OpenVPN is Open to VPN Fingerprinting",
+        "title_similarity": 0.48051948051948057,
+        "venue": null,
+        "venue_match": false,
+        "year_delta": null
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-09T14:51:00Z",
+      "verified_by": "SecAwardLens maintainer review"
+    }
+  ],
+  "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 24,
+            "year": 2023
+          },
+          {
+            "count": 24,
+            "year": 2024
+          },
+          {
+            "count": 33,
+            "year": 2025
+          },
+          {
+            "count": 24,
+            "year": 2026
+          }
+        ],
+        "external_id": "5669762753806705860",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2022-openvpn-is-open-to-vpn-fingerprinting",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=5669762753806705860&hl=en",
+        "response_sha256": "f0bcc48353ce36b5e75af84801e68ccef1ca5db0bfece29c57b0e438e20b7e48",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T14:40:32.412627Z",
+        "total_citations": 106
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "2ae766461643b27129c8e9479dba94e7fe2d3672",
+        "influential_citations": 8,
+        "paper_id": "usenix-security-2022-openvpn-is-open-to-vpn-fingerprinting",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/2ae766461643b27129c8e9479dba94e7fe2d3672?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "c58063d5b7d823877f7d4a374921ab108542582acf404e0ed975a990169e54a0",
+        "retrieval_service": "semantic_scholar",
+        "retrieved_at": "2026-08-09T14:48:06.775322Z",
+        "total_citations": 56
+      }
+    ]
+  },
+  "enrichment": null,
+  "generated_at": "2026-08-09T14:48:06.775322+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Diwen Xue"
+      },
+      {
+        "name": "Reethika Ramesh"
+      },
+      {
+        "name": "Arham Jain"
+      },
+      {
+        "name": "Michalis Kallitsis"
+      },
+      {
+        "name": "J. Alex Halderman"
+      },
+      {
+        "name": "Jedidiah R. Crandall"
+      },
+      {
+        "name": "Roya Ensafi"
+      }
+    ],
+    "canonical_title": "OpenVPN is Open to VPN Fingerprinting",
+    "id": "usenix-security-2022-openvpn-is-open-to-vpn-fingerprinting",
+    "identifiers": [
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=5669762753806705860",
+        "value": "5669762753806705860",
+        "verified_at": "2026-08-09T14:35:20Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/2ae766461643b27129c8e9479dba94e7fe2d3672?utm_source=api",
+        "value": "2ae766461643b27129c8e9479dba94e7fe2d3672",
+        "verified_at": "2026-08-09T14:51:00Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.usenix.org/conference/usenixsecurity22/technical-sessions",
+      "https://www.usenix.org/conference/usenixsecurity22/presentation/xue-diwen"
+    ],
+    "official_paper_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/xue-diwen",
+    "publication_year": 2022,
+    "venue_name": "31st USENIX Security Symposium"
+  },
+  "schema_version": 1
+}
