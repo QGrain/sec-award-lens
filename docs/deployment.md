@@ -96,13 +96,44 @@ and create a third repository secret named exactly `SERPAPI_KEY`. Locally, use
 `export SERPAPI_KEY='...'`. The key is sent only to SerpApi as its documented
 `api_key` parameter; it is excluded from request fingerprints and generated data.
 
+Optionally create `SCRAPERAPI_KEY` from the ScraperAPI dashboard. Monthly refresh reads
+both services' live remaining capacity, prefers SerpApi when it can cover the batch,
+and falls back to ScraperAPI when necessary. Current Google SERP pricing is 25
+ScraperAPI credits per paper, so the 47-paper release needs at least 1,175 credits.
+Do not add `ZENROWS_API_KEY` to GitHub Actions yet. The strongest documented Fetch
+configuration can resolve individual Scholar pages, but batch tests still produced
+CAPTCHA and concurrency/rate-limit failures. The production workflow intentionally
+excludes it until a complete low-concurrency verification succeeds.
+
+## Optional public traffic counter
+
+The footer supports GoatCounter, an open-source, cookie-free traffic counter. It is
+disabled when no site code is configured, so the repository builds without an
+analytics account.
+
+1. Create a GoatCounter site at <https://www.goatcounter.com/> and note its short site
+   code (the `CODE` in `https://CODE.goatcounter.com`).
+2. In GoatCounter **Settings**, enable **Allow adding visitor counts on your website**.
+   This is off by default and is required for the footer's site-wide total.
+3. In GitHub, open **Settings → Secrets and variables → Actions → Variables → New
+   repository variable**. Name it `GOATCOUNTER_CODE` and enter only the short code.
+   This is a public browser configuration value, not a secret.
+4. Re-run **Deploy GitHub Pages**, or push a commit to `main`.
+
+For local layout testing, set `VITE_GOATCOUNTER_CODE=CODE` in `web/.env.local` before
+starting Vite. GoatCounter filters localhost by default, so previewing the footer does
+not increment production traffic. The site uses the versioned `count.v5.js` script
+with subresource integrity, records hash-route page views, and displays the cached
+site-wide total. Ad blockers or a disabled public counter may leave the number as `—`;
+analytics failure never blocks the application.
+
 ## What each workflow does
 
 | Workflow | Trigger | Expected result |
 | --- | --- | --- |
 | `CI` | Push to `main`; pull request | Python lint/type/tests, data/schema reproducibility checks, frontend tests/audit/build |
 | `Deploy GitHub Pages` | Push to `main`; manual dispatch | Rebuild `web/public/data`, build `web/dist`, upload and deploy a Pages artifact |
-| `Refresh citation snapshots` | First day of each month at 08:17 UTC; manual dispatch | Fetch pinned IDs from enabled providers, append dated snapshots, validate/build, and open a PR |
+| `Refresh citation snapshots` | First day of each month at 08:17 UTC; manual dispatch | Check Scholar transport capacity, fetch pinned IDs, append dated snapshots, validate/build, and open a PR |
 | `Monitor official award sources` | First day of each month at 09:43 UTC; manual dispatch | Compare normalized official award records with their reviewed count and digest |
 
 The off-hour cron minutes reduce peak scheduling delays. Scheduled workflows run only
@@ -119,8 +150,8 @@ tab if the project has been dormant.
 3. Verify the overview, pagination, conference filters, comparison tabs, methodology,
    and at least one `#/paper/...` route. Confirm that data files load from the
    `/sec-award-lens/data/` subpath rather than the domain root.
-4. Confirm that the footer shows the current citation-data retrieval date and that the
-   GitHub link targets the actual repository.
+4. Confirm that the footer shows the current citation-data retrieval date, the traffic
+   total if configured, and that the GitHub link targets the actual repository.
 5. Use a private browser window or disable cache once to ensure the result is the
    deployed artifact rather than a local Vite page.
 
@@ -191,7 +222,7 @@ Common failures:
 | Symptom | Check |
 | --- | --- |
 | Pages job cannot configure the site | Pages source is set to **GitHub Actions** |
-| Refresh reports a missing key | Secret name matches the selected provider: `OPENALEX_API_KEY`, `S2_API_KEY`, or `SERPAPI_KEY` |
+| Refresh reports a missing key | Secret name matches the selected provider: `OPENALEX_API_KEY`, `S2_API_KEY`, and at least one of `SERPAPI_KEY` / `SCRAPERAPI_KEY` |
 | Refresh cannot open a PR | The workflow's write permissions and “Allow GitHub Actions to create and approve pull requests” are enabled |
 | Site HTML loads but data is 404 | Vite was built in Actions with the repository subpath; inspect the deployed asset/data URLs |
 | Automated PR has no running CI | Open the PR and approve its workflow run |

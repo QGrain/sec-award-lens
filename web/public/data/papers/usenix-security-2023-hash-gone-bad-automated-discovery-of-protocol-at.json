@@ -106,6 +106,36 @@
         "response_sha256": "176456d449b9b13e47627a600bfe851f14dde9ee497e6d4abceaee9a8d054ba8",
         "retrieved_at": "2026-08-08T18:07:57Z",
         "total_citations": 40
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 6,
+            "year": 2023
+          },
+          {
+            "count": 9,
+            "year": 2024
+          },
+          {
+            "count": 16,
+            "year": 2025
+          },
+          {
+            "count": 9,
+            "year": 2026
+          }
+        ],
+        "external_id": "9468483505427352578",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-hash-gone-bad-automated-discovery-of-protocol-at",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=9468483505427352578&hl=en",
+        "response_sha256": "6415ccacb1f2922d316bea4ca9c4e5763ee162e2d8c38ebca62da7f7b2698472",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T05:36:36.847658Z",
+        "total_citations": 40
       }
     ],
     "openalex": [
@@ -242,7 +272,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T18:16:23.806407+00:00",
+  "generated_at": "2026-08-09T05:36:36.847658+00:00",
   "paper": {
     "authors": [
       {

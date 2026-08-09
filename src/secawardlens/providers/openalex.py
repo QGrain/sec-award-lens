@@ -8,7 +8,13 @@ from typing import Any
 
 import httpx
 
-from ..models import CitationObservation, CitationProvider, CitationYearCount, utc_now
+from ..models import (
+    CitationObservation,
+    CitationProvider,
+    CitationRetrievalService,
+    CitationYearCount,
+    utc_now,
+)
 from ..normalization import normalize_doi
 from .base import ProviderPaper
 from .http import JsonApiClient
@@ -164,6 +170,7 @@ class OpenAlexClient(JsonApiClient):
                 CitationYearCount(year=year, count=count) for year, count in sorted(by_year.items())
             ],
             provider_record_updated_at=updated_at,
+            retrieval_service=CitationRetrievalService.OPENALEX,
             response_sha256=hashlib.sha256(raw_bytes).hexdigest(),
             request_fingerprint=f"GET /works/{work.external_id}?select={self.FIELDS}",
         )

@@ -2,6 +2,7 @@ import { useEffect, useRef, useState, type ReactNode } from "react";
 import { formatDate } from "../data";
 import semanticScholarMark from "../assets/semantic-scholar-mark.svg";
 import { usePreferences, type ThemePreference } from "../preferences";
+import { SiteTraffic } from "./SiteTraffic";
 
 function ThemeIcon({ theme }: { theme: ThemePreference }) {
   if (theme === "dark") {
@@ -32,6 +33,8 @@ export function Shell({ children, updatedAt }: { children: ReactNode; updatedAt?
     refreshed: "更新于",
     license: "代码采用 Apache-2.0；上游数据遵循各自条款",
     s2: "Semantic Scholar API 支持与署名",
+    siteViews: "全站访问量",
+    trafficTitle: "由隐私友好的 GoatCounter 提供访问统计",
   } : {
     home: "SecAwardLens home",
     rankings: "Papers & rankings",
@@ -47,6 +50,8 @@ export function Shell({ children, updatedAt }: { children: ReactNode; updatedAt?
     refreshed: "refreshed",
     license: "Code Apache-2.0 · Upstream data retains provider terms",
     s2: "Semantic Scholar API support and attribution",
+    siteViews: "Site views",
+    trafficTitle: "Privacy-friendly traffic statistics by GoatCounter",
   };
   const themes: { id: ThemePreference; label: string }[] = [
     { id: "light", label: text.light },
@@ -133,7 +138,10 @@ export function Shell({ children, updatedAt }: { children: ReactNode; updatedAt?
       </header>
       <main>{children}</main>
       <footer>
-        <div className="footer-status"><span className="status-dot" /> {text.data}{updatedAt ? ` · ${text.refreshed} ${formatDate(updatedAt, locale)}` : ""}</div>
+        <div className="footer-meta">
+          <div className="footer-status"><span className="status-dot" /> {text.data}{updatedAt ? ` · ${text.refreshed} ${formatDate(updatedAt, locale)}` : ""}</div>
+          <SiteTraffic label={text.siteViews} title={text.trafficTitle} />
+        </div>
         <a className="s2-attribution" href="https://www.semanticscholar.org/?utm_source=api" target="_blank" rel="noreferrer" title={text.s2}>
           <img src={semanticScholarMark} alt="" /><span>Semantic Scholar</span>
         </a>

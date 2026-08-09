@@ -106,6 +106,36 @@
         "response_sha256": "97e4ed877f7e75558b1fff47ec5b899b4ca9252e0b955380ca83f69f0d850b3a",
         "retrieved_at": "2026-08-08T18:07:59Z",
         "total_citations": 21
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2023
+          },
+          {
+            "count": 4,
+            "year": 2024
+          },
+          {
+            "count": 11,
+            "year": 2025
+          },
+          {
+            "count": 5,
+            "year": 2026
+          }
+        ],
+        "external_id": "14810536492047199644",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-automated-analysis-of-protocols-that-use-authent",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=14810536492047199644&hl=en",
+        "response_sha256": "6192d1d3626ef852ddee19482835753bd30a11e346d1db5e795a9e8872b6d375",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T05:36:36.847658Z",
+        "total_citations": 22
       }
     ],
     "openalex": [
@@ -220,7 +250,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T18:16:23.806407+00:00",
+  "generated_at": "2026-08-09T05:36:36.847658+00:00",
   "paper": {
     "authors": [
       {

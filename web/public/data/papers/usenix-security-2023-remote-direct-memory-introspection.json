@@ -130,6 +130,32 @@
         "response_sha256": "c8ffafe3b1bd22b777dd0f4cdd3aad6b2de779c5d90b96ea5e46c8c52bd36806",
         "retrieved_at": "2026-08-08T18:08:08Z",
         "total_citations": 16
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 4,
+            "year": 2024
+          },
+          {
+            "count": 8,
+            "year": 2025
+          },
+          {
+            "count": 4,
+            "year": 2026
+          }
+        ],
+        "external_id": "15692874715604309705",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-remote-direct-memory-introspection",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=15692874715604309705&hl=en",
+        "response_sha256": "ebc391ade68e4fa0e45c5de49d8d066938531465489921895b09626c8331c749",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T05:36:36.847658Z",
+        "total_citations": 16
       }
     ],
     "semantic_scholar": [
@@ -148,7 +174,7 @@
     ]
   },
   "enrichment": null,
-  "generated_at": "2026-08-08T18:16:23.806407+00:00",
+  "generated_at": "2026-08-09T05:36:36.847658+00:00",
   "paper": {
     "authors": [
       {

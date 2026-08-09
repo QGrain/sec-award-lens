@@ -249,7 +249,12 @@ main { max-width: 1240px; margin: 0 auto; padding: 0 24px 80px; }
 .loading, .empty-state { min-height: 65vh; display: grid; place-content: center; text-align: center; color: var(--muted); }
 .loading { font: 500 12px var(--font-mono); }
 footer { max-width: 1240px; padding: 25px 24px 35px; margin: 0 auto; border-top: 1px solid var(--line); display: flex; align-items: center; justify-content: space-between; gap: 20px; color: var(--muted); font: 400 10px var(--font-mono); text-transform: uppercase; letter-spacing: .06em; }
+.footer-meta { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
 .status-dot { display: inline-block; width: 7px; height: 7px; background: #32c896; border-radius: 50%; margin-right: 5px; box-shadow: 0 0 0 3px #d5eee6; }
+.site-traffic { display: inline-flex; align-items: center; gap: 6px; color: var(--muted); text-decoration: none; white-space: nowrap; }
+.site-traffic:hover { color: var(--ink); }
+.site-traffic svg { width: 15px; height: 15px; fill: none; stroke: currentColor; stroke-width: 1.45; }
+.site-traffic strong { color: var(--ink); font-weight: 500; }
 .s2-attribution { display: inline-flex; align-items: center; gap: 7px; text-decoration: none; text-transform: none; letter-spacing: 0; white-space: nowrap; }
 .s2-attribution:hover { color: var(--ink); }
 .s2-attribution img { width: 25px; height: 18px; object-fit: contain; }
@@ -310,7 +315,8 @@ footer { max-width: 1240px; padding: 25px 24px 35px; margin: 0 auto; border-top:
   :root:lang(zh-CN) .methodology > h1 { font-size: 28px; }
   .acknowledgements > .intro { font-size: 16px; margin-bottom: 45px; }
   .acknowledgement-section { padding: 25px 0 27px; }
-  footer { flex-direction: column; gap: 12px; }
+  footer { flex-direction: column; gap: 12px; text-align: center; }
+  .footer-meta { justify-content: center; }
 }
 @media (max-width: 400px) {
   .brand > span:last-child { display: none; }

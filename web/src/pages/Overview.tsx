@@ -283,7 +283,9 @@ export function Overview({
     filter: "筛选会议",
     metric: "引用指标",
     sourceMetric: "引用来源",
-    scholarVia: "Google Scholar（经由 SerpApi）",
+    scholarViaSerpApi: "Google Scholar（经由 SerpApi）",
+    scholarViaScraperApi: "Google Scholar（经由 ScraperAPI）",
+    scholarViaMixed: "Google Scholar（经由多个服务）",
     current: "当前",
     firstThree: "发表后三年",
     capture: "打印 / 截图",
@@ -322,7 +324,9 @@ export function Overview({
     filter: "Filter conferences",
     metric: "Citation metric",
     sourceMetric: "Citation source",
-    scholarVia: "Google Scholar via SerpApi",
+    scholarViaSerpApi: "Google Scholar via SerpApi",
+    scholarViaScraperApi: "Google Scholar via ScraperAPI",
+    scholarViaMixed: "Google Scholar via multiple services",
     current: "Current",
     firstThree: "First 3 years",
     capture: "Print / capture",
@@ -368,7 +372,16 @@ export function Overview({
   const matched = sourceRows.filter((row) => row.citation).length;
   const hasAgeMetric = sourceRows.some((row) => row.citation?.citations_first_3_years != null);
   const sourceName = providerName(source);
-  const sourceDisplayName = source === "google_scholar" ? text.scholarVia : sourceName;
+  const scholarServices = new Set(sourceRows.flatMap((row) => row.citation
+    ? [row.citation.retrieval_service ?? "serpapi"]
+    : []));
+  const sourceDisplayName = source !== "google_scholar"
+    ? sourceName
+    : scholarServices.size > 1
+      ? text.scholarViaMixed
+      : scholarServices.has("scraperapi")
+        ? text.scholarViaScraperApi
+        : text.scholarViaSerpApi;
   const summaries = useMemo<Summary[]>(() => conferences.map((conference) => {
     const conferenceRows = sourceRows.filter((row) => row.conference.id === conference.id);
     const counts = conferenceRows.flatMap((row) => row.citation ? [row.citation.total_citations] : []);

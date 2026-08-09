@@ -106,6 +106,40 @@
         "response_sha256": "ac97a40d008d9ced1db1dab7483f2e4d3443b9d323ed46d11df7e9b6abdd0747",
         "retrieved_at": "2026-08-08T18:06:37Z",
         "total_citations": 42
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 2,
+            "year": 2022
+          },
+          {
+            "count": 9,
+            "year": 2023
+          },
+          {
+            "count": 8,
+            "year": 2024
+          },
+          {
+            "count": 16,
+            "year": 2025
+          },
+          {
+            "count": 8,
+            "year": 2026
+          }
+        ],
+        "external_id": "9037373832888256359",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-typing-high-speed-cryptography-against-spectre-v",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=9037373832888256359&hl=en",
+        "response_sha256": "c6dc68acafaef25f7b30803ba02d89f7963bd670d2e83dc9b3df883508a192a1",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T05:36:36.847658Z",
+        "total_citations": 43
       }
     ],
     "openalex": [
@@ -307,7 +341,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T18:16:23.806407+00:00",
+  "generated_at": "2026-08-09T05:36:36.847658+00:00",
   "paper": {
     "authors": [
       {

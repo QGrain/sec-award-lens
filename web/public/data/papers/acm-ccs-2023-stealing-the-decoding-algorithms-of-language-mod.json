@@ -106,6 +106,32 @@
         "response_sha256": "53c136056ba648dde79bd05ff5514c3009f860155bb801c8c66c082f9cbefec1",
         "retrieved_at": "2026-08-08T18:08:55Z",
         "total_citations": 35
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 14,
+            "year": 2024
+          },
+          {
+            "count": 14,
+            "year": 2025
+          },
+          {
+            "count": 7,
+            "year": 2026
+          }
+        ],
+        "external_id": "8285920940505710581",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-stealing-the-decoding-algorithms-of-language-mod",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=8285920940505710581&hl=en",
+        "response_sha256": "00086e7145b5aeafd1032ad30c5ff45b23c41d5cab095425df862e415712e28a",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T05:36:36.847658Z",
+        "total_citations": 35
       }
     ],
     "openalex": [
@@ -244,7 +270,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T18:16:23.806407+00:00",
+  "generated_at": "2026-08-09T05:36:36.847658+00:00",
   "paper": {
     "authors": [
       {

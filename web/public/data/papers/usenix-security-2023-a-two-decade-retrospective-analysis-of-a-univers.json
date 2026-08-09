@@ -108,6 +108,36 @@
         "response_sha256": "d26ef48ab3c24d0e3ee815aba4dba3835588ec84a750d3dc810dab057be27a9d",
         "retrieved_at": "2026-08-08T18:07:49Z",
         "total_citations": 30
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 2,
+            "year": 2023
+          },
+          {
+            "count": 5,
+            "year": 2024
+          },
+          {
+            "count": 15,
+            "year": 2025
+          },
+          {
+            "count": 8,
+            "year": 2026
+          }
+        ],
+        "external_id": "10194117707257387734",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-a-two-decade-retrospective-analysis-of-a-univers",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=10194117707257387734&hl=en",
+        "response_sha256": "21c4295940ebb5c1fb2e51245d4d3a7f8e383873d551ba254d18514b2afa0e85",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T05:36:36.847658Z",
+        "total_citations": 30
       }
     ],
     "semantic_scholar": [
@@ -126,7 +156,7 @@
     ]
   },
   "enrichment": null,
-  "generated_at": "2026-08-08T18:16:23.806407+00:00",
+  "generated_at": "2026-08-09T05:36:36.847658+00:00",
   "paper": {
     "authors": [
       {

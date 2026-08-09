@@ -29,10 +29,11 @@ title-and-author-consistent Semantic Scholar entity. They are not assigned to we
 lookalikes. Provider coverage is shown separately rather than filled with another
 provider's count.
 
-The pipeline now also supports Google Scholar observations through SerpApi. Google
-Scholar has no official public API, so these records are labeled with both the
-underlying source and transport. Reviewed Scholar snapshots are selected by default,
-while OpenAlex and Semantic Scholar remain independently selectable comparison views.
+The pipeline supports Google Scholar observations primarily through SerpApi, with a
+quota-aware ScraperAPI fallback for pinned citation clusters. Google Scholar has no
+official public API, so records distinguish the underlying source from the retrieval
+service. Reviewed Scholar snapshots are selected by default, while OpenAlex and
+Semantic Scholar remain independently selectable comparison views.
 
 ## Quick start
 
@@ -78,15 +79,21 @@ uv run secawardlens review apply data/review/submissions/FORM.yml
 Semantic Scholar candidate discovery and refresh. Create an OpenAlex key at
 <https://openalex.org/settings/api> and export it locally with
 `export OPENALEX_API_KEY=...`; export an approved S2 key with `export S2_API_KEY=...`.
-Google Scholar candidate discovery and refresh use a SerpApi account key exported as
-`SERPAPI_KEY`; never commit that key. The current 47-paper cohort costs about 47
-successful SerpApi searches for one full candidate or refresh pass.
+Google Scholar candidate discovery uses a SerpApi account key exported as
+`SERPAPI_KEY`. Refresh can also use `SCRAPERAPI_KEY` as a capacity-checked fallback;
+never commit either key. The current 47-paper cohort costs about 47 SerpApi searches or
+1,175 ScraperAPI credits for one refresh. SerpApi remains preferred because its
+structured response includes citing-year counts; the ScraperAPI HTML fallback provides
+only the current total.
 Building or previewing already committed data needs neither key. Routine citation
 refreshes never search or rematch a paper.
 
 The web interface defaults to English and a light theme. Visitors can switch between
 English/Chinese UI text and Light/Dark/System themes; paper titles, authors, venues,
 and other source metadata remain in their original language.
+An optional GoatCounter integration adds a privacy-friendly, site-wide view count to
+the footer when the public `GOATCOUNTER_CODE` repository variable is configured; see
+the deployment guide for the one-time setup.
 
 ## Repository map
 

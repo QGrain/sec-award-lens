@@ -9,6 +9,16 @@
       "title": "CitationProvider",
       "type": "string"
     },
+    "CitationRetrievalService": {
+      "enum": [
+        "openalex",
+        "semantic_scholar",
+        "serpapi",
+        "scraperapi"
+      ],
+      "title": "CitationRetrievalService",
+      "type": "string"
+    },
     "CitationYearCount": {
       "additionalProperties": false,
       "properties": {
@@ -87,6 +97,17 @@
       ],
       "default": null,
       "title": "Provider Record Updated At"
+    },
+    "retrieval_service": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/CitationRetrievalService"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
     },
     "response_sha256": {
       "pattern": "^[a-f0-9]{64}$",

@@ -106,6 +106,36 @@
         "response_sha256": "553f6c5f89aeac1d30e3962e246c4be4b45617303138f650ce09c9a3bd7b0b2c",
         "retrieved_at": "2026-08-08T18:07:00Z",
         "total_citations": 30
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 5,
+            "year": 2023
+          },
+          {
+            "count": 12,
+            "year": 2024
+          },
+          {
+            "count": 7,
+            "year": 2025
+          },
+          {
+            "count": 5,
+            "year": 2026
+          }
+        ],
+        "external_id": "16083415626941056089",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-the-leaky-web-automated-discovery-of-cross-site",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=16083415626941056089&hl=en",
+        "response_sha256": "f4b76d00fa7f3480152e9639e99cb2ef58d3fe1bb279a295b73730a657c1cb0c",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T05:36:36.847658Z",
+        "total_citations": 30
       }
     ],
     "openalex": [
@@ -232,7 +262,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T18:16:23.806407+00:00",
+  "generated_at": "2026-08-09T05:36:36.847658+00:00",
   "paper": {
     "authors": [
       {

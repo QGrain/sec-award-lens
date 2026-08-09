@@ -118,6 +118,36 @@
         "response_sha256": "7f632853d045ca07bc5806eac248e3559b4f2a9d1501e410d2c55fea18969077",
         "retrieved_at": "2026-08-08T18:07:48Z",
         "total_citations": 33
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2022
+          },
+          {
+            "count": 6,
+            "year": 2024
+          },
+          {
+            "count": 12,
+            "year": 2025
+          },
+          {
+            "count": 13,
+            "year": 2026
+          }
+        ],
+        "external_id": "11507894294460007087",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=11507894294460007087&hl=en",
+        "response_sha256": "20db667fb8bf52ab6c643a1aa3509bc07515945e931a61ec8666bf7a571a7827",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T05:36:36.847658Z",
+        "total_citations": 33
       }
     ],
     "openalex": [
@@ -196,7 +226,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T18:16:23.806407+00:00",
+  "generated_at": "2026-08-09T05:36:36.847658+00:00",
   "paper": {
     "authors": [
       {

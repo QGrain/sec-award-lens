@@ -27,8 +27,11 @@ export function PaperDetail({ id, initialSource }: { id: string; initialSource?:
     requires: "需要人工核验",
     profile: "引用概况",
     byYear: "按引用论文发表年份统计",
-    noYear: "暂时没有可用的逐年引用量。",
+    noYear: "该快照没有提供逐年引用量。",
+    noYearScholar: "当前基线复用了首次检索结果，因此没有逐年引用量；下次由 SerpApi 按固定论文 ID 刷新后可生成该图。",
+    noYearFallback: "当前快照经由 HTML 代理获取，只包含引用总量，不包含逐年引用量。",
     chartNote: "这里的年份是引用论文的发表年份，并非引用计数器在当年的历史快照值。",
+    yearSeriesSnapshot: "逐年分布快照",
     audit: "审计记录",
     trustworthy: "为何这条记录值得信任",
     awardSource: "奖项来源",
@@ -44,6 +47,7 @@ export function PaperDetail({ id, initialSource }: { id: string; initialSource?:
     chartAria: "引用论文按发表年份分布",
     source: "引用来源",
     viaSerpApi: "经由 SerpApi 获取",
+    viaScraperApi: "经由 ScraperAPI 获取",
   } : {
     notFound: "Paper not found",
     returnToRankings: "Return to rankings",
@@ -64,8 +68,11 @@ export function PaperDetail({ id, initialSource }: { id: string; initialSource?:
     requires: "requires review",
     profile: "Citation profile",
     byYear: "Citations by citing year",
-    noYear: "No year-level citation counts are available yet.",
+    noYear: "This snapshot does not provide year-level citation counts.",
+    noYearScholar: "The current baseline reused the discovery result, which has no yearly series. A pinned-ID refresh through SerpApi can populate this chart.",
+    noYearFallback: "This HTML-proxy snapshot provides the current total, but not a citing-year series.",
     chartNote: "This is the citing works’ publication year—not a historical snapshot of what the counter displayed then.",
+    yearSeriesSnapshot: "Year distribution snapshot",
     audit: "Audit trail",
     trustworthy: "Why this record is trustworthy",
     awardSource: "Award source",
@@ -81,6 +88,7 @@ export function PaperDetail({ id, initialSource }: { id: string; initialSource?:
     chartAria: "Citations received by publication year of citing works",
     source: "Citation source",
     viaSerpApi: "retrieved via SerpApi",
+    viaScraperApi: "retrieved via ScraperAPI",
   };
   const [data, setData] = useState<PaperData | null>(null);
   const [error, setError] = useState("");
@@ -96,14 +104,18 @@ export function PaperDetail({ id, initialSource }: { id: string; initialSource?:
       ? initialSource
       : availableProviders[0] ?? null;
   const latest = provider ? data?.citation_history[provider]?.at(-1) : undefined;
+  const latestWithYearCounts = provider
+    ? data?.citation_history[provider]?.slice().reverse()
+      .find((item) => item.citations_by_citing_year.length > 0)
+    : undefined;
   const dark = resolvedTheme === "dark";
   const yearlyOption = useMemo<EChartsCoreOption>(() => ({
     grid: { left: 45, right: 15, top: 18, bottom: 42 },
     tooltip: { trigger: "axis", backgroundColor: dark ? "#172a24" : "#fff", borderColor: dark ? "#42574f" : "#d5dfd8", textStyle: { color: dark ? "#edf5f1" : "#152a24" } },
-    xAxis: { type: "category", data: latest?.citations_by_citing_year.map((item) => item.year) ?? [], axisTick: { show: false }, axisLabel: { color: dark ? "#a9bcb5" : "#53655f" } },
+    xAxis: { type: "category", data: latestWithYearCounts?.citations_by_citing_year.map((item) => item.year) ?? [], axisTick: { show: false }, axisLabel: { color: dark ? "#a9bcb5" : "#53655f" } },
     yAxis: { type: "value", minInterval: 1, axisLabel: { color: dark ? "#a9bcb5" : "#53655f" }, splitLine: { lineStyle: { color: dark ? "#344740" : "#dce5df" } } },
-    series: [{ type: "bar", data: latest?.citations_by_citing_year.map((item) => item.count) ?? [], itemStyle: { color: "#45d6ad", borderRadius: [4, 4, 0, 0] }, barMaxWidth: 42 }],
-  }), [dark, latest]);
+    series: [{ type: "bar", data: latestWithYearCounts?.citations_by_citing_year.map((item) => item.count) ?? [], itemStyle: { color: "#45d6ad", borderRadius: [4, 4, 0, 0] }, barMaxWidth: 42 }],
+  }), [dark, latestWithYearCounts]);
   if (error) return <section className="empty-state"><h1>{text.notFound}</h1><p>{error}</p><a href="#/">{text.returnToRankings}</a></section>;
   if (!data) return <div className="loading">{text.loading}</div>;
   const doi = data.paper.identifiers.find((item) => item.scheme === "doi");
@@ -117,10 +129,13 @@ export function PaperDetail({ id, initialSource }: { id: string; initialSource?:
     ]) ?? [],
   );
   const hasAffiliations = [...affiliations.values()].some((items) => items.length);
-  const hasYearCounts = Boolean(latest?.citations_by_citing_year.length);
+  const hasYearCounts = Boolean(latestWithYearCounts);
+  const noYearMessage = provider === "google_scholar"
+    ? latest?.retrieval_service === "serpapi" ? text.noYearScholar : text.noYearFallback
+    : text.noYear;
   const citationProviderName = provider ? providerName(provider) : text.source;
   const providerObservationName = provider === "google_scholar"
-    ? `${citationProviderName} · ${text.viaSerpApi}`
+    ? `${citationProviderName} · ${latest?.retrieval_service === "scraperapi" ? text.viaScraperApi : text.viaSerpApi}`
     : citationProviderName;
   const matchStatus = binding
     ? language === "zh"
@@ -186,14 +201,14 @@ export function PaperDetail({ id, initialSource }: { id: string; initialSource?:
       </nav>}
       <section className="paper-metrics">
         <article><span>{text.current}</span><strong>{latest ? compactNumber(latest.total_citations, locale) : "—"}</strong><small>{latest ? `${providerObservationName} · ${text.snapshot} ${formatDate(latest.retrieved_at, locale)}` : text.noEntity}</small></article>
-        <article><span>{text.firstThree}</span><strong>{hasYearCounts ? latest?.citations_by_citing_year.filter((item) => item.year >= data.paper.publication_year && item.year < data.paper.publication_year + 3).reduce((sum, item) => sum + item.count, 0) : "—"}</strong><small>{hasYearCounts ? text.ageWindow : text.unavailable}</small></article>
+        <article><span>{text.firstThree}</span><strong>{hasYearCounts ? latestWithYearCounts?.citations_by_citing_year.filter((item) => item.year >= data.paper.publication_year && item.year < data.paper.publication_year + 3).reduce((sum, item) => sum + item.count, 0) : "—"}</strong><small>{hasYearCounts ? text.ageWindow : text.unavailable}</small></article>
         <article><span>{text.entityMatch}</span><strong className="match-status">{matchStatus}</strong><small>{matchMethod}</small></article>
       </section>
       <section className="paper-grid">
         <article className="panel">
           <div className="panel-heading"><div><p className="kicker">{text.profile}</p><h2>{text.byYear}</h2></div></div>
-          {hasYearCounts ? <Chart option={yearlyOption} height={320} label={text.chartAria} /> : <p className="empty-chart">{text.noYear}</p>}
-          <p className="chart-note">{text.chartNote}</p>
+          {hasYearCounts ? <Chart option={yearlyOption} height={320} label={text.chartAria} /> : <p className="empty-chart">{noYearMessage}</p>}
+          <p className="chart-note">{text.chartNote}{latestWithYearCounts ? ` ${text.yearSeriesSnapshot}: ${formatDate(latestWithYearCounts.retrieved_at, locale)}.` : ""}</p>
         </article>
         <aside className="provenance-card">
           <p className="kicker">{text.audit}</p><h2>{text.trustworthy}</h2>

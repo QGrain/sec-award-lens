@@ -106,6 +106,36 @@
         "response_sha256": "ee4da3ae6ac7d6d2a9787ab322525805b4f0f928b2b6ccd2dfae81b4144292bf",
         "retrieved_at": "2026-08-08T18:07:50Z",
         "total_citations": 81
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 3,
+            "year": 2023
+          },
+          {
+            "count": 20,
+            "year": 2024
+          },
+          {
+            "count": 29,
+            "year": 2025
+          },
+          {
+            "count": 28,
+            "year": 2026
+          }
+        ],
+        "external_id": "5926880305407693086",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-ethical-frameworks-and-computer-security-trolley",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=5926880305407693086&hl=en",
+        "response_sha256": "fbe857ebea8eb8471a60dbd2b70698ab9b83e5c8a884bdb7fb930d726f5bc9a2",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T05:36:36.847658Z",
+        "total_citations": 81
       }
     ],
     "openalex": [
@@ -198,7 +228,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T18:16:23.806407+00:00",
+  "generated_at": "2026-08-09T05:36:36.847658+00:00",
   "paper": {
     "authors": [
       {

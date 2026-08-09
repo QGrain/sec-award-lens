@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { compactNumber, formatDate } from "./data";
+import { goatCounterTotalUrl, normalizeGoatCounterCode } from "./components/SiteTraffic";
 import type { YearData } from "./types";
 
 describe("formatters", () => {
@@ -11,6 +12,16 @@ describe("formatters", () => {
 
   it("formats snapshot timestamps as a readable date", () => {
     expect(formatDate("2026-08-07T12:00:00Z")).toContain("2026");
+  });
+});
+
+describe("traffic counter configuration", () => {
+  it("accepts only a GoatCounter site code and builds the total endpoint", () => {
+    expect(normalizeGoatCounterCode(" SecAwardLens ")).toBe("secawardlens");
+    expect(normalizeGoatCounterCode("https://example.com")).toBeNull();
+    expect(goatCounterTotalUrl("secawardlens")).toBe(
+      "https://secawardlens.goatcounter.com/counter/TOTAL.json",
+    );
   });
 });
 

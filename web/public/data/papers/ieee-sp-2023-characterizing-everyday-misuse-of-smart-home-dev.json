@@ -106,6 +106,36 @@
         "response_sha256": "8eb892a9f48596b9c31cd75a5088dce07d09875e9e4b7cf1851ab4b2ebca3d56",
         "retrieved_at": "2026-08-08T18:07:07Z",
         "total_citations": 29
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 6,
+            "year": 2023
+          },
+          {
+            "count": 9,
+            "year": 2024
+          },
+          {
+            "count": 7,
+            "year": 2025
+          },
+          {
+            "count": 7,
+            "year": 2026
+          }
+        ],
+        "external_id": "1694345513935846134",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-characterizing-everyday-misuse-of-smart-home-dev",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=1694345513935846134&hl=en",
+        "response_sha256": "17f6dee240e915182e07350cd5bb80b93bd680d158cfbcd1613abf01d320597f",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T05:36:36.847658Z",
+        "total_citations": 29
       }
     ],
     "openalex": [
@@ -268,7 +298,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T18:16:23.806407+00:00",
+  "generated_at": "2026-08-09T05:36:36.847658+00:00",
   "paper": {
     "authors": [
       {

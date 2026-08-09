@@ -106,6 +106,36 @@
         "response_sha256": "47efe2fcc0dc6b7c8e67280a65adb2c801a589106f0e3d9098ab435144f8e75e",
         "retrieved_at": "2026-08-08T18:06:55Z",
         "total_citations": 46
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 3,
+            "year": 2023
+          },
+          {
+            "count": 14,
+            "year": 2024
+          },
+          {
+            "count": 18,
+            "year": 2025
+          },
+          {
+            "count": 11,
+            "year": 2026
+          }
+        ],
+        "external_id": "6360895518395081755",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-red-team-vs-blue-team-a-real-world-hardware-troj",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=6360895518395081755&hl=en",
+        "response_sha256": "3d690d092cd2fc643d185953e0096bc928aac6a6257bfdf92ecd195462c78ec4",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T05:36:36.847658Z",
+        "total_citations": 46
       }
     ],
     "openalex": [
@@ -268,7 +298,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T18:16:23.806407+00:00",
+  "generated_at": "2026-08-09T05:36:36.847658+00:00",
   "paper": {
     "authors": [
       {

@@ -106,6 +106,36 @@
         "response_sha256": "12dc49afe5474a677c04b012d0d708fdee545a8d630fd217729b87a6aca9c47c",
         "retrieved_at": "2026-08-08T18:08:35Z",
         "total_citations": 93
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 2,
+            "year": 2023
+          },
+          {
+            "count": 23,
+            "year": 2024
+          },
+          {
+            "count": 37,
+            "year": 2025
+          },
+          {
+            "count": 31,
+            "year": 2026
+          }
+        ],
+        "external_id": "11867684590348611982",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-he3db-an-efficient-and-elastic-encrypted-databas",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=11867684590348611982&hl=en",
+        "response_sha256": "0d2045c230bc7f1cbd660bdfef6221d9f25aa54509e76b0a5dd37000e549ecf9",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T05:36:36.847658Z",
+        "total_citations": 93
       }
     ],
     "openalex": [
@@ -280,7 +310,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T18:16:23.806407+00:00",
+  "generated_at": "2026-08-09T05:36:36.847658+00:00",
   "paper": {
     "authors": [
       {

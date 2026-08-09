@@ -106,6 +106,32 @@
         "response_sha256": "2dafad4c8ba6f933c619992f57238f0fadb100ebd1c625a807ade30de761ba1d",
         "retrieved_at": "2026-08-08T18:08:34Z",
         "total_citations": 29
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 5,
+            "year": 2024
+          },
+          {
+            "count": 12,
+            "year": 2025
+          },
+          {
+            "count": 12,
+            "year": 2026
+          }
+        ],
+        "external_id": "10776774111625253151",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=10776774111625253151&hl=en",
+        "response_sha256": "8998c905b87488f49d2440ec10b146f5380885ea3c8dbefd43a7cc6207f34cca",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T05:36:36.847658Z",
+        "total_citations": 30
       }
     ],
     "openalex": [
@@ -218,7 +244,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T18:16:23.806407+00:00",
+  "generated_at": "2026-08-09T05:36:36.847658+00:00",
   "paper": {
     "authors": [
       {

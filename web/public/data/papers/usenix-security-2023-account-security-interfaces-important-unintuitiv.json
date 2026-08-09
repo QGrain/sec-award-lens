@@ -96,6 +96,32 @@
         "response_sha256": "a2c64c38bace64435381db002d48bef450ee16e9b432f1f654a5c3e3f2459840",
         "retrieved_at": "2026-08-08T18:07:44Z",
         "total_citations": 21
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 5,
+            "year": 2024
+          },
+          {
+            "count": 10,
+            "year": 2025
+          },
+          {
+            "count": 6,
+            "year": 2026
+          }
+        ],
+        "external_id": "507752266252204781",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-account-security-interfaces-important-unintuitiv",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=507752266252204781&hl=en",
+        "response_sha256": "cc38c2a184a189da5cf2d7c09b5d53fb6f844ce35092cc2a5ad8ab5362a1700c",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T05:36:36.847658Z",
+        "total_citations": 21
       }
     ],
     "semantic_scholar": [
@@ -114,7 +140,7 @@
     ]
   },
   "enrichment": null,
-  "generated_at": "2026-08-08T18:16:23.806407+00:00",
+  "generated_at": "2026-08-09T05:36:36.847658+00:00",
   "paper": {
     "authors": [
       {

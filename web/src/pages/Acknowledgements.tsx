@@ -27,10 +27,10 @@ export function Acknowledgements() {
     </section>
 
     <section className="acknowledgement-section">
-      <h2><a href="https://scholar.google.com/" target="_blank" rel="noreferrer">Google Scholar ↗</a> <span>·</span> <a href="https://serpapi.com/google-scholar-api" target="_blank" rel="noreferrer">SerpApi ↗</a></h2>
+      <h2><a href="https://scholar.google.com/" target="_blank" rel="noreferrer">Google Scholar ↗</a> <span>·</span> <a href="https://serpapi.com/google-scholar-api" target="_blank" rel="noreferrer">SerpApi ↗</a> <span>·</span> <a href="https://www.scraperapi.com/" target="_blank" rel="noreferrer">ScraperAPI ↗</a></h2>
       <p>{zh
-        ? "Google Scholar 为本站提供更广覆盖的引用观测；由于它没有官方公开 API，项目通过第三方服务 SerpApi 获取结构化结果。此类数据会标注为“Google Scholar（经由 SerpApi）”，并与 OpenAlex、Semantic Scholar 的观测分开呈现。本项目与 Google 或 SerpApi 不存在隶属或背书关系。"
-        : "Google Scholar supplies a broader citation observation for this site. Because it has no official public API, the project obtains structured results through the third-party SerpApi service. These data are labeled “Google Scholar via SerpApi” and remain separate from OpenAlex and Semantic Scholar observations. This project is not affiliated with or endorsed by Google or SerpApi."}</p>
+        ? "Google Scholar 为本站提供更广覆盖的引用观测。由于它没有官方公开 API，项目主要通过 SerpApi 获取结构化结果，并在配额或服务不可用时使用经过验证的 ScraperAPI 后备。观测会标注实际传输服务，并与 OpenAlex、Semantic Scholar 的数据分开呈现。本项目与 Google、SerpApi 或 ScraperAPI 不存在隶属或背书关系。"
+        : "Google Scholar supplies a broader citation observation for this site. Because it has no official public API, the project primarily obtains structured results through SerpApi and uses a verified ScraperAPI fallback when quota or service availability requires it. Observations identify the actual transport and remain separate from OpenAlex and Semantic Scholar data. This project is not affiliated with or endorsed by Google, SerpApi, or ScraperAPI."}</p>
     </section>
 
     <section className="acknowledgement-section inspiration-note">

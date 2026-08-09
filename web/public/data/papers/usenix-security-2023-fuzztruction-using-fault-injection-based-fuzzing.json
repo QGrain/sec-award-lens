@@ -108,6 +108,36 @@
         "response_sha256": "bb2f9fc34235838b2f2300049df669f5834d16a67f9c5885f4af2d603fef51a6",
         "retrieved_at": "2026-08-08T18:07:33Z",
         "total_citations": 35
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 4,
+            "year": 2023
+          },
+          {
+            "count": 14,
+            "year": 2024
+          },
+          {
+            "count": 10,
+            "year": 2025
+          },
+          {
+            "count": 7,
+            "year": 2026
+          }
+        ],
+        "external_id": "3584369297611952630",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-fuzztruction-using-fault-injection-based-fuzzing",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=3584369297611952630&hl=en",
+        "response_sha256": "c691f90b15d0c75b23079d4291fb3347c549a195bb5a2ffc34511e49595214f7",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T05:36:36.847658Z",
+        "total_citations": 35
       }
     ],
     "openalex": [
@@ -238,7 +268,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T18:16:23.806407+00:00",
+  "generated_at": "2026-08-09T05:36:36.847658+00:00",
   "paper": {
     "authors": [
       {

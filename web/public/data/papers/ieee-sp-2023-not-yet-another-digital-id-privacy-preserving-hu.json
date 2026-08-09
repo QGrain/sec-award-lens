@@ -106,6 +106,36 @@
         "response_sha256": "69f53ec8375154f9fb688d417433658232aa0451cd4adaed1a414a67c41565fa",
         "retrieved_at": "2026-08-08T18:07:13Z",
         "total_citations": 14
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 2,
+            "year": 2023
+          },
+          {
+            "count": 3,
+            "year": 2024
+          },
+          {
+            "count": 5,
+            "year": 2025
+          },
+          {
+            "count": 4,
+            "year": 2026
+          }
+        ],
+        "external_id": "6601185334764687073",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-not-yet-another-digital-id-privacy-preserving-hu",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=6601185334764687073&hl=en",
+        "response_sha256": "afd8bb0761dfc205fca1b1a2358b23a63702fe3d2c934176e0cc4c0b78165e2c",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T05:36:36.847658Z",
+        "total_citations": 14
       }
     ],
     "openalex": [
@@ -256,7 +286,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T18:16:23.806407+00:00",
+  "generated_at": "2026-08-09T05:36:36.847658+00:00",
   "paper": {
     "authors": [
       {

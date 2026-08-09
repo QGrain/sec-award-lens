@@ -106,6 +106,36 @@
         "response_sha256": "2a2650ee62fdbbf50471502083258e250720dbf43fd4ead29eadc2331af6954f",
         "retrieved_at": "2026-08-08T18:06:35Z",
         "total_citations": 49
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 7,
+            "year": 2023
+          },
+          {
+            "count": 19,
+            "year": 2024
+          },
+          {
+            "count": 19,
+            "year": 2025
+          },
+          {
+            "count": 4,
+            "year": 2026
+          }
+        ],
+        "external_id": "11751510727785006116",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-weak-fiat-shamir-attacks-on-modern-proof-systems",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=11751510727785006116&hl=en",
+        "response_sha256": "1c5f2cd5c0860fe6fdc742597e79ff25394a5abdeebed639143f2989229d0dc7",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T05:36:36.847658Z",
+        "total_citations": 49
       }
     ],
     "openalex": [
@@ -232,7 +262,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T18:16:23.806407+00:00",
+  "generated_at": "2026-08-09T05:36:36.847658+00:00",
   "paper": {
     "authors": [
       {

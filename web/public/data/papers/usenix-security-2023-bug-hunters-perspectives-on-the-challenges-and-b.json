@@ -106,6 +106,40 @@
         "response_sha256": "b37c04f70e77fa78cbed32ef6f5767246f34c5b0a1785d4a19734144f2220696",
         "retrieved_at": "2026-08-08T18:07:42Z",
         "total_citations": 70
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2022
+          },
+          {
+            "count": 6,
+            "year": 2023
+          },
+          {
+            "count": 20,
+            "year": 2024
+          },
+          {
+            "count": 28,
+            "year": 2025
+          },
+          {
+            "count": 14,
+            "year": 2026
+          }
+        ],
+        "external_id": "8057878834878821642",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-bug-hunters-perspectives-on-the-challenges-and-b",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=8057878834878821642&hl=en",
+        "response_sha256": "7e28d8f9641d81aa7a6b14964833a7ef51fb0e74e4cf1b318eed03e8e15e45c1",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T05:36:36.847658Z",
+        "total_citations": 70
       }
     ],
     "openalex": [
@@ -236,7 +270,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T18:16:23.806407+00:00",
+  "generated_at": "2026-08-09T05:36:36.847658+00:00",
   "paper": {
     "authors": [
       {

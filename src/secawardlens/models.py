@@ -22,6 +22,13 @@ class CitationProvider(StrEnum):
     GOOGLE_SCHOLAR = "google_scholar"
 
 
+class CitationRetrievalService(StrEnum):
+    OPENALEX = "openalex"
+    SEMANTIC_SCHOLAR = "semantic_scholar"
+    SERPAPI = "serpapi"
+    SCRAPERAPI = "scraperapi"
+
+
 class BindingStatus(StrEnum):
     PENDING = "pending"
     CANDIDATE = "candidate"
@@ -287,6 +294,7 @@ class CitationObservation(StrictModel):
     influential_citations: Annotated[int | None, Field(default=None, ge=0)]
     citations_by_citing_year: list[CitationYearCount] = Field(default_factory=list)
     provider_record_updated_at: datetime | None = None
+    retrieval_service: CitationRetrievalService | None = None
     response_sha256: Annotated[str, Field(pattern=r"^[a-f0-9]{64}$")]
     request_fingerprint: str
 

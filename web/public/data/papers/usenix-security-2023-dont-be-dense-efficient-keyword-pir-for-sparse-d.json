@@ -96,6 +96,36 @@
         "response_sha256": "61e190fcd414a883b7e2c23f2477495984d362985f84249ae63ef93c323a2ecc",
         "retrieved_at": "2026-08-08T18:07:46Z",
         "total_citations": 50
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 4,
+            "year": 2023
+          },
+          {
+            "count": 15,
+            "year": 2024
+          },
+          {
+            "count": 22,
+            "year": 2025
+          },
+          {
+            "count": 9,
+            "year": 2026
+          }
+        ],
+        "external_id": "1091576476877039757",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-dont-be-dense-efficient-keyword-pir-for-sparse-d",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=1091576476877039757&hl=en",
+        "response_sha256": "b95c57b1b04b3987f544793f2cfeced92307a80d1d97c43539304b408e09f413",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T05:36:36.847658Z",
+        "total_citations": 50
       }
     ],
     "semantic_scholar": [
@@ -114,7 +144,7 @@
     ]
   },
   "enrichment": null,
-  "generated_at": "2026-08-08T18:16:23.806407+00:00",
+  "generated_at": "2026-08-09T05:36:36.847658+00:00",
   "paper": {
     "authors": [
       {

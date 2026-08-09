@@ -118,6 +118,32 @@
         "response_sha256": "2b03e1755f7a8065337c6c9c16773f610d3ab3cb37b2801059054a054c823640",
         "retrieved_at": "2026-08-08T18:08:18Z",
         "total_citations": 24
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 8,
+            "year": 2024
+          },
+          {
+            "count": 6,
+            "year": 2025
+          },
+          {
+            "count": 10,
+            "year": 2026
+          }
+        ],
+        "external_id": "648479337401816425",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-capacity-cryptographically-enforced-in-process-c",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=648479337401816425&hl=en",
+        "response_sha256": "03655996f5f1ce8aeea3d6bd18efb78f2ff9ea81a51c171900ce88085489f1f5",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T05:36:36.847658Z",
+        "total_citations": 24
       }
     ],
     "openalex": [
@@ -248,7 +274,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T18:16:23.806407+00:00",
+  "generated_at": "2026-08-09T05:36:36.847658+00:00",
   "paper": {
     "authors": [
       {

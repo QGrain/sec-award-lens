@@ -20,9 +20,14 @@ from .io import (
     repository_root,
 )
 from .matching import resolve_candidates
-from .models import BindingStatus, CitationProvider, utc_now
+from .models import BindingStatus, CitationProvider, CitationRetrievalService, utc_now
 from .normalization import title_similarity
-from .providers.google_scholar import GoogleScholarClient
+from .providers.google_scholar import (
+    GoogleScholarClient,
+    GoogleScholarTransportError,
+    ScraperApiGoogleScholarClient,
+    order_refresh_services,
+)
 from .providers.openalex import OpenAlexClient
 from .providers.semantic_scholar import SemanticScholarClient
 from .review import apply_resolution, load_submission
@@ -75,6 +80,20 @@ def _serpapi_key() -> str:
             "https://serpapi.com/manage-api-key and export it or add it as a GitHub secret."
         )
     return key
+
+
+def _google_scholar_keys() -> dict[CitationRetrievalService, str]:
+    keys = {
+        CitationRetrievalService.SERPAPI: os.getenv("SERPAPI_KEY"),
+        CitationRetrievalService.SCRAPERAPI: os.getenv("SCRAPERAPI_KEY"),
+    }
+    available = {service: key for service, key in keys.items() if key}
+    if not available:
+        raise typer.BadParameter(
+            "Google Scholar refresh requires SERPAPI_KEY or SCRAPERAPI_KEY. "
+            "SerpApi is preferred because it also supplies citing-year counts."
+        )
+    return available
 
 
 @awards_app.command("check")
@@ -406,9 +425,9 @@ def refresh_citations(
             raise typer.BadParameter(f"snapshot already exists: {target}")
 
         if selected == CitationProvider.OPENALEX:
-            with OpenAlexClient(api_key=_openalex_api_key()) as client:
+            with OpenAlexClient(api_key=_openalex_api_key()) as openalex_client:
                 observations = [
-                    client.observation(
+                    openalex_client.observation(
                         paper_id=binding.paper_id,
                         external_id=binding.external_id or "",
                         full_history=full_history,
@@ -417,9 +436,9 @@ def refresh_citations(
                     for binding in bindings
                 ]
         elif selected == CitationProvider.SEMANTIC_SCHOLAR:
-            with SemanticScholarClient(api_key=_semantic_scholar_api_key()) as client:
+            with SemanticScholarClient(api_key=_semantic_scholar_api_key()) as s2_client:
                 observations = [
-                    client.observation(
+                    s2_client.observation(
                         paper_id=binding.paper_id,
                         external_id=binding.external_id or "",
                         retrieved_at=retrieved_at,
@@ -427,15 +446,89 @@ def refresh_citations(
                     for binding in bindings
                 ]
         else:
-            with GoogleScholarClient(api_key=_serpapi_key()) as client:
-                observations = [
-                    client.observation(
-                        paper_id=binding.paper_id,
-                        external_id=binding.external_id or "",
-                        retrieved_at=retrieved_at,
+            keys = _google_scholar_keys()
+            clients: dict[
+                CitationRetrievalService,
+                GoogleScholarClient | ScraperApiGoogleScholarClient,
+            ] = {}
+            capacities: dict[CitationRetrievalService, int | None] = {}
+            try:
+                for service, key in keys.items():
+                    scholar_client = (
+                        GoogleScholarClient(api_key=key)
+                        if service == CitationRetrievalService.SERPAPI
+                        else ScraperApiGoogleScholarClient(api_key=key)
                     )
-                    for binding in bindings
-                ]
+                    clients[service] = scholar_client
+                    try:
+                        capacities[service] = scholar_client.remaining_observations()
+                    except GoogleScholarTransportError as error:
+                        capacities[service] = None
+                        typer.echo(
+                            f"warning: could not read {service.value} capacity: {error}",
+                            err=True,
+                        )
+
+                order = order_refresh_services(capacities, len(bindings))
+                capacity_text = ", ".join(
+                    f"{service.value}="
+                    f"{capacities[service] if capacities[service] is not None else 'unknown'}"
+                    for service in order
+                )
+                typer.echo(
+                    f"google_scholar transport plan: {order[0].value}; "
+                    f"observation capacity: {capacity_text}"
+                )
+
+                observations = []
+                used = dict.fromkeys(order, 0)
+                service_index = 0
+                for position, binding in enumerate(bindings):
+                    while service_index < len(order):
+                        service = order[service_index]
+                        capacity = capacities[service]
+                        if capacity is not None and used[service] >= capacity:
+                            service_index += 1
+                            continue
+                        active_client = clients[service]
+                        try:
+                            observation = active_client.observation(
+                                paper_id=binding.paper_id,
+                                external_id=binding.external_id or "",
+                                retrieved_at=retrieved_at,
+                            )
+                        except (GoogleScholarTransportError, RuntimeError) as error:
+                            typer.echo(
+                                f"warning: {service.value} failed; trying the next "
+                                f"Google Scholar transport: {error}",
+                                err=True,
+                            )
+                            capacities[service] = used[service]
+                            service_index += 1
+                            remaining = len(bindings) - position
+                            future = order[service_index:]
+                            known_capacity = sum(
+                                max(0, (capacities[item] or 0) - used[item])
+                                for item in future
+                            )
+                            if not any(capacities[item] is None for item in future) and (
+                                known_capacity < remaining
+                            ):
+                                raise GoogleScholarTransportError(
+                                    "remaining Google Scholar transport quota cannot "
+                                    f"cover {remaining} observations"
+                                ) from error
+                            continue
+                        observations.append(observation)
+                        used[service] += 1
+                        break
+                    else:
+                        raise GoogleScholarTransportError(
+                            "all configured Google Scholar transports failed"
+                        )
+            finally:
+                for scholar_client in clients.values():
+                    scholar_client.close()
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(jsonl(observations), encoding="utf-8")
         typer.echo(f"wrote {len(observations)} observations to {target}")

@@ -32,7 +32,8 @@ citation_sources:
   - search_information.total_results
   - citations_per_year
   - search_metadata.processed_at
-  notes: Google Scholar has no official API. Counts are retrieved through SerpApi from manually verified numeric cites_id clusters, labeled as third-party observations, and excluded from the project's CC0 dedication.
+  - retrieval_service
+  notes: Google Scholar has no official API. Counts are retrieved from manually verified numeric cites_id clusters, primarily through SerpApi with a capacity-checked ScraperAPI fallback. The actual retrieval service is recorded; third-party observations are excluded from the project's CC0 dedication.
 - id: openalex
   role: open_graph_comparison
   api_url: https://api.openalex.org

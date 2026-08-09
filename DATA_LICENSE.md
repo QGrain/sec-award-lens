@@ -8,8 +8,9 @@ This dedication does not grant rights in third-party material. Conference names,
 paper titles, author names, source-page content, DOI metadata, and citation-provider
 records may be governed by their respective owners and terms. Provenance URLs and
 provider identifiers are retained so downstream users can verify and attribute those
-sources. Google Scholar/SerpApi, OpenAlex, and Semantic Scholar records should be
-reused according to their current provider terms.
+sources. Google Scholar observations retrieved through SerpApi or ScraperAPI,
+OpenAlex, and Semantic Scholar records should be reused according to their current
+provider terms.
 
 CC0 is a project choice, not a technical requirement. It does not and cannot relicense
 third-party response data. Provider-derived records retain their applicable upstream
@@ -18,11 +19,12 @@ document.
 
 Current provider scope:
 
-- Google Scholar observations retrieved through SerpApi, including counts, cluster
-  identifiers, and year aggregations, are third-party records expressly excluded from
-  this project's CC0 dedication. Their display does not relicense Google or SerpApi
-  data, names, or services. The site labels the transport as “Google Scholar via
-  SerpApi”; downstream reuse must be assessed under the applicable upstream terms.
+- Google Scholar observations retrieved through SerpApi or ScraperAPI, including
+  counts, cluster identifiers, and any available year aggregations, are third-party
+  records expressly excluded from this project's CC0 dedication. Their display does
+  not relicense Google, SerpApi, or ScraperAPI data, names, or services. The site
+  records the actual retrieval service; downstream reuse must be assessed under the
+  applicable upstream terms.
 - OpenAlex states that its dataset is CC0; OpenAlex-derived IDs, citation observations,
   topics, and affiliations may therefore be redistributed under that upstream grant.
 - Reviewed Semantic Scholar paper IDs and minimal timestamped citation observations

@@ -100,15 +100,19 @@ OpenAlex and Semantic Scholar. A larger number therefore means broader observed
 coverage, not a provider-independent “true” count.
 
 Google does not offer a public Scholar API and its help page asks automated software
-to respect Scholar's robots.txt. SecAwardLens does not directly scrape Scholar.
-Instead, its optional adapter uses the third-party SerpApi Google Scholar API. An
-exact-title search produces review candidates; after title, authors, year, venue, and
-versions are checked, the numeric `cites_id` is pinned. Refreshes query `cites_id`
-directly, append total counts and the available `citations_per_year`, and never repeat
-title matching.
+to respect Scholar's robots.txt. SecAwardLens does not send requests directly from its
+own runner to Scholar. Candidate discovery uses the third-party SerpApi Google Scholar
+API. An exact-title search produces review candidates; after title, authors, year,
+venue, and versions are checked, the numeric `cites_id` is pinned. Refreshes query that
+ID through a configured transport and never repeat title matching.
 
-SerpApi's free plan currently provides 250 successful searches per month and 50 per
-hour. A 47-paper candidate or refresh pass uses roughly 47 searches; two passes fit
+Neither proxy is an official Google API or a grant of permission from Google. Project
+maintainers remain responsible for reviewing Google Scholar's help, robots policy, and
+applicable service terms before enabling scheduled access. Automated results enter a
+reviewable pull request rather than deploying directly.
+
+SerpApi's free plan currently provides 250 successful searches per month. A 47-paper
+candidate or refresh pass uses roughly 47 searches; two passes fit
 comfortably, while several historical years will require staggered updates or a paid
 plan. SerpApi is still a parser of Google result pages: its release history includes
 fixes for blank IDs and valid searches returning no results after upstream layout
@@ -116,3 +120,26 @@ changes. The pipeline therefore treats missing expected fields as a hard failure
 opens reviewable data PRs rather than publishing directly.
 
 API documentation: <https://serpapi.com/google-scholar-api>
+
+ScraperAPI is a verified refresh fallback, not a fourth citation source. Its Google
+SERP requests currently cost 25 credits each, so 47 papers cost about 1,175 credits.
+The workflow reads the live `creditsLeft` account field and `/account/urlcost` before
+selecting a transport, caps each request at 25 credits, rejects CAPTCHA pages even when
+the proxy returns HTTP 200, and records `retrieval_service: scraperapi`. Scholar HTML
+provides the current result total but not SerpApi's structured citing-year histogram.
+
+In an August 2026 cross-check, ScraperAPI resolved all 47 pinned 2023 clusters: 45
+counts exactly matched the earlier SerpApi snapshot and two differed by one citation.
+ZenRows auto mode and basic premium-proxy tests returned CAPTCHA or `RESP001` pages.
+A later test using ZenRows' full troubleshooting combination—US premium proxy,
+JavaScript rendering, an 8-second wait, realistic headers and referer, and original
+status reporting—did resolve a pinned cluster with the same count as SerpApi. It was
+not stable across a batch: requests still encountered CAPTCHA pages and HTTP 429
+responses, including after an interrupted concurrent run. ZenRows is therefore not
+in the automated transport pool until a low-concurrency 47/47 verification and
+content-aware retry policy succeed. The Python SDK wraps the same Fetch API and adds
+retry/concurrency helpers; changing from REST to the SDK does not by itself change the
+target-page protection or enabled bypass features.
+
+ScraperAPI documentation: <https://docs.scraperapi.com/credits-and-requests>
+ZenRows Fetch troubleshooting: <https://docs.zenrows.com/fetch/features/js-rendering>

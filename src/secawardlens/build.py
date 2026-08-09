@@ -29,6 +29,13 @@ def _write_json(path: Path, payload: Any) -> None:
     path.write_text(stable_json(payload), encoding="utf-8")
 
 
+def _observation_payload(observation: CitationObservation) -> dict[str, Any]:
+    payload = observation.model_dump(mode="json")
+    if observation.retrieval_service is None:
+        payload.pop("retrieval_service")
+    return payload
+
+
 def _latest_by_source(
     observations: list[CitationObservation],
 ) -> dict[tuple[str, str], CitationObservation]:
@@ -38,6 +45,18 @@ def _latest_by_source(
         if key not in latest or item.retrieved_at > latest[key].retrieved_at:
             latest[key] = item
     return latest
+
+
+def _latest_citing_years_by_source(
+    observations: list[CitationObservation],
+) -> dict[tuple[str, str], CitationObservation]:
+    return _latest_by_source(
+        [
+            item
+            for item in observations
+            if item.citations_by_citing_year or item.total_citations == 0
+        ]
+    )
 
 
 def build_site_data(root: Path, output: Path | None = None) -> list[Path]:
@@ -60,6 +79,7 @@ def build_site_data(root: Path, output: Path | None = None) -> list[Path]:
     edition_by_id = {item.id: item for item in editions}
     enrichment_by_paper = {item.paper_id: item for item in enrichments}
     latest = _latest_by_source(observations)
+    latest_citing_years = _latest_citing_years_by_source(observations)
     observed_sources = {item.provider.value for item in observations}
     citation_sources = [
         item.id
@@ -97,16 +117,17 @@ def build_site_data(root: Path, output: Path | None = None) -> list[Path]:
                 observation = latest.get((paper.id, provider))
                 if observation is None:
                     continue
+                citing_years = latest_citing_years.get((paper.id, provider))
                 citations[provider] = {
-                    **observation.model_dump(mode="json"),
+                    **_observation_payload(observation),
                     "citations_first_3_years": (
-                        citation_window(observation, paper.publication_year, 3)
+                        citation_window(citing_years, paper.publication_year, 3)
                         if provider in {"openalex", "google_scholar"}
-                        and (
-                            observation.citations_by_citing_year
-                            or observation.total_citations == 0
-                        )
+                        and citing_years is not None
                         else None
+                    ),
+                    "citing_years_retrieved_at": (
+                        citing_years.retrieved_at.isoformat() if citing_years else None
                     ),
                 }
             rows.append(
@@ -183,7 +204,7 @@ def build_site_data(root: Path, output: Path | None = None) -> list[Path]:
                 "bindings": [item.model_dump(mode="json") for item in paper_bindings],
                 "citation_history": {
                     provider: [
-                        item.model_dump(mode="json")
+                        _observation_payload(item)
                         for item in sorted(points, key=lambda point: point.retrieved_at)
                     ]
                     for (paper_id, provider), points in history.items()

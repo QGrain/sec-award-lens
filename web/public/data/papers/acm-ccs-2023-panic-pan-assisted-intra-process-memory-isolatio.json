@@ -106,6 +106,32 @@
         "response_sha256": "4224f09a9a1a7f38cdb6e8318720a88a8428f67012ed8ca84358b4db21029d34",
         "retrieved_at": "2026-08-08T18:08:47Z",
         "total_citations": 24
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 4,
+            "year": 2024
+          },
+          {
+            "count": 13,
+            "year": 2025
+          },
+          {
+            "count": 7,
+            "year": 2026
+          }
+        ],
+        "external_id": "11195187877516902599",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-panic-pan-assisted-intra-process-memory-isolatio",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=11195187877516902599&hl=en",
+        "response_sha256": "e24bcec91e14cf94920f83cfcd2a4a7e2fc3d90618c3dc2616524db86aae93f1",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T05:36:36.847658Z",
+        "total_citations": 24
       }
     ],
     "openalex": [
@@ -349,7 +375,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T18:16:23.806407+00:00",
+  "generated_at": "2026-08-09T05:36:36.847658+00:00",
   "paper": {
     "authors": [
       {

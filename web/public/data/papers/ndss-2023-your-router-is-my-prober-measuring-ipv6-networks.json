@@ -108,6 +108,36 @@
         "response_sha256": "72cfacf419dae9e21d9a87b65f09a5e8f4b78a927885b4bc2a82073161ee6c19",
         "retrieved_at": "2026-08-08T18:09:10Z",
         "total_citations": 34
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 3,
+            "year": 2023
+          },
+          {
+            "count": 11,
+            "year": 2024
+          },
+          {
+            "count": 12,
+            "year": 2025
+          },
+          {
+            "count": 8,
+            "year": 2026
+          }
+        ],
+        "external_id": "17314998190284780735",
+        "influential_citations": null,
+        "paper_id": "ndss-2023-your-router-is-my-prober-measuring-ipv6-networks",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=17314998190284780735&hl=en",
+        "response_sha256": "ead4f2d9550f6287e9812dcc80c418ab87ffefcd2a7d5714a95fbbfdcecb863f",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T05:36:36.847658Z",
+        "total_citations": 34
       }
     ],
     "openalex": [
@@ -297,7 +327,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T18:16:23.806407+00:00",
+  "generated_at": "2026-08-09T05:36:36.847658+00:00",
   "paper": {
     "authors": [
       {

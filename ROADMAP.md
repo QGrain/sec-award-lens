@@ -4,9 +4,11 @@
 
 - Four official award adapters and all 47 core paper awards
 - Strict canonical schema, provenance, coverage matrix, and manual overrides
-- Conservative OpenAlex identity resolution with 42 verified bindings
-- Immutable OpenAlex snapshot and age-window metrics
-- Static React/TypeScript/ECharts explorer
+- Reviewed Google Scholar, OpenAlex, and Semantic Scholar bindings with visibly
+  independent provider coverage
+- Append-only citation snapshots, retrieval-service provenance, citing-year profiles,
+  and fixed-age metrics
+- Static bilingual React/TypeScript/ECharts explorer with theme and source switching
 - CI, source monitoring, refresh PRs, and GitHub Pages deployment
 
 ## 0.2 — Adjacent years
@@ -15,6 +17,7 @@
 - Label partial versus complete three-year citation windows
 - Add cross-year fixed-age comparison once complete windows exist
 - Accumulate enough snapshots for genuine counter-growth charts
+- Reassess citation-refresh transport capacity as the paper cohort grows
 
 ## 0.3 — Historical coverage
 
@@ -25,8 +28,8 @@
 
 ## Later
 
-- Review Semantic Scholar redistribution terms and, if permitted, publish separate
-  provider series without blending counts
 - Add downloadable release bundles and Zenodo DOI for dataset versions
 - Add share-card rendering after the underlying comparisons have enough years
 - Consider a small maintainer review UI only if YAML review becomes a bottleneck
+- Re-evaluate additional Scholar transports only after a complete low-concurrency
+  cohort test and terms review

@@ -120,6 +120,32 @@
         "response_sha256": "005732381db17cd627595d10e9c9a78b18864128ee25771ff142f38ad58b8fd6",
         "retrieved_at": "2026-08-08T18:08:13Z",
         "total_citations": 7
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 2,
+            "year": 2024
+          },
+          {
+            "count": 4,
+            "year": 2025
+          },
+          {
+            "count": 1,
+            "year": 2026
+          }
+        ],
+        "external_id": "11970110104579043092",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2023-amplification-by-shuffling-without-shuffling",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=11970110104579043092&hl=en",
+        "response_sha256": "e416833983afb7febf407a3876ae801dc05cdc6d5504dd56c72a979f711049b0",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T05:36:36.847658Z",
+        "total_citations": 7
       }
     ],
     "openalex": [
@@ -212,7 +238,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T18:16:23.806407+00:00",
+  "generated_at": "2026-08-09T05:36:36.847658+00:00",
   "paper": {
     "authors": [
       {

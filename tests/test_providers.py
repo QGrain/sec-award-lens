@@ -1,6 +1,13 @@
 import httpx
+import pytest
 
-from secawardlens.providers.google_scholar import GoogleScholarClient
+from secawardlens.models import CitationRetrievalService
+from secawardlens.providers.google_scholar import (
+    GoogleScholarClient,
+    GoogleScholarTransportError,
+    ScraperApiGoogleScholarClient,
+    order_refresh_services,
+)
 from secawardlens.providers.openalex import OpenAlexClient
 from secawardlens.providers.semantic_scholar import SemanticScholarClient
 
@@ -200,6 +207,7 @@ def test_google_scholar_observation_uses_pinned_cites_id_and_year_counts() -> No
     assert result.provider == "google_scholar"
     assert result.total_citations == 362
     assert sum(item.count for item in result.citations_by_citing_year) == 362
+    assert result.retrieval_service == "serpapi"
     assert "api_key" not in result.request_fingerprint
 
 
@@ -256,3 +264,80 @@ def test_google_scholar_discovery_observation_reuses_search_count() -> None:
     assert result.retrieved_at.isoformat() == "2026-08-08T12:30:00+00:00"
     assert result.citations_by_citing_year == []
     assert "api_key" not in result.request_fingerprint
+
+
+def test_scraperapi_observation_parses_scholar_html_and_records_transport() -> None:
+    def handler(request: httpx.Request) -> httpx.Response:
+        assert request.url.path == "/"
+        assert request.url.params["api_key"] == "test-key"
+        assert request.url.params["country_code"] == "us"
+        assert request.url.params["max_cost"] == "25"
+        assert "cites=123456789" in request.url.params["url"]
+        return httpx.Response(
+            200,
+            text='<html><div id="gs_ab_md">About 362 results (0.04 sec)</div></html>',
+        )
+
+    http = httpx.Client(
+        base_url="https://api.scraperapi.com", transport=httpx.MockTransport(handler)
+    )
+    with ScraperApiGoogleScholarClient(api_key="test-key", client=http) as client:
+        result = client.observation(
+            paper_id="paper",
+            external_id="123456789",
+            retrieved_at="2026-08-08T12:00:00Z",
+        )
+    assert result.total_citations == 362
+    assert result.citations_by_citing_year == []
+    assert result.retrieval_service == "scraperapi"
+    assert "api_key" not in result.request_fingerprint
+
+
+def test_scraperapi_capacity_uses_live_balance_and_url_cost() -> None:
+    def handler(request: httpx.Request) -> httpx.Response:
+        if request.url.path == "/account":
+            return httpx.Response(200, json={"creditsLeft": 3800})
+        if request.url.path == "/account/urlcost":
+            return httpx.Response(200, json={"credits": 25})
+        raise AssertionError(f"unexpected path: {request.url.path}")
+
+    http = httpx.Client(
+        base_url="https://api.scraperapi.com", transport=httpx.MockTransport(handler)
+    )
+    with ScraperApiGoogleScholarClient(api_key="test-key", client=http) as client:
+        assert client.remaining_observations() == 152
+
+
+def test_scraperapi_rejects_captcha_even_when_http_status_is_200() -> None:
+    html = '<html><form id="captcha-form"><div class="g-recaptcha"></div></form></html>'
+    http = httpx.Client(
+        base_url="https://api.scraperapi.com",
+        transport=httpx.MockTransport(lambda _: httpx.Response(200, text=html)),
+    )
+    with (
+        ScraperApiGoogleScholarClient(api_key="private-test-key", client=http) as client,
+        pytest.raises(GoogleScholarTransportError, match="CAPTCHA") as caught,
+    ):
+        client.observation(paper_id="paper", external_id="123456789")
+    assert "private-test-key" not in str(caught.value)
+
+
+def test_refresh_service_order_prefers_a_transport_that_covers_the_batch() -> None:
+    capacities = {
+        CitationRetrievalService.SERPAPI: 20,
+        CitationRetrievalService.SCRAPERAPI: 152,
+    }
+    assert order_refresh_services(capacities, 47)[0] == "scraperapi"
+    capacities[CitationRetrievalService.SERPAPI] = 203
+    assert order_refresh_services(capacities, 47)[0] == "serpapi"
+
+
+def test_refresh_service_order_rejects_insufficient_combined_quota() -> None:
+    with pytest.raises(GoogleScholarTransportError, match="cannot cover 47"):
+        order_refresh_services(
+            {
+                CitationRetrievalService.SERPAPI: 20,
+                CitationRetrievalService.SCRAPERAPI: 20,
+            },
+            47,
+        )

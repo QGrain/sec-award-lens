@@ -96,6 +96,36 @@
         "response_sha256": "edba62db29962dd8e792a7f2c51ce8e3481f5c747063fa3e47b7656f63abe8a7",
         "retrieved_at": "2026-08-08T18:08:09Z",
         "total_citations": 175
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 8,
+            "year": 2023
+          },
+          {
+            "count": 55,
+            "year": 2024
+          },
+          {
+            "count": 77,
+            "year": 2025
+          },
+          {
+            "count": 35,
+            "year": 2026
+          }
+        ],
+        "external_id": "2604507694742357978",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-an-efficient-design-of-intelligent-network-data",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=2604507694742357978&hl=en",
+        "response_sha256": "38a60213648e382f7a03aaf2cb206a4e61e6de41a84d4398f027065934eb06da",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T05:36:36.847658Z",
+        "total_citations": 175
       }
     ],
     "semantic_scholar": [
@@ -114,7 +144,7 @@
     ]
   },
   "enrichment": null,
-  "generated_at": "2026-08-08T18:16:23.806407+00:00",
+  "generated_at": "2026-08-09T05:36:36.847658+00:00",
   "paper": {
     "authors": [
       {

@@ -1,4 +1,5 @@
 export type Provider = "google_scholar" | "openalex" | "semantic_scholar";
+export type RetrievalService = "openalex" | "semantic_scholar" | "serpapi" | "scraperapi";
 
 export interface Conference {
   id: string;
@@ -66,7 +67,9 @@ export interface Citation {
   retrieved_at: string;
   total_citations: number;
   citations_by_citing_year: CitationYear[];
+  retrieval_service?: RetrievalService | null;
   citations_first_3_years?: number | null;
+  citing_years_retrieved_at?: string | null;
 }
 
 export interface RankingRow {

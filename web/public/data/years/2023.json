@@ -5,8 +5,8 @@
       "citation_source": "google_scholar",
       "citations": {
         "max": 128.0,
-        "mean": 47.333333333333336,
-        "median": 44.0,
+        "mean": 47.416666666666664,
+        "median": 44.5,
         "min": 14.0,
         "n": 12,
         "q1": 29.5,
@@ -36,11 +36,11 @@
       "citation_source": "google_scholar",
       "citations": {
         "max": 487.0,
-        "mean": 82.1875,
+        "mean": 82.3125,
         "median": 37.5,
         "min": 9.0,
         "n": 16,
-        "q1": 21.0,
+        "q1": 21.5,
         "q3": 75.5
       },
       "cited_paper_count": 16,
@@ -66,8 +66,8 @@
       "citation_source": "google_scholar",
       "citations": {
         "max": 362.0,
-        "mean": 51.76470588235294,
-        "median": 29.0,
+        "mean": 51.8235294117647,
+        "median": 30.0,
         "min": 7.0,
         "n": 17,
         "q1": 17.0,
@@ -122,7 +122,7 @@
       }
     }
   ],
-  "generated_at": "2026-08-08T18:16:23.806407+00:00",
+  "generated_at": "2026-08-09T05:36:36.847658+00:00",
   "rows": [
     {
       "award": {
@@ -142,16 +142,35 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 48,
+              "year": 2023
+            },
+            {
+              "count": 135,
+              "year": 2024
+            },
+            {
+              "count": 185,
+              "year": 2025
+            },
+            {
+              "count": 116,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 368,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "12442642277246861451",
           "influential_citations": null,
           "paper_id": "usenix-security-2023-glaze-protecting-artists-from-style-mimicry-by-t",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=18f97dd6143ead1e2844ee813cc470a299414ff97189e756329384b2785787f3&num=10&hl=en",
-          "response_sha256": "47077ec61de9b2300c415e8612b54d31fa740345838d2e4752caedf3bea2cfac",
-          "retrieved_at": "2026-08-08T18:07:34Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=12442642277246861451&hl=en",
+          "response_sha256": "c609336e22527435ca0015cc535b76d1ba82809790f846ecb670d8ec36d992cc",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 487
         },
         "openalex": {
@@ -174,6 +193,7 @@
             }
           ],
           "citations_first_3_years": 40,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4320342250",
           "influential_citations": null,
           "paper_id": "usenix-security-2023-glaze-protecting-artists-from-style-mimicry-by-t",
@@ -187,6 +207,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "897c0aedead3105b7b6cd1afbb6aeb4f62a06e11",
           "influential_citations": 45,
           "paper_id": "usenix-security-2023-glaze-protecting-artists-from-style-mimicry-by-t",
@@ -282,16 +303,35 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 5,
+              "year": 2023
+            },
+            {
+              "count": 84,
+              "year": 2024
+            },
+            {
+              "count": 148,
+              "year": 2025
+            },
+            {
+              "count": 125,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 237,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "15944535702908866192",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-large-language-models-for-code-security-hardenin",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=ffed452099a20f015a261b17f5c741f7181771db48bc6bdc9a108a5c8851aacf&num=10&hl=en",
-          "response_sha256": "9adda578065f6673f56fea645dd5e94e1704d3229cf327aabcc187323b2f0d28",
-          "retrieved_at": "2026-08-08T18:08:38Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=15944535702908866192&hl=en",
+          "response_sha256": "09289a0dc8545bf9298f27779a04a38c42b05ddc03abe0def192bbef9ac85915",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 362
         },
         "openalex": {
@@ -314,6 +354,7 @@
             }
           ],
           "citations_first_3_years": 90,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4320560161",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-large-language-models-for-code-security-hardenin",
@@ -327,6 +368,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "63e2740dc581b4186b4e277a9955e8048c414521",
           "influential_citations": 44,
           "paper_id": "acm-ccs-2023-large-language-models-for-code-security-hardenin",
@@ -416,17 +458,40 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2022
+            },
+            {
+              "count": 17,
+              "year": 2023
+            },
+            {
+              "count": 56,
+              "year": 2024
+            },
+            {
+              "count": 68,
+              "year": 2025
+            },
+            {
+              "count": 44,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 141,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "282081925352010567",
           "influential_citations": null,
           "paper_id": "usenix-security-2023-tight-auditing-of-differentially-private-machine",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=71ea9b01575533f237eec015262c210083cd9338a0108c247bd25881b22a8dad&num=10&hl=en",
-          "response_sha256": "b6c6b84ae891dcd370fb782a2f50948067f33fc7205bc47ddc0996d3a46233c3",
-          "retrieved_at": "2026-08-08T18:07:32Z",
-          "total_citations": 185
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=282081925352010567&hl=en",
+          "response_sha256": "169956a8376ebe12c0c1e3a1a0c41628532b56979279df8fbe12f906a1a9b20d",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
+          "total_citations": 186
         },
         "openalex": {
           "citations_by_citing_year": [
@@ -444,6 +509,7 @@
             }
           ],
           "citations_first_3_years": 14,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4321276312",
           "influential_citations": null,
           "paper_id": "usenix-security-2023-tight-auditing-of-differentially-private-machine",
@@ -539,21 +605,41 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 8,
+              "year": 2023
+            },
+            {
+              "count": 55,
+              "year": 2024
+            },
+            {
+              "count": 77,
+              "year": 2025
+            },
+            {
+              "count": 35,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 140,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "2604507694742357978",
           "influential_citations": null,
           "paper_id": "usenix-security-2023-an-efficient-design-of-intelligent-network-data",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=78f0530b585668f9ef3cd0b2db5ed5312f01042ec8454ca8f581041e01e68414&num=10&hl=en",
-          "response_sha256": "edba62db29962dd8e792a7f2c51ce8e3481f5c747063fa3e47b7656f63abe8a7",
-          "retrieved_at": "2026-08-08T18:08:09Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=2604507694742357978&hl=en",
+          "response_sha256": "38a60213648e382f7a03aaf2cb206a4e61e6de41a84d4398f027065934eb06da",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 175
         },
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "a3c847991f0a022b9c7c4df27be7981a35c30b1c",
           "influential_citations": 30,
           "paper_id": "usenix-security-2023-an-efficient-design-of-intelligent-network-data",
@@ -635,16 +721,35 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 8,
+              "year": 2023
+            },
+            {
+              "count": 35,
+              "year": 2024
+            },
+            {
+              "count": 49,
+              "year": 2025
+            },
+            {
+              "count": 35,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 92,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "16038534564960384530",
           "influential_citations": null,
           "paper_id": "ieee-sp-2023-space-odyssey-an-experimental-software-security",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=7dd94b81ca504622b1b75a0ed8c6a403323478e34d98299aa9d0118e0a7fb0cd&num=10&hl=en",
-          "response_sha256": "405f46895d4118f0ddaa4299b4f1d2af8ad180cdf4b58ac082bd382eb8718731",
-          "retrieved_at": "2026-08-08T18:07:17Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=16038534564960384530&hl=en",
+          "response_sha256": "232a45464e4f7b6e13aa27e224af390d8cd9aa8ac227d3564bbd44104998ed59",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 128
         },
         "openalex": {
@@ -667,6 +772,7 @@
             }
           ],
           "citations_first_3_years": 42,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4389546099",
           "influential_citations": null,
           "paper_id": "ieee-sp-2023-space-odyssey-an-experimental-software-security",
@@ -680,6 +786,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "f286a1056c11247990c689778c5b85795846e3ba",
           "influential_citations": 12,
           "paper_id": "ieee-sp-2023-space-odyssey-an-experimental-software-security",
@@ -782,16 +889,35 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 2,
+              "year": 2023
+            },
+            {
+              "count": 23,
+              "year": 2024
+            },
+            {
+              "count": 37,
+              "year": 2025
+            },
+            {
+              "count": 31,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 62,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "11867684590348611982",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-he3db-an-efficient-and-elastic-encrypted-databas",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=73354bcfa26a64b31f8b1ce773bdea4d99a7537ffaf1056b1bd3e487e7f0cd08&num=10&hl=en",
-          "response_sha256": "12dc49afe5474a677c04b012d0d708fdee545a8d630fd217729b87a6aca9c47c",
-          "retrieved_at": "2026-08-08T18:08:35Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=11867684590348611982&hl=en",
+          "response_sha256": "0d2045c230bc7f1cbd660bdfef6221d9f25aa54509e76b0a5dd37000e549ecf9",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 93
         },
         "openalex": {
@@ -814,6 +940,7 @@
             }
           ],
           "citations_first_3_years": 37,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4388857792",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-he3db-an-efficient-and-elastic-encrypted-databas",
@@ -827,6 +954,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "fbbcb2989a47ba7f12b9eab1158d8321789b2093",
           "influential_citations": 3,
           "paper_id": "acm-ccs-2023-he3db-an-efficient-and-elastic-encrypted-databas",
@@ -931,16 +1059,35 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 3,
+              "year": 2023
+            },
+            {
+              "count": 20,
+              "year": 2024
+            },
+            {
+              "count": 29,
+              "year": 2025
+            },
+            {
+              "count": 28,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 52,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "5926880305407693086",
           "influential_citations": null,
           "paper_id": "usenix-security-2023-ethical-frameworks-and-computer-security-trolley",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=4554695693b3d4339e3929db9cc0dacd2348c9cc8e4ca47d9ffe17d9fdb8576f&num=10&hl=en",
-          "response_sha256": "ee4da3ae6ac7d6d2a9787ab322525805b4f0f928b2b6ccd2dfae81b4144292bf",
-          "retrieved_at": "2026-08-08T18:07:50Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=5926880305407693086&hl=en",
+          "response_sha256": "fbe857ebea8eb8471a60dbd2b70698ab9b83e5c8a884bdb7fb930d726f5bc9a2",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 81
         },
         "openalex": {
@@ -955,6 +1102,7 @@
             }
           ],
           "citations_first_3_years": 4,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4322759797",
           "influential_citations": null,
           "paper_id": "usenix-security-2023-ethical-frameworks-and-computer-security-trolley",
@@ -968,6 +1116,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "15deb60e1002cb1b5364354257fdba6a5c3c3247",
           "influential_citations": 5,
           "paper_id": "usenix-security-2023-ethical-frameworks-and-computer-security-trolley",
@@ -1054,16 +1203,39 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2022
+            },
+            {
+              "count": 6,
+              "year": 2023
+            },
+            {
+              "count": 20,
+              "year": 2024
+            },
+            {
+              "count": 28,
+              "year": 2025
+            },
+            {
+              "count": 14,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 54,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "8057878834878821642",
           "influential_citations": null,
           "paper_id": "usenix-security-2023-bug-hunters-perspectives-on-the-challenges-and-b",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=57a26093c64b068fe7ff1888dbb73b6223585235d25c6ee1923c925aa33eecfb&num=10&hl=en",
-          "response_sha256": "b37c04f70e77fa78cbed32ef6f5767246f34c5b0a1785d4a19734144f2220696",
-          "retrieved_at": "2026-08-08T18:07:42Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=8057878834878821642&hl=en",
+          "response_sha256": "7e28d8f9641d81aa7a6b14964833a7ef51fb0e74e4cf1b318eed03e8e15e45c1",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 70
         },
         "openalex": {
@@ -1082,6 +1254,7 @@
             }
           ],
           "citations_first_3_years": 11,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4316116706",
           "influential_citations": null,
           "paper_id": "usenix-security-2023-bug-hunters-perspectives-on-the-challenges-and-b",
@@ -1095,6 +1268,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "a4a57f807906130671dd6b0a159c9cf816a681df",
           "influential_citations": 3,
           "paper_id": "usenix-security-2023-bug-hunters-perspectives-on-the-challenges-and-b",
@@ -1196,16 +1370,35 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 9,
+              "year": 2023
+            },
+            {
+              "count": 15,
+              "year": 2024
+            },
+            {
+              "count": 28,
+              "year": 2025
+            },
+            {
+              "count": 16,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 52,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "16103235860680242924",
           "influential_citations": null,
           "paper_id": "ieee-sp-2023-wave-a-verifiably-secure-webassembly-sandboxing",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=1cbfdeb727b39aa7caef4df0ff757d98cabcef0987c79fa768d50ab081c7322f&num=10&hl=en",
-          "response_sha256": "c33491f7f5bd02b6d118555b057c52932e2276a14b456b0d5d11bc78dfd7c1c3",
-          "retrieved_at": "2026-08-08T18:07:03Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=16103235860680242924&hl=en",
+          "response_sha256": "f03ced974dee6bd3bb4ac28825a31b56ebccaaf47f45e60fc3066ed354f3f69c",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 68
         },
         "openalex": {
@@ -1228,6 +1421,7 @@
             }
           ],
           "citations_first_3_years": 19,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4385080305",
           "influential_citations": null,
           "paper_id": "ieee-sp-2023-wave-a-verifiably-secure-webassembly-sandboxing",
@@ -1241,6 +1435,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "fc3165950d7d32ef4c9424b623199a9d66421db0",
           "influential_citations": 4,
           "paper_id": "ieee-sp-2023-wave-a-verifiably-secure-webassembly-sandboxing",
@@ -1346,16 +1541,39 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 5,
+              "year": 2022
+            },
+            {
+              "count": 7,
+              "year": 2023
+            },
+            {
+              "count": 16,
+              "year": 2024
+            },
+            {
+              "count": 21,
+              "year": 2025
+            },
+            {
+              "count": 12,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 44,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "3041857097656571321",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-uncle-maker-time-stamping-out-the-competition-in",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=92ffbd0895da6a2c5c6d50a5a2df2c4dd1f51de37d38e7a686949d989c6fe270&num=10&hl=en",
-          "response_sha256": "e09353bcc4ef485c1a9134186628160618deb3a0e4a10efcde73584d27017234",
-          "retrieved_at": "2026-08-08T18:08:57Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=3041857097656571321&hl=en",
+          "response_sha256": "ccd888e00304525518eaeace1f804859b8e6322ab8db289c70de8fbee57cca73",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 62
         },
         "openalex": {
@@ -1378,6 +1596,7 @@
             }
           ],
           "citations_first_3_years": 18,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4388858825",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-uncle-maker-time-stamping-out-the-competition-in",
@@ -1391,6 +1610,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "82320fd747c76152a0562cd0da8c75591f9f887d",
           "influential_citations": 1,
           "paper_id": "acm-ccs-2023-uncle-maker-time-stamping-out-the-competition-in",
@@ -1483,16 +1703,35 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 3,
+              "year": 2023
+            },
+            {
+              "count": 19,
+              "year": 2024
+            },
+            {
+              "count": 18,
+              "year": 2025
+            },
+            {
+              "count": 18,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 40,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "3699596313176597286",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-specification-and-verification-of-side-channel-s",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=bba44ca21e3fc243f5056ba2e2a1b0ec066b08f144de9c3c30a377aa8f5b8651&num=10&hl=en",
-          "response_sha256": "7687110feed5e653484c184ca91b5252d3b428363e5bba7041c41f7cbb40fdac",
-          "retrieved_at": "2026-08-08T18:08:53Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=3699596313176597286&hl=en",
+          "response_sha256": "1ca0e0c23597fe019eb1b48f99e5497a320cded6f435c37e142c04bb2f6b76c6",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 59
         },
         "openalex": {
@@ -1515,6 +1754,7 @@
             }
           ],
           "citations_first_3_years": 20,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4388858498",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-specification-and-verification-of-side-channel-s",
@@ -1528,6 +1768,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "7149bce4286bfa10ffee922ce7f5621401df4d07",
           "influential_citations": 5,
           "paper_id": "acm-ccs-2023-specification-and-verification-of-side-channel-s",
@@ -1626,16 +1867,35 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 3,
+              "year": 2023
+            },
+            {
+              "count": 14,
+              "year": 2024
+            },
+            {
+              "count": 30,
+              "year": 2025
+            },
+            {
+              "count": 11,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 47,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "6303666240795112920",
           "influential_citations": null,
           "paper_id": "ndss-2023-darwin-survival-of-the-fittest-fuzzing-mutators",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=8a4965959769f7705fb14ad3eb6de141ab420b79974a1490729c81e2dfdaa511&num=10&hl=en",
-          "response_sha256": "b22766e56b3ce4056a3eef980a1ad7e77cd271aa25648affb95fe9a205c01d75",
-          "retrieved_at": "2026-08-08T18:09:21Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=6303666240795112920&hl=en",
+          "response_sha256": "ec30ec37a8c365c6f4f6bd43608b82c9dc1469659d58dd7b16a138ba230af61f",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 58
         },
         "openalex": {
@@ -1658,6 +1918,7 @@
             }
           ],
           "citations_first_3_years": 23,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4307205415",
           "influential_citations": null,
           "paper_id": "ndss-2023-darwin-survival-of-the-fittest-fuzzing-mutators",
@@ -1671,6 +1932,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "d57b31045610cbf9eb8a385c74d7fe4f7252467a",
           "influential_citations": 3,
           "paper_id": "ndss-2023-darwin-survival-of-the-fittest-fuzzing-mutators",
@@ -1769,21 +2031,41 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 4,
+              "year": 2023
+            },
+            {
+              "count": 15,
+              "year": 2024
+            },
+            {
+              "count": 22,
+              "year": 2025
+            },
+            {
+              "count": 9,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 41,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "1091576476877039757",
           "influential_citations": null,
           "paper_id": "usenix-security-2023-dont-be-dense-efficient-keyword-pir-for-sparse-d",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=176c2336a1f5930cf95748faef920cb5f0458325158d567b6984e7c5d04c6e8c&num=10&hl=en",
-          "response_sha256": "61e190fcd414a883b7e2c23f2477495984d362985f84249ae63ef93c323a2ecc",
-          "retrieved_at": "2026-08-08T18:07:46Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=1091576476877039757&hl=en",
+          "response_sha256": "b95c57b1b04b3987f544793f2cfeced92307a80d1d97c43539304b408e09f413",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 50
         },
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "3d1fff6e566ffe50399c38017fb19747ab3c3253",
           "influential_citations": 8,
           "paper_id": "usenix-security-2023-dont-be-dense-efficient-keyword-pir-for-sparse-d",
@@ -1859,16 +2141,39 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2022
+            },
+            {
+              "count": 18,
+              "year": 2023
+            },
+            {
+              "count": 8,
+              "year": 2024
+            },
+            {
+              "count": 15,
+              "year": 2025
+            },
+            {
+              "count": 8,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 41,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "3147041888280473839",
           "influential_citations": null,
           "paper_id": "ieee-sp-2023-practically-exploitable-cryptographic-vulnerabil",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=362652b2bc6c366d646e1c3feedf51afadc9a5ea9beb2097058bb7c362eb8f4e&num=10&hl=en",
-          "response_sha256": "f71192c733c070c3752d521ad4dca933cb01672681c60cf73fe9306ce12d6a04",
-          "retrieved_at": "2026-08-08T18:06:34Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=3147041888280473839&hl=en",
+          "response_sha256": "afb3061db718999d5e7b210b55e194c901060c060aeb59740b2a6a025ce46be5",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 50
         },
         "openalex": {
@@ -1891,6 +2196,7 @@
             }
           ],
           "citations_first_3_years": 20,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4389546188",
           "influential_citations": null,
           "paper_id": "ieee-sp-2023-practically-exploitable-cryptographic-vulnerabil",
@@ -1904,6 +2210,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "ed4058bbbfe855f8f0ef2a8b96b016052f2ea94a",
           "influential_citations": 1,
           "paper_id": "ieee-sp-2023-practically-exploitable-cryptographic-vulnerabil",
@@ -2000,16 +2307,35 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 7,
+              "year": 2023
+            },
+            {
+              "count": 19,
+              "year": 2024
+            },
+            {
+              "count": 19,
+              "year": 2025
+            },
+            {
+              "count": 4,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 45,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "11751510727785006116",
           "influential_citations": null,
           "paper_id": "ieee-sp-2023-weak-fiat-shamir-attacks-on-modern-proof-systems",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=658a0e781329a4020ed5bb7f7cb1c258d3d69972d00a9a258164f1defcbfd1bd&num=10&hl=en",
-          "response_sha256": "2a2650ee62fdbbf50471502083258e250720dbf43fd4ead29eadc2331af6954f",
-          "retrieved_at": "2026-08-08T18:06:35Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=11751510727785006116&hl=en",
+          "response_sha256": "1c5f2cd5c0860fe6fdc742597e79ff25394a5abdeebed639143f2989229d0dc7",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 49
         },
         "openalex": {
@@ -2032,6 +2358,7 @@
             }
           ],
           "citations_first_3_years": 11,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4385080282",
           "influential_citations": null,
           "paper_id": "ieee-sp-2023-weak-fiat-shamir-attacks-on-modern-proof-systems",
@@ -2045,6 +2372,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "7b840245a8e9eb43cca61e68658986a2e661e7af",
           "influential_citations": 2,
           "paper_id": "ieee-sp-2023-weak-fiat-shamir-attacks-on-modern-proof-systems",
@@ -2141,16 +2469,39 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2022
+            },
+            {
+              "count": 9,
+              "year": 2023
+            },
+            {
+              "count": 16,
+              "year": 2024
+            },
+            {
+              "count": 12,
+              "year": 2025
+            },
+            {
+              "count": 8,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 37,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "10545225549490358799",
           "influential_citations": null,
           "paper_id": "ieee-sp-2023-mega-malleable-encryption-goes-awry",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=850d5bfede66a952dff758c5bcb5c4f71c1f4aaa85552717748d059625d9a415&num=10&hl=en",
-          "response_sha256": "a149d984fafe66bbb1078f369711dc629741b067e5f7c6376d515d1eb7ce6d7c",
-          "retrieved_at": "2026-08-08T18:06:33Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=10545225549490358799&hl=en",
+          "response_sha256": "e5c2152f2a5737972406b5c641b6ee72a88c40f16dc7b34e9ce985d66fd92160",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 47
         },
         "openalex": {
@@ -2173,6 +2524,7 @@
             }
           ],
           "citations_first_3_years": 16,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4384948645",
           "influential_citations": null,
           "paper_id": "ieee-sp-2023-mega-malleable-encryption-goes-awry",
@@ -2186,6 +2538,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "f8add0e6f04b98b7df6db12d3135c97c9f089a9d",
           "influential_citations": 2,
           "paper_id": "ieee-sp-2023-mega-malleable-encryption-goes-awry",
@@ -2279,16 +2632,35 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 3,
+              "year": 2023
+            },
+            {
+              "count": 14,
+              "year": 2024
+            },
+            {
+              "count": 18,
+              "year": 2025
+            },
+            {
+              "count": 11,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 35,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "6360895518395081755",
           "influential_citations": null,
           "paper_id": "ieee-sp-2023-red-team-vs-blue-team-a-real-world-hardware-troj",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=d099b53c17951e06b19c210b9ec56f5fb1542c9b93bed6d0f78d7f1057f5d8e7&num=10&hl=en",
-          "response_sha256": "47efe2fcc0dc6b7c8e67280a65adb2c801a589106f0e3d9098ab435144f8e75e",
-          "retrieved_at": "2026-08-08T18:06:55Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=6360895518395081755&hl=en",
+          "response_sha256": "3d690d092cd2fc643d185953e0096bc928aac6a6257bfdf92ecd195462c78ec4",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 46
         },
         "openalex": {
@@ -2311,6 +2683,7 @@
             }
           ],
           "citations_first_3_years": 18,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4384948639",
           "influential_citations": null,
           "paper_id": "ieee-sp-2023-red-team-vs-blue-team-a-real-world-hardware-troj",
@@ -2324,6 +2697,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "59dee435b77ae460627a88f391b16fc93ea171fb",
           "influential_citations": 3,
           "paper_id": "ieee-sp-2023-red-team-vs-blue-team-a-real-world-hardware-troj",
@@ -2426,16 +2800,35 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2023
+            },
+            {
+              "count": 6,
+              "year": 2024
+            },
+            {
+              "count": 25,
+              "year": 2025
+            },
+            {
+              "count": 11,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 32,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "17869119547199371351",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-alert-alchemy-soc-workflows-and-decisions-in-the",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=421a556c245400029005ed0527d1a7faf0daa395612d37dc731f52532291bf7e&num=10&hl=en",
-          "response_sha256": "ec3e28cfff10a7434cd1e3e3ea67d5dad5bea64fd5f2d61bc329326277ea4497",
-          "retrieved_at": "2026-08-08T18:08:10Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=17869119547199371351&hl=en",
+          "response_sha256": "1e0d1fedc8c89a7ad0ce44eba099b9c18756cf08f26621c4e9631fad74e57ffa",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 43
         },
         "openalex": {
@@ -2454,6 +2847,7 @@
             }
           ],
           "citations_first_3_years": 15,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4388867285",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-alert-alchemy-soc-workflows-and-decisions-in-the",
@@ -2467,6 +2861,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "2166a4788d88282bae6c578d0223a9a96fb09962",
           "influential_citations": 3,
           "paper_id": "acm-ccs-2023-alert-alchemy-soc-workflows-and-decisions-in-the",
@@ -2565,17 +2960,40 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 2,
+              "year": 2022
+            },
+            {
+              "count": 9,
+              "year": 2023
+            },
+            {
+              "count": 8,
+              "year": 2024
+            },
+            {
+              "count": 16,
+              "year": 2025
+            },
+            {
+              "count": 8,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 33,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "9037373832888256359",
           "influential_citations": null,
           "paper_id": "ieee-sp-2023-typing-high-speed-cryptography-against-spectre-v",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=64e36d337ea0dda440a1fe749b7dd9cb58cb5c958bf3b8bb3d7890105f93879f&num=10&hl=en",
-          "response_sha256": "ac97a40d008d9ced1db1dab7483f2e4d3443b9d323ed46d11df7e9b6abdd0747",
-          "retrieved_at": "2026-08-08T18:06:37Z",
-          "total_citations": 42
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=9037373832888256359&hl=en",
+          "response_sha256": "c6dc68acafaef25f7b30803ba02d89f7963bd670d2e83dc9b3df883508a192a1",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
+          "total_citations": 43
         },
         "openalex": {
           "citations_by_citing_year": [
@@ -2597,6 +3015,7 @@
             }
           ],
           "citations_first_3_years": 19,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4385080320",
           "influential_citations": null,
           "paper_id": "ieee-sp-2023-typing-high-speed-cryptography-against-spectre-v",
@@ -2610,6 +3029,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "3dab60fb7870f066d276b322be1f5c34e5eb40e8",
           "influential_citations": 3,
           "paper_id": "ieee-sp-2023-typing-high-speed-cryptography-against-spectre-v",
@@ -2718,16 +3138,39 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2022
+            },
+            {
+              "count": 5,
+              "year": 2023
+            },
+            {
+              "count": 7,
+              "year": 2024
+            },
+            {
+              "count": 18,
+              "year": 2025
+            },
+            {
+              "count": 8,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 30,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "15494803768992211890",
           "influential_citations": null,
           "paper_id": "usenix-security-2023-treesync-authenticated-group-management-for-mess",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=a1ed3550f27448f6ee02daf2644bcea119b8ed776b7d37ae65f9e3d2d69863eb&num=10&hl=en",
-          "response_sha256": "c3fda9e78da487adc7e355ab3590fcee5e05f31ac3c3248e75d87ef79cf9a05a",
-          "retrieved_at": "2026-08-08T18:07:23Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=15494803768992211890&hl=en",
+          "response_sha256": "30c0e506ced358f59f29330b02bf96891be872492d6caf2e0235eee20e80387a",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 41
         },
         "openalex": {
@@ -2738,6 +3181,7 @@
             }
           ],
           "citations_first_3_years": 1,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4392466677",
           "influential_citations": null,
           "paper_id": "usenix-security-2023-treesync-authenticated-group-management-for-mess",
@@ -2751,6 +3195,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "e0aea1ee8fb8bb0107946e49d6827efc99c98948",
           "influential_citations": 1,
           "paper_id": "usenix-security-2023-treesync-authenticated-group-management-for-mess",
@@ -2840,16 +3285,35 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 6,
+              "year": 2023
+            },
+            {
+              "count": 9,
+              "year": 2024
+            },
+            {
+              "count": 16,
+              "year": 2025
+            },
+            {
+              "count": 9,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 31,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "9468483505427352578",
           "influential_citations": null,
           "paper_id": "usenix-security-2023-hash-gone-bad-automated-discovery-of-protocol-at",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=9bdbcaf3908aebd18839d88c00cf46cc49cdfd411ef0a22c653e11ac4c828bf0&num=10&hl=en",
-          "response_sha256": "176456d449b9b13e47627a600bfe851f14dde9ee497e6d4abceaee9a8d054ba8",
-          "retrieved_at": "2026-08-08T18:07:57Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=9468483505427352578&hl=en",
+          "response_sha256": "6415ccacb1f2922d316bea4ca9c4e5763ee162e2d8c38ebca62da7f7b2698472",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 40
         },
         "openalex": {
@@ -2868,6 +3332,7 @@
             }
           ],
           "citations_first_3_years": 4,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4301178121",
           "influential_citations": null,
           "paper_id": "usenix-security-2023-hash-gone-bad-automated-discovery-of-protocol-at",
@@ -2881,6 +3346,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "cfa801618d46702b0c3376e3a29326315fe44020",
           "influential_citations": 0,
           "paper_id": "usenix-security-2023-hash-gone-bad-automated-discovery-of-protocol-at",
@@ -2976,16 +3442,35 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2023
+            },
+            {
+              "count": 7,
+              "year": 2024
+            },
+            {
+              "count": 19,
+              "year": 2025
+            },
+            {
+              "count": 11,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 27,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "691412144635927069",
           "influential_citations": null,
           "paper_id": "ieee-sp-2023-in-eighty-percent-of-the-cases-i-select-the-pass",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=7370b3f195c325d234b65b1c01a82a54f4144e4ccf8ca5563b3d52b585f36de2&num=10&hl=en",
-          "response_sha256": "1cf8855aa7fe3b66e9790b0147c8969bee07ed4c4d31176bfcc157b604163e67",
-          "retrieved_at": "2026-08-08T18:07:14Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=691412144635927069&hl=en",
+          "response_sha256": "4819a04a2bd02e109c4ecf6fee853e7b8eb28b83c1f28cf290203e7340ebb795",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 38
         },
         "openalex": {
@@ -3008,6 +3493,7 @@
             }
           ],
           "citations_first_3_years": 13,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4385679811",
           "influential_citations": null,
           "paper_id": "ieee-sp-2023-in-eighty-percent-of-the-cases-i-select-the-pass",
@@ -3021,6 +3507,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "c9618efa7418b1210b2c1558cda354e3dfc0a703",
           "influential_citations": 1,
           "paper_id": "ieee-sp-2023-in-eighty-percent-of-the-cases-i-select-the-pass",
@@ -3114,16 +3601,35 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 4,
+              "year": 2023
+            },
+            {
+              "count": 14,
+              "year": 2024
+            },
+            {
+              "count": 10,
+              "year": 2025
+            },
+            {
+              "count": 7,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 28,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "3584369297611952630",
           "influential_citations": null,
           "paper_id": "usenix-security-2023-fuzztruction-using-fault-injection-based-fuzzing",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=0748608eb5651200b440952e77c90feed364303ea7c23ba0320d1245f735f2d1&num=10&hl=en",
-          "response_sha256": "bb2f9fc34235838b2f2300049df669f5834d16a67f9c5885f4af2d603fef51a6",
-          "retrieved_at": "2026-08-08T18:07:33Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=3584369297611952630&hl=en",
+          "response_sha256": "c691f90b15d0c75b23079d4291fb3347c549a195bb5a2ffc34511e49595214f7",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 35
         },
         "openalex": {
@@ -3138,6 +3644,7 @@
             }
           ],
           "citations_first_3_years": 6,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W6902390121",
           "influential_citations": null,
           "paper_id": "usenix-security-2023-fuzztruction-using-fault-injection-based-fuzzing",
@@ -3151,6 +3658,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "7eb5cc478291f52c126efcaabd5c256cb7303a0f",
           "influential_citations": 0,
           "paper_id": "usenix-security-2023-fuzztruction-using-fault-injection-based-fuzzing",
@@ -3239,16 +3747,31 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 14,
+              "year": 2024
+            },
+            {
+              "count": 14,
+              "year": 2025
+            },
+            {
+              "count": 7,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 28,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "8285920940505710581",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-stealing-the-decoding-algorithms-of-language-mod",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=a900da038167e1fab60836988dd5884d81a4883488d308d81a873fc84d97eb01&num=10&hl=en",
-          "response_sha256": "53c136056ba648dde79bd05ff5514c3009f860155bb801c8c66c082f9cbefec1",
-          "retrieved_at": "2026-08-08T18:08:55Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=8285920940505710581&hl=en",
+          "response_sha256": "00086e7145b5aeafd1032ad30c5ff45b23c41d5cab095425df862e415712e28a",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 35
         },
         "openalex": {
@@ -3271,6 +3794,7 @@
             }
           ],
           "citations_first_3_years": 11,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4388858191",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-stealing-the-decoding-algorithms-of-language-mod",
@@ -3284,6 +3808,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "fdaeb41ebb60dbe60a3193f02320e3f00f8233fd",
           "influential_citations": 0,
           "paper_id": "acm-ccs-2023-stealing-the-decoding-algorithms-of-language-mod",
@@ -3379,16 +3904,35 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2023
+            },
+            {
+              "count": 6,
+              "year": 2024
+            },
+            {
+              "count": 20,
+              "year": 2025
+            },
+            {
+              "count": 7,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 27,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "5522011673165191428",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-how-hard-is-takeover-in-dpos-blockchains-underst",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=5da7adcd2683f9b3a2dc6246ca966120abd29d1888d729bd4590dca84076d57e&num=10&hl=en",
-          "response_sha256": "8a5e287a3e2f43354194795d085167389d4a616051007d924fefcf1154127fe6",
-          "retrieved_at": "2026-08-08T18:08:36Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=5522011673165191428&hl=en",
+          "response_sha256": "66a127d3b2fa159744f74302cc86ec5e571bb936c2d81f20ac2ae2910c4da247",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 34
         },
         "openalex": {
@@ -3407,6 +3951,7 @@
             }
           ],
           "citations_first_3_years": 16,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4388857879",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-how-hard-is-takeover-in-dpos-blockchains-underst",
@@ -3420,6 +3965,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "5a2990c0422cb74781bb12b95421709eb5897ca9",
           "influential_citations": 1,
           "paper_id": "acm-ccs-2023-how-hard-is-takeover-in-dpos-blockchains-underst",
@@ -3521,16 +4067,35 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 3,
+              "year": 2023
+            },
+            {
+              "count": 11,
+              "year": 2024
+            },
+            {
+              "count": 12,
+              "year": 2025
+            },
+            {
+              "count": 8,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 26,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "17314998190284780735",
           "influential_citations": null,
           "paper_id": "ndss-2023-your-router-is-my-prober-measuring-ipv6-networks",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=1efafa1a27fb9d47fcd8eb9b89688f973bba6613745ecb80fc11ac200f6efd07&num=10&hl=en",
-          "response_sha256": "72cfacf419dae9e21d9a87b65f09a5e8f4b78a927885b4bc2a82073161ee6c19",
-          "retrieved_at": "2026-08-08T18:09:10Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=17314998190284780735&hl=en",
+          "response_sha256": "ead4f2d9550f6287e9812dcc80c418ab87ffefcd2a7d5714a95fbbfdcecb863f",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 34
         },
         "openalex": {
@@ -3553,6 +4118,7 @@
             }
           ],
           "citations_first_3_years": 18,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4324007097",
           "influential_citations": null,
           "paper_id": "ndss-2023-your-router-is-my-prober-measuring-ipv6-networks",
@@ -3566,6 +4132,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "8d25ee9aa097c8ab7c3f6a07a6f5d1b870158387",
           "influential_citations": 5,
           "paper_id": "ndss-2023-your-router-is-my-prober-measuring-ipv6-networks",
@@ -3670,16 +4237,35 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2022
+            },
+            {
+              "count": 6,
+              "year": 2024
+            },
+            {
+              "count": 12,
+              "year": 2025
+            },
+            {
+              "count": 13,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 18,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "11507894294460007087",
           "influential_citations": null,
           "paper_id": "usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=714284e1b63e39d4b4ece2bddae651b013ef2fed66fce4ae46d302ab0b84e35a&num=10&hl=en",
-          "response_sha256": "7f632853d045ca07bc5806eac248e3559b4f2a9d1501e410d2c55fea18969077",
-          "retrieved_at": "2026-08-08T18:07:48Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=11507894294460007087&hl=en",
+          "response_sha256": "20db667fb8bf52ab6c643a1aa3509bc07515945e931a61ec8666bf7a571a7827",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 33
         },
         "openalex": {
@@ -3690,6 +4276,7 @@
             }
           ],
           "citations_first_3_years": 1,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W6981697802",
           "influential_citations": null,
           "paper_id": "usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma",
@@ -3703,6 +4290,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "d4c0c078cea37df5e65327adda933efd74876e22",
           "influential_citations": 6,
           "paper_id": "usenix-security-2023-examining-power-dynamics-and-user-privacy-in-sma",
@@ -3786,16 +4374,31 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 11,
+              "year": 2024
+            },
+            {
+              "count": 10,
+              "year": 2025
+            },
+            {
+              "count": 10,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 21,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "7043677968527898524",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-coco-efficient-browser-extension-vulnerability-d",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=1e8ec1bbfea4655d1f54339c384c2f9aeb6cccb377e25c8d9f6749bbe6107451&num=10&hl=en",
-          "response_sha256": "ecd878c155ca0e470a17943ebbf605448e6cbc303dea00daf710bb2f753d2465",
-          "retrieved_at": "2026-08-08T18:08:19Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=7043677968527898524&hl=en",
+          "response_sha256": "8a462f5f16a21099984893155b953e6506a59927ce019b01a698aacc9bd3ff94",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 32
         },
         "openalex": {
@@ -3814,6 +4417,7 @@
             }
           ],
           "citations_first_3_years": 6,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4388858938",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-coco-efficient-browser-extension-vulnerability-d",
@@ -3827,6 +4431,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "131f9dbee0a4c55391e7dbc6c55a7815824c36a7",
           "influential_citations": 2,
           "paper_id": "acm-ccs-2023-coco-efficient-browser-extension-vulnerability-d",
@@ -3922,21 +4527,41 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 2,
+              "year": 2023
+            },
+            {
+              "count": 5,
+              "year": 2024
+            },
+            {
+              "count": 15,
+              "year": 2025
+            },
+            {
+              "count": 8,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 22,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "10194117707257387734",
           "influential_citations": null,
           "paper_id": "usenix-security-2023-a-two-decade-retrospective-analysis-of-a-univers",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=07c0ac4907e831caf0e4bcb5a45609669bd1ea81ccc5df8786516923ced4b852&num=10&hl=en",
-          "response_sha256": "d26ef48ab3c24d0e3ee815aba4dba3835588ec84a750d3dc810dab057be27a9d",
-          "retrieved_at": "2026-08-08T18:07:49Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=10194117707257387734&hl=en",
+          "response_sha256": "21c4295940ebb5c1fb2e51245d4d3a7f8e383873d551ba254d18514b2afa0e85",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 30
         },
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "ed4ddd65b95873c96b06d7aee978f8e9c885b227",
           "influential_citations": 0,
           "paper_id": "usenix-security-2023-a-two-decade-retrospective-analysis-of-a-univers",
@@ -4017,6 +4642,156 @@
     },
     {
       "award": {
+        "edition_id": "acm-ccs-2023",
+        "id": "acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "4486d199b2588ab0234106fe32a18c54d50b58b64098d2b2cb677ea07eed0240",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html"
+        },
+        "paper_id": "acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl",
+        "raw_authors": "Gilad Asharov, Ilan Komargodski, and Yehuda Michelson",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "FutORAMa: A Concretely Efficient Hierarchical Oblivious RAM"
+      },
+      "citations": {
+        "google_scholar": {
+          "citations_by_citing_year": [
+            {
+              "count": 5,
+              "year": 2024
+            },
+            {
+              "count": 12,
+              "year": 2025
+            },
+            {
+              "count": 12,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 17,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
+          "external_id": "10776774111625253151",
+          "influential_citations": null,
+          "paper_id": "acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl",
+          "provider": "google_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=10776774111625253151&hl=en",
+          "response_sha256": "8998c905b87488f49d2440ec10b146f5380885ea3c8dbefd43a7cc6207f34cca",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
+          "total_citations": 30
+        },
+        "openalex": {
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2024
+            },
+            {
+              "count": 5,
+              "year": 2025
+            },
+            {
+              "count": 4,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 6,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
+          "external_id": "W4388856956",
+          "influential_citations": null,
+          "paper_id": "acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl",
+          "provider": "openalex",
+          "provider_record_updated_at": "2026-08-04T08:18:43.703281",
+          "request_fingerprint": "GET /works/W4388856956?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+          "response_sha256": "e1255cf9110f6e1fc7feaef1633e85e48e4ace9a61f43049243eed903e7e74f9",
+          "retrieved_at": "2026-08-08T10:25:46.712845Z",
+          "total_citations": 10
+        },
+        "semantic_scholar": {
+          "citations_by_citing_year": [],
+          "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
+          "external_id": "dd2b2c4f017f150dd0c359054f79e1134f147231",
+          "influential_citations": 2,
+          "paper_id": "acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl",
+          "provider": "semantic_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /paper/dd2b2c4f017f150dd0c359054f79e1134f147231?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+          "response_sha256": "4381c27f41def72c6377748780498d748d43d9f813c6d2c981be5229af9e56e0",
+          "retrieved_at": "2026-08-08T18:16:23.806407Z",
+          "total_citations": 17
+        }
+      },
+      "conference": {
+        "aliases": [
+          "CCS"
+        ],
+        "id": "acm-ccs",
+        "name": "ACM Conference on Computer and Communications Security",
+        "organizer": "ACM SIGSAC",
+        "short_name": "ACM CCS"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Gilad Asharov"
+          },
+          {
+            "name": "Ilan Komargodski"
+          },
+          {
+            "name": "Yehuda Michelson"
+          }
+        ],
+        "canonical_title": "FutORAMa: A Concretely Efficient Hierarchical Oblivious RAM",
+        "id": "acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl",
+        "identifiers": [
+          {
+            "scheme": "openalex",
+            "source_url": "https://api.openalex.org/works/W4388856956",
+            "value": "W4388856956",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "doi",
+            "source_url": "https://api.crossref.org/works/10.1145/3576915.3623125",
+            "value": "10.1145/3576915.3623125",
+            "verified_at": "2026-08-07T18:41:58Z"
+          },
+          {
+            "scheme": "google_scholar",
+            "source_url": "https://scholar.google.com/scholar?cluster=10776774111625253151",
+            "value": "10776774111625253151",
+            "verified_at": "2026-08-08T18:08:34Z"
+          },
+          {
+            "scheme": "semantic_scholar",
+            "source_url": "https://www.semanticscholar.org/paper/dd2b2c4f017f150dd0c359054f79e1134f147231?utm_source=api",
+            "value": "dd2b2c4f017f150dd0c359054f79e1134f147231",
+            "verified_at": "2026-08-08T18:16:13.005547Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html",
+          "https://openalex.org/W4388856956"
+        ],
+        "official_paper_url": null,
+        "publication_year": 2023,
+        "venue_name": "2023 ACM SIGSAC Conference on Computer and Communications Security"
+      },
+      "primary_topic": {
+        "display_name": "Cryptography and Data Security",
+        "openalex_id": "T10237",
+        "score": 1.0
+      }
+    },
+    {
+      "award": {
         "edition_id": "ieee-sp-2023",
         "id": "ieee-sp-2023-the-leaky-web-automated-discovery-of-cross-site-award",
         "normalized_category": "distinguished_paper",
@@ -4033,16 +4808,35 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 5,
+              "year": 2023
+            },
+            {
+              "count": 12,
+              "year": 2024
+            },
+            {
+              "count": 7,
+              "year": 2025
+            },
+            {
+              "count": 5,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 24,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "16083415626941056089",
           "influential_citations": null,
           "paper_id": "ieee-sp-2023-the-leaky-web-automated-discovery-of-cross-site",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=633c7cf753e55729d49f31955a9c183b3612a90f1864c878d5bff4d589991c97&num=10&hl=en",
-          "response_sha256": "553f6c5f89aeac1d30e3962e246c4be4b45617303138f650ce09c9a3bd7b0b2c",
-          "retrieved_at": "2026-08-08T18:07:00Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=16083415626941056089&hl=en",
+          "response_sha256": "f4b76d00fa7f3480152e9639e99cb2ef58d3fe1bb279a295b73730a657c1cb0c",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 30
         },
         "openalex": {
@@ -4065,6 +4859,7 @@
             }
           ],
           "citations_first_3_years": 12,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4384948721",
           "influential_citations": null,
           "paper_id": "ieee-sp-2023-the-leaky-web-automated-discovery-of-cross-site",
@@ -4078,6 +4873,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "39a33bd0c3f19310e4cc6f18737886b1f8fd8784",
           "influential_citations": 0,
           "paper_id": "ieee-sp-2023-the-leaky-web-automated-discovery-of-cross-site",
@@ -4171,16 +4967,35 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 6,
+              "year": 2023
+            },
+            {
+              "count": 9,
+              "year": 2024
+            },
+            {
+              "count": 7,
+              "year": 2025
+            },
+            {
+              "count": 7,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 22,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "1694345513935846134",
           "influential_citations": null,
           "paper_id": "ieee-sp-2023-characterizing-everyday-misuse-of-smart-home-dev",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=79f08c752013fce34c63ca7b53821ba4f38f9a65c329f4e2f5ef21a3b37b3f80&num=10&hl=en",
-          "response_sha256": "8eb892a9f48596b9c31cd75a5088dce07d09875e9e4b7cf1851ab4b2ebca3d56",
-          "retrieved_at": "2026-08-08T18:07:07Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=1694345513935846134&hl=en",
+          "response_sha256": "17f6dee240e915182e07350cd5bb80b93bd680d158cfbcd1613abf01d320597f",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 29
         },
         "openalex": {
@@ -4203,6 +5018,7 @@
             }
           ],
           "citations_first_3_years": 7,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4385080361",
           "influential_citations": null,
           "paper_id": "ieee-sp-2023-characterizing-everyday-misuse-of-smart-home-dev",
@@ -4216,6 +5032,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "72edbfa1b709f403c171922aca1a4d7d138f963f",
           "influential_citations": 2,
           "paper_id": "ieee-sp-2023-characterizing-everyday-misuse-of-smart-home-dev",
@@ -4302,139 +5119,6 @@
     },
     {
       "award": {
-        "edition_id": "acm-ccs-2023",
-        "id": "acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl-award",
-        "normalized_category": "distinguished_paper",
-        "official_source": {
-          "content_sha256": "4486d199b2588ab0234106fe32a18c54d50b58b64098d2b2cb677ea07eed0240",
-          "parser_version": "2023.1",
-          "retrieved_at": "2026-08-07T18:34:37Z",
-          "url": "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html"
-        },
-        "paper_id": "acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl",
-        "raw_authors": "Gilad Asharov, Ilan Komargodski, and Yehuda Michelson",
-        "raw_award_name": "Distinguished Paper Award",
-        "raw_title": "FutORAMa: A Concretely Efficient Hierarchical Oblivious RAM"
-      },
-      "citations": {
-        "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
-          "external_id": "10776774111625253151",
-          "influential_citations": null,
-          "paper_id": "acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl",
-          "provider": "google_scholar",
-          "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=32b540f4197c3e35ca4d5519369f35c3ca65f6a44997ba164180b6df142cd2ea&num=10&hl=en",
-          "response_sha256": "2dafad4c8ba6f933c619992f57238f0fadb100ebd1c625a807ade30de761ba1d",
-          "retrieved_at": "2026-08-08T18:08:34Z",
-          "total_citations": 29
-        },
-        "openalex": {
-          "citations_by_citing_year": [
-            {
-              "count": 1,
-              "year": 2024
-            },
-            {
-              "count": 5,
-              "year": 2025
-            },
-            {
-              "count": 4,
-              "year": 2026
-            }
-          ],
-          "citations_first_3_years": 6,
-          "external_id": "W4388856956",
-          "influential_citations": null,
-          "paper_id": "acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl",
-          "provider": "openalex",
-          "provider_record_updated_at": "2026-08-04T08:18:43.703281",
-          "request_fingerprint": "GET /works/W4388856956?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
-          "response_sha256": "e1255cf9110f6e1fc7feaef1633e85e48e4ace9a61f43049243eed903e7e74f9",
-          "retrieved_at": "2026-08-08T10:25:46.712845Z",
-          "total_citations": 10
-        },
-        "semantic_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
-          "external_id": "dd2b2c4f017f150dd0c359054f79e1134f147231",
-          "influential_citations": 2,
-          "paper_id": "acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl",
-          "provider": "semantic_scholar",
-          "provider_record_updated_at": null,
-          "request_fingerprint": "GET /paper/dd2b2c4f017f150dd0c359054f79e1134f147231?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
-          "response_sha256": "4381c27f41def72c6377748780498d748d43d9f813c6d2c981be5229af9e56e0",
-          "retrieved_at": "2026-08-08T18:16:23.806407Z",
-          "total_citations": 17
-        }
-      },
-      "conference": {
-        "aliases": [
-          "CCS"
-        ],
-        "id": "acm-ccs",
-        "name": "ACM Conference on Computer and Communications Security",
-        "organizer": "ACM SIGSAC",
-        "short_name": "ACM CCS"
-      },
-      "paper": {
-        "authors": [
-          {
-            "name": "Gilad Asharov"
-          },
-          {
-            "name": "Ilan Komargodski"
-          },
-          {
-            "name": "Yehuda Michelson"
-          }
-        ],
-        "canonical_title": "FutORAMa: A Concretely Efficient Hierarchical Oblivious RAM",
-        "id": "acm-ccs-2023-futorama-a-concretely-efficient-hierarchical-obl",
-        "identifiers": [
-          {
-            "scheme": "openalex",
-            "source_url": "https://api.openalex.org/works/W4388856956",
-            "value": "W4388856956",
-            "verified_at": "2026-08-07T18:41:58Z"
-          },
-          {
-            "scheme": "doi",
-            "source_url": "https://api.crossref.org/works/10.1145/3576915.3623125",
-            "value": "10.1145/3576915.3623125",
-            "verified_at": "2026-08-07T18:41:58Z"
-          },
-          {
-            "scheme": "google_scholar",
-            "source_url": "https://scholar.google.com/scholar?cluster=10776774111625253151",
-            "value": "10776774111625253151",
-            "verified_at": "2026-08-08T18:08:34Z"
-          },
-          {
-            "scheme": "semantic_scholar",
-            "source_url": "https://www.semanticscholar.org/paper/dd2b2c4f017f150dd0c359054f79e1134f147231?utm_source=api",
-            "value": "dd2b2c4f017f150dd0c359054f79e1134f147231",
-            "verified_at": "2026-08-08T18:16:13.005547Z"
-          }
-        ],
-        "metadata_sources": [
-          "https://www.sigsac.org/ccs/CCS_awards/ccs-bestpaper.html",
-          "https://openalex.org/W4388856956"
-        ],
-        "official_paper_url": null,
-        "publication_year": 2023,
-        "venue_name": "2023 ACM SIGSAC Conference on Computer and Communications Security"
-      },
-      "primary_topic": {
-        "display_name": "Cryptography and Data Security",
-        "openalex_id": "T10237",
-        "score": 1.0
-      }
-    },
-    {
-      "award": {
         "edition_id": "ieee-sp-2023",
         "id": "ieee-sp-2023-it-s-dom-clobbering-time-attack-techniques-preva-award",
         "normalized_category": "distinguished_paper",
@@ -4451,16 +5135,35 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 2,
+              "year": 2023
+            },
+            {
+              "count": 7,
+              "year": 2024
+            },
+            {
+              "count": 13,
+              "year": 2025
+            },
+            {
+              "count": 5,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 22,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "10747469084765974311",
           "influential_citations": null,
           "paper_id": "ieee-sp-2023-it-s-dom-clobbering-time-attack-techniques-preva",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=be91d5dc3cc7319ee66acd3ef2fe61cffc88fb124f2b7050884ccd54a8a17c95&num=10&hl=en",
-          "response_sha256": "e15194ac3760bc4fc2d5fa10cb566e622474f08532f8f6366bf113d5fefd4e47",
-          "retrieved_at": "2026-08-08T18:06:56Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=10747469084765974311&hl=en",
+          "response_sha256": "27633e9699d3539e18f2f10c464c50fd7009f02b63cdb39399322eb547a547fa",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 27
         },
         "openalex": {
@@ -4483,6 +5186,7 @@
             }
           ],
           "citations_first_3_years": 13,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4385679748",
           "influential_citations": null,
           "paper_id": "ieee-sp-2023-it-s-dom-clobbering-time-attack-techniques-preva",
@@ -4496,6 +5200,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "63e9d1bb950a20be61fdd3f321f01874008295a1",
           "influential_citations": 1,
           "paper_id": "ieee-sp-2023-it-s-dom-clobbering-time-attack-techniques-preva",
@@ -4586,16 +5291,31 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 8,
+              "year": 2024
+            },
+            {
+              "count": 6,
+              "year": 2025
+            },
+            {
+              "count": 10,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 14,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "648479337401816425",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-capacity-cryptographically-enforced-in-process-c",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=1b658a630d7ef8b72d54381c26f6f33ad3f9e9e20a5a626c43aa356e308bd1de&num=10&hl=en",
-          "response_sha256": "2b03e1755f7a8065337c6c9c16773f610d3ab3cb37b2801059054a054c823640",
-          "retrieved_at": "2026-08-08T18:08:18Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=648479337401816425&hl=en",
+          "response_sha256": "03655996f5f1ce8aeea3d6bd18efb78f2ff9ea81a51c171900ce88085489f1f5",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 24
         },
         "openalex": {
@@ -4614,6 +5334,7 @@
             }
           ],
           "citations_first_3_years": 5,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4386973789",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-capacity-cryptographically-enforced-in-process-c",
@@ -4627,6 +5348,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "b1a2a35c87c9e48d1c7aa9ca04883dfe272ac852",
           "influential_citations": 1,
           "paper_id": "acm-ccs-2023-capacity-cryptographically-enforced-in-process-c",
@@ -4722,16 +5444,31 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 4,
+              "year": 2024
+            },
+            {
+              "count": 13,
+              "year": 2025
+            },
+            {
+              "count": 7,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 17,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "11195187877516902599",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-panic-pan-assisted-intra-process-memory-isolatio",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=732495571eef31ce49a5afa1451840363537a942374e970581b065bd1c51fb20&num=10&hl=en",
-          "response_sha256": "4224f09a9a1a7f38cdb6e8318720a88a8428f67012ed8ca84358b4db21029d34",
-          "retrieved_at": "2026-08-08T18:08:47Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=11195187877516902599&hl=en",
+          "response_sha256": "e24bcec91e14cf94920f83cfcd2a4a7e2fc3d90618c3dc2616524db86aae93f1",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 24
         },
         "openalex": {
@@ -4750,6 +5487,7 @@
             }
           ],
           "citations_first_3_years": 10,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4388857293",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-panic-pan-assisted-intra-process-memory-isolatio",
@@ -4763,6 +5501,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "6647dc71f98daa99b26b1969356f14c79a9ba3d9",
           "influential_citations": 1,
           "paper_id": "acm-ccs-2023-panic-pan-assisted-intra-process-memory-isolatio",
@@ -4879,16 +5618,35 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2023
+            },
+            {
+              "count": 7,
+              "year": 2024
+            },
+            {
+              "count": 13,
+              "year": 2025
+            },
+            {
+              "count": 2,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 21,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "8098279680911298685",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-batchman-and-robin-batched-and-non-batched-branc",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=483f33c233dc1f4b8aa5344a03a6e94962cff97a6fd9a70abc9a1f59dc8b006a&num=10&hl=en",
-          "response_sha256": "74306b873c6722fdb3e2acd2d7258a274fa06766ef18a6fc92967ac51b04a3d3",
-          "retrieved_at": "2026-08-08T18:08:14Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=8098279680911298685&hl=en",
+          "response_sha256": "b3dcf0f3276af7cdeaefebcadb74c80d1152e11c0c608bd8ec3108051dbc8c03",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 23
         },
         "openalex": {
@@ -4907,6 +5665,7 @@
             }
           ],
           "citations_first_3_years": 15,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4388867328",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-batchman-and-robin-batched-and-non-batched-branc",
@@ -4920,6 +5679,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "146e23e2c088cc3e73d491ff66e359bb903b097f",
           "influential_citations": 0,
           "paper_id": "acm-ccs-2023-batchman-and-robin-batched-and-non-batched-branc",
@@ -5003,102 +5763,6 @@
     {
       "award": {
         "edition_id": "usenix-security-2023",
-        "id": "usenix-security-2023-account-security-interfaces-important-unintuitiv-award",
-        "normalized_category": "distinguished_paper",
-        "official_source": {
-          "content_sha256": "bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d",
-          "parser_version": "2023.1",
-          "retrieved_at": "2026-08-07T18:34:37Z",
-          "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
-        },
-        "paper_id": "usenix-security-2023-account-security-interfaces-important-unintuitiv",
-        "raw_authors": "Alaa Daffalla and Marina Bohuk, Cornell University; Nicola Dell, Jacobs Institute Cornell Tech; Rosanna Bellini, Cornell University; Thomas Ristenpart, Cornell Tech",
-        "raw_award_name": "Distinguished Paper Award",
-        "raw_title": "Account Security Interfaces: Important, Unintuitive, and Untrustworthy"
-      },
-      "citations": {
-        "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
-          "external_id": "507752266252204781",
-          "influential_citations": null,
-          "paper_id": "usenix-security-2023-account-security-interfaces-important-unintuitiv",
-          "provider": "google_scholar",
-          "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=dbaa58bd3fbb3702d40bb8a3c2eeb3d9a2d904b79b7cc9fff3f8ab01e8f8cc70&num=10&hl=en",
-          "response_sha256": "a2c64c38bace64435381db002d48bef450ee16e9b432f1f654a5c3e3f2459840",
-          "retrieved_at": "2026-08-08T18:07:44Z",
-          "total_citations": 21
-        },
-        "semantic_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
-          "external_id": "be946514fd7b40f54abd86feffeb6cda7060923e",
-          "influential_citations": 1,
-          "paper_id": "usenix-security-2023-account-security-interfaces-important-unintuitiv",
-          "provider": "semantic_scholar",
-          "provider_record_updated_at": null,
-          "request_fingerprint": "GET /paper/be946514fd7b40f54abd86feffeb6cda7060923e?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
-          "response_sha256": "2fe07f9c3e042488c6943835640830f4e70a9c3a7f17a69cd8ec45ca664eea81",
-          "retrieved_at": "2026-08-08T18:16:23.806407Z",
-          "total_citations": 15
-        }
-      },
-      "conference": {
-        "aliases": [
-          "USENIX Security"
-        ],
-        "id": "usenix-security",
-        "name": "USENIX Security Symposium",
-        "organizer": "USENIX Association",
-        "short_name": "USENIX Security"
-      },
-      "paper": {
-        "authors": [
-          {
-            "name": "Alaa Daffalla"
-          },
-          {
-            "name": "Marina Bohuk"
-          },
-          {
-            "name": "Nicola Dell"
-          },
-          {
-            "name": "Rosanna Bellini"
-          },
-          {
-            "name": "Thomas Ristenpart"
-          }
-        ],
-        "canonical_title": "Account Security Interfaces: Important, Unintuitive, and Untrustworthy",
-        "id": "usenix-security-2023-account-security-interfaces-important-unintuitiv",
-        "identifiers": [
-          {
-            "scheme": "google_scholar",
-            "source_url": "https://scholar.google.com/scholar?cluster=507752266252204781",
-            "value": "507752266252204781",
-            "verified_at": "2026-08-08T18:07:44Z"
-          },
-          {
-            "scheme": "semantic_scholar",
-            "source_url": "https://www.semanticscholar.org/paper/be946514fd7b40f54abd86feffeb6cda7060923e?utm_source=api",
-            "value": "be946514fd7b40f54abd86feffeb6cda7060923e",
-            "verified_at": "2026-08-08T18:16:13.005547Z"
-          }
-        ],
-        "metadata_sources": [
-          "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
-        ],
-        "official_paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/daffalla",
-        "publication_year": 2023,
-        "venue_name": "32nd USENIX Security Symposium"
-      },
-      "primary_topic": null
-    },
-    {
-      "award": {
-        "edition_id": "usenix-security-2023",
         "id": "usenix-security-2023-automated-analysis-of-protocols-that-use-authent-award",
         "normalized_category": "distinguished_paper",
         "official_source": {
@@ -5114,17 +5778,36 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2023
+            },
+            {
+              "count": 4,
+              "year": 2024
+            },
+            {
+              "count": 11,
+              "year": 2025
+            },
+            {
+              "count": 5,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 16,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "14810536492047199644",
           "influential_citations": null,
           "paper_id": "usenix-security-2023-automated-analysis-of-protocols-that-use-authent",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=200d6f2c32af7ef07fc177f1648676a3de72d25024866aa05f6e35531b1373b9&num=10&hl=en",
-          "response_sha256": "97e4ed877f7e75558b1fff47ec5b899b4ca9252e0b955380ca83f69f0d850b3a",
-          "retrieved_at": "2026-08-08T18:07:59Z",
-          "total_citations": 21
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=14810536492047199644&hl=en",
+          "response_sha256": "6192d1d3626ef852ddee19482835753bd30a11e346d1db5e795a9e8872b6d375",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
+          "total_citations": 22
         },
         "openalex": {
           "citations_by_citing_year": [
@@ -5134,6 +5817,7 @@
             }
           ],
           "citations_first_3_years": 1,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4401104680",
           "influential_citations": null,
           "paper_id": "usenix-security-2023-automated-analysis-of-protocols-that-use-authent",
@@ -5147,6 +5831,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "e59a1cb09b0fe3aa79a8cfd1eb1cbb1072a7a7c4",
           "influential_citations": 1,
           "paper_id": "usenix-security-2023-automated-analysis-of-protocols-that-use-authent",
@@ -5221,6 +5906,118 @@
     {
       "award": {
         "edition_id": "usenix-security-2023",
+        "id": "usenix-security-2023-account-security-interfaces-important-unintuitiv-award",
+        "normalized_category": "distinguished_paper",
+        "official_source": {
+          "content_sha256": "bdb7a215ad029e48c5dd7c77500fac26e0a8f0015985a598661b6d0b25dba63d",
+          "parser_version": "2023.1",
+          "retrieved_at": "2026-08-07T18:34:37Z",
+          "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+        },
+        "paper_id": "usenix-security-2023-account-security-interfaces-important-unintuitiv",
+        "raw_authors": "Alaa Daffalla and Marina Bohuk, Cornell University; Nicola Dell, Jacobs Institute Cornell Tech; Rosanna Bellini, Cornell University; Thomas Ristenpart, Cornell Tech",
+        "raw_award_name": "Distinguished Paper Award",
+        "raw_title": "Account Security Interfaces: Important, Unintuitive, and Untrustworthy"
+      },
+      "citations": {
+        "google_scholar": {
+          "citations_by_citing_year": [
+            {
+              "count": 5,
+              "year": 2024
+            },
+            {
+              "count": 10,
+              "year": 2025
+            },
+            {
+              "count": 6,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 15,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
+          "external_id": "507752266252204781",
+          "influential_citations": null,
+          "paper_id": "usenix-security-2023-account-security-interfaces-important-unintuitiv",
+          "provider": "google_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=507752266252204781&hl=en",
+          "response_sha256": "cc38c2a184a189da5cf2d7c09b5d53fb6f844ce35092cc2a5ad8ab5362a1700c",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
+          "total_citations": 21
+        },
+        "semantic_scholar": {
+          "citations_by_citing_year": [],
+          "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
+          "external_id": "be946514fd7b40f54abd86feffeb6cda7060923e",
+          "influential_citations": 1,
+          "paper_id": "usenix-security-2023-account-security-interfaces-important-unintuitiv",
+          "provider": "semantic_scholar",
+          "provider_record_updated_at": null,
+          "request_fingerprint": "GET /paper/be946514fd7b40f54abd86feffeb6cda7060923e?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+          "response_sha256": "2fe07f9c3e042488c6943835640830f4e70a9c3a7f17a69cd8ec45ca664eea81",
+          "retrieved_at": "2026-08-08T18:16:23.806407Z",
+          "total_citations": 15
+        }
+      },
+      "conference": {
+        "aliases": [
+          "USENIX Security"
+        ],
+        "id": "usenix-security",
+        "name": "USENIX Security Symposium",
+        "organizer": "USENIX Association",
+        "short_name": "USENIX Security"
+      },
+      "paper": {
+        "authors": [
+          {
+            "name": "Alaa Daffalla"
+          },
+          {
+            "name": "Marina Bohuk"
+          },
+          {
+            "name": "Nicola Dell"
+          },
+          {
+            "name": "Rosanna Bellini"
+          },
+          {
+            "name": "Thomas Ristenpart"
+          }
+        ],
+        "canonical_title": "Account Security Interfaces: Important, Unintuitive, and Untrustworthy",
+        "id": "usenix-security-2023-account-security-interfaces-important-unintuitiv",
+        "identifiers": [
+          {
+            "scheme": "google_scholar",
+            "source_url": "https://scholar.google.com/scholar?cluster=507752266252204781",
+            "value": "507752266252204781",
+            "verified_at": "2026-08-08T18:07:44Z"
+          },
+          {
+            "scheme": "semantic_scholar",
+            "source_url": "https://www.semanticscholar.org/paper/be946514fd7b40f54abd86feffeb6cda7060923e?utm_source=api",
+            "value": "be946514fd7b40f54abd86feffeb6cda7060923e",
+            "verified_at": "2026-08-08T18:16:13.005547Z"
+          }
+        ],
+        "metadata_sources": [
+          "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+        ],
+        "official_paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/daffalla",
+        "publication_year": 2023,
+        "venue_name": "32nd USENIX Security Symposium"
+      },
+      "primary_topic": null
+    },
+    {
+      "award": {
+        "edition_id": "usenix-security-2023",
         "id": "usenix-security-2023-botscreen-trust-everybody-but-cut-the-aimbots-yo-award",
         "normalized_category": "distinguished_paper",
         "official_source": {
@@ -5236,21 +6033,37 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 5,
+              "year": 2024
+            },
+            {
+              "count": 11,
+              "year": 2025
+            },
+            {
+              "count": 5,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 16,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "17965825181559142203",
           "influential_citations": null,
           "paper_id": "usenix-security-2023-botscreen-trust-everybody-but-cut-the-aimbots-yo",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=a9f2170e80fa401aed8caab6bd7339af4ee24af88ecbba9984ac0d898c8d2917&num=10&hl=en",
-          "response_sha256": "76af7acee636f15428fc29fceef5058dc40347c34b7cfe82e9781869c03d2a69",
-          "retrieved_at": "2026-08-08T18:07:18Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=17965825181559142203&hl=en",
+          "response_sha256": "d2fd4c492a995d2f662731af933a5f836a89092f5382b8ad3ee2896ca7893845",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 21
         },
         "openalex": {
           "citations_by_citing_year": [],
           "citations_first_3_years": 0,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4393633303",
           "influential_citations": null,
           "paper_id": "usenix-security-2023-botscreen-trust-everybody-but-cut-the-aimbots-yo",
@@ -5264,6 +6077,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "9356553497a1f0792300660ad435decabdb29739",
           "influential_citations": 3,
           "paper_id": "usenix-security-2023-botscreen-trust-everybody-but-cut-the-aimbots-yo",
@@ -5350,16 +6164,35 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2022
+            },
+            {
+              "count": 2,
+              "year": 2024
+            },
+            {
+              "count": 12,
+              "year": 2025
+            },
+            {
+              "count": 5,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 14,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "15607192397336165188",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-concurrent-composition-for-interactive-different",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=fe401274867a34343718b9092b0ba0525607bf203fb30046d0d5b9d3817ee09d&num=10&hl=en",
-          "response_sha256": "1a46f1f4f4849cd94e2199cfdf787025f4ebd993bf82fb799b01cf7ab6a181ad",
-          "retrieved_at": "2026-08-08T18:08:21Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=15607192397336165188&hl=en",
+          "response_sha256": "c07bd257aaede6b8ff55600964588f3e7eed8c9908351fdfb7c6ddfe9f75c28d",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 20
         },
         "openalex": {
@@ -5378,6 +6211,7 @@
             }
           ],
           "citations_first_3_years": 4,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4388856861",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-concurrent-composition-for-interactive-different",
@@ -5391,6 +6225,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "34c09a2af1fc5a98f793fd2267ea43c951356ecb",
           "influential_citations": 0,
           "paper_id": "acm-ccs-2023-concurrent-composition-for-interactive-different",
@@ -5495,21 +6330,37 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 4,
+              "year": 2024
+            },
+            {
+              "count": 8,
+              "year": 2025
+            },
+            {
+              "count": 4,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 12,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "15692874715604309705",
           "influential_citations": null,
           "paper_id": "usenix-security-2023-remote-direct-memory-introspection",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=2ca0046267e1d7009212a8c160a0db19fe2e4a22c396be96cd1f0eedf696a0c8&num=10&hl=en",
-          "response_sha256": "c8ffafe3b1bd22b777dd0f4cdd3aad6b2de779c5d90b96ea5e46c8c52bd36806",
-          "retrieved_at": "2026-08-08T18:08:08Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=15692874715604309705&hl=en",
+          "response_sha256": "ebc391ade68e4fa0e45c5de49d8d066938531465489921895b09626c8331c749",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 16
         },
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "7901b79741d948195ae00c67afd3cda1f9b86dc2",
           "influential_citations": 2,
           "paper_id": "usenix-security-2023-remote-direct-memory-introspection",
@@ -5594,16 +6445,35 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 2,
+              "year": 2023
+            },
+            {
+              "count": 3,
+              "year": 2024
+            },
+            {
+              "count": 5,
+              "year": 2025
+            },
+            {
+              "count": 4,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 10,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "6601185334764687073",
           "influential_citations": null,
           "paper_id": "ieee-sp-2023-not-yet-another-digital-id-privacy-preserving-hu",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=50dd617bc0cf37763fd8463384aaf63442aff2931bac2a396e09dec7c5116510&num=10&hl=en",
-          "response_sha256": "69f53ec8375154f9fb688d417433658232aa0451cd4adaed1a414a67c41565fa",
-          "retrieved_at": "2026-08-08T18:07:13Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=6601185334764687073&hl=en",
+          "response_sha256": "afd8bb0761dfc205fca1b1a2358b23a63702fe3d2c934176e0cc4c0b78165e2c",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 14
         },
         "openalex": {
@@ -5626,6 +6496,7 @@
             }
           ],
           "citations_first_3_years": 5,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4385679771",
           "influential_citations": null,
           "paper_id": "ieee-sp-2023-not-yet-another-digital-id-privacy-preserving-hu",
@@ -5639,6 +6510,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "a4ab064c74f06267168472c6006edf5247c25e63",
           "influential_citations": 0,
           "paper_id": "ieee-sp-2023-not-yet-another-digital-id-privacy-preserving-hu",
@@ -5738,16 +6610,35 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2023
+            },
+            {
+              "count": 1,
+              "year": 2024
+            },
+            {
+              "count": 7,
+              "year": 2025
+            },
+            {
+              "count": 5,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 9,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "183481109382956674",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-security-verification-of-low-trust-architectures",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=ca5cd6754502f3977642e4e1a8bff23214dacc57321227d8e6c76768fb71a2ae&num=10&hl=en",
-          "response_sha256": "b9054593fb1a139bdf96b391a2a25e07cba9d499bd41b4038de3ba57e3e14c7a",
-          "retrieved_at": "2026-08-08T18:08:49Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=183481109382956674&hl=en",
+          "response_sha256": "183d19f92caaab97e210a0b81948ef0edb3cee2b66b9a7a8cd79921b6e06eb54",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 14
         },
         "openalex": {
@@ -5766,6 +6657,7 @@
             }
           ],
           "citations_first_3_years": 4,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4386437595",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-security-verification-of-low-trust-architectures",
@@ -5779,6 +6671,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "46956882fbf7a9108a5a9b52793689835ad948a7",
           "influential_citations": 1,
           "paper_id": "acm-ccs-2023-security-verification-of-low-trust-architectures",
@@ -5883,16 +6776,35 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2023
+            },
+            {
+              "count": 3,
+              "year": 2024
+            },
+            {
+              "count": 3,
+              "year": 2025
+            },
+            {
+              "count": 4,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 7,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "4326299532282864888",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-silence-is-not-golden-disrupting-the-load-balanc",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=5dfab6abb769b7f7a7bdd65a10214b15bf5f17ae1587d2d8877bb327ce595a4e&num=10&hl=en",
-          "response_sha256": "43bb9c4730c04ddf20851e8e10697a9f3f082ad600f8f48bcf2695e3c0e928f8",
-          "retrieved_at": "2026-08-08T18:08:49Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=4326299532282864888&hl=en",
+          "response_sha256": "ac9f8fc9e0febe6d839f992a276174103d69f202e709e067c99b09f59f5749d2",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 11
         },
         "openalex": {
@@ -5911,6 +6823,7 @@
             }
           ],
           "citations_first_3_years": 3,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4388858780",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-silence-is-not-golden-disrupting-the-load-balanc",
@@ -5924,6 +6837,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "de3f6a3527581979562436f5148d21a4169a891b",
           "influential_citations": 0,
           "paper_id": "acm-ccs-2023-silence-is-not-golden-disrupting-the-load-balanc",
@@ -6037,16 +6951,35 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 1,
+              "year": 2023
+            },
+            {
+              "count": 4,
+              "year": 2024
+            },
+            {
+              "count": 3,
+              "year": 2025
+            },
+            {
+              "count": 1,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 8,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "2322138418351201436",
           "influential_citations": null,
           "paper_id": "usenix-security-2023-a-bug-s-life-analyzing-the-lifecycle-and-mitigat",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=cd7920a645544343526ab9011d5288b6d89d0e1fad9a258f8624d13bc19c881d&num=10&hl=en",
-          "response_sha256": "64167790a5d302f7feeb0c3a42d1c91346a435dcf174c755c1932565a61b6563",
-          "retrieved_at": "2026-08-08T18:07:45Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=2322138418351201436&hl=en",
+          "response_sha256": "3edb3e554c418cf822f381b94616874eeacb85ddf5336ba2efa6088aab62b7e4",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 9
         },
         "openalex": {
@@ -6057,6 +6990,7 @@
             }
           ],
           "citations_first_3_years": 1,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W7064508335",
           "influential_citations": null,
           "paper_id": "usenix-security-2023-a-bug-s-life-analyzing-the-lifecycle-and-mitigat",
@@ -6070,6 +7004,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "f8fb22ca7c6bd26c94803854d9e4afab4591e2cd",
           "influential_citations": 0,
           "paper_id": "usenix-security-2023-a-bug-s-life-analyzing-the-lifecycle-and-mitigat",
@@ -6159,16 +7094,27 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 2,
+              "year": 2025
+            },
+            {
+              "count": 6,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 2,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "8519696803946749968",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-specverilog-adapting-information-flow-control-fo",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=0d45475fe72b5d983472244900f896c953633a4ec743a3296b6bbd2e08f10d26&num=10&hl=en",
-          "response_sha256": "8129469201a2d7de653b370f45387bce01f4d4a421dff6c45746789c1efa2f98",
-          "retrieved_at": "2026-08-08T18:08:54Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=8519696803946749968&hl=en",
+          "response_sha256": "7a88ac376ae10090cee6d7abdf52d43056a15a07f23158a6e48ea4bebf6be929",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 8
         },
         "openalex": {
@@ -6183,6 +7129,7 @@
             }
           ],
           "citations_first_3_years": 1,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4388858465",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-specverilog-adapting-information-flow-control-fo",
@@ -6196,6 +7143,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "98f5be384d3279545af9b94284995b430c848aaf",
           "influential_citations": 0,
           "paper_id": "acm-ccs-2023-specverilog-adapting-information-flow-control-fo",
@@ -6291,21 +7239,37 @@
       },
       "citations": {
         "google_scholar": {
-          "citations_by_citing_year": [],
-          "citations_first_3_years": null,
+          "citations_by_citing_year": [
+            {
+              "count": 2,
+              "year": 2024
+            },
+            {
+              "count": 4,
+              "year": 2025
+            },
+            {
+              "count": 1,
+              "year": 2026
+            }
+          ],
+          "citations_first_3_years": 6,
+          "citing_years_retrieved_at": "2026-08-09T05:36:36.847658+00:00",
           "external_id": "11970110104579043092",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-amplification-by-shuffling-without-shuffling",
           "provider": "google_scholar",
           "provider_record_updated_at": null,
-          "request_fingerprint": "GET /search.json?engine=google_scholar&q_sha256=af849db17db5203162fc925dc78a181cb0b8498d532a8e67c4f73d25a07d4e07&num=10&hl=en",
-          "response_sha256": "005732381db17cd627595d10e9c9a78b18864128ee25771ff142f38ad58b8fd6",
-          "retrieved_at": "2026-08-08T18:08:13Z",
+          "request_fingerprint": "GET /search.json?engine=google_scholar&cites=11970110104579043092&hl=en",
+          "response_sha256": "e416833983afb7febf407a3876ae801dc05cdc6d5504dd56c72a979f711049b0",
+          "retrieval_service": "serpapi",
+          "retrieved_at": "2026-08-09T05:36:36.847658Z",
           "total_citations": 7
         },
         "openalex": {
           "citations_by_citing_year": [],
           "citations_first_3_years": 0,
+          "citing_years_retrieved_at": "2026-08-08T10:25:46.712845+00:00",
           "external_id": "W4388857216",
           "influential_citations": null,
           "paper_id": "acm-ccs-2023-amplification-by-shuffling-without-shuffling",
@@ -6319,6 +7283,7 @@
         "semantic_scholar": {
           "citations_by_citing_year": [],
           "citations_first_3_years": null,
+          "citing_years_retrieved_at": null,
           "external_id": "5375ea4866ac4f4588aad28acf508a844e2a68cb",
           "influential_citations": 0,
           "paper_id": "acm-ccs-2023-amplification-by-shuffling-without-shuffling",

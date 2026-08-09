@@ -106,6 +106,36 @@
         "response_sha256": "1cf8855aa7fe3b66e9790b0147c8969bee07ed4c4d31176bfcc157b604163e67",
         "retrieved_at": "2026-08-08T18:07:14Z",
         "total_citations": 38
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2023
+          },
+          {
+            "count": 7,
+            "year": 2024
+          },
+          {
+            "count": 19,
+            "year": 2025
+          },
+          {
+            "count": 11,
+            "year": 2026
+          }
+        ],
+        "external_id": "691412144635927069",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2023-in-eighty-percent-of-the-cases-i-select-the-pass",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=691412144635927069&hl=en",
+        "response_sha256": "4819a04a2bd02e109c4ecf6fee853e7b8eb28b83c1f28cf290203e7340ebb795",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T05:36:36.847658Z",
+        "total_citations": 38
       }
     ],
     "openalex": [
@@ -237,7 +267,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T18:16:23.806407+00:00",
+  "generated_at": "2026-08-09T05:36:36.847658+00:00",
   "paper": {
     "authors": [
       {

@@ -106,6 +106,36 @@
         "response_sha256": "47077ec61de9b2300c415e8612b54d31fa740345838d2e4752caedf3bea2cfac",
         "retrieved_at": "2026-08-08T18:07:34Z",
         "total_citations": 487
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 48,
+            "year": 2023
+          },
+          {
+            "count": 135,
+            "year": 2024
+          },
+          {
+            "count": 185,
+            "year": 2025
+          },
+          {
+            "count": 116,
+            "year": 2026
+          }
+        ],
+        "external_id": "12442642277246861451",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-glaze-protecting-artists-from-style-mimicry-by-t",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=12442642277246861451&hl=en",
+        "response_sha256": "c609336e22527435ca0015cc535b76d1ba82809790f846ecb670d8ec36d992cc",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T05:36:36.847658Z",
+        "total_citations": 487
       }
     ],
     "openalex": [
@@ -232,7 +262,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T18:16:23.806407+00:00",
+  "generated_at": "2026-08-09T05:36:36.847658+00:00",
   "paper": {
     "authors": [
       {

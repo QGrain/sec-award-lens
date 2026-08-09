@@ -48,15 +48,28 @@ fetch their pinned IDs directly. Search is a separate command.
 
 Google Scholar, OpenAlex, and Semantic Scholar observations are independent series.
 Google Scholar is preferred in the interface once reviewed snapshots exist, but it is
-obtained through the third-party SerpApi service because Google provides no official
-public Scholar API. Every observation contains the provider,
+obtained through a third-party retrieval service because Google provides no official
+public Scholar API. SerpApi is preferred; ScraperAPI is a validated fallback for
+current totals. Every observation contains the provider,
 external work ID, UTC retrieval time, total citations, citations grouped by the
 publication year of citing works where available, provider record update time,
-response digest, and request fingerprint. Files in `data/snapshots/` are append-only.
+retrieval service where known, response digest, and request fingerprint. Files in
+`data/snapshots/` are append-only.
 
 “Citations by citing year” is not a historical counter: later provider corrections
 can alter the allocation. True counter growth comes from comparing independent
 snapshots over time.
+
+The initial Google Scholar baseline reused each reviewed title-search response to
+avoid spending a second SerpApi search during discovery. Those discovery responses
+contained the current total but not `citations_per_year`, so their yearly arrays are
+empty. Routine SerpApi refreshes query the pinned numeric `cites_id` and populate the
+yearly series when that field is returned. ScraperAPI's HTML fallback supplies only
+the current total, so a fallback observation can legitimately have no yearly series.
+The static comparison data derives age-window metrics from the most recent observation
+that contains a citing-year series and records that series' retrieval timestamp. A
+later total-only fallback therefore updates the current count without erasing an
+already observed age-window metric.
 
 ## Comparisons
 
@@ -81,6 +94,9 @@ counts differ. Small samples remain visible; for example, NDSS has only two incl
   preprint, and conference versions differently; a larger count is broader, not an
   independently verified ground truth.
 - SerpApi is a paid-quota, third-party parser whose response contract can change when
-  Google Scholar changes its result pages.
+  Google Scholar changes its result pages. SerpApi is the preferred retrieval service;
+  ScraperAPI is a current-total-only fallback and is recorded separately in provenance.
+- The first Google Scholar baseline has no citing-year histogram because it was
+  derived from discovery responses; this is a missing field, not a zero-valued series.
 - A calendar-year window is coarser than an exact publication-date window.
 - Cross-provider counts are not interchangeable and should not be combined.

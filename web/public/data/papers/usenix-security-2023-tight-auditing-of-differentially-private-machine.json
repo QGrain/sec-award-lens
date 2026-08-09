@@ -141,6 +141,40 @@
         "response_sha256": "b6c6b84ae891dcd370fb782a2f50948067f33fc7205bc47ddc0996d3a46233c3",
         "retrieved_at": "2026-08-08T18:07:32Z",
         "total_citations": 185
+      },
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2022
+          },
+          {
+            "count": 17,
+            "year": 2023
+          },
+          {
+            "count": 56,
+            "year": 2024
+          },
+          {
+            "count": 68,
+            "year": 2025
+          },
+          {
+            "count": 44,
+            "year": 2026
+          }
+        ],
+        "external_id": "282081925352010567",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2023-tight-auditing-of-differentially-private-machine",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=282081925352010567&hl=en",
+        "response_sha256": "169956a8376ebe12c0c1e3a1a0c41628532b56979279df8fbe12f906a1a9b20d",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-09T05:36:36.847658Z",
+        "total_citations": 186
       }
     ],
     "openalex": [
@@ -257,7 +291,7 @@
     "provider": "openalex",
     "retrieved_at": "2026-08-08T05:07:19Z"
   },
-  "generated_at": "2026-08-08T18:16:23.806407+00:00",
+  "generated_at": "2026-08-09T05:36:36.847658+00:00",
   "paper": {
     "authors": [
       {

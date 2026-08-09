@@ -7,7 +7,7 @@ from typing import Any
 
 import httpx
 
-from ..models import CitationObservation, CitationProvider, utc_now
+from ..models import CitationObservation, CitationProvider, CitationRetrievalService, utc_now
 from ..normalization import normalize_doi
 from .base import ProviderPaper
 from .http import JsonApiClient
@@ -88,6 +88,7 @@ class SemanticScholarClient(JsonApiClient):
             retrieved_at=retrieved_at or utc_now(),
             total_citations=paper.citation_count or 0,
             influential_citations=paper.influential_citation_count,
+            retrieval_service=CitationRetrievalService.SEMANTIC_SCHOLAR,
             response_sha256=hashlib.sha256(raw_bytes).hexdigest(),
             request_fingerprint=f"GET /paper/{paper.external_id}?fields={self.FIELDS}",
         )
