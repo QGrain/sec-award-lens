@@ -17,7 +17,9 @@ function ThemeIcon({ theme }: { theme: ThemePreference }) {
 export function Shell({ children, updatedAt }: { children: ReactNode; updatedAt?: string }) {
   const { language, locale, setLanguage, setTheme, theme } = usePreferences();
   const [themeMenuOpen, setThemeMenuOpen] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const themePicker = useRef<HTMLDivElement>(null);
+  const headerActions = useRef<HTMLDivElement>(null);
   const text = language === "zh" ? {
     home: "SecAwardLens 首页",
     rankings: "论文与排名",
@@ -34,7 +36,7 @@ export function Shell({ children, updatedAt }: { children: ReactNode; updatedAt?
     license: "代码采用 Apache-2.0；上游数据遵循各自条款",
     s2: "Semantic Scholar API 支持与署名",
     siteViews: "全站访问量",
-    trafficTitle: "由隐私友好的 GoatCounter 提供访问统计",
+    trafficTitle: "由隐私友好的 GoatCounter 提供；公开计数最多延迟 4 小时",
   } : {
     home: "SecAwardLens home",
     rankings: "Papers & rankings",
@@ -51,7 +53,7 @@ export function Shell({ children, updatedAt }: { children: ReactNode; updatedAt?
     license: "Code Apache-2.0 · Upstream data retains provider terms",
     s2: "Semantic Scholar API support and attribution",
     siteViews: "Site views",
-    trafficTitle: "Privacy-friendly traffic statistics by GoatCounter",
+    trafficTitle: "Privacy-friendly statistics by GoatCounter; public counts may lag by up to 4 hours",
   };
   const themes: { id: ThemePreference; label: string }[] = [
     { id: "light", label: text.light },
@@ -62,9 +64,13 @@ export function Shell({ children, updatedAt }: { children: ReactNode; updatedAt?
   useEffect(() => {
     const closeOnOutsideClick = (event: MouseEvent) => {
       if (!themePicker.current?.contains(event.target as Node)) setThemeMenuOpen(false);
+      if (!headerActions.current?.contains(event.target as Node)) setMobileMenuOpen(false);
     };
     const closeOnEscape = (event: KeyboardEvent) => {
-      if (event.key === "Escape") setThemeMenuOpen(false);
+      if (event.key === "Escape") {
+        setThemeMenuOpen(false);
+        setMobileMenuOpen(false);
+      }
     };
     document.addEventListener("mousedown", closeOnOutsideClick);
     document.addEventListener("keydown", closeOnEscape);
@@ -83,12 +89,22 @@ export function Shell({ children, updatedAt }: { children: ReactNode; updatedAt?
           <span className="brand-mark" aria-hidden="true"><i /><i /><i /></span>
           <span>SecAward<span>Lens</span></span>
         </button>
-        <div className="header-actions">
-          <nav aria-label={language === "zh" ? "主导航" : "Main navigation"}>
-            <a href="#/">{text.rankings}</a>
-            <a href="#/methodology">{text.methodology}</a>
-            <a href="#/acknowledgements">{text.acknowledgements}</a>
-            <a href={repositoryUrl} target="_blank" rel="noreferrer">GitHub ↗</a>
+        <div className="header-actions" ref={headerActions}>
+          <button
+            className="mobile-nav-trigger"
+            type="button"
+            aria-label={language === "zh" ? "打开主导航" : "Open main navigation"}
+            aria-haspopup="menu"
+            aria-expanded={mobileMenuOpen}
+            onClick={() => setMobileMenuOpen((open) => !open)}
+          >
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 5.5h14M3 10h14M3 14.5h14" /></svg>
+          </button>
+          <nav className={`main-nav${mobileMenuOpen ? " open" : ""}`} aria-label={language === "zh" ? "主导航" : "Main navigation"}>
+            <a href="#/" onClick={() => setMobileMenuOpen(false)}>{text.rankings}</a>
+            <a href="#/methodology" onClick={() => setMobileMenuOpen(false)}>{text.methodology}</a>
+            <a href="#/acknowledgements" onClick={() => setMobileMenuOpen(false)}>{text.acknowledgements}</a>
+            <a href={repositoryUrl} target="_blank" rel="noreferrer" onClick={() => setMobileMenuOpen(false)}>GitHub ↗</a>
           </nav>
           <div className="preference-controls">
             <div className="theme-picker" ref={themePicker}>

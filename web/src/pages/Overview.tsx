@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { EChartsCoreOption } from "echarts/core";
 import { Chart } from "../components/Chart";
 import { ConferenceSummary } from "../components/ConferenceSummary";
@@ -22,7 +22,7 @@ const colors: Record<string, string> = {
 
 const PAGE_SIZE = 12;
 type Metric = "total" | "c3";
-type ComparisonView = "typical" | "range" | "sensitivity" | "age";
+type ComparisonView = "typical" | "range" | "sensitivity" | "age" | "ranking";
 type DisplayRow = RankingRow & { citation: Citation | null };
 
 function valueFor(row: DisplayRow, metric: Metric) {
@@ -54,6 +54,63 @@ function fiveNumber(values: number[]) {
   return [ordered[0], median(lower) ?? 0, median(ordered) ?? 0, median(upper) ?? 0, ordered.at(-1) ?? 0];
 }
 
+function YearPicker({
+  label,
+  value,
+  years,
+  onChange,
+}: {
+  label: string;
+  value: number;
+  years: number[];
+  onChange: (year: number) => void;
+}) {
+  const [open, setOpen] = useState(false);
+  const picker = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const closeOnOutsideClick = (event: MouseEvent) => {
+      if (!picker.current?.contains(event.target as Node)) setOpen(false);
+    };
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setOpen(false);
+    };
+    document.addEventListener("mousedown", closeOnOutsideClick);
+    document.addEventListener("keydown", closeOnEscape);
+    return () => {
+      document.removeEventListener("mousedown", closeOnOutsideClick);
+      document.removeEventListener("keydown", closeOnEscape);
+    };
+  }, []);
+  return <div className="year-picker" ref={picker}>
+    <button
+      className="year-trigger"
+      type="button"
+      aria-label={`${label}: ${value}`}
+      aria-haspopup="listbox"
+      aria-expanded={open}
+      onClick={() => setOpen((current) => !current)}
+    >
+      <span>{value}</span>
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m4 6 4 4 4-4" /></svg>
+    </button>
+    {open && <div className="year-menu" role="listbox" aria-label={label}>
+      {years.map((year) => <button
+        type="button"
+        role="option"
+        aria-selected={year === value}
+        className={year === value ? "active" : ""}
+        key={year}
+        onClick={() => {
+          onChange(year);
+          setOpen(false);
+        }}
+      >
+        <span>{year}</span><i aria-hidden="true">✓</i>
+      </button>)}
+    </div>}
+  </div>;
+}
+
 function ComparisonCharts({ rows, metric }: { rows: DisplayRow[]; metric: Metric }) {
   const { language, resolvedTheme } = usePreferences();
   const text = language === "zh" ? {
@@ -62,6 +119,7 @@ function ComparisonCharts({ rows, metric }: { rows: DisplayRow[]; metric: Metric
     range: "对数范围",
     sensitivity: "逐篇剔除敏感性",
     age: "固定年限窗口",
+    ranking: "引用量排行",
     citations: "引用量",
     median: "中位数",
     average: "平均值",
@@ -70,17 +128,20 @@ function ComparisonCharts({ rows, metric }: { rows: DisplayRow[]; metric: Metric
     medianCitations: "引用中位数",
     citationsLog: "引用量 + 1（对数尺度）",
     meanChange: "剔除一篇论文后会议平均值的变化",
+    meanChangeShort: "平均值变化",
     min: "最小值",
     q1: "Q1",
     med: "中位数",
     q3: "Q3",
     max: "最大值",
     change: "剔除后的平均值变化",
+    rankAxis: "排名",
     descriptions: {
       typical: "中位数与平均值描述典型获奖论文，不把某会议的获奖数量误当作影响力。",
       range: "引用量 + 1 的对数尺度五数概括可展示偏态与离群值；箱体中心线为中位数。",
       sensitivity: "每个点表示剔除该论文后会议平均值的变化。这是敏感性分析，并非预测性留一交叉验证。",
       age: "固定三年窗口为论文提供相同的引用积累时间；当前引用量仍有用，但受论文年龄影响。",
+      ranking: "每根竖线代表一篇获奖论文，顶点表示引用量；颜色用于区分会议，横轴按当前引用指标降序排列。",
     },
   } : {
     aria: "Conference comparison view",
@@ -88,6 +149,7 @@ function ComparisonCharts({ rows, metric }: { rows: DisplayRow[]; metric: Metric
     range: "Log range",
     sensitivity: "Leave-one-out sensitivity",
     age: "Age window",
+    ranking: "Citation ranking",
     citations: "Citations",
     median: "Median",
     average: "Average",
@@ -96,20 +158,30 @@ function ComparisonCharts({ rows, metric }: { rows: DisplayRow[]; metric: Metric
     medianCitations: "Median citations",
     citationsLog: "Citations + 1 (log scale)",
     meanChange: "Change in conference mean if one paper is removed",
+    meanChangeShort: "Mean change",
     min: "min",
     q1: "Q1",
     med: "median",
     q3: "Q3",
     max: "max",
     change: "mean change if removed",
+    rankAxis: "Rank",
     descriptions: {
       typical: "Median and average describe a typical awarded paper without treating a conference’s number of awards as impact.",
       range: "A five-number range on a citations + 1 log scale makes skew and outliers visible; the center line is the median.",
       sensitivity: "Each point shows how much a conference mean changes when that paper is removed. This is sensitivity analysis, not predictive cross-validation.",
       age: "The fixed three-year window gives papers the same citation-age budget; current counts remain useful but are age-dependent.",
+      ranking: "Each stem represents one awarded paper and its dot marks the citation count; colors identify conferences and papers are ordered by the selected metric.",
     },
   };
   const [view, setView] = useState<ComparisonView>("typical");
+  const [narrow, setNarrow] = useState(() => window.matchMedia("(max-width: 620px)").matches);
+  useEffect(() => {
+    const query = window.matchMedia("(max-width: 620px)");
+    const update = () => setNarrow(query.matches);
+    query.addEventListener("change", update);
+    return () => query.removeEventListener("change", update);
+  }, []);
   const hasAgeWindow = rows.some((row) => row.citation?.citations_first_3_years != null);
   useEffect(() => {
     if (!hasAgeWindow && view === "age") setView("typical");
@@ -122,13 +194,80 @@ function ComparisonCharts({ rows, metric }: { rows: DisplayRow[]; metric: Metric
 
   const option = useMemo<EChartsCoreOption>(() => {
     const labels = groups.map(({ conference }) => conference.short_name);
+    const chartLabels = narrow
+      ? labels.map((label) => label === "USENIX Security" ? "USENIX" : label)
+      : labels;
     const values = groups.map((group) => group.rows.map((row) => valueFor(row, metric) as number));
-    const grid = { left: 75, right: 35, top: 45, bottom: 55, containLabel: true };
+    const grid = { left: narrow ? 12 : 75, right: narrow ? 12 : 35, top: narrow ? 55 : 45, bottom: narrow ? 72 : 55, containLabel: true };
     const dark = resolvedTheme === "dark";
     const splitLine = { lineStyle: { color: dark ? "#344740" : "#dce5df" } };
     const axisLabel = { color: dark ? "#a9bcb5" : "#53655f" };
+    const categoryAxisLabel = { ...axisLabel, interval: 0, rotate: narrow ? 22 : 0, fontSize: narrow ? 10 : 12 };
     const axisNameTextStyle = { color: dark ? "#a9bcb5" : "#53655f" };
     const tooltip = { backgroundColor: dark ? "#172a24" : "#fff", borderColor: dark ? "#42574f" : "#d5dfd8", textStyle: { color: dark ? "#edf5f1" : "#152a24" } };
+
+    if (view === "ranking") {
+      const ranked = [...rows]
+        .filter((row) => valueFor(row, metric) !== null)
+        .sort((a, b) => (valueFor(b, metric) ?? 0) - (valueFor(a, metric) ?? 0));
+      const ranks = ranked.map((_, index) => String(index + 1));
+      const interval = Math.max(0, Math.ceil(ranked.length / (narrow ? 6 : 12)) - 1);
+      const series = groups.flatMap(({ conference }) => {
+        const data = ranked.map((row) => row.conference.id === conference.id ? {
+          value: valueFor(row, metric),
+          paper: row.paper.canonical_title,
+          conference: conference.short_name,
+        } : null);
+        return [
+          {
+            type: "bar",
+            name: conference.short_name,
+            data,
+            barWidth: 2,
+            barGap: "-100%",
+            itemStyle: { color: colors[conference.id], opacity: .48 },
+            emphasis: { itemStyle: { opacity: .78 } },
+            silent: true,
+          },
+          {
+            type: "scatter",
+            name: conference.short_name,
+            data,
+            symbolSize: narrow ? 7 : 9,
+            itemStyle: { color: colors[conference.id], borderColor: dark ? "#172a24" : "#fff", borderWidth: 1.5 },
+            emphasis: { scale: 1.55 },
+            z: 3,
+          },
+        ];
+      });
+      return {
+        animationDuration: 500,
+        grid: { ...grid, top: narrow ? 82 : 62 },
+        tooltip: {
+          trigger: "item",
+          formatter: (params: unknown) => {
+            const point = params as { data: { paper: string; conference: string; value: number }; dataIndex: number };
+            if (!point.data?.paper) return "";
+            return `<b>#${point.dataIndex + 1} · ${point.data.conference}</b><br>${point.data.paper}<br>${text.citations}: ${point.data.value}`;
+          },
+          ...tooltip,
+        },
+        legend: { data: groups.map(({ conference }) => conference.short_name), top: 3, right: narrow ? "center" : 4, textStyle: axisLabel, itemWidth: 12, itemHeight: 8 },
+        xAxis: {
+          type: "category",
+          data: ranks,
+          name: text.rankAxis,
+          nameLocation: "middle",
+          nameGap: 34,
+          boundaryGap: true,
+          axisTick: { show: false },
+          axisLabel: { ...axisLabel, interval, showMinLabel: true, showMaxLabel: true },
+          nameTextStyle: axisNameTextStyle,
+        },
+        yAxis: { type: "value", name: text.citations, min: 0, minInterval: 1, splitLine, axisLabel, nameTextStyle: axisNameTextStyle },
+        series,
+      };
+    }
 
     if (view === "range") {
       return {
@@ -153,7 +292,7 @@ function ComparisonCharts({ rows, metric }: { rows: DisplayRow[]; metric: Metric
           axisLabel: { ...axisLabel, formatter: (value: number) => String(Math.max(0, value - 1)) },
           nameTextStyle: axisNameTextStyle,
         },
-        yAxis: { type: "category", data: labels, axisTick: { show: false }, axisLine: { show: false }, axisLabel },
+        yAxis: { type: "category", data: chartLabels, axisTick: { show: false }, axisLine: { show: false }, axisLabel: { ...axisLabel, interval: 0, fontSize: narrow ? 10 : 12 } },
         series: [{
           type: "boxplot",
           data: values.map((items, index) => ({
@@ -190,14 +329,14 @@ function ComparisonCharts({ rows, metric }: { rows: DisplayRow[]; metric: Metric
         },
         xAxis: {
           type: "value",
-          name: text.meanChange,
+          name: narrow ? text.meanChangeShort : text.meanChange,
           nameLocation: "middle",
           nameGap: 34,
           splitLine,
           axisLabel,
           nameTextStyle: axisNameTextStyle,
         },
-        yAxis: { type: "category", data: labels, axisTick: { show: false }, axisLine: { show: false }, axisLabel },
+        yAxis: { type: "category", data: chartLabels, axisTick: { show: false }, axisLine: { show: false }, axisLabel: { ...axisLabel, interval: 0, fontSize: narrow ? 10 : 12 } },
         series: [{
           type: "scatter",
           data: points,
@@ -215,7 +354,7 @@ function ComparisonCharts({ rows, metric }: { rows: DisplayRow[]; metric: Metric
         grid,
         tooltip: { trigger: "axis", axisPointer: { type: "shadow" }, ...tooltip },
         legend: { top: 4, textStyle: axisLabel },
-        xAxis: { type: "category", data: labels, axisTick: { show: false }, axisLabel },
+        xAxis: { type: "category", data: chartLabels, axisTick: { show: false }, axisLabel: categoryAxisLabel },
         yAxis: { type: "value", name: text.medianCitations, minInterval: 1, splitLine, axisLabel, nameTextStyle: axisNameTextStyle },
         series: [
           { type: "bar", name: text.current, data: current, itemStyle: { color: dark ? "#7aa99b" : "#19342c" }, barMaxWidth: 34 },
@@ -229,14 +368,14 @@ function ComparisonCharts({ rows, metric }: { rows: DisplayRow[]; metric: Metric
       grid,
       tooltip: { trigger: "axis", axisPointer: { type: "shadow" }, ...tooltip },
       legend: { top: 4, textStyle: axisLabel },
-      xAxis: { type: "category", data: labels, axisTick: { show: false }, axisLabel },
+      xAxis: { type: "category", data: chartLabels, axisTick: { show: false }, axisLabel: categoryAxisLabel },
       yAxis: { type: "value", name: text.citations, minInterval: 1, splitLine, axisLabel, nameTextStyle: axisNameTextStyle },
       series: [
         { type: "bar", name: text.median, data: values.map((items) => median(items)), itemStyle: { color: dark ? "#7aa99b" : "#19342c" }, barMaxWidth: 34 },
         { type: "bar", name: text.average, data: values.map((items) => items.length ? items.reduce((sum, value) => sum + value, 0) / items.length : null), itemStyle: { color: "#45d6ad" }, barMaxWidth: 34 },
       ],
     };
-  }, [groups, metric, resolvedTheme, text, view]);
+  }, [groups, metric, narrow, resolvedTheme, rows, text, view]);
 
   return (
     <>
@@ -245,9 +384,10 @@ function ComparisonCharts({ rows, metric }: { rows: DisplayRow[]; metric: Metric
         <button className={view === "range" ? "active" : ""} onClick={() => setView("range")}>{text.range}</button>
         <button className={view === "sensitivity" ? "active" : ""} onClick={() => setView("sensitivity")}>{text.sensitivity}</button>
         <button disabled={!hasAgeWindow} className={view === "age" ? "active" : ""} onClick={() => setView("age")}>{text.age}</button>
+        <button className={view === "ranking" ? "active" : ""} onClick={() => setView("ranking")}>{text.ranking}</button>
       </div>
       <p className="comparison-note">{text.descriptions[view]}</p>
-      <Chart option={option} height={360} label={`${view} conference citation comparison`} />
+      <Chart option={option} height={narrow ? 420 : 380} label={`${view} conference citation comparison`} />
     </>
   );
 }
@@ -441,12 +581,7 @@ export function Overview({
       </section>
 
       <section className="control-bar">
-        <div className="control-group"><span>{text.year}</span><label className="year-picker">
-          <select value={data.year} onChange={(event) => onYearChange(Number(event.target.value))} aria-label={text.year}>
-            {yearOptions.map((year) => <option value={year} key={year}>{year}</option>)}
-          </select>
-          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m4 6 4 4 4-4" /></svg>
-        </label></div>
+        <div className="control-group"><span>{text.year}</span><YearPicker label={text.year} value={data.year} years={yearOptions} onChange={onYearChange} /></div>
         <div className="conference-toggles" aria-label={text.filter}>
           {conferences.map((conference) => <button key={conference.id} className={active.has(conference.id) ? "active" : ""} onClick={() => toggle(conference.id)}><i style={{ background: colors[conference.id] }} />{conference.short_name}</button>)}
         </div>
