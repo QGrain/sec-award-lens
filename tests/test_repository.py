@@ -119,3 +119,22 @@ def test_google_scholar_default_falls_back_when_its_snapshot_is_absent(tmp_path)
     index = json.loads((output / "index.json").read_text())
     assert index["citation_sources"] == ["openalex", "semantic_scholar"]
     assert index["preferred_citation_source"] == "openalex"
+
+
+def test_social_sharing_card_is_crawler_visible_and_correctly_sized() -> None:
+    root = repository_root()
+    html = (root / "web/index.html").read_text()
+    image_url = "https://qgrain.github.io/sec-award-lens/social-card.png"
+    for marker in (
+        '<link rel="canonical" href="https://qgrain.github.io/sec-award-lens/"',
+        '<meta property="og:title"',
+        f'<meta property="og:image" content="{image_url}"',
+        '<meta name="twitter:card" content="summary_large_image"',
+        f'<meta name="twitter:image" content="{image_url}"',
+    ):
+        assert marker in html
+
+    image = (root / "web/public/social-card.png").read_bytes()
+    assert image[:8] == b"\x89PNG\r\n\x1a\n"
+    assert int.from_bytes(image[16:20]) == 1200
+    assert int.from_bytes(image[20:24]) == 630
