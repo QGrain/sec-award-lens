@@ -1,0 +1,288 @@
+{
+  "awards": [
+    {
+      "edition_id": "ndss-2021",
+      "id": "ndss-2021-awakening-the-webs-sleeping-agents-misusing-service-workers-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "009d16b2ba7edade13f14cdf31350a8a3f739ec1f06944ec21fecb041d7a7a9d",
+        "parser_version": "2021.1",
+        "retrieved_at": "2026-08-13T17:32:15Z",
+        "url": "https://www.ndss-symposium.org/ndss2021/"
+      },
+      "paper_id": "ndss-2021-awakening-the-webs-sleeping-agents-misusing-service-workers",
+      "raw_authors": "Soroush Karami, Panagiotis Ilia, Jason Polakis (University of Illinois at Chicago)",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "Awakening the Web’s Sleeping Agents: Misusing Service Workers for Privacy Leakage"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 1.0,
+      "external_id": "W3138855186",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "ndss-2021-awakening-the-webs-sleeping-agents-misusing-service-workers",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Reviewed against DOI or exact title, author, year, venue/location, and official-source evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.14722/ndss.2021.23104",
+        "external_id": "W3138855186",
+        "publication_year": 2021,
+        "title": "Awakening the Web's Sleeper Agents: Misusing Service Workers for Privacy Leakage",
+        "title_similarity": 1.0,
+        "venue": null,
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-13T18:20:00Z",
+      "verified_by": "SecAwardLens OpenAlex resolver"
+    },
+    {
+      "confidence": 1.0,
+      "external_id": "6711f5193c901287e61a264953c4c72946251a65",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "ndss-2021-awakening-the-webs-sleeping-agents-misusing-service-workers",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.14722/ndss.2021.23104",
+        "external_id": "6711f5193c901287e61a264953c4c72946251a65",
+        "publication_year": 2021,
+        "title": "Awakening the Web's Sleeper Agents: Misusing Service Workers for Privacy Leakage",
+        "title_similarity": 1.0,
+        "venue": "Network and Distributed System Security Symposium",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-13T18:20:00Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "12628487557048849585",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "ndss-2021-awakening-the-webs-sleeping-agents-misusing-service-workers",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Reviewed from SerpApi results; the pinned numeric cluster is used for refreshes without title rematching.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "12628487557048849585",
+        "publication_year": 2021,
+        "title": "Awakening the web's sleeper agents: Misusing service workers for privacy leakage",
+        "title_similarity": 1.0,
+        "venue": "Network and Distributed System Security Symposium",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-13T18:20:00Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    }
+  ],
+  "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 9,
+            "year": 2021
+          },
+          {
+            "count": 11,
+            "year": 2022
+          },
+          {
+            "count": 8,
+            "year": 2023
+          },
+          {
+            "count": 4,
+            "year": 2024
+          },
+          {
+            "count": 9,
+            "year": 2025
+          },
+          {
+            "count": 5,
+            "year": 2026
+          }
+        ],
+        "external_id": "12628487557048849585",
+        "influential_citations": null,
+        "paper_id": "ndss-2021-awakening-the-webs-sleeping-agents-misusing-service-workers",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=12628487557048849585&hl=en",
+        "response_sha256": "ee516faa59b37cc0d39ff626e9ad1ecb3e759aa7e5d4d4448d31047ca95f8f29",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-13T17:48:57.832773Z",
+        "total_citations": 46
+      }
+    ],
+    "openalex": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 9,
+            "year": 2021
+          },
+          {
+            "count": 7,
+            "year": 2022
+          },
+          {
+            "count": 4,
+            "year": 2023
+          },
+          {
+            "count": 1,
+            "year": 2024
+          },
+          {
+            "count": 3,
+            "year": 2025
+          }
+        ],
+        "external_id": "W3138855186",
+        "influential_citations": null,
+        "paper_id": "ndss-2021-awakening-the-webs-sleeping-agents-misusing-service-workers",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-08T01:25:22.217667",
+        "request_fingerprint": "GET /works/W3138855186?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "017c9edee79b2ee763b1290554630b339b33a4e03647ce27a719866e76dceaf9",
+        "retrieval_service": "openalex",
+        "retrieved_at": "2026-08-13T17:46:15.535852Z",
+        "total_citations": 24
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "6711f5193c901287e61a264953c4c72946251a65",
+        "influential_citations": 2,
+        "paper_id": "ndss-2021-awakening-the-webs-sleeping-agents-misusing-service-workers",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/6711f5193c901287e61a264953c4c72946251a65?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "a7164fb42784edaf741cdf57119e97c723371cd016f347d0d8dc0dfee921d560",
+        "retrieval_service": "semantic_scholar",
+        "retrieved_at": "2026-08-13T17:46:15.535852Z",
+        "total_citations": 42
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [
+          {
+            "display_name": "University of Illinois Chicago",
+            "openalex_id": "I39422238",
+            "ror": "https://ror.org/02mpq6x41"
+          }
+        ],
+        "author_name": "Soroush Karami",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5062764290"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "University of Illinois Chicago",
+            "openalex_id": "I39422238",
+            "ror": "https://ror.org/02mpq6x41"
+          }
+        ],
+        "author_name": "Panagiotis Ilia",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5020533270"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "University of Illinois Chicago",
+            "openalex_id": "I39422238",
+            "ror": "https://ror.org/02mpq6x41"
+          }
+        ],
+        "author_name": "Jason Polakis",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5018209439"
+      }
+    ],
+    "external_id": "W3138855186",
+    "paper_id": "ndss-2021-awakening-the-webs-sleeping-agents-misusing-service-workers",
+    "primary_topic": {
+      "display_name": "Internet Traffic Analysis and Secure E-voting",
+      "openalex_id": "T11598",
+      "score": 0.9998000264167786
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-13T18:20:00Z"
+  },
+  "generated_at": "2026-08-13T17:48:57.832773+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Soroush Karami"
+      },
+      {
+        "name": "Panagiotis Ilia"
+      },
+      {
+        "name": "Jason Polakis"
+      }
+    ],
+    "canonical_title": "Awakening the Web's Sleeper Agents: Misusing Service Workers for Privacy Leakage",
+    "id": "ndss-2021-awakening-the-webs-sleeping-agents-misusing-service-workers",
+    "identifiers": [
+      {
+        "scheme": "doi",
+        "source_url": "https://doi.org/10.14722/ndss.2021.23104",
+        "value": "10.14722/ndss.2021.23104",
+        "verified_at": "2026-08-13T17:32:15Z"
+      },
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W3138855186",
+        "value": "W3138855186",
+        "verified_at": "2026-08-13T18:20:00Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/6711f5193c901287e61a264953c4c72946251a65?utm_source=api",
+        "value": "6711f5193c901287e61a264953c4c72946251a65",
+        "verified_at": "2026-08-13T18:20:00Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=12628487557048849585",
+        "value": "12628487557048849585",
+        "verified_at": "2026-08-13T18:20:00Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.ndss-symposium.org/ndss2021/",
+      "https://www.ndss-symposium.org/wp-content/uploads/ndss2021_1C-2_23104_paper.pdf"
+    ],
+    "official_paper_url": "https://www.ndss-symposium.org/ndss-paper/awakening-the-webs-sleeper-agents-misusing-service-workers-for-privacy-leakage/",
+    "publication_year": 2021,
+    "venue_name": "Network and Distributed System Security Symposium 2021"
+  },
+  "schema_version": 1
+}

@@ -2,7 +2,7 @@ name: Refresh citation snapshots
 
 on:
   schedule:
-    - cron: "17 8 1 * *"
+    - cron: "17 8 10 * *"
   workflow_dispatch:
 
 permissions:

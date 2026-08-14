@@ -1,0 +1,251 @@
+{
+  "awards": [
+    {
+      "edition_id": "usenix-security-2021",
+      "id": "usenix-security-2021-an-analysis-of-speculative-type-confusion-vulnerabilities-in-the-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "7bed651956d5a8b42d84a98b980e8df1b1a192f6415ff9abdf20e70934152f88",
+        "parser_version": "2021.1",
+        "retrieved_at": "2026-08-13T17:32:15Z",
+        "url": "https://www.usenix.org/conference/usenixsecurity21/technical-sessions"
+      },
+      "paper_id": "usenix-security-2021-an-analysis-of-speculative-type-confusion-vulnerabilities-in-the",
+      "raw_authors": "Ofek Kirzner and Adam Morrison, Tel Aviv University",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "An Analysis of Speculative Type Confusion Vulnerabilities in the Wild"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 0.99,
+      "external_id": "W3159896351",
+      "method": "manual_override",
+      "override_reason": "Exact title, authors, and year identify the corresponding preprint entity for the official USENIX paper.",
+      "paper_id": "usenix-security-2021-an-analysis-of-speculative-type-confusion-vulnerabilities-in-the",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Reviewed against DOI or exact title, author, year, venue/location, and official-source evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.48550/arxiv.2106.15601",
+        "external_id": "W3159896351",
+        "publication_year": 2021,
+        "title": "An Analysis of Speculative Type Confusion Vulnerabilities in the Wild",
+        "title_similarity": 1.0,
+        "venue": "arXiv (Cornell University)",
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-13T18:20:00Z",
+      "verified_by": "SecAwardLens maintainer review"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "aecc1a623c745585985346597a2f8ba788a26256",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2021-an-analysis-of-speculative-type-confusion-vulnerabilities-in-the",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "aecc1a623c745585985346597a2f8ba788a26256",
+        "publication_year": 2021,
+        "title": "An Analysis of Speculative Type Confusion Vulnerabilities in the Wild",
+        "title_similarity": 1.0,
+        "venue": "USENIX Security Symposium",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-13T18:20:00Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "12609321956490693902",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2021-an-analysis-of-speculative-type-confusion-vulnerabilities-in-the",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Reviewed from SerpApi results; the pinned numeric cluster is used for refreshes without title rematching.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "12609321956490693902",
+        "publication_year": 2021,
+        "title": "An analysis of speculative type confusion vulnerabilities in the wild",
+        "title_similarity": 1.0,
+        "venue": "30th USENIX Security Symposium (USENIX Security 21)",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-13T18:20:00Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    }
+  ],
+  "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 2,
+            "year": 2021
+          },
+          {
+            "count": 9,
+            "year": 2022
+          },
+          {
+            "count": 14,
+            "year": 2023
+          },
+          {
+            "count": 17,
+            "year": 2024
+          },
+          {
+            "count": 16,
+            "year": 2025
+          },
+          {
+            "count": 10,
+            "year": 2026
+          }
+        ],
+        "external_id": "12609321956490693902",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2021-an-analysis-of-speculative-type-confusion-vulnerabilities-in-the",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=12609321956490693902&hl=en",
+        "response_sha256": "5b58856a963a9faea8700f1368188f5b7c6f5fad0cf104d8b792471c5e16b8f8",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-13T17:48:57.832773Z",
+        "total_citations": 68
+      }
+    ],
+    "openalex": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 4,
+            "year": 2022
+          }
+        ],
+        "external_id": "W3159896351",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2021-an-analysis-of-speculative-type-confusion-vulnerabilities-in-the",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-11T07:18:39.950985",
+        "request_fingerprint": "GET /works/W3159896351?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "102d8cdbde864e335c9175b8209a470e218f30ddaa88adb43102b83c531be794",
+        "retrieval_service": "openalex",
+        "retrieved_at": "2026-08-13T17:46:15.535852Z",
+        "total_citations": 4
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "aecc1a623c745585985346597a2f8ba788a26256",
+        "influential_citations": 1,
+        "paper_id": "usenix-security-2021-an-analysis-of-speculative-type-confusion-vulnerabilities-in-the",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/aecc1a623c745585985346597a2f8ba788a26256?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "13c7efdb5c53b4c09fa131ab8b612930d2746efad67be2d7a5c01f1c7a6c977c",
+        "retrieval_service": "semantic_scholar",
+        "retrieved_at": "2026-08-13T17:46:15.535852Z",
+        "total_citations": 42
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [
+          {
+            "display_name": "Tel Aviv University",
+            "openalex_id": "I16391192",
+            "ror": "https://ror.org/04mhzgx49"
+          }
+        ],
+        "author_name": "Ofek Kirzner",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5036069453"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Tel Aviv University",
+            "openalex_id": "I16391192",
+            "ror": "https://ror.org/04mhzgx49"
+          }
+        ],
+        "author_name": "Adam Morrison",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5101431627"
+      }
+    ],
+    "external_id": "W3159896351",
+    "paper_id": "usenix-security-2021-an-analysis-of-speculative-type-confusion-vulnerabilities-in-the",
+    "primary_topic": {
+      "display_name": "Security and Verification in Computing",
+      "openalex_id": "T11424",
+      "score": 0.9995999932289124
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-13T18:20:00Z"
+  },
+  "generated_at": "2026-08-13T17:48:57.832773+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Ofek Kirzner"
+      },
+      {
+        "name": "Adam Morrison"
+      }
+    ],
+    "canonical_title": "An Analysis of Speculative Type Confusion Vulnerabilities in the Wild",
+    "id": "usenix-security-2021-an-analysis-of-speculative-type-confusion-vulnerabilities-in-the",
+    "identifiers": [
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W3159896351",
+        "value": "W3159896351",
+        "verified_at": "2026-08-13T18:20:00Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/aecc1a623c745585985346597a2f8ba788a26256?utm_source=api",
+        "value": "aecc1a623c745585985346597a2f8ba788a26256",
+        "verified_at": "2026-08-13T18:20:00Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=12609321956490693902",
+        "value": "12609321956490693902",
+        "verified_at": "2026-08-13T18:20:00Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.usenix.org/conference/usenixsecurity21/technical-sessions",
+      "https://www.usenix.org/conference/usenixsecurity21/presentation/kirzner"
+    ],
+    "official_paper_url": "https://www.usenix.org/conference/usenixsecurity21/presentation/kirzner",
+    "publication_year": 2021,
+    "venue_name": "30th USENIX Security Symposium"
+  },
+  "schema_version": 1
+}

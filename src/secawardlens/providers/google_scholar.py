@@ -22,6 +22,7 @@ from .http import JsonApiClient
 
 _YEAR = re.compile(r"\b(19|20)\d{2}\b")
 _RESULT_COUNT = re.compile(r"(?:about\s+)?([\d,.\s]+)\s+results?", re.IGNORECASE)
+_TITLE_QUOTATION_MARKS = str.maketrans("", "", '"“”')
 
 
 class GoogleScholarTransportError(RuntimeError):
@@ -159,7 +160,10 @@ class GoogleScholarClient(JsonApiClient):
     ) -> tuple[list[ProviderPaper], dict[str, Any]]:
         if not 1 <= limit <= 20:
             raise ValueError("SerpApi Google Scholar limit must be between 1 and 20")
-        payload = self._get_json(q=f'"{title}"', num=limit)
+        # Literal quotation marks inside a paper title terminate Scholar's phrase
+        # query early. Remove them before adding the one enclosing quote pair.
+        query_title = title.translate(_TITLE_QUOTATION_MARKS).strip()
+        payload = self._get_json(q=f'"{query_title}"', num=limit)
         _require_success(payload)
         candidates = (_candidate(item) for item in payload.get("organic_results") or [])
         return [candidate for candidate in candidates if candidate is not None], payload
@@ -231,12 +235,19 @@ class GoogleScholarClient(JsonApiClient):
             for item in payload.get("citations_per_year") or []
             if item.get("year") is not None and item.get("citations") is not None
         ]
+        # Google's citing-results estimate can be much lower than the year histogram
+        # exposed for the same pinned cluster. Preserve undated citations when the
+        # estimate is larger, but never publish a total below its own yearly parts.
+        total_citations = max(
+            int(information["total_results"]),
+            sum(item.count for item in year_counts),
+        )
         return CitationObservation(
             paper_id=paper_id,
             provider=CitationProvider.GOOGLE_SCHOLAR,
             external_id=external_id,
             retrieved_at=retrieved_at or utc_now(),
-            total_citations=int(information["total_results"]),
+            total_citations=total_citations,
             influential_citations=None,
             citations_by_citing_year=year_counts,
             retrieval_service=CitationRetrievalService.SERPAPI,

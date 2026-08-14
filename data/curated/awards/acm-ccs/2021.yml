@@ -1,0 +1,45 @@
+awards:
+- id: acm-ccs-2021-xsinator-com-from-a-formal-model-to-the-automatic-evaluation-award
+  edition_id: acm-ccs-2021
+  paper_id: acm-ccs-2021-xsinator-com-from-a-formal-model-to-the-automatic-evaluation
+  raw_award_name: Best Paper Award
+  normalized_category: best_paper
+  official_source: &source
+    url: https://www.sigsac.org/ccs/CCS2021/ccs-awards.html
+    retrieved_at: '2026-08-13T17:32:15Z'
+    content_sha256: f1da6db4053e1ebdd9d64a474bc3c01c9a59ad53b5a37b4996a0552017c2b7b5
+    parser_version: '2021.1'
+  raw_title: 'XSinator.com: From a Formal Model to the Automatic Evaluation of Cross-Site Leaks in Web Browsers'
+  raw_authors: Lukas Knittel (Ruhr University Bochum); Christian Mainka (Ruhr University Bochum); Marcus Niemietz (Niederrhein University of Applied Sciences); Dominik Trevor Noß (Ruhr University Bochum); Jörg Schwenk (Ruhr University Bochum)
+- id: acm-ccs-2021-one-glitch-to-rule-them-all-fault-injection-attacks-against-amds-award
+  edition_id: acm-ccs-2021
+  paper_id: acm-ccs-2021-one-glitch-to-rule-them-all-fault-injection-attacks-against-amds
+  raw_award_name: Best Paper Award
+  normalized_category: best_paper
+  official_source: *source
+  raw_title: 'One Glitch to Rule Them All: Fault Injection Attacks Against AMD’s Secure Encrypted Virtualization'
+  raw_authors: Robert Buhren (Technische Universität Berlin - SECT); Hans-Niklas Jacob (Technische Universität Berlin - SECT); Thilo Krachenfels (Technische Universität Berlin - SECT); Jean-Pierre Seifert (Technische Universität Berlin - SECT & Fraunhofer SIT)
+- id: acm-ccs-2021-on-the-renyi-differential-privacy-of-the-shuffle-model-award
+  edition_id: acm-ccs-2021
+  paper_id: acm-ccs-2021-on-the-renyi-differential-privacy-of-the-shuffle-model
+  raw_award_name: Best Paper Award
+  normalized_category: best_paper
+  official_source: *source
+  raw_title: On the Renyi Differential Privacy of the Shuffle Model
+  raw_authors: Antonious M. Girgis (University of California, Los Angeles); Deepesh Data (University of California, Los Angeles); Suhas Diggavi (University of California Los Angeles, USA); Ananda Theertha Suresh (Google Research); Peter Kairouz (Google Research)
+- id: acm-ccs-2021-on-the-insecurity-of-elgamal-in-openpgp-award
+  edition_id: acm-ccs-2021
+  paper_id: acm-ccs-2021-on-the-insecurity-of-elgamal-in-openpgp
+  raw_award_name: Best Paper Award
+  normalized_category: best_paper
+  official_source: *source
+  raw_title: On the (In)Security of ElGamal in OpenPGP
+  raw_authors: Luca De Feo (IBM Research Europe - Zurich); Bertram Poettering (IBM Research Europe - Zurich); Alessandro Sorniotti (IBM Research Europe - Zurich)
+- id: acm-ccs-2021-v-shuttle-scalable-and-semantics-aware-hypervisor-virtual-device-fuzzing-award
+  edition_id: acm-ccs-2021
+  paper_id: acm-ccs-2021-v-shuttle-scalable-and-semantics-aware-hypervisor-virtual-device-fuzzing
+  raw_award_name: Best Paper Award
+  normalized_category: best_paper
+  official_source: *source
+  raw_title: 'V-Shuttle: Scalable and Semantics-Aware Hypervisor Virtual Device Fuzzing'
+  raw_authors: Gaoning Pan (Zhejiang University & Ant Group); Xingwei Lin (Ant Group); Xuhong Zhang (Zhejiang University & Binjiang Institute of Zhejiang University); Yongkang Jia (Zhejiang University); Shouling Ji (Zhejiang University & Binjiang Institute of Zhejiang University); Chunming Wu (Zhejiang University); Xinlei Ying (Ant Group); Jiashui Wang (Ant Group); Yanjun Wu (Institute of Software, Chinese Academy of Sciences)

@@ -1,0 +1,13 @@
+awards:
+- id: ndss-2021-awakening-the-webs-sleeping-agents-misusing-service-workers-award
+  edition_id: ndss-2021
+  paper_id: ndss-2021-awakening-the-webs-sleeping-agents-misusing-service-workers
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source:
+    url: https://www.ndss-symposium.org/ndss2021/
+    retrieved_at: '2026-08-13T17:32:15Z'
+    content_sha256: 009d16b2ba7edade13f14cdf31350a8a3f739ec1f06944ec21fecb041d7a7a9d
+    parser_version: '2021.1'
+  raw_title: 'Awakening the Web’s Sleeping Agents: Misusing Service Workers for Privacy Leakage'
+  raw_authors: Soroush Karami, Panagiotis Ilia, Jason Polakis (University of Illinois at Chicago)

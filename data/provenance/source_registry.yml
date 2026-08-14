@@ -47,6 +47,30 @@ award_sources:
   adapter: parse_ndss_2023
   expected_records: 2
   extracted_sha256: adb46aff5da70675303af80106c42cbaed006322235a3b108e835c5b2e21a9c1
+- conference_id: ieee-sp
+  year: 2021
+  url: https://www.ieee-security.org/TC/SP2021/awards.html
+  adapter: parse_ieee_2021
+  expected_records: 2
+  extracted_sha256: 99a0bb62bcb1ef29baff6c5454ef43608c9afd4a1b1112114435338fc3983f71
+- conference_id: usenix-security
+  year: 2021
+  url: https://www.usenix.org/conference/usenixsecurity21/technical-sessions
+  adapter: parse_usenix_2021
+  expected_records: 7
+  extracted_sha256: 7bed651956d5a8b42d84a98b980e8df1b1a192f6415ff9abdf20e70934152f88
+- conference_id: acm-ccs
+  year: 2021
+  url: https://www.sigsac.org/ccs/CCS2021/ccs-awards.html
+  adapter: parse_ccs_2021
+  expected_records: 5
+  extracted_sha256: f1da6db4053e1ebdd9d64a474bc3c01c9a59ad53b5a37b4996a0552017c2b7b5
+- conference_id: ndss
+  year: 2021
+  url: https://www.ndss-symposium.org/ndss2021/
+  adapter: parse_ndss_2021
+  expected_records: 1
+  extracted_sha256: 009d16b2ba7edade13f14cdf31350a8a3f739ec1f06944ec21fecb041d7a7a9d
 citation_sources:
 - id: google_scholar
   role: preferred_comparison

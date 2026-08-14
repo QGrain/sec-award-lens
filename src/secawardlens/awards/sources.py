@@ -21,6 +21,18 @@ class AwardPage:
 
 
 ADAPTERS: dict[tuple[str, int], AwardPage] = {
+    ("ieee-sp", 2021): AwardPage(
+        "ieee-sp", 2021, "https://www.ieee-security.org/TC/SP2021/awards.html"
+    ),
+    ("usenix-security", 2021): AwardPage(
+        "usenix-security",
+        2021,
+        "https://www.usenix.org/conference/usenixsecurity21/technical-sessions",
+    ),
+    ("acm-ccs", 2021): AwardPage(
+        "acm-ccs", 2021, "https://www.sigsac.org/ccs/CCS2021/ccs-awards.html"
+    ),
+    ("ndss", 2021): AwardPage("ndss", 2021, "https://www.ndss-symposium.org/ndss2021/"),
     ("ieee-sp", 2022): AwardPage(
         "ieee-sp", 2022, "https://www.ieee-security.org/TC/SP2022/awards.html"
     ),
@@ -50,6 +62,38 @@ ADAPTERS: dict[tuple[str, int], AwardPage] = {
 
 def normalize_space(value: str) -> str:
     return re.sub(r"\s+", " ", value).strip()
+
+
+def parse_ieee_2021(html: str) -> list[AwardCandidate]:
+    soup = BeautifulSoup(html, "html.parser")
+    heading = next(
+        (
+            node
+            for node in soup.find_all(["h1", "h2", "h3"])
+            if normalize_space(node.get_text(" ", strip=True)) == "Best Paper Award"
+        ),
+        None,
+    )
+    if not isinstance(heading, Tag):
+        raise ValueError("IEEE S&P 2021 Best Paper section not found")
+    candidates: list[AwardCandidate] = []
+    node = heading.find_next_sibling()
+    while isinstance(node, Tag) and node.name not in {"h1", "h2", "h3"}:
+        if node.name == "p":
+            title_node = node.find("strong")
+            if isinstance(title_node, Tag):
+                title = normalize_space(title_node.get_text(" ", strip=True))
+                title_node.extract()
+                raw_authors = normalize_space(node.get_text(" ", strip=True))
+                candidates.append(
+                    AwardCandidate(
+                        raw_title=title,
+                        raw_authors=raw_authors,
+                        authors=split_author_names(raw_authors),
+                    )
+                )
+        node = node.find_next_sibling()
+    return candidates
 
 
 def parse_ieee_2022(html: str) -> list[AwardCandidate]:
@@ -142,6 +186,10 @@ def parse_usenix_2022(html: str) -> list[AwardCandidate]:
     return _parse_usenix(html, 2022)
 
 
+def parse_usenix_2021(html: str) -> list[AwardCandidate]:
+    return _parse_usenix(html, 2021)
+
+
 def parse_usenix_2023(html: str) -> list[AwardCandidate]:
     return _parse_usenix(html, 2023)
 
@@ -164,6 +212,41 @@ def parse_ccs_2022(html: str) -> list[AwardCandidate]:
         candidates.append(
             AwardCandidate(
                 raw_title=normalize_space(title_node.get_text(" ", strip=True)),
+                raw_authors=raw_authors,
+                authors=split_author_names(raw_authors),
+            )
+        )
+    return candidates
+
+
+def parse_ccs_2021(html: str) -> list[AwardCandidate]:
+    soup = BeautifulSoup(html, "html.parser")
+    heading = next(
+        (
+            node
+            for node in soup.find_all(["h1", "h2", "h3"])
+            if normalize_space(node.get_text(" ", strip=True)) == "Best Paper Awards"
+        ),
+        None,
+    )
+    if not isinstance(heading, Tag):
+        raise ValueError("CCS 2021 Best Paper section not found")
+    awards_list = heading.find_next_sibling("ul")
+    if not isinstance(awards_list, Tag):
+        raise ValueError("CCS 2021 Best Paper list not found")
+    candidates: list[AwardCandidate] = []
+    for item in awards_list.find_all("li", recursive=False):
+        title_node = item.find("strong")
+        if not isinstance(title_node, Tag):
+            continue
+        title = normalize_space(title_node.get_text(" ", strip=True))
+        title_node.extract()
+        for link in item.find_all("a"):
+            link.extract()
+        raw_authors = normalize_space(item.get_text(" ", strip=True))
+        candidates.append(
+            AwardCandidate(
+                raw_title=title,
                 raw_authors=raw_authors,
                 authors=split_author_names(raw_authors),
             )
@@ -277,7 +360,44 @@ def parse_ndss_2022(html: str) -> list[AwardCandidate]:
     ]
 
 
+def parse_ndss_2021(html: str) -> list[AwardCandidate]:
+    soup = BeautifulSoup(html, "html.parser")
+    heading = next(
+        (
+            node
+            for node in soup.find_all(["h2", "h3"])
+            if "NDSS 2021 Distinguished Paper Award"
+            in node.get_text(" ", strip=True)
+        ),
+        None,
+    )
+    if not isinstance(heading, Tag):
+        raise ValueError("NDSS 2021 award section not found")
+    paper = heading.find_next_sibling("p")
+    if not isinstance(paper, Tag):
+        raise ValueError("NDSS 2021 award paper not found")
+    title_node = paper.find("strong")
+    link = paper.find("a")
+    if not isinstance(title_node, Tag) or not isinstance(link, Tag):
+        raise ValueError("NDSS 2021 award metadata not found")
+    title = normalize_space(title_node.get_text(" ", strip=True))
+    title_node.extract()
+    raw_authors = normalize_space(paper.get_text(" ", strip=True))
+    return [
+        AwardCandidate(
+            raw_title=title,
+            raw_authors=raw_authors,
+            authors=split_author_names(raw_authors),
+            official_paper_url=str(link.get("href")),
+        )
+    ]
+
+
 PARSERS = {
+    ("ieee-sp", 2021): parse_ieee_2021,
+    ("usenix-security", 2021): parse_usenix_2021,
+    ("acm-ccs", 2021): parse_ccs_2021,
+    ("ndss", 2021): parse_ndss_2021,
     ("ieee-sp", 2022): parse_ieee_2022,
     ("usenix-security", 2022): parse_usenix_2022,
     ("acm-ccs", 2022): parse_ccs_2022,

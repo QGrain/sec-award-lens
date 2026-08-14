@@ -1,0 +1,287 @@
+{
+  "awards": [
+    {
+      "edition_id": "ieee-sp-2021",
+      "id": "ieee-sp-2021-compositional-security-for-reentrant-applications-award",
+      "normalized_category": "best_paper",
+      "official_source": {
+        "content_sha256": "99a0bb62bcb1ef29baff6c5454ef43608c9afd4a1b1112114435338fc3983f71",
+        "parser_version": "2021.1",
+        "retrieved_at": "2026-08-13T17:32:15Z",
+        "url": "https://www.ieee-security.org/TC/SP2021/awards.html"
+      },
+      "paper_id": "ieee-sp-2021-compositional-security-for-reentrant-applications",
+      "raw_authors": "Ethan Cecchetti (Cornell University), Siqiu Yao (Cornell University), Haobin Ni (Cornell University), Andrew C. Myers (Cornell University)",
+      "raw_award_name": "Best Paper Award",
+      "raw_title": "Compositional Security for Reentrant Applications"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 1.0,
+      "external_id": "W3136329945",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "ieee-sp-2021-compositional-security-for-reentrant-applications",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Reviewed against DOI or exact title, author, year, venue/location, and official-source evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1109/sp40001.2021.00084",
+        "external_id": "W3136329945",
+        "publication_year": 2021,
+        "title": "Compositional Security for Reentrant Applications",
+        "title_similarity": 1.0,
+        "venue": null,
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-13T18:20:00Z",
+      "verified_by": "SecAwardLens OpenAlex resolver"
+    },
+    {
+      "confidence": 1.0,
+      "external_id": "f0555c3499d4fec6bbcb5387ee79d189edb8b475",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "ieee-sp-2021-compositional-security-for-reentrant-applications",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1109/sp40001.2021.00084",
+        "external_id": "f0555c3499d4fec6bbcb5387ee79d189edb8b475",
+        "publication_year": 2021,
+        "title": "Compositional Security for Reentrant Applications",
+        "title_similarity": 1.0,
+        "venue": "IEEE Symposium on Security and Privacy",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-13T18:20:00Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "15819790749039072267",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "ieee-sp-2021-compositional-security-for-reentrant-applications",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Reviewed from SerpApi results; the pinned numeric cluster is used for refreshes without title rematching.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "15819790749039072267",
+        "publication_year": 2021,
+        "title": "Compositional security for reentrant applications",
+        "title_similarity": 1.0,
+        "venue": "2021 IEEE Symposium on Security and Privacy (SP)",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-13T18:20:00Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    }
+  ],
+  "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 5,
+            "year": 2021
+          },
+          {
+            "count": 9,
+            "year": 2022
+          },
+          {
+            "count": 15,
+            "year": 2023
+          },
+          {
+            "count": 15,
+            "year": 2024
+          },
+          {
+            "count": 9,
+            "year": 2025
+          },
+          {
+            "count": 7,
+            "year": 2026
+          }
+        ],
+        "external_id": "15819790749039072267",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2021-compositional-security-for-reentrant-applications",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=15819790749039072267&hl=en",
+        "response_sha256": "bfaacefa1e78f7ebfa056103e2e13fcb98e87c48f04256a41946c981510be1b0",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-13T17:48:57.832773Z",
+        "total_citations": 60
+      }
+    ],
+    "openalex": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2022
+          }
+        ],
+        "external_id": "W3136329945",
+        "influential_citations": null,
+        "paper_id": "ieee-sp-2021-compositional-security-for-reentrant-applications",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-06T08:24:18.245995",
+        "request_fingerprint": "GET /works/W3136329945?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "a026479a3dd09cf54817ff6a55c2352d68514271469a6b5753d9273fa86542e7",
+        "retrieval_service": "openalex",
+        "retrieved_at": "2026-08-13T17:46:15.535852Z",
+        "total_citations": 1
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "f0555c3499d4fec6bbcb5387ee79d189edb8b475",
+        "influential_citations": 3,
+        "paper_id": "ieee-sp-2021-compositional-security-for-reentrant-applications",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/f0555c3499d4fec6bbcb5387ee79d189edb8b475?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "fb04ac4502f330293a41d311e2359355366add33b466be298fc5ff51b9474b56",
+        "retrieval_service": "semantic_scholar",
+        "retrieved_at": "2026-08-13T17:46:15.535852Z",
+        "total_citations": 44
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [
+          {
+            "display_name": "Cornell University",
+            "openalex_id": "I205783295",
+            "ror": "https://ror.org/05bnh6r87"
+          }
+        ],
+        "author_name": "Ethan Cecchetti",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5061414499"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Cornell University",
+            "openalex_id": "I205783295",
+            "ror": "https://ror.org/05bnh6r87"
+          }
+        ],
+        "author_name": "Siqiu Yao",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5028776224"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Cornell University",
+            "openalex_id": "I205783295",
+            "ror": "https://ror.org/05bnh6r87"
+          }
+        ],
+        "author_name": "Haobin Ni",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5052353509"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Cornell University",
+            "openalex_id": "I205783295",
+            "ror": "https://ror.org/05bnh6r87"
+          }
+        ],
+        "author_name": "Andrew C. Myers",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5101697549"
+      }
+    ],
+    "external_id": "W3136329945",
+    "paper_id": "ieee-sp-2021-compositional-security-for-reentrant-applications",
+    "primary_topic": {
+      "display_name": "Security and Verification in Computing",
+      "openalex_id": "T11424",
+      "score": 0.9998999834060669
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-13T18:20:00Z"
+  },
+  "generated_at": "2026-08-13T17:48:57.832773+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Ethan Cecchetti"
+      },
+      {
+        "name": "Siqiu Yao"
+      },
+      {
+        "name": "Haobin Ni"
+      },
+      {
+        "name": "Andrew C. Myers"
+      }
+    ],
+    "canonical_title": "Compositional Security for Reentrant Applications",
+    "id": "ieee-sp-2021-compositional-security-for-reentrant-applications",
+    "identifiers": [
+      {
+        "scheme": "doi",
+        "source_url": "https://api.crossref.org/works/10.1109/sp40001.2021.00084",
+        "value": "10.1109/sp40001.2021.00084",
+        "verified_at": "2026-08-13T17:32:15Z"
+      },
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W3136329945",
+        "value": "W3136329945",
+        "verified_at": "2026-08-13T18:20:00Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/f0555c3499d4fec6bbcb5387ee79d189edb8b475?utm_source=api",
+        "value": "f0555c3499d4fec6bbcb5387ee79d189edb8b475",
+        "verified_at": "2026-08-13T18:20:00Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=15819790749039072267",
+        "value": "15819790749039072267",
+        "verified_at": "2026-08-13T18:20:00Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.ieee-security.org/TC/SP2021/awards.html",
+      "https://api.crossref.org/works/10.1109/sp40001.2021.00084"
+    ],
+    "official_paper_url": "https://doi.org/10.1109/SP40001.2021.00084",
+    "publication_year": 2021,
+    "venue_name": "2021 IEEE Symposium on Security and Privacy"
+  },
+  "schema_version": 1
+}

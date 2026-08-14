@@ -1,0 +1,327 @@
+{
+  "awards": [
+    {
+      "edition_id": "usenix-security-2021",
+      "id": "usenix-security-2021-you-autocomplete-me-poisoning-vulnerabilities-in-neural-code-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "7bed651956d5a8b42d84a98b980e8df1b1a192f6415ff9abdf20e70934152f88",
+        "parser_version": "2021.1",
+        "retrieved_at": "2026-08-13T17:32:15Z",
+        "url": "https://www.usenix.org/conference/usenixsecurity21/technical-sessions"
+      },
+      "paper_id": "usenix-security-2021-you-autocomplete-me-poisoning-vulnerabilities-in-neural-code",
+      "raw_authors": "Roei Schuster, Tel Aviv University and Cornell Tech; Congzheng Song, Cornell University; Eran Tromer, Tel Aviv University and Columbia University; Vitaly Shmatikov, Cornell Tech",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "You Autocomplete Me: Poisoning Vulnerabilities in Neural Code Completion"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 0.99,
+      "external_id": "W3155981360",
+      "method": "manual_override",
+      "override_reason": "Exact title, authors, and conference year identify this OpenAlex version; the split 2020 arXiv DOI record is retained as a related version and is not summed.",
+      "paper_id": "usenix-security-2021-you-autocomplete-me-poisoning-vulnerabilities-in-neural-code",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [
+        "W3038680626"
+      ],
+      "review_notes": "Reviewed against DOI or exact title, author, year, venue/location, and official-source evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "W3155981360",
+        "publication_year": 2021,
+        "title": "You Autocomplete Me: Poisoning Vulnerabilities in Neural Code Completion",
+        "title_similarity": 1.0,
+        "venue": "arXiv (Cornell University)",
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-13T18:20:00Z",
+      "verified_by": "SecAwardLens maintainer review"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "1ec69f1a1a9d4ff5c5bc70db0e5087157b620570",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2021-you-autocomplete-me-poisoning-vulnerabilities-in-neural-code",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "1ec69f1a1a9d4ff5c5bc70db0e5087157b620570",
+        "publication_year": 2020,
+        "title": "You Autocomplete Me: Poisoning Vulnerabilities in Neural Code Completion",
+        "title_similarity": 1.0,
+        "venue": "USENIX Security Symposium",
+        "venue_match": true,
+        "year_delta": 1
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-13T18:20:00Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "5818686618028449748",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2021-you-autocomplete-me-poisoning-vulnerabilities-in-neural-code",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Reviewed from SerpApi results; the pinned numeric cluster is used for refreshes without title rematching.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "5818686618028449748",
+        "publication_year": 2021,
+        "title": "You autocomplete me: Poisoning vulnerabilities in neural code completion",
+        "title_similarity": 1.0,
+        "venue": "30th USENIX Security Symposium (USENIX Security 21)",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-13T18:20:00Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    }
+  ],
+  "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 4,
+            "year": 2020
+          },
+          {
+            "count": 19,
+            "year": 2021
+          },
+          {
+            "count": 25,
+            "year": 2022
+          },
+          {
+            "count": 53,
+            "year": 2023
+          },
+          {
+            "count": 67,
+            "year": 2024
+          },
+          {
+            "count": 71,
+            "year": 2025
+          },
+          {
+            "count": 57,
+            "year": 2026
+          }
+        ],
+        "external_id": "5818686618028449748",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2021-you-autocomplete-me-poisoning-vulnerabilities-in-neural-code",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=5818686618028449748&hl=en",
+        "response_sha256": "3ef60205167fd6c0926ef2de74abb7ee921fe4b779879c4b7f857c72eeead42e",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-13T17:48:57.832773Z",
+        "total_citations": 296
+      }
+    ],
+    "openalex": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 3,
+            "year": 2020
+          },
+          {
+            "count": 14,
+            "year": 2021
+          },
+          {
+            "count": 8,
+            "year": 2022
+          },
+          {
+            "count": 14,
+            "year": 2023
+          },
+          {
+            "count": 6,
+            "year": 2024
+          },
+          {
+            "count": 2,
+            "year": 2025
+          }
+        ],
+        "external_id": "W3155981360",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2021-you-autocomplete-me-poisoning-vulnerabilities-in-neural-code",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-07-28T07:46:37.118299",
+        "request_fingerprint": "GET /works/W3155981360?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "b34cb645af16f1b7fea3c7731259c9b98acf09248169fe0efaa2825deaf722a8",
+        "retrieval_service": "openalex",
+        "retrieved_at": "2026-08-13T17:46:15.535852Z",
+        "total_citations": 47
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "1ec69f1a1a9d4ff5c5bc70db0e5087157b620570",
+        "influential_citations": 27,
+        "paper_id": "usenix-security-2021-you-autocomplete-me-poisoning-vulnerabilities-in-neural-code",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/1ec69f1a1a9d4ff5c5bc70db0e5087157b620570?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "1238f8d924a0108c98464f0c5d5d6c69682190fb070a0c407d8e6cfafaae590d",
+        "retrieval_service": "semantic_scholar",
+        "retrieved_at": "2026-08-13T17:46:15.535852Z",
+        "total_citations": 228
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [
+          {
+            "display_name": "Tel Aviv University",
+            "openalex_id": "I16391192",
+            "ror": "https://ror.org/04mhzgx49"
+          },
+          {
+            "display_name": "Cornell University",
+            "openalex_id": "I205783295",
+            "ror": "https://ror.org/05bnh6r87"
+          },
+          {
+            "display_name": "Cornell Tech",
+            "openalex_id": "I4405261073",
+            "ror": "https://ror.org/04qscbg47"
+          }
+        ],
+        "author_name": "Roei Schuster",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5011769908"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Cornell University",
+            "openalex_id": "I205783295",
+            "ror": "https://ror.org/05bnh6r87"
+          }
+        ],
+        "author_name": "Congzheng Song",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5048446895"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Tel Aviv University",
+            "openalex_id": "I16391192",
+            "ror": "https://ror.org/04mhzgx49"
+          },
+          {
+            "display_name": "Columbia University",
+            "openalex_id": "I78577930",
+            "ror": "https://ror.org/00hj8s172"
+          }
+        ],
+        "author_name": "Eran Tromer",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5049555551"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Cornell University",
+            "openalex_id": "I205783295",
+            "ror": "https://ror.org/05bnh6r87"
+          },
+          {
+            "display_name": "Cornell Tech",
+            "openalex_id": "I4405261073",
+            "ror": "https://ror.org/04qscbg47"
+          }
+        ],
+        "author_name": "Vitaly Shmatikov",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5038206174"
+      }
+    ],
+    "external_id": "W3155981360",
+    "paper_id": "usenix-security-2021-you-autocomplete-me-poisoning-vulnerabilities-in-neural-code",
+    "primary_topic": {
+      "display_name": "Adversarial Robustness in Machine Learning",
+      "openalex_id": "T11689",
+      "score": 0.9882000088691711
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-13T18:20:00Z"
+  },
+  "generated_at": "2026-08-13T17:48:57.832773+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Roei Schuster"
+      },
+      {
+        "name": "Congzheng Song"
+      },
+      {
+        "name": "Eran Tromer"
+      },
+      {
+        "name": "Vitaly Shmatikov"
+      }
+    ],
+    "canonical_title": "You Autocomplete Me: Poisoning Vulnerabilities in Neural Code Completion",
+    "id": "usenix-security-2021-you-autocomplete-me-poisoning-vulnerabilities-in-neural-code",
+    "identifiers": [
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W3155981360",
+        "value": "W3155981360",
+        "verified_at": "2026-08-13T18:20:00Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/1ec69f1a1a9d4ff5c5bc70db0e5087157b620570?utm_source=api",
+        "value": "1ec69f1a1a9d4ff5c5bc70db0e5087157b620570",
+        "verified_at": "2026-08-13T18:20:00Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=5818686618028449748",
+        "value": "5818686618028449748",
+        "verified_at": "2026-08-13T18:20:00Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.usenix.org/conference/usenixsecurity21/technical-sessions",
+      "https://www.usenix.org/conference/usenixsecurity21/presentation/schuster"
+    ],
+    "official_paper_url": "https://www.usenix.org/conference/usenixsecurity21/presentation/schuster",
+    "publication_year": 2021,
+    "venue_name": "30th USENIX Security Symposium"
+  },
+  "schema_version": 1
+}

@@ -44,7 +44,7 @@ class SemanticScholarClient(JsonApiClient):
             headers=headers,
             # The issued key allows one request per second. A small margin avoids
             # crossing the boundary because of clock and network jitter.
-            min_interval_seconds=1.1,
+            min_interval_seconds=1.25,
             client=client,
         )
 

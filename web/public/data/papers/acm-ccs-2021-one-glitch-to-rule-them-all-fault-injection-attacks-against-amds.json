@@ -1,0 +1,287 @@
+{
+  "awards": [
+    {
+      "edition_id": "acm-ccs-2021",
+      "id": "acm-ccs-2021-one-glitch-to-rule-them-all-fault-injection-attacks-against-amds-award",
+      "normalized_category": "best_paper",
+      "official_source": {
+        "content_sha256": "f1da6db4053e1ebdd9d64a474bc3c01c9a59ad53b5a37b4996a0552017c2b7b5",
+        "parser_version": "2021.1",
+        "retrieved_at": "2026-08-13T17:32:15Z",
+        "url": "https://www.sigsac.org/ccs/CCS2021/ccs-awards.html"
+      },
+      "paper_id": "acm-ccs-2021-one-glitch-to-rule-them-all-fault-injection-attacks-against-amds",
+      "raw_authors": "Robert Buhren (Technische Universität Berlin - SECT); Hans-Niklas Jacob (Technische Universität Berlin - SECT); Thilo Krachenfels (Technische Universität Berlin - SECT); Jean-Pierre Seifert (Technische Universität Berlin - SECT & Fraunhofer SIT)",
+      "raw_award_name": "Best Paper Award",
+      "raw_title": "One Glitch to Rule Them All: Fault Injection Attacks Against AMD’s Secure Encrypted Virtualization"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 1.0,
+      "external_id": "W3188555407",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "acm-ccs-2021-one-glitch-to-rule-them-all-fault-injection-attacks-against-amds",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Reviewed against DOI or exact title, author, year, venue/location, and official-source evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1145/3460120.3484779",
+        "external_id": "W3188555407",
+        "publication_year": 2021,
+        "title": "One Glitch to Rule Them All: Fault Injection Attacks Against AMD's Secure Encrypted Virtualization",
+        "title_similarity": 1.0,
+        "venue": null,
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-13T18:20:00Z",
+      "verified_by": "SecAwardLens OpenAlex resolver"
+    },
+    {
+      "confidence": 1.0,
+      "external_id": "ec91a06bd9985d99eb238c11a411ddecacf2856c",
+      "method": "doi_exact",
+      "override_reason": null,
+      "paper_id": "acm-ccs-2021-one-glitch-to-rule-them-all-fault-injection-attacks-against-amds",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.1145/3460120.3484779",
+        "external_id": "ec91a06bd9985d99eb238c11a411ddecacf2856c",
+        "publication_year": 2021,
+        "title": "One Glitch to Rule Them All: Fault Injection Attacks Against AMD's Secure Encrypted Virtualization",
+        "title_similarity": 1.0,
+        "venue": "Conference on Computer and Communications Security",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-13T18:20:00Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
+    },
+    {
+      "confidence": 1.0,
+      "external_id": "3808809634440186129",
+      "method": "manual_override",
+      "override_reason": "A fresh exact-title search returned the official ACM DOI landing page with exact normalized title, all four authors, publication year 2021, and a stable numeric cluster.",
+      "paper_id": "acm-ccs-2021-one-glitch-to-rule-them-all-fault-injection-attacks-against-amds",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "The 2026-08-13 search completed successfully but did not expose this result; the fresh result provides sufficient identity evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "3808809634440186129",
+        "publication_year": 2021,
+        "title": "One glitch to rule them all: Fault injection attacks against amd's secure encrypted virtualization",
+        "title_similarity": 1.0,
+        "venue": "Proceedings of the 2021 ACM SIGSAC Conference on Computer and Communications Security, 2021; dl.acm.org",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-14T04:31:30Z",
+      "verified_by": "SecAwardLens maintainer review"
+    }
+  ],
+  "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 4,
+            "year": 2021
+          },
+          {
+            "count": 15,
+            "year": 2022
+          },
+          {
+            "count": 24,
+            "year": 2023
+          },
+          {
+            "count": 26,
+            "year": 2024
+          },
+          {
+            "count": 39,
+            "year": 2025
+          },
+          {
+            "count": 29,
+            "year": 2026
+          }
+        ],
+        "external_id": "3808809634440186129",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2021-one-glitch-to-rule-them-all-fault-injection-attacks-against-amds",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=3808809634440186129&hl=en",
+        "response_sha256": "b5616f84db3a4aa3d0df56fef8626351575ddd0dfd7231dfa2445336ef4d5f02",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-14T04:31:30.718988Z",
+        "total_citations": 137
+      }
+    ],
+    "openalex": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "W3188555407",
+        "influential_citations": null,
+        "paper_id": "acm-ccs-2021-one-glitch-to-rule-them-all-fault-injection-attacks-against-amds",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-05T07:39:15.569665",
+        "request_fingerprint": "GET /works/W3188555407?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "69bf380128973e2c5bf2dedc6e76e97c33aa3206fe3fba688884ace307b5b962",
+        "retrieval_service": "openalex",
+        "retrieved_at": "2026-08-13T17:46:15.535852Z",
+        "total_citations": 0
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "ec91a06bd9985d99eb238c11a411ddecacf2856c",
+        "influential_citations": 1,
+        "paper_id": "acm-ccs-2021-one-glitch-to-rule-them-all-fault-injection-attacks-against-amds",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/ec91a06bd9985d99eb238c11a411ddecacf2856c?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "4ea425d373acf77ecb33652fef83fa7cb59479c1ee688a22be8ca856543e95af",
+        "retrieval_service": "semantic_scholar",
+        "retrieved_at": "2026-08-13T17:46:15.535852Z",
+        "total_citations": 99
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [
+          {
+            "display_name": "Technische Universität Berlin",
+            "openalex_id": "I4577782",
+            "ror": "https://ror.org/03v4gjf40"
+          }
+        ],
+        "author_name": "Robert Buhren",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5034542496"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Technische Universität Berlin",
+            "openalex_id": "I4577782",
+            "ror": "https://ror.org/03v4gjf40"
+          }
+        ],
+        "author_name": "Hans-Niklas Jacob",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5022858680"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Technische Universität Berlin",
+            "openalex_id": "I4577782",
+            "ror": "https://ror.org/03v4gjf40"
+          }
+        ],
+        "author_name": "Thilo Krachenfels",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5015270861"
+      },
+      {
+        "affiliations": [
+          {
+            "display_name": "Fraunhofer Institute for Secure Information Technology",
+            "openalex_id": "I4210133470",
+            "ror": "https://ror.org/03qt2gs44"
+          },
+          {
+            "display_name": "Technische Universität Berlin",
+            "openalex_id": "I4577782",
+            "ror": "https://ror.org/03v4gjf40"
+          }
+        ],
+        "author_name": "Jean-Pierre Seifert",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5001159554"
+      }
+    ],
+    "external_id": "W3188555407",
+    "paper_id": "acm-ccs-2021-one-glitch-to-rule-them-all-fault-injection-attacks-against-amds",
+    "primary_topic": {
+      "display_name": "Security and Verification in Computing",
+      "openalex_id": "T11424",
+      "score": 0.9998000264167786
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-13T18:20:00Z"
+  },
+  "generated_at": "2026-08-14T04:31:30.718988+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Robert Buhren"
+      },
+      {
+        "name": "Hans-Niklas Jacob"
+      },
+      {
+        "name": "Thilo Krachenfels"
+      },
+      {
+        "name": "Jean-Pierre Seifert"
+      }
+    ],
+    "canonical_title": "One Glitch to Rule Them All: Fault Injection Attacks Against AMD's Secure Encrypted Virtualization",
+    "id": "acm-ccs-2021-one-glitch-to-rule-them-all-fault-injection-attacks-against-amds",
+    "identifiers": [
+      {
+        "scheme": "doi",
+        "source_url": "https://api.crossref.org/works/10.1145/3460120.3484779",
+        "value": "10.1145/3460120.3484779",
+        "verified_at": "2026-08-13T17:32:15Z"
+      },
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W3188555407",
+        "value": "W3188555407",
+        "verified_at": "2026-08-13T18:20:00Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/ec91a06bd9985d99eb238c11a411ddecacf2856c?utm_source=api",
+        "value": "ec91a06bd9985d99eb238c11a411ddecacf2856c",
+        "verified_at": "2026-08-13T18:20:00Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=3808809634440186129",
+        "value": "3808809634440186129",
+        "verified_at": "2026-08-14T04:31:30Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.sigsac.org/ccs/CCS2021/ccs-awards.html",
+      "https://api.crossref.org/works/10.1145/3460120.3484779"
+    ],
+    "official_paper_url": "https://dl.acm.org/doi/10.1145/3460120.3484779",
+    "publication_year": 2021,
+    "venue_name": "2021 ACM SIGSAC Conference on Computer and Communications Security"
+  },
+  "schema_version": 1
+}

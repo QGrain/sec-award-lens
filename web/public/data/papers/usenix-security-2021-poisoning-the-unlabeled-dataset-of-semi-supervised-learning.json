@@ -1,0 +1,250 @@
+{
+  "awards": [
+    {
+      "edition_id": "usenix-security-2021",
+      "id": "usenix-security-2021-poisoning-the-unlabeled-dataset-of-semi-supervised-learning-award",
+      "normalized_category": "distinguished_paper",
+      "official_source": {
+        "content_sha256": "7bed651956d5a8b42d84a98b980e8df1b1a192f6415ff9abdf20e70934152f88",
+        "parser_version": "2021.1",
+        "retrieved_at": "2026-08-13T17:32:15Z",
+        "url": "https://www.usenix.org/conference/usenixsecurity21/technical-sessions"
+      },
+      "paper_id": "usenix-security-2021-poisoning-the-unlabeled-dataset-of-semi-supervised-learning",
+      "raw_authors": "Nicholas Carlini, Google",
+      "raw_award_name": "Distinguished Paper Award",
+      "raw_title": "Poisoning the Unlabeled Dataset of Semi-Supervised Learning"
+    }
+  ],
+  "bindings": [
+    {
+      "confidence": 0.99,
+      "external_id": "W3157597523",
+      "method": "manual_override",
+      "override_reason": "Exact title, author, and year identify the corresponding arXiv-backed OpenAlex work; the duplicate PDF record is retained as a related version and is not summed.",
+      "paper_id": "usenix-security-2021-poisoning-the-unlabeled-dataset-of-semi-supervised-learning",
+      "provider": "openalex",
+      "rejected_candidates": [],
+      "related_version_ids": [
+        "W3195782808"
+      ],
+      "review_notes": "Reviewed against DOI or exact title, author, year, venue/location, and official-source evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": "10.48550/arxiv.2105.01622",
+        "external_id": "W3157597523",
+        "publication_year": 2021,
+        "title": "Poisoning the Unlabeled Dataset of Semi-Supervised Learning",
+        "title_similarity": 1.0,
+        "venue": "arXiv (Cornell University)",
+        "venue_match": false,
+        "year_delta": 0
+      },
+      "status": "manually_verified",
+      "verified_at": "2026-08-13T18:20:00Z",
+      "verified_by": "SecAwardLens maintainer review"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "5d54b23f5ba4f559a7a639ef51da348b93a36ddf",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2021-poisoning-the-unlabeled-dataset-of-semi-supervised-learning",
+      "provider": "semantic_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Verified by exact DOI or exact title with author, year, and conference-venue evidence.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "5d54b23f5ba4f559a7a639ef51da348b93a36ddf",
+        "publication_year": 2021,
+        "title": "Poisoning the Unlabeled Dataset of Semi-Supervised Learning",
+        "title_similarity": 1.0,
+        "venue": "USENIX Security Symposium",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-13T18:20:00Z",
+      "verified_by": "SecAwardLens Semantic Scholar resolver"
+    },
+    {
+      "confidence": 0.99,
+      "external_id": "15477895467434931229",
+      "method": "title_exact",
+      "override_reason": null,
+      "paper_id": "usenix-security-2021-poisoning-the-unlabeled-dataset-of-semi-supervised-learning",
+      "provider": "google_scholar",
+      "rejected_candidates": [],
+      "related_version_ids": [],
+      "review_notes": "Reviewed from SerpApi results; the pinned numeric cluster is used for refreshes without title rematching.",
+      "selected_candidate": {
+        "author_overlap": 1.0,
+        "doi": null,
+        "external_id": "15477895467434931229",
+        "publication_year": 2021,
+        "title": "Poisoning the unlabeled dataset of {Semi-Supervised} learning",
+        "title_similarity": 1.0,
+        "venue": "30th USENIX Security Symposium (USENIX Security 21)",
+        "venue_match": true,
+        "year_delta": 0
+      },
+      "status": "auto_verified",
+      "verified_at": "2026-08-13T18:20:00Z",
+      "verified_by": "SecAwardLens Google Scholar resolver"
+    }
+  ],
+  "citation_history": {
+    "google_scholar": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 1,
+            "year": 2020
+          },
+          {
+            "count": 5,
+            "year": 2021
+          },
+          {
+            "count": 13,
+            "year": 2022
+          },
+          {
+            "count": 32,
+            "year": 2023
+          },
+          {
+            "count": 27,
+            "year": 2024
+          },
+          {
+            "count": 24,
+            "year": 2025
+          },
+          {
+            "count": 6,
+            "year": 2026
+          }
+        ],
+        "external_id": "15477895467434931229",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2021-poisoning-the-unlabeled-dataset-of-semi-supervised-learning",
+        "provider": "google_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /search.json?engine=google_scholar&cites=15477895467434931229&hl=en",
+        "response_sha256": "08c86071db52588e8d49139ac6cc8d949345ff8bb68561ac982f98835b1524da",
+        "retrieval_service": "serpapi",
+        "retrieved_at": "2026-08-13T17:48:57.832773Z",
+        "total_citations": 108
+      }
+    ],
+    "openalex": [
+      {
+        "citations_by_citing_year": [
+          {
+            "count": 7,
+            "year": 2022
+          },
+          {
+            "count": 7,
+            "year": 2023
+          },
+          {
+            "count": 3,
+            "year": 2024
+          }
+        ],
+        "external_id": "W3157597523",
+        "influential_citations": null,
+        "paper_id": "usenix-security-2021-poisoning-the-unlabeled-dataset-of-semi-supervised-learning",
+        "provider": "openalex",
+        "provider_record_updated_at": "2026-08-05T07:39:15.569665",
+        "request_fingerprint": "GET /works/W3157597523?select=id,display_name,publication_year,doi,cited_by_count,counts_by_year,authorships,primary_location,primary_topic,locations,type,updated_date,is_retracted",
+        "response_sha256": "31ce9688ba480fb278ffeb648aaadb5a96ff1f5e679e40375c9e083696125d7c",
+        "retrieval_service": "openalex",
+        "retrieved_at": "2026-08-13T17:46:15.535852Z",
+        "total_citations": 17
+      }
+    ],
+    "semantic_scholar": [
+      {
+        "citations_by_citing_year": [],
+        "external_id": "5d54b23f5ba4f559a7a639ef51da348b93a36ddf",
+        "influential_citations": 13,
+        "paper_id": "usenix-security-2021-poisoning-the-unlabeled-dataset-of-semi-supervised-learning",
+        "provider": "semantic_scholar",
+        "provider_record_updated_at": null,
+        "request_fingerprint": "GET /paper/5d54b23f5ba4f559a7a639ef51da348b93a36ddf?fields=paperId,title,authors,year,venue,externalIds,citationCount,influentialCitationCount",
+        "response_sha256": "5cdace3d3aee56e62f34fd98a4d20264ba19a4b49c5f9d4829af95c922c41735",
+        "retrieval_service": "semantic_scholar",
+        "retrieved_at": "2026-08-13T17:46:15.535852Z",
+        "total_citations": 82
+      }
+    ]
+  },
+  "enrichment": {
+    "authors": [
+      {
+        "affiliations": [
+          {
+            "display_name": "Google (United States)",
+            "openalex_id": "I1291425158",
+            "ror": "https://ror.org/00njsd438"
+          }
+        ],
+        "author_name": "Nicholas Carlini",
+        "name_similarity": 1.0,
+        "openalex_author_id": "A5034257647"
+      }
+    ],
+    "external_id": "W3157597523",
+    "paper_id": "usenix-security-2021-poisoning-the-unlabeled-dataset-of-semi-supervised-learning",
+    "primary_topic": {
+      "display_name": "Adversarial Robustness in Machine Learning",
+      "openalex_id": "T11689",
+      "score": 0.9998999834060669
+    },
+    "provider": "openalex",
+    "retrieved_at": "2026-08-13T18:20:00Z"
+  },
+  "generated_at": "2026-08-13T17:48:57.832773+00:00",
+  "paper": {
+    "authors": [
+      {
+        "name": "Nicholas Carlini"
+      }
+    ],
+    "canonical_title": "Poisoning the Unlabeled Dataset of Semi-Supervised Learning",
+    "id": "usenix-security-2021-poisoning-the-unlabeled-dataset-of-semi-supervised-learning",
+    "identifiers": [
+      {
+        "scheme": "openalex",
+        "source_url": "https://api.openalex.org/works/W3157597523",
+        "value": "W3157597523",
+        "verified_at": "2026-08-13T18:20:00Z"
+      },
+      {
+        "scheme": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/5d54b23f5ba4f559a7a639ef51da348b93a36ddf?utm_source=api",
+        "value": "5d54b23f5ba4f559a7a639ef51da348b93a36ddf",
+        "verified_at": "2026-08-13T18:20:00Z"
+      },
+      {
+        "scheme": "google_scholar",
+        "source_url": "https://scholar.google.com/scholar?cluster=15477895467434931229",
+        "value": "15477895467434931229",
+        "verified_at": "2026-08-13T18:20:00Z"
+      }
+    ],
+    "metadata_sources": [
+      "https://www.usenix.org/conference/usenixsecurity21/technical-sessions",
+      "https://www.usenix.org/conference/usenixsecurity21/presentation/carlini-poisoning"
+    ],
+    "official_paper_url": "https://www.usenix.org/conference/usenixsecurity21/presentation/carlini-poisoning",
+    "publication_year": 2021,
+    "venue_name": "30th USENIX Security Symposium"
+  },
+  "schema_version": 1
+}

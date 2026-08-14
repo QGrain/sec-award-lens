@@ -8,8 +8,8 @@ Raw conference terminology is preserved while those labels are normalized into a
 small comparison vocabulary. Student, practical, artifact, poster, honorable
 mention, test-of-time, and sponsor-specific prizes are outside the initial scope.
 
-The current release has 69 awards across 2022 and 2023. These cohorts validate the
-end-to-end pipeline but are not a claim that two years describe the field.
+The current release has 84 awards across 2021–2023. These cohorts validate the
+end-to-end pipeline but are not a claim that three years describe the field.
 
 ## Separation of records
 
@@ -87,8 +87,9 @@ stable conference estimates.
 
 ## Current limitations
 
-- Google Scholar resolves 22/22, OpenAlex 13/22, and Semantic Scholar 20/22 of
-  the 2022 records. The corresponding 2023 coverage is 47/47, 42/47, and 46/47.
+- Google Scholar resolves 15/15, OpenAlex 15/15, and Semantic Scholar 15/15 of
+  the 2021 records. The corresponding coverage is 22/22, 13/22, and 20/22 for
+  2022, and 47/47, 42/47, and 46/47 for 2023.
   Missing observations remain visibly missing per provider.
 - One snapshot establishes a baseline; a genuine growth curve needs later snapshots.
 - Provider citation coverage and entity merging can change retrospectively.
@@ -98,8 +99,8 @@ stable conference estimates.
 - SerpApi is a paid-quota, third-party parser whose response contract can change when
   Google Scholar changes its result pages. SerpApi is the preferred retrieval service;
   ScraperAPI is a current-total-only fallback and is recorded separately in provenance.
-- The 2022 Google Scholar baseline includes a citing-year histogram from pinned-cluster
-  refreshes. Earlier discovery observations may lack that field; absence is not a
-  zero-valued series.
+- The 2021 and 2022 Google Scholar baselines include citing-year histograms from
+  pinned-cluster refreshes. Earlier discovery observations may lack that field;
+  absence is not a zero-valued series.
 - A calendar-year window is coarser than an exact publication-date window.
 - Cross-provider counts are not interchangeable and should not be combined.

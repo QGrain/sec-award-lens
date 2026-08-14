@@ -1954,3 +1954,430 @@ papers:
   metadata_sources:
   - https://www.ndss-symposium.org/ndss2023/
   - https://openalex.org/W4307205415
+- id: ieee-sp-2021-compositional-security-for-reentrant-applications
+  canonical_title: Compositional Security for Reentrant Applications
+  authors:
+  - name: Ethan Cecchetti
+  - name: Siqiu Yao
+  - name: Haobin Ni
+  - name: Andrew C. Myers
+  publication_year: 2021
+  venue_name: 2021 IEEE Symposium on Security and Privacy
+  official_paper_url: https://doi.org/10.1109/SP40001.2021.00084
+  identifiers:
+  - scheme: doi
+    value: 10.1109/sp40001.2021.00084
+    source_url: https://api.crossref.org/works/10.1109/sp40001.2021.00084
+    verified_at: '2026-08-13T17:32:15Z'
+  - scheme: openalex
+    value: W3136329945
+    source_url: https://api.openalex.org/works/W3136329945
+    verified_at: '2026-08-13T18:20:00Z'
+  - scheme: semantic_scholar
+    value: f0555c3499d4fec6bbcb5387ee79d189edb8b475
+    source_url: https://www.semanticscholar.org/paper/f0555c3499d4fec6bbcb5387ee79d189edb8b475?utm_source=api
+    verified_at: '2026-08-13T18:20:00Z'
+  - scheme: google_scholar
+    value: '15819790749039072267'
+    source_url: https://scholar.google.com/scholar?cluster=15819790749039072267
+    verified_at: '2026-08-13T18:20:00Z'
+  metadata_sources:
+  - https://www.ieee-security.org/TC/SP2021/awards.html
+  - https://api.crossref.org/works/10.1109/sp40001.2021.00084
+- id: ieee-sp-2021-hardware-software-contracts-for-secure-speculation
+  canonical_title: Hardware-Software Contracts for Secure Speculation
+  authors:
+  - name: Marco Guarnieri
+  - name: Boris Köpf
+  - name: Jan Reineke
+  - name: Pepe Vila
+  publication_year: 2021
+  venue_name: 2021 IEEE Symposium on Security and Privacy
+  official_paper_url: https://doi.org/10.1109/SP40001.2021.00036
+  identifiers:
+  - scheme: doi
+    value: 10.1109/sp40001.2021.00036
+    source_url: https://api.crossref.org/works/10.1109/sp40001.2021.00036
+    verified_at: '2026-08-13T17:32:15Z'
+  - scheme: openalex
+    value: W3033726579
+    source_url: https://api.openalex.org/works/W3033726579
+    verified_at: '2026-08-13T18:20:00Z'
+  - scheme: semantic_scholar
+    value: 2608ff189ddec2c339bacec331f6629fe847680e
+    source_url: https://www.semanticscholar.org/paper/2608ff189ddec2c339bacec331f6629fe847680e?utm_source=api
+    verified_at: '2026-08-13T18:20:00Z'
+  - scheme: google_scholar
+    value: '11363780866395738433'
+    source_url: https://scholar.google.com/scholar?cluster=11363780866395738433
+    verified_at: '2026-08-13T18:20:00Z'
+  metadata_sources:
+  - https://www.ieee-security.org/TC/SP2021/awards.html
+  - https://api.crossref.org/works/10.1109/sp40001.2021.00036
+- id: usenix-security-2021-its-stressful-having-all-these-phones-investigating-sex-workers
+  canonical_title: '"It''s stressful having all these phones": Investigating Sex Workers'' Safety Goals, Risks, and Practices Online'
+  authors:
+  - name: Allison McDonald
+  - name: Catherine Barwulor
+  - name: Michelle L. Mazurek
+  - name: Florian Schaub
+  - name: Elissa M. Redmiles
+  publication_year: 2021
+  venue_name: 30th USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity21/presentation/mcdonald
+  identifiers:
+  - scheme: openalex
+    value: W3159884981
+    source_url: https://api.openalex.org/works/W3159884981
+    verified_at: '2026-08-13T18:20:00Z'
+  - scheme: semantic_scholar
+    value: d804394dff63e5d9f35f069807cf29dcc25e4848
+    source_url: https://www.semanticscholar.org/paper/d804394dff63e5d9f35f069807cf29dcc25e4848?utm_source=api
+    verified_at: '2026-08-13T18:20:00Z'
+  - scheme: google_scholar
+    value: '1418998597195173172'
+    source_url: https://scholar.google.com/scholar?cluster=1418998597195173172
+    verified_at: '2026-08-14T04:31:25Z'
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity21/technical-sessions
+  - https://www.usenix.org/conference/usenixsecurity21/presentation/mcdonald
+- id: usenix-security-2021-why-wouldnt-someone-think-of-democracy-as-a-target-security
+  canonical_title: '"Why wouldn''t someone think of democracy as a target?": Security practices & challenges of people involved with U.S. political campaigns'
+  authors:
+  - name: Sunny Consolvo
+  - name: Patrick Gage Kelley
+  - name: Tara Matthews
+  - name: Kurt Thomas
+  - name: Lee Dunn
+  - name: Elie Bursztein
+  publication_year: 2021
+  venue_name: 30th USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity21/presentation/consolvo
+  identifiers:
+  - scheme: openalex
+    value: W3167538302
+    source_url: https://api.openalex.org/works/W3167538302
+    verified_at: '2026-08-13T18:20:00Z'
+  - scheme: semantic_scholar
+    value: 89e1e2af74b736f1f19c1e93477cf76033f00cf4
+    source_url: https://www.semanticscholar.org/paper/89e1e2af74b736f1f19c1e93477cf76033f00cf4?utm_source=api
+    verified_at: '2026-08-13T18:20:00Z'
+  - scheme: google_scholar
+    value: '16908489958258773661'
+    source_url: https://scholar.google.com/scholar?cluster=16908489958258773661
+    verified_at: '2026-08-13T18:20:00Z'
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity21/technical-sessions
+  - https://www.usenix.org/conference/usenixsecurity21/presentation/consolvo
+- id: usenix-security-2021-rage-against-the-machine-clear-a-systematic-analysis-of-machine
+  canonical_title: 'Rage Against the Machine Clear: A Systematic Analysis of Machine Clears and Their Implications for Transient Execution Attacks'
+  authors:
+  - name: Hany Ragab
+  - name: Enrico Barberis
+  - name: Herbert Bos
+  - name: Cristiano Giuffrida
+  publication_year: 2021
+  venue_name: 30th USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity21/presentation/ragab
+  identifiers:
+  - scheme: openalex
+    value: W3198158199
+    source_url: https://api.openalex.org/works/W3198158199
+    verified_at: '2026-08-13T18:20:00Z'
+  - scheme: semantic_scholar
+    value: bbbb78d3cc9154237f5aaf6482b24cf3793bf71a
+    source_url: https://www.semanticscholar.org/paper/bbbb78d3cc9154237f5aaf6482b24cf3793bf71a?utm_source=api
+    verified_at: '2026-08-13T18:20:00Z'
+  - scheme: google_scholar
+    value: '16853508111124969504'
+    source_url: https://scholar.google.com/scholar?cluster=16853508111124969504
+    verified_at: '2026-08-13T18:20:00Z'
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity21/technical-sessions
+  - https://www.usenix.org/conference/usenixsecurity21/presentation/ragab
+- id: usenix-security-2021-you-autocomplete-me-poisoning-vulnerabilities-in-neural-code
+  canonical_title: 'You Autocomplete Me: Poisoning Vulnerabilities in Neural Code Completion'
+  authors:
+  - name: Roei Schuster
+  - name: Congzheng Song
+  - name: Eran Tromer
+  - name: Vitaly Shmatikov
+  publication_year: 2021
+  venue_name: 30th USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity21/presentation/schuster
+  identifiers:
+  - scheme: openalex
+    value: W3155981360
+    source_url: https://api.openalex.org/works/W3155981360
+    verified_at: '2026-08-13T18:20:00Z'
+  - scheme: semantic_scholar
+    value: 1ec69f1a1a9d4ff5c5bc70db0e5087157b620570
+    source_url: https://www.semanticscholar.org/paper/1ec69f1a1a9d4ff5c5bc70db0e5087157b620570?utm_source=api
+    verified_at: '2026-08-13T18:20:00Z'
+  - scheme: google_scholar
+    value: '5818686618028449748'
+    source_url: https://scholar.google.com/scholar?cluster=5818686618028449748
+    verified_at: '2026-08-13T18:20:00Z'
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity21/technical-sessions
+  - https://www.usenix.org/conference/usenixsecurity21/presentation/schuster
+- id: usenix-security-2021-poisoning-the-unlabeled-dataset-of-semi-supervised-learning
+  canonical_title: Poisoning the Unlabeled Dataset of Semi-Supervised Learning
+  authors:
+  - name: Nicholas Carlini
+  publication_year: 2021
+  venue_name: 30th USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity21/presentation/carlini-poisoning
+  identifiers:
+  - scheme: openalex
+    value: W3157597523
+    source_url: https://api.openalex.org/works/W3157597523
+    verified_at: '2026-08-13T18:20:00Z'
+  - scheme: semantic_scholar
+    value: 5d54b23f5ba4f559a7a639ef51da348b93a36ddf
+    source_url: https://www.semanticscholar.org/paper/5d54b23f5ba4f559a7a639ef51da348b93a36ddf?utm_source=api
+    verified_at: '2026-08-13T18:20:00Z'
+  - scheme: google_scholar
+    value: '15477895467434931229'
+    source_url: https://scholar.google.com/scholar?cluster=15477895467434931229
+    verified_at: '2026-08-13T18:20:00Z'
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity21/technical-sessions
+  - https://www.usenix.org/conference/usenixsecurity21/presentation/carlini-poisoning
+- id: usenix-security-2021-an-analysis-of-speculative-type-confusion-vulnerabilities-in-the
+  canonical_title: An Analysis of Speculative Type Confusion Vulnerabilities in the Wild
+  authors:
+  - name: Ofek Kirzner
+  - name: Adam Morrison
+  publication_year: 2021
+  venue_name: 30th USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity21/presentation/kirzner
+  identifiers:
+  - scheme: openalex
+    value: W3159896351
+    source_url: https://api.openalex.org/works/W3159896351
+    verified_at: '2026-08-13T18:20:00Z'
+  - scheme: semantic_scholar
+    value: aecc1a623c745585985346597a2f8ba788a26256
+    source_url: https://www.semanticscholar.org/paper/aecc1a623c745585985346597a2f8ba788a26256?utm_source=api
+    verified_at: '2026-08-13T18:20:00Z'
+  - scheme: google_scholar
+    value: '12609321956490693902'
+    source_url: https://scholar.google.com/scholar?cluster=12609321956490693902
+    verified_at: '2026-08-13T18:20:00Z'
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity21/technical-sessions
+  - https://www.usenix.org/conference/usenixsecurity21/presentation/kirzner
+- id: usenix-security-2021-weaponizing-middleboxes-for-tcp-reflected-amplification
+  canonical_title: Weaponizing Middleboxes for TCP Reflected Amplification
+  authors:
+  - name: Kevin Bock
+  - name: Abdulrahman Alaraj
+  - name: Yair Fax
+  - name: Kyle Hurley
+  - name: Eric Wustrow
+  - name: Dave Levin
+  publication_year: 2021
+  venue_name: 30th USENIX Security Symposium
+  official_paper_url: https://www.usenix.org/conference/usenixsecurity21/presentation/bock
+  identifiers:
+  - scheme: openalex
+    value: W3158854488
+    source_url: https://api.openalex.org/works/W3158854488
+    verified_at: '2026-08-13T18:20:00Z'
+  - scheme: semantic_scholar
+    value: 114fd91c1a1731ab0ca9908782ee90934d6b5426
+    source_url: https://www.semanticscholar.org/paper/114fd91c1a1731ab0ca9908782ee90934d6b5426?utm_source=api
+    verified_at: '2026-08-13T18:20:00Z'
+  - scheme: google_scholar
+    value: '17685311066260031864'
+    source_url: https://scholar.google.com/scholar?cluster=17685311066260031864
+    verified_at: '2026-08-13T18:20:00Z'
+  metadata_sources:
+  - https://www.usenix.org/conference/usenixsecurity21/technical-sessions
+  - https://www.usenix.org/conference/usenixsecurity21/presentation/bock
+- id: acm-ccs-2021-xsinator-com-from-a-formal-model-to-the-automatic-evaluation
+  canonical_title: 'XSinator.com: From a Formal Model to the Automatic Evaluation of Cross-Site Leaks in Web Browsers'
+  authors:
+  - name: Lukas Knittel
+  - name: Christian Mainka
+  - name: Marcus Niemietz
+  - name: Dominik Trevor Noß
+  - name: Jörg Schwenk
+  publication_year: 2021
+  venue_name: 2021 ACM SIGSAC Conference on Computer and Communications Security
+  official_paper_url: https://dl.acm.org/doi/10.1145/3460120.3484739
+  identifiers:
+  - scheme: doi
+    value: 10.1145/3460120.3484739
+    source_url: https://api.crossref.org/works/10.1145/3460120.3484739
+    verified_at: '2026-08-13T17:32:15Z'
+  - scheme: openalex
+    value: W3214196324
+    source_url: https://api.openalex.org/works/W3214196324
+    verified_at: '2026-08-13T18:20:00Z'
+  - scheme: semantic_scholar
+    value: 3e0d62adabbb0371a58eec32359fd2cb7f7adaff
+    source_url: https://www.semanticscholar.org/paper/3e0d62adabbb0371a58eec32359fd2cb7f7adaff?utm_source=api
+    verified_at: '2026-08-13T18:20:00Z'
+  - scheme: google_scholar
+    value: '16763973379484057822'
+    source_url: https://scholar.google.com/scholar?cluster=16763973379484057822
+    verified_at: '2026-08-13T18:20:00Z'
+  metadata_sources:
+  - https://www.sigsac.org/ccs/CCS2021/ccs-awards.html
+  - https://api.crossref.org/works/10.1145/3460120.3484739
+- id: acm-ccs-2021-one-glitch-to-rule-them-all-fault-injection-attacks-against-amds
+  canonical_title: 'One Glitch to Rule Them All: Fault Injection Attacks Against AMD''s Secure Encrypted Virtualization'
+  authors:
+  - name: Robert Buhren
+  - name: Hans-Niklas Jacob
+  - name: Thilo Krachenfels
+  - name: Jean-Pierre Seifert
+  publication_year: 2021
+  venue_name: 2021 ACM SIGSAC Conference on Computer and Communications Security
+  official_paper_url: https://dl.acm.org/doi/10.1145/3460120.3484779
+  identifiers:
+  - scheme: doi
+    value: 10.1145/3460120.3484779
+    source_url: https://api.crossref.org/works/10.1145/3460120.3484779
+    verified_at: '2026-08-13T17:32:15Z'
+  - scheme: openalex
+    value: W3188555407
+    source_url: https://api.openalex.org/works/W3188555407
+    verified_at: '2026-08-13T18:20:00Z'
+  - scheme: semantic_scholar
+    value: ec91a06bd9985d99eb238c11a411ddecacf2856c
+    source_url: https://www.semanticscholar.org/paper/ec91a06bd9985d99eb238c11a411ddecacf2856c?utm_source=api
+    verified_at: '2026-08-13T18:20:00Z'
+  - scheme: google_scholar
+    value: '3808809634440186129'
+    source_url: https://scholar.google.com/scholar?cluster=3808809634440186129
+    verified_at: '2026-08-14T04:31:30Z'
+  metadata_sources:
+  - https://www.sigsac.org/ccs/CCS2021/ccs-awards.html
+  - https://api.crossref.org/works/10.1145/3460120.3484779
+- id: acm-ccs-2021-on-the-renyi-differential-privacy-of-the-shuffle-model
+  canonical_title: On the Rényi Differential Privacy of the Shuffle Model
+  authors:
+  - name: Antonious M. Girgis
+  - name: Deepesh Data
+  - name: Suhas Diggavi
+  - name: Ananda Theertha Suresh
+  - name: Peter Kairouz
+  publication_year: 2021
+  venue_name: 2021 ACM SIGSAC Conference on Computer and Communications Security
+  official_paper_url: https://dl.acm.org/doi/10.1145/3460120.3484794
+  identifiers:
+  - scheme: doi
+    value: 10.1145/3460120.3484794
+    source_url: https://api.crossref.org/works/10.1145/3460120.3484794
+    verified_at: '2026-08-13T17:32:15Z'
+  - scheme: openalex
+    value: W3162164066
+    source_url: https://api.openalex.org/works/W3162164066
+    verified_at: '2026-08-13T18:20:00Z'
+  - scheme: semantic_scholar
+    value: fffd440607d9ae8b2ffe0ffc1976ca58886bbc6b
+    source_url: https://www.semanticscholar.org/paper/fffd440607d9ae8b2ffe0ffc1976ca58886bbc6b?utm_source=api
+    verified_at: '2026-08-13T18:20:00Z'
+  - scheme: google_scholar
+    value: '8647425300124347321'
+    source_url: https://scholar.google.com/scholar?cluster=8647425300124347321
+    verified_at: '2026-08-13T18:20:00Z'
+  metadata_sources:
+  - https://www.sigsac.org/ccs/CCS2021/ccs-awards.html
+  - https://api.crossref.org/works/10.1145/3460120.3484794
+- id: acm-ccs-2021-on-the-insecurity-of-elgamal-in-openpgp
+  canonical_title: On the (In)Security of ElGamal in OpenPGP
+  authors:
+  - name: Luca De Feo
+  - name: Bertram Poettering
+  - name: Alessandro Sorniotti
+  publication_year: 2021
+  venue_name: 2021 ACM SIGSAC Conference on Computer and Communications Security
+  official_paper_url: https://dl.acm.org/doi/10.1145/3460120.3485257
+  identifiers:
+  - scheme: doi
+    value: 10.1145/3460120.3485257
+    source_url: https://api.crossref.org/works/10.1145/3460120.3485257
+    verified_at: '2026-08-13T17:32:15Z'
+  - scheme: openalex
+    value: W3213211214
+    source_url: https://api.openalex.org/works/W3213211214
+    verified_at: '2026-08-13T18:20:00Z'
+  - scheme: semantic_scholar
+    value: f52404468bcd1a101295a5914c5802a7470c372d
+    source_url: https://www.semanticscholar.org/paper/f52404468bcd1a101295a5914c5802a7470c372d?utm_source=api
+    verified_at: '2026-08-13T18:20:00Z'
+  - scheme: google_scholar
+    value: '4489042646630776223'
+    source_url: https://scholar.google.com/scholar?cluster=4489042646630776223
+    verified_at: '2026-08-13T18:20:00Z'
+  metadata_sources:
+  - https://www.sigsac.org/ccs/CCS2021/ccs-awards.html
+  - https://api.crossref.org/works/10.1145/3460120.3485257
+- id: acm-ccs-2021-v-shuttle-scalable-and-semantics-aware-hypervisor-virtual-device-fuzzing
+  canonical_title: 'V-Shuttle: Scalable and Semantics-Aware Hypervisor Virtual Device Fuzzing'
+  authors:
+  - name: Gaoning Pan
+  - name: Xingwei Lin
+  - name: Xuhong Zhang
+  - name: Yongkang Jia
+  - name: Shouling Ji
+  - name: Chunming Wu
+  - name: Xinlei Ying
+  - name: Jiashui Wang
+  - name: Yanjun Wu
+  publication_year: 2021
+  venue_name: 2021 ACM SIGSAC Conference on Computer and Communications Security
+  official_paper_url: https://dl.acm.org/doi/10.1145/3460120.3484811
+  identifiers:
+  - scheme: doi
+    value: 10.1145/3460120.3484811
+    source_url: https://api.crossref.org/works/10.1145/3460120.3484811
+    verified_at: '2026-08-13T17:32:15Z'
+  - scheme: openalex
+    value: W3213068522
+    source_url: https://api.openalex.org/works/W3213068522
+    verified_at: '2026-08-13T18:20:00Z'
+  - scheme: semantic_scholar
+    value: 4b814146cba8bc9b45ad21326fb9d713288525ae
+    source_url: https://www.semanticscholar.org/paper/4b814146cba8bc9b45ad21326fb9d713288525ae?utm_source=api
+    verified_at: '2026-08-13T18:20:00Z'
+  - scheme: google_scholar
+    value: '5283849699596875629'
+    source_url: https://scholar.google.com/scholar?cluster=5283849699596875629
+    verified_at: '2026-08-13T18:20:00Z'
+  metadata_sources:
+  - https://www.sigsac.org/ccs/CCS2021/ccs-awards.html
+  - https://api.crossref.org/works/10.1145/3460120.3484811
+- id: ndss-2021-awakening-the-webs-sleeping-agents-misusing-service-workers
+  canonical_title: 'Awakening the Web''s Sleeper Agents: Misusing Service Workers for Privacy Leakage'
+  authors:
+  - name: Soroush Karami
+  - name: Panagiotis Ilia
+  - name: Jason Polakis
+  publication_year: 2021
+  venue_name: Network and Distributed System Security Symposium 2021
+  official_paper_url: https://www.ndss-symposium.org/ndss-paper/awakening-the-webs-sleeper-agents-misusing-service-workers-for-privacy-leakage/
+  identifiers:
+  - scheme: doi
+    value: 10.14722/ndss.2021.23104
+    source_url: https://doi.org/10.14722/ndss.2021.23104
+    verified_at: '2026-08-13T17:32:15Z'
+  - scheme: openalex
+    value: W3138855186
+    source_url: https://api.openalex.org/works/W3138855186
+    verified_at: '2026-08-13T18:20:00Z'
+  - scheme: semantic_scholar
+    value: 6711f5193c901287e61a264953c4c72946251a65
+    source_url: https://www.semanticscholar.org/paper/6711f5193c901287e61a264953c4c72946251a65?utm_source=api
+    verified_at: '2026-08-13T18:20:00Z'
+  - scheme: google_scholar
+    value: '12628487557048849585'
+    source_url: https://scholar.google.com/scholar?cluster=12628487557048849585
+    verified_at: '2026-08-13T18:20:00Z'
+  metadata_sources:
+  - https://www.ndss-symposium.org/ndss2021/
+  - https://www.ndss-symposium.org/wp-content/uploads/ndss2021_1C-2_23104_paper.pdf

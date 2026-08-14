@@ -4085,3 +4085,930 @@ bindings:
   verified_by: SecAwardLens Semantic Scholar resolver
   verified_at: '2026-08-09T14:51:00Z'
   review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: ieee-sp-2021-compositional-security-for-reentrant-applications
+  provider: openalex
+  external_id: W3136329945
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W3136329945
+    title: Compositional Security for Reentrant Applications
+    doi: 10.1109/sp40001.2021.00084
+    publication_year: 2021
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens OpenAlex resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Reviewed against DOI or exact title, author, year, venue/location, and official-source evidence.
+- paper_id: ieee-sp-2021-hardware-software-contracts-for-secure-speculation
+  provider: openalex
+  external_id: W3033726579
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W3033726579
+    title: Hardware-Software Contracts for Secure Speculation
+    doi: 10.1109/sp40001.2021.00036
+    publication_year: 2021
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens OpenAlex resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Reviewed against DOI or exact title, author, year, venue/location, and official-source evidence.
+- paper_id: usenix-security-2021-its-stressful-having-all-these-phones-investigating-sex-workers
+  provider: openalex
+  external_id: W3159884981
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: W3159884981
+    title: '"It''s stressful having all these phones": Investigating Sex Workers'' Safety Goals, Risks, and Practices Online'
+    publication_year: 2021
+    venue: USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens OpenAlex resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Reviewed against DOI or exact title, author, year, venue/location, and official-source evidence.
+- paper_id: usenix-security-2021-why-wouldnt-someone-think-of-democracy-as-a-target-security
+  provider: openalex
+  external_id: W3167538302
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: W3167538302
+    title: '"Why wouldn''t someone think of democracy as a target?": Security practices & challenges of people involved with U.S. political campaigns'
+    publication_year: 2021
+    venue: arXiv (Cornell University)
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-13T18:20:00Z'
+  override_reason: Exact title, authors, year, and a USENIX Security location identify the same work; OpenAlex labels its primary location as arXiv.
+  review_notes: Reviewed against DOI or exact title, author, year, venue/location, and official-source evidence.
+- paper_id: usenix-security-2021-rage-against-the-machine-clear-a-systematic-analysis-of-machine
+  provider: openalex
+  external_id: W3198158199
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: W3198158199
+    title: 'Rage Against the Machine Clear: A Systematic Analysis of Machine Clears and Their Implications for Transient Execution Attacks'
+    publication_year: 2021
+    venue: VU Research Portal
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-13T18:20:00Z'
+  override_reason: Exact title, authors, year, and a USENIX Security location identify the conference paper; OpenAlex selects the VU Research Portal as primary.
+  review_notes: Reviewed against DOI or exact title, author, year, venue/location, and official-source evidence.
+- paper_id: usenix-security-2021-you-autocomplete-me-poisoning-vulnerabilities-in-neural-code
+  provider: openalex
+  external_id: W3155981360
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: W3155981360
+    title: 'You Autocomplete Me: Poisoning Vulnerabilities in Neural Code Completion'
+    publication_year: 2021
+    venue: arXiv (Cornell University)
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids:
+  - W3038680626
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-13T18:20:00Z'
+  override_reason: Exact title, authors, and conference year identify this OpenAlex version; the split 2020 arXiv DOI record is retained as a related version and is not summed.
+  review_notes: Reviewed against DOI or exact title, author, year, venue/location, and official-source evidence.
+- paper_id: usenix-security-2021-poisoning-the-unlabeled-dataset-of-semi-supervised-learning
+  provider: openalex
+  external_id: W3157597523
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: W3157597523
+    title: Poisoning the Unlabeled Dataset of Semi-Supervised Learning
+    doi: 10.48550/arxiv.2105.01622
+    publication_year: 2021
+    venue: arXiv (Cornell University)
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids:
+  - W3195782808
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-13T18:20:00Z'
+  override_reason: Exact title, author, and year identify the corresponding arXiv-backed OpenAlex work; the duplicate PDF record is retained as a related version and is not summed.
+  review_notes: Reviewed against DOI or exact title, author, year, venue/location, and official-source evidence.
+- paper_id: usenix-security-2021-an-analysis-of-speculative-type-confusion-vulnerabilities-in-the
+  provider: openalex
+  external_id: W3159896351
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: W3159896351
+    title: An Analysis of Speculative Type Confusion Vulnerabilities in the Wild
+    doi: 10.48550/arxiv.2106.15601
+    publication_year: 2021
+    venue: arXiv (Cornell University)
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-13T18:20:00Z'
+  override_reason: Exact title, authors, and year identify the corresponding preprint entity for the official USENIX paper.
+  review_notes: Reviewed against DOI or exact title, author, year, venue/location, and official-source evidence.
+- paper_id: usenix-security-2021-weaponizing-middleboxes-for-tcp-reflected-amplification
+  provider: openalex
+  external_id: W3158854488
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: W3158854488
+    title: Weaponizing Middleboxes for {TCP} Reflected Amplification
+    publication_year: 2021
+    venue: USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens OpenAlex resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Reviewed against DOI or exact title, author, year, venue/location, and official-source evidence.
+- paper_id: acm-ccs-2021-xsinator-com-from-a-formal-model-to-the-automatic-evaluation
+  provider: openalex
+  external_id: W3214196324
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W3214196324
+    title: 'XSinator.com: From a Formal Model to the Automatic Evaluation of Cross-Site Leaks in Web Browsers'
+    doi: 10.1145/3460120.3484739
+    publication_year: 2021
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens OpenAlex resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Reviewed against DOI or exact title, author, year, venue/location, and official-source evidence.
+- paper_id: acm-ccs-2021-one-glitch-to-rule-them-all-fault-injection-attacks-against-amds
+  provider: openalex
+  external_id: W3188555407
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W3188555407
+    title: 'One Glitch to Rule Them All: Fault Injection Attacks Against AMD''s Secure Encrypted Virtualization'
+    doi: 10.1145/3460120.3484779
+    publication_year: 2021
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens OpenAlex resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Reviewed against DOI or exact title, author, year, venue/location, and official-source evidence.
+- paper_id: acm-ccs-2021-on-the-renyi-differential-privacy-of-the-shuffle-model
+  provider: openalex
+  external_id: W3162164066
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W3162164066
+    title: On the Rényi Differential Privacy of the Shuffle Model
+    doi: 10.1145/3460120.3484794
+    publication_year: 2021
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens OpenAlex resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Reviewed against DOI or exact title, author, year, venue/location, and official-source evidence.
+- paper_id: acm-ccs-2021-on-the-insecurity-of-elgamal-in-openpgp
+  provider: openalex
+  external_id: W3213211214
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W3213211214
+    title: On the (In)Security of ElGamal in OpenPGP
+    doi: 10.1145/3460120.3485257
+    publication_year: 2021
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens OpenAlex resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Reviewed against DOI or exact title, author, year, venue/location, and official-source evidence.
+- paper_id: acm-ccs-2021-v-shuttle-scalable-and-semantics-aware-hypervisor-virtual-device-fuzzing
+  provider: openalex
+  external_id: W3213068522
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W3213068522
+    title: 'V-Shuttle: Scalable and Semantics-Aware Hypervisor Virtual Device Fuzzing'
+    doi: 10.1145/3460120.3484811
+    publication_year: 2021
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens OpenAlex resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Reviewed against DOI or exact title, author, year, venue/location, and official-source evidence.
+- paper_id: ndss-2021-awakening-the-webs-sleeping-agents-misusing-service-workers
+  provider: openalex
+  external_id: W3138855186
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: W3138855186
+    title: 'Awakening the Web''s Sleeper Agents: Misusing Service Workers for Privacy Leakage'
+    doi: 10.14722/ndss.2021.23104
+    publication_year: 2021
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens OpenAlex resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Reviewed against DOI or exact title, author, year, venue/location, and official-source evidence.
+- paper_id: ieee-sp-2021-compositional-security-for-reentrant-applications
+  provider: semantic_scholar
+  external_id: f0555c3499d4fec6bbcb5387ee79d189edb8b475
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: f0555c3499d4fec6bbcb5387ee79d189edb8b475
+    title: Compositional Security for Reentrant Applications
+    doi: 10.1109/sp40001.2021.00084
+    publication_year: 2021
+    venue: IEEE Symposium on Security and Privacy
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: ieee-sp-2021-hardware-software-contracts-for-secure-speculation
+  provider: semantic_scholar
+  external_id: 2608ff189ddec2c339bacec331f6629fe847680e
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: 2608ff189ddec2c339bacec331f6629fe847680e
+    title: Hardware-Software Contracts for Secure Speculation
+    doi: 10.1109/sp40001.2021.00036
+    publication_year: 2020
+    venue: IEEE Symposium on Security and Privacy
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 1
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: usenix-security-2021-its-stressful-having-all-these-phones-investigating-sex-workers
+  provider: semantic_scholar
+  external_id: d804394dff63e5d9f35f069807cf29dcc25e4848
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: d804394dff63e5d9f35f069807cf29dcc25e4848
+    title: '"It''s stressful having all these phones": Investigating Sex Workers'' Safety Goals, Risks, and Practices Online'
+    publication_year: 2021
+    venue: USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: usenix-security-2021-why-wouldnt-someone-think-of-democracy-as-a-target-security
+  provider: semantic_scholar
+  external_id: 89e1e2af74b736f1f19c1e93477cf76033f00cf4
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: 89e1e2af74b736f1f19c1e93477cf76033f00cf4
+    title: '"Why wouldn''t someone think of democracy as a target?": Security practices & challenges of people involved with U.S. political campaigns'
+    publication_year: 2021
+    venue: USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: usenix-security-2021-rage-against-the-machine-clear-a-systematic-analysis-of-machine
+  provider: semantic_scholar
+  external_id: bbbb78d3cc9154237f5aaf6482b24cf3793bf71a
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: bbbb78d3cc9154237f5aaf6482b24cf3793bf71a
+    title: 'Rage Against the Machine Clear: A Systematic Analysis of Machine Clears and Their Implications for Transient Execution Attacks'
+    publication_year: 2021
+    venue: USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: usenix-security-2021-you-autocomplete-me-poisoning-vulnerabilities-in-neural-code
+  provider: semantic_scholar
+  external_id: 1ec69f1a1a9d4ff5c5bc70db0e5087157b620570
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: 1ec69f1a1a9d4ff5c5bc70db0e5087157b620570
+    title: 'You Autocomplete Me: Poisoning Vulnerabilities in Neural Code Completion'
+    publication_year: 2020
+    venue: USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 1
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: usenix-security-2021-poisoning-the-unlabeled-dataset-of-semi-supervised-learning
+  provider: semantic_scholar
+  external_id: 5d54b23f5ba4f559a7a639ef51da348b93a36ddf
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: 5d54b23f5ba4f559a7a639ef51da348b93a36ddf
+    title: Poisoning the Unlabeled Dataset of Semi-Supervised Learning
+    publication_year: 2021
+    venue: USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: usenix-security-2021-an-analysis-of-speculative-type-confusion-vulnerabilities-in-the
+  provider: semantic_scholar
+  external_id: aecc1a623c745585985346597a2f8ba788a26256
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: aecc1a623c745585985346597a2f8ba788a26256
+    title: An Analysis of Speculative Type Confusion Vulnerabilities in the Wild
+    publication_year: 2021
+    venue: USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: usenix-security-2021-weaponizing-middleboxes-for-tcp-reflected-amplification
+  provider: semantic_scholar
+  external_id: 114fd91c1a1731ab0ca9908782ee90934d6b5426
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: 114fd91c1a1731ab0ca9908782ee90934d6b5426
+    title: Weaponizing Middleboxes for TCP Reflected Amplification
+    publication_year: 2021
+    venue: USENIX Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: acm-ccs-2021-xsinator-com-from-a-formal-model-to-the-automatic-evaluation
+  provider: semantic_scholar
+  external_id: 3e0d62adabbb0371a58eec32359fd2cb7f7adaff
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: 3e0d62adabbb0371a58eec32359fd2cb7f7adaff
+    title: 'XSinator.com: From a Formal Model to the Automatic Evaluation of Cross-Site Leaks in Web Browsers'
+    doi: 10.1145/3460120.3484739
+    publication_year: 2021
+    venue: Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: acm-ccs-2021-one-glitch-to-rule-them-all-fault-injection-attacks-against-amds
+  provider: semantic_scholar
+  external_id: ec91a06bd9985d99eb238c11a411ddecacf2856c
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: ec91a06bd9985d99eb238c11a411ddecacf2856c
+    title: 'One Glitch to Rule Them All: Fault Injection Attacks Against AMD''s Secure Encrypted Virtualization'
+    doi: 10.1145/3460120.3484779
+    publication_year: 2021
+    venue: Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: acm-ccs-2021-on-the-renyi-differential-privacy-of-the-shuffle-model
+  provider: semantic_scholar
+  external_id: fffd440607d9ae8b2ffe0ffc1976ca58886bbc6b
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: fffd440607d9ae8b2ffe0ffc1976ca58886bbc6b
+    title: On the Rényi Differential Privacy of the Shuffle Model
+    doi: 10.1145/3460120.3484794
+    publication_year: 2021
+    venue: Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: acm-ccs-2021-on-the-insecurity-of-elgamal-in-openpgp
+  provider: semantic_scholar
+  external_id: f52404468bcd1a101295a5914c5802a7470c372d
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: f52404468bcd1a101295a5914c5802a7470c372d
+    title: On the (In)Security of ElGamal in OpenPGP
+    doi: 10.1145/3460120.3485257
+    publication_year: 2021
+    venue: IACR Cryptology ePrint Archive
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: false
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: acm-ccs-2021-v-shuttle-scalable-and-semantics-aware-hypervisor-virtual-device-fuzzing
+  provider: semantic_scholar
+  external_id: 4b814146cba8bc9b45ad21326fb9d713288525ae
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: 4b814146cba8bc9b45ad21326fb9d713288525ae
+    title: 'V-Shuttle: Scalable and Semantics-Aware Hypervisor Virtual Device Fuzzing'
+    doi: 10.1145/3460120.3484811
+    publication_year: 2021
+    venue: Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: ndss-2021-awakening-the-webs-sleeping-agents-misusing-service-workers
+  provider: semantic_scholar
+  external_id: 6711f5193c901287e61a264953c4c72946251a65
+  status: auto_verified
+  method: doi_exact
+  confidence: 1.0
+  selected_candidate:
+    external_id: 6711f5193c901287e61a264953c4c72946251a65
+    title: 'Awakening the Web''s Sleeper Agents: Misusing Service Workers for Privacy Leakage'
+    doi: 10.14722/ndss.2021.23104
+    publication_year: 2021
+    venue: Network and Distributed System Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Semantic Scholar resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Verified by exact DOI or exact title with author, year, and conference-venue evidence.
+- paper_id: ieee-sp-2021-compositional-security-for-reentrant-applications
+  provider: google_scholar
+  external_id: '15819790749039072267'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '15819790749039072267'
+    title: Compositional security for reentrant applications
+    publication_year: 2021
+    venue: 2021 IEEE Symposium on Security and Privacy (SP)
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Reviewed from SerpApi results; the pinned numeric cluster is used for refreshes without title rematching.
+- paper_id: ieee-sp-2021-hardware-software-contracts-for-secure-speculation
+  provider: google_scholar
+  external_id: '11363780866395738433'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '11363780866395738433'
+    title: Hardware-software contracts for secure speculation
+    publication_year: 2021
+    venue: 2021 IEEE Symposium on Security and Privacy (SP)
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Reviewed from SerpApi results; the pinned numeric cluster is used for refreshes without title rematching.
+- paper_id: usenix-security-2021-why-wouldnt-someone-think-of-democracy-as-a-target-security
+  provider: google_scholar
+  external_id: '16908489958258773661'
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: '16908489958258773661'
+    title: '"Why wouldn''t someone think of democracy as a target?": Security practices & challenges of people involved with {US}. political campaigns'
+    publication_year: 2021
+    venue: 30th USENIX Security Symposium (USENIX Security 21)
+    title_similarity: 0.9961089494163424
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-13T18:20:00Z'
+  override_reason: Exact or near-exact title, author, year, and venue evidence identifies this reviewed Google Scholar numeric cluster.
+  review_notes: Reviewed from SerpApi results; the pinned numeric cluster is used for refreshes without title rematching.
+- paper_id: usenix-security-2021-rage-against-the-machine-clear-a-systematic-analysis-of-machine
+  provider: google_scholar
+  external_id: '16853508111124969504'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '16853508111124969504'
+    title: 'Rage against the machine clear: A systematic analysis of machine clears and their implications for transient execution attacks'
+    publication_year: 2021
+    venue: 30th USENIX Security Symposium (USENIX Security 21)
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Reviewed from SerpApi results; the pinned numeric cluster is used for refreshes without title rematching.
+- paper_id: usenix-security-2021-you-autocomplete-me-poisoning-vulnerabilities-in-neural-code
+  provider: google_scholar
+  external_id: '5818686618028449748'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '5818686618028449748'
+    title: 'You autocomplete me: Poisoning vulnerabilities in neural code completion'
+    publication_year: 2021
+    venue: 30th USENIX Security Symposium (USENIX Security 21)
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Reviewed from SerpApi results; the pinned numeric cluster is used for refreshes without title rematching.
+- paper_id: usenix-security-2021-poisoning-the-unlabeled-dataset-of-semi-supervised-learning
+  provider: google_scholar
+  external_id: '15477895467434931229'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '15477895467434931229'
+    title: Poisoning the unlabeled dataset of {Semi-Supervised} learning
+    publication_year: 2021
+    venue: 30th USENIX Security Symposium (USENIX Security 21)
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Reviewed from SerpApi results; the pinned numeric cluster is used for refreshes without title rematching.
+- paper_id: usenix-security-2021-an-analysis-of-speculative-type-confusion-vulnerabilities-in-the
+  provider: google_scholar
+  external_id: '12609321956490693902'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '12609321956490693902'
+    title: An analysis of speculative type confusion vulnerabilities in the wild
+    publication_year: 2021
+    venue: 30th USENIX Security Symposium (USENIX Security 21)
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Reviewed from SerpApi results; the pinned numeric cluster is used for refreshes without title rematching.
+- paper_id: usenix-security-2021-weaponizing-middleboxes-for-tcp-reflected-amplification
+  provider: google_scholar
+  external_id: '17685311066260031864'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '17685311066260031864'
+    title: Weaponizing middleboxes for {TCP} reflected amplification
+    publication_year: 2021
+    venue: 30th USENIX Security Symposium (USENIX Security 21)
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Reviewed from SerpApi results; the pinned numeric cluster is used for refreshes without title rematching.
+- paper_id: acm-ccs-2021-xsinator-com-from-a-formal-model-to-the-automatic-evaluation
+  provider: google_scholar
+  external_id: '16763973379484057822'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '16763973379484057822'
+    title: 'Xsinator. com: From a formal model to the automatic evaluation of cross-site leaks in web browsers'
+    publication_year: 2021
+    venue: Proceedings of the 2021 ACM SIGSAC Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Reviewed from SerpApi results; the pinned numeric cluster is used for refreshes without title rematching.
+- paper_id: acm-ccs-2021-on-the-renyi-differential-privacy-of-the-shuffle-model
+  provider: google_scholar
+  external_id: '8647425300124347321'
+  status: manually_verified
+  method: manual_override
+  confidence: 0.99
+  selected_candidate:
+    external_id: '8647425300124347321'
+    title: On the renyi differential privacy of the shuffle model
+    publication_year: 2021
+    venue: Proceedings of the 2021 ACM SIGSAC Conference on Computer and Communications Security
+    title_similarity: 0.9814814814814815
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-13T18:20:00Z'
+  override_reason: Exact or near-exact title, author, year, and venue evidence identifies this reviewed Google Scholar numeric cluster.
+  review_notes: Reviewed from SerpApi results; the pinned numeric cluster is used for refreshes without title rematching.
+- paper_id: acm-ccs-2021-on-the-insecurity-of-elgamal-in-openpgp
+  provider: google_scholar
+  external_id: '4489042646630776223'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '4489042646630776223'
+    title: On the (in) security of ElGamal in OpenPGP
+    publication_year: 2021
+    venue: Proceedings of the 2021 ACM SIGSAC Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Reviewed from SerpApi results; the pinned numeric cluster is used for refreshes without title rematching.
+- paper_id: acm-ccs-2021-v-shuttle-scalable-and-semantics-aware-hypervisor-virtual-device-fuzzing
+  provider: google_scholar
+  external_id: '5283849699596875629'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '5283849699596875629'
+    title: 'V-shuttle: Scalable and semantics-aware hypervisor virtual device fuzzing'
+    publication_year: 2021
+    venue: Proceedings of the 2021 ACM SIGSAC Conference on Computer and Communications Security
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Reviewed from SerpApi results; the pinned numeric cluster is used for refreshes without title rematching.
+- paper_id: ndss-2021-awakening-the-webs-sleeping-agents-misusing-service-workers
+  provider: google_scholar
+  external_id: '12628487557048849585'
+  status: auto_verified
+  method: title_exact
+  confidence: 0.99
+  selected_candidate:
+    external_id: '12628487557048849585'
+    title: 'Awakening the web''s sleeper agents: Misusing service workers for privacy leakage'
+    publication_year: 2021
+    venue: Network and Distributed System Security Symposium
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens Google Scholar resolver
+  verified_at: '2026-08-13T18:20:00Z'
+  review_notes: Reviewed from SerpApi results; the pinned numeric cluster is used for refreshes without title rematching.
+- paper_id: usenix-security-2021-its-stressful-having-all-these-phones-investigating-sex-workers
+  provider: google_scholar
+  external_id: '1418998597195173172'
+  status: manually_verified
+  method: manual_override
+  confidence: 1.0
+  selected_candidate:
+    external_id: '1418998597195173172'
+    title: '" It''s stressful having all these phones": Investigating Sex Workers'' Safety Goals, Risks, and Practices Online'
+    publication_year: 2021
+    venue: 30th USENIX Security Symposium (USENIX Security 21), 2021; usenix.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates:
+  - external_id: '1616392349518980161'
+    title: 'It''s stressful having all these phones”: Investigating Sex Workers'' Safety Goals'
+    venue: Risks, and Practices Online
+    title_similarity: 0.850828729281768
+    author_overlap: 0.8
+    venue_match: false
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-14T04:31:25Z'
+  override_reason: Removing literal quotation marks from the phrase query and searching the full author set returned the official USENIX paper with exact title, all five authors, 2021 venue, and a stable numeric cluster.
+  review_notes: The earlier cluster 1616392349518980161 was a malformed, truncated Scholar record with only four parsed authors and was not accepted.
+- paper_id: acm-ccs-2021-one-glitch-to-rule-them-all-fault-injection-attacks-against-amds
+  provider: google_scholar
+  external_id: '3808809634440186129'
+  status: manually_verified
+  method: manual_override
+  confidence: 1.0
+  selected_candidate:
+    external_id: '3808809634440186129'
+    title: 'One glitch to rule them all: Fault injection attacks against amd''s secure encrypted virtualization'
+    publication_year: 2021
+    venue: Proceedings of the 2021 ACM SIGSAC Conference on Computer and Communications Security, 2021; dl.acm.org
+    title_similarity: 1.0
+    author_overlap: 1.0
+    year_delta: 0
+    venue_match: true
+  rejected_candidates: []
+  related_version_ids: []
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-14T04:31:30Z'
+  override_reason: A fresh exact-title search returned the official ACM DOI landing page with exact normalized title, all four authors, publication year 2021, and a stable numeric cluster.
+  review_notes: The 2026-08-13 search completed successfully but did not expose this result; the fresh result provides sufficient identity evidence.

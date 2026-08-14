@@ -39,3 +39,23 @@ coverage:
   source_urls:
   - https://www.ndss-symposium.org/ndss2023/
   notes: Official main-symposium page explicitly contains 2 Distinguished Paper Award records; poster and co-located workshop awards are excluded.
+- edition_id: ieee-sp-2021
+  status: verified
+  source_urls:
+  - https://www.ieee-security.org/TC/SP2021/awards.html
+  notes: Official awards page contains 2 core Best Paper Award records; student, practical, Test of Time, and video awards are excluded by the documented scope.
+- edition_id: usenix-security-2021
+  status: verified
+  source_urls:
+  - https://www.usenix.org/conference/usenixsecurity21/technical-sessions
+  notes: Official technical-sessions page marks 7 Distinguished Paper Award records across all three submission cycles; sponsor-specific Internet Defense Prize labels do not create additional records.
+- edition_id: acm-ccs-2021
+  status: verified
+  source_urls:
+  - https://www.sigsac.org/ccs/CCS2021/ccs-awards.html
+  notes: Official awards page contains 5 core Best Paper Award records; the separately headed runner-ups and reviewer awards are excluded.
+- edition_id: ndss-2021
+  status: verified
+  source_urls:
+  - https://www.ndss-symposium.org/ndss2021/
+  notes: Official main-symposium page contains 1 Distinguished Paper Award record; poster awards are excluded.

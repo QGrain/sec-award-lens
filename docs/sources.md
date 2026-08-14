@@ -2,7 +2,7 @@
 
 ## Award ground truth
 
-The table describes the verified 2022 and 2023 award sources. Expansion is not marked
+The table describes the verified 2021–2023 award sources. Expansion is not marked
 complete until each conference-year appears in the coverage matrix. The data is
 machine-assisted and source-backed, but it still benefits from independent maintainer
 sign-off: `verified` means the extractor found the expected official section and
@@ -10,6 +10,10 @@ passed structural validation, not that a second person reviewed every row.
 
 | Year | Conference | Official source | Included awards | Source-specific notes |
 | ---: | --- | --- | ---: | --- |
+| 2021 | IEEE S&P | [official awards page](https://www.ieee-security.org/TC/SP2021/awards.html) | 2 | Core Best Paper Awards are included; student, practical, Test of Time, and video awards are outside the documented scope. |
+| 2021 | USENIX Security | [official technical sessions](https://www.usenix.org/conference/usenixsecurity21/technical-sessions) | 7 | Award markers span all three submission cycles; Internet Defense Prize labels do not create duplicate award rows. |
+| 2021 | ACM CCS | [official awards page](https://www.sigsac.org/ccs/CCS2021/ccs-awards.html) | 5 | Core Best Paper Awards are included; the separately headed runner-ups and reviewer awards are excluded. |
+| 2021 | NDSS | [official symposium page](https://www.ndss-symposium.org/ndss2021/) | 1 | The single Distinguished Paper is included; poster awards are separate. |
 | 2022 | IEEE S&P | [official awards page](https://www.ieee-security.org/TC/SP2022/awards.html) | 4 | The Distinguished Paper section is parsed and stops before Test of Time awards. |
 | 2022 | USENIX Security | [official technical sessions](https://www.usenix.org/conference/usenixsecurity22/technical-sessions) | 12 | Award markers are attached to individual paper cards; each links to an official paper page. |
 | 2022 | ACM CCS | [official awards page](https://www.sigsac.org/ccs/CCS2022/program/awards.html) | 5 | Distinguished Paper Awards are included; Best Paper Honorable Mentions and Test of Time awards are excluded. |
@@ -24,8 +28,18 @@ analytics script or navigation edit does not create noise. A changed record coun
 digest fails the monitor. A maintainer then compares the source and updates curated
 data and digest together if the organizer made a legitimate correction.
 
-Historical gaps remain explicit. The next target years are 2021 and 2024; no source is
+Historical gaps remain explicit. The next target year is 2024; no source is
 treated as complete merely because a search returned no awards.
+
+### 2021 entity-resolution notes
+
+All three citation providers resolve all 15 records. Two Google Scholar records
+required manual review on 2026-08-14. Literal quotation marks in *“It's stressful
+having all these phones”* prematurely terminated the original phrase query; a cleaned
+title plus full-author search found the official USENIX record. A fresh exact-title
+search for *One Glitch to Rule Them All* returned the official ACM DOI landing page,
+full author set, publication year, and numeric cluster. Both IDs are now pinned, so
+future refreshes do not repeat title searches.
 
 ### Unresolved 2022 entities
 
@@ -136,16 +150,16 @@ applicable service terms before enabling scheduled access. Automated results ent
 reviewable pull request rather than deploying directly.
 
 SerpApi's free plan currently provides 250 successful searches per month. A complete
-69-paper refresh uses roughly 69 searches; candidate discovery for new years is a
-separate cost and may need to be staggered. SerpApi is still a parser of Google result pages: its release history includes
-fixes for blank IDs and valid searches returning no results after upstream layout
-changes. The pipeline therefore treats missing expected fields as a hard failure and
-opens reviewable data PRs rather than publishing directly.
+84-cluster refresh uses roughly 84 searches; candidate discovery for new years is a
+separate cost and may need to be staggered. SerpApi is still a parser of Google result
+pages: its release history includes fixes for blank IDs and valid searches returning no
+results after upstream layout changes. The pipeline therefore treats missing expected
+fields as a hard failure and opens reviewable data PRs rather than publishing directly.
 
 API documentation: <https://serpapi.com/google-scholar-api>
 
 ScraperAPI is a verified refresh fallback, not a fourth citation source. Its Google
-SERP requests currently cost 25 credits each, so 69 papers cost about 1,725 credits.
+SERP requests currently cost 25 credits each, so 84 clusters cost about 2,100 credits.
 The workflow reads the live `creditsLeft` account field and `/account/urlcost` before
 selecting a transport, caps each request at 25 credits, rejects CAPTCHA pages even when
 the proxy returns HTTP 200, and records `retrieval_service: scraperapi`. Scholar HTML

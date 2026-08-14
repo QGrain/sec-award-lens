@@ -1,0 +1,61 @@
+awards:
+- id: usenix-security-2021-its-stressful-having-all-these-phones-investigating-sex-workers-award
+  edition_id: usenix-security-2021
+  paper_id: usenix-security-2021-its-stressful-having-all-these-phones-investigating-sex-workers
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source: &source
+    url: https://www.usenix.org/conference/usenixsecurity21/technical-sessions
+    retrieved_at: '2026-08-13T17:32:15Z'
+    content_sha256: 7bed651956d5a8b42d84a98b980e8df1b1a192f6415ff9abdf20e70934152f88
+    parser_version: '2021.1'
+  raw_title: '"It''s stressful having all these phones": Investigating Sex Workers'' Safety Goals, Risks, and Practices Online'
+  raw_authors: Allison McDonald, University of Michigan; Catherine Barwulor, Clemson University; Michelle L. Mazurek, University of Maryland; Florian Schaub, University of Michigan; Elissa M. Redmiles, Max Planck Institute for Software Systems
+- id: usenix-security-2021-why-wouldnt-someone-think-of-democracy-as-a-target-security-award
+  edition_id: usenix-security-2021
+  paper_id: usenix-security-2021-why-wouldnt-someone-think-of-democracy-as-a-target-security
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source: *source
+  raw_title: '"Why wouldn''t someone think of democracy as a target?": Security practices & challenges of people involved with U.S. political campaigns'
+  raw_authors: Sunny Consolvo, Patrick Gage Kelley, Tara Matthews, Kurt Thomas, Lee Dunn, and Elie Bursztein, Google
+- id: usenix-security-2021-rage-against-the-machine-clear-a-systematic-analysis-of-machine-award
+  edition_id: usenix-security-2021
+  paper_id: usenix-security-2021-rage-against-the-machine-clear-a-systematic-analysis-of-machine
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source: *source
+  raw_title: 'Rage Against the Machine Clear: A Systematic Analysis of Machine Clears and Their Implications for Transient Execution Attacks'
+  raw_authors: Hany Ragab, Enrico Barberis, Herbert Bos, and Cristiano Giuffrida, Vrije Universiteit Amsterdam
+- id: usenix-security-2021-you-autocomplete-me-poisoning-vulnerabilities-in-neural-code-award
+  edition_id: usenix-security-2021
+  paper_id: usenix-security-2021-you-autocomplete-me-poisoning-vulnerabilities-in-neural-code
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source: *source
+  raw_title: 'You Autocomplete Me: Poisoning Vulnerabilities in Neural Code Completion'
+  raw_authors: Roei Schuster, Tel Aviv University and Cornell Tech; Congzheng Song, Cornell University; Eran Tromer, Tel Aviv University and Columbia University; Vitaly Shmatikov, Cornell Tech
+- id: usenix-security-2021-poisoning-the-unlabeled-dataset-of-semi-supervised-learning-award
+  edition_id: usenix-security-2021
+  paper_id: usenix-security-2021-poisoning-the-unlabeled-dataset-of-semi-supervised-learning
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source: *source
+  raw_title: Poisoning the Unlabeled Dataset of Semi-Supervised Learning
+  raw_authors: Nicholas Carlini, Google
+- id: usenix-security-2021-an-analysis-of-speculative-type-confusion-vulnerabilities-in-the-award
+  edition_id: usenix-security-2021
+  paper_id: usenix-security-2021-an-analysis-of-speculative-type-confusion-vulnerabilities-in-the
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source: *source
+  raw_title: An Analysis of Speculative Type Confusion Vulnerabilities in the Wild
+  raw_authors: Ofek Kirzner and Adam Morrison, Tel Aviv University
+- id: usenix-security-2021-weaponizing-middleboxes-for-tcp-reflected-amplification-award
+  edition_id: usenix-security-2021
+  paper_id: usenix-security-2021-weaponizing-middleboxes-for-tcp-reflected-amplification
+  raw_award_name: Distinguished Paper Award
+  normalized_category: distinguished_paper
+  official_source: *source
+  raw_title: Weaponizing Middleboxes for TCP Reflected Amplification
+  raw_authors: Kevin Bock, University of Maryland; Abdulrahman Alaraj, University of Colorado Boulder; Yair Fax and Kyle Hurley, University of Maryland; Eric Wustrow, University of Colorado Boulder; Dave Levin, University of Maryland

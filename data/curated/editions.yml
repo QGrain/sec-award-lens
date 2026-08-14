@@ -39,3 +39,23 @@ editions:
   year: 2023
   official_event_url: https://www.ndss-symposium.org/ndss2023/
   proceedings_url: https://www.ndss-symposium.org/ndss2023/accepted-papers/
+- id: ieee-sp-2021
+  conference_id: ieee-sp
+  year: 2021
+  official_event_url: https://www.ieee-security.org/TC/SP2021/awards.html
+  proceedings_url: https://www.ieee-security.org/TC/SP2021/program-papers.html
+- id: usenix-security-2021
+  conference_id: usenix-security
+  year: 2021
+  official_event_url: https://www.usenix.org/conference/usenixsecurity21/technical-sessions
+  proceedings_url: https://www.usenix.org/conference/usenixsecurity21/technical-sessions
+- id: acm-ccs-2021
+  conference_id: acm-ccs
+  year: 2021
+  official_event_url: https://www.sigsac.org/ccs/CCS2021/ccs-awards.html
+  proceedings_url: https://dl.acm.org/doi/proceedings/10.1145/3460120
+- id: ndss-2021
+  conference_id: ndss
+  year: 2021
+  official_event_url: https://www.ndss-symposium.org/ndss2021/
+  proceedings_url: https://www.ndss-symposium.org/ndss2021/accepted-papers/

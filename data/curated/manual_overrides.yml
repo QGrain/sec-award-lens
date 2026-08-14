@@ -469,3 +469,86 @@ overrides:
   evidence_urls:
   - https://www.semanticscholar.org/paper/468fbd7760d8fe677f75bdb4d3e6f3a29fcacd1f?utm_source=api
   - https://www.usenix.org/conference/usenixsecurity22/presentation/hoang
+- paper_id: usenix-security-2021-why-wouldnt-someone-think-of-democracy-as-a-target-security
+  provider: openalex
+  external_id: W3167538302
+  reason: Exact title, authors, year, and a USENIX Security location identify the same work; OpenAlex labels its primary location as arXiv.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-13T18:20:00Z'
+  evidence_urls:
+  - https://www.usenix.org/conference/usenixsecurity21/technical-sessions
+  - https://api.openalex.org/works/W3167538302
+- paper_id: usenix-security-2021-rage-against-the-machine-clear-a-systematic-analysis-of-machine
+  provider: openalex
+  external_id: W3198158199
+  reason: Exact title, authors, year, and a USENIX Security location identify the conference paper; OpenAlex selects the VU Research Portal as primary.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-13T18:20:00Z'
+  evidence_urls:
+  - https://www.usenix.org/conference/usenixsecurity21/technical-sessions
+  - https://api.openalex.org/works/W3198158199
+- paper_id: usenix-security-2021-you-autocomplete-me-poisoning-vulnerabilities-in-neural-code
+  provider: openalex
+  external_id: W3155981360
+  reason: Exact title, authors, and conference year identify this OpenAlex version; the split 2020 arXiv DOI record is retained as a related version and is not summed.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-13T18:20:00Z'
+  evidence_urls:
+  - https://www.usenix.org/conference/usenixsecurity21/technical-sessions
+  - https://api.openalex.org/works/W3155981360
+- paper_id: usenix-security-2021-poisoning-the-unlabeled-dataset-of-semi-supervised-learning
+  provider: openalex
+  external_id: W3157597523
+  reason: Exact title, author, and year identify the corresponding arXiv-backed OpenAlex work; the duplicate PDF record is retained as a related version and is not summed.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-13T18:20:00Z'
+  evidence_urls:
+  - https://www.usenix.org/conference/usenixsecurity21/technical-sessions
+  - https://api.openalex.org/works/W3157597523
+- paper_id: usenix-security-2021-an-analysis-of-speculative-type-confusion-vulnerabilities-in-the
+  provider: openalex
+  external_id: W3159896351
+  reason: Exact title, authors, and year identify the corresponding preprint entity for the official USENIX paper.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-13T18:20:00Z'
+  evidence_urls:
+  - https://www.usenix.org/conference/usenixsecurity21/technical-sessions
+  - https://api.openalex.org/works/W3159896351
+- paper_id: usenix-security-2021-why-wouldnt-someone-think-of-democracy-as-a-target-security
+  provider: google_scholar
+  external_id: '16908489958258773661'
+  reason: Exact or near-exact title, author, year, and venue evidence identifies this reviewed Google Scholar numeric cluster.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-13T18:20:00Z'
+  evidence_urls:
+  - https://www.usenix.org/conference/usenixsecurity21/technical-sessions
+  - https://scholar.google.com/scholar?cluster=16908489958258773661
+- paper_id: acm-ccs-2021-on-the-renyi-differential-privacy-of-the-shuffle-model
+  provider: google_scholar
+  external_id: '8647425300124347321'
+  reason: Exact or near-exact title, author, year, and venue evidence identifies this reviewed Google Scholar numeric cluster.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-13T18:20:00Z'
+  evidence_urls:
+  - https://www.sigsac.org/ccs/CCS2021/ccs-awards.html
+  - https://scholar.google.com/scholar?cluster=8647425300124347321
+- paper_id: usenix-security-2021-its-stressful-having-all-these-phones-investigating-sex-workers
+  provider: google_scholar
+  external_id: '1418998597195173172'
+  reason: A quotation-safe title query and full-author search identify the official USENIX paper by exact normalized title, all five authors, 2021 venue, official paper URL, and stable numeric cluster; the earlier truncated cluster is rejected.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-14T04:31:25Z'
+  evidence_urls:
+  - https://scholar.google.com/scholar?cluster=1418998597195173172
+  - https://www.usenix.org/conference/usenixsecurity21/presentation/mcdonald
+  - https://www.usenix.org/conference/usenixsecurity21/technical-sessions
+- paper_id: acm-ccs-2021-one-glitch-to-rule-them-all-fault-injection-attacks-against-amds
+  provider: google_scholar
+  external_id: '3808809634440186129'
+  reason: A fresh exact-title search identifies the official ACM paper by exact normalized title, all four authors, 2021 publication year, DOI landing page, and stable numeric cluster.
+  verified_by: SecAwardLens maintainer review
+  verified_at: '2026-08-14T04:31:30Z'
+  evidence_urls:
+  - https://scholar.google.com/scholar?cluster=3808809634440186129
+  - https://dl.acm.org/doi/10.1145/3460120.3484779
+  - https://www.sigsac.org/ccs/CCS2021/ccs-awards.html

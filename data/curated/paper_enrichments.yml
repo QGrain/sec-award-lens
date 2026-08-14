@@ -2340,3 +2340,608 @@ enrichments:
     openalex_author_id: A5050821883
     name_similarity: 1.0
     affiliations: []
+- paper_id: ieee-sp-2021-compositional-security-for-reentrant-applications
+  provider: openalex
+  external_id: W3136329945
+  retrieved_at: '2026-08-13T18:20:00Z'
+  primary_topic:
+    display_name: Security and Verification in Computing
+    openalex_id: T11424
+    score: 0.9998999834060669
+  authors:
+  - author_name: Ethan Cecchetti
+    openalex_author_id: A5061414499
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Cornell University
+      openalex_id: I205783295
+      ror: https://ror.org/05bnh6r87
+  - author_name: Siqiu Yao
+    openalex_author_id: A5028776224
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Cornell University
+      openalex_id: I205783295
+      ror: https://ror.org/05bnh6r87
+  - author_name: Haobin Ni
+    openalex_author_id: A5052353509
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Cornell University
+      openalex_id: I205783295
+      ror: https://ror.org/05bnh6r87
+  - author_name: Andrew C. Myers
+    openalex_author_id: A5101697549
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Cornell University
+      openalex_id: I205783295
+      ror: https://ror.org/05bnh6r87
+- paper_id: ieee-sp-2021-hardware-software-contracts-for-secure-speculation
+  provider: openalex
+  external_id: W3033726579
+  retrieved_at: '2026-08-13T18:20:00Z'
+  primary_topic:
+    display_name: Security and Verification in Computing
+    openalex_id: T11424
+    score: 1.0
+  authors:
+  - author_name: Marco Guarnieri
+    openalex_author_id: A5069694679
+    name_similarity: 1.0
+    affiliations:
+    - display_name: IMDEA Software Institute
+      openalex_id: I4210162154
+      ror: https://ror.org/04xvfkh51
+  - author_name: Boris Köpf
+    openalex_author_id: A5085729110
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Microsoft Research (United Kingdom)
+      openalex_id: I4210164937
+      ror: https://ror.org/05k87vq12
+  - author_name: Jan Reineke
+    openalex_author_id: A5056396265
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Saarland University
+      openalex_id: I91712215
+      ror: https://ror.org/01jdpyv68
+  - author_name: Pepe Vila
+    openalex_author_id: A5056388968
+    name_similarity: 1.0
+    affiliations:
+    - display_name: IMDEA Software Institute
+      openalex_id: I4210162154
+      ror: https://ror.org/04xvfkh51
+- paper_id: usenix-security-2021-its-stressful-having-all-these-phones-investigating-sex-workers
+  provider: openalex
+  external_id: W3159884981
+  retrieved_at: '2026-08-13T18:20:00Z'
+  primary_topic:
+    display_name: Sex work and related issues
+    openalex_id: T11350
+    score: 0.9998000264167786
+  authors:
+  - author_name: Allison McDonald
+    openalex_author_id: A5045574489
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Michigan
+      openalex_id: I27837315
+      ror: https://ror.org/00jmfr291
+  - author_name: Catherine Barwulor
+    openalex_author_id: A5087382862
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Clemson University
+      openalex_id: I8078737
+      ror: https://ror.org/037s24f05
+  - author_name: Michelle L. Mazurek
+    openalex_author_id: A5105206771
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Maryland, College Park
+      openalex_id: I66946132
+      ror: https://ror.org/047s2c258
+  - author_name: Florian Schaub
+    openalex_author_id: A5061205711
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Michigan
+      openalex_id: I27837315
+      ror: https://ror.org/00jmfr291
+  - author_name: Elissa M. Redmiles
+    openalex_author_id: A5074435310
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Max Planck Institute for Software Systems
+      openalex_id: I4210121786
+      ror: https://ror.org/02pe2kf23
+- paper_id: usenix-security-2021-why-wouldnt-someone-think-of-democracy-as-a-target-security
+  provider: openalex
+  external_id: W3167538302
+  retrieved_at: '2026-08-13T18:20:00Z'
+  primary_topic:
+    display_name: Privacy, Security, and Data Protection
+    openalex_id: T11045
+    score: 0.9988999962806702
+  authors:
+  - author_name: Sunny Consolvo
+    openalex_author_id: A5063188030
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Google (United States)
+      openalex_id: I1291425158
+      ror: https://ror.org/00njsd438
+  - author_name: Patrick Gage Kelley
+    openalex_author_id: A5018021084
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Google (United States)
+      openalex_id: I1291425158
+      ror: https://ror.org/00njsd438
+  - author_name: Tara Matthews
+    openalex_author_id: A5079464055
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Google (United States)
+      openalex_id: I1291425158
+      ror: https://ror.org/00njsd438
+  - author_name: Kurt Thomas
+    openalex_author_id: A5024050018
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Google (United States)
+      openalex_id: I1291425158
+      ror: https://ror.org/00njsd438
+  - author_name: Lee Dunn
+    openalex_author_id: A5070089782
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Google (United States)
+      openalex_id: I1291425158
+      ror: https://ror.org/00njsd438
+  - author_name: Elie Bursztein
+    openalex_author_id: A5058819105
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Google (United States)
+      openalex_id: I1291425158
+      ror: https://ror.org/00njsd438
+- paper_id: usenix-security-2021-rage-against-the-machine-clear-a-systematic-analysis-of-machine
+  provider: openalex
+  external_id: W3198158199
+  retrieved_at: '2026-08-13T18:20:00Z'
+  primary_topic:
+    display_name: Security and Verification in Computing
+    openalex_id: T11424
+    score: 0.9998999834060669
+  authors:
+  - author_name: Hany Ragab
+    openalex_author_id: A5033937133
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Vrije Universiteit Amsterdam
+      openalex_id: I865915315
+      ror: https://ror.org/008xxew50
+  - author_name: Enrico Barberis
+    openalex_author_id: A5057123067
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Vrije Universiteit Amsterdam
+      openalex_id: I865915315
+      ror: https://ror.org/008xxew50
+  - author_name: Herbert Bos
+    openalex_author_id: A5029566823
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Vrije Universiteit Amsterdam
+      openalex_id: I865915315
+      ror: https://ror.org/008xxew50
+  - author_name: Cristiano Giuffrida
+    openalex_author_id: A5083941826
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Vrije Universiteit Amsterdam
+      openalex_id: I865915315
+      ror: https://ror.org/008xxew50
+- paper_id: usenix-security-2021-you-autocomplete-me-poisoning-vulnerabilities-in-neural-code
+  provider: openalex
+  external_id: W3155981360
+  retrieved_at: '2026-08-13T18:20:00Z'
+  primary_topic:
+    display_name: Adversarial Robustness in Machine Learning
+    openalex_id: T11689
+    score: 0.9882000088691711
+  authors:
+  - author_name: Roei Schuster
+    openalex_author_id: A5011769908
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Tel Aviv University
+      openalex_id: I16391192
+      ror: https://ror.org/04mhzgx49
+    - display_name: Cornell University
+      openalex_id: I205783295
+      ror: https://ror.org/05bnh6r87
+    - display_name: Cornell Tech
+      openalex_id: I4405261073
+      ror: https://ror.org/04qscbg47
+  - author_name: Congzheng Song
+    openalex_author_id: A5048446895
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Cornell University
+      openalex_id: I205783295
+      ror: https://ror.org/05bnh6r87
+  - author_name: Eran Tromer
+    openalex_author_id: A5049555551
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Tel Aviv University
+      openalex_id: I16391192
+      ror: https://ror.org/04mhzgx49
+    - display_name: Columbia University
+      openalex_id: I78577930
+      ror: https://ror.org/00hj8s172
+  - author_name: Vitaly Shmatikov
+    openalex_author_id: A5038206174
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Cornell University
+      openalex_id: I205783295
+      ror: https://ror.org/05bnh6r87
+    - display_name: Cornell Tech
+      openalex_id: I4405261073
+      ror: https://ror.org/04qscbg47
+- paper_id: usenix-security-2021-poisoning-the-unlabeled-dataset-of-semi-supervised-learning
+  provider: openalex
+  external_id: W3157597523
+  retrieved_at: '2026-08-13T18:20:00Z'
+  primary_topic:
+    display_name: Adversarial Robustness in Machine Learning
+    openalex_id: T11689
+    score: 0.9998999834060669
+  authors:
+  - author_name: Nicholas Carlini
+    openalex_author_id: A5034257647
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Google (United States)
+      openalex_id: I1291425158
+      ror: https://ror.org/00njsd438
+- paper_id: usenix-security-2021-an-analysis-of-speculative-type-confusion-vulnerabilities-in-the
+  provider: openalex
+  external_id: W3159896351
+  retrieved_at: '2026-08-13T18:20:00Z'
+  primary_topic:
+    display_name: Security and Verification in Computing
+    openalex_id: T11424
+    score: 0.9995999932289124
+  authors:
+  - author_name: Ofek Kirzner
+    openalex_author_id: A5036069453
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Tel Aviv University
+      openalex_id: I16391192
+      ror: https://ror.org/04mhzgx49
+  - author_name: Adam Morrison
+    openalex_author_id: A5101431627
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Tel Aviv University
+      openalex_id: I16391192
+      ror: https://ror.org/04mhzgx49
+- paper_id: usenix-security-2021-weaponizing-middleboxes-for-tcp-reflected-amplification
+  provider: openalex
+  external_id: W3158854488
+  retrieved_at: '2026-08-13T18:20:00Z'
+  primary_topic:
+    display_name: Network Traffic and Congestion Control
+    openalex_id: T10138
+    score: 0.9991000294685364
+  authors:
+  - author_name: Kevin Bock
+    openalex_author_id: A5088107796
+    name_similarity: 0.909
+    affiliations:
+    - display_name: University of Maryland, College Park
+      openalex_id: I66946132
+      ror: https://ror.org/047s2c258
+  - author_name: Abdulrahman Alaraj
+    openalex_author_id: A5079957503
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Colorado Boulder
+      openalex_id: I188538660
+      ror: https://ror.org/02ttsq026
+    - display_name: University of Colorado System
+      openalex_id: I2802236040
+      ror: https://ror.org/00jc20583
+  - author_name: Yair Fax
+    openalex_author_id: A5049908727
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Maryland, College Park
+      openalex_id: I66946132
+      ror: https://ror.org/047s2c258
+  - author_name: Kyle Hurley
+    openalex_author_id: A5089875328
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Maryland, College Park
+      openalex_id: I66946132
+      ror: https://ror.org/047s2c258
+  - author_name: Eric Wustrow
+    openalex_author_id: A5020083939
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Colorado Boulder
+      openalex_id: I188538660
+      ror: https://ror.org/02ttsq026
+    - display_name: University of Colorado System
+      openalex_id: I2802236040
+      ror: https://ror.org/00jc20583
+  - author_name: Dave Levin
+    openalex_author_id: A5088579822
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Maryland, College Park
+      openalex_id: I66946132
+      ror: https://ror.org/047s2c258
+- paper_id: acm-ccs-2021-xsinator-com-from-a-formal-model-to-the-automatic-evaluation
+  provider: openalex
+  external_id: W3214196324
+  retrieved_at: '2026-08-13T18:20:00Z'
+  primary_topic:
+    display_name: Advanced Malware Detection Techniques
+    openalex_id: T11241
+    score: 0.9998000264167786
+  authors:
+  - author_name: Lukas Knittel
+    openalex_author_id: A5103109219
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Ruhr University Bochum
+      openalex_id: I904495901
+      ror: https://ror.org/04tsk2644
+  - author_name: Christian Mainka
+    openalex_author_id: A5060434302
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Ruhr University Bochum
+      openalex_id: I904495901
+      ror: https://ror.org/04tsk2644
+  - author_name: Marcus Niemietz
+    openalex_author_id: A5034652773
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Hochschule Niederrhein
+      openalex_id: I4210113269
+      ror: https://ror.org/027b9qx26
+  - author_name: Dominik Trevor Noß
+    openalex_author_id: A5017195339
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Ruhr University Bochum
+      openalex_id: I904495901
+      ror: https://ror.org/04tsk2644
+  - author_name: Jörg Schwenk
+    openalex_author_id: A5053201224
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Ruhr University Bochum
+      openalex_id: I904495901
+      ror: https://ror.org/04tsk2644
+- paper_id: acm-ccs-2021-one-glitch-to-rule-them-all-fault-injection-attacks-against-amds
+  provider: openalex
+  external_id: W3188555407
+  retrieved_at: '2026-08-13T18:20:00Z'
+  primary_topic:
+    display_name: Security and Verification in Computing
+    openalex_id: T11424
+    score: 0.9998000264167786
+  authors:
+  - author_name: Robert Buhren
+    openalex_author_id: A5034542496
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Technische Universität Berlin
+      openalex_id: I4577782
+      ror: https://ror.org/03v4gjf40
+  - author_name: Hans-Niklas Jacob
+    openalex_author_id: A5022858680
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Technische Universität Berlin
+      openalex_id: I4577782
+      ror: https://ror.org/03v4gjf40
+  - author_name: Thilo Krachenfels
+    openalex_author_id: A5015270861
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Technische Universität Berlin
+      openalex_id: I4577782
+      ror: https://ror.org/03v4gjf40
+  - author_name: Jean-Pierre Seifert
+    openalex_author_id: A5001159554
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Fraunhofer Institute for Secure Information Technology
+      openalex_id: I4210133470
+      ror: https://ror.org/03qt2gs44
+    - display_name: Technische Universität Berlin
+      openalex_id: I4577782
+      ror: https://ror.org/03v4gjf40
+- paper_id: acm-ccs-2021-on-the-renyi-differential-privacy-of-the-shuffle-model
+  provider: openalex
+  external_id: W3162164066
+  retrieved_at: '2026-08-13T18:20:00Z'
+  primary_topic:
+    display_name: Privacy-Preserving Technologies in Data
+    openalex_id: T10764
+    score: 1.0
+  authors:
+  - author_name: Antonious M. Girgis
+    openalex_author_id: A5057824853
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of California, Los Angeles
+      openalex_id: I161318765
+      ror: https://ror.org/046rm7j60
+  - author_name: Deepesh Data
+    openalex_author_id: A5023777978
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of California, Los Angeles
+      openalex_id: I161318765
+      ror: https://ror.org/046rm7j60
+  - author_name: Suhas Diggavi
+    openalex_author_id: A5083980887
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of California, Los Angeles
+      openalex_id: I161318765
+      ror: https://ror.org/046rm7j60
+  - author_name: Ananda Theertha Suresh
+    openalex_author_id: A5103890688
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Google (United States)
+      openalex_id: I1291425158
+      ror: https://ror.org/00njsd438
+  - author_name: Peter Kairouz
+    openalex_author_id: A5064699160
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Google (United States)
+      openalex_id: I1291425158
+      ror: https://ror.org/00njsd438
+- paper_id: acm-ccs-2021-on-the-insecurity-of-elgamal-in-openpgp
+  provider: openalex
+  external_id: W3213211214
+  retrieved_at: '2026-08-13T18:20:00Z'
+  primary_topic:
+    display_name: Cryptographic Implementations and Security
+    openalex_id: T10951
+    score: 0.9998999834060669
+  authors:
+  - author_name: Luca De Feo
+    openalex_author_id: A5059802813
+    name_similarity: 1.0
+    affiliations:
+    - display_name: IBM Research - Zurich
+      openalex_id: I4210126328
+      ror: https://ror.org/02js37d36
+  - author_name: Bertram Poettering
+    openalex_author_id: A5005389283
+    name_similarity: 1.0
+    affiliations:
+    - display_name: IBM Research - Zurich
+      openalex_id: I4210126328
+      ror: https://ror.org/02js37d36
+  - author_name: Alessandro Sorniotti
+    openalex_author_id: A5009910864
+    name_similarity: 1.0
+    affiliations:
+    - display_name: IBM Research - Zurich
+      openalex_id: I4210126328
+      ror: https://ror.org/02js37d36
+- paper_id: acm-ccs-2021-v-shuttle-scalable-and-semantics-aware-hypervisor-virtual-device-fuzzing
+  provider: openalex
+  external_id: W3213068522
+  retrieved_at: '2026-08-13T18:20:00Z'
+  primary_topic:
+    display_name: Advanced Malware Detection Techniques
+    openalex_id: T11241
+    score: 0.9993000030517578
+  authors:
+  - author_name: Gaoning Pan
+    openalex_author_id: A5031848612
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Zhejiang University
+      openalex_id: I76130692
+      ror: https://ror.org/00a2xv884
+  - author_name: Xingwei Lin
+    openalex_author_id: A5004134770
+    name_similarity: 1.0
+    affiliations: []
+  - author_name: Xuhong Zhang
+    openalex_author_id: A5101722406
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Zhejiang University
+      openalex_id: I76130692
+      ror: https://ror.org/00a2xv884
+  - author_name: Yongkang Jia
+    openalex_author_id: A5063649824
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Zhejiang University
+      openalex_id: I76130692
+      ror: https://ror.org/00a2xv884
+  - author_name: Shouling Ji
+    openalex_author_id: A5058611515
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Zhejiang University
+      openalex_id: I76130692
+      ror: https://ror.org/00a2xv884
+  - author_name: Chunming Wu
+    openalex_author_id: A5078198240
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Zhejiang University
+      openalex_id: I76130692
+      ror: https://ror.org/00a2xv884
+  - author_name: Xinlei Ying
+    openalex_author_id: A5085698927
+    name_similarity: 1.0
+    affiliations: []
+  - author_name: Jiashui Wang
+    openalex_author_id: A5059024183
+    name_similarity: 1.0
+    affiliations: []
+  - author_name: Yanjun Wu
+    openalex_author_id: A5101053493
+    name_similarity: 1.0
+    affiliations:
+    - display_name: Chinese Academy of Sciences
+      openalex_id: I19820366
+      ror: https://ror.org/034t30j35
+    - display_name: Institute of Software
+      openalex_id: I4210128818
+      ror: https://ror.org/033dfsn42
+- paper_id: ndss-2021-awakening-the-webs-sleeping-agents-misusing-service-workers
+  provider: openalex
+  external_id: W3138855186
+  retrieved_at: '2026-08-13T18:20:00Z'
+  primary_topic:
+    display_name: Internet Traffic Analysis and Secure E-voting
+    openalex_id: T11598
+    score: 0.9998000264167786
+  authors:
+  - author_name: Soroush Karami
+    openalex_author_id: A5062764290
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Illinois Chicago
+      openalex_id: I39422238
+      ror: https://ror.org/02mpq6x41
+  - author_name: Panagiotis Ilia
+    openalex_author_id: A5020533270
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Illinois Chicago
+      openalex_id: I39422238
+      ror: https://ror.org/02mpq6x41
+  - author_name: Jason Polakis
+    openalex_author_id: A5018209439
+    name_similarity: 1.0
+    affiliations:
+    - display_name: University of Illinois Chicago
+      openalex_id: I39422238
+      ror: https://ror.org/02mpq6x41

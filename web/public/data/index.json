@@ -107,14 +107,47 @@
         "https://www.ndss-symposium.org/ndss2023/"
       ],
       "status": "verified"
+    },
+    {
+      "edition_id": "ieee-sp-2021",
+      "notes": "Official awards page contains 2 core Best Paper Award records; student, practical, Test of Time, and video awards are excluded by the documented scope.",
+      "source_urls": [
+        "https://www.ieee-security.org/TC/SP2021/awards.html"
+      ],
+      "status": "verified"
+    },
+    {
+      "edition_id": "usenix-security-2021",
+      "notes": "Official technical-sessions page marks 7 Distinguished Paper Award records across all three submission cycles; sponsor-specific Internet Defense Prize labels do not create additional records.",
+      "source_urls": [
+        "https://www.usenix.org/conference/usenixsecurity21/technical-sessions"
+      ],
+      "status": "verified"
+    },
+    {
+      "edition_id": "acm-ccs-2021",
+      "notes": "Official awards page contains 5 core Best Paper Award records; the separately headed runner-ups and reviewer awards are excluded.",
+      "source_urls": [
+        "https://www.sigsac.org/ccs/CCS2021/ccs-awards.html"
+      ],
+      "status": "verified"
+    },
+    {
+      "edition_id": "ndss-2021",
+      "notes": "Official main-symposium page contains 1 Distinguished Paper Award record; poster awards are excluded.",
+      "source_urls": [
+        "https://www.ndss-symposium.org/ndss2021/"
+      ],
+      "status": "verified"
     }
   ],
   "default_year": 2023,
-  "generated_at": "2026-08-09T14:48:06.775322+00:00",
+  "generated_at": "2026-08-14T04:31:30.718988+00:00",
   "methodology_url": "#/methodology",
   "preferred_citation_source": "google_scholar",
   "schema_version": 1,
   "years": [
+    2021,
     2022,
     2023
   ]

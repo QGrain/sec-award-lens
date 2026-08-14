@@ -15,15 +15,16 @@ immutable, time-stamped observations.
 
 ## Current data release
 
-The current release covers **69 core paper awards across 2022 and 2023**:
+The current release covers **84 core paper awards across 2021–2023**:
 
 | Award year | Official awards | Google Scholar | OpenAlex | Semantic Scholar |
 | --- | ---: | ---: | ---: | ---: |
+| 2021 | 15 | 15 | 15 | 15 |
 | 2022 | 22 | 22 | 13 | 20 |
 | 2023 | 47 | 47 | 42 | 46 |
 
-The official 2022 award counts are IEEE S&P 4, USENIX Security 12, ACM CCS 5,
-and NDSS 1; the 2023 counts are 12, 16, 17, and 2 respectively. Unresolved
+The official IEEE S&P / USENIX Security / ACM CCS / NDSS counts are 2/7/5/1
+for 2021, 4/12/5/1 for 2022, and 12/16/17/2 for 2023. Unresolved
 provider entities remain visibly unavailable and are never assigned to weak
 lookalikes or filled with another provider's count.
 
@@ -85,10 +86,10 @@ Semantic Scholar candidate discovery and refresh. Create an OpenAlex key at
 `export OPENALEX_API_KEY=...`; export an approved S2 key with `export S2_API_KEY=...`.
 Google Scholar candidate discovery uses a SerpApi account key exported as
 `SERPAPI_KEY`. Refresh can also use `SCRAPERAPI_KEY` as a capacity-checked fallback;
-never commit either key. The current 69-paper release costs about 69 SerpApi searches or
-1,725 ScraperAPI credits for one complete refresh. SerpApi remains preferred because its
-structured response includes citing-year counts; the ScraperAPI HTML fallback provides
-only the current total.
+never commit either key. The current release has 84 verified Scholar clusters and costs
+about 84 SerpApi searches or 2,100 ScraperAPI credits for one complete refresh. SerpApi
+remains preferred because its structured response includes citing-year counts; the
+ScraperAPI HTML fallback provides only the current total.
 Building or previewing already committed data needs neither key. Routine citation
 refreshes never search or rematch a paper.
 

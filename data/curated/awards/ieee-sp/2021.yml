@@ -1,0 +1,21 @@
+awards:
+- id: ieee-sp-2021-compositional-security-for-reentrant-applications-award
+  edition_id: ieee-sp-2021
+  paper_id: ieee-sp-2021-compositional-security-for-reentrant-applications
+  raw_award_name: Best Paper Award
+  normalized_category: best_paper
+  official_source: &source
+    url: https://www.ieee-security.org/TC/SP2021/awards.html
+    retrieved_at: '2026-08-13T17:32:15Z'
+    content_sha256: 99a0bb62bcb1ef29baff6c5454ef43608c9afd4a1b1112114435338fc3983f71
+    parser_version: '2021.1'
+  raw_title: Compositional Security for Reentrant Applications
+  raw_authors: Ethan Cecchetti (Cornell University), Siqiu Yao (Cornell University), Haobin Ni (Cornell University), Andrew C. Myers (Cornell University)
+- id: ieee-sp-2021-hardware-software-contracts-for-secure-speculation-award
+  edition_id: ieee-sp-2021
+  paper_id: ieee-sp-2021-hardware-software-contracts-for-secure-speculation
+  raw_award_name: Best Paper Award
+  normalized_category: best_paper
+  official_source: *source
+  raw_title: Hardware-Software Contracts for Secure Speculation
+  raw_authors: Marco Guarnieri (IMDEA Software Institute), Boris Köpf (Microsoft Research), Jan Reineke (Saarland University), and Pepe Vila (IMDEA Software Institute)

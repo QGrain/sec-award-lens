@@ -177,6 +177,23 @@ def test_google_scholar_search_returns_only_stable_cluster_candidates() -> None:
     assert results[0].publication_year == 2023
 
 
+def test_google_scholar_search_removes_literal_title_quotes() -> None:
+    def handler(request: httpx.Request) -> httpx.Response:
+        assert request.url.params["q"] == (
+            '"It\'s stressful having all these phones: Full subtitle"'
+        )
+        return httpx.Response(
+            200,
+            json={"search_metadata": {"status": "Success"}, "organic_results": []},
+        )
+
+    http = httpx.Client(
+        base_url="https://serpapi.com", transport=httpx.MockTransport(handler)
+    )
+    with GoogleScholarClient(api_key="test-key", client=http) as client:
+        assert client.search_title('"It\'s stressful having all these phones": Full subtitle') == []
+
+
 def test_google_scholar_observation_uses_pinned_cites_id_and_year_counts() -> None:
     def handler(request: httpx.Request) -> httpx.Response:
         assert request.url.params["cites"] == "123456789"
@@ -209,6 +226,26 @@ def test_google_scholar_observation_uses_pinned_cites_id_and_year_counts() -> No
     assert sum(item.count for item in result.citations_by_citing_year) == 362
     assert result.retrieval_service == "serpapi"
     assert "api_key" not in result.request_fingerprint
+
+
+def test_google_scholar_observation_never_undercuts_its_year_histogram() -> None:
+    payload = {
+        "search_metadata": {"status": "Success"},
+        "search_information": {"total_results": 89},
+        "citations_per_year": [
+            {"year": 2024, "citations": 80},
+            {"year": 2025, "citations": 70},
+            {"year": 2026, "citations": 35},
+        ],
+        "organic_results": [],
+    }
+    http = httpx.Client(
+        base_url="https://serpapi.com",
+        transport=httpx.MockTransport(lambda _: httpx.Response(200, json=payload)),
+    )
+    with GoogleScholarClient(api_key="test-key", client=http) as client:
+        result = client.observation(paper_id="paper", external_id="123456789")
+    assert result.total_citations == 185
 
 
 def test_google_scholar_http_error_does_not_expose_api_key() -> None:

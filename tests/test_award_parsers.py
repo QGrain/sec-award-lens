@@ -1,13 +1,65 @@
 from secawardlens.awards.sources import (
+    parse_ccs_2021,
     parse_ccs_2022,
     parse_ccs_2023,
+    parse_ieee_2021,
     parse_ieee_2022,
     parse_ieee_2023,
+    parse_ndss_2021,
     parse_ndss_2022,
     parse_ndss_2023,
+    parse_usenix_2021,
     parse_usenix_2022,
     parse_usenix_2023,
 )
+
+
+def test_ieee_2021_parser_includes_only_best_paper_awards() -> None:
+    html = """
+    <h2>Best Paper Award</h2>
+    <p><strong>Core Paper</strong><br>Ada Lovelace (University One)</p>
+    <h2>Best Student Paper Award</h2>
+    <p><strong>Student Paper</strong><br>Grace Hopper (University Two)</p>
+    """
+    result = parse_ieee_2021(html)
+    assert [item.raw_title for item in result] == ["Core Paper"]
+    assert result[0].authors == ["Ada Lovelace"]
+
+
+def test_usenix_2021_parser_uses_the_edition_url() -> None:
+    html = """
+    <article><h2><a href="/conference/usenixsecurity21/presentation/example">Paper</a></h2>
+      <div class="field-name-field-paper-people-text"><p>Ada Lovelace,
+      <em>University One</em></p></div><p>Distinguished Paper Award Winner</p></article>
+    """
+    result = parse_usenix_2021(html)
+    assert result[0].official_paper_url.endswith("/usenixsecurity21/presentation/example")
+
+
+def test_ccs_2021_parser_stops_before_runner_ups() -> None:
+    html = """
+    <h2>Best Paper Awards</h2>
+    <ul><li><strong>Winner</strong><br>Ada Lovelace (University One)<br>
+      <a href="image.jpg">[Image]</a></li></ul>
+    <h2>Best Paper Awards (Runner-Ups)</h2>
+    <ul><li><strong>Not Included</strong><br>Grace Hopper</li></ul>
+    """
+    result = parse_ccs_2021(html)
+    assert [item.raw_title for item in result] == ["Winner"]
+    assert result[0].authors == ["Ada Lovelace"]
+
+
+def test_ndss_2021_parser_excludes_posters() -> None:
+    html = """
+    <h3>NDSS 2021 Distinguished Paper Award</h3>
+    <p><a href="https://example.test/paper"><strong>Paper Title</strong></a><br>
+    Ada Lovelace (University One)</p>
+    <h3>NDSS 2021 Best Poster Awards</h3>
+    <p><a href="https://example.test/poster"><strong>Poster</strong></a></p>
+    """
+    result = parse_ndss_2021(html)
+    assert len(result) == 1
+    assert result[0].raw_title == "Paper Title"
 
 
 def test_ieee_2022_parser_stops_before_test_of_time_awards() -> None:
